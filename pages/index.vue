@@ -104,15 +104,15 @@
       </div>
     </div>
 
-    <div class="trabajos flex pt-32 pl-96 pr-96 pb-20 text-white flex-nowrap gap-[525px] justify-center">
-      <div class="titular text-[72px] font-normal">Programas</div>
+    <div class="trabajos flex pt-32 pl-40 pr-40 pb-20 text-white flex-nowrap gap-60 justify-center">
+      <div class="titular text-[72px] font-normal flex flex-start">Programas</div>
       <div class="programas flex flex-col gap-10">
-        <div class="three_programas flex gap-20">
+        <div class="three_programas flex gap-40">
           <img class="image_logo" src="/img/Figma.svg" alt="">
           <img class="image_logo" src="/img/Photoshop.svg" alt="">
           <img class="image_logo" src="/img/Lightroom.svg" alt="">
         </div>
-        <div class="three_programas flex gap-20">
+        <div class="three_programas flex gap-40">
           <img class="image_logo" src="/img/After_Effects.svg" alt="">
           <img class="image_logo" src="/img/Illustrator.svg" alt="">
           <img class="image_logo" src="/img/InDesign.svg" alt="">
@@ -120,7 +120,7 @@
       </div>
     </div>
 
-    <div class="trabajos flex pt-32 pl-96 pr-96 pb-20 text-white flex-nowrap gap-96 justify-center">
+    <div class="trabajos flex pt-32 pl-40 pr-40 pb-20 text-white flex-nowrap gap-60 justify-center">
       <div class="titular text-[72px] font-normal">Servicios</div>
       <div class="servicios_ofrecidos flex flex-col gap-6">
         <div class="servicio flex flex-col gap-6">
@@ -185,7 +185,7 @@
 
     </div>
 
-    <div class="trabajos flex pt-32 pl-96 pr-96 pb-20 text-white flex-nowrap gap-96 justify-center">
+    <div class="trabajos flex pt-32 pl-40 pr-40 pb-20 text-white flex-nowrap gap-60 justify-center">
       <div class="titular text-[72px] font-normal">Sobre mi</div>
       <div class="servicios_ofrecidos flex flex-col gap-6">
         <div class="servicio flex flex-col gap-6">
@@ -204,7 +204,7 @@
 
     </div>
 
-    <div class="trabajos flex pt-32 pl-96 pr-96 pb-20 text-white flex-nowrap gap-96 justify-center">
+    <div class="trabajos flex pt-32 pl-40 pr-40 pb-20 text-white flex-nowrap gap-60 justify-center">
       <div class="titular text-[72px] font-normal">Trabajos</div>
       <div class="servicios_ofrecidos flex flex-col gap-6">
         <div class="servicio flex flex-col gap-6">
