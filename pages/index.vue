@@ -28,7 +28,7 @@
         </div>
         <div class="trabajo max-w-[600px]">
           <NuxtLink to="/">
-            <img class="image m-0 rounded-lg max-w-[600px]" src="/img/Editorial 3.png">
+            <img class="image m-0 rounded-lg max-w-[600px]" src="/img/Editorial_3.png">
           </NuxtLink>
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold"> Rediseño Editorial - Typenotes</div>
           <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Editorial</div>
@@ -44,7 +44,7 @@
         </div>
         <div class="trabajo max-w-[600px]">
           <NuxtLink to="/">
-            <img class="image m-0 rounded-lg max-w-[600px]" src="/img/Vino 1.png">
+            <img class="image m-0 rounded-lg max-w-[600px]" src="/img/Vino_1.png">
           </NuxtLink>
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">Diseño Marca de Vinos - PRAU</div>
           <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Packaging y Marca</div>
@@ -61,7 +61,7 @@
         </div>
         <div class="trabajo max-w-[600px]">
           <NuxtLink to="/">
-            <img class="image m-0 rounded-lg max-w-[600px]" src="/img/Metro 1.png">
+            <img class="image m-0 rounded-lg max-w-[600px]" src="/img/Metro_1.png">
           </NuxtLink>
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">Libro Experimental - Metro de Madrid</div>
           <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Producción</div>
@@ -78,7 +78,7 @@
           <img class="image_logo" src="/img/lightroom.svg" alt="">
         </div>
         <div class="three_programas flex gap-20">
-          <img class="image_logo" src="/img/After Effects.svg" alt="">
+          <img class="image_logo" src="/img/After_Effects.svg" alt="">
           <img class="image_logo" src="/img/Illustrator.svg" alt="">
           <img class="image_logo" src="/img/InDesign.svg" alt="">
         </div>

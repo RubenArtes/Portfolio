@@ -78,9 +78,9 @@
                 </div>
             </div>
             <div class="fotografias flex flex-col gap-6 h-min">
-                <img class="image_rect rounded-xl" src="/img/Rectangle 5.png" alt="">
-                <img class="image_rect rounded-xl" src="/img/Rectangle 6.png" alt="">
-                <img class="image_rect rounded-xl" src="/img/Rectangle 7.png" alt="">
+                <img class="image_rect rounded-xl" src="/img/Rectangle_5.png" alt="">
+                <img class="image_rect rounded-xl" src="/img/Rectangle_6.png" alt="">
+                <img class="image_rect rounded-xl" src="/img/Rectangle_7.png" alt="">
             </div>
         </div>
         <div class="images pt-20 px-64 pb-10 text-white justify-center flex flex-col">
