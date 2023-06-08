@@ -69,7 +69,7 @@
       </div>
     </div>
 
-    <div class="trabajos flex pt-32 pl-96 pr-96 pb-20 text-white flex-nowrap items-center justify-between">
+    <div class="trabajos flex pt-32 pl-96 pr-96 pb-20 text-white flex-nowrap gap-[525px] justify-center">
       <div class="titular text-[72px] font-normal">Programas</div>
       <div class="programas flex flex-col gap-10">
         <div class="three_programas flex gap-20">
@@ -85,7 +85,7 @@
       </div>
     </div>
 
-    <div class="trabajos flex pt-32 pl-96 pr-96 pb-20 text-white flex-nowrap justify-between">
+    <div class="trabajos flex pt-32 pl-96 pr-96 pb-20 text-white flex-nowrap gap-96 justify-center">
       <div class="titular text-[72px] font-normal">Servicios</div>
       <div class="servicios_ofrecidos flex flex-col gap-6">
         <div class="servicio flex flex-col gap-6">
@@ -150,7 +150,7 @@
 
     </div>
 
-    <div class="trabajos flex pt-32 pl-96 pr-96 pb-20 text-white flex-nowrap justify-between">
+    <div class="trabajos flex pt-32 pl-96 pr-96 pb-20 text-white flex-nowrap gap-96 justify-center">
       <div class="titular text-[72px] font-normal">Sobre mi</div>
       <div class="servicios_ofrecidos flex flex-col gap-6">
         <div class="servicio flex flex-col gap-6">
@@ -169,7 +169,7 @@
 
     </div>
 
-    <div class="trabajos flex pt-32 pl-96 pr-96 pb-20 text-white flex-nowrap justify-between">
+    <div class="trabajos flex pt-32 pl-96 pr-96 pb-20 text-white flex-nowrap gap-96 justify-center">
       <div class="titular text-[72px] font-normal">Trabajos</div>
       <div class="servicios_ofrecidos flex flex-col gap-6">
         <div class="servicio flex flex-col gap-6">
