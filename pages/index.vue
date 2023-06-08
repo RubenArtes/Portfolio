@@ -95,7 +95,10 @@
         </div>
         <div class="trabajo max-w-[600px]">
           <NuxtLink to="/">
-            <img class="image m-0 rounded-lg max-w-[600px]" src="/img/comp_1_3.gif">
+            <video class="m-0 rounded-lg" width="600" height="550" loop autoplay>
+                <source src="/img/videoweb.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
           </NuxtLink>
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">Páginas Web</div>
           <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Programación y código</div>
