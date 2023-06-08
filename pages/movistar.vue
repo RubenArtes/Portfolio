@@ -12,12 +12,12 @@
                 </NuxtLink>
             </div>
         </div>
-        <div class="trabajos flex pt-20 px-64 pb-20 text-white flex-nowrap items-center gap-64 justify-center">
-            <div class="titular text-[115px] font-normal max-w-[13ch] leading-12">Video</div>
+        <div class="trabajos flex pt-20 px-40 pb-20 text-white flex-nowrap items-center gap-64 justify-center">
+            <div class="titular text-[70px] font-normal max-w-[13ch] leading-12">Video</div>
             <div class="info flex flex-col gap-6">
-                <div class="text max-w-[60ch] text-[18px] leading-10 text-zinc-200">Audiovisuales - Movistar - Identidad -
+                <div class="text max-w-[60ch] text-[16px] leading-10 text-zinc-200">Audiovisuales - Movistar - Identidad -
                     After Effects</div>
-                <div class="text max-w-[60ch] text-[26px] leading-10 text-zinc-400 font-bold">Este trabajo consiste en crear
+                <div class="text max-w-[60ch] text-[20px] leading-8 text-zinc-400 font-bold">Este trabajo consiste en crear
                     3 videos
                     diferentes de transiciones y efectos para el diseño de animación de las cortinillas de Movistar. Una
                     cortinilla básica para el cambio

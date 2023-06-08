@@ -12,12 +12,12 @@
                 </NuxtLink>
             </div>
         </div>
-        <div class="trabajos flex pt-20 px-64 pb-20 text-white flex-nowrap items-center gap-64 justify-center">
-            <div class="titular text-[115px] font-normal max-w-[13ch] leading-12">Packaging</div>
+        <div class="trabajos flex pt-20 px-40 pb-20 text-white flex-nowrap items-center gap-64 justify-center">
+            <div class="titular text-[70px] font-normal max-w-[13ch] leading-12">Packaging</div>
             <div class="info flex flex-col gap-6">
-                <div class="text max-w-[60ch] text-[18px] leading-10 text-zinc-200">Diseño Matutano - Packaging - Marca -
+                <div class="text max-w-[60ch] text-[16px] leading-10 text-zinc-200">Diseño Matutano - Packaging - Marca -
                     Diseño Gráfico</div>
-                <div class="text max-w-[60ch] text-[26px] leading-10 text-zinc-400 font-bold">El proyecto consistirá en el
+                <div class="text max-w-[60ch] text-[20px] leading-8 text-zinc-400 font-bold">El proyecto consistirá en el
                     diseño de una gama
                     de productos para una marca existente (Matutano), generando
                     un sistema gráfico aplicable y coherente en, al

@@ -12,12 +12,12 @@
                 </NuxtLink>
             </div>
         </div>
-        <div class="trabajos flex pt-20 px-64 pb-20 text-white flex-nowrap items-center gap-64 justify-center">
-            <div class="titular text-[115px] font-normal max-w-[13ch] leading-12">Editorial</div>
+        <div class="trabajos flex pt-20 px-40 pb-20 text-white flex-nowrap items-center gap-64 justify-center">
+            <div class="titular text-[70px] font-normal max-w-[13ch] leading-12">Editorial</div>
             <div class="info flex flex-col gap-6">
-                <div class="text max-w-[60ch] text-[18px] leading-10 text-zinc-200">Rediseño Editorial - Maquetación -
+                <div class="text max-w-[60ch] text-[16px] leading-10 text-zinc-200">Rediseño Editorial - Maquetación -
                     Diseño Gráfico</div>
-                <div class="text max-w-[60ch] text-[26px] leading-10 text-zinc-400 font-bold">Este trabajo consiste en el
+                <div class="text max-w-[60ch] text-[20px] leading-8 text-zinc-400 font-bold">Este trabajo consiste en el
                     rediseño de un libro, en
                     este caso se
                     rediseña el ejemplar de Edward de Bono - El pensamiento Lateral. Con la misión de crear una
