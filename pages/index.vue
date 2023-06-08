@@ -37,7 +37,7 @@
       <div class="twotrabajos flex gap-10 justify-center pb-6">
         <div class="trabajo max-w-[600px]">
           <NuxtLink to="/packaging">
-            <img class="image m-0 rounded-lg max-w-[600px]" src="/img/Packaging ruben2.png">
+            <img class="image m-0 rounded-lg max-w-[600px]" src="/img/Packaging_ruben2.png">
           </NuxtLink>
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">Packaging Saludable Matutano</div>
           <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Packaging</div>
