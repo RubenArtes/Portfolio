@@ -1,6 +1,6 @@
 <template>
   <div class="app bg-black">
-    <div class="header bg-black p-10 flex text-white justify-between">
+    <div class="header bg-black p-10 flex text-white justify-between sticky top-0">
       <div class="image flex flex-start">
         <img src="/img/Vector.svg">
       </div>
