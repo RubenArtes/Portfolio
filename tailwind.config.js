@@ -1,0 +1,12 @@
+const flowbitePlugin = require('flowbite/plugin');
+
+module.exports = {
+  content: [
+    'node_modules/flowbite-vue/**/*.{js,jsx,ts,tsx}',
+    'node_modules/flowbite/**/*.{js,jsx,ts,tsx}'
+  ],
+  plugins: [
+    flowbitePlugin
+  ],
+  theme: {}
+};
