@@ -75,7 +75,7 @@
         <div class="three_programas flex gap-20">
           <img class="image_logo" src="/img/Figma.svg" alt="">
           <img class="image_logo" src="/img/Photoshop.svg" alt="">
-          <img class="image_logo" src="/img/lightroom.svg" alt="">
+          <img class="image_logo" src="/img/Lightroom.svg" alt="">
         </div>
         <div class="three_programas flex gap-20">
           <img class="image_logo" src="/img/After_Effects.svg" alt="">
