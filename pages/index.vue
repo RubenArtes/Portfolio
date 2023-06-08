@@ -17,7 +17,7 @@
       </div>
     </div>
     <div class="seleccion_trabajos pt-20 px-64 pb-20 text-white flex flex-col justify-center">
-      <div class="twotrabajos flex gap-10 justify-center pb-6">
+      <div class="twotrabajos flex gap-6 justify-center pb-6">
         <div class="trabajo max-w-[600px]">
           <NuxtLink to="/editorial">
             <img class="image m-0 rounded-lg max-w-[600px]" src="/img/Mockup.jpg">
@@ -34,7 +34,7 @@
           <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Editorial</div>
         </div>
       </div>
-      <div class="twotrabajos flex gap-10 justify-center pb-6">
+      <div class="twotrabajos flex gap-6 justify-center pb-6">
         <div class="trabajo max-w-[600px]">
           <NuxtLink to="/packaging">
             <img class="image m-0 rounded-lg max-w-[600px]" src="/img/Packaging_ruben2.png">
@@ -50,7 +50,7 @@
           <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Packaging y Marca</div>
         </div>
       </div>
-      <div class="twotrabajos flex gap-10 justify-center pb-6">
+      <div class="twotrabajos flex gap-6 justify-center pb-6">
         <div class="trabajo max-w-[600px]">
           <NuxtLink to="/movistar">
             <img class="image m-0 rounded-lg max-w-[600px]" src="/img/Movistar.png">
@@ -66,6 +66,41 @@
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">Libro Experimental - Metro de Madrid</div>
           <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Producción</div>
         </div>
+        
+      </div>
+      <div class="twotrabajos flex gap-6 justify-center pb-6">
+        <div class="trabajo max-w-[600px]">
+          <NuxtLink to="/">
+            <img class="image m-0 rounded-lg max-w-[600px]" src="/img/postproduccion_1.png">
+          </NuxtLink>
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">Fotografías - Retratos - Bodegones - Lugares</div>
+          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Fotografía</div>
+        </div>
+        <div class="trabajo max-w-[600px]">
+          <NuxtLink to="/">
+            <img class="image m-0 rounded-lg max-w-[600px]" src="/img/modelado3d.png">
+          </NuxtLink>
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">Modelado 3D - Cinema 4d - Blender</div>
+          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Modelado 3D</div>
+        </div>
+        
+      </div>
+      <div class="twotrabajos flex gap-6 justify-center pb-6">
+        <div class="trabajo max-w-[600px]">
+          <NuxtLink to="/">
+            <img class="image m-0 rounded-lg max-w-[600px]" src="/img/cineyelmo.png">
+          </NuxtLink>
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">Cines Yelmo Rediseño</div>
+          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Marca</div>
+        </div>
+        <div class="trabajo max-w-[600px]">
+          <NuxtLink to="/">
+            <img class="image m-0 rounded-lg max-w-[600px]" src="/img/comp_1_3.gif">
+          </NuxtLink>
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">Páginas Web</div>
+          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Programación y código</div>
+        </div>
+        
       </div>
     </div>
 
