@@ -1,6 +1,6 @@
 <template>
   <div class="app bg-black">
-    <div class="header bg-black p-10 flex text-white justify-between sticky top-0">
+    <div class="header bg-black p-10 flex text-white justify-between sticky top-0 z-10">
       <div class="image flex flex-start">
         <img src="/img/Vector.svg">
       </div>
@@ -88,17 +88,14 @@
       <div class="twotrabajos flex gap-6 justify-center pb-6">
         <div class="trabajo max-w-[600px]">
           <NuxtLink to="/">
-            <img class="image m-0 rounded-lg max-w-[600px]" src="/img/cineyelmo.png">
+            <img class="image m-0 rounded-lg max-w-[600px]" src="/img/gifyelmo.gif">
           </NuxtLink>
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">Cines Yelmo Rediseño</div>
           <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Marca</div>
         </div>
         <div class="trabajo max-w-[600px]">
           <NuxtLink to="/">
-            <video class="m-0 rounded-lg" width="600" height="550" loop autoplay>
-                <source src="/img/videoweb.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
+            <img class="image m-0 rounded-lg max-w-[600px]" src="/img/gifesd.gif">
           </NuxtLink>
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">Páginas Web</div>
           <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Programación y código</div>
