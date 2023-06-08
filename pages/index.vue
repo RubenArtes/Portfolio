@@ -218,7 +218,7 @@
             </NuxtLink>
 
 
-          </a> <a class="red flex gap-2 items-center" href="https://www.linkedin.com/in/rubenmaldonado10">InfoJob
+          </a> <a class="red flex gap-2 items-center" href="https://www.linkedin.com/in/rubenmaldonado10">LinkedIn
             <NuxtLink to="/">
               <img class="vector" src="/img/Vector-11.svg">
             </NuxtLink>
