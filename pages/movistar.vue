@@ -84,7 +84,7 @@
                 para apreciar los diferentes tipos de encargo para cada video.
             </div>
 
-            <div class="grid grid-cols-1 gap-10">
+            <div class="grid grid-cols-2 grid-row-3 gap-6">
                 <video width="1240" height="788" loop autoplay controls muted>
                     <source src="/img/Cortinilla.mp4" type="video/mp4">
                     Your browser does not support the video tag.
@@ -97,6 +97,11 @@
                     <source src="/img/Cortinilla_3.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
+
+                <div class="text">
+                    <img class="image" src="/img/movistarinfo.png" alt="">
+                </div>
+
             </div>
 
 

@@ -83,6 +83,17 @@
                 <img class="image_rect rounded-xl" src="/img/Rectangle_7.png" alt="">
             </div>
         </div>
+
+        <div class="images pt-20 px-64 pb-10 text-white justify-center flex flex-col gap-10">
+            <div class="text max-w-[60ch] text-[32px] leading-10 text-white">Tipografía</div>
+            <div class="text max-w-[60ch] text-[16px] text-zinc-400 font-bold">Muestra de la tipografía general utilizada y la jerarquía
+                para componer los textos a lo largo del libro. Utilización de varias tipografías: Futura Std, Trola y Gravity.
+            </div>
+
+            <div class="grid grid-cols-1">
+                <img class="image_grid w-full h-full pb-6" src="/img/tipo.png" alt="">
+            </div>
+        </div>
         <div class="images pt-20 px-64 pb-10 text-white justify-center flex flex-col">
             <div class="text max-w-[60ch] text-[32px] leading-10 text-white">Captions</div>
             <div class="text max-w-[60ch] text-[16px] leading-10 text-zinc-400 font-bold pb-12">Muestra de maquetación de

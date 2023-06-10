@@ -43,7 +43,7 @@
           <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Packaging</div>
         </div>
         <div class="trabajo max-w-[600px]">
-          <NuxtLink to="/">
+          <NuxtLink to="/vino">
             <img class="image m-0 rounded-lg max-w-[600px]" src="/img/Vino_1.png">
           </NuxtLink>
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">Diseño Marca de Vinos - PRAU</div>
