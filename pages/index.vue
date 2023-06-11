@@ -20,7 +20,7 @@
       <div class="twotrabajos flex gap-6 justify-center pb-6">
         <div class="trabajo max-w-[600px]">
           <NuxtLink to="/editorial">
-            <img class="image m-0 rounded-lg max-w-[600px]" src="/img/Mockup.jpg">
+            <img class="image m-0 rounded-md max-w-[600px]" src="/img/Mockup.jpg">
           </NuxtLink>
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold"> Rediseño Editorial - El pensamiento Lateral
           </div>
@@ -28,7 +28,7 @@
         </div>
         <div class="trabajo max-w-[600px]">
           <NuxtLink to="/">
-            <img class="image m-0 rounded-lg max-w-[600px]" src="/img/Editorial_3.png">
+            <img class="image m-0 rounded-md max-w-[600px]" src="/img/Editorial_3.png">
           </NuxtLink>
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold"> Rediseño Editorial - Typenotes</div>
           <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Editorial</div>
@@ -37,14 +37,14 @@
       <div class="twotrabajos flex gap-6 justify-center pb-6">
         <div class="trabajo max-w-[600px]">
           <NuxtLink to="/packaging">
-            <img class="image m-0 rounded-lg max-w-[600px]" src="/img/Packaging_ruben2.png">
+            <img class="image m-0 rounded-md max-w-[600px]" src="/img/Packaging_ruben2.png">
           </NuxtLink>
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">Packaging Saludable Matutano</div>
           <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Packaging</div>
         </div>
         <div class="trabajo max-w-[600px]">
           <NuxtLink to="/vino">
-            <img class="image m-0 rounded-lg max-w-[600px]" src="/img/Vino_1.png">
+            <img class="image m-0 rounded-md max-w-[600px]" src="/img/Vino_1.png">
           </NuxtLink>
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">Diseño Marca de Vinos - PRAU</div>
           <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Packaging y Marca</div>
@@ -53,7 +53,7 @@
       <div class="twotrabajos flex gap-6 justify-center pb-6">
         <div class="trabajo max-w-[600px]">
           <NuxtLink to="/movistar">
-            <img class="image m-0 rounded-lg max-w-[600px]" src="/img/Movistar.png">
+            <img class="image m-0 rounded-md max-w-[600px]" src="/img/Movistar.png">
           </NuxtLink>
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">Piezas Audiovisuales After Effects -
             Movistar</div>
@@ -61,24 +61,25 @@
         </div>
         <div class="trabajo max-w-[600px]">
           <NuxtLink to="/">
-            <img class="image m-0 rounded-lg max-w-[600px]" src="/img/Metro_1.png">
+            <img class="image m-0 rounded-md max-w-[600px]" src="/img/gifesd.gif">
           </NuxtLink>
-          <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">Libro Experimental - Metro de Madrid</div>
-          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Producción</div>
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">Páginas Web</div>
+          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Programación y código</div>
         </div>
+        
         
       </div>
       <div class="twotrabajos flex gap-6 justify-center pb-6">
         <div class="trabajo max-w-[600px]">
           <NuxtLink to="/">
-            <img class="image m-0 rounded-lg max-w-[600px]" src="/img/postproduccion_1.png">
+            <img class="image m-0 rounded-md max-w-[600px]" src="/img/postproduccion_1.png">
           </NuxtLink>
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">Fotografías - Retratos - Bodegones - Lugares</div>
           <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Fotografía</div>
         </div>
         <div class="trabajo max-w-[600px]">
           <NuxtLink to="/">
-            <img class="image m-0 rounded-lg max-w-[600px]" src="/img/modelado3d.png">
+            <img class="image m-0 rounded-md max-w-[600px]" src="/img/modelado3d.png">
           </NuxtLink>
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">Modelado 3D - Cinema 4d - Blender</div>
           <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Modelado 3D</div>
@@ -88,19 +89,20 @@
       <div class="twotrabajos flex gap-6 justify-center pb-6">
         <div class="trabajo max-w-[600px]">
           <NuxtLink to="/">
-            <img class="image m-0 rounded-lg max-w-[600px]" src="/img/gifyelmo.gif">
+            <img class="image m-0 rounded-md max-w-[600px]" src="/img/gifyelmo.gif">
           </NuxtLink>
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">Cines Yelmo Rediseño</div>
           <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Marca</div>
         </div>
+
         <div class="trabajo max-w-[600px]">
           <NuxtLink to="/">
-            <img class="image m-0 rounded-lg max-w-[600px]" src="/img/gifesd.gif">
+            <img class="image m-0 rounded-md max-w-[600px]" src="/img/Metro_1.png">
           </NuxtLink>
-          <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">Páginas Web</div>
-          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Programación y código</div>
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">Libro Experimental - Metro de Madrid</div>
+          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Producción</div>
         </div>
-        
+
       </div>
     </div>
 
@@ -120,8 +122,11 @@
       </div>
     </div>
 
-    <div class="trabajos flex pt-32 pl-40 pr-40 pb-20 text-white flex-nowrap gap-60 justify-center">
-      <div class="titular text-[72px] font-normal">Servicios</div>
+    <div class="trabajos flex pt-32 pl-40 pr-40 pb-20 text-white flex-nowrap gap-60 justify-center ">
+      <div class="sticky_menu">
+        <div class="titular flex flex-col text-[72px] font-normal sticky top-24">Servicios</div>
+      </div>
+      
       <div class="servicios_ofrecidos flex flex-col gap-6">
         <div class="servicio flex flex-col gap-6">
           <img class="vector w-[17px]" src="/img/star.svg">
@@ -186,7 +191,9 @@
     </div>
 
     <div class="trabajos flex pt-32 pl-40 pr-40 pb-20 text-white flex-nowrap gap-60 justify-center">
-      <div class="titular text-[72px] font-normal">Sobre mi</div>
+      <div class="sticky_menu">
+        <div class="titular flex flex-col text-[72px] font-normal sticky top-24">Sobre mi</div>
+      </div>
       <div class="servicios_ofrecidos flex flex-col gap-6">
         <div class="servicio flex flex-col gap-6">
           <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400">Soy un estudiante de 22 años, actualmente
@@ -205,7 +212,9 @@
     </div>
 
     <div class="trabajos flex pt-32 pl-40 pr-40 pb-20 text-white flex-nowrap gap-60 justify-center">
-      <div class="titular text-[72px] font-normal">Trabajos</div>
+      <div class="sticky_menu">
+        <div class="titular flex flex-col text-[72px] font-normal sticky top-24">Trabajos</div>
+      </div>
       <div class="servicios_ofrecidos flex flex-col gap-6">
         <div class="servicio flex flex-col gap-6">
           <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400">→ Ganador de concurso de carteles para <a class="bold font-bold text-white">Villaluenga de la Sagra</a> - Cartel para el libro de las fiestas
@@ -290,7 +299,7 @@
 .image
   @apply transition ease-in-out delay-150
   &:hover
-    @apply opacity-80 scale-95 duration-75
+    @apply opacity-60 duration-75
 
 .image_logo
   @apply opacity-60

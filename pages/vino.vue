@@ -37,7 +37,7 @@
         </div>
         <div class="colum flex pt-20 px-64 pb-10 text-white gap-32 justify-center">
             <div class="info_proyect max-w-[80ch]">
-                <div class="info_secondary flex flex-col gap-6">
+                <div class="info_secondary flex flex-col gap-6 sticky top-24">
                     <div class="text max-w-[60ch] text-[32px] leading-10 text-white">Prau la marca KM0</div>
                     <div class="text text-[16px] leading-6 text-zinc-400 font-normal max-w-[64ch]">
                         Esta marca es un gran legado familiar y a lo largo de tres generaciones se ha producido un vino
