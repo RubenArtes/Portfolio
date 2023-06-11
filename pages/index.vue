@@ -78,8 +78,8 @@
           <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Fotografía</div>
         </div>
         <div class="trabajo max-w-[600px]">
-          <NuxtLink to="/">
-            <img class="image m-0 rounded-md max-w-[600px]" src="/img/modelado3d.png">
+          <NuxtLink to="/modelado">
+            <img class="image m-0 rounded-md max-w-[600px]" src="/img/modelado3d.gif">
           </NuxtLink>
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">Modelado 3D - Cinema 4d - Blender</div>
           <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Modelado 3D</div>
@@ -88,7 +88,7 @@
       </div>
       <div class="twotrabajos flex gap-6 justify-center pb-6">
         <div class="trabajo max-w-[600px]">
-          <NuxtLink to="/">
+          <NuxtLink to="/yelmo">
             <img class="image m-0 rounded-md max-w-[600px]" src="/img/gifyelmo.gif">
           </NuxtLink>
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">Cines Yelmo Rediseño</div>
@@ -106,7 +106,7 @@
       </div>
     </div>
 
-    <div class="trabajos flex pt-32 pl-40 pr-40 pb-20 text-white flex-nowrap gap-60 justify-center">
+    <div class="trabajos flex pt-32 pl-40 pr-40 pb-20 text-white flex-nowrap gap-60 justify-center ">
       <div class="titular text-[72px] font-normal flex flex-start">Programas</div>
       <div class="programas flex flex-col gap-10">
         <div class="three_programas flex gap-40">
@@ -288,6 +288,7 @@
 <script setup>
 
 
+
 </script>
 <style lang="sass" scoped>
 
@@ -305,5 +306,6 @@
   @apply opacity-60
   &:hover
     @apply opacity-100
+
 
 </style>
