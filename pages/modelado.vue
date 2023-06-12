@@ -29,7 +29,7 @@
             </video>
 
         </div>
-        <div class="colum flex pt-20 px-64 pb-10 text-white gap-32 justify-center">
+        <div class="colum flex pt-20 px-40 pb-10 text-white gap-10 justify-center">
             <div class="info_proyect max-w-[80ch]">
                 <div class="info_secondary flex flex-col gap-6 sticky top-24">
                     <div class="text max-w-[60ch] text-[32px] leading-10 text-white">Trabajos 3D</div>
@@ -49,7 +49,7 @@
                     </div>
                 </div>
             </div>
-            <div class="fotografias flex flex-col gap-6 h-min">
+            <div class="fotografias flex flex-col gap-6">
                 <img class="image_rect" src="/img/render3d2.png" alt="">
                 <img class="image_rect" src="/img/render3d.png" alt="">
             </div>
