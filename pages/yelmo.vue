@@ -151,6 +151,20 @@
             </div>
         </div>
 
+        <div class="trabajos flex pt-10 pl-40 pr-40 pb-20 text-zinc-300 flex-col gap-10 justify-center items-center">
+            <div class="titular text-[16px] font-normal flex flex-start items-center">Programas utilizados para este
+                proyecto</div>
+            <div class="programas flex flex-col items-center">
+                <div class="three_programas flex gap-10">
+                    <img class="image_logo w-[40px] rounded-lg opacity-80 hover:opacity-100" src="/img/Figma.png" alt="">
+                    <img class="image_logo w-[40px] opacity-80 hover:opacity-100" src="/img/Illustrator.png" alt="">
+                    <img class="image_logo w-[40px] opacity-80 hover:opacity-100" src="/img/InDesign.png" alt="">
+                    <img class="image_logo w-[40px] opacity-80 hover:opacity-100" src="/img/Photoshop.png" alt="">
+                    <img class="image_logo w-[40px] opacity-80 hover:opacity-100" src="/img/AfterEffects.png" alt="">
+                </div>
+            </div>
+        </div>
+
         <div class="info text-sm flex gap-2 items-center justify-center text-white">Trabajo en grupo con Laura Morales
             (@crearual) - Barbara Ibañez (@intesazc)</div>
 
