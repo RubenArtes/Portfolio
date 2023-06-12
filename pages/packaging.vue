@@ -156,7 +156,7 @@
                     <img class="image_logo w-[40px] rounded-lg opacity-80 hover:opacity-100" src="/img/Procreate.png" alt="">
                     <img class="image_logo w-[40px] opacity-80 hover:opacity-100" src="/img/Cinema4d.png" alt="">
                     <img class="image_logo w-[40px] opacity-80 hover:opacity-100" src="/img/Illustrator.png" alt="">
-                    <img class="image_logo w-[40px] opacity-80 hover:opacity-100" src="/img/Indesign.png" alt="">
+                    <img class="image_logo w-[40px] opacity-80 hover:opacity-100" src="/img/InDesign.png" alt="">
                     <img class="image_logo w-[40px] opacity-80 hover:opacity-100" src="/img/Photoshop.png" alt="">
                 </div>
             </div>
