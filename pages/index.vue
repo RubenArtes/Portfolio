@@ -73,7 +73,7 @@
       </div>
       <div class="twotrabajos flex gap-6 justify-center pb-6">
         <div class="trabajo max-w-[600px]">
-          <NuxtLink to="/">
+          <NuxtLink to="/fotos">
             <img class="image m-0 rounded-md max-w-[600px]" src="/img/postproduccion_1.png">
           </NuxtLink>
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">Fotografías - Retratos - Bodegones - Lugares
@@ -306,8 +306,6 @@
 </template>
 
 <script setup>
-
-
 
 </script>
 <style lang="sass" scoped>

@@ -50,9 +50,8 @@
                 </div>
             </div>
             <div class="fotografias flex flex-col gap-6 h-min">
-                <img class="image_rect rounded-xl" src="/img/SetIluminación1.png" alt="">
-                <img class="image_rect rounded-xl" src="/img/SetIluminación2.png" alt="">
-                <img class="image_rect rounded-xl" src="/img/SetIluminación3.png" alt="">
+                <img class="image_rect" src="/img/render3d2.png" alt="">
+                <img class="image_rect" src="/img/render3d.png" alt="">
             </div>
         </div>
 
