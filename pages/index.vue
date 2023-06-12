@@ -21,19 +21,19 @@
     <div class="seleccion_trabajos pt-20 px-64 pb-20 text-white flex flex-col justify-center">
       <div class="twotrabajos flex gap-6 justify-center pb-6">
         <div class="trabajo max-w-[600px]">
-          <NuxtLink to="/editorial">
-            <img class="image m-0 rounded-md max-w-[600px]" src="/img/Mockup.jpg">
-          </NuxtLink>
-          <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold"> Rediseño Editorial - El pensamiento Lateral
-          </div>
-          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Editorial</div>
-        </div>
-        <div class="trabajo max-w-[600px]">
-          <NuxtLink to="/">
+          <NuxtLink to="/typenotes">
             <img class="image m-0 rounded-md max-w-[600px]" src="/img/Editorial_3.png">
           </NuxtLink>
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold"> Rediseño Editorial - Typenotes</div>
           <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Editorial</div>
+        </div>
+
+        <div class="trabajo max-w-[600px]">
+          <NuxtLink to="/libroexperimental">
+            <img class="image m-0 rounded-md max-w-[600px]" src="/img/libroexperimental.gif">
+          </NuxtLink>
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">Libro Experimental - Metro de Madrid</div>
+          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Producción</div>
         </div>
       </div>
       <div class="twotrabajos flex gap-6 justify-center pb-6">
@@ -68,8 +68,6 @@
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">Páginas Web</div>
           <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Programación y código</div>
         </div>
-
-
       </div>
       <div class="twotrabajos flex gap-6 justify-center pb-6">
         <div class="trabajo max-w-[600px]">
@@ -97,13 +95,13 @@
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">Cines Yelmo Rediseño</div>
           <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Marca</div>
         </div>
-
         <div class="trabajo max-w-[600px]">
-          <NuxtLink to="/">
-            <img class="image m-0 rounded-md max-w-[600px]" src="/img/Metro_1.png">
+          <NuxtLink to="/editorial">
+            <img class="image m-0 rounded-md max-w-[600px]" src="/img/Mockup.jpg">
           </NuxtLink>
-          <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">Libro Experimental - Metro de Madrid</div>
-          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Producción</div>
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold"> Rediseño Editorial - El pensamiento Lateral
+          </div>
+          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Editorial</div>
         </div>
 
       </div>
@@ -318,7 +316,7 @@
 .image
   @apply transition ease-in-out delay-150
   &:hover
-    @apply opacity-60 duration-75
+    @apply opacity-80 duration-75 outline outline-2 outline-zinc-300
 
 .image_logo
   @apply opacity-60
