@@ -61,8 +61,8 @@
             <div class="text max-w-[60ch] text-[16px] text-zinc-400 font-bold">Creación de un loop animado 3d para probar las diferentes utilidades de animación
                 y frames de la aplicación, aplicando materiales e iluminación.
             </div>
-            <div class="video flex pt-20 px-64 pb-20 text-white flex-nowrap items-center gap-64 justify-center">
-            <video width="1280" height="720" loop autoplay controls>
+            <div class="video flex pt-20 pb-20 text-white flex-nowrap items-center gap-64 justify-center">
+            <video class="video w-full h-full" loop autoplay controls>
                 <source src="/img/1.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -87,6 +87,17 @@
 
 
 
+            </div>
+        </div>
+
+        <div class="trabajos flex pt-10 pl-40 pr-40 pb-20 text-zinc-300 flex-col gap-10 justify-center items-center">
+            <div class="titular text-[16px] font-normal flex flex-start items-center">Programas utilizados para este
+                proyecto</div>
+            <div class="programas flex flex-col items-center">
+                <div class="three_programas flex gap-10">
+                    <img class="image_logo w-[40px] opacity-80 hover:opacity-100" src="/img/blender.png" alt="">
+                    <img class="image_logo w-[40px] opacity-80 hover:opacity-100" src="/img/Cinema4d.png" alt="">
+                </div>
             </div>
         </div>
 

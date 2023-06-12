@@ -86,8 +86,10 @@
 
         <div class="images pt-20 px-64 pb-10 text-white justify-center flex flex-col gap-10">
             <div class="text max-w-[60ch] text-[32px] leading-10 text-white">Tipografía</div>
-            <div class="text max-w-[60ch] text-[16px] text-zinc-400 font-bold">Muestra de la tipografía general utilizada y la jerarquía
-                para componer los textos a lo largo del libro. Utilización de varias tipografías: Futura Std, Trola y Gravity.
+            <div class="text max-w-[60ch] text-[16px] text-zinc-400 font-bold">Muestra de la tipografía general utilizada y
+                la jerarquía
+                para componer los textos a lo largo del libro. Utilización de varias tipografías: Futura Std, Trola y
+                Gravity.
             </div>
 
             <div class="grid grid-cols-1">
@@ -106,6 +108,17 @@
                 <img class="image_grid w-full h-full" src="/img/paginalibro5.png" alt="">
                 <img class="image_grid w-full h-full" src="/img/paginalibro6.png" alt="">
                 <img class="image_grid w-full h-full" src="/img/imgpaginas10.png" alt="">
+            </div>
+        </div>
+
+        <div class="trabajos flex pt-32 pl-40 pr-40 pb-20 text-zinc-300 flex-col gap-10 justify-center items-center">
+            <div class="titular text-[16px] font-normal flex flex-start items-center">Programas utilizados para este
+                proyecto</div>
+            <div class="programas flex flex-col items-center">
+                <div class="three_programas flex gap-10">
+                    <img class="image_logo w-[40px]" src="/img/Illustrator.svg" alt="">
+                    <img class="image_logo w-[40px]" src="/img/InDesign.svg" alt="">
+                </div>
             </div>
         </div>
 
@@ -177,4 +190,10 @@
     &:hover
         @apply text-zinc-300
   
+.image_logo
+  @apply opacity-60
+  &:hover
+    @apply opacity-100
+
+
   </style>
