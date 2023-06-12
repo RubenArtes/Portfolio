@@ -1,16 +1,18 @@
 <template>
   <div class="app bg-black">
+
     <div class="header bg-black p-10 flex text-white justify-between sticky top-0 z-10">
       <div class="image flex flex-start">
         <img src="/img/Vector.svg">
       </div>
       <div class="email text-lg flex gap-2 items-center">ruben.maldonado.graphic@gmail.com
-          <img class="vector" src="/img/Vector-11.svg">
+        <img class="vector" src="/img/Vector-11.svg">
       </div>
     </div>
+
     <div class="trabajos flex pt-20 px-64 pb-20 text-white flex-nowrap items-center gap-28 justify-center">
-      <div class="titular text-[115px] font-normal flex gap-2 items-start">Portfolio 
-        <img class="info" src="/img/info.svg"> 
+      <div class="titular text-[115px] font-normal flex gap-2 items-start">Portfolio
+        <img class="info" src="/img/info.svg">
       </div>
       <div class="text max-w-[60ch]">Mis diferentes trabajos durante la carrera y proyectos personales. Desde editorial,
         packaging y web, hasta ilustraciones, audiovisuales y fotografías.
@@ -66,15 +68,16 @@
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">Páginas Web</div>
           <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Programación y código</div>
         </div>
-        
-        
+
+
       </div>
       <div class="twotrabajos flex gap-6 justify-center pb-6">
         <div class="trabajo max-w-[600px]">
           <NuxtLink to="/">
             <img class="image m-0 rounded-md max-w-[600px]" src="/img/postproduccion_1.png">
           </NuxtLink>
-          <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">Fotografías - Retratos - Bodegones - Lugares</div>
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">Fotografías - Retratos - Bodegones - Lugares
+          </div>
           <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Fotografía</div>
         </div>
         <div class="trabajo max-w-[600px]">
@@ -84,7 +87,7 @@
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">Modelado 3D - Cinema 4d - Blender</div>
           <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Modelado 3D</div>
         </div>
-        
+
       </div>
       <div class="twotrabajos flex gap-6 justify-center pb-6">
         <div class="trabajo max-w-[600px]">
@@ -131,7 +134,7 @@
       <div class="sticky_menu">
         <div class="titular flex flex-col text-[72px] font-normal sticky top-24">Servicios</div>
       </div>
-      
+
       <div class="servicios_ofrecidos flex flex-col gap-6">
         <div class="servicio flex flex-col gap-6">
           <img class="vector w-[17px]" src="/img/star.svg">
@@ -145,14 +148,17 @@
         <div class="servicio flex flex-col gap-6">
           <img class="vector w-[17px]" src="/img/star.svg">
           <div class="tittle_servicios font-bold text-[20px]">Ilustración</div>
-          <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400"> Experiencia realizando ilustraciones tradicionales
-            e ilustraciones digitales mediante IPad - Procreate. Cuento con Grado Superior de Ilustración en la Escuela de Artes de Toledo.
+          <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400"> Experiencia realizando ilustraciones
+            tradicionales
+            e ilustraciones digitales mediante IPad - Procreate. Cuento con Grado Superior de Ilustración en la Escuela de
+            Artes de Toledo.
           </div>
         </div>
         <div class="servicio flex flex-col gap-6">
           <img class="vector w-[17px]" src="/img/star.svg">
           <div class="tittle_servicios font-bold text-[20px]">Web y Programación</div>
-          <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400"> Conocimientos altos de HTML y CSS (sass). <br>
+          <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400"> Conocimientos altos de HTML y CSS (sass).
+            <br>
             Conocimientos medio-altos de Tailwind, Nuxt y Vue.
             Conocimientos medios en JavasCript.
           </div>
@@ -167,8 +173,10 @@
         <div class="servicio flex flex-col gap-6">
           <img class="vector w-[17px]" src="/img/star.svg">
           <div class="tittle_servicios font-bold text-[20px]">Audiovisuales y Multimedia</div>
-          <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400">Conocimientos en diferentes ambitos del mundo de audiovisuales,
-            concretamente After Effects para motion graphics, Adobe Premiere y otros programas de video para realización de piezas para redes sociales,
+          <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400">Conocimientos en diferentes ambitos del
+            mundo de audiovisuales,
+            concretamente After Effects para motion graphics, Adobe Premiere y otros programas de video para realización
+            de piezas para redes sociales,
             conocimientos de Rotoscopia digital, chroma y edición de video.
 
           </div>
@@ -176,7 +184,8 @@
         <div class="servicio flex flex-col gap-6">
           <img class="vector w-[17px]" src="/img/star.svg">
           <div class="tittle_servicios font-bold text-[20px]">Maquetación</div>
-          <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400">Conocimientos altos en Indesign y Photoshop, para la maquetación
+          <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400">Conocimientos altos en Indesign y
+            Photoshop, para la maquetación
             de carteles, folletos, libros, revistas, anuncios y cualquier pieza gráfica necesaria.
 
           </div>
@@ -184,7 +193,8 @@
         <div class="servicio flex flex-col gap-6">
           <img class="vector w-[17px]" src="/img/star.svg">
           <div class="tittle_servicios font-bold text-[20px]">Redes Sociales</div>
-          <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400">Conocimientos altos de redes sociales, actualidad y flujo de información
+          <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400">Conocimientos altos de redes sociales,
+            actualidad y flujo de información
             en las aplicaciones actuales como Instagram, TikTok, Facebook y Twitter.
 
           </div>
@@ -202,7 +212,8 @@
       <div class="servicios_ofrecidos flex flex-col gap-6">
         <div class="servicio flex flex-col gap-6">
           <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400">Soy un estudiante de 22 años, actualmente
-            cursando 4º en un grado Universitario de Diseño Gráfico en la Escuela Superior De Diseño de Madrid. Cuento con un Grado
+            cursando 4º en un grado Universitario de Diseño Gráfico en la Escuela Superior De Diseño de Madrid. Cuento con
+            un Grado
             Superior de Ilustración. <br> <br> Soy muy polifacetico y no me cierro a ninguna vía del diseño, suelo
             abarcar todos los ambitos, como ya he mencionado anteriormente. Soy resolutivo y trabajador.
 
@@ -222,14 +233,18 @@
       </div>
       <div class="servicios_ofrecidos flex flex-col gap-6">
         <div class="servicio flex flex-col gap-6">
-          <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400">→ Ganador de concurso de carteles para <a class="bold font-bold text-white">Villaluenga de la Sagra</a> - Cartel para el libro de las fiestas
-            <br><br> → Creación de cartelería para página web y físico y creación de pictogramas para empresa <a class="bold font-bold text-white">Neumáticos por Poco.</a>
-            <br><br> → Renovación de marca creando un logo para la empresa <a class="bold font-bold text-white">Motor 76.</a>
-            <br><br> → Creación de iustraciones para portadas de noticias en <a class="bold font-bold text-white">Ecos Castilla La Mancha.</a>
+          <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400">→ Ganador de concurso de carteles para <a
+              class="bold font-bold text-white">Villaluenga de la Sagra</a> - Cartel para el libro de las fiestas
+            <br><br> → Creación de cartelería para página web y físico y creación de pictogramas para empresa <a
+              class="bold font-bold text-white">Neumáticos por Poco.</a>
+            <br><br> → Renovación de marca creando un logo para la empresa <a class="bold font-bold text-white">Motor
+              76.</a>
+            <br><br> → Creación de iustraciones para portadas de noticias en <a class="bold font-bold text-white">Ecos
+              Castilla La Mancha.</a>
             <br><br> → Diseño de portadas para proyecto musical.
             <br><br> → Encargos Freelance de sesiones fotográficas, diseño de tatuajes e ilustraciones personales.
 
-           
+
 
           </div>
         </div>
@@ -239,7 +254,7 @@
 
     </div>
 
-    
+
 
     <div class="links_rrss pt-32 px-80 pb-32 text-white justify-center flex flex-row gap-60">
       <div class="email text-lg flex gap-2 items-center">ruben.maldonado.graphic@gmail.com
