@@ -114,15 +114,15 @@
             <img class="image m-0 rounded-md max-w-[600px]" src="/img/kinderbueno3.png">
           </NuxtLink>
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold">Kinder Bueno</div>
-          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Mascota y rediseño</div>
+          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Ilustración - Mascota y rediseño</div>
         </div>
         <div class="trabajo max-w-[600px]">
           <NuxtLink to="/ilustraciones">
-            <img class="image m-0 rounded-md max-w-[600px]" src="/img/Mockup.jpg">
+            <img class="image m-0 rounded-md max-w-[600px]" src="/img/ilustraciones.png">
           </NuxtLink>
-          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold">El pensamiento Lateral
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold">Colección de ilustraciones
           </div>
-          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Rediseño Editorial</div>
+          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Ilustración - Dibujos e ilustraciones</div>
         </div>
 
       </div>
