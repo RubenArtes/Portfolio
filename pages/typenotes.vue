@@ -1,6 +1,6 @@
 <template>
     <div class="app bg-black">
-        <div class="header bg-black p-10 flex text-white justify-between sticky top-0">
+        <div class="header bg-black p-10 flex text-white justify-between sticky top-0 z-10">
             <div class="image flex flex-start">
                 <NuxtLink to="/">
                     <img class="vector" src="/img/Vector.svg">
@@ -36,7 +36,7 @@
         </div>
         <div class="colum flex pt-20 px-40 pb-10 text-white gap-32 justify-center">
             <div class="info_proyect max-w-[80ch]">
-                <div class="info_secondary flex flex-col gap-6 sticky top-24">
+                <div class="info_secondary flex flex-col gap-6 sticky top-32">
                     <div class="text max-w-[60ch] text-[32px] leading-10 text-white">Revista Typenotes</div>
                     <div class="text text-[16px] leading-6 text-zinc-400 font-normal max-w-[64ch]">
                         El trabajo de Diseño Editorial consiste en la adaptación
@@ -94,17 +94,29 @@
         </div>
 
         <div class="images pt-20 px-64 pb-10 text-white justify-center flex flex-col gap-10">
-            <div class="text max-w-[60ch] text-[32px] leading-10 text-white">Tipografía</div>
-            <div class="text max-w-[60ch] text-[16px] text-zinc-400 font-bold">Muestra de la tipografía general utilizada y
-                la jerarquía
-                para componer los textos a lo largo del libro. Utilización de varias tipografías: Futura Std, Trola y
-                Gravity.
+            <div class="text max-w-[60ch] text-[32px] leading-10 text-white">Elementos maquetación</div>
+            <div class="text max-w-[60ch] text-[16px] text-zinc-400 font-bold pb-12">Elementos para la maquetación de la revista, desde
+                la paleta de color y la tipografía hasta la retícula y la jerarquía.
             </div>
 
             <div class="grid grid-cols-1">
-                <img class="image_grid w-full h-full pb-6" src="/img/tipo.png" alt="">
+                <div class="text text-[16px] text-zinc-400 font-bold pb-6 pt-6 border-t border-zinc-400">PALETA</div>
+                <img class="image_grid w-full h-full pb-6" src="/img/elementos.png" alt="">
+                <div class="text text-[16px] text-zinc-400 font-bold pb-6 pt-6 border-t border-zinc-400">LOGOTIPO</div>
+                <img class="image_grid w-full h-full pb-12" src="/img/elementos2.png" alt="">
+                <div class="text text-[16px] text-zinc-400 font-bold pb-12 pt-6 border-t border-zinc-400">TIPOGRAFIAS</div>
+                <img class="image_grid w-full h-full pb-12" src="/img/elementos4.png" alt="">
+                <div class="text text-[16px] text-zinc-400 font-bold pb-12 pt-6 border-t border-zinc-400">JERARQUÍA TIPOGRÁFICA</div>
+                <img class="image_grid w-full h-full pb-16" src="/img/elementos8.png" alt="">
+                <div class="text text-[16px] text-zinc-400 font-bold pb-6 pt-6 border-t border-zinc-400">RETÍCULA</div>
+                <img class="image_grid w-full h-full pb-12" src="/img/elementos6.png" alt="">
+                <div class="text text-[16px] text-zinc-400 font-bold pb-6 pt-6 border-t border-zinc-400">DISPOSICIÓN DE PÁGINAS</div>
+                <img class="image_grid w-full h-full pb-12" src="/img/elementos7.png" alt="">
+
+
             </div>
         </div>
+
         <div class="images pt-20 px-64 pb-10 text-white justify-center flex flex-col">
             <div class="text max-w-[60ch] text-[32px] leading-10 text-white">Captions</div>
             <div class="text max-w-[60ch] text-[16px] leading-10 text-zinc-400 font-bold pb-12">Muestra de maquetación de
@@ -118,9 +130,12 @@
                 <img class="image_grid w-full h-full" src="/img/MaquetaciónDiseñoEditorial_RubenMaldonado6.jpg" alt="">
                 <img class="image_grid w-full h-full" src="/img/MaquetaciónDiseñoEditorial_RubenMaldonado7.jpg" alt="">
                 <img class="image_grid w-full h-full" src="/img/MaquetaciónDiseñoEditorial_RubenMaldonado8.jpg" alt="">
+                <img class="image_grid w-full h-full" src="/img/typenotes.png" alt="">
 
             </div>
         </div>
+
+
 
         <div class="trabajos flex pt-32 pl-40 pr-40 pb-20 text-zinc-300 flex-col gap-10 justify-center items-center">
             <div class="titular text-[16px] font-normal flex flex-start items-center">Programas utilizados para este

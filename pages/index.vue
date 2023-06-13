@@ -21,52 +21,53 @@
     <div class="seleccion_trabajos pt-20 px-64 pb-20 text-white flex flex-col justify-center">
       <div class="twotrabajos flex gap-6 justify-center pb-6">
         <div class="trabajo max-w-[600px]">
-          <NuxtLink to="/typenotes">
-            <img class="image m-0 rounded-md max-w-[600px]" src="/img/Editorial_3.png">
-          </NuxtLink>
-          <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold"> Rediseño Editorial - Typenotes</div>
-          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Editorial</div>
-        </div>
-
-        <div class="trabajo max-w-[600px]">
-          <NuxtLink to="/libroexperimental">
-            <img class="image m-0 rounded-md max-w-[600px]" src="/img/libroexperimental.gif">
-          </NuxtLink>
-          <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">Libro Experimental - Metro de Madrid</div>
-          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Producción</div>
-        </div>
-      </div>
-      <div class="twotrabajos flex gap-6 justify-center pb-6">
-        <div class="trabajo max-w-[600px]">
           <NuxtLink to="/packaging">
             <img class="image m-0 rounded-md max-w-[600px]" src="/img/Packaging_ruben2.png">
           </NuxtLink>
-          <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">Packaging Saludable Matutano</div>
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">Matutano Saludable</div>
           <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Packaging</div>
         </div>
         <div class="trabajo max-w-[600px]">
           <NuxtLink to="/vino">
             <img class="image m-0 rounded-md max-w-[600px]" src="/img/Vino_1.png">
           </NuxtLink>
-          <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">Diseño Marca de Vinos - PRAU</div>
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">PRAU - Pasión por la tierra</div>
           <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Packaging y Marca</div>
         </div>
       </div>
       <div class="twotrabajos flex gap-6 justify-center pb-6">
         <div class="trabajo max-w-[600px]">
+          <NuxtLink to="/libroexperimental">
+            <img class="image m-0 rounded-md max-w-[600px]" src="/img/libroexperimental.gif">
+          </NuxtLink>
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">Metro de Madrid</div>
+          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Producción</div>
+        </div>
+        <div class="trabajo max-w-[600px]">
+          <NuxtLink to="/typenotes">
+            <img class="image m-0 rounded-md max-w-[600px]" src="/img/Editorial_3.png">
+          </NuxtLink>
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold"> Typenotes</div>
+          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Editorial</div>
+        </div>
+
+
+      </div>
+
+      <div class="twotrabajos flex gap-6 justify-center pb-6">
+        <div class="trabajo max-w-[600px]">
           <NuxtLink to="/movistar">
             <img class="image m-0 rounded-md max-w-[600px]" src="/img/Movistar.png">
           </NuxtLink>
-          <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">Piezas Audiovisuales After Effects -
-            Movistar</div>
-          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Editorial</div>
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">Movistar +</div>
+          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - After Effects</div>
         </div>
         <div class="trabajo max-w-[600px]">
           <NuxtLink to="/esdfigma">
             <img class="image m-0 rounded-md max-w-[600px]" src="/img/gifesd.gif">
           </NuxtLink>
-          <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">Páginas Web</div>
-          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Programación y código</div>
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">ESD - Página Web</div>
+          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Prototipado figma</div>
         </div>
       </div>
       <div class="twotrabajos flex gap-6 justify-center pb-6">
@@ -74,7 +75,7 @@
           <NuxtLink to="/fotos">
             <img class="image m-0 rounded-md max-w-[600px]" src="/img/postproduccion_1.png">
           </NuxtLink>
-          <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">Fotografías - Retratos - Bodegones - Lugares
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">Colección fotográfica
           </div>
           <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Fotografía</div>
         </div>
@@ -82,8 +83,8 @@
           <NuxtLink to="/modelado">
             <img class="image m-0 rounded-md max-w-[600px]" src="/img/modelado3d.gif">
           </NuxtLink>
-          <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">Modelado 3D - Cinema 4d - Blender</div>
-          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Modelado 3D</div>
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">Colección 3D</div>
+          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Modelado y render</div>
         </div>
 
       </div>
@@ -92,19 +93,39 @@
           <NuxtLink to="/yelmo">
             <img class="image m-0 rounded-md max-w-[600px]" src="/img/gifyelmo.gif">
           </NuxtLink>
-          <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">Cines Yelmo Rediseño</div>
-          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Marca</div>
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">Cines Yelmo</div>
+          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Marca y rediseño</div>
         </div>
         <div class="trabajo max-w-[600px]">
           <NuxtLink to="/editorial">
             <img class="image m-0 rounded-md max-w-[600px]" src="/img/Mockup.jpg">
           </NuxtLink>
-          <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold"> Rediseño Editorial - El pensamiento Lateral
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">El pensamiento Lateral
           </div>
-          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Editorial</div>
+          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Rediseño Editorial</div>
         </div>
 
       </div>
+
+      <div class="twotrabajos flex gap-6 justify-center pb-6">
+        <div class="trabajo max-w-[600px]">
+          <NuxtLink to="/kinderbueno">
+            <img class="image m-0 rounded-md max-w-[600px]" src="/img/kinderbueno3.png">
+          </NuxtLink>
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">Kinder Bueno</div>
+          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Mascota y rediseño</div>
+        </div>
+        <div class="trabajo max-w-[600px]">
+          <NuxtLink to="/editorial">
+            <img class="image m-0 rounded-md max-w-[600px]" src="/img/Mockup.jpg">
+          </NuxtLink>
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">El pensamiento Lateral
+          </div>
+          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Rediseño Editorial</div>
+        </div>
+
+      </div>
+
     </div>
 
     <div class="trabajos flex pt-32 pl-40 pr-40 pb-20 text-white flex-nowrap gap-60 justify-center ">
@@ -158,6 +179,7 @@
           <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400"> Conocimientos altos de HTML y CSS (sass).
             <br>
             Conocimientos medio-altos de Tailwind, Nuxt y Vue.
+            <br>
             Conocimientos medios en JavasCript.
           </div>
         </div>
@@ -165,7 +187,7 @@
           <img class="vector w-[17px]" src="/img/star.svg">
           <div class="tittle_servicios font-bold text-[20px]">Pack Adobe y Figma</div>
           <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400"> Altos conocimientos en utilizar
-            el pack Adobe (concretamente los mencionados arriba) y utilización y prototipado de Figma.
+            el pack Adobe (concretamente los mencionados arriba) y Figma (componentización, vistas, prototipado y autolayout).
           </div>
         </div>
         <div class="servicio flex flex-col gap-6">
@@ -210,10 +232,10 @@
       <div class="servicios_ofrecidos flex flex-col gap-6">
         <div class="servicio flex flex-col gap-6">
           <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400">Soy un estudiante de 22 años, actualmente
-            cursando 4º en un grado Universitario de Diseño Gráfico en la Escuela Superior De Diseño de Madrid. Cuento con
+            cursando 4º en un grado Universitario de Diseño Gráfico en la Escuela Superior De Diseño de Madrid (Nota media - 9) <br> Cuento con
             un Grado
-            Superior de Ilustración. <br> <br> Soy muy polifacetico y no me cierro a ninguna vía del diseño, suelo
-            abarcar todos los ambitos, como ya he mencionado anteriormente. Soy resolutivo y trabajador.
+            Superior de Ilustración (Nota TFG - 9). <br> <br> Soy muy polifacetico y no me cierro a ninguna vía del diseño, suelo
+            abarcar todos los ambitos, como ya he mostrado anteriormente. Soy resolutivo y trabajador.
 
             <img class="img pt-10" src="/img/FOTO.jpg" alt="">
 
@@ -252,6 +274,26 @@
 
     </div>
 
+    <div class="trabajos flex pt-32 pl-40 pr-40 pb-20 text-white flex-nowrap gap-60 justify-center">
+      <div class="sticky_menu">
+        <div class="titular flex flex-col text-[72px] font-normal sticky top-24">Estudios</div>
+      </div>
+      <div class="servicios_ofrecidos flex flex-col gap-6">
+        <div class="servicio flex flex-col gap-6">
+          <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400">
+            <br><br><a class="bold font-bold text-white"> → Bachillerato Artístico </a> en IES El Greco Toledo.
+            <br><br><a class="bold font-bold text-white"> → Grado Superior de Ilustración</a> en la Escuela de Artes de Toledo.
+            <br><br><a class="bold font-bold text-white"> → 3 Cursos de Grado Universitario de Diseño Gráfico </a> en la Escuela Superior de Diseño de Madrid.
+            <br><br><a class="bold font-bold text-white"> → Curso extracurricular de 2 años de Arte y Pintura </a> en Villaluenga de la Sagra.
+            <br><br><a class="bold font-bold text-white"> → Cursos de Domestika:</a> "Ilustración Digital con Procreate", "Ilustración Digital aplicada a productos", "Introducción al lettering con Procreate".
+
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
 
 
     <div class="links_rrss pt-32 px-80 pb-32 text-white justify-center flex flex-row gap-60">

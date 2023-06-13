@@ -1,6 +1,6 @@
 <template>
     <div class="app bg-black">
-        <div class="header bg-black p-10 flex text-white justify-between sticky top-0">
+        <div class="header bg-black p-10 flex text-white justify-between sticky top-0 z-10">
             <div class="image flex flex-start">
                 <NuxtLink to="/">
                     <img class="vector" src="/img/Vector.svg">
@@ -35,7 +35,7 @@
         </div>
         <div class="colum flex pt-20 px-64 pb-10 text-white gap-32 justify-center">
             <div class="info_proyect max-w-[80ch]">
-                <div class="info_secondary flex flex-col gap-6 sticky top-24">
+                <div class="info_secondary flex flex-col gap-6 sticky top-32">
                     <div class="text max-w-[60ch] text-[32px] leading-10 text-white">Rediseño Cine Yelmo</div>
                     <div class="text text-[16px] leading-6 text-zinc-400 font-normal max-w-[64ch]">
                         Este rediseño para Cines Yelmo cuenta con los siguientes objetivos:

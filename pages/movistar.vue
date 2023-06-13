@@ -1,6 +1,6 @@
 <template>
-    <div class="app bg-black">
-        <div class="header bg-black p-10 flex text-white justify-between sticky top-0">
+    <div class="app bg-[#eb595a]">
+        <div class="header bg-[#DC5051] p-10 flex text-white justify-between sticky top-0 z-10">
             <div class="image flex flex-start">
                 <NuxtLink to="/">
                     <img class="vector" src="/img/Vector.svg">
@@ -15,9 +15,9 @@
         <div class="trabajos flex pt-20 px-40 pb-20 text-white flex-nowrap items-center gap-64 justify-center">
             <div class="titular text-[70px] font-normal max-w-[13ch] leading-12">Video</div>
             <div class="info flex flex-col gap-6">
-                <div class="text max-w-[60ch] text-[16px] leading-10 text-zinc-200">Audiovisuales - Movistar - Identidad -
+                <div class="text max-w-[60ch] text-[16px] leading-10 text-zinc-100">Audiovisuales - Movistar - Identidad -
                     After Effects</div>
-                <div class="text max-w-[60ch] text-[20px] leading-8 text-zinc-400 font-bold">Este trabajo consiste en crear
+                <div class="text max-w-[60ch] text-[20px] leading-8 text-zinc-100 font-bold">Este trabajo consiste en crear
                     3 videos
                     diferentes de transiciones y efectos para el diseño de animación de las cortinillas de Movistar. Una
                     cortinilla básica para el cambio
@@ -28,7 +28,7 @@
             </div>
         </div>
         <div class="video flex pt-20 px-64 pb-20 text-white flex-nowrap items-center gap-64 justify-center">
-            <video width="1240" height="788" loop autoplay controls>
+            <video class="video border-2 border-[#DC5051] drop-shadow-lg" width="1240" height="788" loop autoplay controls>
                 <source src="/img/Cortinilla_5.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -36,9 +36,9 @@
         </div>
         <div class="colum flex pt-20 px-64 pb-10 text-white gap-32 justify-center">
             <div class="info_proyect max-w-[80ch]">
-                <div class="info_secondary flex flex-col gap-6 sticky top-24">
+                <div class="info_secondary flex flex-col gap-6 sticky top-32">
                     <div class="text max-w-[60ch] text-[32px] leading-10 text-white">Idents Movistar - Cortinillas</div>
-                    <div class="text text-[16px] leading-6 text-zinc-400 font-normal max-w-[64ch]">
+                    <div class="text text-[16px] leading-6 text-zinc-100 font-normal max-w-[64ch]">
                         Para este proyecto he elegido Movistar Plus, en general
                         la identidad que trae consigo los canales de movistar, ya
                         sea estrenos, series o las entradillas de continuidad que
@@ -79,21 +79,21 @@
         </div>
         <div class="images pt-20 px-64 pb-10 text-white justify-center flex flex-col gap-10">
             <div class="text max-w-[60ch] text-[32px] leading-10 text-white">Videos por separado</div>
-            <div class="text max-w-[60ch] text-[16px] text-zinc-400 font-bold pb-6">Muestra de cada uno de los videos por
+            <div class="text max-w-[60ch] text-[16px] text-zinc-100 font-bold pb-6">Muestra de cada uno de los videos por
                 separado
                 para apreciar los diferentes tipos de encargo para cada video.
             </div>
 
             <div class="grid grid-cols-2 grid-row-3 gap-6">
-                <video width="1240" height="788" loop autoplay controls muted>
+                <video class="video border-2 border-[#DC5051] drop-shadow-lg" width="1240" height="788" loop autoplay controls muted>
                     <source src="/img/Cortinilla.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
-                <video width="1240" height="788" loop autoplay controls muted>
+                <video class="video border-2 border-[#DC5051] drop-shadow-lg" width="1240" height="788" loop autoplay controls muted>
                     <source src="/img/Cortinilla_4.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
-                <video width="1240" height="788" loop autoplay controls muted>
+                <video  class="video border-2 border-[#DC5051] drop-shadow-lg" width="1240" height="788" loop autoplay controls muted>
                     <source src="/img/Cortinilla_3.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
@@ -107,7 +107,7 @@
 
         </div>
 
-        <div class="trabajos flex pt-10 pl-40 pr-40 pb-20 text-zinc-300 flex-col gap-10 justify-center items-center">
+        <div class="trabajos flex pt-10 pl-40 pr-40 pb-20 text-zinc-100 flex-col gap-10 justify-center items-center">
             <div class="titular text-[16px] font-normal flex flex-start items-center">Programas utilizados para este
                 proyecto</div>
             <div class="programas flex flex-col items-center">
@@ -155,7 +155,7 @@
 
         </div>
 
-        <div class="foter bg-black p-10 flex text-white justify-between sticky top-0">
+        <div class="foter bg-[#DC5051] p-10 flex text-white justify-between sticky top-0">
             <div class="foter_image flex flex-start">
                 <NuxtLink to="/">
                     <img class="vector" src="/img/star.svg">
