@@ -1,6 +1,6 @@
 <template>
-    <div class="app bg-black">
-        <div class="header bg-black p-10 flex text-white justify-between sticky top-0 z-10">
+    <div class="app bg-[#161616]">
+        <div class="header bg-[#101010] p-10 flex text-white justify-between sticky top-0 z-10">
             <div class="image flex flex-start">
                 <NuxtLink to="/">
                     <img class="vector" src="/img/Vector.svg">
@@ -142,16 +142,16 @@
             </div>
         </div>
 
-        <div class="images pt-20 px-64 pb-10 text-white justify-center flex flex-col gap-10">
+        <div class="images pt-20 px-64 text-white justify-center flex flex-col gap-10">
             <div class="text max-w-[60ch] text-[32px] leading-10 text-white">Entradas</div>
 
             <div class="grid grid-cols-1">
-                <img class="image_grid w-full h-full pb-6" src="/img/entradas.png" alt="">
+                <img class="image_grid w-full h-full" src="/img/entradas.png" alt="">
 
             </div>
         </div>
 
-        <div class="trabajos flex pt-10 pl-40 pr-40 pb-20 text-zinc-300 flex-col gap-10 justify-center items-center">
+        <div class="trabajos flex pl-40 pr-40 pb-20 text-zinc-300 flex-col gap-10 justify-center items-center">
             <div class="titular text-[16px] font-normal flex flex-start items-center">Programas utilizados para este
                 proyecto</div>
             <div class="programas flex flex-col items-center">
@@ -168,43 +168,32 @@
         <div class="info text-sm flex gap-2 items-center justify-center text-white">Trabajo en grupo con Laura Morales
             (@crearual) - Barbara Ibañez (@intesazc)</div>
 
-        <div class="links_rrss pt-32 px-80 pb-32 text-white justify-center flex flex-row gap-60">
+            <div class="links_rrss pt-32 px-80 pb-32 text-white justify-center flex flex-row gap-60">
             <div class="email text-lg flex gap-2 items-center">ruben.maldonado.graphic@gmail.com
-                <NuxtLink to="/">
                     <img class="vector" src="/img/Vector-11.svg">
-                </NuxtLink>
             </div>
             <div class="links flex flex-col gap-2">
                 <div class="links1 flex gap-32">
                     <a class="red flex gap-2 items-center" href="https://www.instagram.com/ruben.artes/">Instagram
-                        <NuxtLink to="/">
                             <img class="vector" src="/img/Vector-11.svg">
-                        </NuxtLink>
                     </a>
                     <a class="red flex gap-2 items-center" href="https://www.behance.net/rubenartes">Behance
-                        <NuxtLink to="/">
                             <img class="vector" src="/img/Vector-11.svg">
-                        </NuxtLink>
                     </a>
                 </div>
                 <div class="links2 flex gap-32 flex-end">
                     <a class="red flex gap-2 items-center" href="https://www.instagram.com/ruben.iso">Instagram
-                        <NuxtLink to="/">
                             <img class="vector" src="/img/Vector-11.svg">
-                        </NuxtLink>
-
 
                     </a> <a class="red flex gap-2 items-center" href="https://www.linkedin.com/in/rubenmaldonado10">LinkedIn
-                        <NuxtLink to="/">
                             <img class="vector" src="/img/Vector-11.svg">
-                        </NuxtLink>
                     </a>
                 </div>
             </div>
 
         </div>
 
-        <div class="foter bg-black p-10 flex text-white justify-between sticky top-0">
+        <div class="foter bg-[#101010] p-10 flex text-white justify-between sticky top-0">
             <div class="foter_image flex flex-start">
                 <NuxtLink to="/">
                     <img class="vector" src="/img/star.svg">

@@ -108,36 +108,25 @@
 
 
 
-        <div class="links_rrss pt-32 px-80 pb-32 text-black justify-center flex flex-row gap-60">
+        <div class="links_rrss pt-32 px-80 pb-32 text-zinc-600 justify-center flex flex-row gap-60">
             <div class="email text-lg flex gap-2 items-center">ruben.maldonado.graphic@gmail.com
-                <NuxtLink to="/">
-                    <img class="vector" src="/img/Vector-11.svg">
-                </NuxtLink>
+                    <img class="vector" src="/img/Vector-11zinc.svg">
             </div>
             <div class="links flex flex-col gap-2">
                 <div class="links1 flex gap-32">
                     <a class="red flex gap-2 items-center" href="https://www.instagram.com/ruben.artes/">Instagram
-                        <NuxtLink to="/">
-                            <img class="vector" src="/img/Vector-11black.svg">
-                        </NuxtLink>
+                            <img class="vector" src="/img/Vector-11zinc.svg">
                     </a>
                     <a class="red flex gap-2 items-center" href="https://www.behance.net/rubenartes">Behance
-                        <NuxtLink to="/">
-                            <img class="vector" src="/img/Vector-11black.svg">
-                        </NuxtLink>
+                            <img class="vector" src="/img/Vector-11zinc.svg">
                     </a>
                 </div>
                 <div class="links2 flex gap-32 flex-end">
                     <a class="red flex gap-2 items-center" href="https://www.instagram.com/ruben.iso">Instagram
-                        <NuxtLink to="/">
-                            <img class="vector" src="/img/Vector-11black.svg">
-                        </NuxtLink>
-
+                            <img class="vector" src="/img/Vector-11zinc.svg">
 
                     </a> <a class="red flex gap-2 items-center" href="https://www.linkedin.com/in/rubenmaldonado10">LinkedIn
-                        <NuxtLink to="/">
-                            <img class="vector" src="/img/Vector-11black.svg">
-                        </NuxtLink>
+                            <img class="vector" src="/img/Vector-11zinc.svg">
                     </a>
                 </div>
             </div>

@@ -18,64 +18,65 @@
         packaging y web, hasta ilustraciones, audiovisuales y fotografías.
       </div>
     </div>
-    <div class="seleccion_trabajos pt-20 px-64 pb-20 text-white flex flex-col justify-center">
-      <div class="twotrabajos flex gap-6 justify-center pb-6">
+    <div class="seleccion_trabajos pt-10 px-64 pb-20 text-white flex flex-col justify-center">
+      <div class="accede flex justify-center text-zinc-200 pb-10 text-xs">«Clickea en un trabajo para saber más de el»</div>
+      <div class="twotrabajos flex gap-4 justify-center pb-8">
         <div class="trabajo max-w-[600px]">
           <NuxtLink to="/packaging">
             <img class="image m-0 rounded-md max-w-[600px]" src="/img/Packaging_ruben2.png">
           </NuxtLink>
-          <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">Matutano Saludable</div>
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold">Matutano Saludable</div>
           <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Packaging</div>
         </div>
         <div class="trabajo max-w-[600px]">
           <NuxtLink to="/vino">
             <img class="image m-0 rounded-md max-w-[600px]" src="/img/Vino_1.png">
           </NuxtLink>
-          <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">PRAU - Pasión por la tierra</div>
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold">PRAU - Pasión por la tierra</div>
           <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Packaging y Marca</div>
         </div>
       </div>
-      <div class="twotrabajos flex gap-6 justify-center pb-6">
+      <div class="twotrabajos flex gap-4 justify-center pb-8">
         <div class="trabajo max-w-[600px]">
           <NuxtLink to="/libroexperimental">
             <img class="image m-0 rounded-md max-w-[600px]" src="/img/libroexperimental.gif">
           </NuxtLink>
-          <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">Metro de Madrid</div>
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold">Metro de Madrid</div>
           <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Producción</div>
         </div>
         <div class="trabajo max-w-[600px]">
           <NuxtLink to="/typenotes">
             <img class="image m-0 rounded-md max-w-[600px]" src="/img/Editorial_3.png">
           </NuxtLink>
-          <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold"> Typenotes</div>
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold"> Typenotes</div>
           <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Editorial</div>
         </div>
 
 
       </div>
 
-      <div class="twotrabajos flex gap-6 justify-center pb-6">
+      <div class="twotrabajos flex gap-4 justify-center pb-8">
         <div class="trabajo max-w-[600px]">
           <NuxtLink to="/movistar">
             <img class="image m-0 rounded-md max-w-[600px]" src="/img/Movistar.png">
           </NuxtLink>
-          <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">Movistar +</div>
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold">Movistar +</div>
           <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - After Effects</div>
         </div>
         <div class="trabajo max-w-[600px]">
           <NuxtLink to="/esdfigma">
             <img class="image m-0 rounded-md max-w-[600px]" src="/img/gifesd.gif">
           </NuxtLink>
-          <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">ESD - Página Web</div>
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold">ESD - Página Web</div>
           <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Prototipado figma</div>
         </div>
       </div>
-      <div class="twotrabajos flex gap-6 justify-center pb-6">
+      <div class="twotrabajos flex gap-4 justify-center pb-8">
         <div class="trabajo max-w-[600px]">
           <NuxtLink to="/fotos">
             <img class="image m-0 rounded-md max-w-[600px]" src="/img/postproduccion_1.png">
           </NuxtLink>
-          <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">Colección fotográfica
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold">Colección fotográfica
           </div>
           <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Fotografía</div>
         </div>
@@ -83,43 +84,43 @@
           <NuxtLink to="/modelado">
             <img class="image m-0 rounded-md max-w-[600px]" src="/img/modelado3d.gif">
           </NuxtLink>
-          <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">Colección 3D</div>
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold">Colección 3D</div>
           <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Modelado y render</div>
         </div>
 
       </div>
-      <div class="twotrabajos flex gap-6 justify-center pb-6">
+      <div class="twotrabajos flex gap-4 justify-center pb-8">
         <div class="trabajo max-w-[600px]">
           <NuxtLink to="/yelmo">
             <img class="image m-0 rounded-md max-w-[600px]" src="/img/gifyelmo.gif">
           </NuxtLink>
-          <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">Cines Yelmo</div>
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold">Cines Yelmo</div>
           <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Marca y rediseño</div>
         </div>
         <div class="trabajo max-w-[600px]">
           <NuxtLink to="/editorial">
             <img class="image m-0 rounded-md max-w-[600px]" src="/img/Mockup.jpg">
           </NuxtLink>
-          <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">El pensamiento Lateral
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold">El pensamiento Lateral
           </div>
           <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Rediseño Editorial</div>
         </div>
 
       </div>
 
-      <div class="twotrabajos flex gap-6 justify-center pb-6">
+      <div class="twotrabajos flex gap-4 justify-center pb-8">
         <div class="trabajo max-w-[600px]">
           <NuxtLink to="/kinderbueno">
             <img class="image m-0 rounded-md max-w-[600px]" src="/img/kinderbueno3.png">
           </NuxtLink>
-          <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">Kinder Bueno</div>
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold">Kinder Bueno</div>
           <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Mascota y rediseño</div>
         </div>
         <div class="trabajo max-w-[600px]">
           <NuxtLink to="/editorial">
             <img class="image m-0 rounded-md max-w-[600px]" src="/img/Mockup.jpg">
           </NuxtLink>
-          <div class="tittle_trabajo max-w-[70ch] m-0 mt-6 text-lg font-bold">El pensamiento Lateral
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold">El pensamiento Lateral
           </div>
           <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Rediseño Editorial</div>
         </div>
@@ -128,20 +129,20 @@
 
     </div>
 
-    <div class="trabajos flex pt-32 pl-40 pr-40 pb-20 text-white flex-nowrap gap-60 justify-center ">
-      <div class="titular text-[72px] font-normal flex flex-start">Programas</div>
+    <div class="trabajos flex pt-32 pl-40 pr-40 pb-20 text-white flex-nowrap gap-60 justify-center">
+      <div class="titular text-[72px] font-normal flex justify-start">Programas</div>
       <div class="programas flex flex-col gap-10">
-        <div class="three_programas flex gap-40">
+        <div class="three_programas flex gap-40 justify-start">
           <img class="image_logo" src="/img/Figma.svg" alt="">
           <img class="image_logo" src="/img/Photoshop.svg" alt="">
           <img class="image_logo" src="/img/Lightroom.svg" alt="">
         </div>
-        <div class="three_programas flex gap-40">
+        <div class="three_programas flex gap-40 justify-start">
           <img class="image_logo" src="/img/After_Effects.svg" alt="">
           <img class="image_logo" src="/img/Illustrator.svg" alt="">
           <img class="image_logo" src="/img/InDesign.svg" alt="">
         </div>
-        <div class="three_programas flex gap-40">
+        <div class="three_programas flex gap-40 justify-start">
           <img class="image_logo w-[59px] h-[58px]" src="/img/blender.png" alt="">
           <img class="image_logo w-[59px] h-[58px]" src="/img/Cinema4d.png" alt="">
           <img class="image_logo rounded-lg w-[59px] h-[58px]" src="/img/Procreate.png" alt="">
@@ -297,40 +298,29 @@
 
 
     <div class="links_rrss pt-32 px-80 pb-32 text-white justify-center flex flex-row gap-60">
-      <div class="email text-lg flex gap-2 items-center">ruben.maldonado.graphic@gmail.com
-        <NuxtLink to="/">
-          <img class="vector" src="/img/Vector-11.svg">
-        </NuxtLink>
-      </div>
-      <div class="links flex flex-col gap-2">
-        <div class="links1 flex gap-32">
-          <a class="red flex gap-2 items-center" href="https://www.instagram.com/ruben.artes/">Instagram
-            <NuxtLink to="/">
-              <img class="vector" src="/img/Vector-11.svg">
-            </NuxtLink>
-          </a>
-          <a class="red flex gap-2 items-center" href="https://www.behance.net/rubenartes">Behance
-            <NuxtLink to="/">
-              <img class="vector" src="/img/Vector-11.svg">
-            </NuxtLink>
-          </a>
+            <div class="email text-lg flex gap-2 items-center">ruben.maldonado.graphic@gmail.com
+                    <img class="vector" src="/img/Vector-11.svg">
+            </div>
+            <div class="links flex flex-col gap-2">
+                <div class="links1 flex gap-32">
+                    <a class="red flex gap-2 items-center" href="https://www.instagram.com/ruben.artes/">Instagram
+                            <img class="vector" src="/img/Vector-11.svg">
+                    </a>
+                    <a class="red flex gap-2 items-center" href="https://www.behance.net/rubenartes">Behance
+                            <img class="vector" src="/img/Vector-11.svg">
+                    </a>
+                </div>
+                <div class="links2 flex gap-32 flex-end">
+                    <a class="red flex gap-2 items-center" href="https://www.instagram.com/ruben.iso">Instagram
+                            <img class="vector" src="/img/Vector-11.svg">
+
+                    </a> <a class="red flex gap-2 items-center" href="https://www.linkedin.com/in/rubenmaldonado10">LinkedIn
+                            <img class="vector" src="/img/Vector-11.svg">
+                    </a>
+                </div>
+            </div>
+
         </div>
-        <div class="links2 flex gap-32 flex-end">
-          <a class="red flex gap-2 items-center" href="https://www.instagram.com/ruben.iso">Instagram
-            <NuxtLink to="/">
-              <img class="vector" src="/img/Vector-11.svg">
-            </NuxtLink>
-
-
-          </a> <a class="red flex gap-2 items-center" href="https://www.linkedin.com/in/rubenmaldonado10">LinkedIn
-            <NuxtLink to="/">
-              <img class="vector" src="/img/Vector-11.svg">
-            </NuxtLink>
-          </a>
-        </div>
-      </div>
-
-    </div>
 
     <div class="foter bg-black p-10 flex text-white justify-between sticky top-0">
       <div class="foter_image flex flex-start">
@@ -365,5 +355,8 @@
   &:hover
     @apply opacity-100
 
+.red
+  &:hover
+      @apply text-zinc-300
 
 </style>

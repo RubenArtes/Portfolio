@@ -84,40 +84,29 @@
   
   
       <div class="links_rrss pt-32 px-80 pb-32 text-white justify-center flex flex-row gap-60">
-        <div class="email text-lg flex gap-2 items-center">ruben.maldonado.graphic@gmail.com
-          <NuxtLink to="/">
-            <img class="vector" src="/img/Vector-11.svg">
-          </NuxtLink>
+            <div class="email text-lg flex gap-2 items-center">ruben.maldonado.graphic@gmail.com
+                    <img class="vector" src="/img/Vector-11.svg">
+            </div>
+            <div class="links flex flex-col gap-2">
+                <div class="links1 flex gap-32">
+                    <a class="red flex gap-2 items-center" href="https://www.instagram.com/ruben.artes/">Instagram
+                            <img class="vector" src="/img/Vector-11.svg">
+                    </a>
+                    <a class="red flex gap-2 items-center" href="https://www.behance.net/rubenartes">Behance
+                            <img class="vector" src="/img/Vector-11.svg">
+                    </a>
+                </div>
+                <div class="links2 flex gap-32 flex-end">
+                    <a class="red flex gap-2 items-center" href="https://www.instagram.com/ruben.iso">Instagram
+                            <img class="vector" src="/img/Vector-11.svg">
+
+                    </a> <a class="red flex gap-2 items-center" href="https://www.linkedin.com/in/rubenmaldonado10">LinkedIn
+                            <img class="vector" src="/img/Vector-11.svg">
+                    </a>
+                </div>
+            </div>
+
         </div>
-        <div class="links flex flex-col gap-2">
-          <div class="links1 flex gap-32">
-            <a class="red flex gap-2 items-center" href="https://www.instagram.com/ruben.artes/">Instagram
-              <NuxtLink to="/">
-                <img class="vector" src="/img/Vector-11.svg">
-              </NuxtLink>
-            </a>
-            <a class="red flex gap-2 items-center" href="https://www.behance.net/rubenartes">Behance
-              <NuxtLink to="/">
-                <img class="vector" src="/img/Vector-11.svg">
-              </NuxtLink>
-            </a>
-          </div>
-          <div class="links2 flex gap-32 flex-end">
-            <a class="red flex gap-2 items-center" href="https://www.instagram.com/ruben.iso">Instagram
-              <NuxtLink to="/">
-                <img class="vector" src="/img/Vector-11.svg">
-              </NuxtLink>
-  
-  
-            </a> <a class="red flex gap-2 items-center" href="https://www.linkedin.com/in/rubenmaldonado10">LinkedIn
-              <NuxtLink to="/">
-                <img class="vector" src="/img/Vector-11.svg">
-              </NuxtLink>
-            </a>
-          </div>
-        </div>
-  
-      </div>
   
       <div class="foter bg-black p-10 flex text-white justify-between sticky top-0">
         <div class="foter_image flex flex-start">
