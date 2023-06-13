@@ -117,7 +117,7 @@
           <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400">Diseño Gráfico - Mascota y rediseño</div>
         </div>
         <div class="trabajo max-w-[600px]">
-          <NuxtLink to="/editorial">
+          <NuxtLink to="/ilustraciones">
             <img class="image m-0 rounded-md max-w-[600px]" src="/img/Mockup.jpg">
           </NuxtLink>
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold">El pensamiento Lateral

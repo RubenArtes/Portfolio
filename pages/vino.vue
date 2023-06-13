@@ -80,7 +80,7 @@
                 <img class="image_grid w-full h-full" src="/img/mermelada.png" alt="">
             </div>
 
-            <div class="grid grid-cols-3 gap-2 pb-6">
+            <div class="grid grid-cols-3 pt-10 gap-2 pb-6">
                 <img class="image_grid w-full h-full drop-shadow-md" src="/img/mockupmer.png" alt="">
                 <img class="image_grid w-full h-full drop-shadow-md" src="/img/mockupmer_2.png" alt="">
                 <img class="image_grid w-full h-full drop-shadow-md" src="/img/mockupmer_3.png" alt="">
@@ -101,7 +101,7 @@
                 <img class="image_grid w-full h-full" src="/img/vino.png" alt="">
             </div>
 
-            <div class="grid grid-cols-3 gap-2 pb-6">
+            <div class="grid grid-cols-3 pt-10 gap-2 pb-6">
                 <img class="image_grid w-full h-full drop-shadow-md" src="/img/vinomoc_1.png" alt="">
                 <img class="image_grid w-full h-full drop-shadow-md" src="/img/vinomoc_2.png" alt="">
                 <img class="image_grid w-full h-full drop-shadow-md" src="/img/vinomoc_3.jpg" alt="">
@@ -140,7 +140,7 @@
                 → Queso de cabra - Cabra
             </div>
 
-            <div class="grid grid-cols-3 pb-6">
+            <div class="grid grid-cols-3 pt-10 border-b border-[#C9D2E8] pb-16">
                 <img class="image_grid w-full h-full" src="/img/1.png" alt="">
                 <img class="image_grid w-full h-full" src="/img/2.png" alt="">
                 <img class="image_grid w-full h-full" src="/img/3.png" alt="">
@@ -150,7 +150,7 @@
         </div>
 
 
-        <div class="images pt-20 px-64 pb-10 text-zinc-600 justify-center">
+        <div class="images px-64 pb-10 text-zinc-600 justify-center">
             <img src="/img/presentacionvinos.png" alt="">
         </div>
 
