@@ -1,158 +1,158 @@
 <template>
-  <div class="app bg-black max-md:max-w-[768px]">
+  <div class="app bg-black">
 
-    <div class="header bg-black p-10 flex text-white justify-between sticky top-0 z-10 max-md:p-6 max-md:sticky">
+    <div class="header bg-black p-10 flex text-white justify-between sticky top-0 z-10 max-lg:p-6 max-lg:sticky">
       <div class="image flex flex-start">
-        <img class="max-md:max-w-[15px]" src="/img/Vector.svg">
+        <img class="max-lg:max-w-[15px]" src="/img/Vector.svg">
       </div>
-      <div class="email text-lg flex gap-2 items-center max-md:text-xs">ruben.maldonado.graphic@gmail.com
-        <img class="vector max-md:max-w-[8px]" src="/img/Vector-11.svg">
+      <div class="email text-lg flex gap-2 items-center max-lg:text-xs">ruben.maldonado.graphic@gmail.com
+        <img class="vector max-lg:max-w-[8px]" src="/img/Vector-11.svg">
       </div>
     </div>
 
-    <div class="trabajos flex pt-20 px-64 pb-20 text-white flex-nowrap items-center gap-28 justify-center max-md:pt-16 max-md:px-10 max-md:flex-col max-md:justify-center max-md:gap-10">
-      <div class="titular text-[115px] font-normal flex gap-2 items-start max-md:max-w-[200px] max-md:text-[70px] max-md:justify-center">Portfolio
+    <div class="trabajos flex pt-20 px-64 pb-20 text-white flex-nowrap items-center gap-28 justify-center max-lg:pt-16 max-lg:px-10 max-lg:flex-col max-lg:justify-center max-lg:gap-10">
+      <div class="titular text-[115px] font-normal flex gap-2 items-start max-lg:max-w-[200px] max-lg:text-[70px] max-lg:justify-center">Portfolio
         <img class="info" src="/img/info.svg">
       </div>
-      <div class="text max-w-[60ch] max-md:justify-center max-md:text-[16px] max-md:text-center">Mis diferentes trabajos durante la carrera y proyectos personales. Desde editorial,
+      <div class="text max-w-[60ch] max-lg:justify-center max-lg:text-[16px] max-lg:text-center">Mis diferentes trabajos durante la carrera y proyectos personales. Desde editorial,
         packaging y web, hasta ilustraciones, audiovisuales y fotografías.
       </div>
     </div>
-    <div class="seleccion_trabajos pt-10 px-64 pb-20 text-white flex flex-col justify-center max-md:px-10">
+    <div class="seleccion_trabajos pt-10 px-64 pb-20 text-white flex flex-col justify-center max-lg:px-10 max-lg:justify-items-center max-lg:justify-center">
       <div class="accede flex justify-center text-zinc-200 pb-10 text-xs">«Clickea en un trabajo para saber más de el»</div>
-      <div class="twotrabajos flex gap-4 justify-center pb-8 max-md:flex-col">
-        <div class="trabajo max-w-[600px] max-md:max-w-[350px]">
+      <div class="twotrabajos p-0 flex gap-4 justify-center pb-8 max-lg:flex-col max-lg:justify-items-center max-lg:items-center max-lg:px-10">
+        <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
           <NuxtLink to="/packaging">
-            <img class="image m-0 rounded-md max-w-[600px] max-md:max-w-[350px]" src="/img/Packaging_ruben2.png">
+            <img class="image m-0 rounded-lg max-w-[600px] max-lg:max-w-[300px]" src="/img/Packaging_ruben2.png">
           </NuxtLink>
-          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-md:text-[16px] max-md:mt-2">Matutano Saludable</div>
-          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-md:text-[12px] max-md:mb-4">Diseño Gráfico - Packaging</div>
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-2">Matutano Saludable</div>
+          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:mb-4">Diseño Gráfico - Packaging</div>
         </div>
-        <div class="trabajo max-w-[600px] max-md:max-w-[350px]">
+        <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
           <NuxtLink to="/vino">
-            <img class="image m-0 rounded-md max-w-[600px] max-md:max-w-[350px]" src="/img/Vino_1.png">
+            <img class="image m-0 rounded-lg max-w-[600px] max-lg:max-w-[300px]" src="/img/Vino_1.png">
           </NuxtLink>
-          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-md:text-[16px] max-md:mt-2">PRAU - Pasión por la tierra</div>
-          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-md:text-[12px] max-md:mb-4">Diseño Gráfico - Packaging y Marca</div>
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-2">PRAU - Pasión por la tierra</div>
+          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:mb-4">Diseño Gráfico - Packaging y Marca</div>
         </div>
       </div>
-      <div class="twotrabajos flex gap-4 justify-center pb-8 max-md:flex-col">
-        <div class="trabajo max-w-[600px] max-md:max-w-[350px]">
+      <div class="twotrabajos p-0 flex gap-4 justify-center pb-8 max-lg:flex-col max-lg:justify-items-center max-lg:items-center max-lg:px-10">
+        <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col ">
           <NuxtLink to="/libroexperimental">
-            <img class="image m-0 rounded-md max-w-[600px] max-md:max-w-[350px]" src="/img/libroexperimental.gif">
+            <img class="image m-0 rounded-lg max-w-[600px] max-lg:max-w-[300px]" src="/img/libroexperimental.gif">
           </NuxtLink>
-          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-md:text-[16px] max-md:mt-2">Metro de Madrid</div>
-          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-md:text-[12px] max-md:mb-4">Diseño Gráfico - Producción</div>
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-2">Metro de Madrid</div>
+          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:mb-4">Diseño Gráfico - Producción</div>
         </div>
-        <div class="trabajo max-w-[600px] max-md:max-w-[350px]">
+        <div class="trabajo max-w-[600px]max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
           <NuxtLink to="/typenotes">
-            <img class="image m-0 rounded-md max-w-[600px] max-md:max-w-[350px]" src="/img/Editorial_3.png">
+            <img class="image m-0 rounded-lg max-w-[600px] max-lg:max-w-[300px]" src="/img/Editorial_3.png">
           </NuxtLink>
-          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-md:text-[16px] max-md:mt-2"> Typenotes</div>
-          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-md:text-[12px] max-md:mb-4">Diseño Gráfico - Editorial</div>
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-2"> Typenotes</div>
+          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:mb-4">Diseño Gráfico - Editorial</div>
         </div>
 
 
       </div>
 
-      <div class="twotrabajos flex gap-4 justify-center pb-8 max-md:flex-col">
-        <div class="trabajo max-w-[600px] max-md:max-w-[350px]">
+      <div class="twotrabajos p-0 flex gap-4 justify-center pb-8 max-lg:flex-col max-lg:justify-items-center max-lg:items-center max-lg:px-10">
+        <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
           <NuxtLink to="/movistar">
-            <img class="image m-0 rounded-md max-w-[600px] max-md:max-w-[350px]" src="/img/Movistar.png">
+            <img class="image m-0 rounded-lg max-w-[600px] max-lg:max-w-[300px]" src="/img/Movistar.png">
           </NuxtLink>
-          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-md:text-[16px] max-md:mt-2">Movistar +</div>
-          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-md:text-[12px] max-md:mb-4">Diseño Gráfico - After Effects</div>
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-2">Movistar +</div>
+          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:mb-4">Diseño Gráfico - After Effects</div>
         </div>
-        <div class="trabajo max-w-[600px] max-md:max-w-[350px]">
+        <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
           <NuxtLink to="/esdfigma">
-            <img class="image m-0 rounded-md max-w-[600px] max-md:max-w-[350px]" src="/img/gifesd.gif">
+            <img class="image m-0 rounded-lg max-w-[600px] max-lg:max-w-[300px]" src="/img/gifesd.gif">
           </NuxtLink>
-          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-md:text-[16px] max-md:mt-2">ESD - Página Web</div>
-          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-md:text-[12px] max-md:mb-4">Diseño Gráfico - Prototipado figma</div>
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-2">ESD - Página Web</div>
+          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:mb-4">Diseño Gráfico - Prototipado figma</div>
         </div>
       </div>
-      <div class="twotrabajos flex gap-4 justify-center pb-8 max-md:flex-col">
-        <div class="trabajo max-w-[600px] max-md:max-w-[350px]">
+      <div class="twotrabajos p-0 flex gap-4 justify-center pb-8 max-lg:flex-col max-lg:justify-items-center max-lg:items-center max-lg:px-10">
+        <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
           <NuxtLink to="/fotos">
-            <img class="image m-0 rounded-md max-w-[600px] max-md:max-w-[350px]" src="/img/postproduccion_1.png">
+            <img class="image m-0 rounded-lg max-w-[600px] max-lg:max-w-[300px]" src="/img/postproduccion_1.png">
           </NuxtLink>
-          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-md:text-[16px] max-md:mt-2">Colección fotográfica
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-2">Colección fotográfica
           </div>
-          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-md:text-[12px] max-md:mb-4">Diseño Gráfico - Fotografía</div>
+          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:mb-4">Diseño Gráfico - Fotografía</div>
         </div>
-        <div class="trabajo max-w-[600px] max-md:max-w-[350px]">
+        <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
           <NuxtLink to="/modelado">
-            <img class="image m-0 rounded-md max-w-[600px] max-md:max-w-[350px]" src="/img/modelado3d.gif">
+            <img class="image m-0 rounded-lg max-w-[600px] max-lg:max-w-[300px]" src="/img/modelado3d.gif">
           </NuxtLink>
-          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-md:text-[16px] max-md:mt-2">Colección 3D</div>
-          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-md:text-[12px] max-md:mb-4">Diseño Gráfico - Modelado y render</div>
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-2">Colección 3D</div>
+          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:mb-4">Diseño Gráfico - Modelado y render</div>
         </div>
 
       </div>
-      <div class="twotrabajos flex gap-4 justify-center pb-8 max-md:flex-col">
-        <div class="trabajo max-w-[600px] max-md:max-w-[350px]">
+      <div class="twotrabajos p-0 flex gap-4 justify-center pb-8 max-lg:flex-col max-lg:justify-items-center max-lg:items-center max-lg:px-10">
+        <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
           <NuxtLink to="/yelmo">
-            <img class="image m-0 rounded-md max-w-[600px] max-md:max-w-[350px]" src="/img/gifyelmo.gif">
+            <img class="image m-0 rounded-lg max-w-[600px] max-lg:max-w-[300px]" src="/img/gifyelmo.gif">
           </NuxtLink>
-          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-md:text-[16px] max-md:mt-2">Cines Yelmo</div>
-          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-md:text-[12px] max-md:mb-4">Diseño Gráfico - Marca y rediseño</div>
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-2">Cines Yelmo</div>
+          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:mb-4">Diseño Gráfico - Marca y rediseño</div>
         </div>
-        <div class="trabajo max-w-[600px] max-md:max-w-[350px]">
+        <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
           <NuxtLink to="/editorial">
-            <img class="image m-0 rounded-md max-w-[600px] max-md:max-w-[350px]" src="/img/Mockup.jpg">
+            <img class="image m-0 rounded-lg max-w-[600px] max-lg:max-w-[300px]" src="/img/Mockup.jpg">
           </NuxtLink>
-          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-md:text-[16px] max-md:mt-2">El pensamiento Lateral
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-2">El pensamiento Lateral
           </div>
-          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-md:text-[12px] max-md:mb-4">Diseño Gráfico - Rediseño Editorial</div>
+          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:mb-4">Diseño Gráfico - Rediseño Editorial</div>
         </div>
 
       </div>
 
-      <div class="twotrabajos flex gap-4 justify-center pb-8 max-md:flex-col">
-        <div class="trabajo max-w-[600px] max-md:max-w-[350px]">
+      <div class="twotrabajos p-0 flex gap-4 justify-center pb-8 max-lg:flex-col max-lg:justify-items-center max-lg:items-center max-lg:px-10">
+        <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
           <NuxtLink to="/kinderbueno">
-            <img class="image m-0 rounded-md max-w-[600px] max-md:max-w-[350px]" src="/img/kinderbueno3.png">
+            <img class="image m-0 rounded-lg max-w-[600px] max-lg:max-w-[300px]" src="/img/kinderbueno3.png">
           </NuxtLink>
-          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-md:text-[16px] max-md:mt-2">Kinder Bueno</div>
-          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-md:text-[12px] max-md:mb-4">Ilustración - Mascota y rediseño</div>
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-2">Kinder Bueno</div>
+          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:mb-4">Ilustración - Mascota y rediseño</div>
         </div>
-        <div class="trabajo max-w-[600px] max-md:max-w-[350px]">
+        <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
           <NuxtLink to="/ilustraciones">
-            <img class="image m-0 rounded-md max-w-[600px] max-md:max-w-[350px]" src="/img/ilustraciones.png">
+            <img class="image m-0 rounded-lg max-w-[600px] max-lg:max-w-[300px]" src="/img/ilustraciones.png">
           </NuxtLink>
-          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-md:text-[16px] max-md:mt-2">Colección de ilustraciones
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-2">Colección de ilustraciones
           </div>
-          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-md:text-[12px] max-md:mb-4">Ilustración - Dibujos e ilustraciones</div>
+          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:mb-4">Ilustración - Dibujos e ilustraciones</div>
         </div>
 
       </div>
 
     </div>
 
-    <div class="trabajos flex pt-32 pl-40 pr-40 pb-20 text-white flex-nowrap gap-60 justify-center max-md:pt-6 max-md:px-10 max-md:flex-col max-md:justify-items-center max-md:gap-20">
-      <div class="titular text-[72px] font-normal flex flex-col max-md:max-w-[200px] max-md:justify-center max-md-justify-items-center max-md:text-[60px]">Programas</div>
-      <div class="programas flex flex-col gap-10 max-md:gap-8">
-        <div class="three_programas flex gap-40 justify-start max-md:gap-10 max-md:justify-center">
-          <img class="image_logo max-md:max-w-[50px]" src="/img/Figma.svg" alt="">
-          <img class="image_logo max-md:max-w-[50px]" src="/img/Photoshop.svg" alt="">
-          <img class="image_logo max-md:max-w-[50px]" src="/img/Lightroom.svg" alt="">
+    <div class="trabajos flex pt-32 pl-40 pr-40 pb-20 text-white flex-nowrap gap-60 justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20">
+      <div class="titular text-[72px] font-normal flex flex-col max-lg:max-w-[200px] max-lg:justify-center max-lg-justify-items-center max-lg:text-[60px]">Programas</div>
+      <div class="programas flex flex-col gap-10 max-lg:gap-8">
+        <div class="three_programas flex gap-20 justify-start max-lg:gap-10 max-lg:justify-center">
+          <img class="image_logo max-w-[50px] max-lg:max-w-[50px]" src="/img/Figma.svg" alt="">
+          <img class="image_logo max-w-[50px] max-lg:max-w-[50px]" src="/img/Photoshop.svg" alt="">
+          <img class="image_logo max-w-[50px] max-lg:max-w-[50px]" src="/img/Lightroom.svg" alt="">
         </div>
-        <div class="three_programas flex gap-40 justify-start max-md:gap-10 max-md:justify-center">
-          <img class="image_logo max-md:max-w-[50px]" src="/img/After_Effects.svg" alt="">
-          <img class="image_logo max-md:max-w-[50px]" src="/img/Illustrator.svg" alt="">
-          <img class="image_logo max-md:max-w-[50px]" src="/img/InDesign.svg" alt="">
+        <div class="three_programas flex gap-20 justify-start max-lg:gap-10 max-lg:justify-center">
+          <img class="image_logo max-w-[50px] max-lg:max-w-[50px]" src="/img/After_Effects.svg" alt="">
+          <img class="image_logo max-w-[50px] max-lg:max-w-[50px]" src="/img/Illustrator.svg" alt="">
+          <img class="image_logo max-w-[50px] max-lg:max-w-[50px]" src="/img/InDesign.svg" alt="">
         </div>
-        <div class="three_programas flex gap-40 justify-start max-md:gap-10 max-md:justify-center">
-          <img class="image_logo w-[59px] h-[58px] max-md:max-w-[50px] max-md:max-h-[49px]" src="/img/blender.png" alt="">
-          <img class="image_logo w-[59px] h-[58px] max-md:max-w-[50px] max-md:max-h-[49px]" src="/img/Cinema4d.png" alt="">
-          <img class="image_logo rounded-lg w-[59px] h-[58px] max-md:max-w-[50px] max-md:max-h-[49px]" src="/img/Procreate.png" alt="">
+        <div class="three_programas flex gap-20 justify-start max-lg:gap-10 max-lg:justify-center">
+          <img class="image_logo w-[50px] h-[49px] max-lg:max-w-[50px] max-lg:max-h-[49px]" src="/img/blender.png" alt="">
+          <img class="image_logo w-[50px] h-[49px] max-lg:max-w-[50px] max-lg:max-h-[49px]" src="/img/Cinema4d.png" alt="">
+          <img class="image_logo rounded-lg w-[50px] h-[49px] max-lg:max-w-[50px] max-lg:max-h-[49px]" src="/img/Procreate.png" alt="">
         </div>
       </div>
     </div>
 
-    <div class="trabajos flex pt-32 pl-40 pr-40 pb-20 text-white flex-nowrap gap-60 justify-center max-md:pt-6 max-md:px-10 max-md:flex-col max-md:justify-items-center max-md:gap-20">
+    <div class="trabajos flex pt-32 pl-40 pr-40 pb-20 text-white flex-nowrap gap-60 justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20">
       <div class="sticky_menu">
-        <div class="titular flex flex-col text-[72px] font-normal sticky top-24 max-md:text-[60px]">Servicios</div>
+        <div class="titular flex flex-col text-[72px] font-normal sticky top-24 max-lg:text-[60px]">Servicios</div>
       </div>
 
       <div class="servicios_ofrecidos flex flex-col gap-6">
@@ -226,9 +226,9 @@
 
     </div>
 
-    <div class="trabajos flex pt-32 pl-40 pr-40 pb-20 text-white flex-nowrap gap-60 justify-center max-md:pt-6 max-md:px-10 max-md:flex-col max-md:justify-items-center max-md:gap-20">
+    <div class="trabajos flex pt-32 pl-40 pr-40 pb-20 text-white flex-nowrap gap-60 justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20">
       <div class="sticky_menu">
-        <div class="titular flex flex-col text-[72px] font-normal sticky top-24 max-md:text-[60px]">Sobre mi</div>
+        <div class="titular flex flex-col text-[72px] font-normal sticky top-24 max-lg:text-[60px]">Sobre mi</div>
       </div>
       <div class="servicios_ofrecidos flex flex-col gap-6">
         <div class="servicio flex flex-col gap-6">
@@ -248,9 +248,9 @@
 
     </div>
 
-    <div class="trabajos flex pt-32 pl-40 pr-40 pb-20 text-white flex-nowrap gap-60 justify-center max-md:pt-6 max-md:px-10 max-md:flex-col max-md:justify-items-center max-md:gap-20">
+    <div class="trabajos flex pt-32 pl-40 pr-40 pb-20 text-white flex-nowrap gap-60 justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20">
       <div class="sticky_menu">
-        <div class="titular flex flex-col text-[72px] font-normal sticky top-24 max-md:text-[60px]">Trabajos</div>
+        <div class="titular flex flex-col text-[72px] font-normal sticky top-24 max-lg:text-[60px]">Trabajos</div>
       </div>
       <div class="servicios_ofrecidos flex flex-col gap-6">
         <div class="servicio flex flex-col gap-6">
@@ -275,9 +275,9 @@
 
     </div>
 
-    <div class="trabajos flex pt-32 pl-40 pr-40 pb-20 text-white flex-nowrap gap-60 justify-center max-md:pt-6 max-md:px-10 max-md:flex-col max-md:justify-items-center max-md:gap-20">
+    <div class="trabajos flex pt-32 pl-40 pr-40 pb-20 text-white flex-nowrap gap-60 justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20">
       <div class="sticky_menu">
-        <div class="titular flex flex-col text-[72px] font-normal sticky top-24 max-md:text-[60px]">Estudios</div>
+        <div class="titular flex flex-col text-[72px] font-normal sticky top-24 max-lg:text-[60px]">Estudios</div>
       </div>
       <div class="servicios_ofrecidos flex flex-col gap-6">
         <div class="servicio flex flex-col gap-6">
@@ -297,24 +297,24 @@
     </div>
 
 
-    <div class="links_rrss pt-32 px-80 pb-32 text-white justify-center flex flex-row gap-60 max-md:pt-6 max-md:px-10 max-md:flex-col max-md:justify-items-center max-md:gap-20 max-md:flex max-md:justify-center">
-            <div class="email text-lg flex gap-2 items-center max-md:text-[14px] max-md:justify-center">ruben.maldonado.graphic@gmail.com
+    <div class="links_rrss pt-32 px-80 pb-32 text-white justify-center flex flex-row gap-60 max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20 max-lg:flex max-lg:justify-center">
+            <div class="email text-lg flex gap-2 items-center max-lg:text-[14px] max-lg:justify-center">ruben.maldonado.graphic@gmail.com
                     <img class="vector" src="/img/Vector-11.svg">
             </div>
-            <div class="links flex flex-col gap-2 max-md:justify-center">
-                <div class="links1 flex gap-32 max-md:justify-center">
-                    <a class="red flex gap-2 items-center max-md:text-[14px]" href="https://www.instagram.com/ruben.artes/">Instagram
+            <div class="links flex flex-col gap-2 max-lg:justify-center">
+                <div class="links1 flex gap-32 max-lg:justify-center">
+                    <a class="red flex gap-2 items-center max-lg:text-[14px]" href="https://www.instagram.com/ruben.artes/">Instagram
                             <img class="vector" src="/img/Vector-11.svg">
                     </a>
-                    <a class="red flex gap-2 items-center max-md:text-[14px]" href="https://www.behance.net/rubenartes">Behance
+                    <a class="red flex gap-2 items-center max-lg:text-[14px]" href="https://www.behance.net/rubenartes">Behance
                             <img class="vector" src="/img/Vector-11.svg">
                     </a>
                 </div>
-                <div class="links2 flex gap-32 flex-end max-md:justify-center">
-                    <a class="red flex gap-2 items-center max-md:text-[14px]" href="https://www.instagram.com/ruben.iso">Instagram
+                <div class="links2 flex gap-32 flex-end max-lg:justify-center">
+                    <a class="red flex gap-2 items-center max-lg:text-[14px]" href="https://www.instagram.com/ruben.iso">Instagram
                             <img class="vector" src="/img/Vector-11.svg">
 
-                    </a> <a class="red flex gap-2 items-center max-md:text-[14px]" href="https://www.linkedin.com/in/rubenmaldonado10">LinkedIn
+                    </a> <a class="red flex gap-2 items-center max-lg:text-[14px]" href="https://www.linkedin.com/in/rubenmaldonado10">LinkedIn
                             <img class="vector" src="/img/Vector-11.svg">
                     </a>
                 </div>
@@ -322,12 +322,12 @@
 
         </div>
 
-    <div class="foter bg-black p-10 flex text-white justify-between sticky top-0 max-md:p-6">
+    <div class="foter bg-black p-10 flex text-white justify-between sticky top-0 max-lg:p-6">
       <div class="foter_image flex flex-start">
-        <img class="vector max-md:max-w-[15px]" src="/img/star.svg">
+        <img class="vector max-lg:max-w-[15px]" src="/img/star.svg">
       </div>
-      <div class="email flex gap-2 items-center text-sm max-md:text-xs">Ruben Maldonado González
-        <img class="vector max-md:max-w-[15px]" src="/img/futbol.svg">
+      <div class="email flex gap-2 items-center text-sm max-lg:text-xs">Ruben Maldonado González
+        <img class="vector max-lg:max-w-[15px]" src="/img/futbol.svg">
       </div>
     </div>
 
