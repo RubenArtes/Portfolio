@@ -24,7 +24,7 @@
                 </div>
             </div>
         </div>
-        <div class="video flex px-64 pb-20 text-white flex-nowrap items-center gap-64 justify-center">
+        <div class="video flex px-64 pt-10 pb-20 text-white flex-nowrap items-center gap-64 justify-center">
             <video width="1240" height="788" loop autoplay controls>
                 <source src="/img/videoilustraciones.mp4" type="video/mp4">
                 Your browser does not support the video tag.
