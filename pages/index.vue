@@ -1,5 +1,5 @@
 <template>
-  <div class="app bg-black max-md:max-w-[600px]">
+  <div class="app bg-black max-md:max-w-[768px]">
 
     <div class="header bg-black p-10 flex text-white justify-between sticky top-0 z-10 max-md:p-6 max-md:sticky">
       <div class="image flex flex-start">

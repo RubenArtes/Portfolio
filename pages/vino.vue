@@ -1,5 +1,5 @@
 <template>
-    <div class="app bg-[#EAEEF6]">
+    <div class="app bg-[#EAEEF6] max-md:max-w-[768px]">
         <div class="header bg-[#C9D2E8] p-10 flex text-white justify-between sticky top-0 z-10 max-md:p-6 max-md:items-center">
             <div class="image flex flex-start">
                 <NuxtLink to="/">
@@ -150,7 +150,7 @@
         </div>
 
 
-        <div class="images px-64 pb-10 text-zinc-600 justify-center">
+        <div class="images px-64 pb-10 text-zinc-600 justify-center max-md:pt-2 max-md:pb-2 max-md:px-10 max-md:flex-col max-md:justify-center max-md:gap-4">
             <img src="/img/presentacionvinos.png" alt="">
         </div>
 
