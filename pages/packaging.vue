@@ -162,7 +162,7 @@
             </div>
         </div>
 
-        <div class="links_rrss pt-32 px-80 pb-32 text-zinc-600 justify-center flex flex-row gap-60 max-md:pt-20 max-md:px-10 max-md:flex-col max-md:justify-items-center max-md:gap-20 max-md:flex max-md:justify-center">
+        <div class="links_rrss pt-32 px-80 pb-32 text-zinc-600 justify-center flex flex-row gap-60 max-md:pt-20 max-md:px-10 max-md:flex-col max-md:justify-items-center max-md:gap-20 max-md:flex max-md:justify-center max-md:pb-20">
             <div class="email text-lg flex gap-2 items-center max-md:text-[14px] max-md:justify-center">ruben.maldonado.graphic@gmail.com
                     <img class="vector" src="/img/Vector-11zinc.svg">
             </div>

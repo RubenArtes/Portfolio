@@ -1,23 +1,23 @@
 <template>
-    <div class="app bg-black">
-        <div class="header bg-black p-10 flex text-white justify-between sticky top-0 z-10">
+    <div class="app bg-black max-md:max-w-[768px]">
+        <div class="header bg-black p-10 flex text-white justify-between sticky top-0 z-10 max-md:p-6 max-md:items-center">
             <div class="image flex flex-start">
                 <NuxtLink to="/">
-                    <img class="vector" src="/img/Vector.svg">
+                    <img class="vector max-md:max-w-[15px]" src="/img/Vector.svg">
                 </NuxtLink>
             </div>
-            <div class="email text-lg flex gap-2 items-center">ruben.maldonado.graphic@gmail.com
+            <div class="email text-lg flex gap-2 items-center max-md:text-xs">ruben.maldonado.graphic@gmail.com
                 <NuxtLink to="/">
-                    <img class="vector" src="/img/Vector-11.svg">
+                    <img class="vector max-md:max-w-[8px]" src="/img/Vector-11.svg">
                 </NuxtLink>
             </div>
         </div>
-        <div class="trabajos flex pt-20 px-40 pb-20 text-white flex-nowrap items-center gap-64 justify-center">
-            <div class="titular text-[70px] font-normal max-w-[13ch] leading-12">Editorial</div>
+        <div class="trabajos flex pt-20 px-40 pb-20 text-white flex-nowrap items-center gap-64 justify-center max-md:pt-16 max-md:px-10 max-md:flex-col max-md:justify-center max-md:gap-10">
+            <div class="titular text-[70px] font-normal max-w-[13ch] leading-12 max-md:text-[70px] max-md:justify-center">Editorial</div>
             <div class="info flex flex-col gap-6">
-                <div class="text max-w-[60ch] text-[16px] leading-10 text-zinc-200">Rediseño Editorial - Maquetación -
+                <div class="text max-w-[60ch] text-[16px] leading-10 text-zinc-200 max-md:text-xs">Rediseño Editorial - Maquetación -
                     Diseño Gráfico</div>
-                <div class="text max-w-[60ch] text-[20px] leading-8 text-zinc-400 font-bold">Este trabajo consiste en el
+                <div class="text max-w-[60ch] text-[20px] leading-8 text-zinc-400 font-bold max-md:text-sm max-md:max-w-[40ch]">Este trabajo consiste en el
                     rediseño de un libro, en
                     este caso se
                     rediseña el ejemplar de Edward de Bono - El pensamiento Lateral. Con la misión de crear una
@@ -25,18 +25,18 @@
                 </div>
             </div>
         </div>
-        <div class="video flex pt-20 px-64 pb-20 text-white flex-nowrap items-center gap-64 justify-center">
+        <div class="video flex pt-20 px-64 pb-20 text-white flex-nowrap items-center gap-64 justify-center max-md:pt-2 max-md:pb-2 max-md:px-10 max-md:flex-col max-md:justify-center max-md:gap-10">
             <video width="1240" height="788" loop autoplay controls>
                 <source src="/img/Comp_1.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
 
         </div>
-        <div class="colum flex pt-20 px-64 pb-10 text-white gap-32 justify-center">
+        <div class="colum flex pt-20 px-64 pb-10 text-white gap-32 justify-center max-md:pt-16 max-md:px-10 max-md:flex-col max-md:justify-center max-md:gap-10">
             <div class="info_proyect max-w-[80ch]">
                 <div class="info_secondary flex flex-col gap-6 sticky top-32">
                     <div class="text max-w-[60ch] text-[32px] leading-10 text-white">Colección de libros</div>
-                    <div class="text text-[16px] leading-6 text-zinc-400 font-normal max-w-[64ch]">
+                    <div class="text text-[16px] leading-6 text-zinc-400 font-normal max-w-[64ch] max-md:text-xs">
                         Mi idea de maquetación
                         final ha sido crear un
                         libro que pueda basarse en una maquetación formal
@@ -84,24 +84,24 @@
             </div>
         </div>
 
-        <div class="images pt-20 px-64 pb-10 text-white justify-center flex flex-col gap-10">
+        <div class="images pt-20 px-64 pb-10 text-white justify-center flex flex-col gap-10 max-md:pt-2 max-md:pb-2 max-md:px-10 max-md:flex-col max-md:justify-center max-md:gap-4">
             <div class="text max-w-[60ch] text-[32px] leading-10 text-white">Tipografía</div>
-            <div class="text max-w-[60ch] text-[16px] text-zinc-400 font-bold">Muestra de la tipografía general utilizada y
+            <div class="text max-w-[60ch] text-[16px] text-zinc-400 font-bold max-md:text-xs max-md:pb-8">Muestra de la tipografía general utilizada y
                 la jerarquía
                 para componer los textos a lo largo del libro. Utilización de varias tipografías: Futura Std, Trola y
                 Gravity.
             </div>
 
             <div class="grid grid-cols-1">
-                <img class="image_grid w-full h-full pb-6" src="/img/tipo.png" alt="">
+                <img class="image_grid w-full h-full pb-6 max-md:pb-8" src="/img/tipo.png" alt="">
             </div>
         </div>
-        <div class="images pt-20 px-64 pb-10 text-white justify-center flex flex-col">
+        <div class="images pt-20 px-64 pb-10 text-white justify-center flex flex-col max-md:pt-2 max-md:pb-2 max-md:px-10 max-md:flex-col max-md:justify-center max-md:gap-4">
             <div class="text max-w-[60ch] text-[32px] leading-10 text-white">Captions</div>
-            <div class="text max-w-[60ch] text-[16px] leading-10 text-zinc-400 font-bold pb-12">Muestra de maquetación de
+            <div class="text max-w-[60ch] text-[16px] leading-10 text-zinc-400 font-bold pb-12 max-md:text-xs">Muestra de maquetación de
                 algunas de las páginas
             </div>
-            <div class="grid grid-cols-2 gap-4">
+            <div class="grid grid-cols-2 gap-4 max-md:grid-cols-1">
                 <img class="image_grid w-full h-full" src="/img/paginalibro2.png" alt="">
                 <img class="image_grid w-full h-full" src="/img/paginalibro3.png" alt="">
                 <img class="image_grid w-full h-full" src="/img/paginalibro4.png" alt="">
@@ -111,66 +111,55 @@
             </div>
         </div>
 
-        <div class="trabajos flex pt-32 pl-40 pr-40 pb-20 text-zinc-300 flex-col gap-10 justify-center items-center">
-            <div class="titular text-[16px] font-normal flex flex-start items-center">Programas utilizados para este
+        <div class="trabajos flex pt-32 pl-40 pr-40 pb-20 text-zinc-300 flex-col gap-10 justify-center items-center max-md:pt-12 max-md:pb-2 max-md:px-10 max-md:flex-col max-md:justify-center max-md:gap-10">
+            <div class="titular text-[16px] font-normal flex flex-start items-center max-md:text-xs">Programas utilizados para este
                 proyecto</div>
             <div class="programas flex flex-col items-center">
                 <div class="three_programas flex gap-10">
-                    <img class="image_logo w-[40px]" src="/img/Illustrator.svg" alt="">
-                    <img class="image_logo w-[40px]" src="/img/InDesign.svg" alt="">
+                    <img class="image_logo w-[40px] max-md:max-w-[30px]" src="/img/Illustrator.svg" alt="">
+                    <img class="image_logo w-[40px] max-md:max-w-[30px]" src="/img/InDesign.svg" alt="">
+                    <img class="image_logo w-[40px] max-md:max-w-[30px]" src="/img/Photoshop.svg" alt="">
                 </div>
             </div>
         </div>
-
-        <div class="links_rrss pt-32 px-80 pb-32 text-white justify-center flex flex-row gap-60">
-            <div class="email text-lg flex gap-2 items-center">ruben.maldonado.graphic@gmail.com
-                <NuxtLink to="/">
+        
+        <div class="links_rrss pt-32 px-80 pb-32 text-white justify-center flex flex-row gap-60 max-md:pt-20 max-md:px-10 max-md:flex-col max-md:justify-items-center max-md:gap-20 max-md:flex max-md:justify-center max-md:pb-20">
+            <div class="email text-lg flex gap-2 items-center max-md:text-[14px] max-md:justify-center">ruben.maldonado.graphic@gmail.com
                     <img class="vector" src="/img/Vector-11.svg">
-                </NuxtLink>
             </div>
             <div class="links flex flex-col gap-2">
-                <div class="links1 flex gap-32">
-                    <a class="red flex gap-2 items-center" href="https://www.instagram.com/ruben.artes/">Instagram
-                        <NuxtLink to="/">
+                <div class="links1 flex gap-32 max-md:justify-center">
+                    <a class="red flex gap-2 items-center max-md:text-[14px]" href="https://www.instagram.com/ruben.artes/">Instagram
                             <img class="vector" src="/img/Vector-11.svg">
-                        </NuxtLink>
                     </a>
-                    <a class="red flex gap-2 items-center" href="https://www.behance.net/rubenartes">Behance
-                        <NuxtLink to="/">
+                    <a class="red flex gap-2 items-center max-md:text-[14px]" href="https://www.behance.net/rubenartes">Behance
                             <img class="vector" src="/img/Vector-11.svg">
-                        </NuxtLink>
                     </a>
                 </div>
-                <div class="links2 flex gap-32 flex-end">
-                    <a class="red flex gap-2 items-center" href="https://www.instagram.com/ruben.iso">Instagram
-                        <NuxtLink to="/">
+                <div class="links2 flex gap-32 flex-end max-md:justify-center">
+                    <a class="red flex gap-2 items-center max-md:text-[14px]" href="https://www.instagram.com/ruben.iso">Instagram
                             <img class="vector" src="/img/Vector-11.svg">
-                        </NuxtLink>
 
-
-                    </a> <a class="red flex gap-2 items-center" href="https://www.linkedin.com/in/rubenmaldonado10">LinkedIn
-                        <NuxtLink to="/">
+                    </a> <a class="red flex gap-2 items-center max-md:text-[14px]" href="https://www.linkedin.com/in/rubenmaldonado10">LinkedIn
                             <img class="vector" src="/img/Vector-11.svg">
-                        </NuxtLink>
                     </a>
                 </div>
             </div>
 
         </div>
 
-        <div class="foter bg-black p-10 flex text-white justify-between sticky top-0">
+        <div class="foter bg-black p-10 flex text-white justify-between sticky top-0 max-md:p-6">
             <div class="foter_image flex flex-start">
                 <NuxtLink to="/">
-                    <img class="vector" src="/img/star.svg">
+                    <img class="vector max-md:max-w-[15px]" src="/img/star.svg">
                 </NuxtLink>
             </div>
-            <div class="email flex gap-2 items-center text-sm">Ruben Maldonado González
+            <div class="email flex gap-2 items-center text-sm max-md:text-xs">Ruben Maldonado González
                 <NuxtLink to="/">
-                    <img class="vector" src="/img/futbol.svg">
+                    <img class="vector max-md:max-w-[15px]" src="/img/futbol.svg">
                 </NuxtLink>
             </div>
         </div>
-
     </div>
 </template>
   
