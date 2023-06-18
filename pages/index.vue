@@ -1,6 +1,6 @@
 <template>
   <div class="app bg-black">
-
+    <Cursor />
     <div class="header bg-black p-10 flex text-white justify-between sticky top-0 z-10 max-lg:p-6 max-lg:sticky">
       <div class="image flex flex-start">
         <img class="max-lg:max-w-[15px]" src="/img/Vector.svg">
@@ -336,6 +336,9 @@
 </template>
 
 <script setup>
+
+import PlvPointer from "/components/Cursor.vue";
+
 
 </script>
 <style lang="sass" scoped>

@@ -22,8 +22,10 @@
   "dependencies": {
     "@coreui/coreui": "^4.2.6",
     "@coreui/vue": "^4.8.1",
+    "@luxdamore/vue-cursor-fx": "^1.6.2",
     "@phosphor-icons/vue": "^2.0.1",
     "flowbite": "^1.6.5",
-    "flowbite-vue": "^0.0.12"
+    "flowbite-vue": "^0.0.12",
+    "gsap": "^3.12.1"
   }
 }
