@@ -22,10 +22,16 @@
   "dependencies": {
     "@coreui/coreui": "^4.2.6",
     "@coreui/vue": "^4.8.1",
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/vue-fontawesome": "^3.0.3",
+    "@inotom/vue-go-top": "^1.3.0",
     "@luxdamore/vue-cursor-fx": "^1.6.2",
     "@phosphor-icons/vue": "^2.0.1",
     "flowbite": "^1.6.5",
     "flowbite-vue": "^0.0.12",
-    "gsap": "^3.12.1"
+    "gsap": "^3.12.1",
+    "simplescrollup": "^1.1.1",
+    "vue-backtotop": "^1.6.1"
   }
 }
