@@ -13,6 +13,7 @@
                 </NuxtLink>
             </div>
         </div>
+        <VueScrollProgressBar background-color="black" />
         <div class="trabajos flex pt-20 px-40 pb-20 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
             <div class="titular text-[70px] font-bold max-w-[13ch] leading-12 text-zinc-800 max-xl:text-[70px] max-xl:justify-center">Modelado</div>
             <div class="info flex flex-col gap-6">
@@ -23,6 +24,32 @@
                 </div>
             </div>
         </div>
+
+        
+        <div class="trabajos flex pt-10 pb-20 px-40 text-white items-start flex-nowrap gap-40 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-xl:text-center">
+            <div class="info flex flex-col">
+                <div class="text max-w-[60ch] italic text-[16px] leading-10 text-zinc-400 max-xl:text-xs">Asignatura</div>
+                <div
+                    class="text max-w-[20ch] text-[16px] leading-6 text-black font-bold max-xl:text-sm max-xl:max-w-[40ch]">
+                    Modelado 3D, 3º Diseño Gráfico.
+                </div>
+            </div>
+            <div class="info flex flex-col">
+                <div class="text max-w-[60ch] text-[16px] italic leading-10 text-zinc-400 max-xl:text-xs">Tiempo</div>
+                <div
+                    class="text max-w-[20ch] text-[16px] leading-6 text-black font-bold max-xl:text-sm max-xl:max-w-[40ch]">
+                    1 - 2 meses
+                </div>
+            </div>
+            <div class="info flex flex-col">
+                <div class="text max-w-[60ch] text-[16px] italic leading-10 text-zinc-400 max-xl:text-xs">Briefing</div>
+                <div
+                    class="text max-w-[20ch] text-[16px] leading-6 text-black font-bold max-xl:text-sm max-xl:max-w-[40ch]">
+                    Creación de piezas 3D con el aspecto técnico aprendido.
+                </div>
+            </div>
+        </div>
+
         <div class="video flex pt-20 px-64 pb-20 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
             <video class="video border border-zinc-600 drop-shadow-xl" width="1240" height="788" loop autoplay controls>
                 <source src="/img/3dvideo.mp4" type="video/mp4">

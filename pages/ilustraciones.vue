@@ -13,6 +13,7 @@
                 </NuxtLink>
             </div>
         </div>
+        <VueScrollProgressBar background-color="#52525b" />
         <div
             class="trabajos flex pt-20 px-40 pb-20 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
             <div
@@ -28,6 +29,31 @@
                     Recopilatorio de mis
                     ilustraciones, carteles ilustrados,
                     lettering y dibujos variados realizados digitalmente en Procreate con el IPad.
+                </div>
+            </div>
+        </div>
+        <div class="trabajos flex pt-20 px-40 text-white items-start flex-nowrap gap-40 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-xl:text-center">
+            <div class="info flex flex-col">
+                <div class="text max-w-[60ch] italic text-[16px] leading-10 text-zinc-400 max-xl:text-xs">Asignatura</div>
+                <div
+                    class="text max-w-[20ch] text-[16px] leading-6 text-zinc-600 font-bold max-xl:text-sm max-xl:max-w-[40ch]">
+                    Trabajos libres,
+                    Aprendizaje propio.
+                </div>
+            </div>
+            <div class="info flex flex-col">
+                <div class="text max-w-[60ch] text-[16px] italic leading-10 text-zinc-400 max-xl:text-xs">Tiempo</div>
+                <div
+                    class="text max-w-[20ch] text-[16px] leading-6 text-zinc-600 font-bold max-xl:text-sm max-xl:max-w-[40ch]">
+                    3 meses
+                </div>
+            </div>
+            <div class="info flex flex-col">
+                <div class="text max-w-[60ch] text-[16px] italic leading-10 text-zinc-400 max-xl:text-xs">Materiales</div>
+                <div
+                    class="text max-w-[20ch] text-[16px] leading-6 text-zinc-600 font-bold max-xl:text-sm max-xl:max-w-[40ch]">
+                    IPad,
+                    PC.
                 </div>
             </div>
         </div>

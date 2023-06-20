@@ -13,6 +13,8 @@
                 </NuxtLink>
             </div>
         </div>
+
+        <VueScrollProgressBar background-color="#52525b" />
         <div class="trabajos flex pt-20 px-40 pb-20 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
             <div class="titular text-[70px] font-bold max-w-[13ch] leading-12 text-[#D61E0A] max-xl:text-[70px] max-xl:justify-center">Mascota</div>
             <div class="info flex flex-col gap-6">
@@ -26,6 +28,31 @@
                 </div>
             </div>
         </div>
+
+        <div class="trabajos flex pt-10 pb-32 px-40 text-white items-start flex-nowrap gap-40 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-xl:text-center">
+            <div class="info flex flex-col">
+                <div class="text max-w-[60ch] italic text-[16px] leading-10 text-zinc-400 max-xl:text-xs">Asignatura</div>
+                <div
+                    class="text max-w-[20ch] text-[16px] leading-6 text-zinc-900 font-bold max-xl:text-sm max-xl:max-w-[40ch]">
+                    Ilustración y comunicación visual, 3º Curso Diseño Gráfico.
+                </div>
+            </div>
+            <div class="info flex flex-col">
+                <div class="text max-w-[60ch] text-[16px] italic leading-10 text-zinc-400 max-xl:text-xs">Tiempo</div>
+                <div
+                    class="text max-w-[20ch] text-[16px] leading-6 text-zinc-900 font-bold max-xl:text-sm max-xl:max-w-[40ch]">
+                    2 meses
+                </div>
+            </div>
+            <div class="info flex flex-col">
+                <div class="text max-w-[60ch] text-[16px] italic leading-10 text-zinc-400 max-xl:text-xs">Briefing</div>
+                <div
+                    class="text max-w-[20ch] text-[16px] leading-6 text-zinc-900 font-bold max-xl:text-sm max-xl:max-w-[40ch]">
+                    Kinder Bueno mascota y packaging de barritas de chocolate.
+                </div>
+            </div>
+        </div>
+
         <div class="flex px-64 pb-20 flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
             <img src="/img/buenito.png" alt="">
 

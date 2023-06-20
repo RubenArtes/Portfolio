@@ -74,7 +74,7 @@ export default {
         position: fixed;
         top: 0;
         left: 0;
-        mix-blend-mode:exclusion;
+        mix-blend-mode:screen;
         z-index: 99999;
         opacity: 0;
         pointer-events: none;
