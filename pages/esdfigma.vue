@@ -14,7 +14,7 @@
             </div>
         </div>
         <div class="trabajos flex pt-20 px-40 pb-20 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
-            <div class="titular text-[70px] font-normal max-w-[13ch] leading-12 max-xl:text-[50px] max-xl:justify-center max-xl:text-center">Diseño y prototipado</div>
+            <div class="titular text-[70px] font-bold max-w-[13ch] leading-12 max-xl:text-[50px] max-xl:justify-center max-xl:text-center">Diseño y prototipado</div>
             <div class="info flex flex-col gap-6">
                 <div class="text max-w-[60ch] text-[16px] leading-10 text-zinc-200 max-xl:leading-2 max-xl:text-xs">Rediseño - Identidad - Figma -
                     Web -
@@ -68,21 +68,28 @@
             </div>
 
             <div class="grid grid-cols-1">
-                <div class="text max-w-[60ch] text-[16px] text-zinc-400 font-bold pb-6 max-xl:text-xs">BOTONES</div>
+                <div class="text max-w-[60ch] text-[16px] text-zinc-100 font-bold max-xl:text-xs">BOTONES
+                    <div class="text max-w-[60ch] text-[14px] text-zinc-400 font-bold pt-2 max-xl:text-xs">Diferentes botones con cambios en tamaños, anchos, colores y diferentes estados (activados, hover y normal)</div>
+                </div>
                 <img class="image_grid w-full h-full pb-6" src="/img/componentes.png" alt="">
-                <div class="text max-w-[60ch] text-[16px] text-zinc-400 font-bold pb-6 pt-12 max-xl:text-xs">FORMULARIOS</div>
+                <div class="text max-w-[60ch] text-[16px] text-zinc-100 font-bold pt-12 max-xl:text-xs">FORMULARIOS
+                    <div class="text max-w-[60ch] text-[14px] pb-6 text-zinc-400 font-bold pt-2 max-xl:text-xs">Formularios de inicio de sesión y de solitiar información con sus dos pestañas y su estado al ingresar mal la información.</div>
+
+                </div>
                 <img class="image_grid w-full h-full pb-6" src="/img/componentes2.png" alt="">
-                <div class="text max-w-[60ch] text-[16px] text-zinc-400 font-bold pb-6 max-xl:text-xs">PREGUNTAS</div>
+                <div class="text max-w-[60ch] text-[16px] text-zinc-100 font-bold max-xl:text-xs">PREGUNTAS
+                    <div class="text max-w-[60ch] text-[14px] pb-6 text-zinc-400 font-bold pt-2 max-xl:text-xs">Card de preguntas con sus dos estados.</div>
+                </div>
                 <img class="image_grid w-full h-full pb-6" src="/img/componentes3.png" alt="">
-                <div class="text max-w-[60ch] text-[16px] text-zinc-400 font-bold pb-6 max-xl:text-xs">NEWSLETTER</div>
+                <div class="text max-w-[60ch] text-[16px] pb-6 text-zinc-100 font-bold max-xl:text-xs">NEWSLETTER</div>
                 <img class="image_grid w-full h-full pb-6" src="/img/componentes4.png" alt="">
-                <div class="text max-w-[60ch] text-[16px] text-zinc-400 font-bold pb-6 max-xl:text-xs">CARDS TFG</div>
+                <div class="text max-w-[60ch] text-[16px] pb-6 text-zinc-100 font-bold max-xl:text-xs">CARDS TFG</div>
                 <img class="image_grid w-full h-full pb-6" src="/img/componentes5.png" alt="">
-                <div class="text max-w-[60ch] text-[16px] text-zinc-400 font-bold pb-6 max-xl:text-xs">BANNER</div>
+                <div class="text max-w-[60ch] text-[16px] pb-6 text-zinc-100 font-bold max-xl:text-xs">BANNER</div>
                 <img class="image_grid w-full h-full pb-6" src="/img/componentes6.png" alt="">
-                <div class="text max-w-[60ch] text-[16px] text-zinc-400 font-bold pb-6 max-xl:text-xs">CARDS EMPRESAS</div>
+                <div class="text max-w-[60ch] text-[16px] pb-6 text-zinc-100 font-bold max-xl:text-xs">CARDS EMPRESAS</div>
                 <img class="image_grid w-full h-full pb-6" src="/img/componentes7.png" alt="">
-                <div class="text max-w-[60ch] text-[16px] text-zinc-400 font-bold pb-6 max-xl:text-xs">FOOTER</div>
+                <div class="text max-w-[60ch] text-[16px] pb-6 text-zinc-100 font-bold max-xl:text-xs">FOOTER</div>
                 <img class="image_grid w-full h-full pb-6" src="/img/componentes8.png" alt="">
             </div>
         </div>
@@ -94,9 +101,12 @@
             </div>
 
             <div class="grid grid-cols-1">
-                <img class="image_grid w-full h-full pb-2" src="/img/bocetofinal.png" alt="">
-                <img class="image_grid w-full h-full pb-2" src="/img/bocetofinal2.png" alt="">
-                <img class="image_grid w-full h-full pb-2" src="/img/bocetofinal3.png" alt="">
+                <div class="text-[14px] text-center border-b border-zinc-400 pb-4 text-zinc-400 font-bold max-xl:text-xs">Página de inicio con todos los cambios realizados de tamaño de página, retícula, tipografía, jerarquías y mejoras de elementos y componentes.</div>
+                <img class="image_grid w-full h-full pt-10 pb-10" src="/img/bocetofinal.png" alt="">
+                <div class="text-[14px] text-center border-b border-zinc-400 pb-4 text-zinc-400 font-bold max-xl:text-xs">Página de especialidad con cambios realizados de tamaño de página, retícula, tipografía, jerarquías y mejoras de elementos y componentes.</div>
+                <img class="image_grid w-full h-full pt-10 pb-10" src="/img/bocetofinal2.png" alt="">
+                <div class="text-[14px] text-center border-b border-zinc-400 pb-4 text-zinc-400 font-bold max-xl:text-xs">Página de TFGS con todos los cambios realizados de tamaño de página, retícula, tipografía, jerarquías y mejoras de elementos y componentes.</div>
+                <img class="image_grid w-full h-full pt-10 pb-10" src="/img/bocetofinal3.png" alt="">
 
             </div>
         </div>

@@ -14,9 +14,9 @@
             </div>
         </div>
         <div class="trabajos flex pt-20 px-40 pb-20 text-zinc-600 flex-nowrap items-center gap-64 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
-            <div class="titular text-[70px] font-normal max-w-[13ch] leading-12 max-xl:text-[70px] max-xl:justify-center">Packaging</div>
+            <div class="titular text-[70px] font-bold max-w-[13ch] leading-12 max-xl:text-[70px] max-xl:justify-center">Packaging</div>
             <div class="info flex flex-col gap-6">
-                <div class="text max-w-[60ch] text-[16px] leading-10 text-zinc-400 max-xl:leading-2 max-xl:text-xs">Diseño Matutano - Packaging - Marca -
+                <div class="text max-w-[60ch] text-[16px] leading-10 text-zinc-500 max-xl:leading-2 max-xl:text-xs">Diseño Matutano - Packaging - Marca -
                     Diseño Gráfico</div>
                 <div class="text max-w-[60ch] text-[20px] leading-8 text-zinc-600 font-bold max-xl:text-sm max-xl:max-w-[40ch]">El proyecto consistirá en el
                     diseño de una gama
@@ -128,7 +128,7 @@
             </div>
         </div>
         <div class="images pt-20 px-64 pb-10 text-zinc-600 justify-center flex flex-col gap-10 max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
-            <div class="text max-w-[60ch] text-[32px] leading-10 text-zinc-600">Captions</div>
+            <div class="text max-w-[60ch] text-[32px] leading-10 text-zinc-600">Caras completas</div>
             <div class="text max-w-[60ch] text-[16px] text-zinc-500 font-bold pb-12 max-xl:text-xs">Muestra del packaging final con todas
                 sus caras embolventes viendo como el patrón continua y se va formando por todo el packaging.
                 <br><br> <a class="type text-[#F3536D]">Frambuesa liofilizada</a> - <a

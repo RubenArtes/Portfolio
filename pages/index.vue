@@ -129,9 +129,9 @@
 
     </div>
 
-    <div class="trabajos flex pt-32 pl-40 pr-40 pb-20 text-white flex-nowrap gap-60 justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20">
+    <div class="trabajos flex pt-32 pl-40 pr-40 pb-20 text-white justify-center flex-nowrap gap-60 max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20">
       <div class="titular text-[72px] font-normal flex flex-col max-lg:max-w-[200px] max-lg:justify-center max-lg-justify-items-center max-lg:text-[60px]">Programas</div>
-      <div class="programas flex flex-col gap-10 max-lg:gap-8">
+      <div class="programas flex flex-col gap-10 max-lg:gap-8 min-w-[575px]">
         <div class="three_programas flex gap-20 justify-start max-lg:gap-10 max-lg:justify-center">
           <img class="image_logo max-w-[50px] max-lg:max-w-[50px]" src="/img/Figma.svg" alt="">
           <img class="image_logo max-w-[50px] max-lg:max-w-[50px]" src="/img/Photoshop.svg" alt="">

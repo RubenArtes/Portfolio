@@ -14,7 +14,7 @@
             </div>
         </div>
         <div class="colum flex pt-20 px-64 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center">
-            <div class="titular text-[70px] font-normal max-w-[13ch] leading-12 max-xl:text-[70px] max-xl:justify-center">Editorial</div>
+            <div class="titular text-[70px] font-bold max-w-[13ch] leading-12 max-xl:text-[70px] max-xl:justify-center">Editorial</div>
             <div class="info flex flex-col gap-6">
                 <div class="text max-w-[60ch] text-[16px] leading-10 text-zinc-200 max-xl:text-xs">Rediseño Editorial - Revista -
                     Maquetación -

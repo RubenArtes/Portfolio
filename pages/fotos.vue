@@ -15,7 +15,7 @@
       </div>
     </div>
     <div class="trabajos flex pt-20 px-40 pb-20 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
-      <div class="titular text-[70px] font-normal max-w-[13ch] leading-12 max-xl:text-[55px] max-xl:justify-center">Fotografías</div>
+      <div class="titular text-[70px] font-bold max-w-[13ch] leading-12 max-xl:text-[55px] max-xl:justify-center">Fotografías</div>
       <div class="info flex flex-col gap-6">
         <div class="text max-w-[60ch] text-[16px] leading-10 text-zinc-200 max-xl:text-xs">Fotografías - Ediciones - Retratos -
           Paisajes - Social -
