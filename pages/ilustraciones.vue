@@ -17,7 +17,7 @@
         <div
             class="trabajos flex pt-20 px-40 pb-20 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
             <div
-                class="titular text-[70px] font-bold max-w-[13ch] leading-12 text-black max-xl:text-[55px] max-xl:justify-center">
+                class="titular text-[70px] font-bold max-w-[13ch] animate-pulse leading-12 bg-gradient-to-r bg-clip-text text-transparent from-indigo-500 via-purple-500 to-indigo-500 animate-text max-xl:text-[55px] max-xl:justify-center">
                 Ilustraciones</div>
             <div class="info flex flex-col gap-6">
                 <div class="text max-w-[60ch] text-[16px] leading-10 text-zinc-400 max-xl:text-xs">Dibujos - Lettering -
@@ -117,7 +117,7 @@
             <div class="text max-w-[60ch] text-[32px] leading-10 text-black">Pegatinas</div>
             <div class="text max-w-[60ch] text-[16px] text-zinc-600 font-bold max-xl:text-xs">Pegatinas con temática
                 Ataque a los
-                Titanes.
+                Titanes, representación propia de los personajes de la serie, creando una pequeña colección.
             </div>
             <div
                 class="video flex px-40 pb-20 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
@@ -128,12 +128,38 @@
 
             </div>
 
+            <div class="grid grid-cols-4 gap-2 max-xl:grid-cols-1">
+                <div class="div text-zinc-600 text-center text-sm m-0">Eren Jaeger
+                    <br>
+                    <div class="div text-black text-center text-lg m-0">Titan de Ataque</div>
+                </div>
+                <div class="div text-black text-center text-xs m-0">Annie Leonhart
+                    <br>
+                    <div class="div text-black text-center text-lg m-0">Titan Hembra</div>
+                </div>
+                <div class="div text-black text-center text-xs m-0">Reiner Braun
+                    <br>
+                    <div class="div text-black text-center text-lg m-0">Titan Acorazado</div>
+                </div>
+                <div class="div text-black text-center text-xs m-0">Zeke Jaeger
+                    <br>
+                    <div class="div text-black text-center text-lg m-0">Titan Bestia</div>
+                </div>
+            </div>
+            <div class="grid grid-cols-4 pb-28 gap-2 max-xl:grid-cols-1">
+                <img class="image_grid w-full h-full" src="/img/ataque1.png" alt="">
+                <img class="image_grid w-full h-full" src="/img/ataque2.png" alt="">
+                <img class="image_grid w-full h-full" src="/img/ataque3.png" alt="">
+                <img class="image_grid w-full h-full" src="/img/ataque4.png" alt="">
+            </div>
+
             <div class="grid grid-cols-2 gap-2 max-xl:grid-cols-1">
                 <img class="image_grid w-full h-full" src="/img/pegatinas.png" alt="">
                 <img class="image_grid w-full h-full" src="/img/pegatinas2.png" alt="">
                 <img class="image_grid w-full h-full" src="/img/pegatinas3.png" alt="">
                 <img class="image_grid w-full h-full" src="/img/pegatinas4.png" alt="">
             </div>
+            
 
         </div>
         <div
@@ -157,15 +183,28 @@
             class="images pt-20 px-64 pb-10 text-white justify-center flex flex-col gap-2 max-xl:pb-0 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
             <div class="text max-w-[60ch] text-[32px] leading-10 text-black">Pegatinas</div>
             <div class="text max-w-[60ch] text-[16px] text-zinc-600 font-bold pb-12 max-xl:text-xs">Pegatinas con temática
-                Cars.
+                Cars, representación propia de los personajes de la pelicula, creando una pequeña colección
             </div>
 
-            <div class="grid grid-cols-3 gap-2 max-xl:grid-cols-1">
-                <img class="image_grid w-full h-full" src="/img/pegatinac.png" alt="">
-                <img class="image_grid w-full h-full" src="/img/pegatinac2.png" alt="">
-                <img class="image_grid w-full h-full" src="/img/pegatinac3.png" alt="">
+            <div
+                class="video flex px-40 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
+                <video width="1240" height="788" loop autoplay controls>
+                    <source src="/img/videoilustraciones3.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
 
             </div>
+
+            <div class="grid grid-cols-3 max-xl:grid-cols-1">
+                <img class="image_grid w-full h-full" src="/img/carsilus.png" alt="">
+                <img class="image_grid w-full h-full" src="/img/carsilus2.png" alt="">
+                <img class="image_grid w-full h-full" src="/img/carsilus3.png" alt="">
+                <img class="image_grid w-full h-full" src="/img/carsilus4.png" alt="">
+                <img class="image_grid w-full h-full" src="/img/carsilus5.png" alt="">
+                <img class="image_grid w-full h-full" src="/img/carsilus6.png" alt="">
+
+            </div>
+            
 
         </div>
 

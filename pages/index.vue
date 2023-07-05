@@ -5,7 +5,7 @@
       <div class="image flex flex-start">
         <img class="max-lg:max-w-[15px]" src="/img/Vector.svg">
       </div>
-      <div class="email text-lg flex gap-2 items-center max-lg:text-xs">ruben.maldonado.graphic@gmail.com
+      <div class="email text-lg flex gap-2 items-center max-lg:text-xs ">ruben.maldonado.graphic@gmail.com
         <img class="vector max-lg:max-w-[8px]" src="/img/Vector-11.svg">
       </div>
 
@@ -19,9 +19,9 @@
         <div
           class="titular text-[115px] font-normal flex gap-2 items-start max-lg:max-w-[200px] max-lg:text-[70px] max-lg:justify-center">
           Portfolio
-          <img class="info" src="/img/info.svg">
+          <img class="info animate-pulse" src="/img/info.svg">
         </div>
-        <div class="titular_small text-[12px] font-normal flex items-start max-lg:text-[12px] max-lg:justify-center max-lg:text-center max-lg:max-w-[30ch]">Ultima actualización, Junio 2023</div>
+        <div class="titular_small text-[12px] animate-pulse font-normal flex items-start max-lg:text-[12px] max-lg:justify-center max-lg:text-center max-lg:max-w-[30ch]">Ultima actualización, Julio 2023</div>
       </div>
 
 
@@ -39,7 +39,7 @@
         class="twotrabajos p-0 flex gap-4 justify-center pb-8 max-lg:flex-col max-lg:justify-items-center max-lg:items-center max-lg:px-10">
         <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
           <NuxtLink to="/packaging">
-            <img class="image m-0 rounded-lg max-w-[600px] max-lg:max-w-[300px]" src="/img/Packaging_ruben2.png">
+            <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/Packaging_ruben2.png">
           </NuxtLink>
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-2">Matutano
             Saludable</div>
@@ -48,19 +48,19 @@
         </div>
         <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
           <NuxtLink to="/vino">
-            <img class="image m-0 rounded-lg max-w-[600px] max-lg:max-w-[300px]" src="/img/Vino_1.png">
+            <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/Vino_1.png">
           </NuxtLink>
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-2">PRAU - Pasión
             por la tierra</div>
-          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:mb-4">Diseño Gráfico -
-            Packaging y Marca</div>
+          <div class="type_trabajo max-w-[40ch] m-0 text-sm bg-gradient-to-r bg-clip-text text-zinc-400 max-lg:text-[12px] max-lg:mb-4">Diseño Gráfico -
+            Packaging</div>
         </div>
       </div>
       <div
         class="twotrabajos p-0 flex gap-4 justify-center pb-8 max-lg:flex-col max-lg:justify-items-center max-lg:items-center max-lg:px-10">
         <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col ">
           <NuxtLink to="/libroexperimental">
-            <img class="image m-0 rounded-lg max-w-[600px] max-lg:max-w-[300px]" src="/img/libroexperimental.gif">
+            <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/libroexperimental.gif">
           </NuxtLink>
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-2">Metro de
             Madrid</div>
@@ -69,7 +69,7 @@
         </div>
         <div class="trabajo max-w-[600px]max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
           <NuxtLink to="/typenotes">
-            <img class="image m-0 rounded-lg max-w-[600px] max-lg:max-w-[300px]" src="/img/Editorial_3.png">
+            <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/Editorial_3.png">
           </NuxtLink>
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-2"> Typenotes
           </div>
@@ -84,16 +84,16 @@
         class="twotrabajos p-0 flex gap-4 justify-center pb-8 max-lg:flex-col max-lg:justify-items-center max-lg:items-center max-lg:px-10">
         <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
           <NuxtLink to="/movistar">
-            <img class="image m-0 rounded-lg max-w-[600px] max-lg:max-w-[300px]" src="/img/Movistar.png">
+            <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/Movistar.png">
           </NuxtLink>
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-2">Movistar +
           </div>
           <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:mb-4">Diseño Gráfico -
-            After Effects</div>
+            Motion Graphics</div>
         </div>
         <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
           <NuxtLink to="/esdfigma">
-            <img class="image m-0 rounded-lg max-w-[600px] max-lg:max-w-[300px]" src="/img/gifesd.gif">
+            <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/gifesd.gif">
           </NuxtLink>
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-2">ESD - Página
             Web</div>
@@ -105,7 +105,7 @@
         class="twotrabajos p-0 flex gap-4 justify-center pb-8 max-lg:flex-col max-lg:justify-items-center max-lg:items-center max-lg:px-10">
         <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
           <NuxtLink to="/fotos">
-            <img class="image m-0 rounded-lg max-w-[600px] max-lg:max-w-[300px]" src="/img/postproduccion_1.png">
+            <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/postproduccion_1.png">
           </NuxtLink>
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-2">Colección
             fotográfica
@@ -115,12 +115,12 @@
         </div>
         <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
           <NuxtLink to="/modelado">
-            <img class="image m-0 rounded-lg max-w-[600px] max-lg:max-w-[300px]" src="/img/modelado3d.gif">
+            <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/modelado3d.gif">
           </NuxtLink>
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-2">Colección 3D
           </div>
           <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:mb-4">Diseño Gráfico -
-            Modelado y render</div>
+            Modelado 3D</div>
         </div>
 
       </div>
@@ -128,22 +128,22 @@
         class="twotrabajos p-0 flex gap-4 justify-center pb-8 max-lg:flex-col max-lg:justify-items-center max-lg:items-center max-lg:px-10">
         <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
           <NuxtLink to="/yelmo">
-            <img class="image m-0 rounded-lg max-w-[600px] max-lg:max-w-[300px]" src="/img/gifyelmo.gif">
+            <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/gifyelmo.gif">
           </NuxtLink>
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-2">Cines Yelmo
           </div>
           <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:mb-4">Diseño Gráfico -
-            Marca y rediseño</div>
+            Marca</div>
         </div>
         <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
           <NuxtLink to="/editorial">
-            <img class="image m-0 rounded-lg max-w-[600px] max-lg:max-w-[300px]" src="/img/Mockup.jpg">
+            <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/Mockup.jpg">
           </NuxtLink>
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-2">El
             pensamiento Lateral
           </div>
           <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:mb-4">Diseño Gráfico -
-            Rediseño Editorial</div>
+            Editorial</div>
         </div>
 
       </div>
@@ -152,22 +152,22 @@
         class="twotrabajos p-0 flex gap-4 justify-center pb-8 max-lg:flex-col max-lg:justify-items-center max-lg:items-center max-lg:px-10">
         <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
           <NuxtLink to="/kinderbueno">
-            <img class="image m-0 rounded-lg max-w-[600px] max-lg:max-w-[300px]" src="/img/kinderbueno3.png">
+            <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/kinderbueno3.png">
           </NuxtLink>
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-2">Kinder Bueno
           </div>
           <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:mb-4">Ilustración -
-            Mascota y rediseño</div>
+            Marca</div>
         </div>
         <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
           <NuxtLink to="/ilustraciones">
-            <img class="image m-0 rounded-lg max-w-[600px] max-lg:max-w-[300px]" src="/img/ilustraciones.png">
+            <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/ilustraciones.png">
           </NuxtLink>
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-2">Colección de
             ilustraciones
           </div>
           <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:mb-4">Ilustración -
-            Dibujos e ilustraciones</div>
+            Dibujos</div>
         </div>
 
       </div>
@@ -211,7 +211,7 @@
           <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400">Experiencia realizando sesiones
             fotográficas en exterior y estudio
             de retratos. Fotografía de paisajes y lugares. Además de experiencia en fotografía de producto y control de
-            equipo de estudio. Edición de fotografía (Raw) en Photoshop y Lightroom.
+            equipo de estudio. Edición de fotografía (Raw) en <a class="texto_color text-[#4b6ad1]">Photoshop y Lightroom</a>
           </div>
         </div>
         <div class="servicio flex flex-col gap-6">
@@ -219,8 +219,8 @@
           <div class="tittle_servicios font-bold text-[20px]">Ilustración</div>
           <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400"> Experiencia realizando ilustraciones
             tradicionales
-            e ilustraciones digitales mediante IPad - Procreate. Cuento con Grado Superior de Ilustración en la Escuela de
-            Artes de Toledo.
+            e ilustraciones digitales mediante IPad - Procreate. Cuento con <a class="bold text-white">Grado Superior de Ilustración en la Escuela de
+            Artes de Toledo.</a>
           </div>
         </div>
         <div class="servicio flex flex-col gap-6">
@@ -228,16 +228,16 @@
           <div class="tittle_servicios font-bold text-[20px]">Web y Programación</div>
           <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400"> Conocimientos altos de HTML y CSS (sass).
             <br>
-            Conocimientos medio-altos de Tailwind, Nuxt y Vue.
+            Conocimientos medio-altos de <a class="texto_color text-[#00dc82]">Tailwind, Nuxt y Vue.</a>
             <br>
-            Conocimientos medios en JavasCript.
+            Conocimientos medios en JavaScript.
           </div>
         </div>
         <div class="servicio flex flex-col gap-6">
           <img class="vector w-[17px]" src="/img/star.svg">
           <div class="tittle_servicios font-bold text-[20px]">Pack Adobe y Figma</div>
           <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400"> Altos conocimientos en utilizar
-            el pack Adobe (concretamente los mencionados arriba) y Figma (componentización, vistas, prototipado y
+            el pack <a class="texto_color text-[#dc8f00]">Adobe</a> (concretamente los mencionados arriba) y <a class="texto_color text-[#dc8f00]">Figma</a>  (componentización, vistas, prototipado y
             autolayout).
           </div>
         </div>
@@ -246,7 +246,7 @@
           <div class="tittle_servicios font-bold text-[20px]">Audiovisuales y Multimedia</div>
           <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400">Conocimientos en diferentes ambitos del
             mundo de audiovisuales,
-            concretamente After Effects para motion graphics, Adobe Premiere y otros programas de video para realización
+            concretamente <a class="texto_color text-[#9c46e2]">After Effects</a>  para motion graphics, <a class="texto_color text-[#9c46e2]">Adobe Premiere</a>  y otros programas de video para realización
             de piezas para redes sociales,
             conocimientos de Rotoscopia digital, chroma y edición de video.
 
@@ -256,9 +256,9 @@
           <img class="vector w-[17px]" src="/img/star.svg">
           <div class="tittle_servicios font-bold text-[20px]">Maquetación</div>
           <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400">Conocimientos altos en Indesign y
-            Photoshop, para la maquetación
+            <a class="texto_color text-[#4b6ad1]">Photoshop</a>, para la maquetación
             de carteles, folletos, libros, revistas, anuncios y cualquier pieza gráfica necesaria.
-
+            
           </div>
         </div>
         <div class="servicio flex flex-col gap-6">
@@ -266,7 +266,7 @@
           <div class="tittle_servicios font-bold text-[20px]">Redes Sociales</div>
           <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400">Conocimientos altos de redes sociales,
             actualidad y flujo de información
-            en las aplicaciones actuales como Instagram, TikTok, Facebook y Twitter.
+            en las aplicaciones actuales como <a class="texto_color text-[#d14bb0]">Instagram, TikTok, Facebook y Twitter.</a> 
 
           </div>
         </div>
@@ -284,14 +284,13 @@
       <div class="servicios_ofrecidos flex flex-col gap-6">
         <div class="servicio flex flex-col gap-6">
           <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400">Soy un estudiante de 22 años, actualmente
-            cursando 4º en un grado Universitario de Diseño Gráfico en la Escuela Superior De Diseño de Madrid (Nota media
-            - 9) <br> Cuento con
+            cursando 4º en un grado Universitario de Diseño Gráfico en la Escuela Superior De Diseño de Madrid <a class="animate-pulse texto_type italic text-xs text-white">(Nota media - 9).</a> <br> Cuento con
             un Grado
-            Superior de Ilustración (Nota TFG - 9). <br> <br> Soy muy polifacetico y no me cierro a ninguna vía del
+            Superior de Ilustración <a class="texto_type italic text-xs text-white animate-pulse">(Nota TFG - 9).</a> <br> <br> Soy muy polifacetico y no me cierro a ninguna vía del
             diseño, suelo
             abarcar todos los ambitos, como ya he mostrado anteriormente. Soy resolutivo y trabajador.
 
-            <img class="img pt-10" src="/img/FOTO.jpg" alt="">
+            <img class="img pt-10 " src="/img/FOTO.jpg" alt="">
 
           </div>
         </div>
@@ -415,7 +414,7 @@ import VueScrollProgressBar from '/components/VueScrollProgressBar'
 .image
   @apply transition ease-in-out delay-150
   &:hover
-    @apply opacity-80 duration-75 outline outline-2 outline-zinc-300 rounded-lg
+    @apply opacity-80 duration-75 outline outline-2 outline-white rounded-sm
 
 .image_logo
   @apply opacity-60
