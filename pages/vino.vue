@@ -17,11 +17,11 @@
         <VueScrollProgressBar background-color="#311568" />
 
         <div class="trabajos flex pt-20 px-40 pb-10 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
-            <div class="titular text-[70px] font-bold max-w-[13ch] leading-12 bg-gradient-to-r bg-clip-text text-transparent animate-pulse from-[#311568] via-[#4797ff] to-[#311568] animate-text max-xl:text-[70px] max-xl:justify-center">Packaging</div>
+            <div class="titular text-[70px] font-bold max-w-[13ch] leading-12 bg-gradient-to-r bg-clip-text text-transparent animate-pulse from-[#311568] via-[#4797ff] to-[#311568] animate-text max-xl:text-[60px] max-xl:justify-center">Packaging</div>
             <div class="info flex flex-col gap-6">
-                <div class="text max-w-[60ch] text-[16px] leading-10 text-[#AFBAD4] max-xl:leading-2 max-xl:text-xs">Diseño Prau - Packaging - Marca -
+                <div class="text max-w-[60ch] text-[16px] leading-10 text-[#AFBAD4] max-xl:leading-2 max-xl:text-xs max-xl:text-center">Diseño Prau - Packaging - Marca -
                     Diseño Gráfico</div>
-                <div class="text max-w-[60ch] text-[20px] leading-8 text-zinc-600 font-bold max-xl:text-sm max-xl:max-w-[40ch]">Este trabajo consiste en
+                <div class="text max-w-[60ch] text-[20px] leading-8 text-zinc-600 font-bold max-xl:text-sm max-xl:max-w-[40ch] max-xl:text-center">Este trabajo consiste en
                     realizar una identidad visual de un distribuidor de productos y alimentos de km0, que cumplan ciertas
                     condiciones, como productos de buena calidad y relación calidad precio y que sean productos artesanos y
                     de proximidad. Creación de la marca visual, logo y tres productos, uno siendo el vino el principal
@@ -33,7 +33,7 @@
             </div>
         </div>
 
-        <div class="trabajos flex pt-20 px-40 text-white items-start flex-nowrap gap-40 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-xl:text-center">
+        <div class="trabajos flex pt-20 px-40 text-white items-start flex-nowrap gap-40 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-xl:text-center max-xl:pb-16">
             <div class="info flex flex-col">
                 <div class="text max-w-[60ch] italic text-[16px] leading-10 text-zinc-400 max-xl:text-xs">Asignatura</div>
                 <div
@@ -109,10 +109,10 @@
                 <img class="image_grid w-full h-full" src="/img/mermelada.png" alt="">
             </div>
 
-            <div class="grid grid-cols-3 pt-10 gap-2 pb-6">
+            <div class="grid grid-cols-3 pt-10 gap-2 pb-6 max-xl:pb-16">
                 <img class="image_grid w-full h-full drop-shadow-xl" src="/img/mockupmer.png" alt="">
                 <img class="image_grid w-full h-full drop-shadow-xl" src="/img/mockupmer_2.png" alt="">
-                <img class="image_grid w-full h-full drop-shadow-xl" src="/img/mockupmer_3.png" alt="">
+                <img class="image_grid w-full h-full drop-shadow-xl " src="/img/mockupmer_3.png" alt="">
             </div>
 
 
@@ -130,7 +130,7 @@
                 <img class="image_grid w-full h-full" src="/img/vino.png" alt="">
             </div>
 
-            <div class="grid grid-cols-3 pt-10 gap-2 pb-6">
+            <div class="grid grid-cols-3 pt-10 gap-2 pb-6 max-xl:pb-16">
                 <img class="image_grid w-full h-full drop-shadow-xl" src="/img/vinomoc_1.png" alt="">
                 <img class="image_grid w-full h-full drop-shadow-xl" src="/img/vinomoc_2.png" alt="">
                 <img class="image_grid w-full h-full drop-shadow-xl" src="/img/vinomoc_3.jpg" alt="">
@@ -148,7 +148,7 @@
                 textos y maquetación general.
             </div>
 
-            <div class="grid grid-cols-1">
+            <div class="grid grid-cols-1 max-xl:pb-16">
                 <img class="image_grid w-full h-full" src="/img/queso.png" alt="">
             </div>
 
@@ -179,7 +179,7 @@
         </div>
 
 
-        <div class="images px-64 pb-10 text-zinc-600 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
+        <div class="images px-64 pb-10 text-zinc-600 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4 max-xl:pb-16">
             <img src="/img/presentacionvinos.png" alt="">
         </div>
 

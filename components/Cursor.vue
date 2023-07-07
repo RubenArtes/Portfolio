@@ -89,12 +89,5 @@ export default {
         border-radius: 50%;
     }
 
-    .custom-cursor__ball--small {
-        content: "";
-        width: 6px;
-        height: 6px;
-        background: black;
-        border-radius: 50%;
-    }
 </style>
   
