@@ -222,7 +222,7 @@
             <img src="/img/packruben.png" alt="">
         </div>
 
-        <div class="grid grid-cols-3 gap-2 px-64 pb-32 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10">
+        <div class="grid grid-cols-3 gap-2 px-64 pb-32 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10">
             <div class="div text-zinc-600 text-center text-xs m-0 pb-14 max-xl:pb-4">Render 3D con iluminación y colores
                 <br>
                 <div class="div text-[#F3536D] text-center text-lg m-0 animate-pulse">Frambuesa Liofilizada</div>

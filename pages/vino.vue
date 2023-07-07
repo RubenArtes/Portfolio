@@ -179,7 +179,7 @@
         </div>
 
 
-        <div class="images px-64 pb-10 text-zinc-600 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4 max-xl:pb-16">
+        <div class="images px-64 pb-10 text-zinc-600 justify-center max-xl:pt-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4 max-xl:pb-16">
             <img src="/img/presentacionvinos.png" alt="">
         </div>
 
