@@ -237,6 +237,7 @@
             </div>
             <img class="image_grid w-full h-full" src="/img/Packagingruben3.png" alt="">
             <img class="image_grid w-full h-full" src="/img/Packagingruben2.png" alt="">
+            <img class="image_grid w-full h-full" src="/img/Packagingruben1.png" alt="">
 
         </div>
 
