@@ -181,7 +181,7 @@
         Apps</div>
       <div class="programas flex flex-col gap-14 items-center max-lg:gap-8 min-w-[575px] max-lg:items-center max-lg:min-w-[60px]">
         <div class="three_programas flex justify-center gap-16 max-lg:grid-cols-3 max-lg:grid">
-          <img class="image_logo max-w-[50px] max-lg:max-w-[50px]" src="/img/After_Effects.svg" alt="">
+          <img class="image_logo max-w-[50px] max-lg:max-w-[50px]" src="/img/AfterEffects.svg" alt="">
           <img class="image_logo max-w-[50px] max-lg:max-w-[50px]" src="/img/Photoshop.svg" alt="">
           <img class="image_logo max-w-[50px] max-lg:max-w-[50px]" src="/img/Lightroom.svg" alt="">
         </div>
