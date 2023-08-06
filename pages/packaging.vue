@@ -253,11 +253,11 @@
                     <img class="image_logo w-[40px] opacity-80 hover:opacity-100 max-xl:max-w-[30px] max-xl:max-h-[29px]"
                         src="/img/Cinema4d.png" alt="">
                     <img class="image_logo w-[40px] opacity-80 hover:opacity-100 max-xl:max-w-[30px]"
-                        src="/img/Illustratorzinc.svg" alt="">
+                        src="/img/Illustrator.svg" alt="">
                     <img class="image_logo w-[40px] opacity-80 hover:opacity-100 max-xl:max-w-[30px]"
-                        src="/img/InDesignzinc.svg" alt="">
+                        src="/img/InDesign.svg" alt="">
                     <img class="image_logo w-[40px] opacity-80 hover:opacity-100 max-xl:max-w-[30px]"
-                        src="/img/Photoshopzinc.svg" alt="">
+                        src="/img/Photoshop.svg" alt="">
                 </div>
             </div>
         </div>
