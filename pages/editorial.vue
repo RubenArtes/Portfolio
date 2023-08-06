@@ -142,6 +142,23 @@
                 <img class="image_grid w-full h-full" src="/img/imgpaginas10.png" alt="">
             </div>
         </div>
+        <div class="images pt-20 px-64 pb-10 text-white justify-center flex flex-col max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
+            <div class="text max-w-[60ch] text-[32px] leading-10 text-white">Mockups</div>
+            <div class="text max-w-[60ch] text-[16px] leading-10 text-zinc-400 font-bold pb-12 max-xl:text-xs">Mockups de las cubiertas y de algunas páginas individuales
+            </div>
+            <div class="grid grid-cols-3 gap-4 max-xl:grid-cols-1">
+                <img class="image_grid w-full h-full" src="/img/Mockupportadas2.jpg" alt="">
+                <img class="image_grid w-full h-full" src="/img/Mockupportadas.jpg" alt="">
+                <img class="image_grid w-full h-full" src="/img/Mockupportadas3.jpg" alt="">
+                <img class="image_grid w-full h-full" src="/img/mockuppaginas1.jpg" alt="">
+                <img class="image_grid w-full h-full" src="/img/mockuppaginas2.jpg" alt="">
+                <img class="image_grid w-full h-full" src="/img/mockuppaginas3.jpg" alt="">
+                <img class="image_grid w-full h-full" src="/img/mockuppaginas4.jpg" alt="">
+                <img class="image_grid w-full h-full" src="/img/mockuppaginas5.jpg" alt="">
+                <img class="image_grid w-full h-full" src="/img/mockuppaginas6.jpg" alt="">
+            </div>
+        </div>
+        
 
         <div class="trabajos flex pt-32 pl-40 pr-40 pb-20 text-zinc-300 flex-col gap-10 justify-center items-center max-xl:pt-12 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
             <div class="titular text-[16px] font-normal flex flex-start items-center max-xl:text-xs">Programas utilizados para este
