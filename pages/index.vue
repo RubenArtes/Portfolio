@@ -179,16 +179,19 @@
       <div
         class="titular flex text-[72px] font-normal max-lg:text-[60px]">
         Apps</div>
-      <div class="programas flex flex-col gap-10 items-center max-lg:gap-8 min-w-[575px] max-lg:items-center max-lg:min-w-[60px]">
-        <div class="three_programas flex gap-10 max-lg:grid-cols-3 max-lg:grid">
-          <img class="image_logo max-w-[50px] max-lg:max-w-[50px]" src="/img/Figma.svg" alt="">
+      <div class="programas flex flex-col gap-14 items-center max-lg:gap-8 min-w-[575px] max-lg:items-center max-lg:min-w-[60px]">
+        <div class="three_programas flex justify-center gap-16 max-lg:grid-cols-3 max-lg:grid">
+          <img class="image_logo max-w-[50px] max-lg:max-w-[50px]" src="/img/After_Effects.svg" alt="">
           <img class="image_logo max-w-[50px] max-lg:max-w-[50px]" src="/img/Photoshop.svg" alt="">
           <img class="image_logo max-w-[50px] max-lg:max-w-[50px]" src="/img/Lightroom.svg" alt="">
-          <img class="image_logo max-w-[50px] max-lg:max-w-[50px]" src="/img/After_Effects.svg" alt="">
-          <img class="image_logo max-w-[50px] max-lg:max-w-[50px]" src="/img/Illustrator.svg" alt="">
-          <img class="image_logo max-w-[50px] max-lg:max-w-[50px]" src="/img/InDesign.svg" alt="">
         </div>
-        <div class="three_programas flex gap-10">
+        <div class="three_programas flex justify-center gap-16 max-lg:grid-cols-3 max-lg:grid">          
+          <img class="image_logo max-w-[50px] max-lg:max-w-[50px]" src="/img/InDesign.svg" alt="">
+          <img class="image_logo max-w-[50px] max-lg:max-w-[50px]" src="/img/Illustrator.svg" alt="">
+          <img class="image_logo max-w-[50px] max-lg:max-w-[50px]" src="/img/Figma.svg" alt="">
+
+        </div>
+        <div class="three_programas flex justify-center gap-16 max-lg:grid-cols-3 max-lg:grid">
           <img class="image_logo w-[50px] h-[49px] max-lg:max-w-[50px] max-lg:max-h-[49px]" src="/img/blender.png" alt="">
           <img class="image_logo w-[50px] h-[49px] max-lg:max-w-[50px] max-lg:max-h-[49px]" src="/img/Cinema4d.png"
             alt="">
