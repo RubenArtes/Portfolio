@@ -16,12 +16,12 @@
 
         <VueScrollProgressBar background-color="white" />
         <div class="colum flex pt-20 px-64 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center">
-            <div class="titular text-[70px] font-bold max-w-[13ch] leading-12 max-xl:text-[70px] max-xl:justify-center">Editorial</div>
+            <div class="titular text-[70px] font-bold max-w-[13ch] leading-12 animate-pulse leading-12 bg-gradient-to-r bg-clip-text text-transparent from-[#979797] via-[#dfdfdf] to-[#ffffff] animate-text max-xl:text-[60px] max-xl:justify-center">Editorial</div>
             <div class="info flex flex-col gap-6">
-                <div class="text max-w-[60ch] text-[16px] leading-10 text-zinc-200 max-xl:text-xs">Rediseño Editorial - Revista -
+                <div class="text max-w-[60ch] text-[16px] leading-10 text-zinc-400 max-xl:leading-2 max-xl:text-xs max-xl:text-center">Rediseño Editorial - Revista -
                     Maquetación -
                     Diseño Gráfico</div>
-                <div class="text max-w-[60ch] text-[20px] leading-8 text-zinc-400 font-bold max-xl:text-sm max-xl:max-w-[40ch]">Creación de una publicación
+                <div class="text max-w-[60ch] text-[20px] leading-8 text-zinc-300 font-bold max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center">Creación de una publicación
                     bimensual de contenidos
                     y enfoques de la revista TypeNotes, crear un sistema
                     mucho más económico y abordable diseñando
@@ -31,7 +31,7 @@
             </div>
         </div>
 
-        <div class="trabajos flex pt-10 pb-20 px-40 text-white items-start flex-nowrap gap-40 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-xl:text-center">
+        <div class="trabajos flex pt-20 px-40 text-white items-start flex-nowrap gap-40 justify-center max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-xl:text-center max-xl:pt-0 max-xl:pb-16">
             <div class="info flex flex-col">
                 <div class="text max-w-[60ch] italic text-[16px] leading-10 text-zinc-400 max-xl:text-xs">Asignatura</div>
                 <div

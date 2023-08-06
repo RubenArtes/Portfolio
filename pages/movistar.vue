@@ -16,11 +16,11 @@
 
         <VueScrollProgressBar background-color="white" />
         <div class="trabajos flex pt-20 px-40 pb-20 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
-            <div class="titular text-[70px] font-bold max-w-[13ch] leading-12 max-xl:text-[70px] max-xl:justify-center">Video</div>
+            <div class="titular text-[70px] font-bold max-w-[13ch] leading-12 animate-pulse leading-12 bg-gradient-to-r bg-clip-text text-transparent from-[#a50e34] via-[#770e38] to-[#ff9fb2] animate-text max-xl:text-[60px] max-xl:justify-center">Video</div>
             <div class="info flex flex-col gap-6">
-                <div class="text max-w-[60ch] text-[16px] leading-10 text-zinc-100 max-xl:text-xs">Audiovisuales - Movistar - Identidad -
+                <div class="text max-w-[60ch] text-[16px] leading-10 text-zinc-300 max-xl:leading-2 max-xl:text-xs max-xl:text-center">Audiovisuales - Movistar - Identidad -
                     After Effects</div>
-                <div class="text max-w-[60ch] text-[20px] leading-8 text-zinc-100 font-bold max-xl:text-sm max-xl:max-w-[40ch]">Este trabajo consiste en crear
+                <div class="text max-w-[60ch] text-[20px] leading-8 text-zinc-200 font-bold max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center">Este trabajo consiste en crear
                     3 videos
                     diferentes de transiciones y efectos para el diseño de animación de las cortinillas de Movistar. Una
                     cortinilla básica para el cambio
@@ -32,7 +32,7 @@
         </div>
 
         
-        <div class="trabajos flex pt-10 pb-20 px-40 text-white items-start flex-nowrap gap-40 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-xl:text-center">
+        <div class="trabajos flex pt-20 px-40 text-white items-start flex-nowrap gap-40 justify-center max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-xl:text-center max-xl:pt-0 max-xl:pb-16">
             <div class="info flex flex-col">
                 <div class="text max-w-[60ch] italic text-[16px] leading-10 text-zinc-200 max-xl:text-xs">Asignatura</div>
                 <div

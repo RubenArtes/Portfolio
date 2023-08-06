@@ -15,24 +15,24 @@
         </div>
         <VueScrollProgressBar background-color="#52525b" />
         <div
-            class="trabajos flex pt-20 px-40 pb-20 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
+            class="trabajos flex pt-20 px-40 pb-20 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 ">
             <div
-                class="titular text-[70px] font-bold max-w-[13ch] animate-pulse leading-12 bg-gradient-to-r bg-clip-text text-transparent from-indigo-500 via-purple-500 to-indigo-500 animate-text max-xl:text-[55px] max-xl:justify-center">
+                class="titular text-[70px] font-bold max-w-[13ch] animate-pulse leading-12 bg-gradient-to-r bg-clip-text text-transparent from-indigo-500 via-purple-500 to-indigo-500 animate-text max-xl:text-[45px] max-xl:justify-center">
                 Ilustraciones</div>
             <div class="info flex flex-col gap-6">
-                <div class="text max-w-[60ch] text-[16px] leading-10 text-zinc-400 max-xl:text-xs">Dibujos - Lettering -
+                <div class="text max-w-[60ch] text-[16px] leading-10 text-zinc-400 max-xl:leading-2 max-xl:text-xs max-xl:text-center">Dibujos - Lettering -
                     Ilustraciones -
                     Carteles -
                     Pegatinas</div>
                 <div
-                    class="text max-w-[60ch] text-[20px] leading-8 text-zinc-600 font-bold max-xl:text-sm max-xl:max-w-[40ch]">
+                    class="text max-w-[60ch] text-[20px] leading-8 text-zinc-600 font-bold max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center">
                     Recopilatorio de mis
                     ilustraciones, carteles ilustrados,
                     lettering y dibujos variados realizados digitalmente en Procreate con el IPad.
                 </div>
             </div>
         </div>
-        <div class="trabajos flex pt-20 px-40 text-white items-start flex-nowrap gap-40 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-xl:text-center">
+        <div class="trabajos flex pt-20 px-40 text-white items-start flex-nowrap gap-40 justify-center max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-xl:text-center max-xl:pt-0 max-xl:pb-16">
             <div class="info flex flex-col">
                 <div class="text max-w-[60ch] italic text-[16px] leading-10 text-zinc-400 max-xl:text-xs">Asignatura</div>
                 <div

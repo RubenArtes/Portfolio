@@ -16,12 +16,12 @@
 
         <VueScrollProgressBar background-color="#52525b" />
         <div class="trabajos flex pt-20 px-40 pb-20 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
-            <div class="titular text-[70px] font-bold max-w-[13ch] leading-12 text-[#D61E0A] max-xl:text-[70px] max-xl:justify-center">Mascota</div>
+            <div class="titular text-[70px] font-bold max-w-[13ch] leading-12 animate-pulse leading-12 bg-gradient-to-r bg-clip-text text-transparent from-[#9f1212] via-[#c64d4d] to-[#eba3a3] animate-text max-xl:text-[60px] max-xl:justify-center">Mascota</div>
             <div class="info flex flex-col gap-6">
-                <div class="text max-w-[60ch] text-[16px] leading-10 text-zinc-400 max-xl:text-xs">Rediseño - Identidad - Mascota -
+                <div class="text max-w-[60ch] text-[16px] leading-10 text-zinc-400 max-xl:leading-2 max-xl:text-xs max-xl:text-center">Rediseño - Identidad - Mascota -
                     Kinder Bueno -
                     Diseño Gráfico</div>
-                <div class="text max-w-[60ch] text-[20px] leading-8 text-zinc-600 font-bold max-xl:text-sm max-xl:max-w-[40ch]">El proyecto consiste en un
+                <div class="text max-w-[60ch] text-[20px] leading-8 text-zinc-600 font-bold max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center">El proyecto consiste en un
                     diseño y creación de la mascota de una de las marcas propuestas en clase, en este caso se crea una
                     mascota para la marca de Kinder
                     Bueno y sus barritas de chocolate.
@@ -29,7 +29,7 @@
             </div>
         </div>
 
-        <div class="trabajos flex pt-10 pb-32 px-40 text-white items-start flex-nowrap gap-40 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-xl:text-center">
+        <div class="trabajos flex pt-20 px-40 text-white items-start flex-nowrap gap-40 justify-center max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-xl:text-center max-xl:pt-0 max-xl:pb-16">
             <div class="info flex flex-col">
                 <div class="text max-w-[60ch] italic text-[16px] leading-10 text-zinc-400 max-xl:text-xs">Asignatura</div>
                 <div

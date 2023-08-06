@@ -16,12 +16,12 @@
     </div>
     <VueScrollProgressBar background-color="white" />
     <div class="trabajos flex pt-20 px-40 pb-20 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
-      <div class="titular text-[70px] font-bold max-w-[13ch] leading-12 max-xl:text-[55px] max-xl:justify-center">Fotografías</div>
+      <div class="titular text-[70px] font-bold max-w-[13ch] leading-12 animate-pulse leading-12 bg-gradient-to-r bg-clip-text text-transparent from-[#979797] via-[#dfdfdf] to-[#ffffff] animate-text max-xl:text-[45px] max-xl:justify-center">Fotografías</div>
       <div class="info flex flex-col gap-6">
-        <div class="text max-w-[60ch] text-[16px] leading-10 text-zinc-200 max-xl:text-xs">Fotografías - Ediciones - Retratos -
+        <div class="text max-w-[60ch] text-[16px] leading-10 text-zinc-400 max-xl:leading-2 max-xl:text-xs max-xl:text-center">Fotografías - Ediciones - Retratos -
           Paisajes - Social -
           Diseño Gráfico</div>
-        <div class="text max-w-[60ch] text-[20px] leading-8 text-zinc-400 font-bold max-xl:text-sm max-xl:max-w-[40ch]">Recopilación de fotografías y
+        <div class="text max-w-[60ch] text-[20px] leading-8 text-zinc-300 font-bold max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center">Recopilación de fotografías y
           fanzines realizados durante el curso y
           como trabajos personales sobre diferentes temáticas y con diferentes cometidos. Fotografías de retrato,
           bodegones, paisajes y representación de lo social.
@@ -31,7 +31,7 @@
     </div>
 
     
-    <div class="trabajos flex pt-10 pb-20 px-40 text-white items-start flex-nowrap gap-40 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-xl:text-center">
+    <div class="trabajos flex pt-20 px-40 text-white items-start flex-nowrap gap-40 justify-center max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-xl:text-center max-xl:pt-0 max-xl:pb-16">
             <div class="info flex flex-col">
                 <div class="text max-w-[60ch] italic text-[16px] leading-10 text-zinc-400 max-xl:text-xs">Asignatura</div>
                 <div

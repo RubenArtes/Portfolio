@@ -28,7 +28,7 @@
 
 
       <div class="text max-w-[60ch] max-lg:justify-center max-lg:text-[16px] max-lg:text-center">
-        <div class="text max-w-[60ch] text-zinc-400 text-sm max-lg:justify-center max-lg:text-[16px] max-lg:text-center">Selección de trabajos realizados en Escuela Superior de Diseño de Madrid y otros
+        <div class="text max-w-[60ch] text-zinc-400 text-sm max-lg:justify-center max-lg:text-[12px] max-lg:text-center">Selección de trabajos realizados en Escuela Superior de Diseño de Madrid y otros
           proyectos personales. Incluye categorías como: diseño Web, editorial, 3D, edición de video y fotografía, packaging, marca e ilustraciones.
 
 
@@ -48,19 +48,19 @@
           <NuxtLink to="/packaging">
             <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/Packaging_ruben2.png">
           </NuxtLink>
-          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-2">Matutano
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-4">Matutano
             Saludable</div>
-          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:mb-4">Diseño Gráfico -
+          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:leading-3">Diseño Gráfico -
             Packaging</div>
         </div>
         <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
           <NuxtLink to="/vino">
             <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/Vino_2.png">
           </NuxtLink>
-          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-2">PRAU - Pasión
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-4">PRAU - Pasión
             por la tierra</div>
           <div
-            class="type_trabajo max-w-[40ch] m-0 text-sm bg-gradient-to-r bg-clip-text text-zinc-400 max-lg:text-[12px] max-lg:mb-4">
+            class="type_trabajo max-w-[40ch] m-0 text-sm bg-gradient-to-r bg-clip-text text-zinc-400 max-lg:text-[12px] max-lg:leading-3">
             Diseño Gráfico -
             Packaging</div>
         </div>
@@ -71,18 +71,18 @@
           <NuxtLink to="/libroexperimental">
             <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/libroexperimental.gif">
           </NuxtLink>
-          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-2">Metro de
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-4">Metro de
             Madrid</div>
-          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:mb-4">Diseño Gráfico -
+          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:leading-3">Diseño Gráfico -
             Producción</div>
         </div>
         <div class="trabajo max-w-[600px]max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
           <NuxtLink to="/typenotes">
             <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/Editorial_4.png">
           </NuxtLink>
-          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-2"> Typenotes
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-4"> Typenotes
           </div>
-          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:mb-4">Diseño Gráfico -
+          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:leading-3">Diseño Gráfico -
             Editorial</div>
         </div>
 
@@ -95,18 +95,18 @@
           <NuxtLink to="/movistar">
             <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/Movistar.png">
           </NuxtLink>
-          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-2">Movistar +
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-4">Movistar +
           </div>
-          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:mb-4">Diseño Gráfico -
+          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:leading-3">Diseño Gráfico -
             Motion Graphics</div>
         </div>
         <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
           <NuxtLink to="/esdfigma">
             <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/gifesd.gif">
           </NuxtLink>
-          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-2">ESD - Página
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-4">ESD - Página
             Web</div>
-          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:mb-4">Diseño Gráfico -
+          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:leading-3">Diseño Gráfico -
             Prototipado figma</div>
         </div>
       </div>
@@ -116,19 +116,19 @@
           <NuxtLink to="/fotos">
             <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/presentacionfotografias.gif">
           </NuxtLink>
-          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-2">Colección
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-4">Colección
             fotográfica
           </div>
-          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:mb-4">Diseño Gráfico -
+          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:leading-3">Diseño Gráfico -
             Fotografía</div>
         </div>
         <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
           <NuxtLink to="/modelado">
             <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/3dvideo.gif">
           </NuxtLink>
-          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-2">Colección 3D
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-4">Colección 3D
           </div>
-          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:mb-4">Diseño Gráfico -
+          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:leading-3">Diseño Gráfico -
             Modelado 3D</div>
         </div>
 
@@ -137,21 +137,21 @@
         class="twotrabajos p-0 flex gap-4 justify-center pb-8 max-lg:flex-col max-lg:justify-items-center max-lg:items-center max-lg:px-10">
         <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
           <NuxtLink to="/yelmo">
-            <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/gifyelmo.gif">
+            <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/gifyelmo2.png">
           </NuxtLink>
-          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-2">Cines Yelmo
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-4">Cines Yelmo
           </div>
-          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:mb-4">Diseño Gráfico -
+          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:mb-4 max-lg:leading-3">Diseño Gráfico -
             Marca</div>
         </div>
         <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
           <NuxtLink to="/editorial">
             <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/Mockup.jpg">
           </NuxtLink>
-          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-2">El
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-4">El
             pensamiento Lateral
           </div>
-          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:mb-4">Diseño Gráfico -
+          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:leading-3">Diseño Gráfico -
             Editorial</div>
         </div>
 
@@ -163,19 +163,19 @@
           <NuxtLink to="/kinderbueno">
             <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/kinderbueno3.png">
           </NuxtLink>
-          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-2">Kinder Bueno
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-4">Kinder Bueno
           </div>
-          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:mb-4">Ilustración -
+          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:leading-3">Ilustración -
             Marca</div>
         </div>
         <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
           <NuxtLink to="/ilustraciones">
             <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/ilustraciones4.png">
           </NuxtLink>
-          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-2">Colección de
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-4">Colección de
             ilustraciones
           </div>
-          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:mb-4">Ilustración -
+          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:leading-3">Ilustración -
             Dibujos</div>
         </div>
 
@@ -184,23 +184,23 @@
     </div>
 
     <div
-      class="flex pt-14 pl-40 pr-40 pb-28 text-white flex-col gap-20 items-center justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20">
+      class="flex pt-14 pl-40 pr-40 pb-28 text-white flex-col gap-20 items-center justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-14">
       <div class="titular flex text-[72px] font-normal max-lg:text-[60px]">
         Apps</div>
       <div
-        class="programas flex flex-col gap-14 items-center max-lg:gap-8 min-w-[575px] max-lg:items-center max-lg:min-w-[60px]">
-        <div class="three_programas flex justify-center gap-16 max-lg:grid-cols-3 max-lg:grid">
+        class="programas flex flex-col gap-14 items-center max-lg:gap-8 min-w-[575px] max-lg:items-center max-lg:min-w-[60px] max-lg:grid">
+        <div class="three_programas flex justify-center gap-16 max-lg:grid-cols-3 max-lg:grid max-lg:gap-8">
           <img class="image_logo max-w-[50px] max-lg:max-w-[50px]" src="/img/AfterEffects.svg" alt="">
           <img class="image_logo max-w-[50px] max-lg:max-w-[50px]" src="/img/Photoshop.svg" alt="">
           <img class="image_logo max-w-[50px] max-lg:max-w-[50px]" src="/img/Lightroom.svg" alt="">
         </div>
-        <div class="three_programas flex justify-center gap-16 max-lg:grid-cols-3 max-lg:grid">
+        <div class="three_programas flex justify-center gap-16 max-lg:grid-cols-3 max-lg:grid max-lg:gap-8">
           <img class="image_logo max-w-[50px] max-lg:max-w-[50px]" src="/img/InDesign.svg" alt="">
           <img class="image_logo max-w-[50px] max-lg:max-w-[50px]" src="/img/Illustrator.svg" alt="">
           <img class="image_logo max-w-[50px] max-lg:max-w-[50px]" src="/img/Figma.svg" alt="">
 
         </div>
-        <div class="three_programas flex justify-center gap-16 max-lg:grid-cols-3 max-lg:grid">
+        <div class="three_programas flex justify-center gap-16 max-lg:grid-cols-3 max-lg:grid max-lg:gap-8">
           <img class="image_logo w-[50px] h-[49px] max-lg:max-w-[50px] max-lg:max-h-[49px]" src="/img/blender.png" alt="">
           <img class="image_logo w-[50px] h-[49px] max-lg:max-w-[50px] max-lg:max-h-[49px]" src="/img/Cinema4d.png"
             alt="">
