@@ -21,15 +21,22 @@
           Portfolio
           <img class="info animate-pulse" src="/img/info.svg">
         </div>
-        <div class="titular_small text-[12px] animate-pulse font-normal flex items-start max-lg:text-[12px] max-lg:justify-center max-lg:text-center max-lg:max-w-[30ch]">Ultima actualización, Julio 2023</div>
+        <div
+          class="titular_small text-[12px] animate-pulse font-normal flex items-start max-lg:text-[12px] max-lg:justify-center max-lg:text-center max-lg:max-w-[30ch]">
+          Ultima actualización, Agosto 2023</div>
       </div>
 
 
+      <div class="text max-w-[60ch] max-lg:justify-center max-lg:text-[16px] max-lg:text-center">
+        <div class="text max-w-[60ch] text-zinc-400 text-sm max-lg:justify-center max-lg:text-[16px] max-lg:text-center">Selección de trabajos realizados en Escuela Superior de Diseño de Madrid y otros
+          proyectos personales. Incluye categorías como: diseño Web, editorial, 3D, edición de video y fotografía, packaging, marca e ilustraciones.
 
-      <div class="text max-w-[60ch] max-lg:justify-center max-lg:text-[16px] max-lg:text-center">Mis diferentes trabajos
-        durante la carrera y proyectos personales. Desde editorial,
-        packaging y web, hasta ilustraciones, audiovisuales y fotografías.
+
+        </div>
+        <div class="text max-w-[60ch] pt-8 text-xl max-lg:justify-center max-lg:text-[16px] max-lg:text-center">«Diseñar es pensar en
+          hacerlo visual.» — Saul Bass</div>
       </div>
+
     </div>
     <div
       class="seleccion_trabajos pt-10 px-64 pb-20 text-white flex flex-col justify-center max-lg:px-10 max-lg:justify-items-center max-lg:justify-center">
@@ -52,7 +59,9 @@
           </NuxtLink>
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-2">PRAU - Pasión
             por la tierra</div>
-          <div class="type_trabajo max-w-[40ch] m-0 text-sm bg-gradient-to-r bg-clip-text text-zinc-400 max-lg:text-[12px] max-lg:mb-4">Diseño Gráfico -
+          <div
+            class="type_trabajo max-w-[40ch] m-0 text-sm bg-gradient-to-r bg-clip-text text-zinc-400 max-lg:text-[12px] max-lg:mb-4">
+            Diseño Gráfico -
             Packaging</div>
         </div>
       </div>
@@ -105,7 +114,7 @@
         class="twotrabajos p-0 flex gap-4 justify-center pb-8 max-lg:flex-col max-lg:justify-items-center max-lg:items-center max-lg:px-10">
         <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
           <NuxtLink to="/fotos">
-            <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/postproduccion_1.png">
+            <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/presentacionfotografias.gif">
           </NuxtLink>
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-2">Colección
             fotográfica
@@ -176,16 +185,16 @@
 
     <div
       class="flex pt-14 pl-40 pr-40 pb-28 text-white flex-col gap-20 items-center justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20">
-      <div
-        class="titular flex text-[72px] font-normal max-lg:text-[60px]">
+      <div class="titular flex text-[72px] font-normal max-lg:text-[60px]">
         Apps</div>
-      <div class="programas flex flex-col gap-14 items-center max-lg:gap-8 min-w-[575px] max-lg:items-center max-lg:min-w-[60px]">
+      <div
+        class="programas flex flex-col gap-14 items-center max-lg:gap-8 min-w-[575px] max-lg:items-center max-lg:min-w-[60px]">
         <div class="three_programas flex justify-center gap-16 max-lg:grid-cols-3 max-lg:grid">
           <img class="image_logo max-w-[50px] max-lg:max-w-[50px]" src="/img/AfterEffects.svg" alt="">
           <img class="image_logo max-w-[50px] max-lg:max-w-[50px]" src="/img/Photoshop.svg" alt="">
           <img class="image_logo max-w-[50px] max-lg:max-w-[50px]" src="/img/Lightroom.svg" alt="">
         </div>
-        <div class="three_programas flex justify-center gap-16 max-lg:grid-cols-3 max-lg:grid">          
+        <div class="three_programas flex justify-center gap-16 max-lg:grid-cols-3 max-lg:grid">
           <img class="image_logo max-w-[50px] max-lg:max-w-[50px]" src="/img/InDesign.svg" alt="">
           <img class="image_logo max-w-[50px] max-lg:max-w-[50px]" src="/img/Illustrator.svg" alt="">
           <img class="image_logo max-w-[50px] max-lg:max-w-[50px]" src="/img/Figma.svg" alt="">
@@ -214,7 +223,8 @@
           <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400">Experiencia realizando sesiones
             fotográficas en exterior y estudio
             de retratos. Fotografía de paisajes y lugares. Además de experiencia en fotografía de producto y control de
-            equipo de estudio. Edición de fotografía (Raw) en <a class="texto_color text-[#4b6ad1]">Photoshop y Lightroom</a>
+            equipo de estudio. Edición de fotografía (Raw) en <a class="texto_color text-[#4b6ad1]">Photoshop y
+              Lightroom</a>
           </div>
         </div>
         <div class="servicio flex flex-col gap-6">
@@ -222,8 +232,9 @@
           <div class="tittle_servicios font-bold text-[20px]">Ilustración</div>
           <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400"> Experiencia realizando ilustraciones
             tradicionales
-            e ilustraciones digitales mediante IPad - Procreate. Cuento con <a class="bold text-white">Grado Superior de Ilustración en la Escuela de
-            Artes de Toledo.</a>
+            e ilustraciones digitales mediante IPad - Procreate. Cuento con <a class="bold text-white">Grado Superior de
+              Ilustración en la Escuela de
+              Artes de Toledo.</a>
           </div>
         </div>
         <div class="servicio flex flex-col gap-6">
@@ -240,7 +251,8 @@
           <img class="vector w-[17px]" src="/img/star.svg">
           <div class="tittle_servicios font-bold text-[20px]">Pack Adobe y Figma</div>
           <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400"> Altos conocimientos en utilizar
-            el pack <a class="texto_color text-[#dc8f00]">Adobe</a> (concretamente los mencionados arriba) y <a class="texto_color text-[#dc8f00]">Figma</a>  (componentización, vistas, prototipado y
+            el pack <a class="texto_color text-[#dc8f00]">Adobe</a> (concretamente los mencionados arriba) y <a
+              class="texto_color text-[#dc8f00]">Figma</a> (componentización, vistas, prototipado y
             autolayout).
           </div>
         </div>
@@ -249,7 +261,8 @@
           <div class="tittle_servicios font-bold text-[20px]">Audiovisuales y Multimedia</div>
           <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400">Conocimientos en diferentes ambitos del
             mundo de audiovisuales,
-            concretamente <a class="texto_color text-[#9c46e2]">After Effects</a>  para motion graphics, <a class="texto_color text-[#9c46e2]">Adobe Premiere</a>  y otros programas de video para realización
+            concretamente <a class="texto_color text-[#9c46e2]">After Effects</a> para motion graphics, <a
+              class="texto_color text-[#9c46e2]">Adobe Premiere</a> y otros programas de video para realización
             de piezas para redes sociales,
             conocimientos de Rotoscopia digital, chroma y edición de video.
 
@@ -261,7 +274,7 @@
           <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400">Conocimientos altos en Indesign y
             <a class="texto_color text-[#4b6ad1]">Photoshop</a>, para la maquetación
             de carteles, folletos, libros, revistas, anuncios y cualquier pieza gráfica necesaria.
-            
+
           </div>
         </div>
         <div class="servicio flex flex-col gap-6">
@@ -269,7 +282,8 @@
           <div class="tittle_servicios font-bold text-[20px]">Redes Sociales</div>
           <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400">Conocimientos altos de redes sociales,
             actualidad y flujo de información
-            en las aplicaciones actuales como <a class="texto_color text-[#d14bb0]">Instagram, TikTok, Facebook y Twitter.</a> 
+            en las aplicaciones actuales como <a class="texto_color text-[#d14bb0]">Instagram, TikTok, Facebook y
+              Twitter.</a>
 
           </div>
         </div>
@@ -287,9 +301,11 @@
       <div class="servicios_ofrecidos flex flex-col gap-6">
         <div class="servicio flex flex-col gap-6">
           <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400">Soy un estudiante de 22 años, actualmente
-            cursando 4º en un grado Universitario de Diseño Gráfico en la Escuela Superior De Diseño de Madrid <a class="animate-pulse texto_type italic text-xs text-white">(Nota media - 9).</a> <br> Cuento con
+            cursando 4º en un grado Universitario de Diseño Gráfico en la Escuela Superior De Diseño de Madrid <a
+              class="animate-pulse texto_type italic text-xs text-white">(Nota media - 9).</a> <br> Cuento con
             un Grado
-            Superior de Ilustración <a class="texto_type italic text-xs text-white animate-pulse">(Nota TFG - 9).</a> <br> <br> Soy muy polifacetico y no me cierro a ninguna vía del
+            Superior de Ilustración <a class="texto_type italic text-xs text-white animate-pulse">(Nota TFG - 9).</a> <br>
+            <br> Soy muy polifacetico y no me cierro a ninguna vía del
             diseño, suelo
             abarcar todos los ambitos, como ya he mostrado anteriormente. Soy resolutivo y trabajador.
 
@@ -375,29 +391,30 @@
           </a>
         </div>
         <div class="links2 flex gap-32 flex-end max-lg:justify-center">
-        <a class="red flex gap-2 items-center max-lg:text-[14px]" href="https://www.instagram.com/ruben.iso">Instagram
-          <img class="vector" src="/img/Vector-11.svg">
+          <a class="red flex gap-2 items-center max-lg:text-[14px]" href="https://www.instagram.com/ruben.iso">Instagram
+            <img class="vector" src="/img/Vector-11.svg">
 
-        </a> <a class="red flex gap-2 items-center max-lg:text-[14px]"
-          href="https://www.linkedin.com/in/rubenmaldonado10">LinkedIn
-          <img class="vector" src="/img/Vector-11.svg">
-        </a>
+          </a> <a class="red flex gap-2 items-center max-lg:text-[14px]"
+            href="https://www.linkedin.com/in/rubenmaldonado10">LinkedIn
+            <img class="vector" src="/img/Vector-11.svg">
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="foter bg-black p-10 flex text-white justify-between sticky top-0 max-lg:p-6">
+      <div class="foter_image flex flex-start">
+        <img class="vector max-lg:max-w-[15px]" src="/img/star.svg">
+      </div>
+      <div class="email flex gap-2 items-center text-sm max-lg:text-xs">Ruben Maldonado González
+        <img class="vector max-lg:max-w-[15px]" src="/img/futbol.svg">
       </div>
     </div>
 
+
   </div>
-
-  <div class="foter bg-black p-10 flex text-white justify-between sticky top-0 max-lg:p-6">
-    <div class="foter_image flex flex-start">
-      <img class="vector max-lg:max-w-[15px]" src="/img/star.svg">
-    </div>
-    <div class="email flex gap-2 items-center text-sm max-lg:text-xs">Ruben Maldonado González
-      <img class="vector max-lg:max-w-[15px]" src="/img/futbol.svg">
-    </div>
-  </div>
-
-
-</div></template>
+</template>
 
 <script setup>
 
