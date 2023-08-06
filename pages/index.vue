@@ -48,7 +48,7 @@
         </div>
         <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
           <NuxtLink to="/vino">
-            <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/Vino_1.png">
+            <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/Vino_2.png">
           </NuxtLink>
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-2">PRAU - Pasión
             por la tierra</div>
@@ -69,7 +69,7 @@
         </div>
         <div class="trabajo max-w-[600px]max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
           <NuxtLink to="/typenotes">
-            <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/Editorial_3.png">
+            <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/Editorial_4.png">
           </NuxtLink>
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-2"> Typenotes
           </div>
@@ -115,7 +115,7 @@
         </div>
         <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
           <NuxtLink to="/modelado">
-            <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/modelado3d.gif">
+            <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/3dvideo.gif">
           </NuxtLink>
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-2">Colección 3D
           </div>
@@ -161,7 +161,7 @@
         </div>
         <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
           <NuxtLink to="/ilustraciones">
-            <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/ilustraciones.png">
+            <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/ilustraciones4.png">
           </NuxtLink>
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-2">Colección de
             ilustraciones
