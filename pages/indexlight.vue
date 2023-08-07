@@ -1,31 +1,31 @@
 <template>
-  <div class="app bg-black">
+  <div class="app bg-white">
     <Cursor />
-    <div class="header bg-black p-10 flex text-white justify-between sticky top-0 z-10 max-lg:p-6 max-lg:sticky">
+    <div class="header bg-white p-10 flex text-black justify-between sticky top-0 z-10 max-lg:p-6 max-lg:sticky border border-b-1">
       <div class="image flex flex-start">
-        <img class="max-lg:max-w-[15px]" src="/img/Vector.svg">
+        <img class="max-lg:max-w-[15px]" src="/img/Vectorblack.svg">
       </div>
       <div class="mode flex gap-10 items-center">
-        <NuxtLink to="/indexlight">
-            <img class="image w-[30px]" src="/img/lightmode.png" alt="">
+        <NuxtLink to="/">
+            <img class="image w-[30px]" src="/img/darkmode.png" alt="">
         </NuxtLink>
         
       </div>
       <div class="email text-lg flex gap-2 items-center max-lg:text-xs ">ruben.maldonado.graphic@gmail.com
-        <img class="vector max-lg:max-w-[8px]" src="/img/Vector-11.svg">
+        <img class="vector max-lg:max-w-[8px]" src="/img/Vector-11black.svg">
       </div>
 
     </div>
     <VueScrollProgressBar />
 
     <div
-      class="trabajos flex pt-20 px-64 pb-20 text-white flex-nowrap items-center gap-28 justify-center max-lg:pt-16 max-lg:px-10 max-lg:flex-col max-lg:justify-center max-lg:gap-10">
+      class="trabajos flex pt-20 px-64 pb-20 text-black flex-nowrap items-center gap-28 justify-center max-lg:pt-16 max-lg:px-10 max-lg:flex-col max-lg:justify-center max-lg:gap-10">
 
       <div class="titular_flex flex flex-col max-lg:items-center max-lg:flex">
         <div
           class="titular text-[115px] font-normal flex gap-2 items-start max-lg:max-w-[200px] max-lg:text-[70px] max-lg:justify-center">
           Portfolio
-          <img class="info animate-pulse" src="/img/info.svg">
+          <img class="info animate-pulse" src="/img/infoblack.png">
         </div>
         <div
           class="titular_small text-[12px] animate-pulse font-normal flex items-start max-lg:text-[12px] max-lg:justify-center max-lg:text-center max-lg:max-w-[30ch]">
@@ -45,8 +45,8 @@
 
     </div>
     <div
-      class="seleccion_trabajos pt-10 px-64 pb-20 text-white flex flex-col justify-center max-lg:px-10 max-lg:justify-items-center max-lg:justify-center">
-      <div class="accede flex justify-center text-zinc-200 pb-10 text-xs">«Clickea en un trabajo para saber más de el»
+      class="seleccion_trabajos pt-10 px-64 pb-20 text-black flex flex-col justify-center max-lg:px-10 max-lg:justify-items-center max-lg:justify-center">
+      <div class="accede flex justify-center text-zinc-400 pb-10 text-xs">«Clickea en un trabajo para saber más de el»
       </div>
       <div
         class="twotrabajos p-0 flex gap-4 justify-center pb-8 max-lg:flex-col max-lg:justify-items-center max-lg:items-center max-lg:px-10">
@@ -75,7 +75,7 @@
         class="twotrabajos p-0 flex gap-4 justify-center pb-8 max-lg:flex-col max-lg:justify-items-center max-lg:items-center max-lg:px-10">
         <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col ">
           <NuxtLink to="/MetrodeMadrid">
-            <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/libroexperimental.gif">
+            <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px] border border-1" src="/img/libroexperimental.gif">
           </NuxtLink>
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-4">Metro de
             Madrid</div>
@@ -108,7 +108,7 @@
         </div>
         <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
           <NuxtLink to="/PrototipadoFigma">
-            <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/gifesd.gif">
+            <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px] border border-1" src="/img/gifesd.gif">
           </NuxtLink>
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-4">ESD - Página
             Web</div>
@@ -190,7 +190,7 @@
     </div>
 
     <div
-      class="flex pt-14 pl-40 pr-40 pb-28 text-white flex-col gap-20 items-center justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-14">
+      class="flex pt-14 pl-40 pr-40 pb-28 text-black flex-col gap-20 items-center justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-14">
       <div class="titular flex text-[72px] font-normal max-lg:text-[60px]">
         Apps</div>
       <div
@@ -217,7 +217,7 @@
     </div>
 
     <div
-      class="trabajos flex pt-32 pl-40 pr-40 pb-20 text-white flex-nowrap gap-60 justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20">
+      class="trabajos flex pt-32 pl-40 pr-40 pb-20 text-black flex-nowrap gap-60 justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20">
       <div class="sticky_menu">
         <div class="titular flex flex-col text-[72px] font-normal sticky top-24 max-lg:text-[60px]">Servicios</div>
       </div>
@@ -300,7 +300,7 @@
     </div>
 
     <div
-      class="trabajos flex pt-32 pl-40 pr-40 pb-20 text-white flex-nowrap gap-60 justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20">
+      class="trabajos flex pt-32 pl-40 pr-40 pb-20 text-black flex-nowrap gap-60 justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20">
       <div class="sticky_menu">
         <div class="titular flex flex-col text-[72px] font-normal sticky top-24 max-lg:text-[60px]">Sobre mi</div>
       </div>
@@ -308,9 +308,9 @@
         <div class="servicio flex flex-col gap-6">
           <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400">Soy un estudiante de 22 años, actualmente
             cursando 4º en un grado Universitario de Diseño Gráfico en la Escuela Superior De Diseño de Madrid <a
-              class="animate-pulse texto_type italic text-xs text-white">(Nota media - 9).</a> <br> Cuento con
+              class="animate-pulse texto_type italic text-xs text-black">(Nota media - 9).</a> <br> Cuento con
             un Grado
-            Superior de Ilustración <a class="texto_type italic text-xs text-white animate-pulse">(Nota TFG - 9).</a> <br>
+            Superior de Ilustración <a class="texto_type italic text-xs text-black animate-pulse">(Nota TFG - 9).</a> <br>
             <br> Soy muy polifacetico y no me cierro a ninguna vía del
             diseño, suelo
             abarcar todos los ambitos, como ya he mostrado anteriormente. Soy resolutivo y trabajador.
@@ -326,19 +326,19 @@
     </div>
 
     <div
-      class="trabajos flex pt-32 pl-40 pr-40 pb-20 text-white flex-nowrap gap-60 justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20">
+      class="trabajos flex pt-32 pl-40 pr-40 pb-20 text-black flex-nowrap gap-60 justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20">
       <div class="sticky_menu">
         <div class="titular flex flex-col text-[72px] font-normal sticky top-24 max-lg:text-[60px]">Trabajos</div>
       </div>
       <div class="servicios_ofrecidos flex flex-col gap-6">
         <div class="servicio flex flex-col gap-6">
           <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400">→ Ganador de concurso de carteles para <a
-              class="bold font-bold text-white">Villaluenga de la Sagra</a> - Cartel para el libro de las fiestas
+              class="bold font-bold text-black">Villaluenga de la Sagra</a> - Cartel para el libro de las fiestas
             <br><br> → Creación de cartelería para página web y físico y creación de pictogramas para empresa <a
-              class="bold font-bold text-white">Neumáticos por Poco.</a>
-            <br><br> → Renovación de marca creando un logo para la empresa <a class="bold font-bold text-white">Motor
+              class="bold font-bold text-black">Neumáticos por Poco.</a>
+            <br><br> → Renovación de marca creando un logo para la empresa <a class="bold font-bold text-black">Motor
               76.</a>
-            <br><br> → Creación de iustraciones para portadas de noticias en <a class="bold font-bold text-white">Ecos
+            <br><br> → Creación de iustraciones para portadas de noticias en <a class="bold font-bold text-black">Ecos
               Castilla La Mancha.</a>
             <br><br> → Diseño de portadas para proyecto musical.
             <br><br> → Encargos Freelance de sesiones fotográficas, diseño de tatuajes e ilustraciones personales.
@@ -354,21 +354,21 @@
     </div>
 
     <div
-      class="trabajos flex pt-32 pl-40 pr-40 pb-20 text-white flex-nowrap gap-60 justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20">
+      class="trabajos flex pt-32 pl-40 pr-40 pb-20 text-black flex-nowrap gap-60 justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20">
       <div class="sticky_menu">
         <div class="titular flex flex-col text-[72px] font-normal sticky top-24 max-lg:text-[60px]">Estudios</div>
       </div>
       <div class="servicios_ofrecidos flex flex-col gap-6">
         <div class="servicio flex flex-col gap-6">
           <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400">
-            <br><br><a class="bold font-bold text-white"> → Bachillerato Artístico </a> en IES El Greco Toledo.
-            <br><br><a class="bold font-bold text-white"> → Grado Superior de Ilustración</a> en la Escuela de Artes de
+            <br><br><a class="bold font-bold text-black"> → Bachillerato Artístico </a> en IES El Greco Toledo.
+            <br><br><a class="bold font-bold text-black"> → Grado Superior de Ilustración</a> en la Escuela de Artes de
             Toledo.
-            <br><br><a class="bold font-bold text-white"> → 3 Cursos de Grado Universitario de Diseño Gráfico </a> en la
+            <br><br><a class="bold font-bold text-black"> → 3 Cursos de Grado Universitario de Diseño Gráfico </a> en la
             Escuela Superior de Diseño de Madrid.
-            <br><br><a class="bold font-bold text-white"> → Curso extracurricular de 2 años de Arte y Pintura </a> en
+            <br><br><a class="bold font-bold text-black"> → Curso extracurricular de 2 años de Arte y Pintura </a> en
             Villaluenga de la Sagra.
-            <br><br><a class="bold font-bold text-white"> → Cursos de Domestika:</a> "Ilustración Digital con Procreate",
+            <br><br><a class="bold font-bold text-black"> → Cursos de Domestika:</a> "Ilustración Digital con Procreate",
             "Ilustración Digital aplicada a productos", "Introducción al lettering con Procreate".
 
           </div>
@@ -381,40 +381,40 @@
 
 
     <div
-      class="links_rrss pt-32 px-80 pb-32 text-white justify-center flex flex-row gap-60 max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20 max-lg:flex max-lg:justify-center">
+      class="links_rrss pt-32 px-80 pb-32 text-black justify-center flex flex-row gap-60 max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20 max-lg:flex max-lg:justify-center">
       <div class="email text-lg flex gap-2 items-center max-lg:text-[14px] max-lg:justify-center">
         ruben.maldonado.graphic@gmail.com
-        <img class="vector" src="/img/Vector-11.svg">
+        <img class="vector" src="/img/Vector-11black.svg">
       </div>
       <div class="links flex flex-col gap-2 max-lg:justify-center">
         <div class="links1 flex gap-32 max-lg:justify-center">
           <a class="red flex gap-2 items-center max-lg:text-[14px]"
             href="https://www.instagram.com/ruben.artes/">Instagram
-            <img class="vector" src="/img/Vector-11.svg">
+            <img class="vector" src="/img/Vector-11black.svg">
           </a>
           <a class="red flex gap-2 items-center max-lg:text-[14px]" href="https://www.behance.net/rubenartes">Behance
-            <img class="vector" src="/img/Vector-11.svg">
+            <img class="vector" src="/img/Vector-11black.svg">
           </a>
         </div>
         <div class="links2 flex gap-32 flex-end max-lg:justify-center">
           <a class="red flex gap-2 items-center max-lg:text-[14px]" href="https://www.instagram.com/ruben.iso">Instagram
-            <img class="vector" src="/img/Vector-11.svg">
+            <img class="vector" src="/img/Vector-11black.svg">
 
           </a> <a class="red flex gap-2 items-center max-lg:text-[14px]"
             href="https://www.linkedin.com/in/rubenmaldonado10">LinkedIn
-            <img class="vector" src="/img/Vector-11.svg">
+            <img class="vector" src="/img/Vector-11black.svg">
           </a>
         </div>
       </div>
 
     </div>
 
-    <div class="foter bg-black p-10 flex text-white justify-between sticky top-0 max-lg:p-6">
+    <div class="foter bg-white p-10 flex text-black justify-between sticky top-0 max-lg:p-6 border border-t-1">
       <div class="foter_image flex flex-start">
-        <img class="vector max-lg:max-w-[15px]" src="/img/star.svg">
+        <img class="vector max-lg:max-w-[15px]" src="/img/starblack.svg">
       </div>
       <div class="email flex gap-2 items-center text-sm max-lg:text-xs">Ruben Maldonado González
-        <img class="vector max-lg:max-w-[15px]" src="/img/futbol.svg">
+        <img class="vector max-lg:max-w-[15px]" src="/img/futbolblack.svg">
       </div>
     </div>
 
