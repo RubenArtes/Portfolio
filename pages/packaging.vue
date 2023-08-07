@@ -188,8 +188,8 @@
             <div class="text max-w-[60ch] text-[16px] text-zinc-500 font-bold max-xl:text-xs">Tipografía, jerarquía y
                 colores utilizados para cada uno de los packaging en la información nutricional y elementos técnicos.
             </div>
-            <div class="grid grid-cols-1">
-                <img class="image_grid w-full h-full items-center" src="/img/tipografiapackaging.png" alt="">
+            <div class="grid grid-cols-1 items-center justify-center">
+                <img class="image_grid w-full h-full items-center justify-center" src="/img/tipografiapackaging.png" alt="">
 
             </div>
 

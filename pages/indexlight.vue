@@ -1,15 +1,16 @@
 <template>
   <div class="app bg-white">
     <Cursor />
-    <div class="header bg-white p-10 flex text-black justify-between sticky top-0 z-10 max-lg:p-6 max-lg:sticky border border-b-1">
+    <div
+      class="header bg-white p-10 flex text-black justify-between sticky top-0 z-10 max-lg:p-6 max-lg:sticky border border-b-1">
       <div class="image flex flex-start">
         <img class="max-lg:max-w-[15px]" src="/img/Vectorblack.svg">
       </div>
       <div class="mode flex gap-10 items-center">
         <NuxtLink to="/">
-            <img class="image w-[30px]" src="/img/darkmode.png" alt="">
+          <img class="image w-[30px]" src="/img/darkmode.png" alt="">
         </NuxtLink>
-        
+
       </div>
       <div class="email text-lg flex gap-2 items-center max-lg:text-xs ">ruben.maldonado.graphic@gmail.com
         <img class="vector max-lg:max-w-[8px]" src="/img/Vector-11black.svg">
@@ -34,12 +35,15 @@
 
 
       <div class="text max-w-[60ch] max-lg:justify-center max-lg:text-[16px] max-lg:text-center">
-        <div class="text max-w-[60ch] text-zinc-400 text-sm max-lg:justify-center max-lg:text-[12px] max-lg:text-center">Selección de trabajos realizados en Escuela Superior de Diseño de Madrid y otros
-          proyectos personales. Incluye categorías como: diseño Web, editorial, 3D, edición de video y fotografía, packaging, marca e ilustraciones.
+        <div class="text max-w-[60ch] text-zinc-400 text-sm max-lg:justify-center max-lg:text-[12px] max-lg:text-center">
+          Selección de trabajos realizados en Escuela Superior de Diseño de Madrid y otros
+          proyectos personales. Incluye categorías como: diseño Web, editorial, 3D, edición de video y fotografía,
+          packaging, marca e ilustraciones.
 
 
         </div>
-        <div class="text max-w-[60ch] pt-8 text-xl max-lg:justify-center max-lg:text-[16px] max-lg:text-center">«Diseñar es pensar en
+        <div class="text max-w-[60ch] pt-8 text-xl max-lg:justify-center max-lg:text-[16px] max-lg:text-center">«Diseñar
+          es pensar en
           hacerlo visual.» — Saul Bass</div>
       </div>
 
@@ -56,7 +60,8 @@
           </NuxtLink>
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-4">Matutano
             Saludable</div>
-          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:leading-3">Diseño Gráfico -
+          <div
+            class="type_trabajo animate-pulse max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:leading-3">
             Packaging</div>
         </div>
         <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
@@ -66,8 +71,7 @@
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-4">PRAU - Pasión
             por la tierra</div>
           <div
-            class="type_trabajo max-w-[40ch] m-0 text-sm bg-gradient-to-r bg-clip-text text-zinc-400 max-lg:text-[12px] max-lg:leading-3">
-            Diseño Gráfico -
+            class="type_trabajo animate-pulse max-w-[40ch] m-0 text-sm bg-gradient-to-r bg-clip-text text-zinc-400 max-lg:text-[12px] max-lg:leading-3">
             Packaging</div>
         </div>
       </div>
@@ -75,11 +79,13 @@
         class="twotrabajos p-0 flex gap-4 justify-center pb-8 max-lg:flex-col max-lg:justify-items-center max-lg:items-center max-lg:px-10">
         <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col ">
           <NuxtLink to="/MetrodeMadrid">
-            <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px] border border-1" src="/img/libroexperimental.gif">
+            <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px] border border-1"
+              src="/img/libroexperimental.gif">
           </NuxtLink>
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-4">Metro de
             Madrid</div>
-          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:leading-3">Diseño Gráfico -
+          <div
+            class="type_trabajo animate-pulse max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:leading-3">
             Producción</div>
         </div>
         <div class="trabajo max-w-[600px]max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
@@ -88,7 +94,8 @@
           </NuxtLink>
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-4"> Typenotes
           </div>
-          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:leading-3">Diseño Gráfico -
+          <div
+            class="type_trabajo animate-pulse max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:leading-3">
             Editorial</div>
         </div>
 
@@ -103,7 +110,8 @@
           </NuxtLink>
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-4">Movistar +
           </div>
-          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:leading-3">Diseño Gráfico -
+          <div
+            class="type_trabajo animate-pulse max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:leading-3">
             Motion Graphics</div>
         </div>
         <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
@@ -112,7 +120,8 @@
           </NuxtLink>
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-4">ESD - Página
             Web</div>
-          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:leading-3">Diseño Gráfico -
+          <div
+            class="type_trabajo animate-pulse max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:leading-3">
             Prototipado figma</div>
         </div>
       </div>
@@ -125,7 +134,8 @@
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-4">Colección
             fotográfica
           </div>
-          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:leading-3">Diseño Gráfico -
+          <div
+            class="type_trabajo animate-pulse max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:leading-3">
             Fotografía</div>
         </div>
         <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
@@ -134,7 +144,8 @@
           </NuxtLink>
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-4">Colección 3D
           </div>
-          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:leading-3">Diseño Gráfico -
+          <div
+            class="type_trabajo animate-pulse max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:leading-3">
             Modelado 3D</div>
         </div>
 
@@ -145,9 +156,10 @@
           <NuxtLink to="/YelmoCines">
             <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/gifyelmo2.png">
           </NuxtLink>
-          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-4">Cines Yelmo
+          <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-4">Yelmo Cines
           </div>
-          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:mb-4 max-lg:leading-3">Diseño Gráfico -
+          <div
+            class="type_trabajo animate-pulse max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:mb-4 max-lg:leading-3">
             Marca</div>
         </div>
         <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
@@ -157,7 +169,8 @@
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-4">El
             pensamiento Lateral
           </div>
-          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:leading-3">Diseño Gráfico -
+          <div
+            class="type_trabajo animate-pulse max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:leading-3">
             Editorial</div>
         </div>
 
@@ -171,7 +184,8 @@
           </NuxtLink>
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-4">Kinder Bueno
           </div>
-          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:leading-3">Ilustración -
+          <div
+            class="type_trabajo animate-pulse max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:leading-3">
             Marca</div>
         </div>
         <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
@@ -181,7 +195,8 @@
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-4">Colección de
             ilustraciones
           </div>
-          <div class="type_trabajo max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:leading-3">Ilustración -
+          <div
+            class="type_trabajo animate-pulse max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:leading-3">
             Dibujos</div>
         </div>
 
@@ -238,9 +253,7 @@
           <div class="tittle_servicios font-bold text-[20px]">Ilustración</div>
           <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400"> Experiencia realizando ilustraciones
             tradicionales
-            e ilustraciones digitales mediante IPad - Procreate. Cuento con <a class="bold text-white">Grado Superior de
-              Ilustración en la Escuela de
-              Artes de Toledo.</a>
+            e ilustraciones digitales mediante IPad - Procreate
           </div>
         </div>
         <div class="servicio flex flex-col gap-6">
@@ -270,14 +283,15 @@
             concretamente <a class="texto_color text-[#9c46e2]">After Effects</a> para motion graphics, <a
               class="texto_color text-[#9c46e2]">Adobe Premiere</a> y otros programas de video para realización
             de piezas para redes sociales,
-            conocimientos de Rotoscopia digital, chroma y edición de video.
+            conocimientos de rotoscopia digital, chroma y edición de video.
 
           </div>
         </div>
         <div class="servicio flex flex-col gap-6">
           <img class="vector w-[17px]" src="/img/star.svg">
           <div class="tittle_servicios font-bold text-[20px]">Maquetación</div>
-          <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400">Conocimientos altos en Indesign y
+          <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400">Conocimientos altos en <a
+              class="texto_color text-[#bd3f9d]">Indesign</a> y
             <a class="texto_color text-[#4b6ad1]">Photoshop</a>, para la maquetación
             de carteles, folletos, libros, revistas, anuncios y cualquier pieza gráfica necesaria.
 
@@ -324,7 +338,6 @@
 
 
     </div>
-
     <div
       class="trabajos flex pt-32 pl-40 pr-40 pb-20 text-black flex-nowrap gap-60 justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20">
       <div class="sticky_menu">
@@ -335,14 +348,17 @@
           <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400">→ Ganador de concurso de carteles para <a
               class="bold font-bold text-black">Villaluenga de la Sagra</a> - Cartel para el libro de las fiestas
             <br><br> → Creación de cartelería para página web y físico y creación de pictogramas para empresa <a
-              class="bold font-bold text-black">Neumáticos por Poco.</a>
-            <br><br> → Renovación de marca creando un logo para la empresa <a class="bold font-bold text-black">Motor
-              76.</a>
-            <br><br> → Creación de iustraciones para portadas de noticias en <a class="bold font-bold text-black">Ecos
-              Castilla La Mancha.</a>
+              class="bold font-bold text-black">Neumáticos por Poco.</a> <a class="bold text-xs text-black">- (6
+              meses)</a>
+            <br><br> → Renovación y creación de marca para la empresa <a class="bold font-bold text-black">Motor
+              76.</a> <a class="bold text-xs text-black">- (1 mes)</a>
+            <br><br> → Creación de ilustraciones para portadas de noticias en <a class="bold font-bold text-black">Ecos
+              Castilla La Mancha.</a> <a class="bold text-xs text-black">- (2 meses)</a>
             <br><br> → Diseño de portadas para proyecto musical.
-            <br><br> → Encargos Freelance de sesiones fotográficas, diseño de tatuajes e ilustraciones personales.
-
+            <br><br> → Encargos Freelance de sesiones fotográficas, diseño de tatuajes e ilustraciones personales. <a
+              class="bold text-xs text-black">- (4 años)</a>
+            <br><br> → Actualmente trabajando como diseñador en <a class="bold animate-pulse font-bold text-black">Garrido
+              Gallery.</a> <br> <a class="bold text-xs text-black">(2 meses)</a>
 
 
           </div>
