@@ -33,6 +33,8 @@
     "flowbite-vue": "^0.0.12",
     "gsap": "^3.12.1",
     "simplescrollup": "^1.1.1",
-    "vue-backtotop": "^1.6.1"
+    "v-img": "^0.2.0",
+    "vue-backtotop": "^1.6.1",
+    "vue-expandable-image": "^0.1.0"
   }
 }

@@ -55,7 +55,7 @@
             </div>
         </div>
 
-    <div class="video flex px-64 pb-20 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
+    <div class="video flex pt-20 px-64 pb-20 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
       <video width="1240" height="788" loop autoplay controls>
         <source src="/img/fanzine.mp4" type="video/mp4">
         Your browser does not support the video tag.
@@ -105,26 +105,87 @@
         </div>
       </div>
 
-    <div class="images pt-20 px-64 pb-10 text-white justify-center flex flex-col gap-10 max-xl:pt-12 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
-      <div class="text max-w-[60ch] text-[32px] leading-10 text-white">Fotografías de bodegones</div>
-      <div class="text max-w-[60ch] text-[16px] text-zinc-400 font-bold pb-12 max-xl:text-xs"> Fotografías en estudio de bodegones
-        con diferentes temáticas. Utilización de focos y flashes.
-      </div>
+      <div class="images pt-20 px-64 pb-10 text-white justify-center flex flex-col gap-10 max-xl:pt-12 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
+      <div class="text max-w-[60ch] text-[32px] leading-10 text-white">Fotografías de viaje a Oporto</div>
+      <div class="text max-w-[60ch] text-[16px] text-zinc-400 font-bold pb-12 max-xl:text-xs"> Fotografías realizadas con temática de la ciudad portugesa Oporto. Fotogorafía de paisajes, lugares, rincones y detalles durante el viaje.
+      <br>
+      <br>
+      <div class="fecha text-xs">30 enero 2023</div></div>
 
       <div class="grid grid-cols-3 gap-4 max-xl:grid-cols-1">
-        <img class="image_grid w-full h-full pb-2" src="/img/finallibre.jpg" alt="">
-        <img class="image_grid w-full h-full pb-2" src="/img/finallibre2.jpg" alt="">
-        <img class="image_grid w-full h-full pb-2" src="/img/finallibre3.jpg" alt="">
-        <img class="image_grid w-full h-full pb-2" src="/img/finallibre4.jpg" alt="">
-        <img class="image_grid w-full h-full pb-2" src="/img/finallibre5.jpg" alt="">
-        <img class="image_grid w-full h-full pb-2" src="/img/finallibre6.jpg" alt="">
-        <img class="image_grid w-full h-full pb-2" src="/img/finalcristal2.jpg" alt="">
-        <img class="image_grid w-full h-full pb-2" src="/img/finalcristal3.jpg" alt="">
-        <img class="image_grid w-full h-full pb-2" src="/img/finalcristal.jpg" alt="">
+
+        <img class="image_grid w-full h-full pb-2" src="/img/oporto_2.jpg" alt="">
+        <img class="image_grid w-full h-full pb-2" src="/img/oporto_3.jpg" alt="">
+        <img class="image_grid w-full h-full pb-2" src="/img/oporto_4.jpg" alt="">
+
+        <img class="image_grid w-full h-full pb-2" src="/img/oporto_6.jpg" alt="">
+        <img class="image_grid w-full h-full pb-2" src="/img/oporto_8.jpg" alt="">
+        <img class="image_grid w-full h-full pb-2" src="/img/oporto_7.jpg" alt="">
+
+        <img class="image_grid w-full h-full pb-2" src="/img/oporto_10.jpg" alt="">
+        <img class="image_grid w-full h-full pb-2" src="/img/oporto_12.jpg" alt="">
+        <img class="image_grid w-full h-full pb-2" src="/img/oporto_13.jpg" alt="">
+
+        <img class="image_grid w-full h-full pb-2" src="/img/oporto_15.jpg" alt="">
+        <img class="image_grid w-full h-full pb-2" src="/img/oporto_17.jpg" alt="">
+        <img class="image_grid w-full h-full pb-2" src="/img/oporto_18.jpg" alt="">
+        
+        <img class="image_grid w-full h-full pb-2" src="/img/oporto_20.jpg" alt="">
+        <img class="image_grid w-full h-full pb-2" src="/img/oporto_21.jpg" alt="">
+        <img class="image_grid w-full h-full pb-2" src="/img/oporto_24.jpg" alt="">
+
+        <img class="image_grid w-full h-full pb-2" src="/img/oporto_22.jpg" alt="">
+        <img class="image_grid w-full h-full pb-2" src="/img/oporto_19.jpg" alt="">
+        <img class="image_grid w-full h-full pb-2" src="/img/oporto_39.jpg" alt="">
+
+        <img class="image_grid w-full h-full pb-2" src="/img/oporto_26.jpg" alt="">
+        <img class="image_grid w-full h-full pb-2" src="/img/oporto_25.jpg" alt="">
+        <img class="image_grid w-full h-full pb-2" src="/img/oporto_28.jpg" alt="">
+
+        <img class="image_grid w-full h-full pb-2" src="/img/oporto_30.jpg" alt="">
+        <img class="image_grid w-full h-full pb-2" src="/img/oporto_27.jpg" alt="">
+        <img class="image_grid w-full h-full pb-2" src="/img/oporto_29.jpg" alt="">
+
+        <img class="image_grid w-full h-full pb-2" src="/img/oporto_33.jpg" alt="">
+        <img class="image_grid w-full h-full pb-2" src="/img/oporto_31.jpg" alt="">
+        <img class="image_grid w-full h-full pb-2" src="/img/oporto_32.jpg" alt="">
+
+        <img class="image_grid w-full h-full pb-2" src="/img/oporto_34.jpg" alt="">
+        <img class="image_grid w-full h-full pb-2" src="/img/oporto_37.jpg" alt="">
+        <img class="image_grid w-full h-full pb-2" src="/img/oporto_40.jpg" alt="">
+
+        <img class="image_grid w-full h-full pb-2" src="/img/oporto_42.jpg" alt="">
+        <img class="image_grid w-full h-full pb-2" src="/img/oporto_36.jpg" alt="">
+        <img class="image_grid w-full h-full pb-2" src="/img/oporto_41.jpg" alt="">
+
+        <img class="image_grid w-full h-full pb-2" src="/img/oporto_43.jpg" alt="">
+        <img class="image_grid w-full h-full pb-2" src="/img/oporto_44.jpg" alt="">
+        <img class="image_grid w-full h-full pb-2" src="/img/oporto_45.jpg" alt="">
+
+        <img class="image_grid w-full h-full pb-2" src="/img/oporto_47.jpg" alt="">
+        <img class="image_grid w-full h-full pb-2" src="/img/oporto_49.jpg" alt="">
+        <img class="image_grid w-full h-full pb-2" src="/img/oporto_48.jpg" alt="">
+
+        <img class="image_grid w-full h-full pb-2" src="/img/oporto_55.jpg" alt="">
+        <img class="image_grid w-full h-full pb-2" src="/img/oporto_60.jpg" alt="">
+        <img class="image_grid w-full h-full pb-2" src="/img/oporto_56.jpg" alt="">
+
+        <img class="image_grid w-full h-full pb-2" src="/img/oporto_57.jpg" alt="">
+        <img class="image_grid w-full h-full pb-2" src="/img/oporto_59.jpg" alt="">
+        <img class="image_grid w-full h-full pb-2" src="/img/oporto_58.jpg" alt="">
+
+        <img class="image_grid w-full h-full pb-2" src="/img/oporto_61.jpg" alt="">
+        <img class="image_grid w-full h-full pb-2" src="/img/oporto_63.jpg" alt="">
+        <img class="image_grid w-full h-full pb-2" src="/img/oporto_64.jpg" alt="">
+
+        <img class="image_grid w-full h-full pb-2" src="/img/oporto_66.jpg" alt="">
+        <img class="image_grid w-full h-full pb-2" src="/img/oporto_46.jpg" alt="">
+        <img class="image_grid w-full h-full pb-2" src="/img/oporto_65.jpg" alt="">
+
+
 
       </div>
     </div>
-
 
     <div class="images pt-20 px-64 pb-10 text-white justify-center flex flex-col gap-10 max-xl:pt-12 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
       <div class="text max-w-[60ch] text-[32px] leading-10 text-white">Fotografías al estilo Provoke</div>
@@ -196,6 +257,27 @@
       </div>
     </div>
 
+    
+    <div class="images pt-20 px-64 pb-10 text-white justify-center flex flex-col gap-10 max-xl:pt-12 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
+      <div class="text max-w-[60ch] text-[32px] leading-10 text-white">Fotografías de bodegones</div>
+      <div class="text max-w-[60ch] text-[16px] text-zinc-400 font-bold pb-12 max-xl:text-xs"> Fotografías en estudio de bodegones
+        con diferentes temáticas. Utilización de focos y flashes.
+      </div>
+
+      <div class="grid grid-cols-3 gap-4 max-xl:grid-cols-1">
+        <img class="image_grid w-full h-full pb-2" src="/img/finallibre.jpg" alt="">
+        <img class="image_grid w-full h-full pb-2" src="/img/finallibre2.jpg" alt="">
+        <img class="image_grid w-full h-full pb-2" src="/img/finallibre3.jpg" alt="">
+        <img class="image_grid w-full h-full pb-2" src="/img/finallibre4.jpg" alt="">
+        <img class="image_grid w-full h-full pb-2" src="/img/finallibre5.jpg" alt="">
+        <img class="image_grid w-full h-full pb-2" src="/img/finallibre6.jpg" alt="">
+        <img class="image_grid w-full h-full pb-2" src="/img/finalcristal2.jpg" alt="">
+        <img class="image_grid w-full h-full pb-2" src="/img/finalcristal3.jpg" alt="">
+        <img class="image_grid w-full h-full pb-2" src="/img/finalcristal.jpg" alt="">
+
+      </div>
+    </div>
+
 
     <div class="trabajos flex pt-32 pl-40 pr-40 pb-20 text-zinc-300 flex-col gap-10 justify-center items-center max-xl:pt-12 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
             <div class="titular text-[16px] font-normal flex flex-start items-center max-xl:text-xs">Programas utilizados para este
@@ -207,6 +289,8 @@
         </div>
       </div>
     </div>
+
+    <div class="info text-sm flex gap-2 items-center justify-center text-white max-xl:pt-20 max-xl:px-10 max-xl:flex-col max-xl:justify-items-center max-xl:gap-20 max-xl:flex max-xl:justify-center max-xl:pb-20 max-xl:text-xs max-xl:text-center">Modelos: Laura Morales, Barbara Ibañez, Carlos Martinez, Sergio Martin y Lisa Barbieri.</div>
 
     <div class="links_rrss pt-32 px-80 pb-32 text-white justify-center flex flex-row gap-60 max-xl:pt-20 max-xl:px-10 max-xl:flex-col max-xl:justify-items-center max-xl:gap-20 max-xl:flex max-xl:justify-center max-xl:pb-20">
             <div class="email text-lg flex gap-2 items-center max-xl:text-[14px] max-xl:justify-center">ruben.maldonado.graphic@gmail.com

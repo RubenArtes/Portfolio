@@ -176,10 +176,8 @@
             <div class="grid grid-cols-1">
                 <img class="image_grid w-full h-full pb-6 border-b border-zinc-400" src="/img/troquel222.png" alt="">
                 <img class="image_grid w-full h-full pt-6 pb-6 border-b border-zinc-400" src="/img/troquel3.png" alt="">
-                <img class="image_grid w-full h-full pt-6 max-xl:pb-12" src="/img/troquel32.png" alt="">
+                <img class="image_grid w-full h-full pt-6 max-xl:pb-12" src="/img/troquel32.png" alt="">              
             </div>
-
-
         </div>
 
         <div
@@ -238,7 +236,7 @@
             <img class="image_grid w-full h-full" src="/img/Packagingruben3.png" alt="">
             <img class="image_grid w-full h-full" src="/img/Packagingruben2.png" alt="">
             <img class="image_grid w-full h-full" src="/img/Packagingruben1.png" alt="">
-
+            
         </div>
 
         <div
@@ -322,6 +320,8 @@ export default {
         });
     },
 };
+
+
 </script>
 
 <style lang="sass" scoped>
