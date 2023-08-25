@@ -140,7 +140,7 @@
         </div>
         <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
           <NuxtLink to="/Modelado3D">
-            <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/3dvideo.gif">
+            <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/3dvideo.png">
           </NuxtLink>
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-4">Colección 3D
           </div>
