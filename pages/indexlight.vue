@@ -20,37 +20,34 @@
     <VueScrollProgressBar />
 
     <div
-      class="trabajos flex pt-20 px-64 pb-20 text-black flex-nowrap items-center gap-28 justify-center max-lg:pt-16 max-lg:px-10 max-lg:flex-col max-lg:justify-center max-lg:gap-10">
+      class="trabajos flex pt-20 px-64 pb-20 text-black flex-nowrap items-center gap-28 justify-center max-lg:pt-16 max-lg:px-10 max-lg:flex-col max-lg:justify-center max-lg:gap-10 max-lg:justify-items-center max-lg:pb-6">
 
       <div class="titular_flex flex flex-col max-lg:items-center max-lg:flex">
         <div
-          class="titular text-[115px] font-normal flex gap-2 items-start max-lg:max-w-[200px] max-lg:text-[70px] max-lg:justify-center">
+          class="titular text-[115px] font-normal flex gap-2 items-start max-lg:max-w-[200px] max-lg:text-[60px] max-lg:justify-center">
           Portfolio
           <img class="info animate-pulse" src="/img/infoblack.png">
         </div>
         <div
-          class="titular_small text-[12px] animate-pulse font-normal flex items-start max-lg:text-[12px] max-lg:justify-center max-lg:text-center max-lg:max-w-[30ch]">
+          class="titular_small text-black text-[12px] animate-pulse font-normal flex items-start max-lg:text-[12px] max-lg:justify-center max-lg:text-center max-lg:max-w-[30ch]">
           Ultima actualización, Agosto 2023</div>
       </div>
 
 
-      <div class="text max-w-[60ch] max-lg:justify-center max-lg:text-[16px] max-lg:text-center">
-        <div class="text max-w-[60ch] text-zinc-400 text-sm max-lg:justify-center max-lg:text-[12px] max-lg:text-center">
-          Selección de trabajos realizados en Escuela Superior de Diseño de Madrid y otros
-          proyectos personales. Incluye categorías como: diseño Web, editorial, 3D, edición de video y fotografía,
-          packaging, marca e ilustraciones.
+      <div class="text max-w-[60ch] max-lg:justify-center max-lg:text-[16px] max-lg:text-center max-lg:px-2 max-lg:justify-items-center">
+        <div class="text max-w-[60ch] text-zinc-600 text-sm max-lg:justify-center max-lg:text-[12px] max-lg:text-center">Selección de trabajos realizados en Escuela Superior de Diseño de Madrid y otros
+          proyectos personales. Incluye categorías como: diseño Web, editorial, 3D, edición de video y fotografía, packaging, marca e ilustraciones.
 
 
         </div>
-        <div class="text max-w-[60ch] pt-8 text-xl max-lg:justify-center max-lg:text-[16px] max-lg:text-center">«Diseñar
-          es pensar en
+        <div class="text max-w-[60ch] pt-8 text-xl max-lg:justify-center max-lg:text-[16px] max-lg:text-center">«Diseñar es pensar en
           hacerlo visual.» — Saul Bass</div>
       </div>
 
     </div>
     <div
-      class="seleccion_trabajos pt-10 px-64 pb-20 text-black flex flex-col justify-center max-lg:px-10 max-lg:justify-items-center max-lg:justify-center">
-      <div class="accede flex justify-center text-zinc-400 pb-10 text-xs">«Clickea en un trabajo para saber más de el»
+      class="seleccion_trabajos pt-10 px-64 pb-20 text-white flex flex-col justify-center max-lg:px-6 max-lg:justify-items-center max-lg:justify-center">
+      <div class="accede flex justify-center text-zinc-600 pb-10 text-xs max-lg:pb-10">«Clickea en un trabajo para saber más de el»
       </div>
       <div
         class="twotrabajos p-0 flex gap-4 justify-center pb-8 max-lg:flex-col max-lg:justify-items-center max-lg:items-center max-lg:px-10">
@@ -80,7 +77,7 @@
         <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col ">
           <NuxtLink to="/MetrodeMadrid">
             <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px] border border-1"
-              src="/img/libroexperimental.gif">
+              src="/img/portadametro4.png">
           </NuxtLink>
           <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-4">Metro de
             Madrid</div>
@@ -122,7 +119,7 @@
             Web</div>
           <div
             class="type_trabajo animate-pulse max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:leading-3">
-            Prototipado figma</div>
+            Prototipado Figma</div>
         </div>
       </div>
       <div
