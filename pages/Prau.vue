@@ -109,7 +109,7 @@
                 <img class="image_grid w-full h-full" src="/img/mermelada.png" alt="">
             </div>
 
-            <div class="grid grid-cols-3 pt-10 gap-2 pb-6 max-xl:pb-16">
+            <div class="grid grid-cols-3 pt-10 gap-2 pb-6 max-xl:pb-16 max-lg:grid-cols-1">
                 <img class="image_grid w-full h-full drop-shadow-xl" src="/img/mockupmer.png" alt="">
                 <img class="image_grid w-full h-full drop-shadow-xl" src="/img/mockupmer_2.png" alt="">
                 <img class="image_grid w-full h-full drop-shadow-xl " src="/img/mockupmer_3.png" alt="">
@@ -130,7 +130,7 @@
                 <img class="image_grid w-full h-full" src="/img/vino.png" alt="">
             </div>
 
-            <div class="grid grid-cols-3 pt-10 gap-2 pb-6 max-xl:pb-16">
+            <div class="grid grid-cols-3 pt-10 gap-2 pb-6 max-xl:pb-16 max-lg:grid-cols-1">
                 <img class="image_grid w-full h-full drop-shadow-xl" src="/img/vinomoc_1.png" alt="">
                 <img class="image_grid w-full h-full drop-shadow-xl" src="/img/vinomoc_2.png" alt="">
                 <img class="image_grid w-full h-full drop-shadow-xl" src="/img/vinomoc_3.jpg" alt="">
@@ -169,7 +169,7 @@
                 → Queso de cabra - Cabra
             </div>
 
-            <div class="grid grid-cols-3 pt-10 border-b border-[#C9D2E8] pb-16">
+            <div class="grid grid-cols-3 pt-10 pb-10">
                 <img class="image_grid w-full h-full" src="/img/1.png" alt="">
                 <img class="image_grid w-full h-full" src="/img/2.png" alt="">
                 <img class="image_grid w-full h-full" src="/img/3.png" alt="">
@@ -187,12 +187,13 @@
             <div class="titular text-[16px] font-normal flex flex-start items-center max-xl:text-xs">Programas utilizados para este
                 proyecto</div>
             <div class="programas flex flex-col items-center">
-                <div class="three_programas flex gap-10">
+                <div class="three_programas flex gap-10 max-lg:grid max-lg:grid-cols-3">
                     <img class="image_logo w-[40px] rounded-lg opacity-80 hover:opacity-100 max-xl:max-w-[30px] max-xl:max-h-[29px]" src="/img/Procreate.png" alt="">
-                    <img class="image_logo w-[40px] rounded-lg opacity-80 hover:opacity-100 max-xl:max-w-[30px]" src="/img/Figmazinc.svg" alt="">
+                    <img class="image_logo w-[40px] rounded-lg opacity-80 hover:opacity-100 max-xl:max-w-[30px]" src="/img/Figma.svg" alt="">
                     <img class="image_logo w-[40px] opacity-80 hover:opacity-100 max-xl:max-w-[30px]" src="/img/Illustrator.svg" alt="">
                     <img class="image_logo w-[40px] opacity-80 hover:opacity-100 max-xl:max-w-[30px]" src="/img/InDesign.svg" alt="">
                     <img class="image_logo w-[40px] opacity-80 hover:opacity-100 max-xl:max-w-[30px]" src="/img/Photoshop.svg" alt="">
+                    <img class="image_logo w-[40px] opacity-80 hover:opacity-100 max-xl:max-w-[30px]" src="/img/Cinema4d.png" alt="">
                 </div>
             </div>
         </div>
