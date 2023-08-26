@@ -46,7 +46,7 @@
 
     </div>
     <div
-      class="seleccion_trabajos pt-10 px-64 pb-20 text-white flex flex-col justify-center max-lg:px-6 max-lg:justify-items-center max-lg:justify-center">
+      class="seleccion_trabajos pt-10 px-64 pb-20 text-black flex flex-col justify-center max-lg:px-6 max-lg:justify-items-center max-lg:justify-center">
       <div class="accede flex justify-center text-zinc-600 pb-10 text-xs max-lg:pb-10">«Clickea en un trabajo para saber más de el»
       </div>
       <div
