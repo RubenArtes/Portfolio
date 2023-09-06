@@ -220,6 +220,13 @@
 </template>
 
 <script>
+
+import PlvPointer from "/components/Cursor.vue";
+
+import VueScrollProgressBar from '/components/VueScrollProgressBar'
+
+import ExpandableImageVue from "./ExpandableImage.vue";
+
 export default {
   mounted() {
     this.$nextTick(() => {
@@ -232,7 +239,9 @@ export default {
     });
   },
 };
+
 </script>
+
 
 <style lang="sass" scoped>
 
@@ -240,6 +249,16 @@ export default {
 .email
   &:hover
     @apply text-zinc-300
+
+.image
+  @apply transition ease-in-out delay-150
+  &:hover
+    @apply opacity-80 duration-75 outline outline-2 outline-white rounded-sm
+
+.image_logo
+  @apply opacity-60
+  &:hover
+    @apply opacity-100
 
 .red
   &:hover
