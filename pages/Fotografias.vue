@@ -110,13 +110,13 @@
       <div
         class="twotrabajos p-0 flex gap-4 justify-center pb-8 max-lg:flex-col max-lg:justify-items-center max-lg:items-center max-lg:px-10">
         <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
-          <NuxtLink to="/oporto">
+          <NuxtLink to="/Oporto">
             <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/Portadaimagenes3.png">
           </NuxtLink>
           
         </div>
         <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
-          <NuxtLink to="/provoke">
+          <NuxtLink to="/Provoke">
             <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/Portadaimagenes.png">
           </NuxtLink>
 
@@ -125,7 +125,7 @@
       <div
         class="twotrabajos p-0 flex gap-4 justify-center pb-8 max-lg:flex-col max-lg:justify-items-center max-lg:items-center max-lg:px-10">
         <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
-          <NuxtLink to="/bodegon">
+          <NuxtLink to="/Bodegon">
             <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/Portadaimagenes4.png">
           </NuxtLink>
           
@@ -141,7 +141,7 @@
       <div
         class="twotrabajos p-0 flex gap-4 justify-center pb-8 max-lg:flex-col max-lg:justify-items-center max-lg:items-center max-lg:px-10">
         <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
-          <NuxtLink to="/metromadrid">
+          <NuxtLink to="/MetroMadrid">
             <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/Portadaimagenes5.png">
           </NuxtLink>
           
