@@ -36,40 +36,40 @@
 
             <Carousel class="carousel max-w-[1200px] pb-12 max-xl:hidden">
                 <Slide v-for="slide in 1" :key="slide">
-                    <img {{ slide }} class="image_grid w-full h-full mb-2" src="/img/provoke.jpg" alt="">
+                    <img  class="image_grid w-full h-full mb-2" src="/img/provoke.jpg" alt="">
                 </Slide>
                 <Slide v-for="slide in 1" :key="slide">
-                    <img {{ slide }} class="image_grid w-full h-full mb-2" src="/img/provoke2.jpg" alt="">
+                    <img  class="image_grid w-full h-full mb-2" src="/img/provoke2.jpg" alt="">
                 </Slide>
                 <Slide v-for="slide in 1" :key="slide">
-                    <img {{ slide }} class="image_grid w-full h-full mb-2" src="/img/provoke3.jpg" alt="">
+                    <img  class="image_grid w-full h-full mb-2" src="/img/provoke3.jpg" alt="">
                 </Slide>
                 <Slide v-for="slide in 1" :key="slide">
-                    <img {{ slide }} class="image_grid w-full h-full mb-2" src="/img/provoke4.jpg" alt="">
+                    <img  class="image_grid w-full h-full mb-2" src="/img/provoke4.jpg" alt="">
                 </Slide>
                 <Slide v-for="slide in 1" :key="slide">
-                    <img {{ slide }} class="image_grid w-full h-full mb-2" src="/img/provoke5.jpg" alt="">
+                    <img  class="image_grid w-full h-full mb-2" src="/img/provoke5.jpg" alt="">
                 </Slide>
                 <Slide v-for="slide in 1" :key="slide">
-                    <img {{ slide }} class="image_grid w-full h-full mb-2" src="/img/provoke6.jpg" alt="">
+                    <img  class="image_grid w-full h-full mb-2" src="/img/provoke6.jpg" alt="">
                 </Slide>
                 <Slide v-for="slide in 1" :key="slide">
-                    <img {{ slide }} class="image_grid w-full h-full mb-2" src="/img/provoke7.jpg" alt="">
+                    <img  class="image_grid w-full h-full mb-2" src="/img/provoke7.jpg" alt="">
                 </Slide>
                 <Slide v-for="slide in 1" :key="slide">
-                    <img {{ slide }} class="image_grid w-full h-full mb-2" src="/img/provoke8.jpg" alt="">
+                    <img  class="image_grid w-full h-full mb-2" src="/img/provoke8.jpg" alt="">
                 </Slide>
                 <Slide v-for="slide in 1" :key="slide">
-                    <img {{ slide }} class="image_grid w-full h-full mb-2" src="/img/provoke9.jpg" alt="">
+                    <img  class="image_grid w-full h-full mb-2" src="/img/provoke9.jpg" alt="">
                 </Slide>
                 <Slide v-for="slide in 1" :key="slide">
-                    <img {{ slide }} class="image_grid w-full h-full mb-2" src="/img/provoke10.jpg" alt="">
+                    <img  class="image_grid w-full h-full mb-2" src="/img/provoke10.jpg" alt="">
                 </Slide>
                 <Slide v-for="slide in 1" :key="slide">
-                    <img {{ slide }} class="image_grid w-full h-full mb-2" src="/img/provoke11.jpg" alt="">
+                    <img  class="image_grid w-full h-full mb-2" src="/img/provoke11.jpg" alt="">
                 </Slide>
                 <Slide v-for="slide in 1" :key="slide">
-                    <img {{ slide }} class="image_grid w-full h-full mb-2" src="/img/provoke12.jpg" alt="">
+                    <img  class="image_grid w-full h-full mb-2" src="/img/provoke12.jpg" alt="">
                 </Slide>
 
                 <template #addons>
