@@ -2,11 +2,11 @@
     font-family: "Epiloge";
     src: local("Epiloge"),
      url(/public/assets/fonts/Epilogue-Regular.eot) format("opentype");
-     src: local("Proxima Nova"),
+     src: local("Epiloge"),
      url(/public/assets/fonts/Epilogue-Regular.ttf) format("truetype");
-     src: local("Proxima Nova"),
+     src: local("Epiloge"),
      url(/public/assets/fonts/Epilogue-Regular.woff) format("woff");
-     src: local("Proxima Nova"),
+     src: local("Epiloge"),
      url(/public/assets/fonts/Epilogue-Regular.woff2) format("woff2");
      font-style: normal;
      
@@ -16,11 +16,11 @@
     font-family: "Epiloge";
     src: local("Epiloge"),
      url(/public/assets/fonts/Epilogue-Bold.eot) format("opentype");
-     src: local("Proxima Nova"),
+     src: local("Epiloge"),
      url(/public/assets/fonts/Epilogue-Bold.ttf) format("truetype");
-     src: local("Proxima Nova"),
+     src: local("Epiloge"),
      url(/public/assets/fonts/Epilogue-Bold.woff) format("woff");
-     src: local("Proxima Nova"),
+     src: local("Epiloge"),
      url(/public/assets/fonts/Epilogue-Bold.woff2) format("woff2");
      font-weight: bold;
 }
@@ -29,11 +29,11 @@
     font-family: "Epiloge";
     src: local("Epiloge"),
      url(/public/assets/fonts/Epilogue-Black.eot) format("opentype");
-     src: local("Proxima Nova"),
+     src: local("Epiloge"),
      url(/public/assets/fonts/Epilogue-Black.ttf) format("truetype");
-     src: local("Proxima Nova"),
+     src: local("Epiloge"),
      url(/public/assets/fonts/Epilogue-Black.woff) format("woff");
-     src: local("Proxima Nova"),
+     src: local("Epiloge"),
      url(/public/assets/fonts/Epilogue-Black.woff2) format("woff2");
      font-weight: 900;
 }
@@ -42,13 +42,65 @@
     font-family: "Epiloge";
     src: local("Epiloge"),
      url(/public/assets/fonts/Epilogue-Medium.eot) format("opentype");
-     src: local("Proxima Nova"),
+     src: local("Epiloge"),
      url(/public/assets/fonts/Epilogue-Medium.ttf) format("truetype");
-     src: local("Proxima Nova"),
+     src: local("Epiloge"),
      url(/public/assets/fonts/Epilogue-Medium.woff) format("woff");
-     src: local("Proxima Nova"),
+     src: local("Epiloge"),
      url(/public/assets/fonts/Epilogue-Medium.woff2) format("woff2");
      font-weight: 700;
+}
+
+@font-face {
+    font-family: "Akzidenz-grotesk";
+    src: local("Akzidenz-grotesk"),
+     url(/public/assets/fonts/Akzidenz-grotesk-roman.eot) format("opentype");
+     src: local("Akzidenz-grotesk"),
+     url(/public/assets/fonts/Akzidenz-grotesk-roman.ttf) format("truetype");
+     src: local("Akzidenz-grotesk"),
+     url(/public/assets/fonts/Akzidenz-grotesk-roman.woff) format("woff");
+     src: local("Akzidenz-grotesk"),
+     url(/public/assets/fonts/Akzidenz-grotesk-roman.woff2) format("woff2");
+     font-weight: normal;
+}
+
+@font-face {
+    font-family: "Akzidenz-grotesk";
+    src: local("Akzidenz-grotesk"),
+     url(/public/assets/fonts/Akzidenz-grotesk-black.eot) format("opentype");
+     src: local("Akzidenz-grotesk"),
+     url(/public/assets/fonts/Akzidenz-grotesk-black.ttf) format("truetype");
+     src: local("Akzidenz"),
+     url(/public/assets/fonts/Akzidenz-grotesk-black.woff) format("woff");
+     src: local("Akzidenz"),
+     url(/public/assets/fonts/Akzidenz-grotesk-black.woff2) format("woff2");
+     font-weight: 900;
+}
+
+@font-face {
+    font-family: "Akzidenz-grotesk";
+    src: local("Akzidenz-grotesk"),
+     url(/public/assets/fonts/Akzidenz-grotesk-bold.eot) format("opentype");
+     src: local("Akzidenz-grotesk"),
+     url(/public/assets/fonts/Akzidenz-grotesk-bold.ttf) format("truetype");
+     src: local("Akzidenz-grotesk"),
+     url(/public/assets/fonts/Akzidenz-grotesk-bold.woff) format("woff");
+     src: local("Akzidenz-grotesk"),
+     url(/public/assets/fonts/Akzidenz-grotesk-bold.woff2) format("woff2");
+     font-weight: bold;
+}
+
+@font-face {
+    font-family: "Akzidenz-grotesk";
+    src: local("Akzidenz-grotesk"),
+     url(/public/assets/fonts/Akzidenz-grotesk-light.eot) format("opentype");
+     src: local("Akzidenz-grotesk"),
+     url(/public/assets/fonts/Akzidenz-grotesk-light.ttf) format("truetype");
+     src: local("Akzidenz-grotesk"),
+     url(/public/assets/fonts/Akzidenz-grotesk-light.woff) format("woff");
+     src: local("Akzidenz-grotesk"),
+     url(/public/assets/fonts/Akzidenz-grotesk-light.woff2) format("woff2");
+     font-weight: 400;
 }
 
 
