@@ -17,19 +17,19 @@
         <VueScrollProgressBar background-color="white" />
 
         <div class="carousel flex gap-14 justify-center mt-24 mb-10 px-20 items-center max-xl:flex-col max-xl:mt-4 max-xl:mb-4 max-xl:text-center max-xl:justify-center max-xl:px-12">
-            <div class="text text-right">
-                          <div class="trabajos text-right px-14 pt-20 pb-4 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:text-center">
-                <div class="titular text-[100px] text-right font-bold max-w-[13ch] leading-12 animate-pulse leading-12 bg-gradient-to-r bg-clip-text text-transparent from-[#a9baf0] via-[#4467db] to-[#0c2882] max-xl:text-[45px] max-xl:justify-center max-xl:text-center">
+            <div class="text text-left">
+                          <div class="trabajos text-left px-14 pt-20 pb-4 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:text-center">
+                <div class="titular text-[100px] text-left font-bold leading-12 animate-pulse leading-12 bg-gradient-to-r bg-clip-text text-transparent from-[#a9baf0] via-[#4467db] to-[#0c2882] max-xl:text-[60px] max-xl:justify-center max-xl:text-center">
                     Oporto</div>
 
             </div>
             <div
-                class="images px-14 pb-10 text-black text-right items-center justify-center flex flex-col gap-10 max-xl:pt-12 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4 max-xl:text-center">
-                <div class="text max-w-[50ch] text-[16px] text-right text-zinc-400 font-regular pb-12 max-xl:text-xs max-xl:text-center max-xl:justify-center max-xl:max-w-[100ch]"> Fotografías
+                class="images px-14 pb-10 text-black text-right items-left justify-center flex flex-col gap-10 max-xl:pt-12 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4 max-xl:text-center">
+                <div class="text max-w-[60ch] text-[14px] text-left text-zinc-400 font-regular pb-12 max-xl:text-xs max-xl:text-center max-xl:justify-center max-xl:max-w-[100ch]"> Fotografías
                     realizadas
                     con temática de la ciudad portugesa Oporto. Fotografías de paisajes, lugares, rincones y detalles
-                    durante el
-                    viaje.
+                    durante el viaje. Visitando partes como "El Ponte Luis I", "Distrito de Ribeira", "La torre de los Clérigos",
+                    "La Igreja do Carmo y La Igrejia dos Carmelitas", "Mercado do Bolhao" y la "Estación de tren de Sao Bento" entre otros sitios.
                     <br>
                     <br>
                     <div class="fecha pb-10 text-xs max-xl:pt-10">30 enero 2023</div>
@@ -145,7 +145,7 @@
                 </Slide>
 
                 <template #addons>
-                    <Navigation/>
+                    <Navigation class=""/>
                     <Pagination />
                 </template>
             </Carousel>
