@@ -179,8 +179,30 @@
 
 
         </div>
+
         <div
             class="images pt-20 px-64 pb-10 text-white justify-center flex flex-col gap-2 max-xl:pb-0 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
+            <div class="text max-w-[60ch] text-[32px] leading-10 text-black">Barbieheimer</div>
+            <div class="text max-w-[100ch] text-[16px] text-zinc-600 font-bold pb-12 max-xl:text-xs">Ilustración con temática de las dos películas taquilleras del 2023, "Barbie" y "Openheimer". Se llevó un movimiento
+                de hermandad entre las dos peliculas creando el "Barbieheimer". Esto me dió la idea de crear una ilustración conjunta en la que represento al protagonista de Openheimer, Robert Openheimer como un personaje de 
+                Barbie utilizando la paleta y fondo de esta segunda película mencionada. Se puede ver en esta ilustración como se ha realizado la anatomía del personaje, el control de la linea, los colores y las sombras y el postprocesado
+                de la ilustración.
+            </div>
+
+            <div
+                class="video grid grid-cols-2 pt-24 pb-10 px-40 text-white flex-nowrap items-center gap-52 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:grid-cols-1">
+                <video width="1240" height="788" loop autoplay controls class="border border-1">
+                    <source src="/img/videoBarbie.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+
+                <img src="/img/BarbieIlus.png">
+
+            </div>
+        </div>
+
+        <div
+            class="images pt-20 px-64 pb-32 text-white justify-center flex flex-col gap-2 max-xl:pb-0 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
             <div class="text max-w-[60ch] text-[32px] leading-10 text-black">Pegatinas</div>
             <div class="text max-w-[60ch] text-[16px] text-zinc-600 font-bold pb-12 max-xl:text-xs">Pegatinas con temática
                 Cars, representación propia de los personajes de la pelicula, creando una pequeña colección
@@ -195,21 +217,43 @@
 
             </div>
 
-            <div class="grid grid-cols-3 max-xl:grid-cols-1">
-                <img class="image_grid w-full h-full" src="/img/carsilus.png" alt="">
-                <img class="image_grid w-full h-full" src="/img/carsilus2.png" alt="">
-                <img class="image_grid w-full h-full" src="/img/carsilus3.png" alt="">
-                <img class="image_grid w-full h-full" src="/img/carsilus4.png" alt="">
-                <img class="image_grid w-full h-full" src="/img/carsilus5.png" alt="">
-                <img class="image_grid w-full h-full" src="/img/carsilus6.png" alt="">
+            <div class="grid grid-cols-4 mt-20 max-xl:grid-cols-2 text-black">
+                <img class="image_grid w-full h-full" src="/img/cars1.png" alt="">
+                <img class="image_grid w-full h-full" src="/img/cars2.png" alt="">
+                <img class="image_grid w-full h-full" src="/img/Cars3.png" alt="">
+                <img class="image_grid w-full h-full" src="/img/Cars4.png" alt="">
+
+                <a class="text justify-center text-[#A5A9F4] text-center mb-20 max-xl:hidden">Guido Quaroni</a>
+                <a class="text justify-center text-[#F9DA81] text-center max-xl:hidden">Luigi</a>
+                <a class="text justify-center text-[#F99A46] text-center max-xl:hidden">Miss Fractura</a>
+                <a class="text justify-center text-[#B6D29A] text-center max-xl:hidden">Fillmore</a>
+
+                <img class="image_grid w-full h-full" src="/img/Cars5.png" alt="">
+                <img class="image_grid w-full h-full" src="/img/Cars6.png" alt="">
+                <img class="image_grid w-full h-full" src="/img/cars7.png" alt="">
+                <img class="image_grid w-full h-full" src="/img/cars8.png" alt="">
+
+                <a class="text justify-center text-[#96313b] text-center mb-20 max-xl:hidden">Rayo McQueen</a>
+                <a class="text justify-center text-[#79a63d] text-center max-xl:hidden">Chick Hicks</a>
+                <a class="text justify-center text-[#23A1EF] text-center max-xl:hidden">Strip Weathers</a>
+                <a class="text justify-center text-[#FEC557] text-center max-xl:hidden">Copa Piston</a>
+
+            </div>
+            <div class="grid grid-cols-4 mb-20 max-xl:grid-cols-2 text-black">
+                <img class="image_grid col-start-2 w-full h-full max-xl:col-start-1" src="/img/Cars9.png" alt="">
+                <img class="image_grid w-full h-full" src="/img/Cars10.png" alt="">
+
+                <a class="text justify-center text-center mb-20 max-xl:hidden"></a>
+                <a class="text justify-center text-center max-xl:hidden"></a>
+                <a class="text justify-center text-[#EE885F] text-center max-xl:hidden">Mate</a>
+                <a class="text justify-center text-[#373D83] text-center max-xl:hidden">Doc Hudson Hornet</a>
 
             </div>
             
 
         </div>
 
-
-
+        
 
 
         <div
