@@ -192,7 +192,7 @@
             <div
                 class="video grid grid-cols-2 pt-24 pb-10 px-40 text-white flex-nowrap items-center gap-52 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:grid-cols-1">
                 <video width="1240" height="788" loop autoplay controls class="border border-1">
-                    <source src="/img/videoBarbie.mp4" type="video/mp4">
+                    <source src="/img/VideoBarbie.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
 
