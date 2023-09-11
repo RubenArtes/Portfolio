@@ -218,8 +218,8 @@
             </div>
 
             <div class="grid grid-cols-4 mt-20 max-xl:grid-cols-2 text-black">
-                <img class="image_grid w-full h-full" src="/img/cars1.png" alt="">
-                <img class="image_grid w-full h-full" src="/img/cars2.png" alt="">
+                <img class="image_grid w-full h-full" src="/img/Cars1.png" alt="">
+                <img class="image_grid w-full h-full" src="/img/Cars2.png" alt="">
                 <img class="image_grid w-full h-full" src="/img/Cars3.png" alt="">
                 <img class="image_grid w-full h-full" src="/img/Cars4.png" alt="">
 
@@ -230,8 +230,8 @@
 
                 <img class="image_grid w-full h-full" src="/img/Cars5.png" alt="">
                 <img class="image_grid w-full h-full" src="/img/Cars6.png" alt="">
-                <img class="image_grid w-full h-full" src="/img/cars7.png" alt="">
-                <img class="image_grid w-full h-full" src="/img/cars8.png" alt="">
+                <img class="image_grid w-full h-full" src="/img/Cars7.png" alt="">
+                <img class="image_grid w-full h-full" src="/img/Cars8.png" alt="">
 
                 <a class="text justify-center text-[#96313b] text-center mb-20 max-xl:hidden">Rayo McQueen</a>
                 <a class="text justify-center text-[#79a63d] text-center max-xl:hidden">Chick Hicks</a>
