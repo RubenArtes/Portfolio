@@ -1,5 +1,5 @@
 <template>
-  <div class="app bg-white font-['SFUIDisplay-Light'] w-screen">
+  <div class="app bg-white font-['SFUIDisplay-Light'] ">
     <Cursor />
     <div
       class="header bg-white p-10 flex px-24 text-black justify-between sticky top-0 z-10 max-lg:p-6 max-lg:sticky border border-b-0">
@@ -19,7 +19,7 @@
     </div>
 
     <div
-      class="header bg-white p-2 px-12 text-black flex justify-center items-center sticky top-[6.5rem] z-10 border border-b-1 w-screen max-[1080px]:gap-6 max-[1025px]:top-[4.2rem] max-[510px]:gap-2">
+      class="header bg-white p-2 px-12 text-black flex justify-center items-center sticky top-[6.5rem] z-10 border border-b-1  max-[1080px]:gap-6 max-[1025px]:top-[4.2rem] max-[510px]:gap-2">
       <div
         class="titular_small pr-6 pl-6 text-zinc-500 font-['SFUIDisplay-Regular'] animate-pulse text-[14px] max-[510px]:px-2 max-[510px]:text-[11px]">
         Ultima actualización Octubre 2023
@@ -67,7 +67,7 @@
     <VueScrollProgressBar background-color="#000000" />
 
     <div
-      class="trabajos w-screen px-64 flex pt-16 pb-32 text-zinc-800 flex-col items-left gap-10 items-left max-lg:pt-16 max-lg:px-10 max-lg:flex-col max-lg:justify-center max-lg:gap-2 max-lg:justify-items-center max-[1080px]:px-20 max-[1080px]:pb-32 max-[720px]:px-4 max-[510px]:px-2 max-[510px]:pt-8 max-[510px]:pb-16">
+      class="trabajos  px-64 flex pt-16 pb-32 text-zinc-800 flex-col items-left gap-10 items-left max-lg:pt-16 max-lg:px-10 max-lg:flex-col max-lg:justify-center max-lg:gap-2 max-lg:justify-items-center max-[1080px]:px-20 max-[1080px]:pb-32 max-[720px]:px-4 max-[510px]:px-2 max-[510px]:pt-8 max-[510px]:pb-16">
 
       <div class="titular_flex pt-20 flex flex-col max-lg:items-center max-lg:flex max-[2000px]:px-0 max-[510px]:pt-4">
         <div
@@ -99,7 +99,7 @@
       más de el»
     </div>
     <div class="trabajos justify-center w-auto">
-      <div class="grid grid-cols-4 w-screen max-[1380px]:grid-cols-3 max-[1080px]:grid-cols-2 max-[760px]:grid-cols-1">
+      <div class="grid grid-cols-4  max-[1380px]:grid-cols-3 max-[1080px]:grid-cols-2 max-[760px]:grid-cols-1">
         <NuxtLink to="/packaging">
           <div
             class="trabajo1 border border-solid px-20 py-30 flex flex-col justify-center hover:bg-[url('/img/NuevaCategoria.png')] bg-cover bg-center hover:text-white max-[1840px]:px-16 max-[760px]:px-8 max-[760px]:pb-20 max-[760px]:max-h-[800px] max-[760px]:pt-20  max-[760px]:bg-[url('/img/NuevaCategoria.png')] max-[760px]:text-white">
