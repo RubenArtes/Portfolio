@@ -17,7 +17,7 @@
         <div
             class="trabajos flex pt-20 px-40 pb-20 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 ">
             <div
-                class="titular text-[70px] font-bold max-w-[13ch] animate-pulse leading-12 bg-gradient-to-r bg-clip-text text-transparent from-indigo-500 via-purple-500 to-indigo-500 animate-text max-xl:text-[45px] max-xl:justify-center">
+                class="titular text-[70px] font-bold max-w-[13ch] leading-12 bg-gradient-to-r bg-clip-text text-transparent from-indigo-500 via-purple-500 to-indigo-500 animate-text max-xl:text-[45px] max-xl:justify-center">
                 Ilustraciones</div>
             <div class="info flex flex-col gap-6">
                 <div class="text max-w-[60ch] text-[16px] leading-10 text-zinc-400 max-xl:leading-2 max-xl:text-xs max-xl:text-center">Dibujos - Lettering -

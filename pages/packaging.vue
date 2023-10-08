@@ -1,14 +1,14 @@
 <template>
-    <div class="app bg-[#FEE8D4]">
+    <div class="app bg-white font-['SFUIDisplay-Regular'] w-screen">
         <Cursor />
         <div
-            class="header bg-[#FFE0C5] p-10 flex text-zinc-600 justify-between sticky top-0 z-10 max-xl:p-6 max-xl:items-center">
+            class="header bg-white p-10 flex px-24 text-black justify-between sticky top-0 z-10 max-lg:p-6 max-lg:sticky border border-b-1">
             <div class="image flex flex-start">
                 <NuxtLink to="/">
-                    <img class="vector max-xl:max-w-[15px]" src="/img/Vectorzinc.svg">
+                    <img class="vector pl-6 max-xl:max-w-[15px]" src="/img/Vectorzinc.svg">
                 </NuxtLink>
             </div>
-            <div class="email text-lg flex gap-2 items-center max-xl:text-xs">ruben.maldonado.graphic@gmail.com
+            <div class="email text-xm pr-6 flex gap-2 items-center max-xl:text-xs">ruben.maldonado.graphic@gmail.com
                 <NuxtLink to="/">
                     <img class="vector max-xl:max-w-[8px]" src="/img/Vector-11zinc.svg">
                 </NuxtLink>
@@ -16,16 +16,16 @@
         </div>
         <VueScrollProgressBar background-color="#52525B" />
         <div
-            class="trabajos flex pt-20 px-40 pb-20 text-zinc-600 flex-nowrap items-center gap-64 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
+            class="trabajos flex pt-20 px-40 pb-20 text-zinc-600 flex-nowrap items-center gap-40 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
             <div
-                class="titular text-[70px] font-bold max-w-[13ch] leading-12 animate-pulse leading-12 bg-gradient-to-r bg-clip-text text-transparent from-[#F3536D] via-[#FFB047] to-[#FBCE37] animate-text max-xl:text-[60px] max-xl:justify-center">
-                Packaging</div>
+                class="titular text-[70px] font-['Domaine-Display'] font-bold max-w-[13ch] leading-12 leading-12 animate-text max-xl:text-[60px] max-xl:justify-center">
+                PACKAGING</div>
             <div class="info flex flex-col gap-6">
-                <div class="text max-w-[60ch] text-[16px] leading-10 text-zinc-500 max-xl:leading-2 max-xl:text-xs max-xl:text-center">Diseño
+                <div class="text max-w-[60ch] text-[16px] leading-10 uppercase text-zinc-900 max-xl:leading-2 max-xl:text-xs max-xl:text-center">Diseño
                     Matutano - Packaging - Marca -
                     Diseño Gráfico</div>
                 <div
-                    class="text max-w-[60ch] text-[20px] leading-8 text-zinc-600 font-bold max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center">
+                    class="text max-w-[60ch] font-['SFUIDisplay-Light'] text-[20px] leading-8 text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center">
                     El proyecto consistirá en el
                     diseño de una gama
                     de productos para una marca existente (Matutano), generando
@@ -39,25 +39,25 @@
         </div>
 
         <div
-            class="trabajos flex pt-20 px-40 text-white items-start flex-nowrap gap-40 justify-center max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-xl:text-center max-xl:pt-0 max-xl:pb-16">
+            class="trabajos flex pt-20 px-40 items-center text-white flex-nowrap gap-40 justify-center max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-xl:text-center max-xl:pt-0 max-xl:pb-16">
             <div class="info flex flex-col">
-                <div class="text max-w-[60ch] italic text-[16px] leading-10 text-zinc-400 max-xl:text-xs">Asignatura</div>
+                <div class="text max-w-[60ch] text-center italic text-[16px] leading-10 text-zinc-400 max-xl:text-xs">Asignatura</div>
                 <div
-                    class="text max-w-[20ch] text-[16px] leading-6 text-zinc-900 font-bold max-xl:text-sm max-xl:max-w-[40ch]">
+                    class="text max-w-[20ch] font-['SFUIDisplay-Light']  text-center text-[16px] leading-6 text-zinc-900 max-xl:text-sm max-xl:max-w-[40ch]">
                     Proyectos del Diseño Gráfico, 3º Curso Diseño Gráfico.
                 </div>
             </div>
             <div class="info flex flex-col">
-                <div class="text max-w-[60ch] text-[16px] italic leading-10 text-zinc-400 max-xl:text-xs">Tiempo</div>
+                <div class="text max-w-[60ch]  text-center text-[16px] italic leading-10 text-zinc-400 max-xl:text-xs">Tiempo</div>
                 <div
-                    class="text max-w-[20ch] text-[16px] leading-6 text-zinc-900 font-bold max-xl:text-sm max-xl:max-w-[40ch]">
+                    class="text max-w-[20ch] font-['SFUIDisplay-Light']  text-center text-[16px] leading-6 text-zinc-900 max-xl:text-sm max-xl:max-w-[40ch]">
                     2 - 3 meses
                 </div>
             </div>
             <div class="info flex flex-col">
-                <div class="text max-w-[60ch] text-[16px] italic leading-10 text-zinc-400 max-xl:text-xs">Briefing</div>
+                <div class="text max-w-[60ch] text-center text-[16px] italic leading-10 text-zinc-400 max-xl:text-xs">Briefing</div>
                 <div
-                    class="text max-w-[20ch] text-[16px] leading-6 text-zinc-900 font-bold max-xl:text-sm max-xl:max-w-[40ch]">
+                    class="text max-w-[20ch] text-center font-['SFUIDisplay-Light']  text-[16px] leading-6 text-zinc-900 max-xl:text-sm max-xl:max-w-[40ch]">
                     Matutano Salusbale
                 </div>
             </div>
@@ -76,7 +76,7 @@
             <div class="info_proyect max-w-[80ch]">
                 <div class="info_secondary flex flex-col gap-6 sticky top-32">
                     <div class="text max-w-[60ch] text-[32px] leading-10 text-zinc-600">Tres packaging saludables</div>
-                    <div class="text text-[16px] leading-6 text-zinc-500 font-normal max-w-[64ch] max-xl:text-xs">
+                    <div class="text text-[16px] font-['SFUIDisplay-Light'] leading-6 indent-12 text-zinc-900 max-w-[70ch] max-xl:text-xs">
                         El trabajo finalmente cuenta con 3 packaging a modo de tótem y juego visual y táctil de combinación
                         del espectador y un packaging adaptado a otra estructura
                         diferente de caja para un producto diferente
@@ -99,7 +99,7 @@
                         acceder mejor al contenido interior sin encajar tu mano
                         en el producto o dificultarte coger algunos de los
                         snacks. <br> <br>
-                        Por otro lado se podrá dar una segunda vida
+                        <div class="text indent-12">Por otro lado se podrá dar una segunda vida
                         a este packaging por medio de convertirlo en contenedor
                         de elementos o como porta-lapices por la estructura
                         que tiene, funcionando también como caja
@@ -115,7 +115,7 @@
                         e ilustraciones originales y animadas con movimiento
                         e interés para que el público se sienta atraído por estos
                         productos saludables que carecen de ilustraciones
-                        o elementos dibujados fuera de lo común.
+                        o elementos dibujados fuera de lo común.</div>
                         <br> <br>
                         Mi idea durante todo el proyecto ha sido hacer más
                         accesible, llamativos e interesantes un tipo de productos
@@ -291,7 +291,7 @@
 
         </div>
 
-        <div class="foter bg-[#FFE0C5] p-10 flex text-zinc-600 justify-between sticky top-0 max-xl:p-6">
+        <div class="foter bg-white p-10 flex text-zinc-600 justify-between sticky top-0 max-xl:p-6">
             <div class="foter_image flex flex-start">
                 <NuxtLink to="/">
                     <img class="vector max-xl:max-w-[15px]" src="/img/starzinc.svg">
@@ -321,6 +321,7 @@ export default {
     },
 };
 
+import PlvPointer from "/components/Cursor.vue";
 
 </script>
 

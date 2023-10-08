@@ -1,6 +1,6 @@
 <template>
     <div class="app bg-[#161616]">
-        <Cursor />
+        
         <div class="header bg-[#101010] p-10 flex text-white justify-between sticky top-0 z-10 max-xl:p-6 max-xl:items-center">
             <div class="image flex flex-start">
                 <NuxtLink to="/">
