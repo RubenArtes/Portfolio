@@ -17,7 +17,7 @@
       </div>
 
     </div>
-    <VueScrollProgressBar background-color="#000000" />
+
     <div
       class="header bg-white p-2 px-12 text-black flex justify-center items-center sticky top-[6.5rem] z-10 border border-b-1 w-screen max-[1080px]:gap-6 max-[1025px]:top-[4.2rem] max-[510px]:gap-2">
       <div
@@ -62,21 +62,16 @@
       </div>
       <img class="info animate-pulse max-w-[12px] max-h-[12px] max-[2260px]:hidden" src="/img/infoblack.png">
 
-
-
-
-
-
     </div>
 
-    <VueScrollProgressBar />
+
 
     <div
       class="trabajos w-screen px-64 flex pt-16 pb-32 text-zinc-800 flex-col items-left gap-10 items-left max-lg:pt-16 max-lg:px-10 max-lg:flex-col max-lg:justify-center max-lg:gap-2 max-lg:justify-items-center max-[1080px]:px-20 max-[1080px]:pb-32 max-[720px]:px-4 max-[510px]:px-2 max-[510px]:pt-8 max-[510px]:pb-16">
 
       <div class="titular_flex pt-20 flex flex-col max-lg:items-center max-lg:flex max-[2000px]:px-0 max-[510px]:pt-4">
         <div
-          class="titular leading-[9rem] text-[200px] font-['SFUIDisplay-Regular'] font-bold tracking-tight flex flex-col items-center justify-center max-[2000px]:text-[160px] max-[1080px]:text-[120px] max-[720px]:text-[85px] max-[510px]:text-[70px] max-[760px]:text-[60px] max-[760px]:leading-[4rem]">
+          class="titular leading-[9rem] text-[200px] font-['SFUIDisplay-Regular'] font-bold tracking-tight flex flex-col items-center justify-center max-[2000px]:text-[160px] max-[1080px]:text-[120px] max-[720px]:text-[60px] max-[510px]:text-[60px] max-[760px]:text-[60px] max-[760px]:leading-[4rem]">
           PORTFOLIO
           <br>
           <Text></Text>
@@ -109,13 +104,13 @@
           <div
             class="trabajo1 border border-solid px-20 py-30 flex flex-col justify-center hover:bg-[url('/img/NuevaCategoria.png')] bg-cover bg-center hover:text-white max-[1840px]:px-16 max-[760px]:px-8 max-[760px]:py-0 max-[760px]:max-h-[800px] max-[760px]:pt-12 max-[760px]:pb-4 max-[760px]:bg-[url('/img/NuevaCategoria.png')] max-[760px]:text-white">
             <div
-              class="text text-[50px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-[2260px]:text-[40px] max-[2260px]:leading-[3rem] max-[1840px]:text-[32px] max-[760px]:text-[26px] max-[760px]:pt-2 max-[760px]:leading-[2rem] max-[760px]:text-[55px] max-[760px]:leading-[3.5rem] max-[760px]:text-center max-[760px]:order-2 max-[760px]:pb-72">
+              class="text text-[50px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-[2260px]:text-[40px] max-[2260px]:leading-[3rem] max-[1840px]:text-[32px] max-[760px]:text-[26px] max-[760px]:pt-2 max-[760px]:leading-[2rem] max-[760px]:text-[55px] max-[760px]:leading-[3.5rem] max-[760px]:text-center">
               MATUTANO <br> SALUDABLE</div>
             <div
-              class="text text-[20px] leading-[5rem] pb-96 font-['SFUIDisplay-Light'] font-normal tracking-normal flex flex-col items-left justify-center max-[760px]:text-[14px] max-[760px]:pb-72 max-[760px]:order-1 max-[760px]:text-center max-[760px]:pb-2 max-[760px]:leading-[1rem]">
+              class="text text-[20px] leading-[5rem] pb-96 font-['SFUIDisplay-Light'] font-normal tracking-normal flex flex-col items-left justify-center max-[760px]:text-[14px] max-[760px]:pb-72 max-[760px]:order-0 max-[760px]:text-center max-[760px]:pb-2 max-[760px]:leading-[1rem]">
               PACKAGING</div>
             <div
-              class="text text-[300px] font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-[760px]:text-[120px] max-[760px]:order-4">
+              class="text text-[300px] font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-[760px]:text-[120px] max-[760px]:order-2">
               1</div>
           </div>
         </NuxtLink>
@@ -123,13 +118,13 @@
           <div
             class="trabajo1 border border-solid px-20 py-30 flex flex-col justify-center hover:bg-[url('/img/NuevaCategoria2.png')] bg-cover bg-center hover:text-white max-[1840px]:px-16 max-[760px]:px-8 max-[760px]:py-0 max-[760px]:max-h-[800px] max-[760px]:pt-12 max-[760px]:pb-4 max-[760px]:bg-[url('/img/NuevaCategoria2.png')] max-[760px]:text-white">
             <div
-              class="text text-[50px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-[2260px]:text-[40px] max-[2260px]:leading-[3rem] max-[1840px]:text-[32px] max-[760px]:text-[26px] max-[760px]:pt-2 max-[760px]:leading-[2rem] max-[760px]:text-[55px] max-[760px]:leading-[3.5rem] max-[760px]:text-center max-[760px]:order-2 max-[760px]:pb-72">
+              class="text text-[50px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-[2260px]:text-[40px] max-[2260px]:leading-[3rem] max-[1840px]:text-[32px] max-[760px]:text-[26px] max-[760px]:pt-2 max-[760px]:leading-[2rem] max-[760px]:text-[55px] max-[760px]:leading-[3.5rem] max-[760px]:text-center">
               VINOS <br> PRAU</div>
             <div
-              class="text text-[20px] leading-[5rem] pb-96 font-['SFUIDisplay-Light'] font-normal tracking-normal flex flex-col items-left justify-center max-[760px]:text-[14px] max-[760px]:pb-72 max-[760px]:order-1 max-[760px]:text-center max-[760px]:pb-2 max-[760px]:leading-[1rem]">
+              class="text text-[20px] leading-[5rem] pb-96 font-['SFUIDisplay-Light'] font-normal tracking-normal flex flex-col items-left justify-center max-[760px]:text-[14px] max-[760px]:pb-72 max-[760px]:text-center max-[760px]:pb-2 max-[760px]:leading-[1rem]">
               PACKAGING</div>
             <div
-              class="text text-[300px] font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-[760px]:text-[120px] max-[760px]:order-4">
+              class="text text-[300px] font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-[760px]:text-[120px]">
               2</div>
           </div>
         </NuxtLink>
@@ -137,13 +132,13 @@
           <div
             class="trabajo1 border border-solid px-20 py-30 flex flex-col justify-center hover:bg-[url('/img/NuevaCategoria3.png')] bg-cover bg-center hover:text-white max-[1840px]:px-16 max-[760px]:px-8 max-[760px]:py-0 max-[760px]:max-h-[800px] max-[760px]:pt-12 max-[760px]:pb-4 max-[760px]:bg-[url('/img/NuevaCategoria3.png')] max-[760px]:text-white">
             <div
-              class="text text-[50px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-[2260px]:text-[40px] max-[2260px]:leading-[3rem] max-[1840px]:text-[32px] max-[760px]:text-[26px] max-[760px]:pt-2 max-[760px]:leading-[2rem] max-[760px]:text-[55px] max-[760px]:leading-[3.5rem] max-[760px]:text-center max-[760px]:order-2 max-[760px]:pb-72">
+              class="text text-[50px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-[2260px]:text-[40px] max-[2260px]:leading-[3rem] max-[1840px]:text-[32px] max-[760px]:text-[26px] max-[760px]:pt-2 max-[760px]:leading-[2rem] max-[760px]:text-[55px] max-[760px]:leading-[3.5rem] max-[760px]:text-center ">
               METRO <br> MADRID</div>
             <div
-              class="text text-[20px] leading-[5rem] pb-96 font-['SFUIDisplay-Light'] font-normal tracking-normal flex flex-col items-left justify-center max-[760px]:text-[14px] max-[760px]:pb-72 max-[760px]:order-1 max-[760px]:text-center max-[760px]:pb-2 max-[760px]:leading-[1rem]">
+              class="text text-[20px] leading-[5rem] pb-96 font-['SFUIDisplay-Light'] font-normal tracking-normal flex flex-col items-left justify-center max-[760px]:text-[14px] max-[760px]:pb-72  max-[760px]:text-center max-[760px]:pb-2 max-[760px]:leading-[1rem]">
               PRODUCCIÓN</div>
             <div
-              class="text text-[300px] font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-[760px]:text-[120px] max-[760px]:order-4">
+              class="text text-[300px] font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-[760px]:text-[120px] ">
               3</div>
           </div>
         </NuxtLink>
@@ -151,13 +146,13 @@
           <div
             class="trabajo1 border border-solid px-20 py-30 flex flex-col justify-center hover:bg-[url('/img/NuevaCategoria4.jpg')] bg-cover bg-center hover:text-white max-[1840px]:px-16 max-[760px]:px-8 max-[760px]:py-0 max-[760px]:max-h-[800px] max-[760px]:pt-12 max-[760px]:pb-4 max-[760px]:bg-[url('/img/NuevaCategoria4.jpg')] max-[760px]:text-white">
             <div
-              class="text text-[50px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-[2260px]:text-[40px] max-[2260px]:leading-[3rem] max-[1840px]:text-[32px] max-[760px]:text-[26px] max-[760px]:pt-2 max-[760px]:leading-[2rem] max-[760px]:text-[55px] max-[760px]:leading-[3.5rem] max-[760px]:text-center max-[760px]:order-2 max-[760px]:pb-72">
+              class="text text-[50px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-[2260px]:text-[40px] max-[2260px]:leading-[3rem] max-[1840px]:text-[32px] max-[760px]:text-[26px] max-[760px]:pt-2 max-[760px]:leading-[2rem] max-[760px]:text-[55px] max-[760px]:leading-[3.5rem] max-[760px]:text-center ">
               REVISTA <br> TYPENOTES</div>
             <div
-              class="text text-[20px] leading-[5rem] pb-96 font-['SFUIDisplay-Light'] font-normal tracking-normal flex flex-col items-left justify-center max-[760px]:text-[14px] max-[760px]:pb-72 max-[760px]:order-1 max-[760px]:text-center max-[760px]:pb-2 max-[760px]:leading-[1rem]">
+              class="text text-[20px] leading-[5rem] pb-96 font-['SFUIDisplay-Light'] font-normal tracking-normal flex flex-col items-left justify-center max-[760px]:text-[14px] max-[760px]:pb-72  max-[760px]:text-center max-[760px]:pb-2 max-[760px]:leading-[1rem]">
               EDITORIAL</div>
             <div
-              class="text text-[300px] font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-[760px]:text-[120px] max-[760px]:order-4">
+              class="text text-[300px] font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-[760px]:text-[120px] ">
               4</div>
           </div>
         </NuxtLink>
@@ -165,13 +160,13 @@
           <div
             class="trabajo1 border border-solid px-20 py-30 flex flex-col justify-center hover:bg-[url('/img/NuevaCategoria5.png')] bg-cover bg-center hover:text-white max-[1840px]:px-16 max-[760px]:px-8 max-[760px]:py-0 max-[760px]:max-h-[800px] max-[760px]:pt-12 max-[760px]:pb-4 max-[760px]:bg-[url('/img/NuevaCategoria5.png')] max-[760px]:text-white">
             <div
-              class="text text-[50px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-[2260px]:text-[40px] max-[2260px]:leading-[3rem] max-[1840px]:text-[32px] max-[760px]:text-[26px] max-[760px]:pt-2 max-[760px]:leading-[2rem] max-[760px]:text-[50px] max-[760px]:leading-[3.5rem] max-[760px]:text-center max-[760px]:order-2 max-[760px]:pb-72">
+              class="text text-[50px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-[2260px]:text-[40px] max-[2260px]:leading-[3rem] max-[1840px]:text-[32px] max-[760px]:text-[26px] max-[760px]:pt-2 max-[760px]:leading-[2rem] max-[760px]:text-[50px] max-[760px]:leading-[3.5rem] max-[760px]:text-center ">
               AUDIOVISUAL <br> MOVISTAR +</div>
             <div
-              class="text text-[20px] leading-[5rem] pb-96 font-['SFUIDisplay-Light'] font-normal tracking-normal flex flex-col items-left justify-center max-[760px]:text-[14px] max-[760px]:pb-72 max-[760px]:order-1 max-[760px]:text-center max-[760px]:pb-2 max-[760px]:leading-[1rem]">
+              class="text text-[20px] leading-[5rem] pb-96 font-['SFUIDisplay-Light'] font-normal tracking-normal flex flex-col items-left justify-center max-[760px]:text-[14px] max-[760px]:pb-72  max-[760px]:text-center max-[760px]:pb-2 max-[760px]:leading-[1rem]">
               MOTION GRAPHICS</div>
             <div
-              class="text text-[300px] font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-[760px]:text-[120px] max-[760px]:order-4">
+              class="text text-[300px] font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-[760px]:text-[120px] ">
               5</div>
           </div>
         </NuxtLink>
@@ -179,13 +174,13 @@
           <div
             class="trabajo1 border border-solid px-20 py-30 flex flex-col justify-center hover:bg-[url('/img/NuevaCategoria6.jpg')] bg-cover bg-center hover:text-white max-[1840px]:px-16 max-[760px]:px-8 max-[760px]:py-0 max-[760px]:max-h-[800px] max-[760px]:pt-12 max-[760px]:pb-4 max-[760px]:bg-[url('/img/NuevaCategoria6.jpg')] max-[760px]:text-white">
             <div
-              class="text text-[50px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-[2260px]:text-[40px] max-[2260px]:leading-[3rem] max-[1840px]:text-[32px] max-[760px]:text-[26px] max-[760px]:pt-2 max-[760px]:leading-[2rem] max-[760px]:text-[55px] max-[760px]:leading-[3.5rem] max-[760px]:text-center max-[760px]:order-2 max-[760px]:pb-72">
+              class="text text-[50px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-[2260px]:text-[40px] max-[2260px]:leading-[3rem] max-[1840px]:text-[32px] max-[760px]:text-[26px] max-[760px]:pt-2 max-[760px]:leading-[2rem] max-[760px]:text-[55px] max-[760px]:leading-[3.5rem] max-[760px]:text-center ">
               MODELADO <br> 3D</div>
             <div
-              class="text text-[20px] leading-[5rem] pb-96 font-['SFUIDisplay-Light'] font-normal tracking-normal flex flex-col items-left justify-center max-[760px]:text-[14px] max-[760px]:pb-72 max-[760px]:order-1 max-[760px]:text-center max-[760px]:pb-2 max-[760px]:leading-[1rem]">
+              class="text text-[20px] leading-[5rem] pb-96 font-['SFUIDisplay-Light'] font-normal tracking-normal flex flex-col items-left justify-center max-[760px]:text-[14px] max-[760px]:pb-72  max-[760px]:text-center max-[760px]:pb-2 max-[760px]:leading-[1rem]">
               RENDER</div>
             <div
-              class="text text-[300px] font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-[760px]:text-[120px] max-[760px]:order-4">
+              class="text text-[300px] font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-[760px]:text-[120px] ">
               6</div>
           </div>
         </NuxtLink>
@@ -193,13 +188,13 @@
           <div
             class="trabajo1 border border-solid px-20 py-30 flex flex-col justify-center hover:bg-[url('/img/NuevaCategoria7.jpg')] bg-cover bg-center hover:text-white max-[1840px]:px-16 max-[760px]:px-8 max-[760px]:py-0 max-[760px]:max-h-[800px] max-[760px]:pt-12 max-[760px]:pb-4 max-[760px]:bg-[url('/img/NuevaCategoria7.jpg')] max-[760px]:text-white">
             <div
-              class="text text-[50px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-[2260px]:text-[40px] max-[2260px]:leading-[3rem] max-[1840px]:text-[32px] max-[760px]:text-[26px] max-[760px]:pt-2 max-[760px]:leading-[2rem] max-[760px]:text-[55px] max-[760px]:leading-[3.5rem] max-[760px]:text-center max-[760px]:order-2 max-[760px]:pb-72">
+              class="text text-[50px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-[2260px]:text-[40px] max-[2260px]:leading-[3rem] max-[1840px]:text-[32px] max-[760px]:text-[26px] max-[760px]:pt-2 max-[760px]:leading-[2rem] max-[760px]:text-[55px] max-[760px]:leading-[3.5rem] max-[760px]:text-center ">
               YELMO <br> CINES</div>
             <div
-              class="text text-[20px] leading-[5rem] pb-96 font-['SFUIDisplay-Light'] font-normal tracking-normal flex flex-col items-left justify-center max-[760px]:text-[14px] max-[760px]:pb-72 max-[760px]:order-1 max-[760px]:text-center max-[760px]:pb-2 max-[760px]:leading-[1rem]">
+              class="text text-[20px] leading-[5rem] pb-96 font-['SFUIDisplay-Light'] font-normal tracking-normal flex flex-col items-left justify-center max-[760px]:text-[14px] max-[760px]:pb-72  max-[760px]:text-center max-[760px]:pb-2 max-[760px]:leading-[1rem]">
               MARCA</div>
             <div
-              class="text text-[300px] font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-[760px]:text-[120px] max-[760px]:order-4">
+              class="text text-[300px] font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-[760px]:text-[120px] ">
               7</div>
           </div>
         </NuxtLink>
@@ -207,13 +202,13 @@
           <div
             class="trabajo1  border border-solid px-20 py-30 flex flex-col justify-center hover:bg-[url('/img/NuevaCategoria8.jpg')] bg-cover bg-center hover:text-white max-[1840px]:px-16 max-[760px]:px-8 max-[760px]:py-0 max-[760px]:max-h-[800px] max-[760px]:pt-12 max-[760px]:pb-4 max-[760px]:bg-[url('/img/NuevaCategoria8.jpg')] max-[760px]:text-white">
             <div
-              class="text text-[50px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-[2260px]:text-[40px] max-[2260px]:leading-[3rem] max-[1840px]:text-[32px] max-[760px]:text-[26px] max-[760px]:pt-2 max-[760px]:leading-[2rem] max-[760px]:text-[40px] max-[760px]:leading-[2.5rem] max-[760px]:text-center max-[760px]:order-2 max-[760px]:pb-72">
+              class="text text-[50px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-[2260px]:text-[40px] max-[2260px]:leading-[3rem] max-[1840px]:text-[32px] max-[760px]:text-[26px] max-[760px]:pt-2 max-[760px]:leading-[2rem] max-[760px]:text-[40px] max-[760px]:leading-[2.5rem] max-[760px]:text-center ">
               PENSAMIENTO <br> LATERAL</div>
             <div
-              class="text text-[20px] leading-[5rem] pb-96 font-['SFUIDisplay-Light'] font-normal tracking-normal flex flex-col items-left justify-center max-[760px]:text-[14px] max-[760px]:pb-72 max-[760px]:order-1 max-[760px]:text-center max-[760px]:pb-2 max-[760px]:leading-[1rem]">
+              class="text text-[20px] leading-[5rem] pb-96 font-['SFUIDisplay-Light'] font-normal tracking-normal flex flex-col items-left justify-center max-[760px]:text-[14px] max-[760px]:pb-72  max-[760px]:text-center max-[760px]:pb-2 max-[760px]:leading-[1rem]">
               EDITORIAL</div>
             <div
-              class="text text-[300px] font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-[760px]:text-[120px] max-[760px]:order-4">
+              class="text text-[300px] font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-[760px]:text-[120px] ">
               8</div>
           </div>
         </NuxtLink>
@@ -221,13 +216,13 @@
         <div
           class="trabajo1 border border-solid px-20 py-30 flex flex-col justify-center hover:bg-[url('/img/NuevaCategoria9.png')] bg-cover bg-center max-[1840px]:px-16 max-[760px]:px-8 max-[760px]:py-0 max-[760px]:max-h-[800px] max-[760px]:pt-12 max-[760px]:pb-4 max-[760px]:bg-[url('/img/NuevaCategoria9.png')] max-[760px]:text-black">
           <div
-            class="text text-[50px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-[2260px]:text-[40px] max-[2260px]:leading-[3rem] max-[1840px]:text-[32px] max-[760px]:text-[26px] max-[760px]:pt-2 max-[760px]:leading-[2rem] max-[760px]:text-[55px] max-[760px]:leading-[3.5rem] max-[760px]:text-center max-[760px]:order-2 max-[760px]:pb-72">
+            class="text text-[50px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-[2260px]:text-[40px] max-[2260px]:leading-[3rem] max-[1840px]:text-[32px] max-[760px]:text-[26px] max-[760px]:pt-2 max-[760px]:leading-[2rem] max-[760px]:text-[55px] max-[760px]:leading-[3.5rem] max-[760px]:text-center ">
             ESD<br>PÁGINA WEB</div>
           <div
-            class="text text-[20px] leading-[5rem] pb-96 font-['SFUIDisplay-Light'] font-normal tracking-normal flex flex-col items-left justify-center max-[760px]:text-[14px] max-[760px]:pb-72 max-[760px]:order-1 max-[760px]:text-center max-[760px]:pb-2 max-[760px]:leading-[1rem]">
+            class="text text-[20px] leading-[5rem] pb-96 font-['SFUIDisplay-Light'] font-normal tracking-normal flex flex-col items-left justify-center max-[760px]:text-[14px] max-[760px]:pb-72  max-[760px]:text-center max-[760px]:pb-2 max-[760px]:leading-[1rem]">
             PROTOTIPADO</div>
           <div
-            class="text text-[300px] font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-[760px]:text-[120px] max-[760px]:order-4">
+            class="text text-[300px] font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-[760px]:text-[120px] ">
             9</div>
         </div>
         </NuxtLink>
@@ -235,13 +230,13 @@
           <div
             class="trabajo1 border border-solid px-20 py-30 flex flex-col justify-center hover:bg-[url('/img/NuevaCategoria10.png')] bg-cover bg-center hover:text-white max-[1840px]:px-16 max-[760px]:px-8 max-[760px]:py-0 max-[760px]:max-h-[800px] max-[760px]:pt-12 max-[760px]:pb-4 max-[760px]:bg-[url('/img/NuevaCategoria10.png')] max-[760px]:text-white">
             <div
-              class="text text-[50px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-[2260px]:text-[40px] max-[2260px]:leading-[3rem] max-[1840px]:text-[32px] max-[760px]:text-[26px] max-[760px]:pt-2 max-[760px]:leading-[2rem] max-[760px]:text-[45px] max-[760px]:leading-[2.5rem] max-[760px]:text-center max-[760px]:order-2 max-[760px]:pb-72">
+              class="text text-[50px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-[2260px]:text-[40px] max-[2260px]:leading-[3rem] max-[1840px]:text-[32px] max-[760px]:text-[26px] max-[760px]:pt-2 max-[760px]:leading-[2rem] max-[760px]:text-[45px] max-[760px]:leading-[3rem] max-[760px]:text-center ">
               COLECCIÓN <br> FOTOGRÁFICA</div>
             <div
-              class="text text-[20px] leading-[5rem] pb-96 font-['SFUIDisplay-Light'] font-normal tracking-normal flex flex-col items-left justify-center max-[760px]:text-[14px] max-[760px]:pb-72 max-[760px]:order-1 max-[760px]:text-center max-[760px]:pb-2 max-[760px]:leading-[1rem]">
+              class="text text-[20px] leading-[5rem] pb-96 font-['SFUIDisplay-Light'] font-normal tracking-normal flex flex-col items-left justify-center max-[760px]:text-[14px] max-[760px]:pb-72  max-[760px]:text-center max-[760px]:pb-2 max-[760px]:leading-[1rem]">
               FOTOGRAFÍAS</div>
             <div
-              class="text text-[300px] font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-[760px]:text-[120px] max-[760px]:order-4">
+              class="text text-[300px] font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-[760px]:text-[120px] ">
               10</div>
           </div>
         </NuxtLink>
@@ -249,13 +244,13 @@
           <div
             class="trabajo1 border border-solid px-20 py-30 flex flex-col justify-center hover:bg-[url('/img/NuevaCategoria1.png')] bg-cover bg-center hover:text-white max-[1840px]:px-16 max-[760px]:px-8 max-[760px]:py-0 max-[760px]:max-h-[800px] max-[760px]:pt-12 max-[760px]:pb-4 max-[760px]:bg-[url('/img/NuevaCategoria1.png')] max-[760px]:text-white">
             <div
-              class="text text-[50px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-[2260px]:text-[40px] max-[2260px]:leading-[3rem] max-[1840px]:text-[32px] max-[760px]:text-[26px] max-[760px]:pt-2 max-[760px]:leading-[2rem] max-[760px]:text-[55px] max-[760px]:leading-[3.5rem] max-[760px]:text-center max-[760px]:order-2 max-[760px]:pb-72">
+              class="text text-[50px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-[2260px]:text-[40px] max-[2260px]:leading-[3rem] max-[1840px]:text-[32px] max-[760px]:text-[26px] max-[760px]:pt-2 max-[760px]:leading-[2rem] max-[760px]:text-[55px] max-[760px]:leading-[3.5rem] max-[760px]:text-center ">
               KINDER <br> BUENO</div>
               <div
-              class="text text-[20px] leading-[5rem] pb-96 font-['SFUIDisplay-Light'] font-normal tracking-normal flex flex-col items-left justify-center max-[760px]:text-[14px] max-[760px]:pb-72 max-[760px]:order-1 max-[760px]:text-center max-[760px]:pb-2 max-[760px]:leading-[1rem]">
+              class="text text-[20px] leading-[5rem] pb-96 font-['SFUIDisplay-Light'] font-normal tracking-normal flex flex-col items-left justify-center max-[760px]:text-[14px] max-[760px]:pb-72  max-[760px]:text-center max-[760px]:pb-2 max-[760px]:leading-[1rem]">
               MARCA</div>
             <div
-              class="text text-[300px] font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-[760px]:text-[120px] max-[760px]:order-4">
+              class="text text-[300px] font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-[760px]:text-[120px] ">
               11</div>
           </div>
         </NuxtLink>
@@ -263,13 +258,13 @@
           <div
             class="trabajo1 border border-solid px-20 py-30 flex flex-col justify-center hover:bg-[url('/img/NuevaCategoria11.png')] bg-cover bg-center hover:text-white max-[1840px]:px-16 max-[760px]:px-8 max-[760px]:py-0 max-[760px]:max-h-[800px] max-[760px]:pt-12 max-[760px]:pb-4 max-[760px]:bg-[url('/img/NuevaCategoria11.png')] max-[760px]:text-white">
             <div
-              class="text text-[50px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-[2260px]:text-[40px] max-[2260px]:leading-[3rem] max-[1840px]:text-[32px] max-[760px]:text-[26px] max-[760px]:pt-2 max-[760px]:leading-[2rem] max-[760px]:text-[40px] max-[760px]:leading-[2.5rem] max-[760px]:text-center max-[760px]:order-2 max-[760px]:pb-72">
+              class="text text-[50px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-[2260px]:text-[40px] max-[2260px]:leading-[3rem] max-[1840px]:text-[32px] max-[760px]:text-[26px] max-[760px]:pt-2 max-[760px]:leading-[2rem] max-[760px]:text-[40px] max-[760px]:leading-[3rem] max-[760px]:text-center ">
               COLECCIÓN <br>ILUSTRACIONES</div>
             <div
-              class="text text-[20px] leading-[5rem] pb-96 font-['SFUIDisplay-Light'] font-normal tracking-normal flex flex-col items-left justify-center max-[760px]:text-[14px] max-[760px]:pb-72 max-[760px]:order-1 max-[760px]:text-center max-[760px]:pb-2 max-[760px]:leading-[1rem]">
+              class="text text-[20px] leading-[5rem] pb-96 font-['SFUIDisplay-Light'] font-normal tracking-normal flex flex-col items-left justify-center max-[760px]:text-[14px] max-[760px]:pb-72  max-[760px]:text-center max-[760px]:pb-2 max-[760px]:leading-[1rem]">
               DIBUJOS</div>
             <div
-              class="text text-[300px] font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-[760px]:text-[120px] max-[760px]:order-4">
+              class="text text-[300px] font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-[760px]:text-[120px] ">
               12</div>
           </div>
         </NuxtLink>
