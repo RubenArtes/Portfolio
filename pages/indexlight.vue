@@ -434,7 +434,7 @@
           <br> → Encargos Freelance de sesiones fotográficas, diseño de tatuajes e ilustraciones personales. <a
             class="bold text-xs text-white">- (4 años)</a>
           <br> → Actualmente trabajando como diseñador en <a class="bold animate-pulse font-bold text-white">Garrido
-            Gallery.</a><a class="bold text-xs text-white">(4 meses)</a>
+            Gallery.</a><a class="bold text-xs text-white">- (4 meses)</a>
 
 
         </div>
@@ -458,7 +458,7 @@
         <br><a class="bold font-bold text-white"> → Bachillerato Artístico </a> en IES El Greco Toledo.
         <br><a class="bold font-bold text-white"> → Grado Superior de Ilustración</a> en la Escuela de Artes de
         Toledo.
-        <br><a class="bold font-bold text-white"> → 3 Cursos de Grado Universitario de Diseño Gráfico </a> en la
+        <br><a class="bold font-bold text-white"> → 4º de Grado Universitario de Diseño Gráfico </a> en la
         Escuela Superior de Diseño de Madrid.
         <br><a class="bold font-bold text-white"> → Curso extracurricular de 2 años de Arte y Pintura </a> en
         Villaluenga de la Sagra.
