@@ -4,6 +4,9 @@ module.exports = {
       animation: {
         text: "text 2s ease infinite",
       },
+      components: {
+        PerfectScrollbar
+      },
       screens: {
         "7xl": "2000px",
       },
