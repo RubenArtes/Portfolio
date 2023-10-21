@@ -5,7 +5,7 @@
             class="header bg-white p-10 flex px-24 text-black justify-between sticky top-0 z-10 max-lg:p-6 max-lg:sticky border border-b-0">
             <div class="image flex flex-start justify-items-start">
                 <NuxtLink to="/">
-                <img class="max-lg:max-w-[15px]" src="/img/Vectorblack.svg">
+                    <img class="max-lg:max-w-[15px]" src="/img/Vectorblack.svg">
                 </NuxtLink>
             </div>
 
@@ -15,19 +15,20 @@
 
         </div>
         <VueScrollProgressBar background-color="#52525B" />
-        <div
-            class="trabajos flex pt-20 px-40 pb-20 text-zinc-600 flex-nowrap items-center gap-40 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
+        <div class="titular2 flex px-64 gap-32 content-start space-between justify-center pt-20 text-center">
             <div
-                class="titular text-[70px] font-['Domaine-Display'] font-bold max-w-[13ch] leading-12 leading-12 animate-text max-xl:text-[60px] max-xl:justify-center">
-                PACKAGING</div>
-            <div class="info flex flex-col gap-6">
+                class="titular text-[120px] font-['Domaine-Display'] leading-12 font-bold animate-pulse bg-gradient-to-r bg-clip-text text-transparent from-[#b91c1c] via-[#be185d] to-[#fb7185] animate-text max-xl:text-[60px] max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center">
+                MATUTANO</div>
+            <div
+                class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
+
                 <div
-                    class="text max-w-[60ch] text-[16px] leading-10 uppercase text-zinc-900 max-xl:leading-2 max-xl:text-xs max-xl:text-center">
+                    class="text max-w-[60ch] text-[16px] uppercase text-zinc-900 max-xl:leading-2 max-xl:text-xs max-xl:text-center">
                     Diseño
                     Matutano - Packaging - Marca -
                     Diseño Gráfico</div>
                 <div
-                    class="text max-w-[60ch] font-['SFUIDisplay-Light'] text-[20px] leading-8 text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center">
+                    class="text max-w-[50ch] pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center">
                     El proyecto consistirá en el
                     diseño de una gama
                     de productos para una marca existente (Matutano), generando
@@ -37,13 +38,16 @@
                     para productos/snacks saludables que sean atractivos y salgan del canon de los snacks vegetales
                     habituales.
                 </div>
+
             </div>
         </div>
 
+
         <div
-            class="trabajos flex pt-20 px-40 items-start text-white flex-nowrap gap-40 justify-center max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-xl:text-center max-xl:pt-0 max-xl:pb-16">
+            class="trabajos flex pt-20 px-40 pb-20 items-start text-white flex-nowrap gap-96 justify-center max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-xl:text-center max-xl:pt-0 max-xl:pb-16">
             <div class="info flex flex-col">
-                <div class="text max-w-[200ch] text-center font-['Domaine-Display'] uppercase text-[20px] leading-10 text-zinc-800 max-xl:text-xs">
+                <div
+                    class="text max-w-[200ch] text-center font-['Domaine-Display'] uppercase text-[20px] leading-10 text-zinc-800 max-xl:text-xs">
                     Asignatura</div>
                 <div
                     class="text max-w-[200ch] font-['SFUIDisplay-Light'] text-center text-[16px] leading-6 text-zinc-900 max-xl:text-sm max-xl:max-w-[40ch]">
@@ -51,7 +55,8 @@
                 </div>
             </div>
             <div class="info flex flex-col">
-                <div class="text max-w-[60ch] font-['Domaine-Display'] text-center text-[20px] uppercase leading-10 text-zinc-800 max-xl:text-xs">
+                <div
+                    class="text max-w-[60ch] font-['Domaine-Display'] text-center text-[20px] uppercase leading-10 text-zinc-800 max-xl:text-xs">
                     Tiempo</div>
                 <div
                     class="text max-w-[20ch] font-['SFUIDisplay-Light']  text-center text-[16px] leading-6 text-zinc-900 max-xl:text-sm max-xl:max-w-[40ch]">
@@ -59,7 +64,8 @@
                 </div>
             </div>
             <div class="info flex flex-col">
-                <div class="text max-w-[60ch] font-['Domaine-Display'] text-center text-[20px] uppercase leading-10 text-zinc-800 max-xl:text-xs">
+                <div
+                    class="text max-w-[60ch] font-['Domaine-Display'] text-center text-[20px] uppercase leading-10 text-zinc-800 max-xl:text-xs">
                     Briefing</div>
                 <div
                     class="text max-w-[20ch] text-center font-['SFUIDisplay-Light']  text-[16px] leading-6 text-zinc-900 max-xl:text-sm max-xl:max-w-[40ch]">
@@ -71,7 +77,7 @@
         <div
             class="video flex pt-20 px-64 pb-20 text-zinc-600 flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
             <video width="1240" height="788" loop autoplay controls>
-                <source src="/img/Comp_1_2.mp4" type="video/mp4">
+                <source src="/img/MatutanoSaludable.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
 
@@ -80,7 +86,9 @@
             class="colum flex pt-20 px-64 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center">
             <div class="info_proyect max-w-[80ch]">
                 <div class="info_secondary flex flex-col gap-6 sticky top-32">
-                    <div class="text max-w-[60ch] text-[32px] leading-10 text-zinc-600">Tres packaging saludables</div>
+                    <div
+                class="titular text-[40px] font-['Domaine-Display'] pb-6 leading-12 font-bold text-black max-xl:text-[60px] max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center">
+                TRES PACKS SALUDABLES</div>
                     <div
                         class="text text-[16px] font-['SFUIDisplay-Light'] leading-6 indent-12 text-zinc-900 max-w-[70ch] max-xl:text-xs">
                         El trabajo finalmente cuenta con 3 packaging a modo de tótem y juego visual y táctil de combinación
@@ -124,42 +132,42 @@
                             o elementos dibujados fuera de lo común.</div>
                         <br>
                         <div class="text indent-12">Mi idea durante todo el proyecto ha sido hacer más
-                        accesible, llamativos e interesantes un tipo de productos
-                        tan aburridos y plantearlos como un bestseller
-                        de los que cuenta matutano y adaptarlo a ese tipo de
-                        mercado tan visual y potente. Acercar los productos
-                        saludables a una gráfica que no es habitual en estos
-                        y posicionarlos en el mercado de lo trending y de lo
-                        que al público le llamaría la atención en un supermercado.
-                        Toda esta idea bajo el concepto de que se debe
-                        concienciar al público más joven y de edad menor
-                        a que consuma este tipo de snacks en vez de los
-                        otros más grasientos y menos saludables. Concienciar
-                        desde abajo a partir de una gráfica que les parezca
-                        divertida por todo lo que propone y a la cual
-                        quieran recurrir cuando van a la sección de estos
-                        productos. No solo quería que fuera llamativa para
-                        los jóvenes si no que también llamara la atención del
-                        conjunto familiar o de la población en general, creando
-                        unas composiciones que no pequen de infantiles
-                        si no que sean amables y potentes visualmente.</div>
+                            accesible, llamativos e interesantes un tipo de productos
+                            tan aburridos y plantearlos como un bestseller
+                            de los que cuenta matutano y adaptarlo a ese tipo de
+                            mercado tan visual y potente. Acercar los productos
+                            saludables a una gráfica que no es habitual en estos
+                            y posicionarlos en el mercado de lo trending y de lo
+                            que al público le llamaría la atención en un supermercado.
+                            Toda esta idea bajo el concepto de que se debe
+                            concienciar al público más joven y de edad menor
+                            a que consuma este tipo de snacks en vez de los
+                            otros más grasientos y menos saludables. Concienciar
+                            desde abajo a partir de una gráfica que les parezca
+                            divertida por todo lo que propone y a la cual
+                            quieran recurrir cuando van a la sección de estos
+                            productos. No solo quería que fuera llamativa para
+                            los jóvenes si no que también llamara la atención del
+                            conjunto familiar o de la población en general, creando
+                            unas composiciones que no pequen de infantiles
+                            si no que sean amables y potentes visualmente.</div>
                         <br>
                         <div class="text indent-12">El 3 pack que creo a raíz de esta gráfica no tiene este
-                        juego de packaging pero sigue la linea de la gráfica
-                        adaptada a un formato de caja alargado y más bajo
-                        de altura, en el que cabe menos producto debido
-                        a que se trata de las frambuesas liofilizadas un snack
-                        algo más caro que los anteriores snacks y el cual dispondrá
-                        de menos cantidad que los anteriores.
-                        En conjunto se crea una gráfica muy coherente y
-                        conjunta que funciona debido a la elección de los colores
-                        por cada producto individual pero que consigan
-                        funcionar en conjunto, por el juego del lettering
-                        y las ilustraciones todas siguiendo una filosofía de
-                        conjunto entre si y estructuras parecidas y similares,
-                        además de construir todo siguiendo unos módulos e
-                        ideas similares y que todo tenga unión y cohesión sin
-                        que nada se descuelgue del sistema.</div>
+                            juego de packaging pero sigue la linea de la gráfica
+                            adaptada a un formato de caja alargado y más bajo
+                            de altura, en el que cabe menos producto debido
+                            a que se trata de las frambuesas liofilizadas un snack
+                            algo más caro que los anteriores snacks y el cual dispondrá
+                            de menos cantidad que los anteriores.
+                            En conjunto se crea una gráfica muy coherente y
+                            conjunta que funciona debido a la elección de los colores
+                            por cada producto individual pero que consigan
+                            funcionar en conjunto, por el juego del lettering
+                            y las ilustraciones todas siguiendo una filosofía de
+                            conjunto entre si y estructuras parecidas y similares,
+                            además de construir todo siguiendo unos módulos e
+                            ideas similares y que todo tenga unión y cohesión sin
+                            que nada se descuelgue del sistema.</div>
                     </div>
                 </div>
             </div>
@@ -169,37 +177,75 @@
                 <img class="image_rect rounded-xl w-[550px]" src="/img/finales3.png" alt="">
             </div>
         </div>
-        <div
-            class="images pt-20 px-64 pb-10 text-zinc-600 justify-center flex flex-col gap-10 max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
-            <div class="text max-w-[60ch] text-[32px] leading-10 text-zinc-600">Caras completas</div>
-            <div
-                class="text max-w-[60ch] font-['SFUIDisplay-Light'] leading-6 text-[16px] text-zinc-500 pb-12 max-xl:text-xs max-xl:flex max-xl:flex-col">
-                Muestra del packaging
-                final con todas
-                sus caras embolventes viendo como el patrón continua y se va formando por todo el packaging.
-                <br><br> <a class="type text-[#F3536D]">Frambuesa liofilizada</a> - <a
-                    class="type text-[#FFB047]">Garzbanzos Spicy</a> - <a class="type text-[#FBCE37]">Snacks de Verduras</a>
-            </div>
 
-            <div class="grid grid-cols-1">
-                <img class="image_grid w-full h-full pb-6 border-b border-zinc-400" src="/img/troquel222.png" alt="">
-                <img class="image_grid w-full h-full pt-6 pb-6 border-b border-zinc-400" src="/img/troquel3.png" alt="">
-                <img class="image_grid w-full h-full pt-6 max-xl:pb-12" src="/img/troquel32.png" alt="">
+        <div class="titular2 flex px-64 pb-24 gap-64 pt-32 content-start space-between justify-center pt-20 text-center">
+            <div
+                class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-xl:text-[60px] max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center">
+                CARAS <br> COMPLETAS</div>
+            <div
+                class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
+
+                <div
+                    class="text max-w-[60ch] text-[16px] uppercase text-zinc-900 max-xl:leading-2 max-xl:text-xs max-xl:text-center">
+                    <a class="type text-[#F3536D]">Frambuesa liofilizada</a> - <a class="type text-[#FFB047]">Garzbanzos
+                        Spicy</a> - <a class="type text-[#FBCE37]">Snacks de Verduras</a>
+                </div>
+                <div
+                    class="text max-w-[80ch] pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center">
+                    Muestra del packaging
+                    final con todas
+                    sus caras embolventes viendo como el patrón continua y se va formando por todo el packaging.
+                    Esta composición final, se puede ver con todas sus caras, contando con una principal donde vemos el letterin, la mascota y
+                    de donde se origina la explosión de elementos y marañas. En la parte izquierda todos los elementos de nutrición y valores energéticos además de información del producto.
+                    La parte inferior para otros detalles, logos y cógido de barras. Las otras caras con sus respectivas marañas que coincidiaran con los otros packagings creados. La parte superior finalizará esta composición coincidiendo con todas las caras.
+                </div>
+
             </div>
+            
         </div>
 
         <div
-            class="images pt-20 px-64 text-zinc-600 justify-center flex flex-col gap-10 max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
-            <div class="text max-w-[60ch] text-[32px] leading-10 text-zinc-600">Tipografía, jerarquías e información</div>
-            <div class="text max-w-[60ch] text-[16px] font-['SFUIDisplay-Light'] leading-6 text-zinc-500 max-xl:text-xs">Tipografía, jerarquía y
-                colores utilizados para cada uno de los packaging en la información nutricional y elementos técnicos.
+            class="images pt-20 px-64 pb-10 text-zinc-600 content-center items-center justify-center flex flex-col gap-4 max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
+
+            
+
+            <div class="grid grid-cols-1 px-80 items-center justify-center content-center">
+                <img class="image_grid w-full h-full pb-4" src="/img/troquel-1.png" alt="">
+                <img class="image_grid w-full h-full pt-4 pb-6" src="/img/troquel-22.png" alt="">
+                <img class="image_grid w-full h-full pt-4 max-xl:pb-12" src="/img/troquel-2.png" alt="">
             </div>
-            <div class="grid grid-cols-1 items-center justify-center">
-                <img class="image_grid w-full h-full items-center justify-center" src="/img/tipografiapackaging.png" alt="">
+        </div>
+
+        <div class="titular2 flex px-64 pb-24 gap-64 pt-32 content-start space-between justify-center pt-20 text-center">
+            <div
+                class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-xl:text-[60px] max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center">
+                TIPOGRAFÍA, <br> JERARQUÍAS<br>E INFORMACIÓN</div>
+            <div
+                class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
+
+                <div
+                    class="text max-w-[60ch] text-[16px] uppercase text-zinc-900 max-xl:leading-2 max-xl:text-xs max-xl:text-center">
+                    <a class="type text-[#F3536D]">Frambuesa liofilizada</a> - <a class="type text-[#FFB047]">Garzbanzos
+                        Spicy</a> - <a class="type text-[#FBCE37]">Snacks de Verduras</a>
+                </div>
+                <div
+                    class="text max-w-[80ch] pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center">
+                    Tipografía, jerarquía y
+                colores utilizados para cada uno de los packaging en la información nutricional y elementos técnicos. Muestra de la cara de cada packaging con la información
+                nutricional y con la cara de abajo.
+                </div>
+
+            </div>
+            
+        </div>
+
+
+            <div class="grid grid-cols-1 items-center justify-center px-64 pb-12">
+                <img class="image_grid px-52 w-full h-full items-center justify-center" src="/img/tipografiapackaging.png" alt="">
 
             </div>
 
-            <div class="grid grid-cols-3 px-64 grid-rows-2 gap-2 max-xl:grid-cols-1 max-xl:px-10 max-xl:pt-10">
+            <div class="grid grid-cols-3 px-80 grid-rows-2 gap-12 max-xl:grid-cols-1 max-xl:px-10 max-xl:pt-10">
 
                 <img class="image_grid w-full h-full border border-[#fccd47]" src="/img/Caras-02.png" alt="">
                 <img class="image_grid w-full h-full border border-[#fccd47]" src="/img/Caras-03.png" alt="">
@@ -208,40 +254,25 @@
                 <img class="image_grid w-full h-full border border-[#fccd47]" src="/img/Caras-06.png" alt="">
                 <img class="image_grid w-full h-full border border-[#fccd47]" src="/img/Caras-07.png" alt="">
             </div>
-            <div
-                class="div text-zinc-600 px-64 text-right text-xs m-0 pb-8 max-xl:text-center max-xl:px-10 max-xl:pt-4 max-xl:pb-20">
-                Etiquetas de información e inferiores del packagin</div>
-
-
-        </div>
 
         <div
-            class="images pt-20 px-64 pb-20 text-white justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
-            <div class="div text-zinc-600 text-xs m-0 pb-8">Información de la imágen:
-                <br>
-                <div class="div text-black max-w-[230ch] font-['SFUIDisplay-Light'] leading-6 text-sm m-0 pt-6">En esta pieza se puede apreciar como los diferentes packagings
-                    se pueden dividir en sus diferentes partes para acceder a su contenido facilmente
-                    a medida que se vaya terminando, además pueden ser coleccionables entre si gracias a ese patrón
-                    estipulado en cada uno.
-                    Podemos ver en el 4º packaging como se pueden mezclar las diferentes piezas y crear un totem totalmente
-                    diferente.
-                </div>
-            </div>
-            <img src="/img/packruben.png" alt="" class="foto justify-center">
+            class="images pt-20 px-80 pb-20 text-white justify-center content-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
+
+            <img src="/img/packruben.png" alt="" class="foto justify-center content-center w-full h-full">
         </div>
 
-        <div class="grid grid-cols-3 gap-2 px-64 pb-32 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10">
+        <div class="grid grid-cols-3 gap-2 px-80 pb-32 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10">
             <div class="div text-zinc-600 text-center text-xs m-0 pb-14 max-xl:pb-4">Render 3D con iluminación y colores
                 <br>
-                <div class="div text-[#F3536D] text-center text-lg m-0 animate-pulse">Frambuesa Liofilizada</div>
+                <div class="div text-[#F3536D] text-center text-lg m-0 animate-pulse font-['Domaine-Display'] uppercase">Frambuesa Liofilizada</div>
             </div>
             <div class="div text-zinc-600 text-center text-xs m-0 pb-14 max-xl:pb-4">Render 3D con iluminación y colores
                 <br>
-                <div class="div text-[#FBCE37] text-center text-lg m-0 animate-pulse">Snacks de verduras</div>
+                <div class="div text-[#FBCE37] text-center text-lg m-0 animate-pulse font-['Domaine-Display'] uppercase">Snacks de verduras</div>
             </div>
             <div class="div text-zinc-600 text-center text-xs m-0 pb-14 max-xl:pb-10">Render 3D con iluminación y colores
                 <br>
-                <div class="div text-[#FFB047] text-center text-lg m-0 animate-pulse">Snacks Garbanzo Spicy</div>
+                <div class="div text-[#FFB047] text-center text-lg m-0 animate-pulse font-['Domaine-Display'] uppercase">Snacks Garbanzo Spicy</div>
             </div>
             <img class="image_grid w-full h-full" src="/img/Packagingruben3.png" alt="">
             <img class="image_grid w-full h-full" src="/img/Packagingruben2.png" alt="">
@@ -251,7 +282,9 @@
 
         <div
             class="trabajos flex pt-10 pl-40 pr-40 pb-20 text-zinc-600 flex-col gap-10 justify-center items-center max-xl:pt-12 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
-            <div class="titular text-[16px] font-['SFUIDisplay-Light'] leading-6 font-normal flex flex-start items-center max-xl:text-xs">Programas utilizados
+            <div
+                class="titular text-[16px] font-['SFUIDisplay-Light'] leading-6 font-normal flex flex-start items-center max-xl:text-xs">
+                Programas utilizados
                 para este
                 proyecto</div>
             <div class="programas flex flex-col items-center">
