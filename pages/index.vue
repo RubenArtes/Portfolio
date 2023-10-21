@@ -472,12 +472,12 @@
 
 
 <div
-  class="links_rrss pt-64 px-80 pb-32 text-black justify-center gap-96 flex flex-row max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20 max-lg:flex max-lg:justify-center">
-  <div class="email text-lg pr-64 flex gap-2 items-center max-lg:text-[14px] max-lg:justify-center">
+  class="links_rrss pt-64 px-80 pb-32 text-black justify-center gap-12 flex flex-row max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20 max-lg:flex max-lg:justify-center">
+  <div class="email text-lg pr-12 flex gap-2 items-center max-lg:text-[14px] max-lg:justify-center">
     ruben.maldonado.graphic@gmail.com
     <img class="vector" src="/img/Vector-11black.svg">
   </div>
-  <div class="links flex flex-col pl-64 gap-2 max-lg:justify-center">
+  <div class="links flex flex-col pl-12 gap-2 max-lg:justify-center">
     <div class="links1 flex gap-32 max-lg:justify-center">
       <a class="red flex gap-2 items-center max-lg:text-[14px]" href="https://www.instagram.com/ruben.artes/">Instagram
         <img class="vector" src="/img/Vector-11black.svg">
