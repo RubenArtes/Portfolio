@@ -15,20 +15,20 @@
 
         </div>
         <VueScrollProgressBar background-color="#52525B" />
-        <div class="titular2 flex px-64 gap-32 content-start space-between justify-center pt-20 text-center">
+        <div class="titular2 flex px-64 gap-32 content-start space-between justify-center pt-20 text-center max-[600px]:px-10 max-[600px]:flex-col max-[600px]:gap-2 max-[600px]:pt-10 max-[1500px]:flex-col max-[1500px]:gap-2 max-[1500px]:items-center max-[1700px]:px-10">
             <div
-                class="titular text-[120px] font-['Domaine-Display'] leading-12 font-bold animate-pulse bg-gradient-to-r bg-clip-text text-transparent from-[#b91c1c] via-[#be185d] to-[#fb7185] animate-text max-xl:text-[60px] max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center">
+                class="titular text-[120px] font-['Domaine-Display'] leading-12 font-bold animate-pulse bg-gradient-to-r bg-clip-text text-transparent from-[#b91c1c] via-[#be185d] to-[#fb7185] animate-text max-[600px]:text-[55px] max-[1500px]:text-left max-[1280px]:text-[100px]">
                 MATUTANO</div>
             <div
-                class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
+                class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[600px]:pt-6 max-[600px]:pb-16 max-[600px]:px-0 max-[1280px]:items-center max-[1280px]:pt-6 max-[1280px]:pb-20">
 
                 <div
-                    class="text max-w-[60ch] text-[16px] uppercase text-zinc-900 max-xl:leading-2 max-xl:text-xs max-xl:text-center">
+                    class="text max-w-[60ch] text-[16px] uppercase text-zinc-900 max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
                     Diseño
                     Matutano - Packaging - Marca -
                     Diseño Gráfico</div>
                 <div
-                    class="text max-w-[50ch] pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center">
+                    class="text max-w-[50ch] pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:max-w-[100ch]">
                     El proyecto consistirá en el
                     diseño de una gama
                     de productos para una marca existente (Matutano), generando
@@ -87,7 +87,7 @@
             <div class="info_proyect max-w-[80ch]">
                 <div class="info_secondary flex flex-col gap-6 sticky top-32">
                     <div
-                class="titular text-[40px] font-['Domaine-Display'] pb-6 leading-12 font-bold text-black max-xl:text-[60px] max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center">
+                class="titular text-[40px] font-['Domaine-Display'] pb-6 leading-12 font-bold text-black max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-[600px]:text-30px max-[600px]:leading-10">
                 TRES PACKS SALUDABLES</div>
                     <div
                         class="text text-[16px] font-['SFUIDisplay-Light'] leading-6 indent-12 text-zinc-900 max-w-[70ch] max-xl:text-xs">
@@ -178,20 +178,20 @@
             </div>
         </div>
 
-        <div class="titular2 flex px-64 pb-24 gap-64 pt-32 content-start space-between justify-center pt-20 text-center">
+        <div class="titular2 flex px-64 pb-24 gap-64 pt-32 content-start space-between justify-center pt-20 text-center max-[600px]:px-10 max-[600px]:flex-col max-[600px]:gap-2 max-[600px]:pt-10 max-[600px]:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
-                class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-xl:text-[60px] max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center">
+                class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-[600px]:text-30px max-[600px]:leading-10 max-[1500px]:text-left">
                 CARAS <br> COMPLETAS</div>
             <div
-                class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
+                class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[600px]:px-0 max-[1280px]:p-0">
 
                 <div
-                    class="text max-w-[60ch] text-[16px] uppercase text-zinc-900 max-xl:leading-2 max-xl:text-xs max-xl:text-center">
+                    class="text max-w-[60ch] text-[16px] uppercase text-zinc-900 max-xl:leading-2 max-xl:text-xs max-xl:text-center max-[600px]:order-last max-[1280px]:text-left">
                     <a class="type text-[#F3536D]">Frambuesa liofilizada</a> - <a class="type text-[#FFB047]">Garzbanzos
                         Spicy</a> - <a class="type text-[#FBCE37]">Snacks de Verduras</a>
                 </div>
                 <div
-                    class="text max-w-[80ch] pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center">
+                    class="text max-w-[80ch] pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left">
                     Muestra del packaging
                     final con todas
                     sus caras embolventes viendo como el patrón continua y se va formando por todo el packaging.
@@ -205,31 +205,31 @@
         </div>
 
         <div
-            class="images pt-20 px-64 pb-10 text-zinc-600 content-center items-center justify-center flex flex-col gap-4 max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
+            class="images pt-20 px-64 pb-10 text-zinc-600 content-center items-center justify-center flex flex-col gap-4 max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4 max-[600px]:px-10 max-[1500px]:p-0">
 
             
 
-            <div class="grid grid-cols-1 px-80 items-center justify-center content-center">
+            <div class="grid grid-cols-1 px-80 items-center justify-center content-center max-[600px]:px-0 max-[1280px]:px-0">
                 <img class="image_grid w-full h-full pb-4" src="/img/troquel-1.png" alt="">
                 <img class="image_grid w-full h-full pt-4 pb-6" src="/img/troquel-22.png" alt="">
                 <img class="image_grid w-full h-full pt-4 max-xl:pb-12" src="/img/troquel-2.png" alt="">
             </div>
         </div>
 
-        <div class="titular2 flex px-64 pb-24 gap-64 pt-32 content-start space-between justify-center pt-20 text-center">
+        <div class="titular2 flex px-64 pb-24 gap-64 pt-32 content-start space-between justify-center pt-20 text-center max-[600px]:px-10 max-[600px]:flex-col max-[600px]:gap-2 max-[600px]:pt-10 max-[600px]:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
-                class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-xl:text-[60px] max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center">
+                class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-[600px]:text-30px max-[600px]:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center">
                 TIPOGRAFÍA, <br> JERARQUÍAS<br>E INFORMACIÓN</div>
             <div
-                class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
+                class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[1280px]:p-0">
 
                 <div
-                    class="text max-w-[60ch] text-[16px] uppercase text-zinc-900 max-xl:leading-2 max-xl:text-xs max-xl:text-center">
+                    class="text max-w-[60ch] text-[16px] uppercase text-zinc-900 max-xl:leading-2 max-xl:text-xs max-xl:text-center max-[1280px]:text-left">
                     <a class="type text-[#F3536D]">Frambuesa liofilizada</a> - <a class="type text-[#FFB047]">Garzbanzos
                         Spicy</a> - <a class="type text-[#FBCE37]">Snacks de Verduras</a>
                 </div>
                 <div
-                    class="text max-w-[80ch] pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center">
+                    class="text max-w-[80ch] pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left">
                     Tipografía, jerarquía y
                 colores utilizados para cada uno de los packaging en la información nutricional y elementos técnicos. Muestra de la cara de cada packaging con la información
                 nutricional y con la cara de abajo.
@@ -240,12 +240,12 @@
         </div>
 
 
-            <div class="grid grid-cols-1 items-center justify-center px-64 pb-12">
-                <img class="image_grid px-52 w-full h-full items-center justify-center" src="/img/tipografiapackaging.png" alt="">
+            <div class="grid grid-cols-1 items-center justify-center px-64 pb-12 max-[600px]:px-10 max-[1280px]:p-10">
+                <img class="image_grid px-52 w-full h-full items-center justify-center max-[600px]:px-0 max-[1280px]:p-0" src="/img/tipografiapackaging.png" alt="">
 
             </div>
 
-            <div class="grid grid-cols-3 px-80 grid-rows-2 gap-12 max-xl:grid-cols-1 max-xl:px-10 max-xl:pt-10">
+            <div class="grid grid-cols-3 px-64 grid-rows-2 gap-12 max-xl:grid-cols-1 max-xl:pt-10 max-[1280px]:px-10 max-[1280px]:pb-12 max-[1500px]:p-10">
 
                 <img class="image_grid w-full h-full border border-[#fccd47]" src="/img/Caras-02.png" alt="">
                 <img class="image_grid w-full h-full border border-[#fccd47]" src="/img/Caras-03.png" alt="">
