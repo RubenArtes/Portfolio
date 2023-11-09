@@ -28,7 +28,7 @@
                     Matutano - Packaging - Marca -
                     Diseño Gráfico</div>
                 <div
-                    class="text max-w-[50ch] pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:max-w-[100ch]">
+                    class="text max-w-[80ch] pb-16 pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:max-w-[100ch]">
                     El proyecto consistirá en el
                     diseño de una gama
                     de productos para una marca existente (Matutano), generando
@@ -178,7 +178,7 @@
             </div>
         </div>
 
-        <div class="titular2 flex px-64 pb-24 gap-64 pt-32 content-start space-between justify-center pt-20 text-center max-[600px]:px-10 max-[600px]:flex-col max-[600px]:gap-2 max-[600px]:pt-10 max-[600px]:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+        <div class="titular2 flex px-64 pb-24 gap-64 pt-32 content-start space-between justify-center pt-20 text-center max-[600px]:px-10 max-[600px]:flex-col max-[600px]:gap-2 max-[600px]:pt-10 max-[600px]:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:px-60 max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-[600px]:text-30px max-[600px]:leading-10 max-[1500px]:text-left">
                 CARAS <br> COMPLETAS</div>
@@ -209,14 +209,14 @@
 
             
 
-            <div class="grid grid-cols-1 px-80 items-center justify-center content-center max-[600px]:px-0 max-[1280px]:px-0">
+            <div class="grid grid-cols-1 items-center justify-center content-center max-[600px]:px-0 max-[1280px]:px-0 max-[1500px]:px-60">
                 <img class="image_grid w-full h-full pb-4" src="/img/troquel-1.png" alt="">
                 <img class="image_grid w-full h-full pt-4 pb-6" src="/img/troquel-22.png" alt="">
                 <img class="image_grid w-full h-full pt-4 max-xl:pb-12" src="/img/troquel-2.png" alt="">
             </div>
         </div>
 
-        <div class="titular2 flex px-64 pb-24 gap-64 pt-32 content-start space-between justify-center pt-20 text-center max-[600px]:px-10 max-[600px]:flex-col max-[600px]:gap-2 max-[600px]:pt-10 max-[600px]:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+        <div class="titular2 flex px-64 pb-24 gap-64 pt-32 content-start space-between justify-center pt-20 text-center max-[600px]:px-10 max-[600px]:flex-col max-[600px]:gap-2 max-[600px]:pt-10 max-[600px]:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-[600px]:text-30px max-[600px]:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center">
                 TIPOGRAFÍA, <br> JERARQUÍAS<br>E INFORMACIÓN</div>
@@ -240,12 +240,12 @@
         </div>
 
 
-            <div class="grid grid-cols-1 items-center justify-center px-64 pb-12 max-[600px]:px-10 max-[1280px]:p-10">
-                <img class="image_grid px-4 w-full h-full items-center justify-center max-[600px]:px-0 max-[1280px]:p-0" src="/img/tipografiapackaging.png" alt="">
+            <div class="grid grid-cols-1 items-center justify-center px-64 pb-12 max-[600px]:px-10 max-[1280px]:p-10 max-[1500px]:px-60">
+                <img class="image_grid w-full h-full items-center justify-center max-[600px]:px-0 max-[1280px]:p-0" src="/img/tipografiapackaging.png" alt="">
 
             </div>
 
-            <div class="grid grid-cols-3 px-64 grid-rows-2 gap-12 max-xl:grid-cols-1 max-xl:pt-10 max-[1280px]:px-10 max-[1280px]:pb-12 max-[1500px]:p-10 max-[1500px]:px-64">
+            <div class="grid grid-cols-3 px-64 grid-rows-2 gap-12 max-xl:grid-cols-1 max-xl:pt-10 max-[1280px]:px-10 max-[1280px]:pb-12 max-[1500px]:p-10 max-[1500px]:px-60">
 
                 <img class="image_grid w-full h-full border border-[#fccd47]" src="/img/Caras-02.png" alt="">
                 <img class="image_grid w-full h-full border border-[#fccd47]" src="/img/Caras-03.png" alt="">
@@ -256,12 +256,12 @@
             </div>
 
         <div
-            class="images pt-20 px-80 pb-20 text-white justify-center content-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
+            class="images pt-20 px-60 pb-20 text-white justify-center content-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4 max-[1500px]:px-60">
 
             <img src="/img/packruben.png" alt="" class="foto justify-center content-center w-full h-full">
         </div>
 
-        <div class="grid grid-cols-3 gap-2 px-80 pb-32 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10">
+        <div class="grid grid-cols-3 gap-2 px-60 pb-32 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60">
             <div class="div text-zinc-600 text-center text-xs m-0 pb-14 max-xl:pb-4">Render 3D con iluminación y colores
                 <br>
                 <div class="div text-[#F3536D] text-center text-lg m-0 animate-pulse font-['Domaine-Display'] uppercase">Frambuesa Liofilizada</div>
@@ -281,7 +281,7 @@
         </div>
 
         <div
-            class="trabajos flex pt-10 pl-40 pr-40 pb-20 text-zinc-600 flex-col gap-10 justify-center items-center max-xl:pt-12 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
+            class="trabajos flex pt-10 pl-40 pr-40 pb-20 text-zinc-600 flex-col gap-10 justify-center items-center max-xl:pt-12 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[1500px]:px-60">
             <div
                 class="titular text-[16px] font-['SFUIDisplay-Light'] leading-6 font-normal flex flex-start items-center max-xl:text-xs">
                 Programas utilizados
@@ -304,7 +304,7 @@
         </div>
 
         <div
-            class="links_rrss font-['SFUIDisplay-Light'] leading-6 pt-32 px-64 pb-32 text-zinc-600 justify-center flex flex-row gap-60 max-xl:pt-20 max-xl:px-10 max-xl:flex-col max-xl:justify-items-center max-xl:gap-20 max-xl:flex max-xl:justify-center max-xl:pb-20">
+            class="links_rrss font-['SFUIDisplay-Light'] leading-6 pt-32 px-64 pb-32 text-zinc-600 justify-center flex flex-row gap-60 max-xl:pt-20 max-xl:px-10 max-xl:flex-col max-xl:justify-items-center max-xl:gap-20 max-xl:flex max-xl:justify-center max-xl:pb-20 max-[1500px]:px-60">
             <div class="email text-lg flex gap-2 items-center max-xl:text-[14px] max-xl:justify-center">
                 ruben.maldonado.graphic@gmail.com
                 <img class="vector" src="/img/Vector-11zinc.svg">

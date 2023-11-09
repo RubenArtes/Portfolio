@@ -1,467 +1,268 @@
 <template>
-    <div class="app bg-white">
+  <div class="app bg-[#EAEEF6]">
       <Cursor />
-      <div
-        class="header bg-white p-10 flex text-black justify-between sticky top-0 z-10 max-lg:p-6 max-lg:sticky border border-b-1">
-        <div class="image flex flex-start">
-          <img class="max-lg:max-w-[15px]" src="/img/Vectorblack.svg">
-        </div>
-        <div class="mode flex gap-10 items-center">
-          <NuxtLink to="/">
-            <img class="image w-[30px]" src="/img/darkmode.png" alt="">
-          </NuxtLink>
-  
-        </div>
-        <div class="email text-lg flex gap-2 items-center max-lg:text-xs ">ruben.maldonado.graphic@gmail.com
-          <img class="vector max-lg:max-w-[8px]" src="/img/Vector-11black.svg">
-        </div>
-  
+      <div class="header bg-[#C9D2E8] p-10 flex text-white justify-between sticky top-0 z-10 max-xl:p-6 max-xl:items-center">
+          <div class="image flex flex-start">
+              <NuxtLink to="/">
+                  <img class="vector max-xl:max-w-[15px]" src="/img/Vector.svg">
+              </NuxtLink>
+          </div>
+          <div class="email text-lg flex gap-2 items-center max-xl:text-xs">ruben.maldonado.graphic@gmail.com
+              <NuxtLink to="/">
+                  <img class="vector max-xl:max-w-[15px]" src="/img/Vector-11.svg">
+              </NuxtLink>
+          </div>
       </div>
-      <VueScrollProgressBar />
-  
-      <div
-        class="trabajos flex pt-20 px-64 pb-20 text-black flex-nowrap items-center gap-28 justify-center max-lg:pt-16 max-lg:px-10 max-lg:flex-col max-lg:justify-center max-lg:gap-10 max-lg:justify-items-center max-lg:pb-6">
-  
-        <div class="titular_flex flex flex-col max-lg:items-center max-lg:flex">
-          <div
-            class="titular text-[115px] font-normal flex gap-2 items-start max-lg:max-w-[200px] max-lg:text-[60px] max-lg:justify-center">
-            Portfolio
-            <img class="info animate-pulse" src="/img/infoblack.png">
+
+      <VueScrollProgressBar background-color="#311568" />
+
+      <div class="trabajos flex pt-20 px-40 pb-10 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
+          <div class="titular text-[70px] font-bold max-w-[13ch] leading-12 bg-gradient-to-r bg-clip-text text-transparent animate-pulse from-[#311568] via-[#4797ff] to-[#311568] animate-text max-xl:text-[60px] max-xl:justify-center">Packaging</div>
+          <div class="info flex flex-col gap-6">
+              <div class="text max-w-[60ch] text-[16px] leading-10 text-[#AFBAD4] max-xl:leading-2 max-xl:text-xs max-xl:text-center">Diseño Prau - Packaging - Marca -
+                  Diseño Gráfico</div>
+              <div class="text max-w-[60ch] text-[20px] leading-8 text-zinc-600 font-bold max-xl:text-sm max-xl:max-w-[40ch] max-xl:text-center">Este trabajo consiste en
+                  realizar una identidad visual de un distribuidor de productos y alimentos de km0, que cumplan ciertas
+                  condiciones, como productos de buena calidad y relación calidad precio y que sean productos artesanos y
+                  de proximidad. Creación de la marca visual, logo y tres productos, uno siendo el vino el principal
+                  productos y otros dos a elección propia, en mi caso el queso de cabra y la mermelada natural (naranja).
+                  Hay que crear un nombre y logo de marca (+ descriptor), propuesta de etiquetado para vino y otros dos
+                  productos, rotulo de fachada y bolsa de papel.
+                  Mi proyecto se llama Prau, una bodega de vinos que crea productos KM0 de La Rioja.
+              </div>
           </div>
-          <div
-            class="titular_small text-black text-[12px] animate-pulse font-normal flex items-start max-lg:text-[12px] max-lg:justify-center max-lg:text-center max-lg:max-w-[30ch]">
-            Ultima actualización, Agosto 2023</div>
-        </div>
-  
-  
-        <div class="text max-w-[60ch] max-lg:justify-center max-lg:text-[16px] max-lg:text-center max-lg:px-2 max-lg:justify-items-center">
-          <div class="text max-w-[60ch] text-zinc-600 text-sm max-lg:justify-center max-lg:text-[12px] max-lg:text-center">Selección de trabajos realizados en Escuela Superior de Diseño de Madrid y otros
-            proyectos personales. Incluye categorías como: diseño Web, editorial, 3D, edición de video y fotografía, packaging, marca e ilustraciones.
-  
-  
-          </div>
-          <div class="text max-w-[60ch] pt-8 text-xl max-lg:justify-center max-lg:text-[16px] max-lg:text-center">«Diseñar es pensar en
-            hacerlo visual.» — Saul Bass</div>
-        </div>
-  
       </div>
-      <div
-        class="seleccion_trabajos pt-10 px-64 pb-20 text-black flex flex-col justify-center max-lg:px-6 max-lg:justify-items-center max-lg:justify-center">
-        <div class="accede flex justify-center text-zinc-600 pb-10 text-xs max-lg:pb-10">«Clickea en un trabajo para saber más de el»
-        </div>
-        <div
-          class="twotrabajos p-0 flex gap-4 justify-center pb-8 max-lg:flex-col max-lg:justify-items-center max-lg:items-center max-lg:px-10">
-          <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
-            <NuxtLink to="/packaging">
-              <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/Packaging_ruben2.png">
-            </NuxtLink>
-            <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-4">Matutano
-              Saludable</div>
-            <div
-              class="type_trabajo animate-pulse max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:leading-3">
-              Packaging</div>
+
+      <div class="trabajos flex pt-20 px-40 text-white items-start flex-nowrap gap-40 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-xl:text-center max-xl:pb-16">
+          <div class="info flex flex-col">
+              <div class="text max-w-[60ch] italic text-[16px] leading-10 text-zinc-400 max-xl:text-xs">Asignatura</div>
+              <div
+                  class="text max-w-[20ch] text-[16px] leading-6 text-zinc-600 font-bold max-xl:text-sm max-xl:max-w-[40ch]">
+                  Proyectos del Diseño Gráfico, 2º Diseño Gráfico
+              </div>
           </div>
-          <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
-            <NuxtLink to="/Prau">
-              <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/Vino_2.png">
-            </NuxtLink>
-            <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-4">PRAU - Pasión
-              por la tierra</div>
-            <div
-              class="type_trabajo animate-pulse max-w-[40ch] m-0 text-sm bg-gradient-to-r bg-clip-text text-zinc-400 max-lg:text-[12px] max-lg:leading-3">
-              Packaging</div>
+          <div class="info flex flex-col">
+              <div class="text max-w-[60ch] text-[16px] italic leading-10 text-zinc-400 max-xl:text-xs">Tiempo</div>
+              <div
+                  class="text max-w-[20ch] text-[16px] leading-6 text-zinc-600 font-bold max-xl:text-sm max-xl:max-w-[40ch]">
+                  2 - 3 meses
+              </div>
           </div>
-        </div>
-        <div
-          class="twotrabajos p-0 flex gap-4 justify-center pb-8 max-lg:flex-col max-lg:justify-items-center max-lg:items-center max-lg:px-10">
-          <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col ">
-            <NuxtLink to="/MetrodeMadrid">
-              <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px] border border-1"
-                src="/img/portadametro4.png">
-            </NuxtLink>
-            <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-4">Metro de
-              Madrid</div>
-            <div
-              class="type_trabajo animate-pulse max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:leading-3">
-              Producción</div>
+          <div class="info flex flex-col">
+              <div class="text max-w-[60ch] text-[16px] italic leading-10 text-zinc-400 max-xl:text-xs">Briefing</div>
+              <div
+                  class="text max-w-[20ch] text-[16px] leading-6 text-zinc-600 font-bold max-xl:text-sm max-xl:max-w-[40ch]">
+                  Productos KM0, responsables con el medioambiente y lo natural.
+              </div>
           </div>
-          <div class="trabajo max-w-[600px]max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
-            <NuxtLink to="/Typenotes">
-              <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/Editorial_4.png">
-            </NuxtLink>
-            <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-4"> Typenotes
-            </div>
-            <div
-              class="type_trabajo animate-pulse max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:leading-3">
-              Editorial</div>
-          </div>
-  
-  
-        </div>
-  
-        <div
-          class="twotrabajos p-0 flex gap-4 justify-center pb-8 max-lg:flex-col max-lg:justify-items-center max-lg:items-center max-lg:px-10">
-          <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
-            <NuxtLink to="/Movistar">
-              <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/Movistar.png">
-            </NuxtLink>
-            <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-4">Movistar +
-            </div>
-            <div
-              class="type_trabajo animate-pulse max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:leading-3">
-              Motion Graphics</div>
-          </div>
-          <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
-            <NuxtLink to="/PrototipadoFigma">
-              <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px] border border-1" src="/img/gifesd.gif">
-            </NuxtLink>
-            <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-4">ESD - Página
-              Web</div>
-            <div
-              class="type_trabajo animate-pulse max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:leading-3">
-              Prototipado Figma</div>
-          </div>
-        </div>
-        <div
-          class="twotrabajos p-0 flex gap-4 justify-center pb-8 max-lg:flex-col max-lg:justify-items-center max-lg:items-center max-lg:px-10">
-          <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
-            <NuxtLink to="/Fotografias">
-              <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/presentacionfotografias.gif">
-            </NuxtLink>
-            <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-4">Colección
-              fotográfica
-            </div>
-            <div
-              class="type_trabajo animate-pulse max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:leading-3">
-              Fotografía</div>
-          </div>
-          <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
-            <NuxtLink to="/Modelado3D">
-              <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/3dvideo.png">
-            </NuxtLink>
-            <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-4">Colección 3D
-            </div>
-            <div
-              class="type_trabajo animate-pulse max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:leading-3">
-              Modelado 3D</div>
-          </div>
-  
-        </div>
-        <div
-          class="twotrabajos p-0 flex gap-4 justify-center pb-8 max-lg:flex-col max-lg:justify-items-center max-lg:items-center max-lg:px-10">
-          <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
-            <NuxtLink to="/YelmoCines">
-              <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/gifyelmo2.png">
-            </NuxtLink>
-            <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-4">Yelmo Cines
-            </div>
-            <div
-              class="type_trabajo animate-pulse max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:mb-4 max-lg:leading-3">
-              Marca</div>
-          </div>
-          <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
-            <NuxtLink to="/Editorial">
-              <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/Mockup.jpg">
-            </NuxtLink>
-            <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-4">El
-              pensamiento Lateral
-            </div>
-            <div
-              class="type_trabajo animate-pulse max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:leading-3">
-              Editorial</div>
-          </div>
-  
-        </div>
-  
-        <div
-          class="twotrabajos p-0 flex gap-4 justify-center pb-8 max-lg:flex-col max-lg:justify-items-center max-lg:items-center max-lg:px-10">
-          <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
-            <NuxtLink to="/KinderBueno">
-              <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/kinderbueno3.png">
-            </NuxtLink>
-            <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-4">Kinder Bueno
-            </div>
-            <div
-              class="type_trabajo animate-pulse max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:leading-3">
-              Marca</div>
-          </div>
-          <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
-            <NuxtLink to="/Ilustraciones">
-              <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/ilustraciones4.png">
-            </NuxtLink>
-            <div class="tittle_trabajo max-w-[70ch] m-0 mt-4 text-lg font-bold max-lg:text-[16px] max-lg:mt-4">Colección de
-              ilustraciones
-            </div>
-            <div
-              class="type_trabajo animate-pulse max-w-[40ch] m-0 text-sm text-zinc-400 max-lg:text-[12px] max-lg:leading-3">
-              Dibujos</div>
-          </div>
-  
-        </div>
-  
       </div>
-  
-      <div
-        class="flex pt-14 pl-40 pr-40 pb-28 text-black flex-col gap-20 items-center justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-14">
-        <div class="titular flex text-[72px] font-normal max-lg:text-[60px]">
-          Apps</div>
-        <div
-          class="programas flex flex-col gap-14 items-center max-lg:gap-8 min-w-[575px] max-lg:items-center max-lg:min-w-[60px] max-lg:grid">
-          <div class="three_programas flex justify-center gap-16 max-lg:grid-cols-3 max-lg:grid max-lg:gap-8">
-            <img class="image_logo max-w-[50px] max-lg:max-w-[50px]" src="/img/AfterEffects.svg" alt="">
-            <img class="image_logo max-w-[50px] max-lg:max-w-[50px]" src="/img/Photoshop.svg" alt="">
-            <img class="image_logo max-w-[50px] max-lg:max-w-[50px]" src="/img/Lightroom.svg" alt="">
-          </div>
-          <div class="three_programas flex justify-center gap-16 max-lg:grid-cols-3 max-lg:grid max-lg:gap-8">
-            <img class="image_logo max-w-[50px] max-lg:max-w-[50px]" src="/img/InDesign.svg" alt="">
-            <img class="image_logo max-w-[50px] max-lg:max-w-[50px]" src="/img/Illustrator.svg" alt="">
-            <img class="image_logo max-w-[50px] max-lg:max-w-[50px]" src="/img/Figma.svg" alt="">
-  
-          </div>
-          <div class="three_programas flex justify-center gap-16 max-lg:grid-cols-3 max-lg:grid max-lg:gap-8">
-            <img class="image_logo w-[50px] h-[49px] max-lg:max-w-[50px] max-lg:max-h-[49px]" src="/img/blender.png" alt="">
-            <img class="image_logo w-[50px] h-[49px] max-lg:max-w-[50px] max-lg:max-h-[49px]" src="/img/Cinema4d.png"
-              alt="">
-            <img class="image_logo rounded-lg w-[50px] h-[49px] max-lg:max-w-[50px] max-lg:max-h-[49px]"
-              src="/img/Procreate.png" alt="">
-          </div>
-        </div>
+
+      <div class="video flex px-64 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
+          <video width="1240" height="788" loop autoplay controls>
+              <source src="/img/prau.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+          </video>
+
       </div>
-  
-      <div
-        class="trabajos flex pt-32 pl-40 pr-40 pb-20 text-black flex-nowrap gap-60 justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20">
-        <div class="sticky_menu">
-          <div class="titular flex flex-col text-[72px] font-normal sticky top-24 max-lg:text-[60px]">Servicios</div>
-        </div>
-  
-        <div class="servicios_ofrecidos flex flex-col gap-6">
-          <div class="servicio flex flex-col gap-6">
-            <img class="vector w-[17px]" src="/img/star.svg">
-            <div class="tittle_servicios font-bold text-[20px]">Fotografía</div>
-            <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400">Experiencia realizando sesiones
-              fotográficas en exterior y estudio
-              de retratos. Fotografía de paisajes y lugares. Además de experiencia en fotografía de producto y control de
-              equipo de estudio. Edición de fotografía (Raw) en <a class="texto_color text-[#4b6ad1]">Photoshop y
-                Lightroom</a>
-            </div>
+      <div class="colum flex pt-20 px-64 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center">
+          <div class="info_proyect max-w-[80ch]">
+              <div class="info_secondary flex flex-col gap-6 sticky top-32">
+                  <div class="text max-w-[60ch] text-[32px] leading-10 text-[#311568]">Prau la marca KM0</div>
+                  <div class="text text-[16px] leading-6 text-zinc-600 font-normal max-w-[64ch] max-xl:text-xs">
+                      Esta marca es un gran legado familiar y a lo largo de tres generaciones se ha producido un vino
+                      clarete de alta calidad, conservando siempre el gran valor principal de esta marca, la pasión por la
+                      tierra y dedicarse con un gran compromiso a esta.
+                      Cobra una gran importancia el cuidado del terreno y los suelos que ofrecen luego un gran producto de
+                      calidad.
+                      <br><br>
+                      Una vez desarrollado durante años el vino clarete se ha pensado el producir otras elaboraciones
+                      asemejando la calidad y el cuidado del vino y con la idea de crear productos gourmets. Estos
+                      productos serán el queso de cabra y la mermelada natural, haciendo de estos unos productos con una
+                      elaboración muy cuidada y artesanal con cero idea de producción industrial.
+                      Esta marca tendrá como nombre Prau, productor y exportador de La Rioja con un concepto de pasión por
+                      la tierra y el campo.
+                      <br><br>
+                      El nombre de Prau nace con la idea de utilizar el campo y la tierra y combinarlo con el dialecto
+                      riojano, por lo que Prau - Del dialecto de Rioja, riojano, sirve para denominar al prado, al campo
+                      la tierra en general.
+                      <br><br>
+                      Entra en consonancia con los valores de esta marca, ya que representa esa pasión por la tierra y por
+                      los campos de cultivo, esa pasión por el terreno que lleva pasando de familia en familia.
+                  </div>
+              </div>
           </div>
-          <div class="servicio flex flex-col gap-6">
-            <img class="vector w-[17px]" src="/img/star.svg">
-            <div class="tittle_servicios font-bold text-[20px]">Ilustración</div>
-            <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400"> Experiencia realizando ilustraciones
-              tradicionales
-              e ilustraciones digitales mediante IPad - Procreate
-            </div>
+          <div class="fotografias flex flex-col h-min">
+              <img class="image_rect rounded-xl w-[550px]" src="/img/vino3.png" alt="">
+              <img class="image_rect rounded-xl w-[550px]" src="/img/vino2.png" alt="">
+              <img class="image_rect rounded-xl w-[550px]" src="/img/vino1.png" alt="">
           </div>
-          <div class="servicio flex flex-col gap-6">
-            <img class="vector w-[17px]" src="/img/star.svg">
-            <div class="tittle_servicios font-bold text-[20px]">Web y Programación</div>
-            <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400"> Conocimientos altos de HTML y CSS (sass).
+      </div>
+      <div class="images pt-20 px-64 pb-10 text-white justify-center flex flex-col gap-10 max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
+          <div class="text max-w-[60ch] text-[32px] leading-10 text-[#311568]">Mermeladas</div>
+          <div class="text max-w-[60ch] text-[16px] text-zinc-600 font-bold pb-12 max-xl:text-xs">Etiqueta para el apartado de mermelada,
+              muestra de la etiqueta y como se integra
+              en el packaging de forma embolvente teniendo en cuenta los espaciados, colocación de los textos y
+              maquetación general.
+          </div>
+
+          <div class="grid grid-cols-1">
+              <img class="image_grid w-full h-full" src="/img/mermelada.png" alt="">
+          </div>
+
+          <div class="grid grid-cols-3 pt-10 gap-2 pb-6 max-xl:pb-16 max-lg:grid-cols-1">
+              <img class="image_grid w-full h-full drop-shadow-xl" src="/img/mockupmer.png" alt="">
+              <img class="image_grid w-full h-full drop-shadow-xl" src="/img/mockupmer_2.png" alt="">
+              <img class="image_grid w-full h-full drop-shadow-xl " src="/img/mockupmer_3.png" alt="">
+          </div>
+
+
+      </div>
+
+      <div class="images pt-20 px-64 pb-10 text-white justify-center flex flex-col gap-10 max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
+          <div class="text max-w-[60ch] text-[32px] leading-10 text-[#311568]">Vinos</div>
+          <div class="text max-w-[60ch] text-[16px] text-zinc-600 font-bold pb-12 max-xl:text-xs">Etiqueta para el apartado de vino,
+              muestra de la etiqueta y como se integra
+              en el packaging con la cara de delante y la de detrás teniendo en cuenta los espaciados, colocación de los
+              textos y maquetación general.
+          </div>
+
+          <div class="grid grid-cols-1">
+              <img class="image_grid w-full h-full" src="/img/vino.png" alt="">
+          </div>
+
+          <div class="grid grid-cols-3 pt-10 gap-2 pb-6 max-xl:pb-16 max-lg:grid-cols-1">
+              <img class="image_grid w-full h-full drop-shadow-xl" src="/img/vinomoc_1.png" alt="">
+              <img class="image_grid w-full h-full drop-shadow-xl" src="/img/vinomoc_2.png" alt="">
+              <img class="image_grid w-full h-full drop-shadow-xl" src="/img/vinomoc_3.jpg" alt="">
+          </div>
+
+
+      </div>
+
+
+      <div class="images pt-20 px-64 pb-10 text-white justify-center flex flex-col gap-10 max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
+          <div class="text max-w-[60ch] text-[32px] leading-10 text-[#311568]">Queso</div>
+          <div class="text max-w-[60ch] text-[16px] text-zinc-600 font-bold pb-12 max-xl:text-xs">Etiqueta para el apartado de queso,
+              muestra de la pegatina y como se integra
+              en el packaging con la cara de delante y la de detrás teniendo en cuenta los espaciados, colocación de los
+              textos y maquetación general.
+          </div>
+
+          <div class="grid grid-cols-1 max-xl:pb-16">
+              <img class="image_grid w-full h-full" src="/img/queso.png" alt="">
+          </div>
+
+
+
+      </div>
+
+      <div class="images pt-6 px-64 pb-10 text-white justify-center flex flex-col gap-10 max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
+          <div class="text max-w-[60ch] text-[32px] leading-10 text-[#311568]">Ilustraciones</div>
+          <div class="text max-w-[60ch] text-[16px] text-zinc-600 font-bold max-xl:text-xs">Ilustraciones creadas para cada uno de los
+              packaging
+              mediante ilustración digital.
+              <br> <br>
+              → Vinos - Uvas
               <br>
-              Conocimientos medio-altos de <a class="texto_color text-[#00dc82]">Tailwind, Nuxt y Vue.</a>
+              → Mermelada - Fruta seleccionada
               <br>
-              Conocimientos medios en JavaScript.
-            </div>
+              → Queso de cabra - Cabra
           </div>
-          <div class="servicio flex flex-col gap-6">
-            <img class="vector w-[17px]" src="/img/star.svg">
-            <div class="tittle_servicios font-bold text-[20px]">Pack Adobe y Figma</div>
-            <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400"> Altos conocimientos en utilizar
-              el pack <a class="texto_color text-[#dc8f00]">Adobe</a> (concretamente los mencionados arriba) y <a
-                class="texto_color text-[#dc8f00]">Figma</a> (componentización, vistas, prototipado y
-              autolayout).
-            </div>
+
+          <div class="grid grid-cols-3 pt-10 pb-10">
+              <img class="image_grid w-full h-full" src="/img/1.png" alt="">
+              <img class="image_grid w-full h-full" src="/img/2.png" alt="">
+              <img class="image_grid w-full h-full" src="/img/3.png" alt="">
           </div>
-          <div class="servicio flex flex-col gap-6">
-            <img class="vector w-[17px]" src="/img/star.svg">
-            <div class="tittle_servicios font-bold text-[20px]">Audiovisuales y Multimedia</div>
-            <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400">Conocimientos en diferentes ambitos del
-              mundo de audiovisuales,
-              concretamente <a class="texto_color text-[#9c46e2]">After Effects</a> para motion graphics, <a
-                class="texto_color text-[#9c46e2]">Adobe Premiere</a> y otros programas de video para realización
-              de piezas para redes sociales,
-              conocimientos de rotoscopia digital, chroma y edición de video.
-  
-            </div>
-          </div>
-          <div class="servicio flex flex-col gap-6">
-            <img class="vector w-[17px]" src="/img/star.svg">
-            <div class="tittle_servicios font-bold text-[20px]">Maquetación</div>
-            <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400">Conocimientos altos en <a
-                class="texto_color text-[#bd3f9d]">Indesign</a> y
-              <a class="texto_color text-[#4b6ad1]">Photoshop</a>, para la maquetación
-              de carteles, folletos, libros, revistas, anuncios y cualquier pieza gráfica necesaria.
-  
-            </div>
-          </div>
-          <div class="servicio flex flex-col gap-6">
-            <img class="vector w-[17px]" src="/img/star.svg">
-            <div class="tittle_servicios font-bold text-[20px]">Redes Sociales</div>
-            <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400">Conocimientos altos de redes sociales,
-              actualidad y flujo de información
-              en las aplicaciones actuales como <a class="texto_color text-[#d14bb0]">Instagram, TikTok, Facebook y
-                Twitter.</a>
-  
-            </div>
-          </div>
-  
-        </div>
-  
-  
+
+
       </div>
-  
-      <div
-        class="trabajos flex pt-32 pl-40 pr-40 pb-20 text-black flex-nowrap gap-60 justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20">
-        <div class="sticky_menu">
-          <div class="titular flex flex-col text-[72px] font-normal sticky top-24 max-lg:text-[60px]">Sobre mi</div>
-        </div>
-        <div class="servicios_ofrecidos flex flex-col gap-6">
-          <div class="servicio flex flex-col gap-6">
-            <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400">Soy un estudiante de 22 años, actualmente
-              cursando 4º en un grado Universitario de Diseño Gráfico en la Escuela Superior De Diseño de Madrid <a
-                class="animate-pulse texto_type italic text-xs text-black">(Nota media - 9).</a> <br> Cuento con
-              un Grado
-              Superior de Ilustración <a class="texto_type italic text-xs text-black animate-pulse">(Nota TFG - 9).</a> <br>
-              <br> Soy muy polifacetico y no me cierro a ninguna vía del
-              diseño, suelo
-              abarcar todos los ambitos, como ya he mostrado anteriormente. Soy resolutivo y trabajador.
-  
-              <img class="img pt-10 " src="/img/FOTO.jpg" alt="">
-  
-            </div>
-          </div>
-  
-        </div>
-  
-  
+
+
+      <div class="images px-64 pb-10 text-zinc-600 justify-center max-xl:pt-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4 max-xl:pb-16">
+          <img src="/img/presentacionvinos.png" alt="">
       </div>
-      <div
-        class="trabajos flex pt-32 pl-40 pr-40 pb-20 text-black flex-nowrap gap-60 justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20">
-        <div class="sticky_menu">
-          <div class="titular flex flex-col text-[72px] font-normal sticky top-24 max-lg:text-[60px]">Trabajos</div>
-        </div>
-        <div class="servicios_ofrecidos flex flex-col gap-6">
-          <div class="servicio flex flex-col gap-6">
-            <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400">→ Ganador de concurso de carteles para <a
-                class="bold font-bold text-black">Villaluenga de la Sagra</a> - Cartel para el libro de las fiestas
-              <br><br> → Creación de cartelería para página web y físico y creación de pictogramas para empresa <a
-                class="bold font-bold text-black">Neumáticos por Poco.</a> <a class="bold text-xs text-black">- (6
-                meses)</a>
-              <br><br> → Renovación y creación de marca para la empresa <a class="bold font-bold text-black">Motor
-                76.</a> <a class="bold text-xs text-black">- (1 mes)</a>
-              <br><br> → Creación de ilustraciones para portadas de noticias en <a class="bold font-bold text-black">Ecos
-                Castilla La Mancha.</a> <a class="bold text-xs text-black">- (2 meses)</a>
-              <br><br> → Diseño de portadas para proyecto musical.
-              <br><br> → Encargos Freelance de sesiones fotográficas, diseño de tatuajes e ilustraciones personales. <a
-                class="bold text-xs text-black">- (4 años)</a>
-              <br><br> → Actualmente trabajando como diseñador en <a class="bold animate-pulse font-bold text-black">Garrido
-                Gallery.</a> <br> <a class="bold text-xs text-black">(2 meses)</a>
-  
-  
-            </div>
+
+      <div class="trabajos flex pt-10 pl-40 pr-40 pb-20 text-zinc-600 flex-col gap-10 justify-center items-center max-xl:pt-12 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
+          <div class="titular text-[16px] font-normal flex flex-start items-center max-xl:text-xs">Programas utilizados para este
+              proyecto</div>
+          <div class="programas flex flex-col items-center">
+              <div class="three_programas flex gap-10 max-lg:grid max-lg:grid-cols-3">
+                  <img class="image_logo w-[40px] rounded-lg opacity-80 hover:opacity-100 max-xl:max-w-[30px] max-xl:max-h-[29px]" src="/img/Procreate.png" alt="">
+                  <img class="image_logo w-[40px] rounded-lg opacity-80 hover:opacity-100 max-xl:max-w-[30px]" src="/img/Figma.svg" alt="">
+                  <img class="image_logo w-[40px] opacity-80 hover:opacity-100 max-xl:max-w-[30px]" src="/img/Illustrator.svg" alt="">
+                  <img class="image_logo w-[40px] opacity-80 hover:opacity-100 max-xl:max-w-[30px]" src="/img/InDesign.svg" alt="">
+                  <img class="image_logo w-[40px] opacity-80 hover:opacity-100 max-xl:max-w-[30px]" src="/img/Photoshop.svg" alt="">
+                  <img class="image_logo w-[40px] opacity-80 hover:opacity-100 max-xl:max-w-[30px]" src="/img/Cinema4d.png" alt="">
+              </div>
           </div>
-  
-        </div>
-  
-  
       </div>
-  
-      <div
-        class="trabajos flex pt-32 pl-40 pr-40 pb-20 text-black flex-nowrap gap-60 justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20">
-        <div class="sticky_menu">
-          <div class="titular flex flex-col text-[72px] font-normal sticky top-24 max-lg:text-[60px]">Estudios</div>
-        </div>
-        <div class="servicios_ofrecidos flex flex-col gap-6">
-          <div class="servicio flex flex-col gap-6">
-            <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400">
-              <br><br><a class="bold font-bold text-black"> → Bachillerato Artístico </a> en IES El Greco Toledo.
-              <br><br><a class="bold font-bold text-black"> → Grado Superior de Ilustración</a> en la Escuela de Artes de
-              Toledo.
-              <br><br><a class="bold font-bold text-black"> → 3 Cursos de Grado Universitario de Diseño Gráfico </a> en la
-              Escuela Superior de Diseño de Madrid.
-              <br><br><a class="bold font-bold text-black"> → Curso extracurricular de 2 años de Arte y Pintura </a> en
-              Villaluenga de la Sagra.
-              <br><br><a class="bold font-bold text-black"> → Cursos de Domestika:</a> "Ilustración Digital con Procreate",
-              "Ilustración Digital aplicada a productos", "Introducción al lettering con Procreate".
-  
-            </div>
+
+      <div class="links_rrss pt-32 px-80 pb-32 text-zinc-600 justify-center flex flex-row gap-60 max-xl:pt-20 max-xl:px-10 max-xl:flex-col max-xl:justify-items-center max-xl:gap-20 max-xl:flex max-xl:justify-center">
+          <div class="email text-lg flex gap-2 items-center max-xl:text-[14px] max-xl:justify-center">ruben.maldonado.graphic@gmail.com
+                  <img class="vector" src="/img/Vector-11zinc.svg">
           </div>
-  
-        </div>
-  
-  
-      </div>
-  
-  
-      <div
-        class="links_rrss pt-32 px-80 pb-32 text-black justify-center flex flex-row gap-60 max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20 max-lg:flex max-lg:justify-center">
-        <div class="email text-lg flex gap-2 items-center max-lg:text-[14px] max-lg:justify-center">
-          ruben.maldonado.graphic@gmail.com
-          <img class="vector" src="/img/Vector-11black.svg">
-        </div>
-        <div class="links flex flex-col gap-2 max-lg:justify-center">
-          <div class="links1 flex gap-32 max-lg:justify-center">
-            <a class="red flex gap-2 items-center max-lg:text-[14px]"
-              href="https://www.instagram.com/ruben.artes/">Instagram
-              <img class="vector" src="/img/Vector-11black.svg">
-            </a>
-            <a class="red flex gap-2 items-center max-lg:text-[14px]" href="https://www.behance.net/rubenartes">Behance
-              <img class="vector" src="/img/Vector-11black.svg">
-            </a>
+          <div class="links flex flex-col gap-2">
+              <div class="links1 flex gap-32 max-xl:justify-center">
+                  <a class="red flex gap-2 items-center max-xl:text-[14px]" href="https://www.instagram.com/ruben.artes/">Instagram
+                          <img class="vector" src="/img/Vector-11zinc.svg">
+                  </a>
+                  <a class="red flex gap-2 items-center max-xl:text-[14px]" href="https://www.behance.net/rubenartes">Behance
+                          <img class="vector" src="/img/Vector-11zinc.svg">
+                  </a>
+              </div>
+              <div class="links2 flex gap-32 flex-end max-xl:justify-center">
+                  <a class="red flex gap-2 items-center max-xl:text-[14px]" href="https://www.instagram.com/ruben.iso">Instagram
+                          <img class="vector" src="/img/Vector-11zinc.svg">
+
+                  </a> <a class="red flex gap-2 items-center max-xl:text-[14px]" href="https://www.linkedin.com/in/rubenmaldonado10">LinkedIn
+                          <img class="vector" src="/img/Vector-11zinc.svg">
+                  </a>
+              </div>
           </div>
-          <div class="links2 flex gap-32 flex-end max-lg:justify-center">
-            <a class="red flex gap-2 items-center max-lg:text-[14px]" href="https://www.instagram.com/ruben.iso">Instagram
-              <img class="vector" src="/img/Vector-11black.svg">
-  
-            </a> <a class="red flex gap-2 items-center max-lg:text-[14px]"
-              href="https://www.linkedin.com/in/rubenmaldonado10">LinkedIn
-              <img class="vector" src="/img/Vector-11black.svg">
-            </a>
+
+      </div>
+
+      <div class="foter bg-[#C9D2E8] p-10 flex text-white justify-between sticky top-0 max-xl:p-6">
+          <div class="foter_image flex flex-start">
+              <NuxtLink to="/">
+                  <img class="vector max-xl:max-w-[15px]" src="/img/star.svg">
+              </NuxtLink>
           </div>
-        </div>
-  
+          <div class="email flex gap-2 items-center text-sm max-xl:text-xs">Ruben Maldonado González
+              <NuxtLink to="/">
+                  <img class="vector max-xl:max-w-[15px]" src="/img/futbol.svg">
+              </NuxtLink>
+          </div>
       </div>
-  
-      <div class="foter bg-white p-10 flex text-black justify-between sticky top-0 max-lg:p-6 border border-t-1">
-        <div class="foter_image flex flex-start">
-          <img class="vector max-lg:max-w-[15px]" src="/img/starblack.svg">
-        </div>
-        <div class="email flex gap-2 items-center text-sm max-lg:text-xs">Ruben Maldonado González
-          <img class="vector max-lg:max-w-[15px]" src="/img/futbolblack.svg">
-        </div>
-      </div>
-  
-  
-    </div>
-  </template>
-  
-  <script setup>
-  
-  import PlvPointer from "/components/Cursor.vue";
-  
-  import VueScrollProgressBar from '/components/VueScrollProgressBar'
-  
-  
-  </script>
-  <style lang="sass" scoped>
-  
-  
-  .email
-    &:hover
+
+  </div>
+</template>
+
+<script>
+export default {
+  mounted() {
+      this.$nextTick(() => {
+          const newVideo = document.getElementById('videoElementId');
+          newVideo.addEventListener('ended', () => {
+              newVideo.currentTime = 0;
+              newVideo.play();
+          });
+          newVideo.play();
+      });
+  },
+};
+</script>
+
+<style lang="sass" scoped>
+
+
+.email
+  &:hover
+    @apply text-zinc-300
+
+.red
+  &:hover
       @apply text-zinc-300
-  
-  .image
-    @apply transition ease-in-out delay-150
-    &:hover
-      @apply opacity-80 duration-75 outline outline-2 outline-white rounded-sm
-  
-  .image_logo
-    @apply opacity-60
-    &:hover
-      @apply opacity-100
-  
-  .red
-    &:hover
-        @apply text-zinc-300
-  
-  </style>
+
+</style>
