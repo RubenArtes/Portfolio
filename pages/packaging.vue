@@ -47,7 +47,7 @@
             class="trabajos flex pt-20 px-40 pb-20 items-start text-white flex-nowrap gap-96 justify-center max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-xl:text-center max-xl:pt-0 max-xl:pb-16">
             <div class="info flex flex-col">
                 <div
-                    class="text max-w-[200ch] text-center font-['Domaine-Display'] uppercase text-[20px] leading-10 text-zinc-800 max-xl:text-xs">
+                    class="text max-w-[200ch] text-center font-['Domaine-Display'] uppercase text-[24px] leading-10 text-zinc-800 max-xl:text-xs">
                     Asignatura</div>
                 <div
                     class="text max-w-[200ch] font-['SFUIDisplay-Light'] text-center text-[16px] leading-6 text-zinc-900 max-xl:text-sm max-xl:max-w-[40ch]">
@@ -56,7 +56,7 @@
             </div>
             <div class="info flex flex-col">
                 <div
-                    class="text max-w-[60ch] font-['Domaine-Display'] text-center text-[20px] uppercase leading-10 text-zinc-800 max-xl:text-xs">
+                    class="text max-w-[60ch] font-['Domaine-Display'] text-center text-[24px] uppercase leading-10 text-zinc-800 max-xl:text-xs">
                     Tiempo</div>
                 <div
                     class="text max-w-[20ch] font-['SFUIDisplay-Light']  text-center text-[16px] leading-6 text-zinc-900 max-xl:text-sm max-xl:max-w-[40ch]">
@@ -65,11 +65,11 @@
             </div>
             <div class="info flex flex-col">
                 <div
-                    class="text max-w-[60ch] font-['Domaine-Display'] text-center text-[20px] uppercase leading-10 text-zinc-800 max-xl:text-xs">
+                    class="text max-w-[60ch] font-['Domaine-Display'] text-center text-[24px] uppercase leading-10 text-zinc-800 max-xl:text-xs">
                     Briefing</div>
                 <div
                     class="text max-w-[20ch] text-center font-['SFUIDisplay-Light']  text-[16px] leading-6 text-zinc-900 max-xl:text-sm max-xl:max-w-[40ch]">
-                    Matutano Salusbale
+                    Matutano Saludable
                 </div>
             </div>
         </div>
