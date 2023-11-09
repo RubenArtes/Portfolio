@@ -90,7 +90,7 @@
                 class="titular text-[40px] font-['Domaine-Display'] pb-6 leading-12 font-bold text-black max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-[600px]:text-30px max-[600px]:leading-10">
                 TRES PACKS SALUDABLES</div>
                     <div
-                        class="text text-[16px] font-['SFUIDisplay-Light'] leading-6 indent-12 text-zinc-900 max-w-[70ch] max-xl:text-xs">
+                        class="text text-[20px] font-['SFUIDisplay-Light'] leading-6 indent-12 text-zinc-900 max-w-[70ch] max-xl:text-sm">
                         El trabajo finalmente cuenta con 3 packaging a modo de tótem y juego visual y táctil de combinación
                         del espectador y un packaging adaptado a otra estructura
                         diferente de caja para un producto diferente
