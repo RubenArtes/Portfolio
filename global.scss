@@ -278,3 +278,24 @@ html {
     width: 100%;
     margin: auto;
 }
+
+
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: rgb(249, 249, 249); 
+    width: 10px;
+    margin: 5px;
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: rgb(39, 39, 42); 
+    border-radius: 5px;
+    height: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(39, 39, 42); 
+  }
