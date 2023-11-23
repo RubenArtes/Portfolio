@@ -99,6 +99,60 @@
                             Your browser does not support the video tag.
                         </video>
                     </Slide>
+                    <Slide v-for="slide in 1" :key="slide">
+                        <video width="1240" height="788" loop autoplay controls muted>
+                            <source src="/img/VideoPorto9.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </Slide>
+                    <Slide v-for="slide in 1" :key="slide">
+                        <video width="1240" height="788" loop autoplay controls muted>
+                            <source src="/img/VideoPorto10.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </Slide>
+                    <Slide v-for="slide in 1" :key="slide">
+                        <video width="1240" height="788" loop autoplay controls muted>
+                            <source src="/img/VideoPorto11.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </Slide>
+                    <Slide v-for="slide in 1" :key="slide">
+                        <video width="1240" height="788" loop autoplay controls muted>
+                            <source src="/img/VideoPorto13.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </Slide>
+                    <Slide v-for="slide in 1" :key="slide">
+                        <video width="1240" height="788" loop autoplay controls muted>
+                            <source src="/img/VideoPorto14.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </Slide>
+                    <Slide v-for="slide in 1" :key="slide">
+                        <video width="1240" height="788" loop autoplay controls muted>
+                            <source src="/img/VideoPorto15.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </Slide>
+                    <Slide v-for="slide in 1" :key="slide">
+                        <video width="1240" height="788" loop autoplay controls muted>
+                            <source src="/img/VideoPorto16.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </Slide>
+                    <Slide v-for="slide in 1" :key="slide">
+                        <video width="1240" height="788" loop autoplay controls muted>
+                            <source src="/img/VideoPorto17.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </Slide>
+                    <Slide v-for="slide in 1" :key="slide">
+                        <video width="1240" height="788" loop autoplay controls muted>
+                            <source src="/img/VideoPorto20.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </Slide>
 
 
                     <template #addons>
