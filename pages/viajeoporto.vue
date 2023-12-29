@@ -42,25 +42,47 @@
                 <div class="info_secondary flex flex-col gap-6 sticky top-32 max-[1500px]:gap-12">
                     <div
                         class="titular uppercase text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-[600px]:text-30px max-[600px]:leading-10 max-[1500px]:text-left">
-                        Texto sobre los videos</div>
+                        3 días por Oporto</div>
                     <div
                         class="text text-[16px] font-['SFUIDisplay-Light'] indent-12 text-zinc-900 max-w-[70ch] max-xl:text-sm max-[1500px]:text-[16px] max-[1500px]:max-w-[100ch]">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu rhoncus ex, quis elementum neque.
-                        Praesent interdum ut diam id facilisis. Nullam metus nisl, tristique vel varius id, congue sed elit.
-                        Suspendisse consequat, libero euismod condimentum ullamcorper, nunc arcu condimentum sapien, vel
-                        ornare nulla mauris sed nibh. Morbi ornare iaculis lacus, efficitur convallis neque pharetra eu.
-                        Etiam interdum velit vel nulla ultrices semper. Fusce tempor nisi in felis fermentum, et cursus orci
-                        aliquet. Maecenas condimentum massa suscipit, viverra nulla in, elementum nisl. Phasellus pharetra
-                        vestibulum urna, sed volutpat metus interdum quis. Sed vel ipsum nisi. Duis ac purus lobortis,
-                        finibus augue in, efficitur quam. Sed dictum pulvinar ante, quis finibus lacus molestie vitae.
-                        Mauris eget vehicula justo.
+                        Estos videos son una recopilación más extensa de lo que estuve viendo durante estos tres días,
+                        los lugares emblemáticos de la ciudad, los monumentos, las calles y su gente, los detalles. Estos videos
+                        sirven para ampliar el contenido de la caja y del material visual en imágenes. Estos vidoes muestran la visión entera
+                        del lugar al que iba y se puede ver con todo detalle como son cada lugar y que es lo que yo veía en cada sitio bajo mi
+                        punto de vista personal.
                         <br> <br>
-                        Quisque vehicula mauris nunc, non rhoncus nibh iaculis dapibus. Donec purus nisl, elementum eu dui
-                        nec, posuere dapibus urna. Mauris euismod, quam sit amet lobortis mattis, ante leo dapibus augue, ac
-                        ornare arcu dolor vel velit. Aenean libero nisl, placerat at orci et, molestie mollis neque. Cras
-                        tristique eros sed metus cursus porta. Donec commodo a tellus nec mollis. Mauris porta pellentesque
-                        rhoncus. Sed ex mi, tempus ut egestas ut, lobortis non arcu. Proin blandit magna ex, egestas
-                        elementum elit lacinia nec. Nulla facilisi.
+                        Este material es exclusivo accesible a partir del QR de la caja ya que contiene elementos de apoyo al trabajo para hacerlo
+                        más dinámico y enriquecedor.
+                        Aqui se muestran lugares como:
+                        <br> <br>
+                        *São Bento
+                        <br>* Catedral do Porto
+                        <br>* Puente de Don Luis I
+                        <br>* Livraria Lello
+                        <br>* Parque Das Virtudes
+                        <br>* Torre dos Clérigos
+                        <br>* Igreja de Santo Ildefonso
+                        <br>* Capela das Almas
+                        <br>* Mercado do Bolhão
+                        <br>* McDonalds Imperial
+                        <br>* Prometeu Artesanato
+                        <br>* Igreja da Misericórdia
+                        <br>* Cementério de Agramonte
+                        <br>* Jardim da Rounda da Boavista
+                        <br>* Residencia LIS B&B
+                        <br>* Praça Marqués de Pombal
+                        <br>* Estación de Camphanã
+                        <br>* Igreja Paroquial do Nosso Senhor do Bonfim
+                        <br>* Santa Franceshina
+                        <br>* Cementério do Prado do Repouso
+                        <br>* Church of Santa Clara
+                        <br>* Puente do Infante
+                        <br>* Jardim do Morro
+                        <br>* Monastery of Serra do Pilar
+                        <br>* Capela de Atkinson
+                        <br>* Igreja Paroquial de Santa Marinha
+                        <br>* Jardim do Palacio de Cristal
+                        <br>* Museo | Casa de Serralvés
 
                     </div>
                 </div>

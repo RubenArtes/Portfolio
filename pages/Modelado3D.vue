@@ -93,20 +93,47 @@
         </div>
         </div>
         <div class="images pt-20 px-64 pb-10 text-white justify-center flex flex-col max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
-            <div class="text max-w-[60ch] text-[32px] leading-10 text-zinc-800 pb-10">Ciudad</div>
-            <div class="text max-w-[60ch] text-[16px] leading-6 text-zinc-600 font-bold pb-12 max-xl:text-xs">Creación de una maqueta sencilla de una
-                ciudad en 3D con iluminaciones, detalles en los edificios, prueba con los diferentes acabados y herramientas del programa Cinema 4D.
-                Ejercicio inicial de 3D.
+            <div class="text max-w-[60ch] text-[32px] leading-10 text-zinc-800 pb-10">Modelado maquetas Oporto</div>
+            <div class="text max-w-[60ch] text-[16px] leading-6 text-zinc-600 font-bold pb-12 max-xl:text-xs">Maquetas realizadas para otro trabajo sobre Oporto. Videas realizados en 3D mostrando los elementos
+                que componen el trabajo.
             </div>
             <div class="grid grid-cols-2 gap-4 max-xl:grid-cols-1">
-                <img class="image_grid w-full h-full border border-zinc-600 drop-shadow-xl" src="/img/ciudad7.jpg" alt="">
-                <img class="image_grid w-full h-full border border-zinc-600 drop-shadow-xl" src="/img/ciudad9.jpg" alt="">                
-                <img class="image_grid w-full h-full border border-zinc-600 drop-shadow-xl" src="/img/ciudad5.jpg" alt="">                
-                <img class="image_grid w-full h-full border border-zinc-600 drop-shadow-xl" src="/img/ciudad6.jpg" alt="">                
-                <img class="image_grid w-full h-full border border-zinc-600 drop-shadow-xl" src="/img/ciudad4.jpg" alt="">
-                <img class="image_grid w-full h-full border border-zinc-600 drop-shadow-xl" src="/img/ciudad.jpg" alt="">
-                <img class="image_grid w-full h-full border border-zinc-600 drop-shadow-xl" src="/img/ciudad2.jpg" alt="">
-                <img class="image_grid w-full h-full border border-zinc-600 drop-shadow-xl" src="/img/ciudad3.jpg" alt="">
+                <video class="video w-full h-full border border-zinc-600 drop-shadow-xl" loop controls>
+                <source src="/img/cuadernillo1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <video class="video w-full h-full border border-zinc-600 drop-shadow-xl" loop controls>
+                <source src="/img/cuadernillo2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <video class="video w-full h-full border border-zinc-600 drop-shadow-xl" loop controls>
+                <source src="/img/cuadernillo3.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <video class="video w-full h-full border border-zinc-600 drop-shadow-xl" loop controls>
+                <source src="/img/mapa.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <video class="video w-full h-full border border-zinc-600 drop-shadow-xl" loop controls>
+                <source src="/img/sellos.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <video class="video w-full h-full border border-zinc-600 drop-shadow-xl" loop controls>
+                <source src="/img/primercompartimento.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <video class="video w-full h-full border border-zinc-600 drop-shadow-xl" loop controls>
+                <source src="/img/packanalogicas.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <video class="video w-full h-full border border-zinc-600 drop-shadow-xl" loop controls>
+                <source src="/img/folleto.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <video class="video w-full h-full border border-zinc-600 drop-shadow-xl" loop controls>
+                <source src="/img/postales.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
 
 
 

@@ -7,7 +7,7 @@
               <img class="max-lg:max-w-[15px]" src="/img/vector_zinc.svg">
           </div>
           <div class="mode flex gap-10 items-center justify-center content-center">
-              <NuxtLink to="/indexlight">
+              <NuxtLink to="/HomeDark">
                   <img class="image w-[30px]" src="" alt="">
               </NuxtLink>
 
@@ -94,7 +94,7 @@ methods: {
     }, 500); // Esperar 500ms (0.5s) antes de redirigir
   },
   redirectToHome() {
-    this.$router.push('/primera'); // Redirigir a la ruta raíz
+    this.$router.push('/Home'); // Redirigir a la ruta raíz
   }
 }
 };
