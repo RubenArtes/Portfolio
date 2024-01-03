@@ -22,43 +22,43 @@
         class="header bg-white p-2 px-12 border-r-0 border-l-0 text-black flex justify-center items-center sticky top-[6.5rem] z-10 border border-b-1  max-[1080px]:gap-6 max-[1025px]:top-[4.2rem] max-[510px]:gap-2">
         <div
           class="titular_small pr-6 pl-6 text-zinc-500 font-['SFUIDisplay-Regular'] animate-pulse text-[14px] max-[510px]:px-2 max-[510px]:text-[11px]">
-          Ultima actualización Noviembre 2023
+          Ultima actualización Enero 2024
         </div>
         <img class="info animate-pulse max-w-[12px] max-h-[12px] max-[760px]:hidden" src="/img/infoblack.png">
         <div
           class="titular_small pr-6 pl-6 text-zinc-500 font-['SFUIDisplay-Regular'] animate-pulse text-[14px] max-[760px]:hidden">
-          Ultima actualización Noviembre 2023
+          Ultima actualización Enero 2024
         </div>
         <img class="info animate-pulse max-w-[12px] max-h-[12px]" src="/img/infoblack.png">
         <div
           class="titular_small pr-6 pl-6 text-zinc-500 font-['SFUIDisplay-Regular'] animate-pulse text-[14px] max-[1080px]:hidden">
-          Ultima actualización Noviembre 2023
+          Ultima actualización Enero 2024
         </div>
         <img class="info animate-pulse max-w-[12px] max-h-[12px] max-[1080px]:hidden" src="/img/infoblack.png">
         <div
           class="titular_small pr-6 pl-6 text-zinc-500 font-['SFUIDisplay-Regular'] animate-pulse text-[14px] max-[1180px]:hidden">
-          Ultima actualización Noviembre 2023
+          Ultima actualización Enero 2024
         </div>
         <img class="info animate-pulse max-w-[12px] max-h-[12px] max-[1180px]:hidden" src="/img/infoblack.png">
         <div
           class="titular_small pr-6 pl-6 text-zinc-500 font-['SFUIDisplay-Regular'] animate-pulse text-[14px] max-[1760px]:hidden">
-          Ultima actualización Noviembre 2023
+          Ultima actualización Enero 2024
         </div>
         <img class="info animate-pulse max-w-[12px] max-h-[12px] max-[1760px]:hidden" src="/img/infoblack.png">
         <div
           class="titular_small pr-6 pl-6 text-zinc-500 font-['SFUIDisplay-Regular'] animate-pulse text-[14px] max-[1760px]:hidden">
-          Ultima actualización Noviembre 2023
+          Ultima actualización Enero 2024
         </div>
         <img class="info animate-pulse max-w-[12px] max-h-[12px] max-[1760px]:hidden" src="/img/infoblack.png">
   
         <div
           class="titular_small pr-6 pl-6 text-zinc-500 font-['SFUIDisplay-Regular'] animate-pulse text-[14px] max-[2260px]:hidden">
-          Ultima actualización Noviembre 2023
+          Ultima actualización Enero 2024
         </div>
         <img class="info animate-pulse max-w-[12px] max-h-[12px] max-[2260px]:hidden" src="/img/infoblack.png">
         <div
           class="titular_small pr-6 pl-6 text-zinc-500 font-['SFUIDisplay-Regular'] animate-pulse text-[14px] max-[2260px]:hidden">
-          Ultima actualización Noviembre 2023
+          Ultima actualización Enero 2024
         </div>
         <img class="info animate-pulse max-w-[12px] max-h-[12px] max-[2260px]:hidden" src="/img/infoblack.png">
   
@@ -394,7 +394,7 @@
         </div>
         <div class="servicios_ofrecidos flex flex-col gap-6 pt-6">
           <div class="servicio flex flex-col gap-6">
-            <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400">Soy un estudiante de 22 años, actualmente
+            <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400">Soy un estudiante de 23 años, actualmente
               cursando 4º en un grado Universitario de Diseño Gráfico en la Escuela Superior De Diseño de Madrid <a
                 class="animate-pulse texto_type italic text-xs text-black">(Nota media - 9).</a> <br> Cuento con
               un Grado
@@ -403,7 +403,7 @@
               diseño, suelo
               abarcar todos los ambitos, como ya he mostrado anteriormente. Soy resolutivo y trabajador.
   
-              <img class="img pt-10 " src="/img/FOTO.jpg" alt="">
+              <img class="img pt-10 " src="/img/FOTO2.png" alt="">
   
             </div>
           </div>
@@ -433,8 +433,9 @@
               <br> → Diseño de portadas para proyecto musical.
               <br> → Encargos Freelance de sesiones fotográficas, diseño de tatuajes e ilustraciones personales. <a
                 class="bold text-xs text-black">- (4 años)</a>
-              <br> → Actualmente trabajando como diseñador en <a class="bold animate-pulse font-bold text-black">Garrido
-                Gallery.</a><a class="bold text-xs text-black">- (4 meses)</a>
+              <br> → Actualmente trabajando como diseñador de prácticas en <a class="bold animate-pulse font-bold text-black">Garrido
+                Gallery</a> (Empresa de diseños y piezas de arte de lujo)<a class="bold text-xs text-black">- (7 meses)</a>
+                <br> <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; → Maquetación e impresión del Catalogo 2024</a>
   
   
             </div>
