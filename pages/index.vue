@@ -30,7 +30,7 @@
           </div>
           <div
               class="titular_small pr-6 pl-6 text-zinc-400 font-['SFUIDisplay-Regular'] animate-pulse text-[14px] max-[510px]:px-2 max-[510px]:text-[11px]">
-              Portfolio v.3 - Noviembre 2023
+              Portfolio v.4 - Marzo 2024
           </div>
       </div>
 

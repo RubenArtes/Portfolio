@@ -16,7 +16,7 @@
       return {
         typeValue: "",
         typeStatus: false,
-        displayTextArray: ["Fotografías", "Packaging", "Editorial", "Video", "Marca", "Ilustraciones"],
+        displayTextArray: ["FOTOGRAFIAS", "PACKAGING", "EDITORIAL", "VIDEO", "MARCA", "ILUSTRACIONES"],
         typingSpeed: 100,
         erasingSpeed: 100,
         newTextDelay: 2000,

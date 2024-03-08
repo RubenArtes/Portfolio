@@ -21,43 +21,43 @@
       class="header bg-white p-2 px-12 text-[#1b1b22] flex justify-center items-center sticky z-10 top-[6.5rem] z-200 border border-b-1 max-[1080px]:gap-6 max-[1025px]:top-[4.2rem] max-[510px]:gap-2">
       <div
         class="titular_small pr-6 pl-6 text-zinc-500 font-['SFUIDisplay-Regular'] animate-pulse text-[14px] max-[510px]:px-2 max-[510px]:text-[11px]">
-        Ultima actualización Octubre 2023
+        Ultima actualización Marzo 2023
       </div>
       <img class="info animate-pulse max-w-[12px] max-h-[12px] max-[760px]:hidden" src="/img/infoblack.png">
       <div
         class="titular_small pr-6 pl-6 text-zinc-500 font-['SFUIDisplay-Regular'] animate-pulse text-[14px] max-[760px]:hidden">
-        Ultima actualización Octubre 2023
+        Ultima actualización Marzo 2023
       </div>
       <img class="info animate-pulse max-w-[12px] max-h-[12px]" src="/img/infoblack.png">
       <div
         class="titular_small pr-6 pl-6 text-zinc-500 font-['SFUIDisplay-Regular'] animate-pulse text-[14px] max-[1080px]:hidden">
-        Ultima actualización Octubre 2023
+        Ultima actualización Marzo 2023
       </div>
       <img class="info animate-pulse max-w-[12px] max-h-[12px] max-[1080px]:hidden" src="/img/infoblack.png">
       <div
         class="titular_small pr-6 pl-6 text-zinc-500 font-['SFUIDisplay-Regular'] animate-pulse text-[14px] max-[1180px]:hidden">
-        Ultima actualización Octubre 2023
+        Ultima actualización Marzo 2023
       </div>
       <img class="info animate-pulse max-w-[12px] max-h-[12px] max-[1180px]:hidden" src="/img/infoblack.png">
       <div
         class="titular_small pr-6 pl-6 text-zinc-500 font-['SFUIDisplay-Regular'] animate-pulse text-[14px] max-[1760px]:hidden">
-        Ultima actualización Octubre 2023
+        Ultima actualización Marzo 2023
       </div>
       <img class="info animate-pulse max-w-[12px] max-h-[12px] max-[1760px]:hidden" src="/img/infoblack.png">
       <div
         class="titular_small pr-6 pl-6 text-zinc-500 font-['SFUIDisplay-Regular'] animate-pulse text-[14px] max-[1760px]:hidden">
-        Ultima actualización Octubre 2023
+        Ultima actualización Marzo 2023
       </div>
       <img class="info animate-pulse max-w-[12px] max-h-[12px] max-[1760px]:hidden" src="/img/infoblack.png">
 
       <div
         class="titular_small pr-6 pl-6 text-zinc-500 font-['SFUIDisplay-Regular'] animate-pulse text-[14px] max-[2260px]:hidden">
-        Ultima actualización Octubre 2023
+        Ultima actualización Marzo 2023
       </div>
       <img class="info animate-pulse max-w-[12px] max-h-[12px] max-[2260px]:hidden" src="/img/infoblack.png">
       <div
         class="titular_small pr-6 pl-6 text-zinc-500 font-['SFUIDisplay-Regular'] animate-pulse text-[14px] max-[2260px]:hidden">
-        Ultima actualización Octubre 2023
+        Ultima actualización Marzo 2023
       </div>
       <img class="info animate-pulse max-w-[12px] max-h-[12px] max-[2260px]:hidden" src="/img/infoblack.png">
 

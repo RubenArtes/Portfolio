@@ -22,43 +22,43 @@
         class="header bg-white p-2 px-12 border-r-0 border-l-0 text-black flex justify-center items-center sticky top-[6.5rem] z-10 border border-b-1  max-[1080px]:gap-6 max-[1025px]:top-[4.2rem] max-[510px]:gap-2">
         <div
           class="titular_small pr-6 pl-6 text-zinc-500 font-['SFUIDisplay-Regular'] animate-pulse text-[14px] max-[510px]:px-2 max-[510px]:text-[11px]">
-          Ultima actualización Enero 2024
+          Ultima actualización Marzo 2023
         </div>
         <img class="info animate-pulse max-w-[12px] max-h-[12px] max-[760px]:hidden" src="/img/infoblack.png">
         <div
           class="titular_small pr-6 pl-6 text-zinc-500 font-['SFUIDisplay-Regular'] animate-pulse text-[14px] max-[760px]:hidden">
-          Ultima actualización Enero 2024
+          Ultima actualización Marzo 2023
         </div>
         <img class="info animate-pulse max-w-[12px] max-h-[12px]" src="/img/infoblack.png">
         <div
           class="titular_small pr-6 pl-6 text-zinc-500 font-['SFUIDisplay-Regular'] animate-pulse text-[14px] max-[1080px]:hidden">
-          Ultima actualización Enero 2024
+          Ultima actualización Marzo 2023
         </div>
         <img class="info animate-pulse max-w-[12px] max-h-[12px] max-[1080px]:hidden" src="/img/infoblack.png">
         <div
           class="titular_small pr-6 pl-6 text-zinc-500 font-['SFUIDisplay-Regular'] animate-pulse text-[14px] max-[1180px]:hidden">
-          Ultima actualización Enero 2024
+          Ultima actualización Marzo 2023
         </div>
         <img class="info animate-pulse max-w-[12px] max-h-[12px] max-[1180px]:hidden" src="/img/infoblack.png">
         <div
           class="titular_small pr-6 pl-6 text-zinc-500 font-['SFUIDisplay-Regular'] animate-pulse text-[14px] max-[1760px]:hidden">
-          Ultima actualización Enero 2024
+          Ultima actualización Marzo 2023
         </div>
         <img class="info animate-pulse max-w-[12px] max-h-[12px] max-[1760px]:hidden" src="/img/infoblack.png">
         <div
           class="titular_small pr-6 pl-6 text-zinc-500 font-['SFUIDisplay-Regular'] animate-pulse text-[14px] max-[1760px]:hidden">
-          Ultima actualización Enero 2024
+          Ultima actualización Marzo 2023
         </div>
         <img class="info animate-pulse max-w-[12px] max-h-[12px] max-[1760px]:hidden" src="/img/infoblack.png">
   
         <div
           class="titular_small pr-6 pl-6 text-zinc-500 font-['SFUIDisplay-Regular'] animate-pulse text-[14px] max-[2260px]:hidden">
-          Ultima actualización Enero 2024
+          Ultima actualización Marzo 2023
         </div>
         <img class="info animate-pulse max-w-[12px] max-h-[12px] max-[2260px]:hidden" src="/img/infoblack.png">
         <div
           class="titular_small pr-6 pl-6 text-zinc-500 font-['SFUIDisplay-Regular'] animate-pulse text-[14px] max-[2260px]:hidden">
-          Ultima actualización Enero 2024
+          Ultima actualización Marzo 2023
         </div>
         <img class="info animate-pulse max-w-[12px] max-h-[12px] max-[2260px]:hidden" src="/img/infoblack.png">
   
@@ -433,8 +433,10 @@
               <br> → Diseño de portadas para proyecto musical.
               <br> → Encargos Freelance de sesiones fotográficas, diseño de tatuajes e ilustraciones personales. <a
                 class="bold text-xs text-black">- (4 años)</a>
-              <br> → Actualmente trabajando como diseñador de prácticas en <a class="bold animate-pulse font-bold text-black">Garrido
-                Gallery</a> (Empresa de diseños y piezas de arte de lujo)<a class="bold text-xs text-black">- (7 meses)</a>
+              <br> → Diseñador Freelance por horas para empresas. <a
+                class="bold text-xs text-black">- (2 meses)</a>
+              <br> → Trabajo en practicas de empresa extracurriculares <a class="bold animate-pulse font-bold text-black">Garrido
+                Gallery</a> (Empresa de diseños y piezas de arte de lujo)<a class="bold text-xs text-black">- (9 meses)</a>
                 <br> <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; → Maquetación e impresión del Catalogo 2024</a>
   
   
