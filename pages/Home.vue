@@ -503,8 +503,15 @@
             </a>
           </div>
         </div>
-  
+
       </div>
+      
+      <p class="copy flex gap-1 text-xs justify-center pb-14 text-yellow-400" xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
+        <a class="copy flex" property="dct:title" rel="cc:attributionURL" href="https://rubenmaldonado.es/">Portfolio v.4</a> 
+        by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://rubenmaldonado.es/">Rubén Maldonado</a> 
+        is licensed under <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" class="flex gap-2">CC BY-NC-ND 4.0 </a>
+        <div></div><img style="height:14px!important;margin-left:3px;vertical-align:text-bottom;color:coral" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:14px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:14px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img style="height:14px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1"></p>
+
   
       <div
         class="foter bg-white p-10 border-b-0 border-l-0 border-r-0 flex text-black justify-between sticky top-0 max-lg:p-6 border border-t-1">
