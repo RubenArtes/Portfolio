@@ -211,7 +211,7 @@
 
             <div class="grid grid-cols-1 items-center justify-center content-center max-[600px]:px-0 max-[1280px]:px-0 max-[1500px]:px-60">
                 <img class="image_grid w-[1450px] pb-4" src="/img/troquel1.png" alt="">
-                <img class="image_grid w-[1450px] pt-4 pb-6" src="/img/troqueL2.png" alt="">
+                <img class="image_grid w-[1450px] pt-4 pb-6" src="/img/troquel2.png" alt="">
                 <img class="image_grid w-[1450px] pt-4 max-xl:pb-12" src="/img/troquel4.png" alt="">
             </div>
         </div>
