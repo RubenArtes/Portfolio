@@ -175,15 +175,9 @@
                 </div>
 
                 <div class="flex flex-col pb-24">
-                    <div class="col">
-                        <img class="image image w-full h-full w-1/2 pt-12 px-12" src="/img/troquel-1.png">
-                    </div>
-                    <div class="col">
-                        <img class="image image w-full h-full w-1/2 pt-6 px-12" src="/img/troquel-22.png">
-                    </div>
-                    <div class="col">
-                        <img class="image image w-full h-full w-1/2 pt-6 px-12" src="/img/troquel-2.png">
-                    </div>
+                <img class="image_grid w-[1450px] pb-4" src="/img/troquel1.png" alt="">
+                <img class="image_grid w-[1450px] pt-4 pb-6" src="/img/troquel2.png" alt="">
+                <img class="image_grid w-[1450px] pt-4 max-xl:pb-12" src="/img/troquel4.png" alt="">
                 </div>
 
                 <div class="text text-left py-24 flex gap-32 px-24 border-t">
