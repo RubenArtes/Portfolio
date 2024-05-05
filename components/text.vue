@@ -73,7 +73,6 @@
 
     @media (max-width: 720px){
 
-        height:100px;
 
     }
 
@@ -87,21 +86,22 @@
         font-size: 3rem;
         letter-spacing: -2px;
         
+        
     }
 
     @media (max-width: 720px){
         font-size: 2rem;
         letter-spacing: -1px;
-        height:100px;
         line-height: 1em;
+        font-weight: normal;
 
     }
 
     @media (max-width: 510px){
         font-size: 2rem;
         letter-spacing: -1px;
-        height:100px;
         line-height: 1.75em;
+        font-weight: normal;
 
     }
     

@@ -19,7 +19,7 @@
         <div class="main divide-x flex">
             <div class="col w-1/2 px-24 ">
                 <div
-                    class="text sticky z-0 top-[10rem] text-[80px] leading-[5rem] pt-20 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-[2260px]:text-[40px] max-[2260px]:leading-[3rem] max-[1840px]:text-[32px] max-[760px]:text-[26px] max-[760px]:pt-2 max-[760px]:leading-[2rem] max-[760px]:text-[55px] max-[760px]:leading-[3.5rem] max-[760px]:text-center ">
+                    class="text sticky z-0 top-[10rem] text-[80px] leading-[5rem] pt-20 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-[2260px]:text-[40px] max-[2260px]:leading-[3rem] max-[1840px]:text-[32px] max-[760px]:text-[26px] max-[760px]:pt-2 max-[760px]:leading-[2rem] max-[760px]:text-[60px] max-[760px]:leading-[3.5rem] max-[760px]:pb-4 max-[760px]:text-center ">
                     MATUTANO<br>SALUDABLE</div>
                 <div
                     class="text text-[20px] sticky z-0 top-[26rem] leading-[3rem] pb-96 font-['SFUIDisplay-Light'] font-normal tracking-normal flex flex-col items-left justify-center max-[760px]:text-[14px] max-[760px]:pb-2  max-[760px]:text-center max-[760px]:pb-2 max-[760px]:leading-[1rem]">
@@ -44,7 +44,7 @@
 
                 <div class="text text-left py-24 flex gap-32 px-24">
                     <div
-                        class="titular max-w-[50ch] text-[60px] leading-[5rem] font-['Domaine-Display'] font-bold tracking-normal items-left justify-center max-[2260px]:text-[40px] max-[2260px]:leading-[3rem] max-[1840px]:text-[32px] max-[760px]:text-[26px] max-[760px]:pt-2 max-[760px]:leading-[2rem] max-[760px]:text-[55px] max-[760px]:leading-[3.5rem] max-[760px]:text-center ">
+                        class="titular max-w-[50ch] text-[60px] leading-[5rem] font-['Domaine-Display'] font-bold tracking-normal items-left justify-center max-[2260px]:text-[40px] max-[2260px]:leading-[3rem] max-[1840px]:text-[32px] max-[760px]:text-[26px] max-[760px]:pt-2 max-[760px]:leading-[2rem] max-[760px]:text-[60px] max-[760px]:leading-[3.5rem] max-[760px]:pb-4 max-[760px]:text-center ">
                         DESCRIPCIÓN</div>
                     <div class="divisiondos flex flex-col gap-6">
                         <div
@@ -63,7 +63,7 @@
 
                 <div class="text text-left py-24 flex gap-32 px-24 border-t border-b">
                     <div
-                        class="titular max-w-[50ch] text-[30px] leading-[2rem] font-['Domaine-Display'] text-zinc-500 font-bold tracking-normal items-left justify-center max-[2260px]:text-[40px] max-[2260px]:leading-[3rem] max-[1840px]:text-[32px] max-[760px]:text-[26px] max-[760px]:pt-2 max-[760px]:leading-[2rem] max-[760px]:text-[55px] max-[760px]:leading-[3.5rem] max-[760px]:text-center ">
+                        class="titular max-w-[50ch] text-[30px] leading-[2rem] font-['Domaine-Display'] text-zinc-500 font-bold tracking-normal items-left justify-center max-[2260px]:text-[40px] max-[2260px]:leading-[3rem] max-[1840px]:text-[32px] max-[760px]:text-[26px] max-[760px]:pt-2 max-[760px]:leading-[2rem] max-[760px]:text-[60px] max-[760px]:leading-[3.5rem] max-[760px]:pb-4 max-[760px]:text-center ">
                         Tres packaging saludables</div>
 
                     <div
@@ -152,7 +152,7 @@
 
                 <div class="text text-left py-24 flex gap-32 px-24">
                     <div
-                        class="titular max-w-[50ch] text-[60px] leading-[4rem] font-['Domaine-Display'] font-bold tracking-normal items-left justify-center max-[2260px]:text-[40px] max-[2260px]:leading-[3rem] max-[1840px]:text-[32px] max-[760px]:text-[26px] max-[760px]:pt-2 max-[760px]:leading-[2rem] max-[760px]:text-[55px] max-[760px]:leading-[3.5rem] max-[760px]:text-center ">
+                        class="titular max-w-[50ch] text-[60px] leading-[4rem] font-['Domaine-Display'] font-bold tracking-normal items-left justify-center max-[2260px]:text-[40px] max-[2260px]:leading-[3rem] max-[1840px]:text-[32px] max-[760px]:text-[26px] max-[760px]:pt-2 max-[760px]:leading-[2rem] max-[760px]:text-[60px] max-[760px]:leading-[3.5rem] max-[760px]:pb-4 max-[760px]:text-center ">
                         CARAS COMPLETAS</div>
                     <div class="divisiondos flex flex-col gap-6">
 
@@ -182,7 +182,7 @@
 
                 <div class="text text-left py-24 flex gap-32 px-24 border-t">
                     <div
-                        class="titular max-w-[50ch] text-[60px] leading-[4rem] font-['Domaine-Display'] font-bold tracking-normal items-left justify-center max-[2260px]:text-[40px] max-[2260px]:leading-[3rem] max-[1840px]:text-[32px] max-[760px]:text-[26px] max-[760px]:pt-2 max-[760px]:leading-[2rem] max-[760px]:text-[55px] max-[760px]:leading-[3.5rem] max-[760px]:text-center ">
+                        class="titular max-w-[50ch] text-[60px] leading-[4rem] font-['Domaine-Display'] font-bold tracking-normal items-left justify-center max-[2260px]:text-[40px] max-[2260px]:leading-[3rem] max-[1840px]:text-[32px] max-[760px]:text-[26px] max-[760px]:pt-2 max-[760px]:leading-[2rem] max-[760px]:text-[60px] max-[760px]:leading-[3.5rem] max-[760px]:pb-4 max-[760px]:text-center ">
                         TIPOGRAFÍAS, JEARQUÍA E INFORMACIÓN</div>
                     <div class="divisiondos flex flex-col gap-6">
 
