@@ -15,7 +15,8 @@
 
         </div>
         <VueScrollProgressBar background-color="#52525B" />
-        <div class="titular2 flex px-64 gap-32 content-start space-between justify-center pt-20 text-center max-[600px]:px-10 max-[600px]:flex-col max-[600px]:gap-2 max-[600px]:pt-10 max-[1500px]:flex-col max-[1500px]:gap-2 max-[1500px]:items-center max-[1700px]:px-10">
+        <div
+            class="titular2 flex px-64 gap-32 content-start space-between justify-center pt-20 text-center max-[600px]:px-10 max-[600px]:flex-col max-[600px]:gap-2 max-[600px]:pt-10 max-[1500px]:flex-col max-[1500px]:gap-2 max-[1500px]:items-center max-[1700px]:px-10">
             <div
                 class="titular text-[120px] font-['Domaine-Display'] leading-12 font-bold animate-pulse bg-gradient-to-r bg-clip-text text-transparent from-[#b91c1c] via-[#be185d] to-[#fb7185] animate-text max-[600px]:text-[55px] max-[1500px]:text-left max-[1280px]:text-[100px]">
                 MATUTANO</div>
@@ -75,11 +76,9 @@
         </div>
 
         <div
-            class="video flex pt-20 px-64 pb-20 text-zinc-600 flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
-            <video width="1240" height="788" loop autoplay controls>
-                <source src="/img/MatutanoSaludable.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
+            class="video flex pt-20 pb-20 text-zinc-600 flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
+            <img class="image w-full h-full" src="/img/packagingtodos.png" alt="">
+
 
         </div>
         <div
@@ -87,50 +86,24 @@
             <div class="info_proyect max-w-[80ch]">
                 <div class="info_secondary flex flex-col gap-6 sticky top-32 max-[1500px]:gap-12">
                     <div
-                class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-[600px]:text-30px max-[600px]:leading-10 max-[1500px]:text-left">
-                TRES PACKS SALUDABLES</div>
+                        class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-[600px]:text-30px max-[600px]:leading-10 max-[1500px]:text-left">
+                        TRES PACKS SALUDABLES</div>
                     <div
                         class="text text-[20px] font-['SFUIDisplay-Light'] indent-12 text-zinc-900 max-w-[70ch] max-xl:text-sm max-[1500px]:text-[16px] max-[1500px]:max-w-[100ch]">
-                        El trabajo finalmente cuenta con 3 packaging a modo de tótem y juego visual y táctil de combinación
-                        del espectador y un packaging adaptado a otra estructura
-                        diferente de caja para un producto diferente
-                        a la otra gama.
-                        En la gama de los tótem se presentan snacks más ligeros
-                        y baratos. Estos tótem proponen una estructura
-                        de tres cajas cuadradas que al montarlas generan
-                        una estructura rectangular alargada hacia arriba. Estas
-                        piezas están pensadas para poder intercambiarse
-                        entre si en los diferentes productos y que encajen
-                        entre si las ilustraciones y elementos que tiene cada
-                        uno para crear un cadáver exquisito que combine entre
-                        si a la perfección. Esta idea se crea para que el espectador
-                        se encuentre con un packaging diferente a
-                        lo visto anteriormente en snacks y para que pueda
-                        utilizarlo para algo diferente que solo comer y consumir.
-                        Además de estos aspectos el producto también
-                        esta pensado para que a medida que se vaya agotando
-                        el contenido puedas ir quitando las piezas para
-                        acceder mejor al contenido interior sin encajar tu mano
-                        en el producto o dificultarte coger algunos de los
-                        snacks. <br> <br>
-                        <div class="text indent-12">Por otro lado se podrá dar una segunda vida
-                            a este packaging por medio de convertirlo en contenedor
-                            de elementos o como porta-lapices por la estructura
-                            que tiene, funcionando también como caja
-                            para tus pertenencias, o de colección al combinar los
-                            totems posibles. Todos estos aspectos son para crear
-                            en el espectador un juego y una narrativa diferente y
-                            que sean más atractivos estos productos saludables.
-                            A esta idea se le suman todos los demás elementos
-                            de la gráfica como el uso de colores potentes y llamativos
-                            para que estos estén al mismo nivel que los
-                            productos más vendidos de la marca e inciten al público
-                            joven a acercarse a estos. Cuenta con lettering
-                            e ilustraciones originales y animadas con movimiento
-                            e interés para que el público se sienta atraído por estos
-                            productos saludables que carecen de ilustraciones
-                            o elementos dibujados fuera de lo común.</div>
-                        <br>
+                        Totem es un proyecto de identidad y packaging, ideado para el lanzamiento de una marca de snacks
+                        saludables, dirigida a un público joven. La estructura y la gráfica se trabajan desde la
+                        gamificación, buscando conectar con el cliente.
+                        <br><br>
+                        El packaging, formado por 3 piezas que se ensamblan como un totem, se puede reutilizar y
+                        coleccionar, y facilita el acceso al contenido al desmontarse a medida que disminuye.
+                        <br><br>
+                        La gráfica propone una imagen divertida y modernizada, evitando la idea de que lo saludable es
+                        aburrido. Los ingredientes principales se convierten en mascotas, que podrían cobrar vida en
+                        publicidad y merchan, y se diseñan letterings e ilustraciones para la gama de sabores, basadas
+                        en patrones gráficos de colores vivos y saturados, estudiados para que encajen entre las
+                        distintas piezas.
+                        <br><br>
+
                         <div class="text indent-12">Mi idea durante todo el proyecto ha sido hacer más
                             accesible, llamativos e interesantes un tipo de productos
                             tan aburridos y plantearlos como un bestseller
@@ -152,22 +125,7 @@
                             unas composiciones que no pequen de infantiles
                             si no que sean amables y potentes visualmente.</div>
                         <br>
-                        <div class="text indent-12">El 3 pack que creo a raíz de esta gráfica no tiene este
-                            juego de packaging pero sigue la linea de la gráfica
-                            adaptada a un formato de caja alargado y más bajo
-                            de altura, en el que cabe menos producto debido
-                            a que se trata de las frambuesas liofilizadas un snack
-                            algo más caro que los anteriores snacks y el cual dispondrá
-                            de menos cantidad que los anteriores.
-                            En conjunto se crea una gráfica muy coherente y
-                            conjunta que funciona debido a la elección de los colores
-                            por cada producto individual pero que consigan
-                            funcionar en conjunto, por el juego del lettering
-                            y las ilustraciones todas siguiendo una filosofía de
-                            conjunto entre si y estructuras parecidas y similares,
-                            además de construir todo siguiendo unos módulos e
-                            ideas similares y que todo tenga unión y cohesión sin
-                            que nada se descuelgue del sistema.</div>
+
                     </div>
                 </div>
             </div>
@@ -178,7 +136,8 @@
             </div>
         </div>
 
-        <div class="titular2 flex px-64 pb-24 gap-64 pt-32 content-start space-between justify-center pt-20 text-center max-[600px]:px-10 max-[600px]:flex-col max-[600px]:gap-2 max-[600px]:pt-10 max-[600px]:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:px-60 max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+        <div
+            class="titular2 flex px-64 pb-24 gap-64 pt-32 content-start space-between justify-center pt-20 text-center max-[600px]:px-10 max-[600px]:flex-col max-[600px]:gap-2 max-[600px]:pt-10 max-[600px]:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:px-60 max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-[600px]:text-30px max-[600px]:leading-10 max-[1500px]:text-left">
                 CARAS <br> COMPLETAS</div>
@@ -195,28 +154,58 @@
                     Muestra del packaging
                     final con todas
                     sus caras embolventes viendo como el patrón continua y se va formando por todo el packaging.
-                    Esta composición final, se puede ver con todas sus caras, contando con una principal donde vemos el letterin, la mascota y
-                    de donde se origina la explosión de elementos y marañas. En la parte izquierda todos los elementos de nutrición y valores energéticos además de información del producto.
-                    La parte inferior para otros detalles, logos y cógido de barras. Las otras caras con sus respectivas marañas que coincidiaran con los otros packagings creados. La parte superior finalizará esta composición coincidiendo con todas las caras.
+                    Esta composición final, se puede ver con todas sus caras, contando con una principal donde vemos el
+                    letterin, la mascota y
+                    de donde se origina la explosión de elementos y marañas. En la parte izquierda todos los elementos
+                    de nutrición y valores energéticos además de información del producto.
+                    La parte inferior para otros detalles, logos y cógido de barras. Las otras caras con sus respectivas
+                    marañas que coincidiaran con los otros packagings creados. La parte superior finalizará esta
+                    composición coincidiendo con todas las caras.
                 </div>
 
             </div>
-            
+
         </div>
 
         <div
-            class="images pt-20 px-64 pb-10 text-zinc-600 content-center items-center justify-center flex flex-col gap-4 max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4 max-[600px]:px-10 max-[1500px]:p-0">
+            class="grid grid-cols-3 gap-2 items-center justify-items-center px-64 pb-32 max-[600px]:px-10 max-[1280px]:p-10 max-[1500px]:px-60">
 
-            
+            <img class="image_grid w-full h-full" src="/img/gifframbuesa2.gif" alt="">
+            <img class="image_grid w-full h-full" src="/img/gifverduras2.gif" alt="">
+            <img class="image_grid w-full h-full" src="/img/gifgarbanzos2.gif" alt="">
 
-            <div class="grid grid-cols-1 items-center justify-center content-center max-[600px]:px-0 max-[1280px]:px-0 max-[1500px]:px-60">
-                <img class="image_grid w-[1450px] pb-4" src="/img/troquel1.png" alt="">
-                <img class="image_grid w-[1450px] pt-4 pb-6" src="/img/troquel2.png" alt="">
-                <img class="image_grid w-[1450px] pt-4 max-xl:pb-12" src="/img/troquel4.png" alt="">
-            </div>
+
         </div>
 
-        <div class="titular2 flex px-64 pb-24 gap-64 pt-32 content-start space-between justify-center pt-20 text-center max-[600px]:px-10 max-[600px]:flex-col max-[600px]:gap-2 max-[600px]:pt-10 max-[600px]:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+        <div
+            class="grid grid-cols-1 gap-2 items-center justify-items-center px-64 pb-12 max-[600px]:px-10 max-[1280px]:p-10 max-[1500px]:px-60">
+
+            <Carousel class="carousel max-w-[1200px]">
+
+                <Slide v-for="slide in 1" :key="slide">
+                    <img class="image_grid w-full h-full" src="/img/troquel1.png" alt="">
+
+                </Slide>
+                <Slide v-for="slide in 1" :key="slide">
+                    <img class="image_grid w-full h-full" src="/img/troquel2.png" alt="">
+
+                </Slide>
+                <Slide v-for="slide in 1" :key="slide">
+                    <img class="image_grid w-full h-full" src="/img/troquel4.png" alt="">
+
+                </Slide>
+
+                <template #addons>
+                    <Navigation />
+                    <Pagination />
+                </template>
+            </Carousel>
+
+        </div>
+
+
+        <div
+            class="titular2 flex px-64 pb-2 gap-64 pt-32 content-start space-between justify-center pt-20 text-center max-[600px]:px-10 max-[600px]:flex-col max-[600px]:gap-2 max-[600px]:pt-10 max-[600px]:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-[600px]:text-30px max-[600px]:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center">
                 TIPOGRAFÍA, <br> JERARQUÍAS<br>E INFORMACIÓN</div>
@@ -231,52 +220,91 @@
                 <div
                     class="text max-w-[80ch] pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
                     Tipografía, jerarquía y
-                colores utilizados para cada uno de los packaging en la información nutricional y elementos técnicos. Muestra de la cara de cada packaging con la información
-                nutricional y con la cara de abajo.
+                    colores utilizados para cada uno de los packaging en la información nutricional y elementos
+                    técnicos. Muestra de la cara de cada packaging con la información
+                    nutricional y con la cara de abajo.
                 </div>
 
             </div>
-            
+
         </div>
 
+        <img class="image_grid w-full h-full px-72 items-center justify-center max-[600px]:px-0 max-[1280px]:p-0"
+            src="/img/3frutaslettering.png" alt="">
 
-            <div class="grid grid-cols-1 items-center justify-center px-64 pb-12 max-[600px]:px-10 max-[1280px]:p-10 max-[1500px]:px-60">
-                <img class="image_grid w-full h-full items-center justify-center max-[600px]:px-0 max-[1280px]:p-0" src="/img/tipografiapackaging.png" alt="">
+        <img class="image_grid w-full h-full pb-32 px-72 items-center justify-center max-[600px]:px-0 max-[1280px]:p-0"
+            src="/img/lettering.png" alt="">
 
-            </div>
+        <img class="image_grid px-72 pb-32 w-full h-full items-center justify-center max-[600px]:px-0 max-[1280px]:p-0"
+            src="/img/3frutas.png" alt="">
 
-            <div class="grid grid-cols-3 px-64 grid-rows-2 gap-12 max-xl:grid-cols-1 max-xl:pt-10 max-[1280px]:px-10 max-[1280px]:pb-12 max-[1500px]:p-10 max-[1500px]:px-60">
-
-                <img class="image_grid w-full h-full border border-[#fccd47]" src="/img/Caras-02.png" alt="">
-                <img class="image_grid w-full h-full border border-[#fccd47]" src="/img/Caras-03.png" alt="">
-                <img class="image_grid w-full h-full border border-[#fccd47]" src="/img/Caras-04.png" alt="">
-                <img class="image_grid w-full h-full border border-[#fccd47]" src="/img/Caras-05.png" alt="">
-                <img class="image_grid w-full h-full border border-[#fccd47]" src="/img/Caras-06.png" alt="">
-                <img class="image_grid w-full h-full border border-[#fccd47]" src="/img/Caras-07.png" alt="">
-            </div>
 
         <div
-            class="images pt-20 px-60 pb-20 text-white justify-center content-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4 max-[1500px]:px-60">
+            class="images pt-20 pb-20 text-white justify-center content-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4 max-[1500px]:px-60">
 
-            <img src="/img/packruben.png" alt="" class="foto justify-center content-center w-full h-full">
+            <img src="/img/todospackaging.png" alt="" class="foto justify-center content-center w-full h-full">
         </div>
 
-        <div class="grid grid-cols-3 gap-2 px-60 pb-32 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60">
+        <div
+            class="grid grid-cols-3 gap-32 px-60 pb-4 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60">
+
+            <div class="div text-zinc-600 text-center text-xs m-0 pb-14 max-xl:pb-10">Render 3D con iluminación y
+                colores
+                <br>
+                <div
+                    class="div text-[#FFB047] text-center text-lg m-0 animate-pulse font-['Domaine-Display'] uppercase">
+                    Snacks
+                    Garbanzo Spicy</div>
+            </div>
+
             <div class="div text-zinc-600 text-center text-xs m-0 pb-14 max-xl:pb-4">Render 3D con iluminación y colores
                 <br>
-                <div class="div text-[#F3536D] text-center text-lg m-0 animate-pulse font-['Domaine-Display'] uppercase">Frambuesa Liofilizada</div>
+                <div
+                    class="div text-[#F3536D] text-center text-lg m-0 animate-pulse font-['Domaine-Display'] uppercase">
+                    Frambuesa Liofilizada</div>
             </div>
+
             <div class="div text-zinc-600 text-center text-xs m-0 pb-14 max-xl:pb-4">Render 3D con iluminación y colores
                 <br>
-                <div class="div text-[#FBCE37] text-center text-lg m-0 animate-pulse font-['Domaine-Display'] uppercase">Snacks de verduras</div>
+                <div
+                    class="div text-[#FBCE37] text-center text-lg m-0 animate-pulse font-['Domaine-Display'] uppercase">
+                    Snacks
+                    de verduras</div>
             </div>
-            <div class="div text-zinc-600 text-center text-xs m-0 pb-14 max-xl:pb-10">Render 3D con iluminación y colores
-                <br>
-                <div class="div text-[#FFB047] text-center text-lg m-0 animate-pulse font-['Domaine-Display'] uppercase">Snacks Garbanzo Spicy</div>
+
+        </div>
+
+        <div
+            class="titular2 flex px-64 pb-24 gap-64 pt-32 content-start space-between justify-center pt-20 text-center max-[600px]:px-10 max-[600px]:flex-col max-[600px]:gap-2 max-[600px]:pt-10 max-[600px]:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:px-60 max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            <div
+                class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-[600px]:text-30px max-[600px]:leading-10 max-[1500px]:text-left">
+                INTERCAMBIO <br> DE PIEZAS</div>
+            <div
+                class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[600px]:px-0 max-[1280px]:p-0">
+
+                <div
+                    class="text max-w-[60ch] text-[16px] uppercase text-zinc-900 max-xl:leading-2 max-xl:text-xs max-xl:text-center max-[600px]:order-last max-[1280px]:text-left">
+                    <a class="type text">INTERCAMBIO DE PIEZAS ENTRE LOS PACKS</a>
+                </div>
+                <div
+                    class="text max-w-[80ch] pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                    Una de las ideas de este packaging es crear un juego visual en el espectador y poder incluso
+                    coleccionarlos
+                    e intercambiar las diferentes piezas de cada totem, a modo de exposición. Incluso poder usar cada
+                    uno de los
+                    packagings como contenedor de otras cosas una vez terminado el contenido de estos.
+                </div>
+
             </div>
-            <img class="image_grid w-full h-full" src="/img/Packagingruben3.png" alt="">
-            <img class="image_grid w-full h-full" src="/img/Packagingruben2.png" alt="">
-            <img class="image_grid w-full h-full" src="/img/Packagingruben1.png" alt="">
+
+        </div>
+
+        <div
+            class="grid grid-cols-3 gap-2 px-60 pb-32 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60">
+
+            <img class="image_grid w-full h-full" src="/img/combinación1.png" alt="">
+            <img class="image_grid w-full h-full" src="/img/combinación2.png" alt="">
+            <img class="image_grid w-full h-full" src="/img/combinación3.png" alt="">
 
         </div>
 
@@ -349,8 +377,12 @@
 
     </div>
 </template>
-  
+
 <script>
+
+import 'vue3-carousel/dist/carousel.css'
+import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
+
 export default {
     mounted() {
         this.$nextTick(() => {
@@ -362,15 +394,23 @@ export default {
             newVideo.play();
         });
     },
+    name: 'Basic',
+    components: {
+        Carousel,
+        Slide,
+        Pagination,
+        Navigation,
+    },
 };
+
 
 import PlvPointer from "/components/Cursor.vue";
 
 </script>
 
 <style lang="sass" scoped>
-  
-  
+
+
   .email
     &:hover
       @apply text-zinc-300
