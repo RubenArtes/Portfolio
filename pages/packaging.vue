@@ -170,9 +170,9 @@
         <div
             class="grid grid-cols-3 gap-2 items-center justify-items-center px-64 pb-32 max-[600px]:px-10 max-[1280px]:p-10 max-[1500px]:px-60 max-[800px]:grid-cols-1">
 
-            <img class="image_grid w-full h-full" src="/img/gifframbuesa2.gif" alt="">
-            <img class="image_grid w-full h-full" src="/img/gifverduras2.gif" alt="">
-            <img class="image_grid w-full h-full" src="/img/gifgarbanzos2.gif" alt="">
+            <img class="image_grid w-full h-full" src="/img/nuevoframbuesa.gif" alt="">
+            <img class="image_grid w-full h-full" src="/img/nuevoverduras.gif" alt="">
+            <img class="image_grid w-full h-full" src="/img/nuevogarbanzos.gif" alt="">
 
 
         </div>
@@ -229,6 +229,7 @@
 
         </div>
 
+
         <img class="image_grid w-full h-full px-72 items-center justify-center max-[600px]:px-0 max-[1280px]:p-0"
             src="/img/3frutaslettering.png" alt="">
 
@@ -275,7 +276,7 @@
         </div>
 
         <div
-            class="titular2 flex px-64 pb-24 gap-64 pt-32 content-start space-between justify-center pt-20 text-center max-[600px]:px-10 max-[600px]:flex-col max-[600px]:gap-2 max-[600px]:pt-10 max-[600px]:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:px-60 max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 flex px-64 pb-2 gap-64 pt-32 content-start space-between justify-center pt-20 text-center max-[600px]:px-10 max-[600px]:flex-col max-[600px]:gap-2 max-[600px]:pt-10 max-[600px]:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:px-60 max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-[600px]:text-30px max-[600px]:leading-10 max-[1500px]:text-left">
                 INTERCAMBIO <br> DE PIEZAS</div>
@@ -298,6 +299,8 @@
             </div>
 
         </div>
+
+        <img class="image_grid w-full h-full pb-20" src="/img/gifintercambio.gif" alt="">
 
         <div
             class="grid grid-cols-3 gap-2 px-60 pb-32 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60">
