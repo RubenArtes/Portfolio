@@ -301,7 +301,7 @@
         </div>
 
         <div
-            class="titular2 flex justify-center }w-full h-full">
+            class="titular2 flex justify-center w-full h-full">
 
 
         <video class="pb-20 justify-items-center content-center justify-center w-full h-full" loop autoplay>
