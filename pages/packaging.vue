@@ -21,7 +21,7 @@
                 class="titular text-[120px] font-['Domaine-Display'] leading-12 font-bold animate-pulse bg-gradient-to-r bg-clip-text text-transparent from-[#b91c1c] via-[#be185d] to-[#fb7185] animate-text max-[600px]:text-[55px] max-[1500px]:text-left max-[1280px]:text-[100px]">
                 MATUTANO</div>
             <div
-                class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[600px]:pt-6 max-[600px]:pb-16 max-[600px]:px-0 max-[1280px]:items-center max-[1280px]:pt-6 max-[1280px]:pb-20">
+                class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[600px]:pt-6 max-[600px]:pb-16 max-[600px]:px-0 max-[1280px]:items-center max-[1280px]:pt-6 max-[1280px]:pb-0">
 
                 <div
                     class="text max-w-[60ch] text-[16px] uppercase text-zinc-900 max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
@@ -29,7 +29,7 @@
                     Matutano - Packaging - Marca -
                     Diseño Gráfico</div>
                 <div
-                    class="text max-w-[80ch] pb-16 pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:max-w-[100ch]">
+                    class="text max-w-[80ch] pb-16 pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:max-w-[100ch] max-[800px]:pb-4">
                     El proyecto consistirá en el
                     diseño de una gama
                     de productos para una marca existente (Matutano), generando
@@ -76,7 +76,7 @@
         </div>
 
         <div
-            class="video flex pt-20 pb-20 text-zinc-600 flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
+            class="video flex pt-20 pb-20 text-zinc-600 flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
             <img class="image w-full h-full" src="/img/packagingtodos.png" alt="">
 
 
@@ -168,7 +168,7 @@
         </div>
 
         <div
-            class="grid grid-cols-3 gap-2 items-center justify-items-center px-64 pb-32 max-[600px]:px-10 max-[1280px]:p-10 max-[1500px]:px-60">
+            class="grid grid-cols-3 gap-2 items-center justify-items-center px-64 pb-32 max-[600px]:px-10 max-[1280px]:p-10 max-[1500px]:px-60 max-[800px]:grid-cols-1">
 
             <img class="image_grid w-full h-full" src="/img/gifframbuesa2.gif" alt="">
             <img class="image_grid w-full h-full" src="/img/gifverduras2.gif" alt="">
@@ -235,18 +235,18 @@
         <img class="image_grid w-full h-full pb-32 px-72 items-center justify-center max-[600px]:px-0 max-[1280px]:p-0"
             src="/img/lettering.png" alt="">
 
-        <img class="image_grid px-72 pb-32 w-full h-full items-center justify-center max-[600px]:px-0 max-[1280px]:p-0"
+        <img class="image_grid px-72 pb-32 w-full h-full items-center justify-center max-[600px]:px-0 max-[1280px]:p-0 max-[800px]:pt-12"
             src="/img/3frutas.png" alt="">
 
 
         <div
-            class="images pt-20 pb-20 text-white justify-center content-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4 max-[1500px]:px-60">
+            class="images pt-20 pb-20 text-white justify-center content-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4 max-[1500px]:px-60 max-[800px]:px-0 max-[800px]:pt-12">
 
             <img src="/img/todospackaging.png" alt="" class="foto justify-center content-center w-full h-full">
         </div>
 
         <div
-            class="grid grid-cols-3 gap-32 px-60 pb-4 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60">
+            class="grid grid-cols-3 gap-32 px-60 pb-4 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-[800px]:gap-2">
 
             <div class="div text-zinc-600 text-center text-xs m-0 pb-14 max-xl:pb-10">Render 3D con iluminación y
                 colores
