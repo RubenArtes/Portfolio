@@ -81,10 +81,10 @@
       saber más de el»
     </div>
     <div class="trabajos justify-center w-auto">
-      <div class="grid grid-cols-4 max-[2500px]:grid-cols-3 max-[1450px]:grid-cols-2 max-[760px]:grid-cols-1 max-[760px]:divide-y">
+      <div class="grid grid-cols-4 max-[2500px]:grid-cols-3 max-[1450px]:grid-cols-2 max-[760px]:grid-cols-1 max-[760px]:divide-y max-[760px]:order-t-1 max-[760px]:border-solid max-[760px]:border-black">
         <NuxtLink to="/packaging">
           <div
-            class="trabajo1 border border-solid border-r-0 px-16 py-30 flex flex-col justify-center hover:bg-[url('/img/giframbuesa_1.gif')] bg-cover bg-center hover:text-black max-[1840px]:px-16 max-[760px]:px-8 max-[760px]:pb-20 max-[760px]:max-h-[800px] max-[760px]:pt-20 max-[760px]:bg-[#111515] max-[760px]:border-solid max-[760px]:border-0 max-[760px]:text-white">
+            class="trabajo1 border border-solid border-r-0 px-16 py-30 flex flex-col justify-center hover:bg-[url('/img/giframbuesa_1.gif')] bg-cover bg-center hover:text-black max-[1840px]:px-16 max-[760px]:px-8 max-[760px]:pb-20 max-[760px]:max-h-[800px] max-[760px]:pt-20 max-[760px]:w-full max-[760px]:bg-[url('/img/videoframbuesaiphone.gif')] max-[760px]:border-black max-[760px]:border-t-1 max-[760px]:border-solid max-[760px]:border-0 max-[760px]:text-[#961E32]">
             <div
             class="text text-center text-[70px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-[2260px]:text-[70px] max-[2260px]:leading-[4rem] max-[1840px]:text-[50px] max-[760px]:text-[26px] max-[760px]:pt-2 max-[760px]:leading-[2rem] max-[760px]:text-[60px] max-[760px]:leading-[3.5rem] max-[760px]:pb-4 max-[760px]:text-center">
               MATUTANO <br />
