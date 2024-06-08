@@ -300,7 +300,10 @@
 
         </div>
 
-        <img class="image_grid w-full h-full pb-20" src="/img/gifintercambio.gif" alt="">
+        <video class="pb-20" width="full" height="full" loop autoplay>
+                <source src="/img/videointercambio.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
 
         <div
             class="grid grid-cols-3 gap-2 px-60 pb-32 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60">
