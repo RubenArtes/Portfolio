@@ -1,5 +1,5 @@
 <template>
-    <div class="container max-w-[300px] flex justify-center items-center text-center">
+    <div class="container max-w-[500px] flex justify-center items-center text-center">
       <h1>
         
         <span class="typed-text">{{ typeValue }}</span>
@@ -78,8 +78,8 @@
 
   }
   h1 {
-    font-size: 4rem;
-    letter-spacing: -3px;
+    font-size: 2.5rem;
+    letter-spacing: -1px;
     font-stretch: normal;
 
     @media (max-width: 2000px){
@@ -113,7 +113,7 @@
   
   // Cursor blinking CSS Starts...
   .blinking-cursor {
-    font-size: 6rem;
+    font-size: 2.5rem;
     color: #27272A;
     -webkit-animation: 1s blink step-end infinite;
     -moz-animation: 1s blink step-end infinite;

@@ -219,10 +219,11 @@
                 </div>
                 <div
                     class="text max-w-[80ch] pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
-                    Tipografía, jerarquía y
-                    colores utilizados para cada uno de los packaging en la información nutricional y elementos
-                    técnicos. Muestra de la cara de cada packaging con la información
-                    nutricional y con la cara de abajo.
+                    Los letterings principales de cada uno de los packs fueron creados a raiz de la forma que los
+                    personajes
+                    formaban con su silueta. Se crea un lettering entretenido pero legible para cada uno con sus colores
+                    principales.
+                    Las mascotas son una creación animada de los snacks mencionados.
                 </div>
 
             </div>
@@ -300,11 +301,10 @@
 
         </div>
 
-        <div
-            class="titular2 flex justify-center w-full h-full">
+        <div class="titular2 flex justify-center w-full h-full">
 
 
-        <video class="pb-20 justify-items-center content-center justify-center w-full h-full" loop autoplay>
+            <video class="pb-20 justify-items-center content-center justify-center w-full h-full" loop autoplay>
                 <source src="/img/videointercambio.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -317,6 +317,79 @@
             <img class="image_grid w-full h-full" src="/img/combinación1.png" alt="">
             <img class="image_grid w-full h-full" src="/img/combinación2.png" alt="">
             <img class="image_grid w-full h-full" src="/img/combinación3.png" alt="">
+
+        </div>
+
+        <div
+            class="titular2 flex px-64 pb-40 gap-64 pt-24 content-start space-between justify-center pt-20 text-center max-[600px]:px-10 max-[600px]:flex-col max-[600px]:gap-2 max-[600px]:pt-10 max-[600px]:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:px-60 max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            <div
+                class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-[600px]:text-30px max-[600px]:leading-10 max-[1500px]:text-left">
+                BOCETOS <br> Y CREACIÓN</div>
+            <div
+                class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[600px]:px-0 max-[1280px]:p-0">
+
+                <div
+                    class="text max-w-[60ch] text-[16px] uppercase text-zinc-900 max-xl:leading-2 max-xl:text-xs max-xl:text-center max-[600px]:order-last max-[1280px]:text-left">
+                    <a class="type text">BOCETOS Y PROCESO DE LOS PACKS</a>
+                </div>
+                <div
+                    class="text max-w-[80ch] pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                    Para crear los packs y que todos coincidan entre sí había que crear una reticula común o patrón del
+                    que
+                    partir para que todo encajase entre sí. La cara principal mantiene la misma estructura en los 3, con
+                    el
+                    personaje en el centro
+                    y el lettering en la zona inferior.
+                </div>
+
+            </div>
+
+        </div>
+
+        <div
+            class="grid grid-cols-2 gap-2 items-center justify-items-center px-64 pb-32 max-[600px]:px-10 max-[1280px]:p-10 max-[1500px]:px-60 max-[780px]:grid-cols-1">
+
+            <Carousel class="carousel max-w-[320px]">
+
+                <Slide v-for="slide in 1" :key="slide">
+                    <img class="image_grid w-full h-full" src="/img/bocetov1.png" alt="">
+
+                </Slide>
+                <Slide v-for="slide in 1" :key="slide">
+                    <img class="image_grid w-full h-full" src="/img/bocetog1.png" alt="">
+
+                </Slide>
+                <Slide v-for="slide in 1" :key="slide">
+                    <img class="image_grid w-full h-full" src="/img/bocetof1.png" alt="">
+
+                </Slide>
+
+                <template #addons>
+                    <Navigation />
+                    <Pagination />
+                </template>
+            </Carousel>
+
+            <Carousel class="carousel max-w-[1000px]">
+
+                <Slide v-for="slide in 1" :key="slide">
+                    <img class="image_grid w-full h-full" src="/img/bocetov2.png" alt="">
+
+                </Slide>
+                <Slide v-for="slide in 1" :key="slide">
+                    <img class="image_grid w-full h-full" src="/img/bocetog2.png" alt="">
+
+                </Slide>
+                <Slide v-for="slide in 1" :key="slide">
+                    <img class="image_grid w-full h-full" src="/img/bocetof2.png" alt="">
+
+                </Slide>
+
+                <template #addons>
+                    <Navigation />
+                    <Pagination />
+                </template>
+            </Carousel>
 
         </div>
 
