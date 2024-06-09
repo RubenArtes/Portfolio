@@ -397,12 +397,12 @@
       <div class="servicios_ofrecidos flex flex-col gap-6 pt-6">
         <div class="servicio flex flex-col gap-6">
           <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400">
-            Soy un estudiante de 23 años, actualmente cursando 4º en un grado
+            Soy un estudiante de 23 años, actualmente terminando un grado
             Universitario de Diseño Gráfico en la Escuela Superior De Diseño de
-            Madrid
+            Madrid.
             <a class="animate-pulse texto_type italic text-xs text-black">(Nota media - 9).</a>
             <br />
-            Cuento con un Grado Superior de Ilustración
+            Grado Superior de Ilustración
             <a class="texto_type italic text-xs text-black animate-pulse">(Nota TFG - 9).</a>
             <br />
             <br />
@@ -446,7 +446,7 @@
             → Diseñador Freelance por horas para empresas.
             <a class="bold text-xs text-black">- (2 meses)</a> <br />
             → Trabajo en practicas de empresa extracurriculares
-            <a class="bold animate-pulse font-bold text-black">Garrido Gallery</a>
+            <a class="bold animate-pulse font-bold text-black" href="https://www.garridogallery.com/" >Garrido Gallery</a>
             (Empresa de diseños y piezas de arte de lujo)<a class="bold text-xs text-black">- (9 meses)</a>
             <br />
             <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; →
