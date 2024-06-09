@@ -32,7 +32,7 @@
       class="trabajos px-64 flex pt-16 pb-12 text-zinc-800 flex-col items-left gap-10 items-left max-lg:pt-16 max-lg:px-10 max-lg:flex-col max-lg:justify-center max-lg:gap-2 max-lg:justify-items-center max-[1080px]:px-20 max-[1080px]:pb-14 max-[720px]:px-4 max-[510px]:px-2 max-[510px]:pt-16 max-[510px]:pb-8">
       <div class="titular_flex pt-12 flex flex-col max-lg:items-center max-lg:flex max-[2000px]:px-0 max-[510px]:pt-2">
         <div
-          class="titular gap-4 leading-[12rem] text-[200px] font-['SFUIDisplay-Regular'] font-bold tracking-tight flex flex-col items-center text-center justify-center max-[2000px]:text-[160px] max-[1080px]:text-[120px] max-[720px]:text-[80px] max-[510px]:text-[50px] max-[760px]:text-[70px] max-[760px]:leading-[3rem] max-[760px]:font-['SFUIDisplay-Bold']">
+          class="titular gap-4 leading-[12rem] text-[200px] font-['SFUIDisplay-Regular'] font-bold tracking-tight flex flex-col items-center text-center justify-center max-[2000px]:text-[140px] max-[1800px]:text-[100px] max-[1470px]:text-[80px] max-[510px]:text-[50px] max-[760px]:text-[70px] max-[760px]:leading-[3rem] max-[760px]:font-['SFUIDisplay-Bold']">
           RUBÉN MALDONADO
           <br />
           <Text></Text>
