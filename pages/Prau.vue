@@ -1,8 +1,8 @@
 <template>
-    <div class="app bg-[#EAEEF5] font-['SFUIDisplay-Regular']">
+    <div class="app bg-white font-['SFUIDisplay-Regular']">
         <Cursor />
         <div
-            class="header bg-[#EAEEF5] p-10 flex px-24 text-black justify-between sticky top-0 z-10 max-lg:p-6 max-lg:sticky border border-b-0">
+            class="header bg-white p-10 flex px-24 text-black justify-between sticky top-0 z-10 max-lg:p-6 max-lg:sticky border border-b-0">
             <div class="image flex flex-start justify-items-start">
                 <NuxtLink to="/">
                     <img class="max-lg:max-w-[15px]" src="/img/Vectorblack.svg">
@@ -19,16 +19,16 @@
             class="titular2 flex px-64 gap-32 content-start space-between justify-center pt-20 text-center max-[600px]:px-10 max-[600px]:flex-col max-[600px]:gap-2 max-[600px]:pt-10 max-[1500px]:flex-col max-[1500px]:gap-2 max-[1500px]:items-center max-[1700px]:px-10">
             <div
                 class="titular text-[120px] font-['Domaine-Display'] leading-12 font-bold animate-pulse bg-gradient-to-r bg-clip-text text-transparent from-[#311568] via-[#4797ff] to-[#311568] animate-text max-[600px]:text-[55px] max-[1500px]:text-left max-[1280px]:text-[100px]">
-                PRAU</div>
+                MARCA PRAU</div>
             <div
-                class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[600px]:pt-6 max-[600px]:pb-16 max-[600px]:px-0 max-[1280px]:items-center max-[1280px]:pt-6 max-[1280px]:pb-20">
+                class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[600px]:pt-6 max-[600px]:pb-16 max-[600px]:px-0 max-[1280px]:items-center max-[1280px]:pt-6 max-[1280px]:pb-0">
 
                 <div
                     class="text max-w-[60ch] text-[16px] uppercase text-zinc-900 max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
                     Diseño Prau - Packaging - Marca -
                     Diseño Gráfico</div>
                 <div
-                    class="text max-w-[80ch] pb-16 pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:max-w-[100ch]">
+                    class="text max-w-[80ch] pb-16 pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:max-w-[100ch] max-[800px]:pb-4">
                     Este trabajo consiste en
                     realizar una identidad visual de un distribuidor de productos y alimentos de km0, que cumplan ciertas
                     condiciones, como productos de buena calidad y relación calidad precio y que sean productos artesanos y
@@ -68,18 +68,16 @@
                     class="text max-w-[60ch] font-['Domaine-Display'] text-center text-[24px] uppercase leading-10 text-zinc-800 max-xl:text-xs">
                     Briefing</div>
                 <div
-                    class="text max-w-[30ch] text-center font-['SFUIDisplay-Light']  text-[16px] leading-6 text-zinc-900 max-xl:text-sm max-xl:max-w-[40ch]">
-                    Productos KM0, responsables con el medioambiente y lo natural.
+                    class="text max-w-[20ch] text-center font-['SFUIDisplay-Light']  text-[16px] leading-6 text-zinc-900 max-xl:text-sm max-xl:max-w-[40ch]">
+                    Productos KM0
                 </div>
             </div>
         </div>
 
         <div
-            class="video flex pt-20 px-64 pb-20 text-zinc-600 flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
-            <video class="" width="1240" height="788" loop autoplay controls>
-                <source src="/img/prau.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
+            class="video flex pt-20 pb-20 text-zinc-600 flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
+            <img class="image w-full h-full" src="/img/finalprau.jpg" alt="">
+
 
         </div>
         <div
@@ -117,9 +115,8 @@
                 </div>
             </div>
             <div class="fotografias flex flex-col gap-6 h-min">
-                <img class="image_rect border border-zinc-500 w-[550px] bg-white" src="/img/vino3.png" alt="">
-                <img class="image_rect border border-zinc-500 w-[550px] bg-white" src="/img/vino2.png" alt="">
-                <img class="image_rect w-[550px]" src="/img/vino1.png" alt="">
+                <img class="image_rect shadow-md border w-[550px]" src="/img/finaltrasera.png" alt="">
+                <img class="image_rect shadow-md border w-[550px]" src="/img/finaldelantera.png" alt="">
             </div>
         </div>
 
@@ -127,12 +124,16 @@
             class="titular2 flex px-64 pb-24 gap-64 pt-32 content-start space-between justify-center pt-20 text-center max-[600px]:px-10 max-[600px]:flex-col max-[600px]:gap-2 max-[600px]:pt-10 max-[600px]:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:px-60 max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-[600px]:text-30px max-[600px]:leading-10 max-[1500px]:text-left">
-                MERMELADAS</div>
+                MERMELADA <br> DE NARANJA</div>
             <div
                 class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[600px]:px-0 max-[1280px]:p-0">
 
                 <div
-                    class="text max-w-[80ch] text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                    class="text max-w-[60ch] text-[16px] uppercase text-zinc-900 max-xl:leading-2 max-xl:text-xs max-xl:text-center max-[600px]:order-last max-[1280px]:text-left">
+                    <a class="type text-[#FFB047]">TARROS DE MERMELADA DE NARANJA</a>
+                </div>
+                <div
+                    class="text max-w-[80ch] pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
                     Etiqueta para el apartado de mermelada,
                     muestra de la etiqueta y como se integra
                     en el packaging de forma embolvente teniendo en cuenta los espaciados, colocación de los textos y
@@ -144,32 +145,42 @@
         </div>
 
         <div
-            class="images pt-20 px-64 pb-10 text-zinc-600 content-center items-center justify-center flex flex-col gap-4 max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4 max-[600px]:px-10 max-[1500px]:p-0">
+        class="images pt-20 pb-12 text-white justify-center content-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4 max-[1500px]:px-60 max-[800px]:px-0 max-[800px]:pt-12">
 
+            <img class="image_grid w-full h-full" src="/img/mockupmer_3.png" alt="">
 
-            <div class="grid grid-cols-1">
-                <img class="image_grid w-full h-full" src="/img/mermelada.png" alt="">
-            </div>
-
-
-            <div
-                class="grid grid-cols-1 items-center justify-center content-center max-[600px]:px-0 max-[1280px]:px-0 max-[1500px]:px-60">
-                <img class="image_grid w-full h-full pb-4" src="/img/mockupmer.png" alt="">
-                <img class="image_grid w-full h-full pt-4 pb-6" src="/img/mockupmer_2.png" alt="">
-                <img class="image_grid w-full h-full pt-4 max-xl:pb-12" src="/img/mockupmer_3.png" alt="">
-            </div>
         </div>
 
         <div
-            class="titular2 flex px-64 pb-24 gap-64 pt-32 content-start space-between justify-center pt-20 text-center max-[600px]:px-10 max-[600px]:flex-col max-[600px]:gap-2 max-[600px]:pt-10 max-[600px]:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="grid grid-cols-2 items-center justify-items-center pb-12 max-[600px]:px-0 max-[600px]:grid-cols-1 max-[1280px]:p-10 max-[1500px]:px-60">
+
+            <img class="image_grid border-t border-b w-full h-full max-[600px]:border-b-0" src="/img/etiquetafrontal.png" alt="">
+            <img class="image_grid border-t border-b w-full h-full" src="/img/etiquetatrasera.png" alt="">
+
+        </div>
+
+        <div class="div text-zinc-600 text-center text-xs m-0 pb-14 max-xl:pb-4">Etiqueta final envolvente con información
+                <br>
+                <div
+                    class="div text-[#FFB047] text-center text-lg m-0 animate-pulse font-['Domaine-Display'] uppercase">
+                    MERMELADA DE NARANJA</div>
+            </div>
+
+
+        <div
+            class="titular2 flex px-64 pb-2 gap-64 pt-32 content-start space-between justify-center pt-20 text-center max-[600px]:px-10 max-[600px]:flex-col max-[600px]:gap-2 max-[600px]:pt-10 max-[600px]:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-[600px]:text-30px max-[600px]:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center">
-                VINOS</div>
+                VINO <br> CLARETE</div>
             <div
                 class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[1280px]:p-0">
 
                 <div
-                    class="text max-w-[80ch] text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                    class="text max-w-[60ch] text-[16px] uppercase text-zinc-900 max-xl:leading-2 max-xl:text-xs max-xl:text-center max-[1280px]:text-left">
+                    <a class="type text-[#311568]">LA MARCA DE VINO KM0</a>
+                </div>
+                <div
+                    class="text max-w-[80ch] pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
                     Etiqueta para el apartado de vino,
                     muestra de la etiqueta y como se integra
                     en el packaging con la cara de delante y la de detrás teniendo en cuenta los espaciados, colocación de
@@ -181,61 +192,80 @@
 
         </div>
 
-
+        
         <div
-            class="grid grid-cols-1 items-center justify-center px-64 pb-12 max-[600px]:px-10 max-[1280px]:p-10 max-[1500px]:px-60">
-            <img class="image_grid w-full h-full items-center justify-center max-[600px]:px-0 max-[1280px]:p-0"
-                src="/img/vino.png" alt="">
+        class="images pt-12 pb-20 text-white justify-center content-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4 max-[1500px]:px-60 max-[800px]:px-0 max-[800px]:pt-4">
 
+            <img class="image_grid w-full h-full max-[780px]:hidden" src="/img/vinospng2.png" alt="">
         </div>
 
-        <div
-            class="grid grid-cols-1 px-64 grid-rows-2 gap-12 max-xl:grid-cols-1 max-xl:pt-10 max-[1280px]:px-10 max-[1280px]:pb-12 max-[1500px]:p-10 max-[1500px]:px-60">
+        <img class="image_grid w-full h-full pb-12 min-[2500px]:hidden max-[780px]:flex" src="/img/botella1.png" alt="">
+        <img class="image_grid w-full h-full min-[2500px]:hidden max-[780px]:flex" src="/img/botella2.png" alt="">
 
-            <img class="image_grid w-full h-full drop-shadow-xl" src="/img/vinomoc_1.png" alt="">
-            <img class="image_grid w-full h-full drop-shadow-xl" src="/img/vinomoc_2.png" alt="">
-            <img class="image_grid w-full h-full drop-shadow-xl" src="/img/vinomoc_3.jpg" alt="">
-        </div>
+
+
+        <img class="image_grid w-full h-full px-72 items-center justify-center max-[600px]:px-0 max-[1280px]:p-0"
+            src="/img/.png" alt="">
+
+        <img class="image_grid w-full h-full pb-32 px-72 items-center justify-center max-[600px]:px-0 max-[1280px]:p-0"
+            src="/img/.png" alt="">
+
+        <img class="image_grid px-72 pb-32 w-full h-full items-center justify-center max-[600px]:px-0 max-[1280px]:p-0 max-[800px]:pt-12"
+            src="/img/.png" alt="">
+
 
         <div
-            class="titular2 flex px-64 pb-24 gap-64 pt-32 content-start space-between justify-center pt-20 text-center max-[600px]:px-10 max-[600px]:flex-col max-[600px]:gap-2 max-[600px]:pt-10 max-[600px]:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 flex px-64 pb-2 gap-64 pt-32 content-start space-between justify-center pt-20 text-center max-[600px]:px-10 max-[600px]:flex-col max-[600px]:gap-2 max-[600px]:pt-10 max-[600px]:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:px-60 max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
-                class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-[600px]:text-30px max-[600px]:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center">
-                QUESO</div>
+                class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-[600px]:text-30px max-[600px]:leading-10 max-[1500px]:text-left">
+                CONSTRUCCIÓN<br>DE MARCA</div>
             <div
-                class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[1280px]:p-0">
+                class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[600px]:px-0 max-[1280px]:p-0">
 
                 <div
-                    class="text max-w-[80ch] text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
-                    Etiqueta para el apartado de queso,
-                    muestra de la pegatina y como se integra
-                    en el packaging con la cara de delante y la de detrás teniendo en cuenta los espaciados, colocación de
-                    los
-                    textos y maquetación general.
+                    class="text max-w-[60ch] text-[16px] uppercase text-zinc-900 max-xl:leading-2 max-xl:text-xs max-xl:text-center max-[600px]:order-last max-[1280px]:text-left">
+                    <a class="type text">LOGOTIPO PRINCIPAL CON DIFERENTES DESCRIPTORES</a>
+                </div>
+                <div
+                    class="text max-w-[80ch] pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                    En esta marca se utiliza el nombre de PRAU como logotipo principal utilizando diferentes opicones que da la tipografía original
+                    y se le añade un descriptor debajo para cada uno de los productos.
                 </div>
 
             </div>
 
         </div>
 
-
         <div
-            class="grid grid-cols-1 items-center justify-center px-64 pb-12 max-[600px]:px-10 max-[1280px]:p-10 max-[1500px]:px-60">
-            <img class="image_grid w-full h-full items-center justify-center max-[600px]:px-0 max-[1280px]:p-0"
-                src="/img/queso.png" alt="">
+            class="grid grid-cols-4 pt-32 gap-12 px-60 pb-32 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60">
+
+            <img class="image_grid w-full h-full" src="/img/marca2.png" alt="">
+            <img class="image_grid w-full h-full" src="/img/marca1.png" alt="">
+            <img class="image_grid w-full h-full" src="/img/marca3.png" alt="">
+            <img class="image_grid w-full h-full" src="/img/marca4.png" alt="">
 
         </div>
 
         <div
-            class="titular2 flex px-64 pb-20 gap-64 pt-32 content-start space-between justify-center pt-20 text-center max-[600px]:px-10 max-[600px]:flex-col max-[600px]:gap-2 max-[600px]:pt-10 max-[600px]:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+        class="images pt-12 pb-2 text-white justify-center content-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4 max-[1500px]:px-60 max-[800px]:px-0 max-[800px]:pt-4">
+
+            <img class="image_grid w-full h-full max-[780px]:hidden" src="/img/rotulofachada.jpg" alt="">
+        </div>
+
+        <div
+            class="titular2 flex px-64 pb-28 gap-64 pt-32 content-start space-between justify-center pt-20 text-center max-[600px]:px-10 max-[600px]:flex-col max-[600px]:gap-2 max-[600px]:pt-10 max-[600px]:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:px-60 max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
-                class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-[600px]:text-30px max-[600px]:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center">
-                ILUSTRACIONES</div>
+                class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-[600px]:text-30px max-[600px]:leading-10 max-[1500px]:text-left">
+                ILUSTRACIONES <br> FINALES</div>
             <div
-                class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[1280px]:p-0">
+                class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[600px]:px-0 max-[1280px]:p-0">
 
                 <div
-                    class="text max-w-[80ch] text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                    class="text max-w-[60ch] text-[16px] uppercase text-zinc-900 max-xl:leading-2 max-xl:text-xs max-xl:text-center max-[600px]:order-last max-[1280px]:text-left">
+                    <a class="type text">ILUSTRACIONES PARA CADA UNA DE LAS ETIQUETAS</a>
+                </div>
+                <div
+                    class="text max-w-[80ch] pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
                     Ilustraciones creadas para cada uno de los
               packaging
               mediante ilustración digital.
@@ -252,16 +282,15 @@
         </div>
 
         <div
-            class="grid grid-cols-3 pb-40 px-64 grid-rows-1 gap-12 max-xl:grid-cols-1 max-xl:pt-10 max-[1280px]:px-10 max-[1280px]:pb-12 max-[1500px]:p-10 max-[1500px]:px-60">
+            class="grid grid-cols-1 gap-0 items-center justify-items-center px-64 pb-32 max-[600px]:px-10 max-[1280px]:p-10 max-[1500px]:px-60 max-[780px]:grid-cols-1">
+            
+            <img class="image_grid w-full h-full " src="/img/ilustracionesfinales1.png" alt="">
 
-            <img class="image_grid w-full h-full drop-shadow-xl" src="/img/1.png" alt="">
-            <img class="image_grid w-full h-full drop-shadow-xl" src="/img/2.png" alt="">
-            <img class="image_grid w-full h-full drop-shadow-xl" src="/img/3.png" alt="">
+
         </div>
 
-
         <div
-            class="trabajos flex pt-24 pl-40 pr-40 pb-20 text-zinc-600 flex-col gap-10 justify-center items-center max-xl:pt-12 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[1500px]:px-60">
+            class="trabajos flex pt-10 pl-40 pr-40 pb-20 text-zinc-600 flex-col gap-10 justify-center items-center max-xl:pt-12 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[1500px]:px-60">
             <div
                 class="titular text-[16px] font-['SFUIDisplay-Light'] leading-6 font-normal flex flex-start items-center max-xl:text-xs">
                 Programas utilizados
@@ -270,15 +299,15 @@
             <div class="programas flex flex-col items-center">
                 <div class="three_programas flex gap-10">
                     <img class="image_logo w-[40px] rounded-lg opacity-80 hover:opacity-100 max-xl:max-w-[30px] max-xl:max-h-[29px]"
-                        src="/img/Figma.svg" alt="">
+                        src="/img/Procreate.png" alt="">
                     <img class="image_logo w-[40px] opacity-80 hover:opacity-100 max-xl:max-w-[30px] max-xl:max-h-[29px]"
-                        src="/img/Illustrator.svg" alt="">
+                        src="/img/Cinema4d.png" alt="">
                     <img class="image_logo w-[40px] opacity-80 hover:opacity-100 max-xl:max-w-[30px]"
-                        src="/img/Photoshop.svg" alt="">
+                        src="/img/Illustrator.svg" alt="">
                     <img class="image_logo w-[40px] opacity-80 hover:opacity-100 max-xl:max-w-[30px]"
                         src="/img/InDesign.svg" alt="">
                     <img class="image_logo w-[40px] opacity-80 hover:opacity-100 max-xl:max-w-[30px]"
-                        src="/img/Cinema4d.png" alt="">
+                        src="/img/Photoshop.svg" alt="">
                 </div>
             </div>
         </div>
@@ -314,7 +343,7 @@
 
         </div>
 
-        <div class="foter bg-[#EAEEF5] p-10 flex text-zinc-600 justify-between sticky top-0 max-xl:p-6">
+        <div class="foter bg-white p-10 flex text-zinc-600 justify-between sticky top-0 max-xl:p-6">
             <div class="foter_image flex flex-start">
                 <NuxtLink to="/">
                     <img class="vector max-xl:max-w-[15px]" src="/img/starzinc.svg">
@@ -329,8 +358,12 @@
 
     </div>
 </template>
-  
+
 <script>
+
+import 'vue3-carousel/dist/carousel.css'
+import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
+
 export default {
     mounted() {
         this.$nextTick(() => {
@@ -342,15 +375,23 @@ export default {
             newVideo.play();
         });
     },
+    name: 'Basic',
+    components: {
+        Carousel,
+        Slide,
+        Pagination,
+        Navigation,
+    },
 };
+
 
 import PlvPointer from "/components/Cursor.vue";
 
 </script>
 
 <style lang="sass" scoped>
-  
-  
+
+
   .email
     &:hover
       @apply text-zinc-300
