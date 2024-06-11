@@ -235,9 +235,9 @@
         </div>
 
         <div
-        class="images pt-12 pb-2 text-white justify-center content-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4 max-[1500px]:px-60 max-[800px]:px-0 max-[800px]:pt-4">
+        class="images pt-12 pb-2 text-white justify-center content-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4 max-[1500px]:px-60 max-[800px]:px-0 max-[800px]:pt-4 max-[780px]:gap-4">
 
-            <img class="image_grid w-full h-full max-[780px]:hidden" src="/img/rotulofachada.jpg" alt="">
+            <img class="image_grid w-full h-full" src="/img/rotulofachada.jpg" alt="">
         </div>
 
         <div
