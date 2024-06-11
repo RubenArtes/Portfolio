@@ -202,18 +202,6 @@
         <img class="image_grid w-full h-full pb-12 min-[2500px]:hidden max-[780px]:flex" src="/img/botella1.png" alt="">
         <img class="image_grid w-full h-full min-[2500px]:hidden max-[780px]:flex" src="/img/botella2.png" alt="">
 
-
-
-        <img class="image_grid w-full h-full px-72 items-center justify-center max-[600px]:px-0 max-[1280px]:p-0"
-            src="/img/.png" alt="">
-
-        <img class="image_grid w-full h-full pb-32 px-72 items-center justify-center max-[600px]:px-0 max-[1280px]:p-0"
-            src="/img/.png" alt="">
-
-        <img class="image_grid px-72 pb-32 w-full h-full items-center justify-center max-[600px]:px-0 max-[1280px]:p-0 max-[800px]:pt-12"
-            src="/img/.png" alt="">
-
-
         <div
             class="titular2 flex px-64 pb-2 gap-64 pt-32 content-start space-between justify-center pt-20 text-center max-[600px]:px-10 max-[600px]:flex-col max-[600px]:gap-2 max-[600px]:pt-10 max-[600px]:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:px-60 max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
