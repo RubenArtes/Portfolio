@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Gill Sans Medium';
+  src: url(./Gill+Sans+Medium.eot);
+  src: url(./Gill+Sans+Medium.eot?#iefix) format('embedded-opentype'),
+       url(./Gill+Sans+Medium.otf) format('otf'),
+       url(./Gill+Sans+Medium.ttf) format('truetype'),
+       url(./Gill+Sans+Medium.woff) format('woff'),
+       url(./Gill+Sans+Medium.woff2) format('woff2');
+}

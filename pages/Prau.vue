@@ -199,8 +199,8 @@
             <img class="image_grid w-full h-full max-[780px]:hidden" src="/img/vinospng2.png" alt="">
         </div>
 
-        <img class="image_grid w-full h-full pb-12 min-[2500px]:hidden max-[780px]:flex" src="/img/botella1.png" alt="">
-        <img class="image_grid w-full h-full min-[2500px]:hidden max-[780px]:flex" src="/img/botella2.png" alt="">
+        <img class="image_grid w-full h-full pb-12 min-[800px]:hidden max-[780px]:flex" src="/img/botella1.png" alt="">
+        <img class="image_grid w-full h-full min-[800px]:hidden max-[780px]:flex" src="/img/botella2.png" alt="">
 
         <div
             class="titular2 flex px-64 pb-2 gap-64 pt-32 content-start space-between justify-center pt-20 text-center max-[600px]:px-10 max-[600px]:flex-col max-[600px]:gap-2 max-[600px]:pt-10 max-[600px]:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:px-60 max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
@@ -225,7 +225,7 @@
         </div>
 
         <div
-            class="grid grid-cols-4 pt-32 gap-12 px-60 pb-32 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60">
+            class="grid grid-cols-4 pt-32 gap-12 px-60 pb-32 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-[600px]:gap-2">
 
             <img class="image_grid w-full h-full" src="/img/marca2.png" alt="">
             <img class="image_grid w-full h-full" src="/img/marca1.png" alt="">
