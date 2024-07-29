@@ -246,24 +246,15 @@
 
         <div class="grid grid-cols-1 gap-2 max-[600px]:px-2 min-[600px]:hidden">
 
-            <img class="image_grid w-full h-full border-zinc-200 border-solid border-[0.05rem]" src="/img/Catalogo1.png"
-                alt="">
-            <img class="image_grid w-full h-full border-zinc-200 border-solid border-[0.05rem]" src="/img/Catalogo2.png"
-                alt="">
-            <img class="image_grid w-full h-full border-zinc-200 border-solid border-[0.05rem]" src="/img/Catalogo3.png"
-                alt="">
-            <img class="image_grid w-full h-full border-zinc-200 border-solid border-[0.05rem]" src="/img/Catalogo4.png"
-                alt="">
-            <img class="image_grid w-full h-full border-zinc-200 border-solid border-[0.05rem]" src="/img/Catalogo5.png"
-                alt="">
-            <img class="image_grid w-full h-full border-zinc-200 border-solid border-[0.05rem]" src="/img/Catalogo6.png"
-                alt="">
-            <img class="image_grid w-full h-full border-zinc-200 border-solid border-[0.05rem]" src="/img/Catalogo7.png"
-                alt="">
-            <img class="image_grid w-full h-full border-zinc-200 border-solid border-[0.05rem]" src="/img/Catalogo8.png"
-                alt="">
-            <img class="image_grid w-full h-full border-zinc-200 border-solid border-[0.05rem]" src="/img/Catalogo9.png"
-                alt="">
+            <img class="image_grid w-full h-full border-zinc-200 border-solid border-[0.05rem]" src="/img/Catalogo1.png" alt="">
+            <img class="image_grid w-full h-full border-zinc-200 border-solid border-[0.05rem]" src="/img/Catalogo2.png" alt="">
+            <img class="image_grid w-full h-full border-zinc-200 border-solid border-[0.05rem]" src="/img/Catalogo3.png" alt="">
+            <img class="image_grid w-full h-full border-zinc-200 border-solid border-[0.05rem]" src="/img/Catalogo4.png" alt="">
+            <img class="image_grid w-full h-full border-zinc-200 border-solid border-[0.05rem]" src="/img/Catalogo5.png" alt="">
+            <img class="image_grid w-full h-full border-zinc-200 border-solid border-[0.05rem]" src="/img/Catalogo6.png" alt="">
+            <img class="image_grid w-full h-full border-zinc-200 border-solid border-[0.05rem]" src="/img/Catalogo7.png" alt="">
+            <img class="image_grid w-full h-full border-zinc-200 border-solid border-[0.05rem]" src="/img/Catalogo8.png" alt="">
+            <img class="image_grid w-full h-full border-zinc-200 border-solid border-[0.05rem]" src="/img/Catalogo9.png" alt="">
             <img class="image_grid w-full h-full border-zinc-200 border-solid border-[0.05rem]"
                 src="/img/Catalogo10.png" alt="">
             <img class="image_grid w-full h-full border-zinc-200 border-solid border-[0.05rem]"

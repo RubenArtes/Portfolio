@@ -193,6 +193,8 @@
         </div>
 
         
+
+        
         <div
         class="images pt-12 pb-20 text-white justify-center content-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4 max-[1500px]:px-60 max-[800px]:px-0 max-[800px]:pt-4">
 
@@ -202,8 +204,62 @@
         <img class="image_grid w-full h-full pb-12 min-[800px]:hidden max-[780px]:flex" src="/img/botella1.png" alt="">
         <img class="image_grid w-full h-full min-[800px]:hidden max-[780px]:flex" src="/img/botella2.png" alt="">
 
+
         <div
-            class="titular2 flex px-64 pb-2 gap-64 pt-32 content-start space-between justify-center pt-20 text-center max-[600px]:px-10 max-[600px]:flex-col max-[600px]:gap-2 max-[600px]:pt-10 max-[600px]:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:px-60 max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 flex px-64 pb-32 gap-64 pt-32 content-start space-between justify-center pt-20 text-center max-[600px]:px-10 max-[600px]:flex-col max-[600px]:gap-2 max-[600px]:pt-10 max-[600px]:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            <div
+                class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-[600px]:text-30px max-[600px]:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center">
+                QUESO <br> DE CABRA</div>
+            <div
+                class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[1280px]:p-0">
+
+                <div
+                    class="text max-w-[60ch] text-[16px] uppercase text-zinc-900 max-xl:leading-2 max-xl:text-xs max-xl:text-center max-[1280px]:text-left">
+                    <a class="type text-[#311568]">LA MARCA DE VINO KM0</a>
+                </div>
+                <div
+                    class="text max-w-[80ch] pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                    Etiqueta para el apartado de queso de cabra,
+                    muestra de la etiqueta y como se integra
+                    en el packaging con la cara de delante y la de detrás teniendo en cuenta los espaciados, colocación de
+                    los textos y maquetación general.
+                </div>
+
+            </div>
+
+        </div>
+
+
+        
+        <div
+        class="images pt-12 pb-2 text-white justify-center content-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4 max-[1500px]:px-60 max-[800px]:px-0 max-[800px]:pt-4">
+
+            <img class="image_grid w-full h-full max-[780px]:hidden" src="/img/quesoprau5.png" alt="">
+        </div>
+
+        <div class="texto flex gap-[53rem] justify-center pt-24">
+            <div
+                    class="text max-w-[80ch] pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                ETIQUETA TRASERA
+                </div>
+
+                <div
+                    class="text max-w-[80ch] pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                ETIQUETA DELANTERA
+                </div>
+        </div>
+
+        <div
+        class="images pt-2 pb-2 text-white justify-center content-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4 max-[1500px]:px-60 max-[800px]:px-0 max-[800px]:pt-4">
+
+            <img class="image_grid w-full h-full max-[780px]:hidden" src="/img/etiquetaqueso.png" alt="">
+        </div>
+
+
+
+
+        <div
+            class="titular2 flex px-64 pb-2 gap-64 pt-12 content-start space-between justify-center pt-20 text-center max-[600px]:px-10 max-[600px]:flex-col max-[600px]:gap-2 max-[600px]:pt-10 max-[600px]:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:px-60 max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-[600px]:text-30px max-[600px]:leading-10 max-[1500px]:text-left">
                 CONSTRUCCIÓN<br>DE MARCA</div>
