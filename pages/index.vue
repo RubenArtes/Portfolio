@@ -7,7 +7,7 @@
               <img class="max-lg:max-w-[15px]" src="/img/vector_zinc.svg">
           </div>
           <div class="mode flex gap-10 items-center justify-center content-center">
-              <NuxtLink to="/HomeDark">
+              <NuxtLink to="/Home">
                   <img class="image w-[30px]" src="" alt="">
               </NuxtLink>
 
