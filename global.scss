@@ -246,33 +246,6 @@
      font-weight: normal;
 }
 
-@font-face {
-    font-family: "Domaine-Display";
-    src: local("DomaineDisp-RegularItalic"),
-     url(/public/assets/fonts/DomaineDispNar-RegularItalic.eot) format("opentype");
-     src: local("DomaineDisp-RegularItalic"),
-     url(/public/assets/fonts/DomaineDisp-RegularItalic.ttf) format("truetype");
-     src: local("DomaineDisp-RegularItalic"),
-     url(/public/assets/fonts/DomaineDisp-RegularItalic.woff) format("woff");
-     src: local("SDomaineDisp-RegularItalic"),
-     url(/public/assets/fonts/DomaineDisp-RegularItalic.woff2) format("woff2");
-     font-weight: 400;
-}
-
-@font-face {
-    font-family: "Domaine-Display";
-    src: local("DomaineDispNarMedium"),
-     url(/public/assets/fonts/DomaineDispNarMedium.eot) format("opentype");
-     src: local("DomaineDispNarMedium"),
-     url(/public/assets/fonts/DomaineDispNarMedium.ttf) format("truetype");
-     src: local("DomaineDispNarMedium"),
-     url(/public/assets/fonts/DomaineDispNarMedium.woff) format("woff");
-     src: local("DomaineDispNarMedium"),
-     url(/public/assets/fonts/DomaineDispNarMedium.woff2) format("woff2");
-     font-weight: 700;
-}
-
-
 html {
     font-family: "SFUIDisplay-Regular";
     width: 100%;
