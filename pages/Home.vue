@@ -20,10 +20,10 @@
     <div
       class="header bg-white p-2 px-12 border-r-0 border-l-0 text-black flex justify-center items-center sticky top-[6.5rem] z-10 border border-b-1 max-[1080px]:gap-6 max-[1025px]:top-[4.2rem] max-[510px]:gap-2">
       <div
-        class="titular_small uppercase pr-2 pl-2 text-zinc-500 font-['SFUIDisplay-Regular'] animate-pulse text-[14px] max-[510px]:px-2 max-[510px]:text-[11px]">
+        class="titular_small uppercase pr-2 pl-2 text-zinc-500 font-['SFUIDisplay-Regular'] max-[1920px]:text-xs animate-pulse text-[14px] max-[510px]:px-2 max-[510px]:text-[11px]">
         Ultima actualización Junio 2024
       </div>
-      <img class="info animate-pulse max-w-[12px] max-h-[12px] max-[2260px]:hidden" src="/img/infoblack.png" />
+      <img class="info animate-pulse max-w-[12px] max-h-[12px]" src="/img/infoblack.png" />
     </div>
 
     <VueScrollProgressBar background-color="#000000" />
@@ -42,57 +42,57 @@
     <div
       class="accede text-black flex pt-20 gap-64 px-64 text-center justify-center pb-24 text-xs max-[720px]:px-4 max-[510px]:px-20 max-[510px]:pb-12">
       <div
-        class="text text-[14px] pt-2 font-['SFUIDisplay-Regular'] tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-[760px]:text-[120px] max-[760px]:hidden">
+        class="text text-[14px] pt-2 font-['SFUIDisplay-Regular'] tracking-normal flex flex-col items-center justify-center max-[1920px]:text-xs ">
         PACKAGING
         <br>
         <div
-          class="text  text-[50px] pt-12 font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-[760px]:text-[120px] max-[760px]:hidden">
+          class="text  text-[50px] pt-12 font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center">
           *
         </div>
       </div>
       <div
-        class="text text-[14px] pt-2 font-['SFUIDisplay-Regular'] tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-[760px]:text-[120px] max-[760px]:hidden">
+        class="text text-[14px] pt-2 font-['SFUIDisplay-Regular'] tracking-normal flex flex-col items-center justify-center max-[1920px]:text-xs ">
         EDITORIAL
         <br>
         <div
-          class="text text-[50px] pt-12 font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-[760px]:text-[120px] max-[760px]:hidden">
+          class="text text-[50px] pt-12 font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center">
           *
         </div>
       </div>
       <div
-        class="text text-[14px] pt-2 font-['SFUIDisplay-Regular'] tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-[760px]:text-[120px] max-[760px]:hidden">
+        class="text text-[14px] pt-2 font-['SFUIDisplay-Regular'] tracking-normal flex flex-col items-center justify-center max-[1920px]:text-xs ">
         MARCA
         <br>
         <div
-          class="text text-[50px] pt-12 font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-[760px]:text-[120px] max-[760px]:hidden">
+          class="text text-[50px] pt-12 font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center">
           *
         </div>
       </div>
       <div
-        class="text text-[14px] pt-2 font-['SFUIDisplay-Regular'] tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-[760px]:text-[120px] max-[760px]:hidden">
+        class="text text-[14px] pt-2 font-['SFUIDisplay-Regular'] tracking-normal flex flex-col items-center justify-center max-[1920px]:text-xs ">
         AUDIOVISUALES
         <br>
         <div
-          class="text text-[50px] pt-12 font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-[760px]:text-[120px] max-[760px]:hidden">
+          class="text text-[50px] pt-12 font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center ">
           *
         </div>
       </div>
       <div
-        class="text text-[14px] pt-2 font-['SFUIDisplay-Regular'] tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-[760px]:text-[120px] max-[760px]:hidden">
+        class="text text-[14px] pt-2 font-['SFUIDisplay-Regular'] tracking-normal flex flex-col items-center justify-center max-[1920px]:text-xs">
         ILUSTRACIÓN
         <br>
         <div
-          class="text text-[50px] pt-12 font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-[760px]:text-[120px] max-[760px]:hidden">
+          class="text text-[50px] pt-12 font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center">
           *
         </div>
       </div>
 
       <div
-        class="text text-[14px] pt-2 font-['SFUIDisplay-Regular'] tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-[760px]:text-[120px] max-[760px]:hidden">
-        RENDER 3D
+        class="text text-[14px] pt-2 font-['SFUIDisplay-Regular'] tracking-normal flex flex-col items-center justify-center max-[1920px]:text-xs ">
+        RENDER
         <br>
         <div
-          class="text text-[50px] pt-12 font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-[760px]:text-[120px] max-[760px]:hidden">
+          class="text text-[50px] pt-12 font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center">
           *
         </div>
       </div>
@@ -105,14 +105,20 @@
       saber más de el»
     </div>
 
-    <div class="flex justify-around text-center pb-[0.25rem] pt-[0.25rem] bg-gradient-to-r from-[#dc2626] from-50% via-white via-50% to-white to-90% animate-pulse">
+    <div
+      class="flex justify-around text-center pb-[0.25rem] pt-[0.25rem] bg-gradient-to-r from-[#dc2626] from-50% via-white via-50% to-white to-90% animate-pulse max-[1920]:bg-gradient-to-r from-[#dc2626] from-65% via-[#dc2626] via-30% to-white to-40%">
 
-      <div class="text-white justify-center content-center text-[12px]">NUEVAS PÁGINAS - NUEVAS PÁGINAS - NUEVAS PÁGINAS</div>
-      <div class="text-white justify-center content-center text-[12px]">NUEVAS PÁGINAS - NUEVAS PÁGINAS - NUEVAS PÁGINAS</div>
-      <div class="text-white justify-center content-center text-[12px]">NUEVAS PÁGINAS - NUEVAS PÁGINAS - NUEVAS PÁGINAS</div>
-      <div class="text-white justify-center content-center text-[12px]">NUEVAS PÁGINAS - NUEVAS PÁGINAS - NUEVAS PÁGINAS</div>
+      <div class="text-white justify-center content-center text-[12px]">NUEVAS PÁGINAS - NUEVAS PÁGINAS - NUEVAS PÁGINAS
+      </div>
+      <div class="text-white justify-center content-center text-[12px]">NUEVAS PÁGINAS - NUEVAS PÁGINAS - NUEVAS PÁGINAS
+      </div>
+      <div class="text-white justify-center content-center text-[12px]">NUEVAS PÁGINAS - NUEVAS PÁGINAS - NUEVAS PÁGINAS
+      </div>
+      <div class="text-white justify-center content-center text-[12px] max-[1920px]:hidden">NUEVAS PÁGINAS - NUEVAS PÁGINAS - NUEVAS PÁGINAS
+      </div>
 
     </div>
+
 
     <div class="trabajos justify-center w-auto">
       <div
