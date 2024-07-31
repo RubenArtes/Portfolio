@@ -4,7 +4,9 @@
     <div
       class="header bg-black p-10 flex border-r-0 border-l-0 px-24 text-white justify-between sticky top-0 z-10 max-lg:p-6 max-lg:sticky border border-b-0">
       <div class="image flex flex-start justify-items-start">
+        <NuxtLink to="/Home">
         <img class="max-lg:max-w-[15px]" src="/img/Vector.svg" />
+        </NuxtLink>
       </div>
       <div class="mode flex items-center justify-center content-center">
         <NuxtLink to="/Home">
