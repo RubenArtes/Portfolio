@@ -81,7 +81,11 @@
                 <div class="info_secondary flex flex-col gap-6 sticky top-32 max-[1500px]:gap-12">
                     <div
                         class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
-                        GARRIDO GALLERY - Dos generaciones de plateros contemporáneos del siglo XX-XXI</div>
+                        GARRIDO GALLERY</div>
+
+                    <div
+                        class="titular text-[30px] font-['Domaine-Display'] text-start leading-10 font-normal text-black max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[20px] max-sm:leading-6 max-sm-pt-2 max-[1500px]:text-left">
+                        Dos generaciones de plateros contemporáneos del siglo XX-XXI</div>
                     <div
                         class="text text-[20px] font-['SFUIDisplay-Light'] indent-12 text-zinc-900 max-w-[70ch] max-xl:text-sm max-[1500px]:text-[16px] max-[1500px]:max-w-[100ch]">
                         Durante la realización de las prácticas de empresa en Garrido Gallery tuve que desempeñar
@@ -112,9 +116,9 @@
         </div>
 
         <div
-            class="titular2 flex px-64 pb-24 gap-64 pt-32 content-start space-between justify-center pt-20 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:px-60 max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 flex px-64 pb-24 gap-64 pt-32 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:px-60 max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
-                class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
+                class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-normal text-black max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
                 CATÁLOGO <br> GARRIDO 2024</div>
             <div
                 class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:px-0 max-[1280px]:p-0">
@@ -246,15 +250,24 @@
 
         <div class="grid grid-cols-1 gap-2 max-sm:px-2 min-[600px]:hidden">
 
-            <img class="image_grid w-full h-full border-zinc-200 border-solid border-[0.05rem]" src="/img/Catalogo1.png" alt="">
-            <img class="image_grid w-full h-full border-zinc-200 border-solid border-[0.05rem]" src="/img/Catalogo2.png" alt="">
-            <img class="image_grid w-full h-full border-zinc-200 border-solid border-[0.05rem]" src="/img/Catalogo3.png" alt="">
-            <img class="image_grid w-full h-full border-zinc-200 border-solid border-[0.05rem]" src="/img/Catalogo4.png" alt="">
-            <img class="image_grid w-full h-full border-zinc-200 border-solid border-[0.05rem]" src="/img/Catalogo5.png" alt="">
-            <img class="image_grid w-full h-full border-zinc-200 border-solid border-[0.05rem]" src="/img/Catalogo6.png" alt="">
-            <img class="image_grid w-full h-full border-zinc-200 border-solid border-[0.05rem]" src="/img/Catalogo7.png" alt="">
-            <img class="image_grid w-full h-full border-zinc-200 border-solid border-[0.05rem]" src="/img/Catalogo8.png" alt="">
-            <img class="image_grid w-full h-full border-zinc-200 border-solid border-[0.05rem]" src="/img/Catalogo9.png" alt="">
+            <img class="image_grid w-full h-full border-zinc-200 border-solid border-[0.05rem]" src="/img/Catalogo1.png"
+                alt="">
+            <img class="image_grid w-full h-full border-zinc-200 border-solid border-[0.05rem]" src="/img/Catalogo2.png"
+                alt="">
+            <img class="image_grid w-full h-full border-zinc-200 border-solid border-[0.05rem]" src="/img/Catalogo3.png"
+                alt="">
+            <img class="image_grid w-full h-full border-zinc-200 border-solid border-[0.05rem]" src="/img/Catalogo4.png"
+                alt="">
+            <img class="image_grid w-full h-full border-zinc-200 border-solid border-[0.05rem]" src="/img/Catalogo5.png"
+                alt="">
+            <img class="image_grid w-full h-full border-zinc-200 border-solid border-[0.05rem]" src="/img/Catalogo6.png"
+                alt="">
+            <img class="image_grid w-full h-full border-zinc-200 border-solid border-[0.05rem]" src="/img/Catalogo7.png"
+                alt="">
+            <img class="image_grid w-full h-full border-zinc-200 border-solid border-[0.05rem]" src="/img/Catalogo8.png"
+                alt="">
+            <img class="image_grid w-full h-full border-zinc-200 border-solid border-[0.05rem]" src="/img/Catalogo9.png"
+                alt="">
             <img class="image_grid w-full h-full border-zinc-200 border-solid border-[0.05rem]"
                 src="/img/Catalogo10.png" alt="">
             <img class="image_grid w-full h-full border-zinc-200 border-solid border-[0.05rem]"
@@ -299,9 +312,67 @@
         </div>
 
         <div
-            class="titular2 flex px-64 pb-2 gap-64 pt-32 content-start space-between justify-center pt-20 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 flex px-64 pb-2 gap-64 pt-32 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20 max-sm:pt-32">
             <div
-                class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center">
+                class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-normal text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center">
+                INSTAGRAM</div>
+            <div
+                class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[1280px]:p-0">
+
+                <div
+                    class="text max-w-[60ch] text-[16px] uppercase text-zinc-900 max-xl:leading-2 max-xl:text-xs max-xl:text-center max-[1280px]:text-left">
+                    <a class="type text-[#311568]">CREACIÓN DE PUBLICACIONES CREANDO MOSAICOS EN FEED</a>
+                </div>
+                <div
+                    class="text max-w-[80ch] pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                    Creación y composición de las publicaciones de instagram para conseguir más visualizaciones al
+                    perfil y la
+                    página web para fidelizar con los clientes.
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <img class="image w-full h-full max-sm:hidden" src="/img/mockupinstagram.png" alt="">
+
+
+        <div
+            class="titular2 hidden max-sm:grid px-64 gap-1 place-items-center pt-4 w-full h-full max-sm:grid-cols-1 max-sm:pt-2 max-sm:px-0">
+            
+            <img class="image w-full h-full" src="/img/Mockupinstagram1.png" alt="">
+            <img class="image w-full h-full" src="/img/Mockupinstagram3.png" alt="">
+            <img class="image order-first w-full h-full" src="/img/Mockupinstagram2.png" alt="">
+
+        </div>
+
+        <div
+            class="div text-[#474747] px-64 pb-2 pt-12 text-left text-xm m-0 font-['Domaine-Display'] uppercase max-sm:text-xs max-sm:px-12 max-sm:text-center max-sm:pt-12">
+            > EJEMPLO DE PUBLICACIÓN 1</div>
+        <div
+        class="titular2 grid grid-cols-3 px-64 gap-1 place-items-center pt-4 w-full h-full max-sm:gap-0 max-sm:pt-2 max-sm:px-0 max-sm:grid-cols-3">
+
+            <img class="image_grid w-full h-full border" src="/img/Publicacioninstagram1.png" alt="">
+            <img class="image_grid w-full h-full border" src="/img/Publicacioninstagram2.png" alt="">
+            <img class="image_grid w-full h-full border" src="/img/Publicacioninstagram3.png" alt="">
+        </div>
+
+        <div
+            class="div text-[#474747] px-64 pb-2 pt-12 text-left text-xm m-0 font-['Domaine-Display'] uppercase max-sm:text-xs max-sm:px-12 max-sm:text-center max-sm:pt-12">
+            > EJEMPLO DE PUBLICACIÓN 2</div>
+        <div
+            class="titular2 grid grid-cols-3 px-64 gap-1 place-items-center pt-4 w-full h-full max-sm:gap-0 max-sm:pt-2 max-sm:px-0 max-sm:grid-cols-3">
+
+            <img class="image_grid w-full h-full border" src="/img/Publicacioninstagram6.png" alt="">
+            <img class="image_grid w-full h-full border" src="/img/Publicacioninstagram8.png" alt="">
+            <img class="image_grid w-full h-full border" src="/img/Publicacioninstagram5.png" alt="">
+        </div>
+
+        <div
+            class="titular2 flex px-64 pb-2 gap-64 pt-32 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20 max-sm:pt-32">
+            <div
+                class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-normal text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center">
                 FOTOGRAFÍAS <br> Y EDICIÓN</div>
             <div
                 class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[1280px]:p-0">
@@ -321,20 +392,21 @@
 
         </div>
 
-        <div class="titular2 grid grid-cols-2 place-items-center pt-24 w-full h-full">
+        <div class="titular2 grid grid-cols-2 place-items-center pt-24 w-full h-full max-sm:grid-cols-1 max-sm:pt-2">
 
             <img class="image_grid w-full h-full" src="/img/edicionpieza_1.gif" alt="">
-            <img class="image_grid w-full h-full" src="/img/edicionpieza_2.gif" alt="">
+            <img class="image_grid w-full h-full max-sm:hidden" src="/img/edicionpieza_2.gif" alt="">
 
         </div>
 
-        <div class="titular2 grid grid-cols-4 gap-4 px-12 place-items-center pt-24 w-full h-full">
+        <div
+            class="titular2 grid grid-cols-4 gap-4 px-12 place-items-center pt-24 w-full h-full max-sm:grid-cols-1 max-sm:px-4">
 
             <img class="image_grid w-full h-full" src="/img/Corregida1.jpg" alt="">
             <img class="image_grid w-full h-full" src="/img/Corregida2.jpg" alt="">
             <img class="image_grid w-full h-full" src="/img/Corregida3.jpg" alt="">
             <img class="image_grid w-full h-full" src="/img/Corregida4.jpg" alt="">
-            
+
             <img class="image_grid w-full h-full" src="/img/Corregida5.jpg" alt="">
             <img class="image_grid w-full h-full" src="/img/Corregida6.jpg" alt="">
             <img class="image_grid w-full h-full" src="/img/Corregida7.jpg" alt="">
@@ -343,9 +415,9 @@
         </div>
 
         <div
-            class="titular2 flex px-64 pb-2 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:px-60 max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 flex px-64 pb-2 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-24 max-sm:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:px-60 max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
-                class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
+                class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-normal text-black max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
                 PÁGINA<br>WEB GARRIDO</div>
             <div
                 class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:px-0 max-[1280px]:p-0">
@@ -365,7 +437,7 @@
 
         </div>
 
-        <div class="boton flex justify-center pt-32">
+        <div class="boton flex justify-center pt-32 max-sm:pt-6 max-sm:pb-24">
 
             <a class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-4 px-6 rounded-xl inline-flex items-center"
                 href="https://www.garridogallery.com">
@@ -375,7 +447,7 @@
         </div>
 
 
-        <div class="titular2 flex justify-center w-full h-full">
+        <div class="titular2 flex justify-center w-full h-full max-sm:hidden">
 
 
             <video class="pb-2 justify-items-center content-center justify-center w-full h-full" loop autoplay>
@@ -392,8 +464,8 @@
         <div
             class="titular2 flex px-64 pb-12 gap-64 pt-12 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:px-60 max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
-                class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
-                OTRAS CREACIONES<br> GARRIDO GALLERY</div>
+                class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-normal text-black max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
+                OTRAS CREACIONES<br> G. GALLERY</div>
             <div
                 class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:px-0 max-[1280px]:p-0">
 
@@ -402,8 +474,10 @@
                     <a class="type text">CREACIÓN DE DIFERENTES FORMATOS Y ELEMENTOS</a>
                 </div>
                 <div
-                    class="text max-w-[80ch] pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
-                    Cartelería para exposiciones concretas, tarjetas de visita para eventos y folletos para momentos concretos en la Galería.
+                    class="text max-w-[80ch] order-last pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                    Cartelería para exposiciones concretas, tarjetas de visita para eventos y folletos para momentos
+                    concretos
+                    en la Galería.
                 </div>
 
             </div>
@@ -411,46 +485,73 @@
         </div>
 
         <div
-                class="div text-[#474747]  pb-2 pt-32 text-left px-64 text-lg m-0 font-['Domaine-Display'] uppercase max-sm:text-xs">
-                > TARJETA DE VISITA SALON 2023</div>
+            class="div text-[#474747] px-64 pb-2 pt-24 text-left text-lg m-0 font-['Domaine-Display'] uppercase max-sm:text-xs max-sm:px-12 max-sm:text-center max-sm:pt-12">
+            > TARJETA DE VISITA SALON 2023</div>
 
         <div
-            class="grid grid-cols-2 pt-8 gap-6 items-center justify-items-center px-64 pb-12 max-sm:px-10 max-[1280px]:p-10 max-[1500px]:px-60 max-sm:grid-cols-1">
-        
-        <div class="flex gap-2">
-            <img class="image_grid w-1/2 h-full border-[0.025rem] border-gray-400" src="/img/TarjetaFinal2.png" alt="">
-            <img class="image_grid w-1/2 h-full border-[0.025rem] border-gray-400" src="/img/TarjetaFinal1.png" alt="">
+            class="grid grid-cols-2 pt-8 gap-8 items-center justify-items-center px-64 pb-12 max-[1280px]:p-6 max-[1500px]:px-60 max-sm:grid-cols-1 max-sm:px-0">
+            <div>
+                <img class="image_grid w-full h-full pb-4" src="/img/Mockuptarjeta.png" alt="">
+                <img class="image_grid w-full h-full" src="/img/Mockuptarjeta1.png" alt="">
 
-        </div>
-        <div>
-            <img class="image_grid w-full h-full hidden " src="/img/TarjetaFinal2.png" alt=""> Mockup
 
-        </div>
+            </div>
+            <div class="grid grid-cols-2 gap-4 self-end max-sm:px-12">
+                <img class="image_grid w-full h-full border-[0.025rem] border-gray-400" src="/img/TarjetaFinal2.png"
+                    alt="">
+                <img class="image_grid w-full h-full border-[0.025rem] border-gray-400" src="/img/TarjetaFinal1.png"
+                    alt="">
+
+            </div>
 
 
 
         </div>
 
         <div
-                class="div text-[#474747]  pb-2 pt-24 text-left px-64 text-lg m-0 font-['Domaine-Display'] uppercase max-sm:text-xs">
-                > FOLLETO DÍPTICO EXPOSICIÓN LUIS GORDILLO 2024</div>
+            class="div text-[#474747]  pb-2 pt-12 text-left px-64 text-lg m-0 font-['Domaine-Display'] uppercase max-sm:text-xs max-sm:px-12 max-sm:text-center">
+            > FOLLETO DÍPTICO EXPOSICIÓN LUIS GORDILLO 2024</div>
 
         <div
-            class="grid grid-cols-2 pt-8 items-end gap-6 justify-items-center px-64 pb-32 max-sm:px-10 max-[1280px]:p-10 max-[1500px]:px-60 max-sm:grid-cols-1">
+            class="grid grid-cols-2 pt-8 items-end gap-6 justify-items-center px-64 pb-32 max-[1280px]:p-10 max-[1500px]:px-60 max-sm:grid-cols-1 max-sm:px-0">
 
             <div>
                 <img class="image_grid w-full h-full" src="/img/FicticioFolleto.jpg" alt="">
 
             </div>
 
-            <div class="flex gap-2 items-end">
-                <img class="image_grid w-1/2 h-full border-[0.025rem] border-gray-400" src="/img/FolletoGordilloFinal1.png" alt="">
-                <img class="image_grid w-1/2 h-full border-[0.025rem] border-gray-400" src="/img/FolletoGordilloFinal2.png" alt="">
+            <div class="grid grid-cols-2 gap-2 items-end max-sm:px-6">
+                <img class="image_grid w-full h-full border-[0.025rem] border-gray-400"
+                    src="/img/FolletoGordilloFinal1.png" alt="">
+                <img class="image_grid w-full h-full border-[0.025rem] border-gray-400"
+                    src="/img/FolletoGordilloFinal2.png" alt="">
             </div>
 
 
 
         </div>
+
+        <div
+            class="div text-[#474747]  pb-2 pt-12 text-left px-64 text-lg m-0 font-['Domaine-Display'] uppercase max-sm:text-xs max-sm:px-12 max-sm:text-center">
+            > CARTEL PARA LA EXPOSICIÓN DE GORDILLO 2024</div>
+        <div
+            class="grid grid-cols-2 pt-8 items-end gap-6 justify-items-center px-64 pb-32 max-[1280px]:p-10 max-[1500px]:px-60 max-sm:grid-cols-1 max-sm:px-0">
+
+            <div>
+                <img class="image_grid w-full h-full" src="/img/Mockupcartel.png" alt="">
+
+            </div>
+
+            <div class="grid grid-cols-2 gap-2 items-end max-sm:px-6 max-sm:grid-cols-1">
+                <img class="image_grid w-full h-full border-[0.025rem] border-gray-400"
+                    src="/img/CartelGordilloFinal.png" alt="">
+
+            </div>
+
+
+
+        </div>
+
 
         <div
             class="trabajos flex pt-10 pl-40 pr-40 pb-20 text-zinc-600 flex-col gap-10 justify-center items-center max-xl:pt-12 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[1500px]:px-60">
