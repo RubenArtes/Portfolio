@@ -341,7 +341,7 @@
         <div
             class="titular2 hidden max-sm:grid px-64 gap-1 place-items-center pt-4 w-full h-full max-sm:grid-cols-1 max-sm:pt-2 max-sm:px-0">
             
-            <img class="image w-full h-full" src="/img/Mockupinstagram1.png" alt="">
+            <img class="image w-full h-full" src="/img/mockupinstagram1.png" alt="">
             <img class="image w-full h-full" src="/img/Mockupinstagram3.png" alt="">
             <img class="image order-first w-full h-full" src="/img/Mockupinstagram2.png" alt="">
 
