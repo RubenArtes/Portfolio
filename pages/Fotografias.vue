@@ -225,7 +225,6 @@ import PlvPointer from "/components/Cursor.vue";
 
 import VueScrollProgressBar from '/components/VueScrollProgressBar'
 
-import ExpandableImageVue from "./ExpandableImage.vue";
 
 export default {
   mounted() {
