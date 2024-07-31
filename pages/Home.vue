@@ -63,7 +63,7 @@
         </div>
 
         <div
-            class="banner hidden max-sm:flex max-sm:pt-64 max-sm:pb-72 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
+            class="banner hidden max-sm:flex max-sm:pt-60 max-sm:pb-60 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
             <img class="banner_image w-full h-full" src="/img/bannerhome2.png">
             
 
