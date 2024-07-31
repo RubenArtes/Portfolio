@@ -199,7 +199,7 @@
       </div>
 
       <div
-        class="accede2 hidden max-sm:flex px-64 text-center justify-center text-zinc-600 pb-16 text-xs max-[720px]:px-4 max-sm:px-20 max-sm:pb-12 max-sm:pt-20">
+        class="accede2 hidden max-sm:flex px-64 text-center justify-center text-zinc-600 pb-16 text-xs max-[720px]:px-4 max-sm:px-20 max-sm:pb-12 max-sm:pt-16">
         «Baja para ver los trabajos y clickea sobre uno para saber más sobre el»
       </div>
   
