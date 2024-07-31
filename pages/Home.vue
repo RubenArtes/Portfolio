@@ -610,7 +610,7 @@
               abarcar todos los ambitos, como ya he mostrado anteriormente. Soy
               resolutivo y trabajador.
   
-              <img class="img pt-10" src="/img/FOTO2.png" alt="" />
+              <img class="img pt-10" src="/img/yofotoyo.jpeg" alt="" />
             </div>
           </div>
         </div>
