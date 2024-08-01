@@ -686,7 +686,6 @@
         </div>
       </div>
     </div>
-
     <div
       class="max-sm:hidden grid-flow-cols border-0 border-b-0 border-none grid-cols-4 max-[1920px]:grid-cols-3 text-center max-[1450px]:grid-cols-2 animate-pulse max-[1930px]:grid-cols-3 max-sm:grid-cols-1">
 
@@ -706,7 +705,7 @@
     </div>
 
     <div
-      class="trabajos flex pt-32 pl-40 pr-40 pb-40 border-t-0 border-l-0 border-b-0 bg-black text-white flex-nowrap gap-72 justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20 max-sm:pt-24 max-sm:border-b-0 max-sm:border-none max-sm:border-0">
+      class="trabajos flex pt-32 pl-40 pr-40 pb-40 bg-black text-white flex-nowrap gap-72 justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-6 max-sm:pb-12 max-sm:pt-12 border-black">
       <div class="sticky_menu">
         <div
           class="titular flex flex-col text-[72px] font-normal sticky top-[9rem] max-lg:text-[60px] font-['Domaine-Display']">
@@ -730,75 +729,75 @@
     </div>
 
     <div
-      class="flex gap-60 text-sm bg-black border-t-0 min-[1920px]:px-94 px-56 pb-72 items-center justify-center content-center self-center max-sm:grid max-sm:gap-24 max-sm:pb-40 max-sm:border-t-0 max-sm:grid-cols-1 max-sm:px-10 max-sm:border-none max-sm:border-0 max-sm:pt-12">
+      class="flex gap-60 text-sm bg-black border-t-0 min-[1920px]:px-94 px-56 pb-72 items-center justify-center content-center self-center max-sm:grid max-sm:gap-12 max-sm:pb-24 max-sm:border-t-0 max-sm:grid-cols-1 max-sm:px-10 max-sm:border-none max-sm:border-0 max-sm:pt-16">
       <div class="servicios_ofrecidos items-left flex max-sm:hidden flex-col gap-6 max-sm:order-last">
-        
+
         <div class="flex flex-col gap-1 text-left justify-left">
           <div class="grid grid-flow-cols grid-cols-1 gap-1 justify-beetwen text-left">
             <a href="https://www.instagram.com/olme.ttoo"
-            class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
-            @olme.ttoo  - <b>Alejandro Olmedo</b></a>
+              class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
+              @olme.ttoo - <b>Alejandro Olmedo</b></a>
             <a href="https://www.instagram.com/felixhdraw"
-            class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
-            @felixhdraw  - <b>Felix Hortolano</b></a>
+              class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
+              @felixhdraw - <b>Felix Hortolano</b></a>
             <a href="https://www.instagram.com/intensazc"
-            class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
-            @intensazc   - <b>Barbara Ibañez</b></a>
+              class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
+              @intensazc - <b>Barbara Ibañez</b></a>
           </div>
 
           <div class="grid grid-flow-cols grid-cols-1 gap-1 justify-beetwen text-left">
             <a href="https://www.instagram.com/cat.arsys"
               class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
-              @cat.arsys   - <b> Catalin Liviu </b></a>
+              @cat.arsys - <b> Catalin Liviu </b></a>
             <a href="https://www.instagram.com/iam_sharkastic"
-            class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
-            @iam_sharkastic   - <b>Sergio Martín</b></a>
+              class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
+              @iam_sharkastic - <b>Sergio Martín</b></a>
             <a href="https://historia-arte.com/autores/alvaro-garcia-moreno?fbclid=PAZXh0bgNhZW0CMTEAAaZXhzJaO518coe4d0wbABrUM9cD97VABeVEthtpD8VFEtl-2QtME1bEkbE_aem_LSvS6AW-QbcQvWoqpau77g"
-            class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
-            @agarciamorenoo   - <b>Alvaro García</b></a>
+              class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
+              @agarciamorenoo - <b>Alvaro García</b></a>
           </div>
 
 
           <div class="grid grid-flow-cols grid-cols-1 gap-1 justify-beetwen text-left">
             <a href="https://www.instagram.com/crearual"
-            class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
-            @crearual   - <b>Laura Morales</b></a>
+              class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
+              @crearual - <b>Laura Morales</b></a>
             <a href="https://www.instagram.com/sof_dob_"
-            class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
-            @sof_dob_   - <b>Sofia Dobeson</b></a>
+              class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
+              @sof_dob_ - <b>Sofia Dobeson</b></a>
             <a href="https://www.instagram.com/cosso.portfolio"
-            class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
-            @cosso.portfolio   - <b>Marco García</b></a>
+              class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
+              @cosso.portfolio - <b>Marco García</b></a>
           </div>
 
           <div class="grid grid-flow-cols grid-cols-1 gap-1 justify-beetwen text-left">
             <a href="https://www.instagram.com/_anagraphic"
-            class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
-            @_anagraphic   - <b>Ana Lazaro</b></a>
+              class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
+              @_anagraphic - <b>Ana Lazaro</b></a>
             <a href="https://www.instagram.com/conejitasmith7"
-            class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
-            @conejitasmith7   - <b>Cruz Díaz</b></a>
+              class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
+              @conejitasmith7 - <b>Cruz Díaz</b></a>
             <a href="https://www.instagram.com/ghonz.art"
-            class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
-            @ghonz.art   - <b>Hugo Gregorio</b></a>
+              class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
+              @ghonz.art - <b>Hugo Gregorio</b></a>
           </div>
 
           <div class="grid grid-flow-cols grid-cols-1 gap-1 justify-beetwen text-left">
             <a href="https://www.instagram.com/kombo_oficial"
-            class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
-            @kombo_oficial   - <b>Rakel Mongue</b></a>
+              class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
+              @kombo_oficial - <b>Rakel Mongue</b></a>
             <a href="https://www.instagram.com/bupeart"
-            class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
-            @bupeart   - <b>Pau Bueno</b></a>
+              class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
+              @bupeart - <b>Pau Bueno</b></a>
             <a href="https://www.instagram.com/carolina.jing"
-            class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
-            @carolina.jing   - <b>Carolina Jing</b></a>
+              class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
+              @carolina.jing - <b>Carolina Jing</b></a>
           </div>
 
           <div class="grid grid-flow-cols grid-cols-1 gap-1 justify-beetwen text-left">
             <a href="https://www.instagram.com/moniecos"
-            class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
-            @moniecos   - <b>Paula Rubros</b></a>
+              class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
+              @moniecos - <b>Paula Rubros</b></a>
           </div>
         </div>
       </div>
@@ -816,18 +815,18 @@
               @olme.ttoo</a>
             <a href="https://www.instagram.com/felixhdraw" class="text-white py-1 text-left">
               @felixhdraw</a>
-              <a href="https://www.instagram.com/kombo_oficial" class="text-white py-1 text-left">
-                @kombo_oficial</a>
+            <a href="https://www.instagram.com/kombo_oficial" class="text-white py-1 text-left">
+              @kombo_oficial</a>
           </div>
 
           <div
             class="grid grid-flow-cols grid-cols-1 gap-1 justify-beetwen text-center max-sm:grid-cols-3 max-sm:text-[12px]">
             <a href="https://www.instagram.com/cat.arsys" class="text-white py-1 text-left">
               @cat.arsys</a>
-              <a href="https://www.instagram.com/carolina.jing" class="text-white py-1 text-left">
-                @carolina.jing</a>
+            <a href="https://www.instagram.com/carolina.jing" class="text-white py-1 text-left">
+              @carolina.jing</a>
             <a href="https://historia-arte.com/autores/alvaro-garcia-moreno?fbclid=PAZXh0bgNhZW0CMTEAAaZXhzJaO518coe4d0wbABrUM9cD97VABeVEthtpD8VFEtl-2QtME1bEkbE_aem_LSvS6AW-QbcQvWoqpau77g"
-            class="text-white py-1 text-left">
+              class="text-white py-1 text-left">
               @agarciamorenoo</a>
           </div>
 
@@ -846,8 +845,8 @@
             class="grid grid-flow-cols grid-cols-1 gap-1 justify-beetwen text-center max-sm:grid-cols-3 max-sm:text-[12px]">
             <a href="https://www.instagram.com/moniecos" class="text-white py-1 text-left">
               @moniecos</a>
-              <a href="https://www.instagram.com/ghonz.art" class="text-white py-1 text-left">
-                @ghonz.art</a>
+            <a href="https://www.instagram.com/ghonz.art" class="text-white py-1 text-left">
+              @ghonz.art</a>
             <a href="https://www.instagram.com/conejitasmith7" class="text-white py-1 text-left">
               @conejitasmith7</a>
 
@@ -859,21 +858,24 @@
               @intensazc</a>
             <a href="https://www.instagram.com/bupeart" class="text-white py-1 text-left">
               @bupeart</a>
-              <a href="https://www.instagram.com/iam_sharkastic" class="text-white py-1 text-left">
-                @iam_sharkastic</a>
+            <a href="https://www.instagram.com/iam_sharkastic" class="text-white py-1 text-left">
+              @iam_sharkastic</a>
           </div>
 
           <div
             class="grid grid-flow-cols grid-cols-1 gap-1 justify-center text-center max-sm:grid-cols-3 max-sm:text-[12px]">
-              <a href="https://www.instagram.com/_anagraphic" class="text-white py-1 text-left">
-                @_anagraphic</a>
+            <a href="https://www.instagram.com/_anagraphic" class="text-white py-1 text-left">
+              @_anagraphic</a>
           </div>
         </div>
       </div>
     </div>
 
 
-    <div
+
+
+
+  <div
     class="links_rrss pt-12 px-80 pb-32 text-white justify-center gap-12 flex flex-row max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20 max-lg:flex max-lg:justify-center">
     <div class="email text-lg pr-12 flex gap-2 items-center max-lg:text-[14px] max-lg:justify-center max-sm:pr-0">
       ruben.maldonado.graphic@gmail.com
@@ -902,16 +904,16 @@
   </div>
 
 
-    <div
-      class="foter bg-black p-10 border-b-0 border-l-0 border-r-0 flex text-white justify-between sticky top-0 max-lg:p-6 border border-t-1">
-      <div class="foter_image flex flex-start">
-        <img class="vector max-lg:max-w-[15px]" src="/img/star.svg" />
-      </div>
-      <div class="email flex gap-2 items-center text-sm max-lg:text-xs">
-        Ruben Maldonado González
-        <img class="vector max-lg:max-w-[15px]" src="/img/futbol.svg" />
-      </div>
+  <div
+    class="foter bg-black p-10 border-b-0 border-l-0 border-r-0 flex text-white justify-between sticky top-0 max-lg:p-6 border border-t-1">
+    <div class="foter_image flex flex-start">
+      <img class="vector max-lg:max-w-[15px]" src="/img/star.svg" />
     </div>
+    <div class="email flex gap-2 items-center text-sm max-lg:text-xs">
+      Ruben Maldonado González
+      <img class="vector max-lg:max-w-[15px]" src="/img/futbol.svg" />
+    </div>
+  </div>
 
   </div>
 
