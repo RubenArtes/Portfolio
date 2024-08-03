@@ -502,10 +502,9 @@
           <img class="vector w-[17px]" src="/img/star.svg" />
           <div class="tittle_servicios font-bold text-[20px]">Fotografía</div>
           <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400">
-            Experiencia realizando sesiones fotográficas en exterior y estudio
-            de retratos. Fotografía de paisajes y lugares. Además de experiencia
-            en fotografía de producto y control de equipo de estudio. Edición de
-            fotografía (Raw) en
+            Experiencia realizando sesiones fotográficas de exterior y interior de modelaje. Fotografía de naturaleza o urbana. 
+            Además de experiencia en fotografía de producto/bodegón y control de equipo de estudio profesional. 
+            Edición de fotografía (Raw) en
             <a class="texto_color text-[#4b6ad1]">Photoshop y Lightroom</a>
           </div>
         </div>
@@ -513,8 +512,8 @@
           <img class="vector w-[17px]" src="/img/star.svg" />
           <div class="tittle_servicios font-bold text-[20px]">Ilustración</div>
           <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400">
-            Experiencia realizando ilustraciones tradicionales e ilustraciones
-            digitales mediante IPad - Procreate
+            Experiencia realizando ilustraciones tradicionales (Acuarela, Acrílico, Rotuladores, Lapiz, etc) e ilustraciones
+            digitales mediante Procreate (IPad) y otros soportes de ilustración digital.
           </div>
         </div>
         <div class="servicio flex flex-col gap-6">
@@ -537,7 +536,7 @@
             Pack Adobe y Figma
           </div>
           <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400">
-            Altos conocimientos en utilizar el pack
+            Alto conocimiento en utilización del pack
             <a class="texto_color text-[#dc8f00]">Adobe</a> (concretamente los
             mencionados arriba) y
             <a class="texto_color text-[#dc8f00]">Figma</a> (componentización,
@@ -552,8 +551,8 @@
           <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400">
             Conocimientos en diferentes ambitos del mundo de audiovisuales,
             concretamente
-            <a class="texto_color text-[#9c46e2]">After Effects</a> para motion
-            graphics, <a class="texto_color text-[#9c46e2]">Adobe Premiere</a> y
+            <a class="texto_color text-[#9c46e2]">After Effects</a> para Motion
+            Graphics, <a class="texto_color text-[#9c46e2]">Adobe Premiere</a> y
             otros programas de video para realización de piezas para redes
             sociales, conocimientos de rotoscopia digital, chroma y edición de
             video.
@@ -565,7 +564,7 @@
           <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400">
             Conocimientos altos en
             <a class="texto_color text-[#bd3f9d]">Indesign</a> y
-            <a class="texto_color text-[#4b6ad1]">Photoshop</a>, para la
+            <a class="texto_color text-[#4b6ad1]">Photoshop</a> para la
             maquetación de carteles, folletos, libros, revistas, anuncios y
             cualquier pieza gráfica necesaria.
           </div>
@@ -600,7 +599,7 @@
             Madrid.
             <a class="animate-pulse texto_type italic text-xs text-black">(Nota media - 9).</a>
             <br />
-            Grado Superior de Ilustración
+            Cuento con un Grado Superior de Ilustración realizado en la Escuela de Artes de Toledo
             <a class="texto_type italic text-xs text-black animate-pulse">(Nota TFG - 9).</a>
             <br />
             <br />

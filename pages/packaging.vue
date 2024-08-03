@@ -250,7 +250,7 @@
         <div
             class="grid grid-cols-3 gap-32 px-60 pb-4 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-[800px]:gap-2">
 
-            <div class="div text-zinc-600 text-center text-xs m-0 pb-14 max-xl:pb-10">Render 3D con iluminación y
+            <div class="div text-zinc-600 text-center text-xs m-0 pb-14 max-xl:pb-4">Render 3D con iluminación y
                 colores
                 <br>
                 <div
@@ -277,7 +277,7 @@
         </div>
 
         <div
-            class="titular2 flex px-64 pb-2 gap-64 pt-32 content-start space-between justify-center pt-20 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:px-60 max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 flex px-64 pb-2 gap-64 pt-32 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:px-60 max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
                 INTERCAMBIO <br> DE PIEZAS</div>
@@ -301,13 +301,20 @@
 
         </div>
 
-        <div class="titular2 flex justify-center w-full h-full">
+        <div class="titular2 flex justify-center w-full h-full max-sm:hidden">
 
 
-            <video class="pb-20 justify-items-center content-center justify-center w-full h-full" loop autoplay>
+            <video class="pb-20 justify-items-center content-center justify-center w-full h-full max-sm:pb-12" loop
+                autoplay>
                 <source src="/img/videointercambio.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
+
+        </div>
+
+        <div class="hidden titular2 max-sm:flex justify-center w-full h-full max-sm:pb-12">
+
+            <img class="image_grid w-full h-full" src="/img/videointercambio2.gif" alt="">
 
         </div>
 
