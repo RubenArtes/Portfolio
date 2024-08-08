@@ -13,10 +13,10 @@
           <img class="image w-[30px]" src="/img/darkmode.png" alt="" />
         </NuxtLink>
       </div>
-      <div class="email text-lg justify-items-end flex gap-2 max-lg:text-xs">
+      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado." target="_blank" class="email text-lg justify-items-end flex gap-2 max-lg:text-xs">
         ruben.maldonado.graphic@gmail.com
-        <img class="vector max-lg:max-w-[8px]" src="/img/Vector-11white.svg" />
-      </div>
+        <img class="vector max-lg:max-w-[8px]" src="/img/Vector-11black.svg" />
+      </a>
     </div>
 
     <div
@@ -58,14 +58,14 @@
 
     <div
       class="banner flex pt-12 pb-12 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:hidden">
-      <img class="banner_image w-1/2 h-full" src="/img/bannerhome.png">
+      <img class="banner_image w-1/2 h-full" src="/img/bannerhome5.png">
 
 
     </div>
 
     <div
       class="banner hidden max-sm:flex max-sm:pt-40 max-sm:pb-40 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
-      <img class="banner_image w-full h-full" src="/img/bannerhome.png">
+      <img class="banner_image w-full h-full" src="/img/bannerhome5.png">
 
 
     </div>
@@ -876,10 +876,10 @@
 
   <div
     class="links_rrss pt-12 px-80 pb-32 text-white justify-center gap-12 flex flex-row max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20 max-lg:flex max-lg:justify-center">
-    <div class="email text-lg pr-12 flex gap-2 items-center max-lg:text-[14px] max-lg:justify-center max-sm:pr-0">
+    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado." target="_blank"  class="email text-lg pr-12 flex gap-2 items-center max-lg:text-[14px] max-lg:justify-center max-sm:pr-0">
       ruben.maldonado.graphic@gmail.com
-      <img class="vector" src="/img/Vector-11.svg" />
-    </div>
+      <img class="vector" src="/img/Vector-11black.svg" />
+    </a>
     <div class="links flex flex-col pl-12 gap-2 max-lg:justify-center max-sm:pl-0">
       <div class="links1 flex gap-32 max-lg:justify-center">
         <a class="red flex gap-2 items-center max-lg:text-[14px]"

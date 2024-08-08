@@ -425,10 +425,10 @@
 
         <div
             class="links_rrss font-['SFUIDisplay-Light'] leading-6 pt-32 px-64 pb-32 text-zinc-600 justify-center flex flex-row gap-60 max-xl:pt-20 max-xl:px-10 max-xl:flex-col max-xl:justify-items-center max-xl:gap-20 max-xl:flex max-xl:justify-center max-xl:pb-20 max-[1500px]:px-60">
-            <div class="email text-lg flex gap-2 items-center max-xl:text-[14px] max-xl:justify-center">
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado." target="_blank"  class="email text-lg flex gap-2 items-center max-xl:text-[14px] max-xl:justify-center">
                 ruben.maldonado.graphic@gmail.com
                 <img class="vector" src="/img/Vector-11zinc.svg">
-            </div>
+            </a>
             <div class="links flex flex-col gap-2">
                 <div class="links1 flex gap-32 max-xl:justify-center">
                     <a class="red flex gap-2 items-center max-xl:text-[14px]"
