@@ -463,9 +463,9 @@
                     class="text max-w-[80ch] pt-4 text-left font-['SFUIDisplay-Light'] text-[14px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:hidden">
                     ANVERSO
                 </div>
-                <img class="image_grid w-full h-full place-self-end shadow-md" src="/img/AAFF_Fajilla Caja_2.png"
+                <img class="image_grid w-full h-full place-self-end shadow-md" src="/img/AAFF_FajillaCaja_2.png"
                     alt="">
-                <img class="image_grid w-full h-full shadow-md" src="/img/AAFF_Fajilla Caja_1.png" alt="">
+                <img class="image_grid w-full h-full shadow-md" src="/img/AAFF_FajillaCaja_1.png" alt="">
 
 
             </div>
