@@ -1,5 +1,5 @@
 <template>
-    <div class="app bg-white font-['SFUIDisplay-Regular']">
+    <div class="app bg-white font-['SFUIDisplay-Regular'] border">
         <Cursor />
         <div
             class="header bg-white p-10 flex px-24 text-black justify-between sticky top-0 z-10 max-lg:p-6 max-lg:sticky border border-b-0">
@@ -773,8 +773,8 @@
                 MAPA</div>
         </div>
 
-        <div class="grid grid-cols-1 px-64 max-sm:grid-cols-1 pb-32">
-            <img class="image px-64 w-full h-full max-sm:pb-2" src="/img/IMG_2522.png" alt="">
+        <div class="grid grid-cols-1 px-64 max-sm:grid-cols-1 pb-32 max-sm:pb-12 max-sm:px-4">
+            <img class="image px-64 w-full h-full max-sm:pb-2 max-sm:px-4" src="/img/IMG_2522.png" alt="">
         </div>
         <div
             class="grid grid-cols-1 px-64 pt-4 pb-32 text-center justify-items-center font-['Regular'] text-[16px] text-zinc-600 max-xl:text-sm max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:px-12 max-sm:pb-16">
