@@ -58,7 +58,7 @@
                     IMPRESIÓN - Packaging - Marca -
                     Diseño Gráfico</div>
                 <div
-                    class="text max-w-[80ch] pb-16 pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:max-w-[100ch] max-[800px]:pb-4">
+                    class="text max-w-[80ch] pb-16 pt-4 text-left font-['Regular'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:max-w-[100ch] max-[800px]:pb-4">
                     El proyecto consistirá en la creación de una caja contenedora de diferentes elementos impresos sobre
                     un tema concreto, realizando diferentes pruebas físicas como folletos, cuadernillos impresos o
                     carteles. Para este trabajo
@@ -78,7 +78,7 @@
                     class="text max-w-[200ch] text-center font-['Domaine-Display'] uppercase text-[24px] leading-10 text-zinc-800 max-xl:text-xs">
                     Asignatura</div>
                 <div
-                    class="text max-w-[200ch] font-['SFUIDisplay-Light'] text-center text-[16px] leading-6 text-zinc-900 max-xl:text-sm max-xl:max-w-[40ch]">
+                    class="text max-w-[200ch] font-['Regular'] text-center text-[16px] leading-6 text-zinc-900 max-xl:text-sm max-xl:max-w-[40ch]">
                     Producción para artes gráficas, 4º Curso Diseño Gráfico.
                 </div>
             </div>
@@ -87,7 +87,7 @@
                     class="text max-w-[60ch] font-['Domaine-Display'] text-center text-[24px] uppercase leading-10 text-zinc-800 max-xl:text-xs">
                     Tiempo</div>
                 <div
-                    class="text max-w-[20ch] font-['SFUIDisplay-Light']  text-center text-[16px] leading-6 text-zinc-900 max-xl:text-sm max-xl:max-w-[40ch]">
+                    class="text max-w-[20ch] font-['Regular']  text-center text-[16px] leading-6 text-zinc-900 max-xl:text-sm max-xl:max-w-[40ch]">
                     4 meses
                 </div>
             </div>
@@ -96,7 +96,7 @@
                     class="text max-w-[60ch] font-['Domaine-Display'] text-center text-[24px] uppercase leading-10 text-zinc-800 max-xl:text-xs">
                     Briefing</div>
                 <div
-                    class="text max-w-[20ch] text-center font-['SFUIDisplay-Light']  text-[16px] leading-6 text-zinc-900 max-xl:text-sm max-xl:max-w-[40ch]">
+                    class="text max-w-[20ch] text-center font-['Regular']  text-[16px] leading-6 text-zinc-900 max-xl:text-sm max-xl:max-w-[40ch]">
                     Oporto y cultura portuguesa
                 </div>
             </div>
@@ -116,7 +116,7 @@
                         class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
                         CAJA IMPRESA OPORTO</div>
                     <div
-                        class="text text-[20px] font-['SFUIDisplay-Light'] indent-12 text-zinc-900 max-w-[70ch] max-xl:text-sm max-[1500px]:text-[16px] max-[1500px]:max-w-[100ch]">
+                        class="text text-[20px] font-['Regular'] indent-12 text-zinc-900 max-w-[70ch] max-xl:text-sm max-[1500px]:text-[16px] max-[1500px]:max-w-[100ch]">
                         El trabajo de esta asignatura se basa en la creación de una caja
                         contenedora de elementos impresos con una temática detrás.
                         Todos estos elementos deberán de tener coherencia entre sí además del conjunto general de la
@@ -167,7 +167,7 @@
                     <a class="type text-zinc-600">CAJA CONTENEDORA DEL PROYECTO</a>
                 </div>
                 <div
-                    class="text max-w-[80ch] pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                    class="text max-w-[80ch] pt-4 text-left font-['Regular'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
                     Dentro de este compartimento se puede ver una breve introducción al proyecto y a Oporto o Portugal,
                     con un elemento central que es el azulejo personalizado, estampado mediante serigrafía.
                 </div>
@@ -225,7 +225,7 @@
                     <a class="type text-zinc-600">CAJA CONTENEDORA DEL PROYECTO</a>
                 </div>
                 <div
-                    class="text max-w-[80ch] pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                    class="text max-w-[80ch] pt-4 text-left font-['Regular'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
                     En este segundo compartimento se incluyen tres piezas diferentes. Tres fanzines/fotolibros
                     experimentales cosidos a mano, cada uno contando cada uno de los tres días del viaje a modo de
                     diario. Como segunda pieza unas postales con ilustraciones personales y por ultimo
@@ -326,7 +326,7 @@
         <img class="image w-full h-full pb-32 max-sm:pb-12" src="/img/IMG_2444.jpg" alt="">
 
         <div
-            class="text pt-4 pb-12 text-center px-64 justify-items-center font-['SFUIDisplay-Light'] text-[14px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:hidden">
+            class="text pt-4 pb-12 text-center px-64 justify-items-center font-['Regular'] text-[14px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:hidden">
             «Pasa el ratón por encima para ampliar»
 
         </div>
@@ -370,19 +370,19 @@
                 class="grid grid-cols-3 px-12 grid-row-1 gap-12 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-sm:px-0 max-sm:pt-0 max-sm:gap-2">
 
                 <div
-                    class="text pt-12 pb-2 text-left justify-items-left font-['SFUIDisplay-Light'] text-[14px] text-zinc-800 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:text-[12px]">
+                    class="text pt-12 pb-2 text-left justify-items-left font-['Regular'] text-[14px] text-zinc-800 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:text-[12px]">
                     CUADERNO DE VIAJE 1 - DÍA 1
 
                 </div>
 
                 <div
-                    class="text pt-12 pb-2 text-left justify-items-left font-['SFUIDisplay-Light'] text-[14px] text-zinc-800 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:text-[12px]">
+                    class="text pt-12 pb-2 text-left justify-items-left font-['Regular'] text-[14px] text-zinc-800 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:text-[12px]">
                     CUADERNO DE VIAJE 2 - DÍA 2
 
                 </div>
 
                 <div
-                    class="text pt-12 pb-2 text-left justify-items-left font-['SFUIDisplay-Light'] text-[14px] text-zinc-800 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:text-[12px]">
+                    class="text pt-12 pb-2 text-left justify-items-left font-['Regular'] text-[14px] text-zinc-800 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:text-[12px]">
                     CUADERNO DE VIAJE 3 - DÍA 3
 
                 </div>
@@ -513,7 +513,7 @@
                 class="grid grid-cols-3 px-12 grid-row-1 gap-12 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-sm:px-0 max-sm:pt-0 max-sm:gap-2">
 
                 <div
-                    class="text pt-12 pb-2 text-left justify-items-left font-['SFUIDisplay-Light'] text-[14px] text-zinc-800 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:text-[12px]">
+                    class="text pt-12 pb-2 text-left justify-items-left font-['Regular'] text-[14px] text-zinc-800 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:text-[12px]">
                     CUADERNO DE VIAJE 1 - DÍA 1
 
                 </div>
@@ -562,7 +562,7 @@
                 </Carousel>
 
                 <div
-                    class="text pt-12 pb-2 text-left justify-items-left font-['SFUIDisplay-Light'] text-[14px] text-zinc-800 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:text-[12px]">
+                    class="text pt-12 pb-2 text-left justify-items-left font-['Regular'] text-[14px] text-zinc-800 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:text-[12px]">
                     CUADERNO DE VIAJE 2 - DÍA 2
 
                 </div>
@@ -611,7 +611,7 @@
                 </Carousel>
 
                 <div
-                    class="text pt-12 pb-2 text-left justify-items-left font-['SFUIDisplay-Light'] text-[14px] text-zinc-800 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:text-[12px]">
+                    class="text pt-12 pb-2 text-left justify-items-left font-['Regular'] text-[14px] text-zinc-800 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:text-[12px]">
                     CUADERNO DE VIAJE 3 - DÍA 3
 
                 </div>
@@ -680,7 +680,7 @@
                         class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-[#243673] max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
                         ← CUADERNILLOS</div>
                     <div
-                        class="text text-[16px] font-['SFUIDisplay-Light'] indent-12 text-[#243673] max-xl:text-sm max-[1500px]:text-[16px] max-[1500px]:max-w-[100ch]">
+                        class="text text-[16px] font-['Regular'] indent-12 text-[#243673] max-xl:text-sm max-[1500px]:text-[16px] max-[1500px]:max-w-[100ch]">
                         Creación de 3 cuadernillos de maquetación experimental para
                         narrar el viaje de los 3 días. Un cuadernillo por cada uno contando
                         por horas todos los trayectos, lugares, monumentos y momentos
@@ -713,7 +713,7 @@
                     <a class="type text-zinc-600">CAJA CONTENEDORA DEL PROYECTO</a>
                 </div>
                 <div
-                    class="text max-w-[80ch] pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                    class="text max-w-[80ch] pt-4 text-left font-['Regular'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
                     En este segundo compartimento se incluyen tres piezas diferentes. Tres fanzines/fotolibros
                     experimentales cosidos a mano, cada uno contando cada uno de los tres días del viaje a modo de
                     diario. Como segunda pieza unas postales con ilustraciones personales y por ultimo
@@ -735,7 +735,7 @@
             <img class="image px-64 w-full h-full max-sm:pb-2" src="/img/IMG_2522.png" alt="">
         </div>
         <div
-            class="grid grid-cols-1 px-64 pt-4 pb-32 text-center justify-items-center font-['SFUIDisplay-Light'] text-[16px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:px-12">
+            class="grid grid-cols-1 px-64 pt-4 pb-32 text-center justify-items-center font-['Regular'] text-[16px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:px-12">
             <div
                 class="titular text-[20px] font-['Domaine-Display'] text-start leading-10 font-normal pb-2 text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
                 PICTOGRAMAS</div>
@@ -802,13 +802,35 @@
         </div>
 
         <div
-            class="colum flex px-64 pt-20 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-[1500px]:px-60 max-sm:px-2">
+            class="colum flex px-12 pt-20 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-[1500px]:px-60 max-sm:px-2">
 
             <div class="fotografias px-12 grid grid-cols-2 grid-rows-2 gap-2 max-sm:gap-4 max-sm:px-2 max-sm:grid-cols-1">
                 <img class="image w-full h-full" src="/img/IMG_2552.jpg" alt="">
                 <img class="image w-full h-full" src="/img/IMG_2548.jpg" alt="">
                 <img class="image w-full h-full" src="/img/IMG_2554.jpg" alt="">
                 <img class="image w-full h-full" src="/img/IMG_2558.jpg" alt="">
+            </div>
+
+        </div>
+
+        
+        <div id="cajafajilla"    
+                    class="titular2 flex px-64 pb-2 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20 max-sm:pt-20">
+            <div
+                class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center">
+                CUARTO<br>COMPARTIMENTO</div>
+            <div
+                class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[1280px]:p-0">
+
+                <div
+                    class="text max-w-[60ch] text-[16px] uppercase text-zinc-900 max-xl:leading-2 max-xl:text-xs max-xl:text-center max-[1280px]:text-left">
+                    <a class="type text-zinc-600">CAJA CONTENEDORA DEL PROYECTO</a>
+                </div>
+                <div
+                    class="text max-w-[80ch] pt-4 text-left font-['Regular'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                    Dentro de este compartimento se encuentran los elementos más "premium", como son el pack de analógicas realizadas con una Kodak desechable y el fotolibro con impresión en alta calidad.
+                </div>
+
             </div>
 
         </div>
@@ -827,7 +849,7 @@
                     <a class="type text-zinc-600">CAJA CONTENEDORA DEL PROYECTO</a>
                 </div>
                 <div
-                    class="text max-w-[80ch] pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                    class="text max-w-[80ch] pt-4 text-left font-['Regular'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
                     Dentro de esta caja se encuentran todos los componentes diseñados colocados dentro de diferentes
                     compartimentos. Esta caja cuenta con 4 compartimentos diferentes.
                 </div>
@@ -854,11 +876,11 @@
             <div
                 class="grid grid-cols-2 grid-row-2 gap-12 px-12 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-sm:px-0 max-sm:pt-0">
                 <div
-                    class="text max-w-[80ch] place-self-end pt-4 text-right font-['SFUIDisplay-Light'] text-[14px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:hidden">
+                    class="text max-w-[80ch] place-self-end pt-4 text-right font-['Regular'] text-[14px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:hidden">
                     REVERSO
                 </div>
                 <div
-                    class="text max-w-[80ch] pt-4 text-left font-['SFUIDisplay-Light'] text-[14px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:hidden">
+                    class="text max-w-[80ch] pt-4 text-left font-['Regular'] text-[14px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:hidden">
                     ANVERSO
                 </div>
 
@@ -890,7 +912,7 @@
                         Narrow</a>
                 </div>
                 <div
-                    class="text max-w-[80ch] pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                    class="text max-w-[80ch] pt-4 text-left font-['Regular'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
                     La idea principal de este trabajo parte de utilizar las tipografías que se utilizan en portugal y
                     los colores significativos de los azulejos y de su cultura.
                 </div>
@@ -932,7 +954,7 @@
             </div>
             <div class="columna2 grid gap-6">
                 <div
-                    class="text max-w-[80ch] text-left font-['SFUIDisplay-Light'] text-[16px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                    class="text max-w-[80ch] text-left font-['Regular'] text-[16px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
                     <a class="color text-[#243673] font-bold">HEX : #243673</a> <br>
                     C - 100 <br>
                     M - 87,42 <br>
@@ -940,7 +962,7 @@
                     K - 6,29
                 </div>
                 <div
-                    class="text max-w-[80ch] text-left font-['SFUIDisplay-Light'] text-[16px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                    class="text max-w-[80ch] text-left font-['Regular'] text-[16px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
                     <a class="color text-[#3a5aa6] font-bold">HEX : #3a5aa6</a> <br>
                     C - 85 <br>
                     M - 65,47 <br>
@@ -948,7 +970,7 @@
                     K - 0
                 </div>
                 <div
-                    class="text max-w-[80ch] text-left font-['SFUIDisplay-Light'] text-[16px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                    class="text max-w-[80ch] text-left font-['Regular'] text-[16px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
                     <a class="color text-[#859ed2] font-bold">HEX : #859ed2</a> <br>
                     C - 52,83 <br>
                     M - 33,07 <br>
@@ -956,7 +978,7 @@
                     K - 0
                 </div>
                 <div
-                    class="text max-w-[80ch] text-left font-['SFUIDisplay-Light'] text-[16px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                    class="text max-w-[80ch] text-left font-['Regular'] text-[16px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
                     <a class="color text-[#ced8ed] font-bold">HEX : #ced8ed</a> <br>
                     C - 21 <br>
                     M - 13 <br>
@@ -979,7 +1001,7 @@
             <div class="color w-[200px] h-[200px] border border-zinc-200 bg-[#ced8ed]">
             </div>
             <div
-                class="text max-w-[80ch] text-left font-['SFUIDisplay-Light'] text-[16px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                class="text max-w-[80ch] text-left font-['Regular'] text-[16px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
                 <a class="color text-[#243673] font-bold">HEX : #243673</a> <br>
                 C - 100 <br>
                 M - 87,42 <br>
@@ -987,7 +1009,7 @@
                 K - 6,29
             </div>
             <div
-                class="text max-w-[80ch] text-left font-['SFUIDisplay-Light'] text-[16px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                class="text max-w-[80ch] text-left font-['Regular'] text-[16px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
                 <a class="color text-[#3a5aa6] font-bold">HEX : #3a5aa6</a> <br>
                 C - 85 <br>
                 M - 65,47 <br>
@@ -995,7 +1017,7 @@
                 K - 0
             </div>
             <div
-                class="text max-w-[80ch] text-left font-['SFUIDisplay-Light'] text-[16px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                class="text max-w-[80ch] text-left font-['Regular'] text-[16px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
                 <a class="color text-[#859ed2] font-bold">HEX : #859ed2</a> <br>
                 C - 52,83 <br>
                 M - 33,07 <br>
@@ -1003,7 +1025,7 @@
                 K - 0
             </div>
             <div
-                class="text max-w-[80ch] text-left font-['SFUIDisplay-Light'] text-[16px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                class="text max-w-[80ch] text-left font-['Regular'] text-[16px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
                 <a class="color text-[#ced8ed] font-bold">HEX : #ced8ed</a> <br>
                 C - 21 <br>
                 M - 13 <br>
@@ -1026,7 +1048,7 @@
                     <a class="type text-zinc-600">MATERIAL FOTOGRÁFICO</a>
                 </div>
                 <div
-                    class="text max-w-[80ch] pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                    class="text max-w-[80ch] pt-4 text-left font-['Regular'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
                     Todas las imágenes tienen la misma edición o con parámetros
                     muy similares para conseguir una unificación del trabajo y que
                     el aspecto general mantenga la misma estética, son pequeños
@@ -1068,7 +1090,7 @@
                     <a class="type text">CAJA Y ELEMENTOS DE SU INTERIOR</a>
                 </div>
                 <div
-                    class="text max-w-[80ch] pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                    class="text max-w-[80ch] pt-4 text-left font-['Regular'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
                     La caja se compone por diferentes elementos que estan agrupados en 4 compartimentos. El primer
                     compartimento que contiene el azulejo personalizado, el segundo compartimento que contiene 3 modelos
                     de postales, 3 cuadernillos a modo diario del viaje y 4 modelos de sellos. En el
@@ -1104,7 +1126,7 @@
         <div
             class="trabajos flex pt-10 pl-40 pr-40 pb-20 text-zinc-600 flex-col gap-10 justify-center items-center max-xl:pt-12 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[1500px]:px-60">
             <div
-                class="titular text-[16px] font-['SFUIDisplay-Light'] leading-6 font-normal flex flex-start items-center max-xl:text-xs">
+                class="titular text-[16px] font-['Regular'] leading-6 font-normal flex flex-start items-center max-xl:text-xs">
                 Programas utilizados
                 para este
                 proyecto</div>
@@ -1125,7 +1147,7 @@
         </div>
 
         <div
-            class="links_rrss font-['SFUIDisplay-Light'] leading-6 pt-32 px-64 pb-32 text-zinc-600 justify-center flex flex-row gap-60 max-xl:pt-20 max-xl:px-10 max-xl:flex-col max-xl:justify-items-center max-xl:gap-20 max-xl:flex max-xl:justify-center max-xl:pb-20 max-[1500px]:px-60">
+            class="links_rrss font-['Regular'] leading-6 pt-32 px-64 pb-32 text-zinc-600 justify-center flex flex-row gap-60 max-xl:pt-20 max-xl:px-10 max-xl:flex-col max-xl:justify-items-center max-xl:gap-20 max-xl:flex max-xl:justify-center max-xl:pb-20 max-[1500px]:px-60">
             <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado."
                 target="_blank" class="email text-lg flex gap-2 items-center max-xl:text-[14px] max-xl:justify-center">
                 ruben.maldonado.graphic@gmail.com
