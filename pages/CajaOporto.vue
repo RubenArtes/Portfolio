@@ -15,37 +15,78 @@
 
         </div>
         <div
-            class="header bg-white p-1 flex px-24 justify-between sticky top-[110px] z-10 max-lg:p-6 max-lg:sticky border border-b-1 max-sm:hidden">
-            <a class="email text-black text-[12px] justify-items-center flex gap-2 max-lg:text-xs ">NAVEGACIÓN
+            class="header bg-white p-1 flex px-8 gap-12 text-center justify-items-center place-content-center sticky top-[110px] z-10 max-lg:p-6 max-lg:sticky border border-b-1 max-sm:hidden max-[1920px]:gap-8">
+            <a
+                class="email text-black text-[12px] max-[1920px]:text-[10px] justify-items-center flex gap-2 max-lg:text-xs ">NAVEGACIÓN
             </a>
-            <a href="#primercompartimento" class="email text-zinc-400 text-[12px] justify-items-center flex gap-2 max-lg:text-xs ">> PRIMER COMPARTIMENTO
+            <a href="#primercompartimento"
+                class="email text-zinc-400 text-[12px] max-[1920px]:text-[10px] justify-items-center flex gap-2 max-lg:text-xs ">>
+                PRIMER
+                COMPARTIMENTO
             </a>
-            <a href="#segundocompartimento" class="email text-zinc-400 text-[12px] justify-items-center flex gap-2 max-lg:text-xs ">> SEGUNDO COMPARTIMENTO
+            <a href="#segundocompartimento"
+                class="email text-zinc-400 text-[12px] max-[1920px]:text-[10px] justify-items-center flex gap-2 max-lg:text-xs ">>
+                SEGUNDO
+                COMPARTIMENTO
             </a>
-            <a href="#postales" class="email text-zinc-400 text-[12px] justify-items-center flex gap-2 max-lg:text-xs ">> POSTALES
+            <a href="#postales"
+                class="email text-zinc-400 text-[12px] max-[1920px]:text-[10px] justify-items-center flex gap-2 max-lg:text-xs ">>
+                POSTALES
             </a>
-            <a href="#sellos" class="email text-zinc-400 text-[12px] justify-items-center flex gap-2 max-lg:text-xs ">> SELLOS
+            <a href="#sellos"
+                class="email text-zinc-400 text-[12px] max-[1920px]:text-[10px] justify-items-center flex gap-2 max-lg:text-xs ">>
+                SELLOS
             </a>
-            <a href="#cuadernos" class="email text-zinc-400 text-[12px] justify-items-center flex gap-2 max-lg:text-xs ">> CUADERNILLOS
+            <a href="#cuadernos"
+                class="email text-zinc-400 text-[12px] max-[1920px]:text-[10px] justify-items-center flex gap-2 max-lg:text-xs ">>
+                CUADERNILLOS
             </a>
-            <a href="#tercercompartimento" class="email text-zinc-400 text-[12px] justify-items-center flex gap-2 max-lg:text-xs ">> TERCER COMPARTIMENTO
+            <a href="#tercercompartimento"
+                class="email text-zinc-400 text-[12px] max-[1920px]:text-[10px] justify-items-center flex gap-2 max-lg:text-xs ">>
+                TERCER
+                COMPARTIMENTO
             </a>
-            <a href="#mapa" class="email text-zinc-400 text-[12px] justify-items-center flex gap-2 max-lg:text-xs ">> MAPA
+            <a href="#mapa"
+                class="email text-zinc-400 text-[12px] max-[1920px]:text-[10px] justify-items-center flex gap-2 max-lg:text-xs ">>
+                MAPA
             </a>
-            <a href="#folleto" class="email text-zinc-400 text-[12px] justify-items-center flex gap-2 max-lg:text-xs ">> FOLLETO
+            <a href="#folleto"
+                class="email text-zinc-400 text-[12px] max-[1920px]:text-[10px] justify-items-center flex gap-2 max-lg:text-xs ">>
+                FOLLETO
             </a>
-            <a href="#cajafajilla" class="email text-zinc-400 text-[12px] justify-items-center flex gap-2 max-lg:text-xs ">> CAJA FAJILLA
+            <a href="#cuartocompartimento"
+                class="email text-zinc-400 text-[12px] max-[1920px]:text-[10px] justify-items-center flex gap-2 max-lg:text-xs ">>
+                CUARTO
+                COMPARTIMENTO
             </a>
-            <a href="#tipografias" class="email text-zinc-400 text-[12px] justify-items-center flex gap-2 max-lg:text-xs ">> TIPOGRAFIAS
+            <a href="#packanalogicas"
+                class="email text-zinc-400 text-[12px] max-[1920px]:text-[10px] justify-items-center flex gap-2 max-lg:text-xs ">>
+                PACK ANALÓGICAS
             </a>
-            <a href="#fotografias" class="email text-zinc-400 text-[12px] justify-items-center flex gap-2 max-lg:text-xs ">> FOTOGRAFÍAS
+            <a href="#libroimpreso"
+                class="email text-zinc-400 text-[12px] max-[1920px]:text-[10px] justify-items-center flex gap-2 max-lg:text-xs ">>
+                LIBRO IMPRESO
             </a>
-            <a href="#piezas" class="email text-zinc-400 text-[12px] justify-items-center flex gap-2 max-lg:text-xs ">> PIEZAS
+            <a href="#cajafajilla"
+                class="email text-zinc-400 text-[12px] max-[1920px]:text-[10px] justify-items-center flex gap-2 max-lg:text-xs ">>
+                CAJA FAJILLA
+            </a>
+            <a href="#tipografias"
+                class="email text-zinc-400 text-[12px] max-[1920px]:text-[10px] justify-items-center flex gap-2 max-lg:text-xs ">>
+                TIPOGRAFIAS
+            </a>
+            <a href="#fotografias"
+                class="email text-zinc-400 text-[12px] max-[1920px]:text-[10px] justify-items-center flex gap-2 max-lg:text-xs ">>
+                FOTOGRAFÍAS
+            </a>
+            <a href="#piezas"
+                class="email text-zinc-400 text-[12px] max-[1920px]:text-[10px] justify-items-center flex gap-2 max-lg:text-xs ">>
+                PIEZAS
             </a>
 
         </div>
         <VueScrollProgressBar background-color="#52525B" />
-        <div 
+        <div
             class="titular2 flex px-64 gap-32 content-start space-between justify-center pt-32 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-[1500px]:flex-col max-[1500px]:gap-2 max-[1500px]:items-center max-[1700px]:px-10">
             <div
                 class="titular text-[120px] font-['Domaine-Display'] font-bold leading-[120px] animate-pulse bg-gradient-to-r bg-clip-text text-transparent animate-text max-sm:text-[70px] max-[1500px]:text-left max-[1280px]:text-[100px] from-[#311568] via-[#4797ff] to-[#311568] max-sm:text-center max-sm:leading-[4rem] max-sm:font-normal">
@@ -113,7 +154,7 @@
             <div class="info_proyect max-w-[80ch]">
                 <div class="info_secondary flex flex-col gap-6 sticky top-48 max-[1500px]:gap-12">
                     <div
-                        class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
+                        class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-[#243673] pb-6 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left max-sm:pb-0">
                         CAJA IMPRESA OPORTO</div>
                     <div
                         class="text text-[20px] font-['Regular'] indent-12 text-zinc-900 max-w-[70ch] max-xl:text-sm max-[1500px]:text-[16px] max-[1500px]:max-w-[100ch]">
@@ -154,8 +195,9 @@
             </div>
         </div>
 
-
-        <div id="primercompartimento" class="titular2 flex px-64 pb-32 gap-64 pt-32 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+        
+        <div id="primercompartimento"
+            class="titular2 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
                 PRIMER<br>COMPARTIMENTO</div>
@@ -213,7 +255,7 @@
         </div>
 
         <div id="segundocompartimento"
-                    class="titular2 flex px-64 pb-32 gap-64 pt-32 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
                 SEGUNDO<br>COMPARTIMENTO</div>
@@ -239,7 +281,7 @@
         <img class="image w-full h-full" src="/img/IMG_2468.jpg" alt="">
 
         <div id="postales"
-                    class="titular2 flex px-64 pb-32 gap-64 pt-32 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 flex px-64 pb-32 gap-64 pt-48 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
                 POSTALES</div>
@@ -317,7 +359,7 @@
 
 
         <div id="sellos"
-            class="titular2 flex px-64 pb-32 gap-64 pt-8 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 flex px-64 pb-32 gap-64 pt-48 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
                 SELLOS</div>
@@ -358,7 +400,7 @@
 
 
         <div id="cuadernos"
-                    class="titular2 bg-white flex px-64 pb-32 gap-64 pt-16 text-zinc-900 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-6 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 bg-white flex px-64 pb-32 gap-64 pt-48 text-zinc-900 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-6 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-zinc-900 max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6 max-sm:text-[30px] max-sm:pb-0">
                 CUADERNOS DE VIAJE EXPERIMENTALES</div>
@@ -508,9 +550,9 @@
         </div>
 
         <div
-            class="hidden bg-white grid-cols-1 grid-row-2 gap-2 px-64 pb-32 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-sm:grid">
+            class="hidden bg-white grid-cols-1 grid-row-2 gap-2 px-64 pb-32 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-sm:grid max-sm:px-4">
             <div
-                class="grid grid-cols-3 px-12 grid-row-1 gap-12 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-sm:px-0 max-sm:pt-0 max-sm:gap-2">
+                class="grid grid-cols-3 px-12 grid-row-1 gap-12 max-xl:grid-cols-1 max-xl:px-10 max-sm:pb-0 max-xl:pt-10 max-[1500px]:px-60 max-sm:px-0 max-sm:pt-0 max-sm:gap-2">
 
                 <div
                     class="text pt-12 pb-2 text-left justify-items-left font-['Regular'] text-[14px] text-zinc-800 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:text-[12px]">
@@ -519,7 +561,7 @@
                 </div>
 
 
-                <Carousel class="max-sm:pb-32" :autoplay="4000" :wrap-around="true">
+                <Carousel class="max-sm:pb-0" :autoplay="4000" :wrap-around="true">
                     <Slide v-for="slide in 1" :key="slide">
                         <img class="image_grid w-full h-full border border-zinc-400" src="/img/portadacuadernillo3.png"
                             alt="">
@@ -568,7 +610,7 @@
                 </div>
 
 
-                <Carousel class="max-sm:pb-32" :autoplay="4000" :wrap-around="true">
+                <Carousel class="max-sm:pb-0" :autoplay="4000" :wrap-around="true">
                     <Slide v-for="slide in 1" :key="slide">
                         <img class="image_grid w-full h-full border border-zinc-400" src="/img/portadacuadernillo.png"
                             alt="">
@@ -617,7 +659,7 @@
                 </div>
 
 
-                <Carousel class="max-sm:pb-32" :autoplay="4000" :wrap-around="true">
+                <Carousel class="max-sm:pb-0" :autoplay="4000" :wrap-around="true">
                     <Slide v-for="slide in 1" :key="slide">
                         <img class="image_grid w-full h-full border border-zinc-400" src="/img/portadacuadernillo2.png"
                             alt="">
@@ -700,8 +742,8 @@
 
         </div>
 
-        <div id="tercercompartimento"            
-        class="titular2 flex px-64 pb-12 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+        <div id="tercercompartimento"
+            class="titular2 flex px-64 pb-12 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
                 TERCER<br>COMPARTIMENTO</div>
@@ -725,21 +767,25 @@
         </div>
 
         <div id="mapa"
-            class="titular2 flex px-64 pb-2 gap-64 pt-32 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 flex px-64 pb-24 gap-64 pt-48 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20 max-sm:pt-2">
             <div
-                class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
+                class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-4">
                 MAPA</div>
         </div>
 
-        <div class="grid grid-cols-1 px-64 max-sm:grid-cols-1 pb-4">
+        <div class="grid grid-cols-1 px-64 max-sm:grid-cols-1 pb-32">
             <img class="image px-64 w-full h-full max-sm:pb-2" src="/img/IMG_2522.png" alt="">
         </div>
         <div
-            class="grid grid-cols-1 px-64 pt-4 pb-32 text-center justify-items-center font-['Regular'] text-[16px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:px-12">
+            class="grid grid-cols-1 px-64 pt-4 pb-32 text-center justify-items-center font-['Regular'] text-[16px] text-zinc-600 max-xl:text-sm max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:px-12 max-sm:pb-16">
             <div
-                class="titular text-[20px] font-['Domaine-Display'] text-start leading-10 font-normal pb-2 text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
+                class="titular text-[20px] font-['Domaine-Display'] text-start leading-10 font-normal pb-2 text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px] max-sm:text-center">
                 PICTOGRAMAS</div>
-            <a class="max-w-[120ch]">
+            <a class="max-w-[120ch] max-sm:text-center max-sm:hidden">
+                Creación de pictogramas personalizados con la estética de la ciudad pero manteniendo el estilo de las
+                composiciones de la caja.
+            </a>
+            <a class="hidden max-sm:text-center max-sm:flex">
                 Creación de pictogramas personalizados con la estética de la ciudad pero manteniendo el estilo de las
                 composiciones de la caja.
             </a>
@@ -777,7 +823,7 @@
         </div>
 
         <div id="folleto"
-            class="titular2 flex px-64 pb-12 gap-64 pt-32 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-2 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 flex px-64 pb-12 gap-64 pt-48 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-2 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
                 FOLLETO</div>
@@ -785,26 +831,35 @@
 
         <div class="grid grid-cols-5 px-64 pt-32 pb-6 max-sm:px-4 max-sm:pt-20">
             <img class="image w-full h-full border border-zinc-400 shadow-md" src="/img/folletoen1.png" alt="">
-            <img class="image w-full h-full border border-zinc-400 border-l-0 shadow-md" src="/img/folletoen2.png" alt="">
-            <img class="image w-full h-full border border-zinc-400 border-l-0 shadow-md" src="/img/folletoen3.png" alt="">
-            <img class="image w-full h-full border border-zinc-400 border-l-0 shadow-md" src="/img/folletoen4.png" alt="">
-            <img class="image w-full h-full border border-zinc-400 border-l-0 shadow-md" src="/img/folletoen5.png" alt="">
+            <img class="image w-full h-full border border-zinc-400 border-l-0 shadow-md" src="/img/folletoen2.png"
+                alt="">
+            <img class="image w-full h-full border border-zinc-400 border-l-0 shadow-md" src="/img/folletoen3.png"
+                alt="">
+            <img class="image w-full h-full border border-zinc-400 border-l-0 shadow-md" src="/img/folletoen4.png"
+                alt="">
+            <img class="image w-full h-full border border-zinc-400 border-l-0 shadow-md" src="/img/folletoen5.png"
+                alt="">
 
         </div>
 
         <div class="grid grid-cols-5 px-64 pt-2 pb-32 max-sm:px-4 max-sm:pb-2">
             <img class="image w-full h-full border border-zinc-400 shadow-md" src="/img/folletoen8.png" alt="">
-            <img class="image w-full h-full border border-zinc-400 border-l-0 shadow-md" src="/img/folletoen9.png" alt="">
-            <img class="image w-full h-full border border-zinc-400 border-l-0 shadow-md" src="/img/folletoen10.png" alt="">
-            <img class="image w-full h-full border border-zinc-400 border-l-0 shadow-md" src="/img/folletoen6.png" alt="">
-            <img class="image w-full h-full border border-zinc-400 border-l-0 shadow-md" src="/img/folletoen7.png" alt="">
+            <img class="image w-full h-full border border-zinc-400 border-l-0 shadow-md" src="/img/folletoen9.png"
+                alt="">
+            <img class="image w-full h-full border border-zinc-400 border-l-0 shadow-md" src="/img/folletoen10.png"
+                alt="">
+            <img class="image w-full h-full border border-zinc-400 border-l-0 shadow-md" src="/img/folletoen6.png"
+                alt="">
+            <img class="image w-full h-full border border-zinc-400 border-l-0 shadow-md" src="/img/folletoen7.png"
+                alt="">
 
         </div>
 
         <div
             class="colum flex px-12 pt-20 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-[1500px]:px-60 max-sm:px-2">
 
-            <div class="fotografias px-12 grid grid-cols-2 grid-rows-2 gap-2 max-sm:gap-4 max-sm:px-2 max-sm:grid-cols-1">
+            <div
+                class="fotografias px-12 grid grid-cols-2 grid-rows-2 gap-2 max-sm:gap-4 max-sm:px-2 max-sm:grid-cols-1">
                 <img class="image w-full h-full" src="/img/IMG_2552.jpg" alt="">
                 <img class="image w-full h-full" src="/img/IMG_2548.jpg" alt="">
                 <img class="image w-full h-full" src="/img/IMG_2554.jpg" alt="">
@@ -813,9 +868,9 @@
 
         </div>
 
-        
-        <div id="cajafajilla"    
-                    class="titular2 flex px-64 pb-2 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20 max-sm:pt-20">
+
+        <div id="cuartocompartimento"
+            class="titular2 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20 max-sm:pt-20">
             <div
                 class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center">
                 CUARTO<br>COMPARTIMENTO</div>
@@ -828,16 +883,130 @@
                 </div>
                 <div
                     class="text max-w-[80ch] pt-4 text-left font-['Regular'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
-                    Dentro de este compartimento se encuentran los elementos más "premium", como son el pack de analógicas realizadas con una Kodak desechable y el fotolibro con impresión en alta calidad.
+                    Dentro de este compartimento se encuentran los elementos más "premium", como son el pack de
+                    analógicas
+                    realizadas con una Kodak desechable y el fotolibro con impresión en alta calidad.
                 </div>
 
             </div>
 
         </div>
 
+        <div id="packanalogicas"
+            class="titular2 flex px-64 pb-12 gap-64 pt-48 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-2 max-sm:pb-2 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            <div
+                class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-4">
+                PACK ANALÓGICAS</div>
+        </div>
 
-        <div id="cajafajilla"    
-                    class="titular2 flex px-64 pb-2 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20 max-sm:pt-20">
+
+        <div
+            class="grid grid-cols-2 px-72 items-center pt-12 gap-32 pb-32 max-sm:pb-2 max-sm:grid-cols-1 max-sm:gap-12 max-sm:pt-24 max-sm:px-12">
+            <img class="image w-full h-full" src="/img/packanalogicas5.png" alt="">
+            <img class="image items-end w-full" src="/img/cajaanalogicas.webp" alt="">
+
+        </div>
+
+        <div
+            class="video grid-cols-1 grid pt-24 px-64 pb-48 text-zinc-600 justify-items-center items-center gap-12 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:grid-cols-1 max-sm:pt-12">
+            <div
+                class="text max-w-[100ch] text-center font-['Regular'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+
+                <a class="titulo font-['Domaine-Display'] text-[20px] text-[#243673]">
+                    PACK DE ANALÓGICAS CON KODAK DESECHABLE
+                </a>
+                <br><br>
+                Durante el viaje realicé unas fotografías con una camara de las
+                desechables de Kodak para hacer de ese momento algo más
+                especial, tener solo una oportunidad para inmortalizar ese lugar
+                pero también me resultaba interesante tener esa estética analógica en mi trabajo, no todo fotografías
+                con la
+                camara y el movil
+                en alta resolución. Por ello cree un pack de analógicas que las
+                contenga como si fueran cartas, con un packaging muy inspirado en los azulejos. Parte frontal con modelo
+                en
+                golpe en seco
+                y estampado de tinta. Dentro de la caja se le añaden dos tarjetas
+                con información de lugares y el qr que ya he añadido en otras
+                piezas para aumentar el contenido.
+                <br><br>
+                El formato de las la caja es el mismo que las fotografías analógicas de 10 cm x 15 cm. Papel de la caja
+                225 gr
+                mate.
+                Papel de las fotografías en mate, no en brillo para tener más
+                coherencia con la estética de los demás elementos de la caja.
+            </div>
+
+        </div>
+
+        <div
+            class="colum flex px-64 pt-20 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-[1500px]:px-60 max-sm:px-2">
+
+            <div class="fotografias px-64 grid grid-cols-1 gap-8 max-sm:gap-4 max-sm:px-2">
+                <img class="image w-full h-full" src="/img/IMG_2568.jpg" alt="">
+                <img class="image w-full h-full" src="/img/IMG_2578.jpg" alt="">
+                <img class="image w-full h-full" src="/img/IMG_2572.jpg" alt="">
+                <img class="image w-full h-full" src="/img/IMG_2570.jpg" alt="">
+                <img class="image w-full h-full" src="/img/IMG_2577.jpg" alt="">
+                <img class="image w-full h-full" src="/img/IMG_2571.jpg" alt="">
+            </div>
+
+        </div>
+
+        <div id="libroimpreso"
+            class="titular2 flex px-64 pb-12 gap-64 pt-48 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-2 max-sm:pb-2 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            <div
+                class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-4">
+                LIBRO IMPRESO</div>
+        </div>
+
+        <div
+            class="video grid-cols-2 grid pt-32 px-64 pb-64 text-zinc-600 justify-items-center items-center gap-12 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:grid-cols-1 max-sm:pt-12">
+            <div
+                class="text max-w-[80ch] text-left font-['Regular'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+
+                <a class="titulo font-['Domaine-Display'] text-[20px] text-[#243673]">
+                    FOTOLIBRO IMPRESO PREMIUM
+                </a>
+                <br><br>
+                Este libro contiene el viaje de forma general con estilo de fotolibro recopilatorio de los lugares,
+                información
+                y fotografías personales de los sitios visitados. En ese libro he dado mucha importancia en la
+                maquetación a las
+                fotografías con el motivo de crear
+                un libro puramente visual que entre por los ojos y que cuente
+                todo el viaje de los 3 días a través de los lugares y los monumentos de Oporto. La pieza que visualmente
+                en
+                físico mejor ha quedado por el acabado realizado en Saal Digital.
+            </div>
+
+            <img class="image w-full h-full" src="/img/libroimpreso.webp" alt="">
+
+        </div>
+
+        <div
+            class="colum flex px-64 pt-20 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-[1500px]:px-60 max-sm:px-2">
+
+            <div class="fotografias px-64 grid grid-cols-1 gap-8 max-sm:gap-4 max-sm:px-2">
+                <img class="image w-full h-full" src="/img/IMG_2580.jpg" alt="">
+                <img class="image w-full h-full" src="/img/IMG_2582.jpg" alt="">
+                <img class="image w-full h-full" src="/img/IMG_2583.jpg" alt="">
+                <img class="image w-full h-full" src="/img/IMG_2584.jpg" alt="">
+                <img class="image w-full h-full" src="/img/IMG_2585.jpg" alt="">
+                <img class="image w-full h-full" src="/img/IMG_2594.jpg" alt="">
+                <img class="image w-full h-full" src="/img/IMG_2595.jpg" alt="">
+                <img class="image w-full h-full" src="/img/IMG_2597.jpg" alt="">
+                <img class="image w-full h-full" src="/img/IMG_2603.jpg" alt="">
+                <img class="image w-full h-full" src="/img/IMG_2605.jpg" alt="">
+                <img class="image w-full h-full" src="/img/IMG_2606.jpg" alt="">
+            </div>
+
+        </div>
+
+
+
+        <div id="cajafajilla"
+            class="titular2 flex px-64 pb-2 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20 max-sm:pt-20">
             <div
                 class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center">
                 CAJA &<br>FAJILLA</div>
@@ -898,8 +1067,8 @@
 
 
 
-        <div id="tipografias"    
-                    class="titular2 flex px-64 pb-24 gap-64 pt-32 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:px-60 max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+        <div id="tipografias"
+            class="titular2 flex px-64 pb-24 gap-64 pt-48 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:px-60 max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
                 TIPOGRAFÍAS <br> Y PALETA DE COLOR</div>
@@ -922,7 +1091,7 @@
         </div>
 
         <div
-            class="grid grid-rows-1 gap-2 items-center justify-items-center pt-32 px-32 pb-32 max-sm:px-4 max-[1280px]:p-10 max-[1500px]:px-60 max-[800px]:grid-cols-1 max-sm:gap-8 max-sm:pt-0">
+            class="grid grid-rows-1 gap-2 items-center justify-items-center pt-12 px-32 pb-32 max-sm:px-4 max-[1280px]:p-10 max-[1500px]:px-60 max-[800px]:grid-cols-1 max-sm:gap-8 max-sm:pt-0">
 
             <div
                 class="text max-w-[80ch] leading-[200px] pt-4 text-center font-['Regular'] text-[240px] text-[#859ed2] max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:text-[30px]">
@@ -1035,8 +1204,8 @@
 
         </div>
 
-        <div id="fotografias"    
-                    class="titular2 flex px-64 pb-2 gap-64 pt-32 content-start space-between justify-center pt-20 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+        <div id="fotografias"
+            class="titular2 flex px-64 pb-2 gap-64 pt-48 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center">
                 FOTOGRAFÍAS <br>Y MATERIALES</div>
@@ -1077,8 +1246,8 @@
 
 
 
-        <div id="piezas"    
-                    class="titular2 flex px-64 pb-2 gap-64 pt-32 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:px-60 max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+        <div id="piezas"
+            class="titular2 flex px-64 pb-2 gap-64 pt-48 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:px-60 max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
                 PIEZAS <br> DEL SISTEMA</div>

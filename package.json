@@ -9,9 +9,13 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@aceforth/nuxt-optimized-images": "^1.4.0",
     "@nuxtjs/tailwindcss": "^6.6.6",
     "@types/node": "^18",
     "autoprefixer": "^10.4.14",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-pngquant": "^10.0.0",
+    "imagemin-svgo": "^11.0.1",
     "node-sass": "^8.0.0",
     "nuxt": "^3.4.2",
     "postcss": "^8.4.24",
@@ -38,6 +42,7 @@
     "gsap": "^3.12.1",
     "nuxt-video-player": "^1.0.17",
     "simplescrollup": "^1.1.1",
+    "taos": "^1.0.5",
     "v-img": "^0.2.0",
     "vue-backtotop": "^1.6.1",
     "vue-custom-scrollbar": "^1.4.4",
