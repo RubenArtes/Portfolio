@@ -195,7 +195,7 @@
             </div>
         </div>
 
-        
+
         <div id="primercompartimento"
             class="titular2 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
@@ -548,152 +548,148 @@
             </div>
 
         </div>
-
         <div
-            class="hidden bg-white grid-cols-1 grid-row-2 gap-2 px-64 pb-32 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-sm:grid max-sm:px-4">
+            class="hidden grid-cols-3 px-12 grid-row-1 gap-12 max-xl:grid-cols-1 max-xl:px-10 max-sm:pb-0 max-xl:pt-10 max-[1500px]:px-60 max-sm:pt-0 max-sm:gap-2 max-sm:grid max-sm:px-6">
+
             <div
-                class="grid grid-cols-3 px-12 grid-row-1 gap-12 max-xl:grid-cols-1 max-xl:px-10 max-sm:pb-0 max-xl:pt-10 max-[1500px]:px-60 max-sm:px-0 max-sm:pt-0 max-sm:gap-2">
-
-                <div
-                    class="text pt-12 pb-2 text-left justify-items-left font-['Regular'] text-[14px] text-zinc-800 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:text-[12px]">
-                    CUADERNO DE VIAJE 1 - DÍA 1
-
-                </div>
-
-
-                <Carousel class="max-sm:pb-0" :autoplay="4000" :wrap-around="true">
-                    <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400" src="/img/portadacuadernillo3.png"
-                            alt="">
-                    </Slide>
-                    <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400"
-                            src="/img/CuadernilloExperimental1.png" alt="">
-                    </Slide>
-                    <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400"
-                            src="/img/CuadernilloExperimental2.png" alt="">
-                    </Slide>
-                    <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400"
-                            src="/img/CuadernilloExperimental3.png" alt="">
-                    </Slide>
-                    <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400"
-                            src="/img/CuadernilloExperimental4.png" alt="">
-                    </Slide>
-                    <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400"
-                            src="/img/CuadernilloExperimental5.png" alt="">
-                    </Slide>
-                    <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400"
-                            src="/img/CuadernilloExperimental6.png" alt="">
-                    </Slide>
-                    <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400"
-                            src="/img/CuadernilloExperimental7.png" alt="">
-                    </Slide>
-                    <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400"
-                            src="/img/CuadernilloExperimental8.png" alt="">
-                    </Slide>
-
-                    <template #addons>
-                    </template>
-                </Carousel>
-
-                <div
-                    class="text pt-12 pb-2 text-left justify-items-left font-['Regular'] text-[14px] text-zinc-800 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:text-[12px]">
-                    CUADERNO DE VIAJE 2 - DÍA 2
-
-                </div>
-
-
-                <Carousel class="max-sm:pb-0" :autoplay="4000" :wrap-around="true">
-                    <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400" src="/img/portadacuadernillo.png"
-                            alt="">
-                    </Slide>
-                    <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400"
-                            src="/img/cuadernilloexperimental11.png" alt="">
-                    </Slide>
-                    <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400"
-                            src="/img/cuadernilloexperimental12.png" alt="">
-                    </Slide>
-                    <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400"
-                            src="/img/cuadernilloexperimental12.png" alt="">
-                    </Slide>
-                    <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400"
-                            src="/img/cuadernilloexperimental13.png" alt="">
-                    </Slide>
-                    <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400"
-                            src="/img/cuadernilloexperimental14.png" alt="">
-                    </Slide>
-                    <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400"
-                            src="/img/cuadernilloexperimental15.png" alt="">
-                    </Slide>
-                    <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400"
-                            src="/img/cuadernilloexperimental16.png" alt="">
-                    </Slide>
-                    <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400"
-                            src="/img/cuadernilloexperimental17.png" alt="">
-                    </Slide>
-
-                    <template #addons>
-                    </template>
-                </Carousel>
-
-                <div
-                    class="text pt-12 pb-2 text-left justify-items-left font-['Regular'] text-[14px] text-zinc-800 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:text-[12px]">
-                    CUADERNO DE VIAJE 3 - DÍA 3
-
-                </div>
-
-
-                <Carousel class="max-sm:pb-0" :autoplay="4000" :wrap-around="true">
-                    <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400" src="/img/portadacuadernillo2.png"
-                            alt="">
-                    </Slide>
-                    <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo1.png" alt="">
-                    </Slide>
-                    <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo2.png" alt="">
-                    </Slide>
-                    <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo3.png" alt="">
-                    </Slide>
-                    <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo4.png" alt="">
-                    </Slide>
-                    <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo5.png" alt="">
-                    </Slide>
-                    <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo6.png" alt="">
-                    </Slide>
-                    <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo7.png" alt="">
-                    </Slide>
-                    <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo8.png" alt="">
-                    </Slide>
-
-                    <template #addons>
-                    </template>
-                </Carousel>
+                class="text pt-12 pb-2 text-left justify-items-left font-['Regular'] text-[14px] text-zinc-800 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:text-[12px]">
+                CUADERNO DE VIAJE 1 - DÍA 1
 
             </div>
+
+
+            <Carousel class="max-sm:pb-0" :autoplay="4000" :wrap-around="true">
+                <Slide v-for="slide in 1" :key="slide">
+                    <img class="image_grid w-full h-full border border-zinc-400" src="/img/portadacuadernillo3.png"
+                        alt="">
+                </Slide>
+                <Slide v-for="slide in 1" :key="slide">
+                    <img class="image_grid w-full h-full border border-zinc-400" src="/img/CuadernilloExperimental1.png"
+                        alt="">
+                </Slide>
+                <Slide v-for="slide in 1" :key="slide">
+                    <img class="image_grid w-full h-full border border-zinc-400" src="/img/CuadernilloExperimental2.png"
+                        alt="">
+                </Slide>
+                <Slide v-for="slide in 1" :key="slide">
+                    <img class="image_grid w-full h-full border border-zinc-400" src="/img/CuadernilloExperimental3.png"
+                        alt="">
+                </Slide>
+                <Slide v-for="slide in 1" :key="slide">
+                    <img class="image_grid w-full h-full border border-zinc-400" src="/img/CuadernilloExperimental4.png"
+                        alt="">
+                </Slide>
+                <Slide v-for="slide in 1" :key="slide">
+                    <img class="image_grid w-full h-full border border-zinc-400" src="/img/CuadernilloExperimental5.png"
+                        alt="">
+                </Slide>
+                <Slide v-for="slide in 1" :key="slide">
+                    <img class="image_grid w-full h-full border border-zinc-400" src="/img/CuadernilloExperimental6.png"
+                        alt="">
+                </Slide>
+                <Slide v-for="slide in 1" :key="slide">
+                    <img class="image_grid w-full h-full border border-zinc-400" src="/img/CuadernilloExperimental7.png"
+                        alt="">
+                </Slide>
+                <Slide v-for="slide in 1" :key="slide">
+                    <img class="image_grid w-full h-full border border-zinc-400" src="/img/CuadernilloExperimental8.png"
+                        alt="">
+                </Slide>
+
+                <template #addons>
+                </template>
+            </Carousel>
+
+            <div
+                class="text pt-12 pb-2 text-left justify-items-left font-['Regular'] text-[14px] text-zinc-800 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:text-[12px]">
+                CUADERNO DE VIAJE 2 - DÍA 2
+
+            </div>
+
+
+            <Carousel class="max-sm:pb-0" :autoplay="4000" :wrap-around="true">
+                <Slide v-for="slide in 1" :key="slide">
+                    <img class="image_grid w-full h-full border border-zinc-400" src="/img/portadacuadernillo.png"
+                        alt="">
+                </Slide>
+                <Slide v-for="slide in 1" :key="slide">
+                    <img class="image_grid w-full h-full border border-zinc-400"
+                        src="/img/cuadernilloexperimental11.png" alt="">
+                </Slide>
+                <Slide v-for="slide in 1" :key="slide">
+                    <img class="image_grid w-full h-full border border-zinc-400"
+                        src="/img/cuadernilloexperimental12.png" alt="">
+                </Slide>
+                <Slide v-for="slide in 1" :key="slide">
+                    <img class="image_grid w-full h-full border border-zinc-400"
+                        src="/img/cuadernilloexperimental12.png" alt="">
+                </Slide>
+                <Slide v-for="slide in 1" :key="slide">
+                    <img class="image_grid w-full h-full border border-zinc-400"
+                        src="/img/cuadernilloexperimental13.png" alt="">
+                </Slide>
+                <Slide v-for="slide in 1" :key="slide">
+                    <img class="image_grid w-full h-full border border-zinc-400"
+                        src="/img/cuadernilloexperimental14.png" alt="">
+                </Slide>
+                <Slide v-for="slide in 1" :key="slide">
+                    <img class="image_grid w-full h-full border border-zinc-400"
+                        src="/img/cuadernilloexperimental15.png" alt="">
+                </Slide>
+                <Slide v-for="slide in 1" :key="slide">
+                    <img class="image_grid w-full h-full border border-zinc-400"
+                        src="/img/cuadernilloexperimental16.png" alt="">
+                </Slide>
+                <Slide v-for="slide in 1" :key="slide">
+                    <img class="image_grid w-full h-full border border-zinc-400"
+                        src="/img/cuadernilloexperimental17.png" alt="">
+                </Slide>
+
+                <template #addons>
+                </template>
+            </Carousel>
+
+            <div
+                class="text pt-12 pb-2 text-left justify-items-left font-['Regular'] text-[14px] text-zinc-800 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:text-[12px]">
+                CUADERNO DE VIAJE 3 - DÍA 3
+
+            </div>
+
+
+            <Carousel class="max-sm:pb-0" :autoplay="4000" :wrap-around="true">
+                <Slide v-for="slide in 1" :key="slide">
+                    <img class="image_grid w-full h-full border border-zinc-400" src="/img/portadacuadernillo2.png"
+                        alt="">
+                </Slide>
+                <Slide v-for="slide in 1" :key="slide">
+                    <img class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo1.png" alt="">
+                </Slide>
+                <Slide v-for="slide in 1" :key="slide">
+                    <img class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo2.png" alt="">
+                </Slide>
+                <Slide v-for="slide in 1" :key="slide">
+                    <img class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo3.png" alt="">
+                </Slide>
+                <Slide v-for="slide in 1" :key="slide">
+                    <img class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo4.png" alt="">
+                </Slide>
+                <Slide v-for="slide in 1" :key="slide">
+                    <img class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo5.png" alt="">
+                </Slide>
+                <Slide v-for="slide in 1" :key="slide">
+                    <img class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo6.png" alt="">
+                </Slide>
+                <Slide v-for="slide in 1" :key="slide">
+                    <img class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo7.png" alt="">
+                </Slide>
+                <Slide v-for="slide in 1" :key="slide">
+                    <img class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo8.png" alt="">
+                </Slide>
+
+                <template #addons>
+                </template>
+            </Carousel>
+
 
         </div>
 
