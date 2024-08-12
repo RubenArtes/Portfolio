@@ -6,7 +6,7 @@ module.exports = {
       },
       components: {
         PerfectScrollbar
-      },
+            },
       screens: {
         "7xl": "2000px",
         "sm": "760px",
@@ -27,5 +27,6 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [    
+  ],
 };

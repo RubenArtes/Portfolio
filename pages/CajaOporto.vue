@@ -14,9 +14,39 @@
             </div>
 
         </div>
-        <VueScrollProgressBar background-color="#52525B" />
         <div
-            class="titular2 flex px-64 gap-32 content-start space-between justify-center pt-20 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-[1500px]:flex-col max-[1500px]:gap-2 max-[1500px]:items-center max-[1700px]:px-10">
+            class="header bg-white p-1 flex px-24 justify-between sticky top-[110px] z-10 max-lg:p-6 max-lg:sticky border border-b-1 max-sm:hidden">
+            <a class="email text-black text-[12px] justify-items-center flex gap-2 max-lg:text-xs ">NAVEGACIÓN
+            </a>
+            <a href="#primercompartimento" class="email text-zinc-400 text-[12px] justify-items-center flex gap-2 max-lg:text-xs ">> PRIMER COMPARTIMENTO
+            </a>
+            <a href="#segundocompartimento" class="email text-zinc-400 text-[12px] justify-items-center flex gap-2 max-lg:text-xs ">> SEGUNDO COMPARTIMENTO
+            </a>
+            <a href="#postales" class="email text-zinc-400 text-[12px] justify-items-center flex gap-2 max-lg:text-xs ">> POSTALES
+            </a>
+            <a href="#sellos" class="email text-zinc-400 text-[12px] justify-items-center flex gap-2 max-lg:text-xs ">> SELLOS
+            </a>
+            <a href="#cuadernos" class="email text-zinc-400 text-[12px] justify-items-center flex gap-2 max-lg:text-xs ">> CUADERNILLOS
+            </a>
+            <a href="#tercercompartimento" class="email text-zinc-400 text-[12px] justify-items-center flex gap-2 max-lg:text-xs ">> TERCER COMPARTIMENTO
+            </a>
+            <a href="#mapa" class="email text-zinc-400 text-[12px] justify-items-center flex gap-2 max-lg:text-xs ">> MAPA
+            </a>
+            <a href="#folleto" class="email text-zinc-400 text-[12px] justify-items-center flex gap-2 max-lg:text-xs ">> FOLLETO
+            </a>
+            <a href="#cajafajilla" class="email text-zinc-400 text-[12px] justify-items-center flex gap-2 max-lg:text-xs ">> CAJA FAJILLA
+            </a>
+            <a href="#tipografias" class="email text-zinc-400 text-[12px] justify-items-center flex gap-2 max-lg:text-xs ">> TIPOGRAFIAS
+            </a>
+            <a href="#fotografias" class="email text-zinc-400 text-[12px] justify-items-center flex gap-2 max-lg:text-xs ">> FOTOGRAFÍAS
+            </a>
+            <a href="#piezas" class="email text-zinc-400 text-[12px] justify-items-center flex gap-2 max-lg:text-xs ">> PIEZAS
+            </a>
+
+        </div>
+        <VueScrollProgressBar background-color="#52525B" />
+        <div 
+            class="titular2 flex px-64 gap-32 content-start space-between justify-center pt-32 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-[1500px]:flex-col max-[1500px]:gap-2 max-[1500px]:items-center max-[1700px]:px-10">
             <div
                 class="titular text-[120px] font-['Domaine-Display'] font-bold leading-[120px] animate-pulse bg-gradient-to-r bg-clip-text text-transparent animate-text max-sm:text-[70px] max-[1500px]:text-left max-[1280px]:text-[100px] from-[#311568] via-[#4797ff] to-[#311568] max-sm:text-center max-sm:leading-[4rem] max-sm:font-normal">
                 OPORTO</div>
@@ -81,7 +111,7 @@
         <div
             class="colum flex pt-20 px-64 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-[1500px]:px-60">
             <div class="info_proyect max-w-[80ch]">
-                <div class="info_secondary flex flex-col gap-6 sticky top-32 max-[1500px]:gap-12">
+                <div class="info_secondary flex flex-col gap-6 sticky top-48 max-[1500px]:gap-12">
                     <div
                         class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
                         CAJA IMPRESA OPORTO</div>
@@ -125,8 +155,7 @@
         </div>
 
 
-        <div
-            class="titular2 flex px-64 pb-32 gap-64 pt-32 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+        <div id="primercompartimento" class="titular2 flex px-64 pb-32 gap-64 pt-32 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
                 PRIMER<br>COMPARTIMENTO</div>
@@ -183,8 +212,8 @@
 
         </div>
 
-        <div
-            class="titular2 flex px-64 pb-32 gap-64 pt-32 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+        <div id="segundocompartimento"
+                    class="titular2 flex px-64 pb-32 gap-64 pt-32 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
                 SEGUNDO<br>COMPARTIMENTO</div>
@@ -209,8 +238,8 @@
 
         <img class="image w-full h-full" src="/img/IMG_2468.jpg" alt="">
 
-        <div
-            class="titular2 flex px-64 pb-32 gap-64 pt-32 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+        <div id="postales"
+                    class="titular2 flex px-64 pb-32 gap-64 pt-32 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
                 POSTALES</div>
@@ -222,7 +251,7 @@
             <div class="columna1">
                 <img class="image w-full h-full shadow-lg border border-zinc-100" src="/img/postal6.png" alt="">
 
-            </div>            
+            </div>
             <div class="columna1">
                 <img class="image w-full h-full shadow-lg border border-zinc-100" src="/img/postal1.png" alt="">
 
@@ -287,7 +316,7 @@
         </div>
 
 
-        <div
+        <div id="sellos"
             class="titular2 flex px-64 pb-32 gap-64 pt-8 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
@@ -302,7 +331,7 @@
 
         </div>
 
-        <div
+        <!--<div
             class="grid grid-cols-4 gap-2 pb-32 px-64 justify-items-center max-[1920px]:px-12 max-sm:grid-cols-1 max-sm:pb-2 max-sm:hidden">
 
             <div class="bg-[url('/img/IMG_247644.jpg')] hover:bg-[url('/img/sellos2.png')] w-full h-[20rem] bg-cover">
@@ -315,30 +344,28 @@
             </div>
 
 
+        </div> -->
+
+        <div
+            class="grid grid-cols-4 gap-2 pb-32 px-64 justify-items-center max-[1920px]:px-12 max-sm:grid-cols-1 max-sm:pb-2 max-sm:px-2">
+            <img src="/img/sellos1.webp" alt="">
+            <img src="/img/sellos2.webp" alt="">
+            <img src="/img/sellos3.webp" alt="">
+            <img src="/img/sellos4.webp" alt="">
+
         </div>
 
 
 
-        <div
-            class="hidden grid-cols-4 gap-2 pb-32 px-4 justify-items-center max-sm:grid-cols-1 max-sm:pb-24 max-sm:grid">
-
-            <img src="/img/IMG_247644.jpg" alt="">
-            <img src="/img/IMG_24764.jpg" alt="">
-            <img src="/img/IMG_247642.jpg" alt="">
-            <img src="/img/IMG_247643.jpg" alt="">
-
-        </div>
-
-
-        <div
-            class="titular2 bg-white flex px-64 pb-32 gap-64 pt-16 text-zinc-900 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-6 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+        <div id="cuadernos"
+                    class="titular2 bg-white flex px-64 pb-32 gap-64 pt-16 text-zinc-900 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-6 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-zinc-900 max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6 max-sm:text-[30px] max-sm:pb-0">
                 CUADERNOS DE VIAJE EXPERIMENTALES</div>
         </div>
 
         <div
-            class="grid bg-white grid-cols-1 grid-row-2 gap-2 px-64 pb-32 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-sm:hidden">
+            class="grid bg-white grid-cols-1 grid-row-2 gap-2 px-64 pb-64 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-sm:hidden">
             <div
                 class="grid grid-cols-3 px-12 grid-row-1 gap-12 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-sm:px-0 max-sm:pt-0 max-sm:gap-2">
 
@@ -362,8 +389,8 @@
 
                 <Carousel class="max-sm:pb-32" :autoplay="4000" :wrap-around="true">
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400"
-                            src="/img/portadacuadernillo3.png" alt="">
+                        <img class="image_grid w-full h-full border border-zinc-400" src="/img/portadacuadernillo3.png"
+                            alt="">
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
                         <img class="image_grid w-full h-full border border-zinc-400"
@@ -403,8 +430,8 @@
                 </Carousel>
                 <Carousel class="max-sm:pb-32" :autoplay="4000" :wrap-around="true">
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400"
-                            src="/img/portadacuadernillo.png" alt="">
+                        <img class="image_grid w-full h-full border border-zinc-400" src="/img/portadacuadernillo.png"
+                            alt="">
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
                         <img class="image_grid w-full h-full border border-zinc-400"
@@ -444,40 +471,32 @@
                 </Carousel>
                 <Carousel class="max-sm:pb-32" :autoplay="4000" :wrap-around="true">
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400"
-                            src="/img/portadacuadernillo2.png" alt="">
+                        <img class="image_grid w-full h-full border border-zinc-400" src="/img/portadacuadernillo2.png"
+                            alt="">
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400"
-                            src="/img/cuadernillo1.png" alt="">
+                        <img class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo1.png" alt="">
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400"
-                        src="/img/cuadernillo2.png" alt="">
+                        <img class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo2.png" alt="">
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400"
-                        src="/img/cuadernillo3.png" alt="">
+                        <img class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo3.png" alt="">
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400"
-                        src="/img/cuadernillo4.png" alt="">
+                        <img class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo4.png" alt="">
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400"
-                        src="/img/cuadernillo5.png" alt="">
+                        <img class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo5.png" alt="">
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400"
-                        src="/img/cuadernillo6.png" alt="">
+                        <img class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo6.png" alt="">
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400"
-                        src="/img/cuadernillo7.png" alt="">
+                        <img class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo7.png" alt="">
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400"
-                        src="/img/cuadernillo8.png" alt="">
+                        <img class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo8.png" alt="">
                     </Slide>
 
                     <template #addons>
@@ -502,8 +521,8 @@
 
                 <Carousel class="max-sm:pb-32" :autoplay="4000" :wrap-around="true">
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400"
-                            src="/img/portadacuadernillo3.png" alt="">
+                        <img class="image_grid w-full h-full border border-zinc-400" src="/img/portadacuadernillo3.png"
+                            alt="">
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
                         <img class="image_grid w-full h-full border border-zinc-400"
@@ -551,8 +570,8 @@
 
                 <Carousel class="max-sm:pb-32" :autoplay="4000" :wrap-around="true">
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400"
-                            src="/img/portadacuadernillo.png" alt="">
+                        <img class="image_grid w-full h-full border border-zinc-400" src="/img/portadacuadernillo.png"
+                            alt="">
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
                         <img class="image_grid w-full h-full border border-zinc-400"
@@ -596,44 +615,36 @@
                     CUADERNO DE VIAJE 3 - DÍA 3
 
                 </div>
-                
+
 
                 <Carousel class="max-sm:pb-32" :autoplay="4000" :wrap-around="true">
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400"
-                            src="/img/portadacuadernillo2.png" alt="">
+                        <img class="image_grid w-full h-full border border-zinc-400" src="/img/portadacuadernillo2.png"
+                            alt="">
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400"
-                            src="/img/cuadernillo1.png" alt="">
+                        <img class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo1.png" alt="">
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400"
-                        src="/img/cuadernillo2.png" alt="">
+                        <img class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo2.png" alt="">
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400"
-                        src="/img/cuadernillo3.png" alt="">
+                        <img class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo3.png" alt="">
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400"
-                        src="/img/cuadernillo4.png" alt="">
+                        <img class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo4.png" alt="">
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400"
-                        src="/img/cuadernillo5.png" alt="">
+                        <img class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo5.png" alt="">
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400"
-                        src="/img/cuadernillo6.png" alt="">
+                        <img class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo6.png" alt="">
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400"
-                        src="/img/cuadernillo7.png" alt="">
+                        <img class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo7.png" alt="">
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400"
-                        src="/img/cuadernillo8.png" alt="">
+                        <img class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo8.png" alt="">
                     </Slide>
 
                     <template #addons>
@@ -664,7 +675,7 @@
             </div>
 
             <div class="info_proyect max-w-[80ch] pt-12 max-sm:px-4 max-sm:hidden">
-                <div class="info_secondary flex flex-col gap-6 sticky top-40 max-[1500px]:gap-12 opacity-50">
+                <div class="info_secondary flex flex-col gap-6 sticky top-52 max-[1500px]:gap-12 opacity-50">
                     <div
                         class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-[#243673] max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
                         ← CUADERNILLOS</div>
@@ -689,8 +700,8 @@
 
         </div>
 
-        <div
-            class="titular2 flex px-64 pb-12 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+        <div id="tercercompartimento"            
+        class="titular2 flex px-64 pb-12 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
                 TERCER<br>COMPARTIMENTO</div>
@@ -711,6 +722,13 @@
 
             </div>
 
+        </div>
+
+        <div id="mapa"
+            class="titular2 flex px-64 pb-2 gap-64 pt-32 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            <div
+                class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
+                MAPA</div>
         </div>
 
         <div class="grid grid-cols-1 px-64 max-sm:grid-cols-1 pb-4">
@@ -758,9 +776,46 @@
 
         </div>
 
+        <div id="folleto"
+            class="titular2 flex px-64 pb-12 gap-64 pt-32 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-2 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            <div
+                class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
+                FOLLETO</div>
+        </div>
+
+        <div class="grid grid-cols-5 px-64 pt-32 pb-6 max-sm:px-4 max-sm:pt-20">
+            <img class="image w-full h-full border border-zinc-400 shadow-md" src="/img/folletoen1.png" alt="">
+            <img class="image w-full h-full border border-zinc-400 border-l-0 shadow-md" src="/img/folletoen2.png" alt="">
+            <img class="image w-full h-full border border-zinc-400 border-l-0 shadow-md" src="/img/folletoen3.png" alt="">
+            <img class="image w-full h-full border border-zinc-400 border-l-0 shadow-md" src="/img/folletoen4.png" alt="">
+            <img class="image w-full h-full border border-zinc-400 border-l-0 shadow-md" src="/img/folletoen5.png" alt="">
+
+        </div>
+
+        <div class="grid grid-cols-5 px-64 pt-2 pb-32 max-sm:px-4 max-sm:pb-2">
+            <img class="image w-full h-full border border-zinc-400 shadow-md" src="/img/folletoen8.png" alt="">
+            <img class="image w-full h-full border border-zinc-400 border-l-0 shadow-md" src="/img/folletoen9.png" alt="">
+            <img class="image w-full h-full border border-zinc-400 border-l-0 shadow-md" src="/img/folletoen10.png" alt="">
+            <img class="image w-full h-full border border-zinc-400 border-l-0 shadow-md" src="/img/folletoen6.png" alt="">
+            <img class="image w-full h-full border border-zinc-400 border-l-0 shadow-md" src="/img/folletoen7.png" alt="">
+
+        </div>
 
         <div
-            class="titular2 flex px-64 pb-2 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20 max-sm:pt-20">
+            class="colum flex px-64 pt-20 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-[1500px]:px-60 max-sm:px-2">
+
+            <div class="fotografias px-12 grid grid-cols-2 grid-rows-2 gap-2 max-sm:gap-4 max-sm:px-2 max-sm:grid-cols-1">
+                <img class="image w-full h-full" src="/img/IMG_2552.jpg" alt="">
+                <img class="image w-full h-full" src="/img/IMG_2548.jpg" alt="">
+                <img class="image w-full h-full" src="/img/IMG_2554.jpg" alt="">
+                <img class="image w-full h-full" src="/img/IMG_2558.jpg" alt="">
+            </div>
+
+        </div>
+
+
+        <div id="cajafajilla"    
+                    class="titular2 flex px-64 pb-2 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20 max-sm:pt-20">
             <div
                 class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center">
                 CAJA &<br>FAJILLA</div>
@@ -788,10 +843,14 @@
 
         </div>
 
+        <div class="hidden max-sm:grid max-sm:grid-cols-1 max-sm:px-12 pt-12 pb-12 gap-4">
+            <img class="image_grid w-full h-full place-self-end shadow-md" src="/img/AAFF_FajillaCaja_2.png" alt="">
+            <img class="image_grid w-full h-full shadow-md" src="/img/AAFF_FajillaCaja_1.png" alt="">
+        </div>
 
 
         <div
-            class="grid grid-cols-2 grid-row-2 gap-2 pl-12 pb-32 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-sm:grid-cols-1 max-sm:px-8">
+            class="grid grid-cols-2 grid-row-2 gap-2 pl-12 pb-32 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-sm:grid-cols-1 max-sm:px-8 max-sm:hidden">
             <div
                 class="grid grid-cols-2 grid-row-2 gap-12 px-12 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-sm:px-0 max-sm:pt-0">
                 <div
@@ -817,8 +876,8 @@
 
 
 
-        <div
-            class="titular2 flex px-64 pb-24 gap-64 pt-32 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:px-60 max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+        <div id="tipografias"    
+                    class="titular2 flex px-64 pb-24 gap-64 pt-32 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:px-60 max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
                 TIPOGRAFÍAS <br> Y PALETA DE COLOR</div>
@@ -954,8 +1013,8 @@
 
         </div>
 
-        <div
-            class="titular2 flex px-64 pb-2 gap-64 pt-32 content-start space-between justify-center pt-20 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+        <div id="fotografias"    
+                    class="titular2 flex px-64 pb-2 gap-64 pt-32 content-start space-between justify-center pt-20 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center">
                 FOTOGRAFÍAS <br>Y MATERIALES</div>
@@ -996,8 +1055,8 @@
 
 
 
-        <div
-            class="titular2 flex px-64 pb-2 gap-64 pt-32 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:px-60 max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+        <div id="piezas"    
+                    class="titular2 flex px-64 pb-2 gap-64 pt-32 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:px-60 max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
                 PIEZAS <br> DEL SISTEMA</div>
@@ -1117,8 +1176,10 @@
 
 import 'vue3-carousel/dist/carousel.css'
 import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
+import 'tailwindcss-animated'
 
 export default {
+
     mounted() {
         this.$nextTick(() => {
             const newVideo = document.getElementById('videoElementId');
