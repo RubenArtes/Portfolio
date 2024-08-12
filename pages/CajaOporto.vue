@@ -217,7 +217,39 @@
         </div>
 
         <div
-            class="grid grid-cols-3 pb-32 px-64 gap-8 justify-items-center max-sm:grid-cols-1 max-sm:px-12 max-sm:gap-6 max-sm:pb-24">
+            class="hidden grid-cols-3 pb-32 px-64 gap-8 justify-items-center max-sm:grid-cols-1 max-sm:px-12 max-sm:gap-6 max-sm:pb-24 max-sm:grid">
+
+            <div class="columna1">
+                <img class="image w-full h-full shadow-lg border border-zinc-100" src="/img/postal6.png" alt="">
+
+            </div>            
+            <div class="columna1">
+                <img class="image w-full h-full shadow-lg border border-zinc-100" src="/img/postal1.png" alt="">
+
+            </div>
+            <div class="columna1">
+                <img class="image w-full h-full shadow-lg border border-zinc-100" src="/img/postal4.png" alt="">
+
+            </div>
+            <div class="columna1">
+                <img class="image w-full h-full shadow-lg border border-zinc-100" src="/img/postal2.png" alt="">
+
+            </div>
+            <div class="columna1">
+                <img class="image w-full h-full shadow-lg border border-zinc-100" src="/img/postal3.png" alt="">
+
+            </div>
+
+
+            <div class="columna1">
+                <img class="image w-full h-full shadow-lg border border-zinc-100" src="/img/postal5.png" alt="">
+
+            </div>
+
+        </div>
+
+        <div
+            class="grid grid-cols-3 pb-32 px-64 gap-8 justify-items-center max-sm:grid-cols-1 max-sm:px-12 max-sm:gap-6 max-sm:pb-24 max-sm:hidden">
 
             <div class="columna1">
                 <img class="image w-full h-full shadow-lg border border-zinc-100" src="/img/postal6.png" alt="">
@@ -271,7 +303,7 @@
         </div>
 
         <div
-            class="grid grid-cols-4 gap-2 pb-32 px-64 justify-items-center max-sm:grid-cols-1 max-sm:pb-2 max-sm:hidden">
+            class="grid grid-cols-4 gap-2 pb-32 px-64 justify-items-center max-[1920px]:px-12 max-sm:grid-cols-1 max-sm:pb-2 max-sm:hidden">
 
             <div class="bg-[url('/img/IMG_247644.jpg')] hover:bg-[url('/img/sellos2.png')] w-full h-[20rem] bg-cover">
             </div>
@@ -299,152 +331,153 @@
 
 
         <div
-            class="titular2 bg-white flex px-64 pb-32 gap-64 pt-32 text-zinc-900 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-6 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 bg-white flex px-64 pb-32 gap-64 pt-16 text-zinc-900 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-6 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-zinc-900 max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6 max-sm:text-[30px] max-sm:pb-0">
                 CUADERNOS DE VIAJE EXPERIMENTALES</div>
         </div>
 
         <div
-            class="grid bg-white grid-cols-1 grid-row-1 gap-2 px-64 pb-32 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60">
+            class="grid bg-white grid-cols-1 grid-row-2 gap-2 px-64 pb-32 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-sm:hidden">
             <div
-                class="grid grid-cols-1 px-64 grid-row-1 gap-12 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-sm:px-0 max-sm:pt-0 max-sm:gap-2">
+                class="grid grid-cols-3 px-12 grid-row-1 gap-12 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-sm:px-0 max-sm:pt-0 max-sm:gap-2">
 
                 <div
-                    class="text pt-4 pb-2 text-left justify-items-left font-['SFUIDisplay-Light'] text-[14px] text-zinc-800 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:text-[12px]">
+                    class="text pt-12 pb-2 text-left justify-items-left font-['SFUIDisplay-Light'] text-[14px] text-zinc-800 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:text-[12px]">
                     CUADERNO DE VIAJE 1 - DÍA 1
 
                 </div>
+
+                <div
+                    class="text pt-12 pb-2 text-left justify-items-left font-['SFUIDisplay-Light'] text-[14px] text-zinc-800 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:text-[12px]">
+                    CUADERNO DE VIAJE 2 - DÍA 2
+
+                </div>
+
+                <div
+                    class="text pt-12 pb-2 text-left justify-items-left font-['SFUIDisplay-Light'] text-[14px] text-zinc-800 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:text-[12px]">
+                    CUADERNO DE VIAJE 3 - DÍA 3
+
+                </div>
+
                 <Carousel class="max-sm:pb-32" :autoplay="4000" :wrap-around="true">
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400 border-dashed" src="/img/portadacuadernillo3.png"
-                            alt="">
+                        <img class="image_grid w-full h-full border border-zinc-400"
+                            src="/img/portadacuadernillo3.png" alt="">
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400 border-dashed"
+                        <img class="image_grid w-full h-full border border-zinc-400"
                             src="/img/CuadernilloExperimental1.png" alt="">
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400 border-dashed"
+                        <img class="image_grid w-full h-full border border-zinc-400"
                             src="/img/CuadernilloExperimental2.png" alt="">
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400 border-dashed"
+                        <img class="image_grid w-full h-full border border-zinc-400"
                             src="/img/CuadernilloExperimental3.png" alt="">
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400 border-dashed"
+                        <img class="image_grid w-full h-full border border-zinc-400"
                             src="/img/CuadernilloExperimental4.png" alt="">
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400 border-dashed"
+                        <img class="image_grid w-full h-full border border-zinc-400"
                             src="/img/CuadernilloExperimental5.png" alt="">
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400 border-dashed"
+                        <img class="image_grid w-full h-full border border-zinc-400"
                             src="/img/CuadernilloExperimental6.png" alt="">
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400 border-dashed"
+                        <img class="image_grid w-full h-full border border-zinc-400"
                             src="/img/CuadernilloExperimental7.png" alt="">
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400 border-dashed"
+                        <img class="image_grid w-full h-full border border-zinc-400"
                             src="/img/CuadernilloExperimental8.png" alt="">
                     </Slide>
 
                     <template #addons>
                     </template>
                 </Carousel>
-                <div
-                class="text pt-12 pb-2 text-left justify-items-left font-['SFUIDisplay-Light'] text-[14px] text-zinc-800 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:text-[12px]">
-                CUADERNO DE VIAJE 2 - DÍA 2
-
-                </div>
                 <Carousel class="max-sm:pb-32" :autoplay="4000" :wrap-around="true">
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400 border-dashed" src="/img/portadacuadernillo.png"
-                            alt="">
+                        <img class="image_grid w-full h-full border border-zinc-400"
+                            src="/img/portadacuadernillo.png" alt="">
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400 border-dashed"
+                        <img class="image_grid w-full h-full border border-zinc-400"
                             src="/img/cuadernilloexperimental11.png" alt="">
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400 border-dashed"
+                        <img class="image_grid w-full h-full border border-zinc-400"
                             src="/img/cuadernilloexperimental12.png" alt="">
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400 border-dashed"
+                        <img class="image_grid w-full h-full border border-zinc-400"
                             src="/img/cuadernilloexperimental12.png" alt="">
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400 border-dashed"
+                        <img class="image_grid w-full h-full border border-zinc-400"
                             src="/img/cuadernilloexperimental13.png" alt="">
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400 border-dashed"
+                        <img class="image_grid w-full h-full border border-zinc-400"
                             src="/img/cuadernilloexperimental14.png" alt="">
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400 border-dashed"
+                        <img class="image_grid w-full h-full border border-zinc-400"
                             src="/img/cuadernilloexperimental15.png" alt="">
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400 border-dashed"
+                        <img class="image_grid w-full h-full border border-zinc-400"
                             src="/img/cuadernilloexperimental16.png" alt="">
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400 border-dashed"
+                        <img class="image_grid w-full h-full border border-zinc-400"
                             src="/img/cuadernilloexperimental17.png" alt="">
                     </Slide>
 
                     <template #addons>
                     </template>
                 </Carousel>
-
-                <div
-                class="text pt-12 pb-2 text-left justify-items-left font-['SFUIDisplay-Light'] text-[14px] text-zinc-800 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:text-[12px]">
-                CUADERNO DE VIAJE 3 - DÍA 3
-
-                </div>
-
                 <Carousel class="max-sm:pb-32" :autoplay="4000" :wrap-around="true">
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400 border-dashed" src="/img/portadacuadernillo2.png"
-                            alt="">
+                        <img class="image_grid w-full h-full border border-zinc-400"
+                            src="/img/portadacuadernillo2.png" alt="">
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400 border-dashed"
-                            src="/img/CuadernilloExperimental1.png" alt="">
+                        <img class="image_grid w-full h-full border border-zinc-400"
+                            src="/img/cuadernillo1.png" alt="">
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400 border-dashed"
-                            src="/img/CuadernilloExperimental2.png" alt="">
+                        <img class="image_grid w-full h-full border border-zinc-400"
+                        src="/img/cuadernillo2.png" alt="">
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400 border-dashed"
-                            src="/img/CuadernilloExperimental3.png" alt="">
+                        <img class="image_grid w-full h-full border border-zinc-400"
+                        src="/img/cuadernillo3.png" alt="">
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400 border-dashed"
-                            src="/img/CuadernilloExperimental4.png" alt="">
+                        <img class="image_grid w-full h-full border border-zinc-400"
+                        src="/img/cuadernillo4.png" alt="">
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400 border-dashed"
-                            src="/img/CuadernilloExperimental5.png" alt="">
+                        <img class="image_grid w-full h-full border border-zinc-400"
+                        src="/img/cuadernillo5.png" alt="">
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400 border-dashed"
-                            src="/img/CuadernilloExperimental6.png" alt="">
+                        <img class="image_grid w-full h-full border border-zinc-400"
+                        src="/img/cuadernillo6.png" alt="">
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400 border-dashed"
-                            src="/img/CuadernilloExperimental7.png" alt="">
+                        <img class="image_grid w-full h-full border border-zinc-400"
+                        src="/img/cuadernillo7.png" alt="">
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400 border-dashed"
-                            src="/img/CuadernilloExperimental8.png" alt="">
+                        <img class="image_grid w-full h-full border border-zinc-400"
+                        src="/img/cuadernillo8.png" alt="">
                     </Slide>
 
                     <template #addons>
@@ -455,11 +488,275 @@
 
         </div>
 
-        <img class="image bg-zinc-900 w-full h-full pb-32 max-sm:pb-12" src="/img/IMG_2459.jpg" alt="">
+        <div
+            class="hidden bg-white grid-cols-1 grid-row-2 gap-2 px-64 pb-32 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-sm:grid">
+            <div
+                class="grid grid-cols-3 px-12 grid-row-1 gap-12 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-sm:px-0 max-sm:pt-0 max-sm:gap-2">
+
+                <div
+                    class="text pt-12 pb-2 text-left justify-items-left font-['SFUIDisplay-Light'] text-[14px] text-zinc-800 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:text-[12px]">
+                    CUADERNO DE VIAJE 1 - DÍA 1
+
+                </div>
 
 
-        <img class="image bg-zinc-900 w-[120rem] h-full pb-32 max-sm:pb-12" src="/img/IMG_2467.png" alt="">
+                <Carousel class="max-sm:pb-32" :autoplay="4000" :wrap-around="true">
+                    <Slide v-for="slide in 1" :key="slide">
+                        <img class="image_grid w-full h-full border border-zinc-400"
+                            src="/img/portadacuadernillo3.png" alt="">
+                    </Slide>
+                    <Slide v-for="slide in 1" :key="slide">
+                        <img class="image_grid w-full h-full border border-zinc-400"
+                            src="/img/CuadernilloExperimental1.png" alt="">
+                    </Slide>
+                    <Slide v-for="slide in 1" :key="slide">
+                        <img class="image_grid w-full h-full border border-zinc-400"
+                            src="/img/CuadernilloExperimental2.png" alt="">
+                    </Slide>
+                    <Slide v-for="slide in 1" :key="slide">
+                        <img class="image_grid w-full h-full border border-zinc-400"
+                            src="/img/CuadernilloExperimental3.png" alt="">
+                    </Slide>
+                    <Slide v-for="slide in 1" :key="slide">
+                        <img class="image_grid w-full h-full border border-zinc-400"
+                            src="/img/CuadernilloExperimental4.png" alt="">
+                    </Slide>
+                    <Slide v-for="slide in 1" :key="slide">
+                        <img class="image_grid w-full h-full border border-zinc-400"
+                            src="/img/CuadernilloExperimental5.png" alt="">
+                    </Slide>
+                    <Slide v-for="slide in 1" :key="slide">
+                        <img class="image_grid w-full h-full border border-zinc-400"
+                            src="/img/CuadernilloExperimental6.png" alt="">
+                    </Slide>
+                    <Slide v-for="slide in 1" :key="slide">
+                        <img class="image_grid w-full h-full border border-zinc-400"
+                            src="/img/CuadernilloExperimental7.png" alt="">
+                    </Slide>
+                    <Slide v-for="slide in 1" :key="slide">
+                        <img class="image_grid w-full h-full border border-zinc-400"
+                            src="/img/CuadernilloExperimental8.png" alt="">
+                    </Slide>
 
+                    <template #addons>
+                    </template>
+                </Carousel>
+
+                <div
+                    class="text pt-12 pb-2 text-left justify-items-left font-['SFUIDisplay-Light'] text-[14px] text-zinc-800 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:text-[12px]">
+                    CUADERNO DE VIAJE 2 - DÍA 2
+
+                </div>
+
+
+                <Carousel class="max-sm:pb-32" :autoplay="4000" :wrap-around="true">
+                    <Slide v-for="slide in 1" :key="slide">
+                        <img class="image_grid w-full h-full border border-zinc-400"
+                            src="/img/portadacuadernillo.png" alt="">
+                    </Slide>
+                    <Slide v-for="slide in 1" :key="slide">
+                        <img class="image_grid w-full h-full border border-zinc-400"
+                            src="/img/cuadernilloexperimental11.png" alt="">
+                    </Slide>
+                    <Slide v-for="slide in 1" :key="slide">
+                        <img class="image_grid w-full h-full border border-zinc-400"
+                            src="/img/cuadernilloexperimental12.png" alt="">
+                    </Slide>
+                    <Slide v-for="slide in 1" :key="slide">
+                        <img class="image_grid w-full h-full border border-zinc-400"
+                            src="/img/cuadernilloexperimental12.png" alt="">
+                    </Slide>
+                    <Slide v-for="slide in 1" :key="slide">
+                        <img class="image_grid w-full h-full border border-zinc-400"
+                            src="/img/cuadernilloexperimental13.png" alt="">
+                    </Slide>
+                    <Slide v-for="slide in 1" :key="slide">
+                        <img class="image_grid w-full h-full border border-zinc-400"
+                            src="/img/cuadernilloexperimental14.png" alt="">
+                    </Slide>
+                    <Slide v-for="slide in 1" :key="slide">
+                        <img class="image_grid w-full h-full border border-zinc-400"
+                            src="/img/cuadernilloexperimental15.png" alt="">
+                    </Slide>
+                    <Slide v-for="slide in 1" :key="slide">
+                        <img class="image_grid w-full h-full border border-zinc-400"
+                            src="/img/cuadernilloexperimental16.png" alt="">
+                    </Slide>
+                    <Slide v-for="slide in 1" :key="slide">
+                        <img class="image_grid w-full h-full border border-zinc-400"
+                            src="/img/cuadernilloexperimental17.png" alt="">
+                    </Slide>
+
+                    <template #addons>
+                    </template>
+                </Carousel>
+
+                <div
+                    class="text pt-12 pb-2 text-left justify-items-left font-['SFUIDisplay-Light'] text-[14px] text-zinc-800 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:text-[12px]">
+                    CUADERNO DE VIAJE 3 - DÍA 3
+
+                </div>
+                
+
+                <Carousel class="max-sm:pb-32" :autoplay="4000" :wrap-around="true">
+                    <Slide v-for="slide in 1" :key="slide">
+                        <img class="image_grid w-full h-full border border-zinc-400"
+                            src="/img/portadacuadernillo2.png" alt="">
+                    </Slide>
+                    <Slide v-for="slide in 1" :key="slide">
+                        <img class="image_grid w-full h-full border border-zinc-400"
+                            src="/img/cuadernillo1.png" alt="">
+                    </Slide>
+                    <Slide v-for="slide in 1" :key="slide">
+                        <img class="image_grid w-full h-full border border-zinc-400"
+                        src="/img/cuadernillo2.png" alt="">
+                    </Slide>
+                    <Slide v-for="slide in 1" :key="slide">
+                        <img class="image_grid w-full h-full border border-zinc-400"
+                        src="/img/cuadernillo3.png" alt="">
+                    </Slide>
+                    <Slide v-for="slide in 1" :key="slide">
+                        <img class="image_grid w-full h-full border border-zinc-400"
+                        src="/img/cuadernillo4.png" alt="">
+                    </Slide>
+                    <Slide v-for="slide in 1" :key="slide">
+                        <img class="image_grid w-full h-full border border-zinc-400"
+                        src="/img/cuadernillo5.png" alt="">
+                    </Slide>
+                    <Slide v-for="slide in 1" :key="slide">
+                        <img class="image_grid w-full h-full border border-zinc-400"
+                        src="/img/cuadernillo6.png" alt="">
+                    </Slide>
+                    <Slide v-for="slide in 1" :key="slide">
+                        <img class="image_grid w-full h-full border border-zinc-400"
+                        src="/img/cuadernillo7.png" alt="">
+                    </Slide>
+                    <Slide v-for="slide in 1" :key="slide">
+                        <img class="image_grid w-full h-full border border-zinc-400"
+                        src="/img/cuadernillo8.png" alt="">
+                    </Slide>
+
+                    <template #addons>
+                    </template>
+                </Carousel>
+
+            </div>
+
+        </div>
+
+        <div
+            class="colum flex pt-20 px-64 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-[1500px]:px-60 max-sm:px-4">
+
+            <div class="fotografias flex flex-col gap-6 max-w-[120h] max-sm:gap-4">
+                <img class="image w-full h-full" src="/img/IMG_2459.jpg" alt="">
+                <img class="image w-full h-full" src="/img/IMG_2460.jpg" alt="">
+                <img class="image w-full h-full" src="/img/IMG_2461.jpg" alt="">
+                <img class="image w-full h-full" src="/img/IMG_2463.jpg" alt="">
+                <img class="image w-full h-full" src="/img/IMG_2511.jpg" alt="">
+                <img class="image w-full h-full" src="/img/IMG_2496.jpg" alt="">
+                <img class="image w-full h-full" src="/img/IMG_2506.jpg" alt="">
+                <img class="image w-full h-full" src="/img/IMG_2505.jpg" alt="">
+                <img class="image w-full h-full" src="/img/IMG_2503.jpg" alt="">
+                <img class="image w-full h-full" src="/img/IMG_2502.jpg" alt="">
+                <img class="image w-full h-full" src="/img/IMG_2501.jpg" alt="">
+                <img class="image w-full h-full" src="/img/IMG_2499.jpg" alt="">
+                <img class="image w-full h-full max-sm:pb-12" src="/img/IMG_2467.jpg" alt="">
+            </div>
+
+            <div class="info_proyect max-w-[80ch] pt-12 max-sm:px-4 max-sm:hidden">
+                <div class="info_secondary flex flex-col gap-6 sticky top-40 max-[1500px]:gap-12 opacity-50">
+                    <div
+                        class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-[#243673] max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
+                        ← CUADERNILLOS</div>
+                    <div
+                        class="text text-[16px] font-['SFUIDisplay-Light'] indent-12 text-[#243673] max-xl:text-sm max-[1500px]:text-[16px] max-[1500px]:max-w-[100ch]">
+                        Creación de 3 cuadernillos de maquetación experimental para
+                        narrar el viaje de los 3 días. Un cuadernillo por cada uno contando
+                        por horas todos los trayectos, lugares, monumentos y momentos
+                        importantes de cada día vivido ahí. <br> <br> La maquetación no busca
+                        ser un fotolibro como el que ya hay en la caja, si no buscar una
+                        narrativa diferente que cuente de otra forma todo, tanto con el
+                        tratamiento de las imágenes, como la maquetación general de
+                        la información y el estilo de los párrafos de texto.
+                        La idea es hacer un recorrido por horas del día combinado con
+                        poemas portugueses y creando una narrativa al rededor de los
+                        lugares y momentos. <br> <br>
+                        Cuadernillos cosidos vistos con encartes, que comparten estructura general los tres.
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div
+            class="titular2 flex px-64 pb-12 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            <div
+                class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
+                TERCER<br>COMPARTIMENTO</div>
+            <div
+                class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[1280px]:p-0">
+
+                <div
+                    class="text max-w-[60ch] text-[16px] uppercase text-zinc-900 max-xl:leading-2 max-xl:text-xs max-xl:text-center max-[1280px]:text-left">
+                    <a class="type text-zinc-600">CAJA CONTENEDORA DEL PROYECTO</a>
+                </div>
+                <div
+                    class="text max-w-[80ch] pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                    En este segundo compartimento se incluyen tres piezas diferentes. Tres fanzines/fotolibros
+                    experimentales cosidos a mano, cada uno contando cada uno de los tres días del viaje a modo de
+                    diario. Como segunda pieza unas postales con ilustraciones personales y por ultimo
+                    unos sellos personalizados contando con 4 modelos distintos.
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="grid grid-cols-1 px-64 max-sm:grid-cols-1 pb-4">
+            <img class="image px-64 w-full h-full max-sm:pb-2" src="/img/IMG_2522.png" alt="">
+        </div>
+        <div
+            class="grid grid-cols-1 px-64 pt-4 pb-32 text-center justify-items-center font-['SFUIDisplay-Light'] text-[16px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:px-12">
+            <div
+                class="titular text-[20px] font-['Domaine-Display'] text-start leading-10 font-normal pb-2 text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
+                PICTOGRAMAS</div>
+            <a class="max-w-[120ch]">
+                Creación de pictogramas personalizados con la estética de la ciudad pero manteniendo el estilo de las
+                composiciones de la caja.
+            </a>
+        </div>
+
+        <div class="grid grid-cols-1 px-64 gap-20 max-sm:grid-cols-1 pb-32 max-sm:px-4 max-sm:hidden">
+            <img class="image px-64 w-full h-full max-sm:pb-2 max-sm:px-12" src="/img/pictosoporto.png" alt="">
+
+
+        </div>
+
+        <div class="hidden px-64 gap-20 max-sm:grid-cols-1 pb-12 max-sm:px-4 max-sm:flex">
+            <img class="image px-64 w-full h-full max-sm:pb-2 max-sm:px-12" src="/img/pictosoporto2.png" alt="">
+
+
+        </div>
+
+        <div
+            class="colum flex px-64 pt-20 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-[1500px]:px-60 max-sm:px-2">
+
+            <div class="fotografias px-64 grid grid-cols-1 gap-8 max-sm:gap-4 max-sm:px-2">
+                <img class="image w-full h-full" src="/img/IMG_2525.jpg" alt="">
+                <img class="image w-full h-full" src="/img/IMG_2524.jpg" alt="">
+                <img class="image w-full h-full" src="/img/IMG_2532.jpg" alt="">
+                <img class="image w-full h-full" src="/img/IMG_2528.jpg" alt="">
+                <img class="image w-full h-full" src="/img/IMG_2535.jpg" alt="">
+                <img class="image w-full h-full" src="/img/IMG_2523.jpg" alt="">
+                <img class="image w-full h-full" src="/img/IMG_2526.jpg" alt="">
+                <img class="image w-full h-full" src="/img/IMG_2536.jpg" alt="">
+                <img class="image w-full h-full" src="/img/IMG_2538.jpg" alt="">
+                <img class="image w-full h-full" src="/img/IMG_2542.jpg" alt="">
+
+            </div>
+
+        </div>
 
 
         <div
