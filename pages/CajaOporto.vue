@@ -250,7 +250,7 @@
             </div>
 
             <img class="image w-full h-full max-sm:hidden" src="/img/gifazulejo2.gif" alt="">
-            <img class="image hidden w-full h-full max-sm:flex" src="/img/azulejo2.webp" alt="">
+            <img class="image hidden w-full h-full max-sm:flex" src="/img/gifazulejo2.gif" alt="">
 
 
         </div>
