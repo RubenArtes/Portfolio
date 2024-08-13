@@ -249,7 +249,8 @@
                 de otras culturas como la árabe.
             </div>
 
-            <img class="image w-full h-full" src="/img/gifazulejo.gif" alt="">
+            <img class="image w-full h-full max-sm:hidden" src="/img/gifazulejo2.gif" alt="">
+            <img class="image hidden w-full h-full max-sm:flex" src="/img/azulejo2.webp" alt="">
 
 
         </div>
