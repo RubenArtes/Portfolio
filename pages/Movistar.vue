@@ -72,13 +72,24 @@
         </div>
 
         <div
-            class="video flex pt-20 pb-20 text-zinc-600 flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
+            class="video flex max-sm:hidden pt-20 pb-20 text-zinc-600 flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
             <video class="video drop-shadow-lg" width="1240" height="788" loop autoplay>
                 <source src="/img/Cortinilla_5.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
 
         </div>
+
+        <div
+            class="video hidden max-sm:flex pt-20 pb-20 text-zinc-600 flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
+            <video class="video drop-shadow-lg" width="1240" height="788" loop controls>
+                <source src="/img/Cortinilla_5.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+        </div>
+
+
         <div
             class="colum flex pt-20 px-64 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-[1500px]:px-60">
             <div class="info_proyect">
