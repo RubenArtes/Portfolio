@@ -203,7 +203,7 @@
     </div>
 
     <div
-      class="grid grid-flow-cols grid-cols-1 max-[1920px]:grid-cols-3 text-center max-[1450px]:grid-cols-1 animate-pulse max-[1920px]:grid-cols-1 max-sm:grid-cols-1">
+      class="grid grid-flow-cols grid-cols-1 text-center max-[1450px]:grid-cols-1 animate-pulse max-[1920px]:grid-cols-1 max-sm:grid-cols-1">
 
       <div class=" bg-orange-400 border border-orange-400 text-white justify-center content-center text-[12px]">PÁGINAS
         NUEVAS
@@ -233,7 +233,7 @@
     
     <NuxtLink class="hidden max-sm:block" to="/CajaOporto">
       <div
-        class="trabajo1 border border-solid border-r-1 border-t-0 border-b-0 px-20 py-18 flex flex-col justify-center bg-cover bg-center max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
+        class="trabajo1 border border-solid border-r-1 border-t-0 border-b-0 px-20 py-18 flex flex-col justify-center bg-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
         <div
           class="text text-center text-[60px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
           CAJA <br />
@@ -516,7 +516,7 @@
         class="grid grid-cols-4 max-[1920px]:grid-cols-3 max-[1450px]:grid-cols-2 max-sm:grid-cols-1 max-sm:divide-y max-sm:order-t-1 max-sm:border-solid max-sm:border-black">
         <NuxtLink to="/packaging">
           <div
-            class="trabajo1 border border-solid border-r-1 border-b-0 px-20 py-30 flex flex-col justify-center bg-cover bg-center max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
+            class="trabajo1 border border-solid border-r-1 border-b-0 px-20 py-30 flex flex-col justify-center hover:text-black bg-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
             <div
               class="text text-center text-[60px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
               MATUTANO <br />
@@ -554,7 +554,7 @@
 
         <NuxtLink to="/Prau">
           <div
-            class="trabajo1 border-r-0 border-t-0 px-20 py-30 flex flex-col justify-center bg-cover bg-center max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
+            class="trabajo1 border-r-0 border-t-0 px-20 py-30 flex flex-col justify-center bg-white hover:text-black max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
             <div
               class="text text-center text-[60px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
               VINOS <br />
@@ -572,7 +572,7 @@
         </NuxtLink>
         <NuxtLink to="/MetrodeMadrid">
           <div
-            class="trabajo1 border border-solid border-r-0 px-20 py-30 flex flex-col justify-center bg-cover bg-center hover:text-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
+            class="trabajo1 border border-solid border-r-0 px-20 py-30 flex flex-col justify-center bg-white hover:text-black max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
             <div
               class="text text-center text-[60px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
               METRO <br />
@@ -590,7 +590,7 @@
         </NuxtLink>
         <NuxtLink to="/Typenotes">
           <div
-            class="trabajo1 border border-solid border-r-1 border-t-1 px-20 py-30 flex flex-col justify-center bg-cover bg-center hover:text-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
+            class="trabajo1 border border-solid border-r-1 border-t-1 px-20 py-30 flex flex-col justify-center bg-white hover:text-black max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
             <div
               class="text text-center text-[60px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
               REVISTA <br />
@@ -608,7 +608,7 @@
         </NuxtLink>
         <NuxtLink to="/Movistar">
           <div
-            class="trabajo1 border border-solid border-r-0 border-l-0 border-t-1 px-20 py-30 flex flex-col justify-center bg-cover bg-center hover:text-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
+            class="trabajo1 border border-solid border-r-0 border-l-0 border-t-1 px-20 py-30 flex flex-col justify-center bg-white hover:text-black max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
             <div
               class="text text-center text-[60px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
               AUDIOVISUAL <br />
@@ -626,7 +626,7 @@
         </NuxtLink>
         <NuxtLink to="/Modelado3D">
           <div
-            class="trabajo1 hover:text-white border border-solid border-r-0 border-t-1 px-20 py-30 flex flex-col justify-center bg-cover bg-center max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
+            class="trabajo1 border border-solid border-r-0 border-t-1 px-20 py-30 flex flex-col justify-center bg-white hover:text-black max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
             <div
               class="text text-center text-[60px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
               MODELADO <br />RENDER 3D
@@ -643,7 +643,7 @@
         </NuxtLink>
         <NuxtLink to="/YelmoCines">
           <div
-            class="trabajo1 border border-solid border-r-0 border-t-0 px-20 py-30 flex flex-col justify-center bg-cover bg-center hover:text-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
+            class="trabajo1 border border-solid border-r-0 border-t-0 px-20 py-30 flex flex-col justify-center bg-white hover:text-black max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
             <div
               class="text text-center text-[60px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
               YELMO <br />
@@ -661,7 +661,7 @@
         </NuxtLink>
         <NuxtLink to="/Editorial">
           <div
-            class="trabajo1 border border-solid border-r-1 border-t-0 px-20 py-30 flex flex-col justify-center bg-cover bg-center hover:text-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
+            class="trabajo1 border border-solid border-r-1 border-t-0 px-20 py-30 flex flex-col justify-center bg-white hover:text-black max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
             <div
               class="text text-center text-[60px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
               PENSAMIENTO <br />
@@ -679,7 +679,7 @@
         </NuxtLink>
         <NuxtLink to="/PrototipadoFigma">
           <div
-            class="trabajo1 border border-solid border-r-0 border-t-0 border-l-0 px-20 py-30 flex flex-col justify-center bg-cover bg-center max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
+            class="trabajo1 border border-solid border-r-0 border-t-0 border-l-0 px-20 py-30 flex flex-col justify-center bg-white hover:text-black max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
             <div
               class="text text-center text-[60px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
               PAGINA WEB<br />ESD MADRID
@@ -696,7 +696,7 @@
         </NuxtLink>
         <NuxtLink to="/Fotografias">
           <div
-            class="trabajo1 border border-solid border-r-0 border-t-0 px-20 py-30 flex flex-col justify-center bg-cover bg-center hover:text-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
+            class="trabajo1 border border-solid border-r-0 border-t-0 px-20 py-30 flex flex-col justify-center bg-white hover:text-black max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
             <div
               class="text text-center text-[60px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
               COLECCIÓN <br />
@@ -714,7 +714,7 @@
         </NuxtLink>
         <NuxtLink to="/KinderBueno">
           <div
-            class="trabajo1 border border-solid border-r-0 border-t-0 px-20 py-30 flex flex-col justify-center bg-cover bg-center hover:text-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
+            class="trabajo1 border border-solid border-r-0 border-t-0 px-20 py-30 flex flex-col justify-center bg-white hover:text-black max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
             <div
               class="text text-center text-[60px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
               KINDER BUENO<br />
@@ -732,7 +732,7 @@
         </NuxtLink>
         <NuxtLink to="/Ilustraciones">
           <div
-            class="trabajo1 border border-solid border-r-0 border-t-0 px-20 py-30 flex flex-col justify-center bg-cover bg-center hover:text-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-1 max-sm:text-black max-xs:border-b-1">
+            class="trabajo1 border border-solid border-r-0 border-t-0 px-20 py-30 flex flex-col justify-center bg-white hover:text-black max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-1 max-sm:text-black max-xs:border-b-1">
             <div
               class="text text-center text-[60px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
               COLECCIÓN<br />ILUSTRACIONES

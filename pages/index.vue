@@ -196,11 +196,11 @@
     </div>
 
     <div
-      class="accede2 flex max-sm:flex px-64 font-bold text-center font-['Domaine-Display'] justify-center text-zinc-800 text-[40px] max-[720px]:px-4 max-sm:px-20 max-sm:pt-16">
+      class="accede2 flex px-64 font-bold text-center font-['Domaine-Display'] justify-center text-zinc-800 text-[40px] max-[720px]:px-4 max-sm:px-20 max-sm:pt-16 max-sm:hidden">
       PORTFOLIO
     </div>
     <div
-      class="accede2 flex max-sm:flex px-64 text-center justify-center text-zinc-600 pb-16 text-xs max-[720px]:px-4 max-sm:px-20 max-sm:pb-12">
+      class="accede2 flex px-64 text-center justify-center text-zinc-600 pb-16 text-xs max-[720px]:px-4 max-sm:px-20 max-sm:pb-12 max-sm:hidden">
       Actualización Agosto 2024
     </div>
 
