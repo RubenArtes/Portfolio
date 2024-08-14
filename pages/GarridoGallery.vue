@@ -392,25 +392,23 @@
 
         </div>
 
-        <div class="titular2 grid grid-cols-2 place-items-center pt-24 w-full h-full max-sm:grid-cols-1 max-sm:pt-2">
+        <div class="titular2 grid grid-cols-1 place-items-center pt-24 w-full h-full max-sm:grid-cols-1 max-sm:pt-2">
 
             <img class="image_grid w-full h-full" src="/img/edicionpieza_1.gif" alt="">
-            <img class="image_grid w-full h-full max-sm:hidden" src="/img/edicionpieza_2.gif" alt="">
-
         </div>
 
         <div
             class="titular2 grid grid-cols-4 gap-4 px-12 place-items-center pt-24 w-full h-full max-sm:grid-cols-1 max-sm:px-4">
 
-            <img class="image_grid w-full h-full" src="/img/Corregida1.jpg" alt="">
-            <img class="image_grid w-full h-full" src="/img/Corregida2.jpg" alt="">
-            <img class="image_grid w-full h-full" src="/img/Corregida3.jpg" alt="">
-            <img class="image_grid w-full h-full" src="/img/Corregida4.jpg" alt="">
+            <img class="image_grid w-[600px] h-[600px] max-sm:h-[400px]" src="/img/Corregida1.jpg" alt="">
+            <img class="image_grid w-[600px] h-[600px] max-sm:h-[400px]" src="/img/Corregida2.jpg" alt="">
+            <img class="image_grid w-[600px] h-[600px] max-sm:h-[400px]" src="/img/Corregida3.jpg" alt="">
+            <img class="image_grid w-[600px] h-[600px] max-sm:h-[400px]" src="/img/Corregida4.jpg" alt="">
 
-            <img class="image_grid w-full h-full" src="/img/Corregida5.jpg" alt="">
-            <img class="image_grid w-full h-full" src="/img/Corregida6.jpg" alt="">
-            <img class="image_grid w-full h-full" src="/img/Corregida7.jpg" alt="">
-            <img class="image_grid w-full h-full" src="/img/Corregida8.jpg" alt="">
+            <img class="image_grid w-[600px] h-[600px] max-sm:h-[400px]" src="/img/Corregida5.jpg" alt="">
+            <img class="image_grid w-[600px] h-[600px] max-sm:h-[400px]" src="/img/Corregida6.jpg" alt="">
+            <img class="image_grid w-[600px] h-[600px] max-sm:h-[400px]" src="/img/Corregida7.jpg" alt="">
+            <img class="image_grid w-[600px] h-[600px] max-sm:h-[400px]" src="/img/Corregida8.jpg" alt="">
 
         </div>
 
