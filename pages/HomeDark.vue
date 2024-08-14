@@ -2,15 +2,15 @@
   <div class="app bg-black font-['SFUIDisplay-Light']">
     <Cursor />
     <div
-      class="header bg-black p-10 border-r-0 border-l-0 border-t-0 px-24 text-white grid grid-cols-3 sticky top-0 z-10 max-lg:p-6 max-lg:sticky border border-b-0">
-      <div class="image place-self-start">
+      class="header bg-black p-10 border-r-0 border-l-0 border-t-0 px-24 text-white grid grid-cols-3 sticky top-0 z-10 max-lg:p-6 max-lg:sticky border border-b-0 max-sm:flex max-sm:justify-between">
+      <div class="image place-self-start self-center">
         <NuxtLink to="/HomeDark">
           <img class="max-lg:max-w-[15px]" src="/img/Vector.svg" />
         </NuxtLink>
       </div>
       <div class="mode place-self-center">
         <NuxtLink to="/Home">
-          <img class="image w-[30px]" src="/img/darkmode.png" alt="" />
+          <img class="image w-[35px] max-sm:w-[22px]" src="/img/darkmodeon.svg" alt="" />
         </NuxtLink>
       </div>
       <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado." target="_blank" class="email text-lg  place-self-end flex gap-2 max-lg:text-xs">
@@ -20,7 +20,7 @@
     </div>
 
     <div
-      class="header bg-black p-2 px-12 border-r-0 border-l-0 text-white flex justify-center items-center sticky top-[109px] z-10 border border-b-1 max-[1080px]:gap-6 max-[1025px]:top-[4.2rem] max-sm:gap-2">
+      class="header bg-black p-2 px-12 border-r-0 border-l-0 text-white flex justify-center items-center sticky top-[109px] z-10 border border-b-1 max-[1080px]:gap-6 max-[1025px]:top-[66px] max-sm:gap-2">
       <div
         class="titular_small uppercase pr-2 pl-2 text-white font-['SFUIDisplay-Regular'] animate-pulse text-[14px] max-[1920px]:text-xs max-sm:px-2 max-sm:text-[11px]">
         Ultima actualización Agosto 2024
