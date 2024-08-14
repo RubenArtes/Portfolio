@@ -16,7 +16,7 @@
         </div>
         <div
             class="header bg-white p-1 flex px-8 gap-12 text-center justify-items-center place-content-center sticky top-[110px] z-10 max-lg:p-6 max-lg:sticky border border-b-1 max-sm:hidden max-[1920px]:gap-8">
-            <a
+            <a href="#navegacion"
                 class="email text-black text-[12px] max-[1920px]:text-[10px] justify-items-center flex gap-2 max-lg:text-xs ">NAVEGACIÓN
             </a>
             <a href="#primercompartimento"
@@ -86,7 +86,7 @@
 
         </div>
         <VueScrollProgressBar background-color="#52525B" />
-        <div
+        <div id="navegacion"
             class="titular2 flex px-64 gap-32 content-start space-between justify-center pt-32 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-[1500px]:flex-col max-[1500px]:gap-2 max-[1500px]:items-center max-[1700px]:px-10">
             <div
                 class="titular text-[120px] font-['Domaine-Display'] font-bold leading-[120px] animate-pulse bg-gradient-to-r bg-clip-text text-transparent animate-text max-sm:text-[70px] max-[1500px]:text-left max-[1280px]:text-[100px] from-[#311568] via-[#4797ff] to-[#311568] max-sm:text-center max-sm:leading-[4rem] max-sm:font-normal">
@@ -256,7 +256,7 @@
         </div>
 
         <div id="segundocompartimento"
-            class="titular2 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 flex px-64 pb-12 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
                 SEGUNDO<br>COMPARTIMENTO</div>
@@ -279,7 +279,22 @@
 
         </div>
 
-        <img class="image w-full h-full" src="/img/IMG_2468.jpg" alt="">
+        <img class="image px-24 w-full h-full max-sm:hidden" src="/img/piezascompartimento3.png" alt="">
+        <img class="image hidden px-12 w-full h-full max-sm:block" src="/img/piezascompartimento32.png" alt="">
+        <div class="grid grid-cols-3 gap-24 justify-items-center max-sm:hidden">
+
+            <div
+                class="text max-w-[80ch] pt-4 text-left font-['Regular'] text-[18px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                3 unidades / 1 por día</div>
+            <div
+                class="text max-w-[80ch] pt-4 text-left font-['Regular'] text-[18px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                3 unidades / doble cara</div>
+            <div
+                class="text max-w-[80ch] pt-4 text-left font-['Regular'] text-[18px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                4 unidades</div>
+
+        </div>
+
 
         <div id="postales"
             class="titular2 flex px-64 pb-32 gap-64 pt-48 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
@@ -351,7 +366,7 @@
             </div>
         </div>
 
-        <img class="image w-full h-full pb-32 max-sm:pb-24" src="/img/postalespng.png" alt="">
+        <img class="image w-full h-full pb-32 max-sm:hidden" src="/img/postalespng.png" alt="">
 
         <div class="grid grid-cols-2 max-sm:grid-cols-1">
             <img class="image w-full h-full pb-32 max-sm:pb-2" src="/img/IMG_2450.jpg" alt="">
@@ -826,28 +841,28 @@
                 FOLLETO</div>
         </div>
 
-        <div class="grid grid-cols-5 px-64 pt-32 pb-6 max-sm:px-4 max-sm:pt-20">
-            <img class="image w-full h-full border border-zinc-400 shadow-md" src="/img/folletoen1.png" alt="">
-            <img class="image w-full h-full border border-zinc-400 border-l-0 shadow-md" src="/img/folletoen2.png"
+        <div class="grid grid-cols-5 px-52 pt-32 pb-6 max-sm:px-4 max-sm:pt-20">
+            <img class="image w-full h-full border border-zinc-200 shadow-md" src="/img/folletoen1.png" alt="">
+            <img class="image w-full h-full border border-zinc-200 border-l-0 shadow-md" src="/img/folletoen2.png"
                 alt="">
-            <img class="image w-full h-full border border-zinc-400 border-l-0 shadow-md" src="/img/folletoen3.png"
+            <img class="image w-full h-full border border-zinc-200 border-l-0 shadow-md" src="/img/folletoen3.png"
                 alt="">
-            <img class="image w-full h-full border border-zinc-400 border-l-0 shadow-md" src="/img/folletoen4.png"
+            <img class="image w-full h-full border border-zinc-200 border-l-0 shadow-md" src="/img/folletoen4.png"
                 alt="">
-            <img class="image w-full h-full border border-zinc-400 border-l-0 shadow-md" src="/img/folletoen5.png"
+            <img class="image w-full h-full border border-zinc-200 border-l-0 shadow-md" src="/img/folletoen5.png"
                 alt="">
 
         </div>
 
-        <div class="grid grid-cols-5 px-64 pt-2 pb-32 max-sm:px-4 max-sm:pb-2">
-            <img class="image w-full h-full border border-zinc-400 shadow-md" src="/img/folletoen8.png" alt="">
-            <img class="image w-full h-full border border-zinc-400 border-l-0 shadow-md" src="/img/folletoen9.png"
+        <div class="grid grid-cols-5 px-52 pt-2 pb-32 max-sm:px-4 max-sm:pb-2">
+            <img class="image w-full h-full border border-zinc-200 shadow-md" src="/img/folletoen8.png" alt="">
+            <img class="image w-full h-full border border-zinc-200 border-l-0 shadow-md" src="/img/folletoen9.png"
                 alt="">
-            <img class="image w-full h-full border border-zinc-400 border-l-0 shadow-md" src="/img/folletoen10.png"
+            <img class="image w-full h-full border border-zinc-200 border-l-0 shadow-md" src="/img/folletoen10.png"
                 alt="">
-            <img class="image w-full h-full border border-zinc-400 border-l-0 shadow-md" src="/img/folletoen6.png"
+            <img class="image w-full h-full border border-zinc-200 border-l-0 shadow-md" src="/img/folletoen6.png"
                 alt="">
-            <img class="image w-full h-full border border-zinc-400 border-l-0 shadow-md" src="/img/folletoen7.png"
+            <img class="image w-full h-full border border-zinc-200 border-l-0 shadow-md" src="/img/folletoen7.png"
                 alt="">
 
         </div>
@@ -869,8 +884,8 @@
         <div id="cuartocompartimento"
             class="titular2 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20 max-sm:pt-20">
             <div
-            class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
-            CUARTO<br>COMPARTIMENTO</div>
+                class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
+                CUARTO<br>COMPARTIMENTO</div>
             <div
                 class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[1280px]:p-0">
 
@@ -949,6 +964,12 @@
             </div>
 
         </div>
+
+        <NuxtLink to="/AnalógicasOporto">
+            <a class="px-64 flex underline decoration-1 hover:font-['Regular-Bold'] underline-offset-8 justify-center text-center pt-12 titulo font-['Regular'] text-[20px] text-[#243673]">
+                    CLICK PARA VER LAS 21 FOTOGRAFÍAS EXCLUSIVAS DE LA CAJA
+                </a>
+        </NuxtLink>
 
         <div id="libroimpreso"
             class="titular2 flex px-64 pb-12 gap-64 pt-48 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-2 max-sm:pb-2 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
@@ -1302,6 +1323,8 @@
                         src="/img/Procreate.png" alt="">
                     <img class="image_logo w-[40px] opacity-80 hover:opacity-100 max-xl:max-w-[30px] max-xl:max-h-[29px]"
                         src="/img/Cinema4d.png" alt="">
+                    <img class="image_logo w-[40px] opacity-80 hover:opacity-100 max-xl:max-w-[30px]"
+                        src="/img/blender.png" alt="">
                     <img class="image_logo w-[40px] opacity-80 hover:opacity-100 max-xl:max-w-[30px]"
                         src="/img/Illustrator.svg" alt="">
                     <img class="image_logo w-[40px] opacity-80 hover:opacity-100 max-xl:max-w-[30px]"
