@@ -11,7 +11,8 @@
           <img class="image w-[30px]" src="/img/darkmode.png" alt="" />
         </NuxtLink>
       </div>
-      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado." target="_blank" class="email text-lg justify-items-end flex gap-2 max-lg:text-xs">
+      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado."
+        target="_blank" class="email text-lg justify-items-end flex gap-2 max-lg:text-xs">
         ruben.maldonado.graphic@gmail.com
         <img class="vector max-lg:max-w-[8px]" src="/img/Vector-11black.svg" />
       </a>
@@ -204,29 +205,50 @@
     <div
       class="grid grid-flow-cols grid-cols-1 max-[1920px]:grid-cols-3 text-center max-[1450px]:grid-cols-1 animate-pulse max-[1920px]:grid-cols-1 max-sm:grid-cols-1">
 
-      <div class=" bg-orange-400 border border-orange-400 text-white justify-center content-center text-[12px]">PÁGINAS NUEVAS 
+      <div class=" bg-orange-400 border border-orange-400 text-white justify-center content-center text-[12px]">PÁGINAS
+        NUEVAS
         - BEST SELLER - PÁGINAS NUEVAS
       </div>
     </div>
 
-    <NuxtLink to="/CajaOporto">
-          <div
-            class="trabajo1 border border-solid border-r-1 border-t-0 border-b-0 px-20 py-18 flex flex-col justify-center hover:bg-[url('/img/libroimpreso.webp')] hover:text-white bg-cover bg-center max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
-            <div
-              class="text text-center text-[60px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
-              CAJA <br />
-              OPORTO
-            </div>
-            <div
-              class="text text-[16px] text-center leading-[3rem] pb-2 font-['SFUIDisplay-Light'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
-              EDITORIAL - PACKAGING
-            </div>
-            <div
-              class="text text-[150px] pt-2 font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[150px] max-sm:text-[120px] max-sm:hidden">
-              *
-            </div>
-          </div>
-        </NuxtLink>
+    <NuxtLink class="max-sm:hidden" to="/CajaOporto">
+      <div
+        class="trabajo1 border border-solid border-r-1 border-t-0 border-b-0 px-20 py-18 flex flex-col justify-center hover:bg-[url('/img/libroimpreso.webp')] hover:text-white bg-cover bg-center max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
+        <div
+          class="text text-center text-[60px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
+          CAJA <br />
+          OPORTO
+        </div>
+        <div
+          class="text text-[16px] text-center leading-[3rem] pb-2 font-['SFUIDisplay-Light'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
+          EDITORIAL - PACKAGING
+        </div>
+        <div
+          class="text text-[150px] pt-2 font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[150px] max-sm:text-[120px] max-sm:hidden">
+          *
+        </div>
+      </div>
+    </NuxtLink>
+
+    
+    <NuxtLink class="hidden max-sm:block" to="/CajaOporto">
+      <div
+        class="trabajo1 border border-solid border-r-1 border-t-0 border-b-0 px-20 py-18 flex flex-col justify-center bg-cover bg-center max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
+        <div
+          class="text text-center text-[60px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
+          CAJA <br />
+          OPORTO
+        </div>
+        <div
+          class="text text-[16px] text-center leading-[3rem] pb-2 font-['SFUIDisplay-Light'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
+          EDITORIAL - PACKAGING
+        </div>
+        <div
+          class="text text-[150px] pt-2 font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[150px] max-sm:text-[120px] max-sm:hidden">
+          *
+        </div>
+      </div>
+    </NuxtLink>
 
 
     <div
@@ -247,10 +269,10 @@
 
     </div>
 
-    
 
 
-    <div class="trabajos justify-center">
+
+    <div class="trabajos justify-center max-sm:hidden">
       <div
         class="grid grid-cols-4 max-[1920px]:grid-cols-3 max-[1450px]:grid-cols-2 max-sm:grid-cols-1 max-sm:divide-y max-sm:order-t-1 max-sm:border-solid max-sm:border-black">
         <NuxtLink to="/packaging">
@@ -347,7 +369,7 @@
         </NuxtLink>
         <NuxtLink to="/Movistar">
           <div
-            class="trabajo1 border border-solid border-r-0 border-l-0 border-t-1 px-20 py-30 flex flex-col justify-center hover:bg-[url('/img/NuevaCategoria5.png')] bg-cover bg-center hover:text-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
+            class="trabajo1 border border-solid border-r-0 border-l-0 border-t-1 px-20 py-30 flex flex-col justify-center hover:bg-[url('/img/portadamovistar.gif')] bg-cover bg-center hover:text-black max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
             <div
               class="text text-center text-[60px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
               AUDIOVISUAL <br />
@@ -488,6 +510,247 @@
         </NuxtLink>
       </div>
     </div>
+
+    <div class="hidden trabajos justify-center max-sm:block">
+      <div
+        class="grid grid-cols-4 max-[1920px]:grid-cols-3 max-[1450px]:grid-cols-2 max-sm:grid-cols-1 max-sm:divide-y max-sm:order-t-1 max-sm:border-solid max-sm:border-black">
+        <NuxtLink to="/packaging">
+          <div
+            class="trabajo1 border border-solid border-r-1 border-b-0 px-20 py-30 flex flex-col justify-center bg-cover bg-center max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
+            <div
+              class="text text-center text-[60px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
+              MATUTANO <br />
+              SALUDABLE
+            </div>
+            <div
+              class="text text-[16px] text-center leading-[3rem] pb-96 font-['SFUIDisplay-Light'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
+              PACKAGING
+            </div>
+            <div
+              class="text text-[250px] pt-24 font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
+              *
+            </div>
+          </div>
+        </NuxtLink>
+
+        <div
+          class="grid-flow-cols border-0 border-none grid-cols-4 max-[1920px]:grid-cols-3 text-center max-[1450px]:grid-cols-2 animate-pulse max-[1930px]:grid-cols-3 max-sm:grid-cols-1 hidden max-sm:grid">
+
+          <div class=" bg-red-700 text-white justify-center content-center text-[12px]">PÁGINAS NUEVAS - PÁGINAS
+            NUEVAS - PÁGINAS NUEVAS
+          </div>
+          <div class=" bg-red-700 text-white justify-center content-center text-[12px] max-sm:hidden">PÁGINAS
+            NUEVAS - PÁGINAS NUEVAS - PÁGINAS NUEVAS
+          </div>
+          <div class=" bg-red-700 text-white justify-center content-center text-[12px] hidden">PÁGINAS NUEVAS -
+            PÁGINAS NUEVAS - PÁGINAS NUEVAS
+          </div>
+          <div class=" bg-red text-white justify-center content-center text-[12px] hidden">PÁGINAS NUEVAS - PÁGINAS
+            NUEVAS - PÁGINAS NUEVAS
+          </div>
+
+        </div>
+
+
+        <NuxtLink to="/Prau">
+          <div
+            class="trabajo1 border-r-0 border-t-0 px-20 py-30 flex flex-col justify-center bg-cover bg-center max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
+            <div
+              class="text text-center text-[60px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
+              VINOS <br />
+              PRAU
+            </div>
+            <div
+              class="text text-[16px] text-center leading-[3rem] pb-96 font-['SFUIDisplay-Light'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
+              PACKAGING
+            </div>
+            <div
+              class="text text-black text-[250px] pt-24 font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
+              *
+            </div>
+          </div>
+        </NuxtLink>
+        <NuxtLink to="/MetrodeMadrid">
+          <div
+            class="trabajo1 border border-solid border-r-0 px-20 py-30 flex flex-col justify-center bg-cover bg-center hover:text-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
+            <div
+              class="text text-center text-[60px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
+              METRO <br />
+              MADRID
+            </div>
+            <div
+              class="text text-[16px] text-center leading-[3rem] pb-96 font-['SFUIDisplay-Light'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
+              AUDIOVISUALES
+            </div>
+            <div
+              class="text text-[250px] pt-24 font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
+              *
+            </div>
+          </div>
+        </NuxtLink>
+        <NuxtLink to="/Typenotes">
+          <div
+            class="trabajo1 border border-solid border-r-1 border-t-1 px-20 py-30 flex flex-col justify-center bg-cover bg-center hover:text-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
+            <div
+              class="text text-center text-[60px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
+              REVISTA <br />
+              TYPENOTES
+            </div>
+            <div
+              class="text text-[16px] text-center leading-[3rem] pb-96 font-['SFUIDisplay-Light'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
+              EDITORIAL
+            </div>
+            <div
+              class="text text-[250px] pt-24 font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
+              *
+            </div>
+          </div>
+        </NuxtLink>
+        <NuxtLink to="/Movistar">
+          <div
+            class="trabajo1 border border-solid border-r-0 border-l-0 border-t-1 px-20 py-30 flex flex-col justify-center bg-cover bg-center hover:text-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
+            <div
+              class="text text-center text-[60px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
+              AUDIOVISUAL <br />
+              MOVISTAR +
+            </div>
+            <div
+              class="text text-[16px] text-center leading-[3rem] pb-96 font-['SFUIDisplay-Light'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
+              AUDIOVISUALES
+            </div>
+            <div
+              class="text text-[250px] pt-24 font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
+              *
+            </div>
+          </div>
+        </NuxtLink>
+        <NuxtLink to="/Modelado3D">
+          <div
+            class="trabajo1 hover:text-white border border-solid border-r-0 border-t-1 px-20 py-30 flex flex-col justify-center bg-cover bg-center max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
+            <div
+              class="text text-center text-[60px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
+              MODELADO <br />RENDER 3D
+            </div>
+            <div
+              class="text text-[16px] text-center leading-[3rem] pb-96 font-['SFUIDisplay-Light'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
+              RENDER
+            </div>
+            <div
+              class="text text-[250px] pt-24 font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
+              *
+            </div>
+          </div>
+        </NuxtLink>
+        <NuxtLink to="/YelmoCines">
+          <div
+            class="trabajo1 border border-solid border-r-0 border-t-0 px-20 py-30 flex flex-col justify-center bg-cover bg-center hover:text-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
+            <div
+              class="text text-center text-[60px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
+              YELMO <br />
+              CINES
+            </div>
+            <div
+              class="text text-[16px] text-center leading-[3rem] pb-96 font-['SFUIDisplay-Light'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
+              MARCA
+            </div>
+            <div
+              class="text text-[250px] pt-24 font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
+              *
+            </div>
+          </div>
+        </NuxtLink>
+        <NuxtLink to="/Editorial">
+          <div
+            class="trabajo1 border border-solid border-r-1 border-t-0 px-20 py-30 flex flex-col justify-center bg-cover bg-center hover:text-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
+            <div
+              class="text text-center text-[60px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
+              PENSAMIENTO <br />
+              LATERAL
+            </div>
+            <div
+              class="text text-[16px] text-center leading-[3rem] pb-96 font-['SFUIDisplay-Light'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
+              EDITORIAL
+            </div>
+            <div
+              class="text text-[250px] pt-24 font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
+              *
+            </div>
+          </div>
+        </NuxtLink>
+        <NuxtLink to="/PrototipadoFigma">
+          <div
+            class="trabajo1 border border-solid border-r-0 border-t-0 border-l-0 px-20 py-30 flex flex-col justify-center bg-cover bg-center max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
+            <div
+              class="text text-center text-[60px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
+              PAGINA WEB<br />ESD MADRID
+            </div>
+            <div
+              class="text text-[16px] text-center leading-[3rem] pb-96 font-['SFUIDisplay-Light'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
+              AUDIOVISUALES
+            </div>
+            <div
+              class="text text-[250px] pt-24 font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
+              *
+            </div>
+          </div>
+        </NuxtLink>
+        <NuxtLink to="/Fotografias">
+          <div
+            class="trabajo1 border border-solid border-r-0 border-t-0 px-20 py-30 flex flex-col justify-center bg-cover bg-center hover:text-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
+            <div
+              class="text text-center text-[60px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
+              COLECCIÓN <br />
+              FOTOGRÁFICA
+            </div>
+            <div
+              class="text text-[16px] text-center leading-[3rem] pb-96 font-['SFUIDisplay-Light'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
+              AUDIOVISUALES
+            </div>
+            <div
+              class="text text-[250px] pt-24 font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
+              *
+            </div>
+          </div>
+        </NuxtLink>
+        <NuxtLink to="/KinderBueno">
+          <div
+            class="trabajo1 border border-solid border-r-0 border-t-0 px-20 py-30 flex flex-col justify-center bg-cover bg-center hover:text-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
+            <div
+              class="text text-center text-[60px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
+              KINDER BUENO<br />
+              MASCOTA
+            </div>
+            <div
+              class="text text-[16px] text-center leading-[3rem] pb-96 font-['SFUIDisplay-Light'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
+              MARCA
+            </div>
+            <div
+              class="text text-[250px] pt-24 font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
+              *
+            </div>
+          </div>
+        </NuxtLink>
+        <NuxtLink to="/Ilustraciones">
+          <div
+            class="trabajo1 border border-solid border-r-0 border-t-0 px-20 py-30 flex flex-col justify-center bg-cover bg-center hover:text-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-1 max-sm:text-black max-xs:border-b-1">
+            <div
+              class="text text-center text-[60px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
+              COLECCIÓN<br />ILUSTRACIONES
+            </div>
+            <div
+              class="text text-[16px] text-center leading-[3rem] pb-96 font-['SFUIDisplay-Light'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
+              ILUSTRACIÓN
+            </div>
+            <div
+              class="text text-[250px] pt-24 font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
+              *
+            </div>
+          </div>
+        </NuxtLink>
+      </div>
+    </div>
+
+
     <div
       class="flex pt-32 px-40 pb-40 border-t-0 border-r-0 border-l-0 text-black flex-col gap-20 border border-b-1 items-center justify-center max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-14">
       <div class="titular flex text-[72px] font-normal max-lg:text-[60px] font-['Domaine-Display']">
@@ -531,8 +794,9 @@
           <img class="vector w-[17px]" src="/img/star.svg" />
           <div class="tittle_servicios font-bold text-[20px]">Fotografía</div>
           <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400">
-            Experiencia realizando sesiones fotográficas de exterior y interior de modelaje. Fotografía de naturaleza o urbana. 
-            Además de experiencia en fotografía de producto/bodegón y control de equipo de estudio profesional. 
+            Experiencia realizando sesiones fotográficas de exterior y interior de modelaje. Fotografía de naturaleza o
+            urbana.
+            Además de experiencia en fotografía de producto/bodegón y control de equipo de estudio profesional.
             Edición de fotografía (Raw) en
             <a class="texto_color text-[#4b6ad1]">Photoshop y Lightroom</a>
           </div>
@@ -541,7 +805,8 @@
           <img class="vector w-[17px]" src="/img/star.svg" />
           <div class="tittle_servicios font-bold text-[20px]">Ilustración</div>
           <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400">
-            Experiencia realizando ilustraciones tradicionales (Acuarela, Acrílico, Rotuladores, Lapiz, etc) e ilustraciones
+            Experiencia realizando ilustraciones tradicionales (Acuarela, Acrílico, Rotuladores, Lapiz, etc) e
+            ilustraciones
             digitales mediante Procreate (IPad) y otros soportes de ilustración digital.
           </div>
         </div>
@@ -759,73 +1024,73 @@
     <div
       class="flex gap-60 text-sm bg-black border-t-0 min-[1920px]:px-94 px-56 pb-72 items-center justify-center content-center self-center max-sm:grid max-sm:gap-12 max-sm:pb-24 max-sm:border-t-0 max-sm:grid-cols-1 max-sm:px-10 max-sm:border-none max-sm:border-0 max-sm:pt-24">
       <div class="servicios_ofrecidos items-left flex max-sm:hidden flex-col gap-6 max-sm:order-last">
-        
+
         <div class="flex flex-col gap-1 text-left justify-left">
           <div class="grid grid-flow-cols grid-cols-1 gap-1 justify-beetwen text-left">
             <a href="https://www.instagram.com/olme.ttoo"
-            class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
-            @olme.ttoo  - <b>Alejandro Olmedo</b></a>
+              class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
+              @olme.ttoo - <b>Alejandro Olmedo</b></a>
             <a href="https://www.instagram.com/felixhdraw"
-            class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
-            @felixhdraw  - <b>Felix Hortolano</b></a>
+              class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
+              @felixhdraw - <b>Felix Hortolano</b></a>
             <a href="https://www.instagram.com/intensazc"
-            class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
-            @intensazc   - <b>Barbara Ibañez</b></a>
+              class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
+              @intensazc - <b>Barbara Ibañez</b></a>
           </div>
 
           <div class="grid grid-flow-cols grid-cols-1 gap-1 justify-beetwen text-left">
             <a href="https://www.instagram.com/cat.arsys"
               class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
-              @cat.arsys   - <b> Catalin Liviu </b></a>
+              @cat.arsys - <b> Catalin Liviu </b></a>
             <a href="https://www.instagram.com/iam_sharkastic"
-            class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
-            @iam_sharkastic   - <b>Sergio Martín</b></a>
+              class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
+              @iam_sharkastic - <b>Sergio Martín</b></a>
             <a href="https://historia-arte.com/autores/alvaro-garcia-moreno?fbclid=PAZXh0bgNhZW0CMTEAAaZXhzJaO518coe4d0wbABrUM9cD97VABeVEthtpD8VFEtl-2QtME1bEkbE_aem_LSvS6AW-QbcQvWoqpau77g"
-            class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
-            @agarciamorenoo   - <b>Alvaro García</b></a>
+              class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
+              @agarciamorenoo - <b>Alvaro García</b></a>
           </div>
 
 
           <div class="grid grid-flow-cols grid-cols-1 gap-1 justify-beetwen text-left">
             <a href="https://www.instagram.com/crearual"
-            class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
-            @crearual   - <b>Laura Morales</b></a>
+              class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
+              @crearual - <b>Laura Morales</b></a>
             <a href="https://www.instagram.com/sof_dob_"
-            class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
-            @sof_dob_   - <b>Sofia Dobeson</b></a>
+              class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
+              @sof_dob_ - <b>Sofia Dobeson</b></a>
             <a href="https://www.instagram.com/cosso.portfolio"
-            class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
-            @cosso.portfolio   - <b>Marco García</b></a>
+              class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
+              @cosso.portfolio - <b>Marco García</b></a>
           </div>
 
           <div class="grid grid-flow-cols grid-cols-1 gap-1 justify-beetwen text-left">
             <a href="https://www.instagram.com/_anagraphic"
-            class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
-            @_anagraphic   - <b>Ana Lazaro</b></a>
+              class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
+              @_anagraphic - <b>Ana Lazaro</b></a>
             <a href="https://www.instagram.com/conejitasmith7"
-            class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
-            @conejitasmith7   - <b>Cruz Díaz</b></a>
+              class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
+              @conejitasmith7 - <b>Cruz Díaz</b></a>
             <a href="https://www.instagram.com/ghonz.art"
-            class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
-            @ghonz.art   - <b>Hugo Gregorio</b></a>
+              class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
+              @ghonz.art - <b>Hugo Gregorio</b></a>
           </div>
 
           <div class="grid grid-flow-cols grid-cols-1 gap-1 justify-beetwen text-left">
             <a href="https://www.instagram.com/kombo_oficial"
-            class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
-            @kombo_oficial   - <b>Rakel Mongue</b></a>
+              class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
+              @kombo_oficial - <b>Rakel Mongue</b></a>
             <a href="https://www.instagram.com/bupeart"
-            class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
-            @bupeart   - <b>Pau Bueno</b></a>
+              class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
+              @bupeart - <b>Pau Bueno</b></a>
             <a href="https://www.instagram.com/carolina.jing"
-            class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
-            @carolina.jing   - <b>Carolina Jing</b></a>
+              class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
+              @carolina.jing - <b>Carolina Jing</b></a>
           </div>
 
           <div class="grid grid-flow-cols grid-cols-1 gap-1 justify-beetwen text-left">
             <a href="https://www.instagram.com/moniecos"
-            class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
-            @moniecos   - <b>Paula Rubros</b></a>
+              class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
+              @moniecos - <b>Paula Rubros</b></a>
           </div>
         </div>
       </div>
@@ -843,18 +1108,18 @@
               @olme.ttoo</a>
             <a href="https://www.instagram.com/felixhdraw" class="text-white py-1 text-left">
               @felixhdraw</a>
-              <a href="https://www.instagram.com/kombo_oficial" class="text-white py-1 text-left">
-                @kombo_oficial</a>
+            <a href="https://www.instagram.com/kombo_oficial" class="text-white py-1 text-left">
+              @kombo_oficial</a>
           </div>
 
           <div
             class="grid grid-flow-cols grid-cols-1 gap-1 justify-beetwen text-center max-sm:grid-cols-3 max-sm:text-[12px]">
             <a href="https://www.instagram.com/cat.arsys" class="text-white py-1 text-left">
               @cat.arsys</a>
-              <a href="https://www.instagram.com/carolina.jing" class="text-white py-1 text-left">
-                @carolina.jing</a>
+            <a href="https://www.instagram.com/carolina.jing" class="text-white py-1 text-left">
+              @carolina.jing</a>
             <a href="https://historia-arte.com/autores/alvaro-garcia-moreno?fbclid=PAZXh0bgNhZW0CMTEAAaZXhzJaO518coe4d0wbABrUM9cD97VABeVEthtpD8VFEtl-2QtME1bEkbE_aem_LSvS6AW-QbcQvWoqpau77g"
-            class="text-white py-1 text-left">
+              class="text-white py-1 text-left">
               @agarciamorenoo</a>
           </div>
 
@@ -873,8 +1138,8 @@
             class="grid grid-flow-cols grid-cols-1 gap-1 justify-beetwen text-center max-sm:grid-cols-3 max-sm:text-[12px]">
             <a href="https://www.instagram.com/moniecos" class="text-white py-1 text-left">
               @moniecos</a>
-              <a href="https://www.instagram.com/ghonz.art" class="text-white py-1 text-left">
-                @ghonz.art</a>
+            <a href="https://www.instagram.com/ghonz.art" class="text-white py-1 text-left">
+              @ghonz.art</a>
             <a href="https://www.instagram.com/conejitasmith7" class="text-white py-1 text-left">
               @conejitasmith7</a>
 
@@ -886,14 +1151,14 @@
               @intensazc</a>
             <a href="https://www.instagram.com/bupeart" class="text-white py-1 text-left">
               @bupeart</a>
-              <a href="https://www.instagram.com/iam_sharkastic" class="text-white py-1 text-left">
-                @iam_sharkastic</a>
+            <a href="https://www.instagram.com/iam_sharkastic" class="text-white py-1 text-left">
+              @iam_sharkastic</a>
           </div>
 
           <div
             class="grid grid-flow-cols grid-cols-1 gap-1 justify-center text-center max-sm:grid-cols-3 max-sm:text-[12px]">
-              <a href="https://www.instagram.com/_anagraphic" class="text-white py-1 text-left">
-                @_anagraphic</a>
+            <a href="https://www.instagram.com/_anagraphic" class="text-white py-1 text-left">
+              @_anagraphic</a>
           </div>
         </div>
       </div>
@@ -903,7 +1168,9 @@
 
   <div
     class="links_rrss pt-32 px-80 pb-32 text-black justify-center gap-12 flex flex-row max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20 max-lg:flex max-lg:justify-center max-sm:pt-24">
-    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado." target="_blank" class="email text-lg pr-12 flex gap-2 items-center max-lg:text-[14px] max-lg:justify-center max-sm:pr-0">
+    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado."
+      target="_blank"
+      class="email text-lg pr-12 flex gap-2 items-center max-lg:text-[14px] max-lg:justify-center max-sm:pr-0">
       ruben.maldonado.graphic@gmail.com
       <img class="vector" src="/img/Vector-11black.svg" />
     </a>

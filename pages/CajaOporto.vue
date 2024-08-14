@@ -1,5 +1,5 @@
 <template>
-    <div class="app bg-white font-['SFUIDisplay-Regular'] border">
+    <div class="app bg-white font-['SFUIDisplay-Regular']">
         <Cursor />
         <div
             class="header bg-white p-10 flex px-24 text-black justify-between sticky top-0 z-10 max-lg:p-6 max-lg:sticky border border-b-0">
