@@ -56,14 +56,14 @@
 
     <div
       class="banner flex pt-12 pb-12 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:hidden">
-      <img class="banner_image w-1/2 h-full" src="/img/bannerhome4.png">
+      <img class="banner_image w-1/2 h-full" src="/img/bannerhome5.png">
 
 
     </div>
 
     <div
       class="banner hidden max-sm:flex max-sm:pt-40 max-sm:pb-40 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
-      <img class="banner_image w-full h-full" src="/img/bannerhome4.png">
+      <img class="banner_image w-full h-full" src="/img/bannerhome5.png">
 
 
     </div>

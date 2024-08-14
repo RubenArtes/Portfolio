@@ -2,24 +2,25 @@
   <div class="app bg-white font-['SFUIDisplay-Light']">
     <Cursor />
     <div
-      class="header bg-white p-10 flex border-r-0 border-l-0 px-24 text-black justify-between sticky top-0 z-10 max-lg:p-6 max-lg:sticky border border-b-0">
-      <div class="image flex flex-start justify-items-start">
-        <img class="max-lg:max-w-[15px]" src="/img/Vectorblack.svg" />
+      class="header bg-white p-10 border-r-0 border-l-0 border-t-0 px-24 text-black grid grid-cols-3 sticky top-0 z-10 max-lg:p-6 max-lg:sticky border border-b-0">
+      <div class="image place-self-start">
+        <NuxtLink to="/Home">
+          <img class="max-lg:max-w-[15px]" src="/img/Vectorblack.svg" />
+        </NuxtLink>
       </div>
-      <div class="mode flex items-center justify-center content-center">
+      <div class="mode place-self-center">
         <NuxtLink to="/HomeDark">
           <img class="image w-[30px]" src="/img/darkmode.png" alt="" />
         </NuxtLink>
       </div>
-      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado."
-        target="_blank" class="email text-lg justify-items-end flex gap-2 max-lg:text-xs">
+      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado." target="_blank" class="email text-lg  place-self-end flex gap-2 max-lg:text-xs">
         ruben.maldonado.graphic@gmail.com
         <img class="vector max-lg:max-w-[8px]" src="/img/Vector-11black.svg" />
       </a>
     </div>
 
     <div
-      class="header bg-white p-2 px-12 border-r-0 border-l-0 text-black flex justify-center items-center sticky top-[6.25rem] z-10 border border-b-1 max-[1080px]:gap-6 max-[1025px]:top-[4.2rem] max-sm:gap-2">
+      class="header bg-white p-2 px-12 border-r-0 border-l-0 text-black flex justify-center items-center sticky top-[109px] z-10 border border-b-1 max-[1080px]:gap-6 max-[1025px]:top-[4.2rem] max-sm:gap-2">
       <div
         class="titular_small uppercase pr-2 pl-2 text-zinc-500 font-['SFUIDisplay-Regular'] animate-pulse text-[14px] max-[1920px]:text-xs max-sm:px-2 max-sm:text-[11px]">
         Ultima actualización Agosto 2024
