@@ -55,19 +55,18 @@
     </div>-->
 
     <div
-      class="banner flex pt-12 pb-12 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:hidden">
-      <img class="banner_image w-1/2 h-full" src="/img/bannerhome5.png">
+      class="banner flex pt-12 pb-16 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:hidden">
+      <img class="banner_image w-1/2 h-full" src="/img/nombreruben_00000.png">
 
 
     </div>
 
     <div
-      class="banner hidden max-sm:flex max-sm:pt-40 max-sm:pb-40 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
-      <img class="banner_image w-full h-full" src="/img/bannerhome5.png">
+      class="banner hidden max-sm:px-8 max-sm:flex max-sm:pt-40 max-sm:pb-40 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
+      <img class="banner_image w-full h-full" src="/img/nombreruben_00000.png">
 
 
     </div>
-
 
 
 
@@ -194,16 +193,6 @@
       «Pasa el ratón por encima para descubrir el trabajo y clickea en uno para
       saber más de el»
     </div>
-
-    <div
-      class="accede2 flex px-64 font-bold text-center font-['Domaine-Display'] justify-center text-zinc-800 text-[40px] max-[720px]:px-4 max-sm:px-20 max-sm:pt-16 max-sm:hidden">
-      PORTFOLIO
-    </div>
-    <div
-      class="accede2 flex px-64 text-center justify-center text-zinc-600 pb-16 text-xs max-[720px]:px-4 max-sm:px-20 max-sm:pb-12 max-sm:hidden">
-      Actualización Agosto 2024
-    </div>
-
 
     <div
       class="hidden grid-flow-cols grid-cols-4 max-[1920px]:grid-cols-3 text-center max-[1450px]:grid-cols-2 animate-pulse max-[1930px]:grid-cols-3 max-sm:grid-cols-1">

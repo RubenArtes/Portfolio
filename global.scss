@@ -247,6 +247,19 @@
 }
 
 @font-face {
+    font-family: "Domaine-Display-Bold";
+    src: local("Domaine-Display-Bold"),
+     url(/public/assets/fonts/DomaineDispNar-Semibold.eot) format("opentype");
+     src: local("Domaine-Display-Bold"),
+     url(/public/assets/fonts/DomaineDispNar-Semibold.ttf) format("truetype");
+     src: local("Domaine-Display-Bold"),
+     url(/public/assets/fonts/DomaineDispNar-Semibold.woff) format("woff");
+     src: local("Domaine-Display-Bold"),
+     url(/public/assets/fonts/DomaineDispNar-Semibold.woff2) format("woff2");
+     font-weight: bold;
+}
+
+@font-face {
     font-family: "Apercu-Light";
     src: local("Apercu-Light"),
      url(/public/assets/fonts/ApercuPro-Light.eot) format("opentype");
