@@ -18,8 +18,11 @@
         <div
             class="titular2 flex px-64 gap-52 content-start space-between justify-center pt-20 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-[1500px]:flex-col max-[1500px]:gap-2 max-[1500px]:items-center max-[1700px]:px-10">
             <div
-                class="titular text-[120px] font-['Domaine-Display'] leading-12 font-bold animate-pulse bg-gradient-to-r bg-clip-text text-transparent animate-text max-sm:text-[52px] max-[1500px]:text-left max-[1280px]:text-[100px] from-[#EB595A] via-[#bc3f3f] to-[#f77b7b] ">
+                class="titular text-[120px] font-['Domaine-Display'] leading-12 font-bold animate-pulse bg-gradient-to-r bg-clip-text text-transparent animate-text max-sm:text-[52px] max-[1920px]:hidden max-[1500px]:text-left max-[1280px]:text-[100px] from-[#EB595A] via-[#bc3f3f] to-[#f77b7b] ">
                 MOVISTAR +</div>
+                <div
+                class="titular text-[120px] hidden font-['Domaine-Display'] leading-12 font-bold animate-pulse bg-gradient-to-r bg-clip-text text-transparent animate-text max-sm:text-[52px] max-[1920px]:flex max-[1500px]:text-left max-[1280px]:text-[100px] from-[#EB595A] via-[#bc3f3f] to-[#f77b7b] ">
+                MOVISTAR </div>
             <div
                 class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:pt-6 max-sm:pb-16 max-sm:px-0 max-[1280px]:items-center max-[1280px]:pt-6 max-[1280px]:pb-0">
 
@@ -259,23 +262,23 @@
             class="grid grid-rows-1 gap-12 items-center justify-items-center pt-12 px-32 pb-32 max-sm:px-4 max-[1280px]:p-10 max-[1500px]:px-60 max-[800px]:grid-cols-1 max-sm:gap-8 max-sm:pt-0">
 
             <div
-                class="text max-w-[80ch] leading-[200px] pt-4 text-center font-['Apercu-Light'] text-[240px] text-white max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:text-[40px]">
+                class="text max-w-[80ch] leading-[200px] pt-4 text-center font-['Apercu-Light'] text-[240px] max-[1920px]:text-[170px] text-white max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:text-[40px]">
                 Apercu Pro Light
             </div>
 
 
             <div
-                class="text max-w-[80ch] leading-[200px] pt-4 text-center font-['Apercu-Regular'] text-[240px] text-white max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:text-[40px]">
+                class="text max-w-[80ch] leading-[200px] pt-4 text-center font-['Apercu-Regular'] text-[240px] max-[1920px]:text-[170px] max-[1920px]:max-w-[140ch] text-white max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:text-[40px]">
                 Apercu Pro Regular
             </div>
 
             <div
-                class="text max-w-[80ch] leading-[200px] pt-4 text-center font-['Apercu-Medium'] text-[240px] text-white max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:text-[40px]">
+                class="text max-w-[80ch] leading-[200px] pt-4 text-center font-['Apercu-Medium'] text-[240px] max-[1920px]:text-[180px] max-[1920px]:max-w-[140ch] text-white max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:text-[40px]">
                 Apercu Pro Medium
             </div>
 
             <div
-                class="text max-w-[80ch] leading-[200px] pt-4 text-center font-['Apercu-Bold'] text-[240px] text-white max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:text-[40px]">
+                class="text max-w-[80ch] leading-[200px] pt-4 text-center font-['Apercu-Bold'] text-[240px] max-[1920px]:text-[200px] text-white max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:text-[40px]">
                 Apercu Pro Bold
             </div>
 

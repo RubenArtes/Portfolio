@@ -1,7 +1,6 @@
 <template>
     <div class="custom-cursor">
-        <div id="cursor-big" class="custom-cursor__ball custom-cursor__ball--big"></div>
-        <div id="cursor-small" class="custom-cursor__ball custom-cursor__ball--small"></div>
+        <div id="cursor-big" class="custom-cursor__icon"></div>
     </div>
 </template>
   
@@ -17,7 +16,6 @@ export default {
     },
     mounted() {
         const cursorBig = document.getElementById('cursor-big'),
-            cursorSmall = document.getElementById('cursor-small'),
             links = document.getElementsByTagName("a"),
             withClassHover = document.getElementsByClassName(this.hoverClass),
             withHover = [...links, ...withClassHover];
@@ -28,32 +26,26 @@ export default {
         document.addEventListener("mouseup", onMouseHoverOut);
         document.addEventListener("mouseenter", () => {
             cursorBig.style.opacity = 1;
-            cursorSmall.style.opacity = 1;
         });
         document.addEventListener("mouseleave", () => {
             cursorBig.style.opacity = 0;
-            cursorSmall.style.opacity = 0;
         });
         withHover.forEach((element) => {
             element.addEventListener("mouseover", onMouseHover);
             element.addEventListener("mouseout", onMouseHoverOut);
-        })
+        });
 
         // Event Handlers
         function onMouseMove(e) {
-            cursorSmall.style.opacity = 1;
+            cursorBig.style.opacity = 1;
             gsap.to(cursorBig, 0.4, {
                 x: e.clientX - 18,
                 y: e.clientY - 18
             });
-            gsap.to(cursorSmall, 0.1, {
-                x: e.clientX - 4,
-                y: e.clientY - 4
-            });
         }
         function onMouseHover() {
             gsap.to(cursorBig, 0.3, {
-                scale: 3
+                scale: 1.5
             });
         }
         function onMouseHoverOut() {
@@ -70,24 +62,18 @@ export default {
         cursor: none !important;
     }
 
-    .custom-cursor__ball {
+    .custom-cursor__icon {
         position: fixed;
         top: 0;
         left: 0;
-        mix-blend-mode:exclusion;
         z-index: 99999;
         opacity: 0;
         pointer-events: none;
         transition: opacity 0.5s ease;
+        background-image: url('/img/flecha.svg'); /* Cambia esto a la ruta de tu archivo SVG */
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 60px; /* Ajusta el tamaño de acuerdo a tus necesidades */
+        height: 60px;
     }
-
-    .custom-cursor__ball--big {
-        content: "";
-        width: 35px;
-        height: 35px;
-        background: white;
-        border-radius: 50%;
-    }
-
 </style>
-  

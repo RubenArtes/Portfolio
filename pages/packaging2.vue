@@ -1,5 +1,5 @@
 <template>
-    <div class="app bg-black font-['SFUIDisplay-Regular']">
+    <div class="app bg-black font-['Migra-Regular']">
         <Cursor />
         <div
             class="header bg-black border-0 p-10 flex px-24 text-white justify-between sticky top-0 z-10 max-lg:p-6 max-lg:sticky border-b-0">

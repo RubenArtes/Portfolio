@@ -392,9 +392,9 @@
 
         </div>
 
-        <div class="titular2 grid grid-cols-1 place-items-center pt-24 w-full h-full max-sm:grid-cols-1 max-sm:pt-2">
+        <div class="titular2 grid grid-cols-1 place-items-center px-64 max-sm:px-0 pt-24 w-full h-full max-sm:grid-cols-1 max-sm:pt-2">
 
-            <img class="image_grid w-full h-full" src="/img/edicionpieza_1.gif" alt="">
+            <img class="image_grid w-full h-full px-64 max-sm:px-0" src="/img/edicionpieza_1.gif" alt="">
         </div>
 
         <div

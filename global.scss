@@ -1,13 +1,13 @@
 @font-face {
     font-family: "Epiloge";
     src: local("Epiloge"),
-     url(/public/assets/fonts/Epilogue-Regular.eot) format("opentype");
+     url(/assets/fonts/Epilogue-Regular.eot) format("opentype");
      src: local("Epiloge"),
-     url(/public/assets/fonts/Epilogue-Regular.ttf) format("truetype");
+     url(/assets/fonts/Epilogue-Regular.ttf) format("truetype");
      src: local("Epiloge"),
-     url(/public/assets/fonts/Epilogue-Regular.woff) format("woff");
+     url(/assets/fonts/Epilogue-Regular.woff) format("woff");
      src: local("Epiloge"),
-     url(/public/assets/fonts/Epilogue-Regular.woff2) format("woff2");
+     url(/assets/fonts/Epilogue-Regular.woff2) format("woff2");
      font-style: normal;
      
 }
@@ -15,301 +15,498 @@
 @font-face {
     font-family: "Epiloge";
     src: local("Epiloge"),
-     url(/public/assets/fonts/Epilogue-Bold.eot) format("opentype");
+     url(/assets/fonts/Epilogue-Bold.eot) format("opentype");
      src: local("Epiloge"),
-     url(/public/assets/fonts/Epilogue-Bold.ttf) format("truetype");
+     url(/assets/fonts/Epilogue-Bold.ttf) format("truetype");
      src: local("Epiloge"),
-     url(/public/assets/fonts/Epilogue-Bold.woff) format("woff");
+     url(/assets/fonts/Epilogue-Bold.woff) format("woff");
      src: local("Epiloge"),
-     url(/public/assets/fonts/Epilogue-Bold.woff2) format("woff2");
+     url(/assets/fonts/Epilogue-Bold.woff2) format("woff2");
      font-weight: bold;
 }
 
 @font-face {
     font-family: "Epiloge";
     src: local("Epiloge"),
-     url(/public/assets/fonts/Epilogue-Black.eot) format("opentype");
+     url(/assets/fonts/Epilogue-Black.eot) format("opentype");
      src: local("Epiloge"),
-     url(/public/assets/fonts/Epilogue-Black.ttf) format("truetype");
+     url(/assets/fonts/Epilogue-Black.ttf) format("truetype");
      src: local("Epiloge"),
-     url(/public/assets/fonts/Epilogue-Black.woff) format("woff");
+     url(/assets/fonts/Epilogue-Black.woff) format("woff");
      src: local("Epiloge"),
-     url(/public/assets/fonts/Epilogue-Black.woff2) format("woff2");
+     url(/assets/fonts/Epilogue-Black.woff2) format("woff2");
      font-weight: 900;
 }
 
 @font-face {
     font-family: "Epiloge";
     src: local("Epiloge"),
-     url(/public/assets/fonts/Epilogue-Medium.eot) format("opentype");
+     url(/assets/fonts/Epilogue-Medium.eot) format("opentype");
      src: local("Epiloge"),
-     url(/public/assets/fonts/Epilogue-Medium.ttf) format("truetype");
+     url(/assets/fonts/Epilogue-Medium.ttf) format("truetype");
      src: local("Epiloge"),
-     url(/public/assets/fonts/Epilogue-Medium.woff) format("woff");
+     url(/assets/fonts/Epilogue-Medium.woff) format("woff");
      src: local("Epiloge"),
-     url(/public/assets/fonts/Epilogue-Medium.woff2) format("woff2");
+     url(/assets/fonts/Epilogue-Medium.woff2) format("woff2");
      font-weight: 700;
 }
 
 @font-face {
     font-family: "Akzidenz-grotesk";
     src: local("Akzidenz-grotesk"),
-     url(/public/assets/fonts/Akzidenz-grotesk-roman.eot) format("opentype");
+     url(/assets/fonts/Akzidenz-grotesk-roman.eot) format("opentype");
      src: local("Akzidenz-grotesk"),
-     url(/public/assets/fonts/Akzidenz-grotesk-roman.ttf) format("truetype");
+     url(/assets/fonts/Akzidenz-grotesk-roman.ttf) format("truetype");
      src: local("Akzidenz-grotesk"),
-     url(/public/assets/fonts/Akzidenz-grotesk-roman.woff) format("woff");
+     url(/assets/fonts/Akzidenz-grotesk-roman.woff) format("woff");
      src: local("Akzidenz-grotesk"),
-     url(/public/assets/fonts/Akzidenz-grotesk-roman.woff2) format("woff2");
+     url(/assets/fonts/Akzidenz-grotesk-roman.woff2) format("woff2");
      font-weight: normal;
 }
 
 @font-face {
     font-family: "Akzidenz-grotesk";
     src: local("Akzidenz-grotesk"),
-     url(/public/assets/fonts/Akzidenz-grotesk-black.eot) format("opentype");
+     url(/assets/fonts/Akzidenz-grotesk-black.eot) format("opentype");
      src: local("Akzidenz-grotesk"),
-     url(/public/assets/fonts/Akzidenz-grotesk-black.ttf) format("truetype");
+     url(/assets/fonts/Akzidenz-grotesk-black.ttf) format("truetype");
      src: local("Akzidenz"),
-     url(/public/assets/fonts/Akzidenz-grotesk-black.woff) format("woff");
+     url(/assets/fonts/Akzidenz-grotesk-black.woff) format("woff");
      src: local("Akzidenz"),
-     url(/public/assets/fonts/Akzidenz-grotesk-black.woff2) format("woff2");
+     url(/assets/fonts/Akzidenz-grotesk-black.woff2) format("woff2");
      font-weight: 900;
 }
 
 @font-face {
     font-family: "Akzidenz-grotesk";
     src: local("Akzidenz-grotesk"),
-     url(/public/assets/fonts/Akzidenz-grotesk-bold.eot) format("opentype");
+     url(/assets/fonts/Akzidenz-grotesk-bold.eot) format("opentype");
      src: local("Akzidenz-grotesk"),
-     url(/public/assets/fonts/Akzidenz-grotesk-bold.ttf) format("truetype");
+     url(/assets/fonts/Akzidenz-grotesk-bold.ttf) format("truetype");
      src: local("Akzidenz-grotesk"),
-     url(/public/assets/fonts/Akzidenz-grotesk-bold.woff) format("woff");
+     url(/assets/fonts/Akzidenz-grotesk-bold.woff) format("woff");
      src: local("Akzidenz-grotesk"),
-     url(/public/assets/fonts/Akzidenz-grotesk-bold.woff2) format("woff2");
+     url(/assets/fonts/Akzidenz-grotesk-bold.woff2) format("woff2");
      font-weight: bold;
 }
 
 @font-face {
     font-family: "Akzidenz-grotesk";
     src: local("Akzidenz-grotesk"),
-     url(/public/assets/fonts/Akzidenz-grotesk-light.eot) format("opentype");
+     url(/assets/fonts/Akzidenz-grotesk-light.eot) format("opentype");
      src: local("Akzidenz-grotesk"),
-     url(/public/assets/fonts/Akzidenz-grotesk-light.ttf) format("truetype");
+     url(/assets/fonts/Akzidenz-grotesk-light.ttf) format("truetype");
      src: local("Akzidenz-grotesk"),
-     url(/public/assets/fonts/Akzidenz-grotesk-light.woff) format("woff");
+     url(/assets/fonts/Akzidenz-grotesk-light.woff) format("woff");
      src: local("Akzidenz-grotesk"),
-     url(/public/assets/fonts/Akzidenz-grotesk-light.woff2) format("woff2");
+     url(/assets/fonts/Akzidenz-grotesk-light.woff2) format("woff2");
      font-weight: 400;
 }
 
 @font-face {
     font-family: "Geomanist";
     src: local("Geomanist"),
-     url(/public/assets/fonts/Geomanist-Regular.otf) format("opentype");
+     url(/assets/fonts/Geomanist-Regular.otf) format("opentype");
      src: local("Geomanist"),
-     url(/public/assets/fonts/Geomanist-Regular.ttf) format("truetype");
+     url(/assets/fonts/Geomanist-Regular.ttf) format("truetype");
      src: local("Geomanist"),
-     url(/public/assets/fonts/Geomanist-Regular.woff) format("woff");
+     url(/assets/fonts/Geomanist-Regular.woff) format("woff");
      src: local("Geomanist"),
-     url(/public/assets/fonts/Geomanist-Regular.woff2) format("woff2");
+     url(/assets/fonts/Geomanist-Regular.woff2) format("woff2");
      font-weight: normal;
 }
 
 @font-face {
     font-family: "Regular";
     src: local("Regular"),
-     url(/public/assets/fonts/Regular-Regular.eot) format("opentype");
+     url(/assets/fonts/Regular-Regular.eot) format("opentype");
      src: local("Regular"),
-     url(/public/assets/fonts/Regular-Regular.ttf) format("truetype");
+     url(/assets/fonts/Regular-Regular.ttf) format("truetype");
      src: local("Regular"),
-     url(/public/assets/fonts/Regular-Regular.woff) format("woff");
+     url(/assets/fonts/Regular-Regular.woff) format("woff");
      src: local("Regular"),
-     url(/public/assets/fonts/Regular-Regular.woff2) format("woff2");
+     url(/assets/fonts/Regular-Regular.woff2) format("woff2");
      font-weight: normal;
+}
+
+@font-face {
+    font-family: "SpaceMono";
+    src: local("SpaceMono"),
+     url(/assets/fonts/SpaceMono-Bold.eot) format("opentype");
+     src: local("SpaceMono"),
+     url(/assets/fonts/SpaceMono-Bold.ttf) format("truetype");
+     src: local("SpaceMono"),
+     url(/assets/fonts/SpaceMono-Bold.woff) format("woff");
+     src: local("SpaceMono"),
+     url(/assets/fonts/SpaceMono-Bold.woff2) format("woff2");
+     font-weight: SpaceMono;
 }
 
 @font-face {
     font-family: "Regular";
     src: local("Regular"),
-     url(/public/assets/fonts/Regular-Light.eot) format("opentype");
+     url(/assets/fonts/Regular-Light.eot) format("opentype");
      src: local("Regular"),
-     url(/public/assets/fonts/Regular-Light.ttf) format("truetype");
+     url(/assets/fonts/Regular-Light.ttf) format("truetype");
      src: local("Regular"),
-     url(/public/assets/fonts/Regular-Light.woff) format("woff");
+     url(/assets/fonts/Regular-Light.woff) format("woff");
      src: local("Regular"),
-     url(/public/assets/fonts/Regular-Light.woff2) format("woff2");
+     url(/assets/fonts/Regular-Light.woff2) format("woff2");
      font-weight: lighter;
+}
+
+
+@font-face {
+    font-family: "Inter";
+    src: local("Inter"),
+     url(/assets/fonts/InterTight-Black.eot) format("opentype");
+     src: local("Inter"),
+     url(/assets/fonts/InterTight-Black.ttf) format("truetype");
+     src: local("Inter"),
+     url(/assets/fonts/InterTight-Black.woff) format("woff");
+     src: local("Inter"),
+     url(/assets/fonts/InterTight-Black.woff2) format("woff2");
+     font-weight: normal;
+}
+
+@font-face {
+    font-family: "Neue";
+    src: local("Neue"),
+     url(/assets/fonts/NeueMontreal-Regular.eot) format("opentype");
+     src: local("Neue"),
+     url(/assets/fonts/NeueMontreal-Regular.ttf) format("truetype");
+     src: local("Neue"),
+     url(/assets/fonts/NeueMontreal-Regular.woff) format("woff");
+     src: local("Neue"),
+     url(/assets/fonts/NeueMontreal-Regular.woff2) format("woff2");
+     font-weight: normal;
+}
+
+@font-face {
+    font-family: "Neue-Light";
+    src: local("Neue-Light"),
+     url(/assets/fonts/NeueMontreal-Light.eot) format("opentype");
+     src: local("Neue-Light"),
+     url(/assets/fonts/NeueMontreal-Light.ttf) format("truetype");
+     src: local("Neue-Light"),
+     url(/assets/fonts/NeueMontreal-Light.woff) format("woff");
+     src: local("Neue-Light"),
+     url(/assets/fonts/NeueMontreal-Light.woff2) format("woff2");
+     font-weight: normal;
+}
+
+@font-face {
+    font-family: "Neue-Italic";
+    src: local("Neue-Italic"),
+     url(/assets/fonts/NeueMontreal-Italic.eot) format("opentype");
+     src: local("Neue-Italic"),
+     url(/assets/fonts/NeueMontreal-Italic.ttf) format("truetype");
+     src: local("Neue-Italic"),
+     url(/assets/fonts/NeueMontreal-Italic.woff) format("woff");
+     src: local("Neue-Italic"),
+     url(/assets/fonts/NeueMontreal-Italic.woff2) format("woff2");
+     font-weight: normal;
+}
+
+@font-face {
+    font-family: "Neue-Bold";
+    src: local("Neue-Bold"),
+     url(/assets/fonts/NeueMontreal-Bold.eot) format("opentype");
+     src: local("Neue-Bold"),
+     url(/assets/fonts/NeueMontreal-Bold.ttf) format("truetype");
+     src: local("Neue-Bold"),
+     url(/assets/fonts/NeueMontreal-Bold.woff) format("woff");
+     src: local("Neue-Bold"),
+     url(/assets/fonts/NeueMontreal-Bold.woff2) format("woff2");
+     font-weight: normal;
+}
+
+@font-face {
+    font-family: "PPE";
+    src: local("PPE"),
+     url(/assets/fonts/PPEditorialNew-Regular.eot) format("opentype");
+     src: local("PPE"),
+     url(/assets/fonts/PPEditorialNew-Regular.ttf) format("truetype");
+     src: local("PPE"),
+     url(/assets/fonts/PPEditorialNew-Regular.woff) format("woff");
+     src: local("PPE"),
+     url(/assets/fonts/PPEditorialNew-Regular.woff2) format("woff2");
+     font-weight: normal;
+}
+
+@font-face {
+    font-family: "PPE-Italic";
+    src: local("PPE-Italic"),
+     url(/assets/fonts/PPEditorialNew-Italic.eot) format("opentype");
+     src: local("PPE-Italic"),
+     url(/assets/fonts/PPEditorialNew-Italic.ttf) format("truetype");
+     src: local("PPE-Italic"),
+     url(/assets/fonts/PPEditorialNew-Italic.woff) format("woff");
+     src: local("PPE-Italic"),
+     url(/assets/fonts/PPEditorialNew-Italic.woff2) format("woff2");
+     font-weight: normal;
+}
+
+@font-face {
+    font-family: "PPE-Ultrabold";
+    src: local("PPE-Ultrabold"),
+     url(/assets/fonts/PPEditorialNew-Ultrabold.eot) format("opentype");
+     src: local("PPE-Ultrabold"),
+     url(/assets/fonts/PPEditorialNew-Ultrabold.ttf) format("truetype");
+     src: local("PPE-Ultrabold"),
+     url(/assets/fonts/PPEditorialNew-Ultrabold.woff) format("woff");
+     src: local("PPE-Ultrabold"),
+     url(/assets/fonts/PPEditorialNew-Ultrabold.woff2) format("woff2");
+     font-weight: normal;
+}
+
+@font-face {
+    font-family: "PPE-Ultralight";
+    src: local("PPE-Ultralight"),
+     url(/assets/fonts/PPEditorialNew-Ultralight.eot) format("opentype");
+     src: local("PPE-Ultralight"),
+     url(/assets/fonts/PPEditorialNew-Ultralight.ttf) format("truetype");
+     src: local("PPE-Ultralight"),
+     url(/assets/fonts/PPEditorialNew-Ultralight.woff) format("woff");
+     src: local("PPE-Ultralight"),
+     url(/assets/fonts/PPEditorialNew-Ultralight.woff2) format("woff2");
+     font-weight: normal;
+}
+
+@font-face {
+    font-family: "PPE-UltraboldItalic";
+    src: local("PPE-UltraboldItalic"),
+     url(/assets/fonts/PPEditorialNew-UltraboldItalic.eot) format("opentype");
+     src: local("PPE-UltraboldItalic"),
+     url(/assets/fonts/PPEditorialNew-UltraboldItalic.ttf) format("truetype");
+     src: local("PPE-UltraboldItalic"),
+     url(/assets/fonts/PPEditorialNew-UltraboldItalic.woff) format("woff");
+     src: local("PPE-UltraboldItalic"),
+     url(/assets/fonts/PPEditorialNew-UltraboldItalic.woff2) format("woff2");
+     font-weight: normal;
+}
+
+@font-face {
+    font-family: "PPE-UltralightItalic";
+    src: local("PPE-UltralightItalic"),
+     url(/assets/fonts/PPEditorialNew-UltralightItalic.eot) format("opentype");
+     src: local("PPE-UltralightItalic"),
+     url(/assets/fonts/PPEditorialNew-UltralightItalic.ttf) format("truetype");
+     src: local("PPE-UltralightItalic"),
+     url(/assets/fonts/PPEditorialNew-UltralightItalic.woff) format("woff");
+     src: local("PPE-UltralightItalic"),
+     url(/assets/fonts/PPEditorialNew-UltralightItalic.woff2) format("woff2");
+     font-weight: normal;
 }
 
 @font-face {
     font-family: "Regular-Bold";
     src: local("Regular-Bold"),
-     url(/public/assets/fonts/Regular-Bold.eot) format("opentype");
+     url(/assets/fonts/Regular-Bold.eot) format("opentype");
      src: local("Regular-Bold"),
-     url(/public/assets/fonts/Regular-Bold.ttf) format("truetype");
+     url(/assets/fonts/Regular-Bold.ttf) format("truetype");
      src: local("Regular-Bold"),
-     url(/public/assets/fonts/Regular-Bold.woff) format("woff");
+     url(/assets/fonts/Regular-Bold.woff) format("woff");
      src: local("Regular-Bold"),
-     url(/public/assets/fonts/Regular-Bold.woff2) format("woff2");
+     url(/assets/fonts/Regular-Bold.woff2) format("woff2");
      font-weight: bold;
 }
 
 @font-face {
     font-family: "Regular";
     src: local("Regular"),
-     url(/public/assets/fonts/Regular-Medium.eot) format("opentype");
+     url(/assets/fonts/Regular-Medium.eot) format("opentype");
      src: local("Regular"),
-     url(/public/assets/fonts/Regular-Medium.ttf) format("truetype");
+     url(/assets/fonts/Regular-Medium.ttf) format("truetype");
      src: local("Regular"),
-     url(/public/assets/fonts/Regular-Medium.woff) format("woff");
+     url(/assets/fonts/Regular-Medium.woff) format("woff");
      src: local("Regular"),
-     url(/public/assets/fonts/Regular-Medium.woff2) format("woff2");
+     url(/assets/fonts/Regular-Medium.woff2) format("woff2");
      font-weight: 600;
 }
 
 @font-face {
     font-family: "SFUIDisplay-Regular";
     src: local("SFUIDisplay-Regular"),
-     url(/public/assets/fonts/SFUIDisplay-Regular.eot) format("opentype");
+     url(/assets/fonts/SFUIDisplay-Regular.eot) format("opentype");
      src: local("SFUIDisplay-Regular"),
-     url(/public/assets/fonts/SFUIDisplay-Regular.ttf) format("truetype");
+     url(/assets/fonts/SFUIDisplay-Regular.ttf) format("truetype");
      src: local("SFUIDisplay-Regular"),
-     url(/public/assets/fonts/SFUIDisplay-Regular.woff) format("woff");
+     url(/assets/fonts/SFUIDisplay-Regular.woff) format("woff");
      src: local("SFUIDisplay-Regular"),
-     url(/public/assets/fonts/SFUIDisplay-Regular.woff2) format("woff2");
+     url(/assets/fonts/SFUIDisplay-Regular.woff2) format("woff2");
      font-weight: normal;
 }
 
 @font-face {
     font-family: "SFUIDisplay-Bold";
     src: local("SFUIDisplay-Bold"),
-     url(/public/assets/fonts/SFUIDisplay-Bold.eot) format("opentype");
+     url(/assets/fonts/SFUIDisplay-Bold.eot) format("opentype");
      src: local("SFUIDisplay-Bold"),
-     url(/public/assets/fonts/SFUIDisplay-Bold.ttf) format("truetype");
+     url(/assets/fonts/SFUIDisplay-Bold.ttf) format("truetype");
      src: local("SFUIDisplay-Bold"),
-     url(/public/assets/fonts/SFUIDisplay-Bold.woff) format("woff");
+     url(/assets/fonts/SFUIDisplay-Bold.woff) format("woff");
      src: local("SFUIDisplay-Bold"),
-     url(/public/assets/fonts/SFUIDisplay-Bold.woff2) format("woff2");
+     url(/assets/fonts/SFUIDisplay-Bold.woff2) format("woff2");
      font-weight: bold;
 }
 
 @font-face {
     font-family: "SFUIDisplay-Light";
     src: local("SFUIDisplay-Light"),
-     url(/public/assets/fonts/SFUIDisplay-Light.eot) format("opentype");
+     url(/assets/fonts/SFUIDisplay-Light.eot) format("opentype");
      src: local("SFUIDisplay-Light"),
-     url(/public/assets/fonts/SFUIDisplay-Light.ttf) format("truetype");
+     url(/assets/fonts/SFUIDisplay-Light.ttf) format("truetype");
      src: local("SFUIDisplay-Light"),
-     url(/public/assets/fonts/SFUIDisplay-Light.woff) format("woff");
+     url(/assets/fonts/SFUIDisplay-Light.woff) format("woff");
      src: local("SFUIDisplay-Light"),
-     url(/public/assets/fonts/SFUIDisplay-Light.woff2) format("woff2");
+     url(/assets/fonts/SFUIDisplay-Light.woff2) format("woff2");
      font-weight: light;
 }
 
 @font-face {
     font-family: "SFUIDisplay-Medium";
     src: local("SFUIDisplay-Medium"),
-     url(/public/assets/fonts/SFUIDisplay-Medium.eot) format("opentype");
+     url(/assets/fonts/SFUIDisplay-Medium.eot) format("opentype");
      src: local("SFUIDisplay-Medium"),
-     url(/public/assets/fonts/SFUIDisplay-Medium.ttf) format("truetype");
+     url(/assets/fonts/SFUIDisplay-Medium.ttf) format("truetype");
      src: local("SFUIDisplay-Medium"),
-     url(/public/assets/fonts/SFUIDisplay-Medium.woff) format("woff");
+     url(/assets/fonts/SFUIDisplay-Medium.woff) format("woff");
      src: local("SFUIDisplay-Medium"),
-     url(/public/assets/fonts/SFUIDisplay-Medium.woff2) format("woff2");
+     url(/assets/fonts/SFUIDisplay-Medium.woff2) format("woff2");
      font-weight: 600;
 }
 
 @font-face {
     font-family: "SFUIDisplay-Black";
     src: local("SFUIDisplay-Black"),
-     url(/public/assets/fonts/SFUIDisplay-Black.eot) format("opentype");
+     url(/assets/fonts/SFUIDisplay-Black.eot) format("opentype");
      src: local("SFUIDisplay-Black"),
-     url(/public/assets/fonts/SFUIDisplay-Black.ttf) format("truetype");
+     url(/assets/fonts/SFUIDisplay-Black.ttf) format("truetype");
      src: local("SFUIDisplay-Black"),
-     url(/public/assets/fonts/SFUIDisplay-Black.woff) format("woff");
+     url(/assets/fonts/SFUIDisplay-Black.woff) format("woff");
      src: local("SFUIDisplay-Black"),
-     url(/public/assets/fonts/SFUIDisplay-Black.woff2) format("woff2");
+     url(/assets/fonts/SFUIDisplay-Black.woff2) format("woff2");
      font-weight: black;
 }
 
 @font-face {
     font-family: "Domaine-Display";
     src: local("DomaineDisp-Regular"),
-     url(/public/assets/fonts/DomaineDisp-Regular.eot) format("opentype");
+     url(/assets/fonts/DomaineDisp-Regular.eot) format("opentype");
      src: local("DomaineDisp-Regular"),
-     url(/public/assets/fonts/DomaineDisp-Regular.ttf) format("truetype");
+     url(/assets/fonts/DomaineDisp-Regular.ttf) format("truetype");
      src: local("DomaineDisp-Regular"),
-     url(/public/assets/fonts/DomaineDisp-Regular.woff) format("woff");
+     url(/assets/fonts/DomaineDisp-Regular.woff) format("woff");
      src: local("SDomaineDisp-Regular"),
-     url(/public/assets/fonts/DomaineDisp-Regular.woff2) format("woff2");
+     url(/assets/fonts/DomaineDisp-Regular.woff2) format("woff2");
      font-weight: normal;
 }
 
 @font-face {
     font-family: "Domaine-Display-Bold";
     src: local("Domaine-Display-Bold"),
-     url(/public/assets/fonts/DomaineDispNar-Semibold.eot) format("opentype");
+     url(/assets/fonts/DomaineDispNar-Semibold.eot) format("opentype");
      src: local("Domaine-Display-Bold"),
-     url(/public/assets/fonts/DomaineDispNar-Semibold.ttf) format("truetype");
+     url(/assets/fonts/DomaineDispNar-Semibold.ttf) format("truetype");
      src: local("Domaine-Display-Bold"),
-     url(/public/assets/fonts/DomaineDispNar-Semibold.woff) format("woff");
+     url(/assets/fonts/DomaineDispNar-Semibold.woff) format("woff");
      src: local("Domaine-Display-Bold"),
-     url(/public/assets/fonts/DomaineDispNar-Semibold.woff2) format("woff2");
+     url(/assets/fonts/DomaineDispNar-Semibold.woff2) format("woff2");
      font-weight: bold;
 }
 
 @font-face {
     font-family: "Apercu-Light";
     src: local("Apercu-Light"),
-     url(/public/assets/fonts/ApercuPro-Light.eot) format("opentype");
+     url(/assets/fonts/ApercuPro-Light.eot) format("opentype");
      src: local("Apercu-Light"),
-     url(/public/assets/fonts/ApercuPro-Light.ttf) format("truetype");
+     url(/assets/fonts/ApercuPro-Light.ttf) format("truetype");
      src: local("Apercu-Light"),
-     url(/public/assets/fonts/ApercuPro-Light.woff) format("woff");
+     url(/assets/fonts/ApercuPro-Light.woff) format("woff");
      src: local("Apercu-Light"),
-     url(/public/assets/fonts/ApercuPro-Light.woff2) format("woff2");
+     url(/assets/fonts/ApercuPro-Light.woff2) format("woff2");
      font-weight: normal;
 }
 
 @font-face {
     font-family: "Apercu-Regular";
     src: local("Apercu-Regular"),
-     url(/public/assets/fonts/ApercuPro-Regular.eot) format("opentype");
+     url(/assets/fonts/ApercuPro-Regular.eot) format("opentype");
      src: local("Apercu-Regular"),
-     url(/public/assets/fonts/ApercuPro-Regular.ttf) format("truetype");
+     url(/assets/fonts/ApercuPro-Regular.ttf) format("truetype");
      src: local("Apercu-Regular"),
-     url(/public/assets/fonts/ApercuPro-Regular.woff) format("woff");
+     url(/assets/fonts/ApercuPro-Regular.woff) format("woff");
      src: local("Apercu-Regular"),
-     url(/public/assets/fonts/ApercuPro-Regular.woff2) format("woff2");
+     url(/assets/fonts/ApercuPro-Regular.woff2) format("woff2");
      font-weight: normal;
 }
 
 @font-face {
     font-family: "Apercu-Medium";
     src: local("Apercu-Medium"),
-     url(/public/assets/fonts/ApercuPro-Medium.eot) format("opentype");
+     url(/assets/fonts/ApercuPro-Medium.eot) format("opentype");
      src: local("Apercu-Medium"),
-     url(/public/assets/fonts/ApercuPro-Medium.ttf) format("truetype");
+     url(/assets/fonts/ApercuPro-Medium.ttf) format("truetype");
      src: local("Apercu-Medium"),
-     url(/public/assets/fonts/ApercuPro-Medium.woff) format("woff");
+     url(/assets/fonts/ApercuPro-Medium.woff) format("woff");
      src: local("Apercu-Medium"),
-     url(/public/assets/fonts/ApercuPro-Medium.woff2) format("woff2");
+     url(/assets/fonts/ApercuPro-Medium.woff2) format("woff2");
      font-weight: normal;
 }
 
 @font-face {
     font-family: "Apercu-Bold";
     src: local("Apercu-Bold"),
-     url(/public/assets/fonts/ApercuPro-Bold.eot) format("opentype");
+     url(/assets/fonts/ApercuPro-Bold.eot) format("opentype");
      src: local("Apercu-Bold"),
-     url(/public/assets/fonts/ApercuPro-Bold.ttf) format("truetype");
+     url(/assets/fonts/ApercuPro-Bold.ttf) format("truetype");
      src: local("Apercu-Bold"),
-     url(/public/assets/fonts/ApercuPro-Medium.woff) format("woff");
+     url(/assets/fonts/ApercuPro-Medium.woff) format("woff");
      src: local("Apercu-Bold"),
-     url(/public/assets/fonts/ApercuPro-Bold.woff2) format("woff2");
+     url(/assets/fonts/ApercuPro-Bold.woff2) format("woff2");
      font-weight: normal;
 }
+
+@font-face {
+    font-family: "Migra-Regular";
+    src: local("Migra-Regular"),
+     url(/assets/fonts/Migra-Extralight.eot) format("opentype");
+     src: local("Migra-Regular"),
+     url(/assets/fonts/Migra-Extralight.ttf) format("truetype");
+     src: local("Migra-Regular"),
+     url(/assets/fonts/Migra-Extralight.woff) format("woff");
+     src: local("Migra-Regular"),
+     url(/assets/fonts/Migra-Extralight.woff2) format("woff2");
+     font-weight: normal;
+}
+
+@font-face {
+    font-family: "Migra-Extrabold";
+    src: local("Migra-Extrabold"),
+     url(/assets/fonts/Migra-Extrabold.eot) format("opentype");
+     src: local("Migra-Extrabold"),
+     url(/assets/fonts/Migra-Extrabold.ttf) format("truetype");
+     src: local("Migra-Extrabold"),
+     url(/assets/fonts/Migra-Extrabold.woff) format("woff");
+     src: local("Migra-Extrabold"),
+     url(/assets/fonts/Migra-Extrabold.woff2) format("woff2");
+     font-weight: bold;
+}
+
+@font-face {
+    font-family: "Migra-Italic";
+    src: local("Migra-Italic"),
+     url(/assets/fonts/MigraItalic-ExtralightItalic.eot) format("opentype");
+     src: local("Migra-Italic"),
+     url(/assets/fonts/MigraItalic-ExtralightItalic.ttf) format("truetype");
+     src: local("Migra-Italic"),
+     url(/assets/fonts/MigraItalic-ExtralightItalic.woff) format("woff");
+     src: local("Migra-Italic"),
+     url(/assets/fonts/MigraItalic-ExtralightItalic.woff2) format("woff2");
+     font-weight: lighter;
+}
+
 
 html {
     font-family: "SFUIDisplay-Regular";

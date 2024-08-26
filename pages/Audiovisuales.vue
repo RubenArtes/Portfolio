@@ -18,8 +18,18 @@
         <div
             class="titular2 flex px-64 gap-64 content-start space-between justify-center pt-20 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-[1500px]:flex-col max-[1500px]:gap-2 max-[1500px]:items-center max-[1700px]:px-10">
             <div
-                class="titular text-[120px] max-sm:text-[40px] font-['Domaine-Display'] leading-12 font-bold animate-pulse bg-gradient-to-r bg-clip-text text-transparent animate-text max-[1500px]:text-left max-[1280px]:text-[100px] from-[#3e3e3e] via-[#aaaaaa] to-[#ffffff]">
-                AUDIOVISUALES</div>
+                class="titular text-[120px] max-sm:text-[40px] font-['PPE-UltralightItalic'] leading-[120px] pt-4 max-[1920px]:hidden font-bold animate-pulse bg-gradient-to-r bg-clip-text text-transparent animate-text max-[1500px]:text-left max-[1280px]:text-[100px] from-[#2c2c2c] via-[#aaaaaa] to-[#9f9f9f]">
+                Audio
+                <br>
+                <p class="font-['PPE-Ultralight']">VISUALES</p>
+            </div>
+
+            <div
+                class="titular hidden text-[100px] max-sm:text-[40px] font-['PPE-Ultralight'] leading-[50px] max-[1920px]:flex font-bold text-center animate-pulse bg-gradient-to-r bg-clip-text text-transparent animate-text max-[1500px]:text-center max-[1280px]:text-[100px] from-[#2c2c2c] via-[#aaaaaa] to-[#9f9f9f]">
+                AUDIO
+                <br>
+                VISUALES
+            </div>
             <div
                 class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:pt-6 max-sm:pb-16 max-sm:px-0 max-[1280px]:items-center max-[1280px]:pt-6 max-[1280px]:pb-0">
 
@@ -40,10 +50,10 @@
 
 
         <div
-            class="trabajos flex pt-20 px-40 pb-20 items-start text-white flex-nowrap gap-96 justify-center max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-xl:text-center max-xl:pt-0 max-xl:pb-16 max-[1500px]:px-20 max-[1500px]:justify-between">
+            class="trabajos flex pt-40 px-40 pb-20 items-start text-white flex-nowrap gap-96 justify-center max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-xl:text-center max-xl:pt-0 max-xl:pb-16 max-[1500px]:px-20 max-[1500px]:justify-between">
             <div class="info flex flex-col">
                 <div
-                    class="text max-w-[200ch] text-center font-['Domaine-Display'] uppercase text-[24px] leading-10 text-zinc-800 max-xl:text-xs">
+                    class="text max-w-[200ch] text-center font-['PPE-Ultralight'] uppercase text-[24px] leading-10 text-zinc-800 max-xl:text-xs">
                     Asignatura</div>
                 <div
                     class="text max-w-[200ch] font-['SFUIDisplay-Light'] text-center text-[16px] leading-6 text-zinc-900 max-xl:text-sm max-xl:max-w-[40ch]">
@@ -52,16 +62,16 @@
             </div>
             <div class="info flex flex-col">
                 <div
-                    class="text max-w-[60ch] font-['Domaine-Display'] text-center text-[24px] uppercase leading-10 text-zinc-800 max-xl:text-xs">
+                    class="text max-w-[60ch] font-['PPE-Ultralight'] text-center text-[24px] uppercase leading-10 text-zinc-800 max-xl:text-xs">
                     Tiempo</div>
                 <div
-                    class="text max-w-[20ch] font-['SFUIDisplay-Light']  text-center text-[16px] leading-6 text-zinc-900 max-xl:text-sm max-xl:max-w-[40ch]">
+                    class="text max-w-[20ch]  font-['SFUIDisplay-Light'] text-center text-[16px] leading-6 text-zinc-900 max-xl:text-sm max-xl:max-w-[40ch]">
                     Indefinido
                 </div>
             </div>
             <div class="info flex flex-col">
                 <div
-                    class="text max-w-[60ch] font-['Domaine-Display'] text-center text-[24px] uppercase leading-10 text-zinc-800 max-xl:text-xs">
+                    class="text max-w-[60ch] font-['PPE-Ultralight'] text-center text-[24px] uppercase leading-10 text-zinc-800 max-xl:text-xs">
                     Briefing</div>
                 <div
                     class="text max-w-[20ch] text-center font-['SFUIDisplay-Light']  text-[16px] leading-6 text-zinc-900 max-xl:text-sm max-xl:max-w-[40ch]">
@@ -79,15 +89,14 @@
 
         </div>
 
-        <img class="image_grid flex max-sm:hidden w-full h-full pt-32 pb-24" src="/img/gifpersonaje2.gif" alt="">
-        <img class="image_grid hidden max-sm:flex w-full h-full pt-16 pb-2" src="/img/caminargif.gif" alt="">
-
-
         <div id="tipografias"
-            class="titular2 flex px-64 pb-4 gap-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:px-60 max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 flex px-64 pb-4 pt-12 gap-64 content-center space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:px-60 max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
-                class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-black max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-center max-sm:pt-12">
-                HAZ CLICK SOBRE UN TRABAJO</div>
+                class="titular text-[40px] font-['PPE-Ultralightitalic'] text-center leading-10 text-black max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-center max-sm:pt-12">
+                Haz click
+                <br>
+                <p class="font-['PPE-Ultralight']">SOBRE UN TRABAJO</p>
+            </div>
 
 
         </div>
@@ -105,17 +114,17 @@
 
 
         <div
-            class="grid max-sm:hidden grid-cols-1 grid-rows-3 gap-4 items-stretch pb-32 max-[1280px]:p-10 max-[1500px]:px-60 max-sm:px-0 max-[800px]:grid-cols-1">
+            class="flex flex-col max-sm:hidden grid-cols-1 grid-rows-3 items-stretch pb-32 max-[1280px]:p-10 max-[1500px]:px-60 max-sm:px-0 max-[800px]:grid-cols-1">
 
             <NuxtLink to="/Audiovisual2" target="_blank">
                 <div
-                    class="trabajo1 bg-[url('/img/composicion2.png')] text-white border border-solid border-r-1 flex flex-col border-l-1 border-t-1 hover:bg-[url('/img/puff2.gif')] bg-cover bg-center hover:text-white max-[1840px]:px-16 max-sm:px-0 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-12 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
+                    class="trabajo1 text-zinc-800 border-zinc-800 border border-solid border-r-0 flex flex-col border-l-0 border-b-0 hover:bg-[url('/img/puff2.gif')] bg-cover bg-center hover:text-white max-[1840px]:px-16 max-sm:px-0 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-12 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
                     <div
-                        class="text text-center text-[60px] leading-[4rem] pt-40 font-['Domaine-Display'] font-bold tracking-normal justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
+                        class="text text-center text-[200px] leading-[8rem] pt-40 font-['PPE-Ultralight'] justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
                         LETTERING 3D
                     </div>
                     <div
-                        class="text text-[16px] text-center leading-[3rem] pb-40 font-['SFUIDisplay-Light'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
+                        class="text text-[16px] text-center leading-[3rem] pb-32 font-['SFUIDisplay-Light'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
                         CREACIÓN DE TIPODGRAFÍA MEDIANTE CINEMA 4D
                     </div>
                 </div>
@@ -123,13 +132,13 @@
 
             <NuxtLink to="/Audiovisual1" target="_blank">
                 <div
-                    class="trabajo1 bg-[url('/img/variacionesfinal.png')] text-white border border-solid border-r-1 flex flex-col border-l-1 border-t-1 hover:bg-[url('/img/variacionesfinal.gif')] bg-cover bg-center hover:text-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
+                    class="trabajo1 text-zinc-800 border-zinc-800 border border-solid border-r-0 flex flex-col border-l-0 border-t-1 hover:bg-[url('/img/variacionesfinal.gif')] bg-cover bg-center hover:text-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
                     <div
-                        class="text text-center text-[60px] leading-[4rem] pt-40 font-['Domaine-Display'] font-bold tracking-normal justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
-                        CORTINILLA MONSTRUOS INC
+                        class="text text-center text-[200px] leading-[8rem] pt-40 font-['PPE-Ultralight'] justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
+                        MONSTRUOS INC
                     </div>
                     <div
-                        class="text text-[16px] text-center leading-[3rem] pb-40 font-['SFUIDisplay-Light'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
+                        class="text text-[16px] text-center leading-[3rem] pb-32 font-['SFUIDisplay-Light'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
                         CREACIÓN DE VIDEO INTRODUCCIÓN UTILIZANDO SINCRONIZACIÓN CON SONIDO
                     </div>
                 </div>
@@ -138,13 +147,13 @@
 
             <NuxtLink to="/Audiovisual3" target="_blank">
                 <div
-                class="trabajo1 bg-[url('/img/ilustracionanimacion2.png')] text-white border border-solid border-r-1 flex flex-col border-l-1 border-t-1 hover:bg-[url('/img/animacion2.gif')] bg-cover bg-center hover:text-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
-                <div
-                        class="text text-center text-[60px] leading-[4rem] pt-40 font-['Domaine-Display'] font-bold tracking-normal justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
-                        ANIMACIÓN ROBOT
+                    class="trabajo1 text-zinc-800 border-zinc-800 border border-solid border-r-0 flex flex-col border-l-0 border-t-0 hover:bg-[url('/img/animacion2.gif')] bg-cover bg-center hover:text-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
+                    <div
+                        class="text text-center text-[200px] leading-[8rem] pt-40 font-['PPE-Ultralight'] justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
+                        ROBOT
                     </div>
                     <div
-                        class="text text-[16px] text-center leading-[3rem] pb-40 font-['SFUIDisplay-Light'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
+                        class="text text-[16px] text-center leading-[3rem] pb-32 font-['SFUIDisplay-Light'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
                         CREACIÓN DE PERSONAJE Y MOVIMIENTO FRAME BY FRAME
                     </div>
                 </div>
@@ -152,13 +161,13 @@
 
             <NuxtLink to="/Audiovisual4" target="_blank">
                 <div
-                    class="trabajo1 bg-[url('/img/videosruben.png')] text-white border border-solid border-r-1 flex flex-col border-l-1 border-t-1 hover:bg-[url('/img/videoruben.gif')] bg-cover bg-center hover:text-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
+                    class="trabajo1 text-zinc-800 border-zinc-800 border border-solid border-r-0 flex flex-col border-l-0 border-t-0 hover:bg-[url('/img/videoruben.gif')] bg-cover bg-center hover:text-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
                     <div
-                        class="text text-center text-[60px] leading-[4rem] pt-40 font-['Domaine-Display'] font-bold tracking-normal justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
+                        class="text text-center text-[200px] leading-[8rem] pt-40 font-['PPE-Ultralight'] justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
                         ROTOSCOPIA
                     </div>
                     <div
-                        class="text text-[16px] text-center leading-[3rem] pb-40 font-['SFUIDisplay-Light'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
+                        class="text text-[16px] text-center leading-[3rem] pb-32 font-['SFUIDisplay-Light'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
                         ROTOSCOPIA FUTURO DISTOPICO Y PERDIDA DE MEMORIA
                     </div>
                 </div>
@@ -173,13 +182,13 @@
             <NuxtLink to="/Audiovisual2" target="_blank">
 
                 <div
-                class="trabajo1 border border-solid border-r-1 border-b-1 px-20 py-30 flex flex-col justify-center max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-1 max-sm:text-black">
-                <div
-                        class="text text-center text-[60px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
+                    class="trabajo1 border border-solid border-r-1 border-b-1 px-20 py-20 flex flex-col justify-center max-[1840px]:px-16 max-sm:px-8 max-sm:pb-12 max-sm:max-h-[800px] max-sm:pt-16 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-1 max-sm:text-black">
+                    <div
+                        class="text text-center text-[60px] leading-[1rem] pt-24 font-['PPE-Ultralight'] tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[50px] max-sm:pb-4 max-sm:text-center">
                         LETTERING 3D
                     </div>
                     <div
-                        class="text text-[16px] text-center leading-[4rem] pb-96 font-['SFUIDisplay-Light'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[1rem]">
+                        class="text text-[16px] text-center leading-[4rem] pb-96 font-['SFUIDisplay-Light'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[12px] max-sm:pb-2 max-sm:text-center max-sm:leading-[1rem]">
                         CREACIÓN DE TIPODGRAFÍA MEDIANTE CINEMA 4D
                     </div>
                 </div>
@@ -188,13 +197,13 @@
             <NuxtLink to="/Audiovisual1" target="_blank">
 
                 <div
-                class="trabajo1 border border-solid border-r-1 border-b-1 px-20 py-30 flex flex-col justify-center max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-1 max-sm:text-black">
-                <div
-                        class="text text-center text-[60px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
+                    class="trabajo1 border border-solid border-r-1 border-b-1 px-20 py-20 flex flex-col justify-center max-[1840px]:px-16 max-sm:px-8 max-sm:pb-12 max-sm:max-h-[800px] max-sm:pt-16 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-1 max-sm:text-black">
+                    <div
+                        class="text text-center text-[60px] leading-[3rem] pt-24 font-['PPE-Ultralight'] tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[50px] max-sm:pb-4 max-sm:text-center">
                         CORTINILLA MONSTRUOS SA
                     </div>
                     <div
-                        class="text text-[16px] text-center leading-[4rem] pb-96 font-['SFUIDisplay-Light'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[1rem]">
+                        class="text text-[16px] text-center leading-[4rem] pb-96 font-['SFUIDisplay-Light'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[12px] max-sm:pb-2 max-sm:text-center max-sm:leading-[1rem]">
                         CREACIÓN DE VIDEO INTRODUCCIÓN UTILIZANDO SINCRONIZACIÓN CON SONIDO
                     </div>
                 </div>
@@ -203,13 +212,13 @@
             <NuxtLink to="/Audiovisual3" target="_blank">
 
                 <div
-                class="trabajo1 border border-solid border-r-1 border-b-1 px-20 py-30 flex flex-col justify-center max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-1 max-sm:text-black">
-                <div
-                        class="text text-center text-[60px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
-                        ANIMACIÓN ROBOT
+                    class="trabajo1 border border-solid border-r-1 border-b-1 px-20 py-20 flex flex-col justify-center max-[1840px]:px-16 max-sm:px-8 max-sm:pb-12 max-sm:max-h-[800px] max-sm:pt-16 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-1 max-sm:text-black">
+                    <div
+                    class="text text-center text-[60px] leading-[3rem] pt-24 font-['PPE-Ultralight'] tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[50px] max-sm:pb-4 max-sm:text-center">
+                    ROBOT
                     </div>
                     <div
-                        class="text text-[16px] text-center leading-[4rem] pb-96 font-['SFUIDisplay-Light'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[1rem]">
+                        class="text text-[16px] text-center leading-[4rem] pb-96 font-['SFUIDisplay-Light'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[12px] max-sm:pb-2 max-sm:text-center max-sm:leading-[1rem]">
                         CREACIÓN DE PERSONAJE Y MOVIMIENTO FRAME BY FRAME
                     </div>
                 </div>
@@ -217,14 +226,14 @@
             <NuxtLink to="/Audiovisual4" target="_blank">
 
                 <div
-                    class="trabajo1 border border-solid border-r-1 border-b-1 px-20 py-30 flex flex-col justify-center max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-1 max-sm:text-black">
-                    <div
-                        class="text text-center text-[60px] leading-[4rem] pt-24 font-['Domaine-Display'] font-bold tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
-                    ROTOSCOPIA
+                class="trabajo1 border border-solid border-r-1 border-b-1 px-20 py-20 flex flex-col justify-center max-[1840px]:px-16 max-sm:px-8 max-sm:pb-12 max-sm:max-h-[800px] max-sm:pt-16 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-1 max-sm:text-black">
+                <div
+                    class="text text-center text-[60px] leading-[3rem] pt-24 font-['PPE-Ultralight'] tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[50px] max-sm:pb-4 max-sm:text-center">
+                        ROTOSCOPIA
                     </div>
                     <div
-                        class="text text-[16px] text-center leading-[4rem] pb-96 font-['SFUIDisplay-Light'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[1rem]">
-                        ROTOSCOPIA FUTURO DISTOPICO Y PERDIDA DE MEMORIA
+                    class="text text-[16px] text-center leading-[4rem] pb-96 font-['SFUIDisplay-Light'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[12px] max-sm:pb-2 max-sm:text-center max-sm:leading-[1rem]">
+                    ROTOSCOPIA FUTURO DISTOPICO Y PERDIDA DE MEMORIA
                     </div>
                 </div>
             </NuxtLink>
