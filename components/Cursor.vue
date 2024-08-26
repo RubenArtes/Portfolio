@@ -64,7 +64,7 @@ export default {
 
     .custom-cursor__icon {
         position: fixed;
-        top: 0;
+        top: 20;
         left: 0;
         z-index: 99999;
         opacity: 0;
@@ -75,5 +75,6 @@ export default {
         background-repeat: no-repeat;
         width: 60px; /* Ajusta el tamaño de acuerdo a tus necesidades */
         height: 60px;
-    }
+        mix-blend-mode:exclusion;
+        }
 </style>

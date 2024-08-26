@@ -1,8 +1,8 @@
 <template>
-  <div class="app bg-white font-['SFUIDisplay-Light']">
+  <div id="inicio" class="app bg-white font-['SFUIDisplay-Light']">
     <Cursor />
     <div
-      class="header bg-white p-10 border-r-0 border-l-0 border-t-0 px-24 text-black grid grid-cols-3 sticky top-0 z-10 max-lg:p-6 max-lg:sticky border border-b-0  max-sm:flex max-sm:justify-between">
+      class="header bg-white p-10 border-t-0 px-24 text-black grid grid-cols-3 sticky top-0 z-10 max-lg:p-6 max-lg:sticky max-sm:flex max-sm:justify-between">
       <div class="image place-self-start self-center">
         <NuxtLink to="/Home">
           <img class="max-lg:max-w-[15px]" src="/img/Vectorblack.svg" />
@@ -21,7 +21,7 @@
     </div>
 
     <div
-      class="header bg-white p-2 px-12 border-r-0 border-l-0 text-black flex justify-center items-center sticky top-[109px] z-10 border border-b-1 max-[1080px]:gap-6 max-[1025px]:top-[64px] max-sm:gap-2">
+      class="header bg-white p-2 px-12 text-black flex justify-center items-center sticky top-[109px] z-10 max-[1080px]:gap-6 max-[1025px]:top-[64px] max-sm:gap-2">
       <div
         class="titular_small uppercase pr-2 pl-2 text-zinc-500 font-['Neue'] animate-pulse text-[13px] max-[1920px]:text-xs max-sm:px-2 max-sm:text-[11px]">
         Ultima actualización Agosto 2024
@@ -30,6 +30,12 @@
     </div>
 
     <VueScrollProgressBar background-color="#000000" />
+
+    <!-- Botón flotante -->
+    <a href="#inicio"
+      class="fixed max-sm:hidden right-0 top-1/2 transform -translate-y-1/2 text-[70px] z-50 uppercase font-bold text-black tracking-widest px-7 py-4 transition-all duration-300 ease-in-out hover:translate-y-[-7px]">
+      ↑
+    </a>
 
 
 
@@ -66,7 +72,7 @@
     </div>
 
     <div
-      class="banner hidden max-sm:px-8 max-sm:flex max-sm:pt-40 max-sm:pb-40 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
+      class="banner hidden max-sm:px-8 max-sm:flex max-sm:pt-24 max-sm:pb-36 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
       <img class="banner_image w-full h-full" src="/img/nombreruben2.gif">
 
 
@@ -83,7 +89,7 @@
         </div>
 
         <div
-          class="text text-[16px] leading-[18px] font-['Neue'] tracking-normal flex flex-col items-left justify-self-start max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[16px] max-sm:leading-[1.25rem] max-sm:pb-4 max-sm:text-start max-[1920px]:text-[14px] max-[1920px]:leading-[16px]">
+          class="text text-[16px] leading-[18px] font-['Neue'] tracking-normal flex flex-col items-left justify-self-start max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[14px] max-sm:leading-[1rem] max-sm:pb-4 max-sm:text-start max-[1920px]:text-[14px] max-[1920px]:leading-[16px]">
           RUBÉN MALDONADO GONZÁLEZ
           <br>
           AGOSTO 2024
@@ -161,7 +167,7 @@
 
       </div>
 
-      <div class="texto3 flex flex-col place-self-end max-sm:place-self-end max-sm:pt-12">
+      <div class="texto3 flex flex-col place-self-end max-sm:place-self-end max-sm:hidden">
 
         <a href="#trabajos"
           class="text text-right text-[26px] uppercase font-['PPE-UltralightItalic'] tracking-normal flex flex-col items-left max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[18px] max-sm:leading-[1rem] max-sm:pb-0 max-sm:text-center max-[1920px]:text-[22px]">
@@ -293,7 +299,7 @@
     <div class="trabajos justify-center max-sm:hidden">
       <div
         class="grid grid-cols-4 max-[1920px]:grid-cols-3 max-[1450px]:grid-cols-2 max-sm:grid-cols-1 max-sm:divide-y max-sm:order-t-1 max-sm:border-solid max-sm:border-black">
-        <NuxtLink to="/packaging">
+        <NuxtLink to="/Matutano">
           <div
             class="trabajo1 border border-solid border-r-1 border-b-0 px-20 py-30 flex flex-col justify-center hover:bg-[url('/img/giframbuesa_1.gif')] hover:text-black bg-cover bg-center max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
             <div
@@ -542,7 +548,7 @@
     <div class="hidden trabajos justify-center max-sm:block">
       <div
         class="grid grid-cols-4 max-[1920px]:grid-cols-3 max-[1450px]:grid-cols-2 max-sm:grid-cols-1 max-sm:divide-y max-sm:order-t-1 max-sm:border-solid max-sm:border-black">
-        <NuxtLink to="/packaging">
+        <NuxtLink to="/Matutano">
           <div
             class="trabajo1 border border-solid border-r-1 border-b-0 px-20 py-30 flex flex-col justify-center hover:text-black bg-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
             <div
@@ -1282,6 +1288,7 @@ export default {
 
 
 </script>
+
 <style lang="sass" scoped>
 
 
@@ -1307,4 +1314,5 @@ export default {
   
   .app.animate-enter
     opacity: 1
-  </style>
+
+</style>
