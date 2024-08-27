@@ -265,9 +265,9 @@ export default {
     @apply opacity-80 duration-75 outline outline-2 outline-white rounded-sm
 
 .image_logo
-  @apply opacity-60
+  @apply opacity-100
   &:hover
-    @apply opacity-100
+    @apply opacity-60
 
 .red
   &:hover

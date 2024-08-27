@@ -223,11 +223,11 @@
                 proyecto</div>
             <div class="programas flex flex-col items-center">
                 <div class="three_programas flex gap-10">
-                    <img class="image_logo w-[40px] opacity-80 hover:opacity-100 max-xl:max-w-[30px]"
+                    <img class="image_logo w-[40px] opacity-100 hover:opacity-60 max-xl:max-w-[30px]"
                         src="/img/Illustrator.svg" alt="">
-                    <img class="image_logo w-[40px] opacity-80 hover:opacity-100 max-xl:max-w-[30px]"
+                    <img class="image_logo w-[40px] opacity-100 hover:opacity-60 max-xl:max-w-[30px]"
                         src="/img/Photoshop.svg" alt="">
-                    <img class="image_logo w-[40px] opacity-80 hover:opacity-100 max-xl:max-w-[30px]"
+                    <img class="image_logo w-[40px] opacity-100 hover:opacity-60 max-xl:max-w-[30px]"
                         src="/img/Figma.svg" alt="">
                 </div>
             </div>

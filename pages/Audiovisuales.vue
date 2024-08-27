@@ -16,29 +16,29 @@
         </div>
         <VueScrollProgressBar background-color="#52525B" />
         <div id="navegacion"
-            class="titular2 flex px-64 gap-32 content-start space-between justify-center pt-32 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-[1500px]:flex-col max-[1500px]:gap-2 max-[1500px]:items-center max-[1700px]:px-10">
+            class="titular2 flex px-64 gap-32 max-sm:pb-16 pb-32 content-start space-between justify-center pt-32 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-[1500px]:flex-col max-[1500px]:gap-24 max-[1500px]:items-center max-[1700px]:px-10">
             <div
-                class="titular text-[120px] max-sm:text-[40px] font-['PPE-UltralightItalic'] leading-[120px] pt-4 max-[1920px]:hidden font-bold animate-pulse bg-gradient-to-r bg-clip-text text-transparent animate-text max-[1500px]:text-left max-[1280px]:text-[100px] from-[#2c2c2c] via-[#aaaaaa] to-[#9f9f9f]">
+                class="titular max-sm:hidden text-[120px] max-sm:text-[40px] font-['PPE-UltralightItalic'] max-[1440px]:text-center leading-[120px] pt-4 max-[1920px]:flex-col max-[1920px]:flex font-bold animate-pulse bg-gradient-to-r bg-clip-text text-transparent animate-text max-[1280px]:text-[100px] from-[#2c2c2c] via-[#aaaaaa] to-[#9f9f9f]">
                 Audio
                 <br>
                 <p class="font-['PPE-Ultralight']">VISUALES</p>
             </div>
 
             <div
-            class="titular max-[1440px]:text-center max-[1440px]:leading-[120px] max-[1440px]:pb-16 text-[120px] font-['PPE-Ultralight'] leading-12 font-bold animate-pulse bg-gradient-to-r bg-clip-text text-transparent animate-text max-sm:text-[55px] max-[1500px]:text-left max-[1280px]:text-[100px] from-[#88878a] via-[#cae1ff] to-[#7c7c7c] max-sm:text-center max-sm:leading-[60px]">
+            class="titular flex min-[1440px]:hidden max-[1440px]:text-center max-[1440px]:leading-[130px] max-sm:pb-4 max-[1440px]:pb-16 text-[120px] font-['PPE-Ultralight'] leading-12 font-bold animate-pulse bg-gradient-to-r bg-clip-text text-transparent animate-text max-sm:text-[55px] max-[1500px]:text-left max-[1280px]:text-[100px] from-[#88878a] via-[#cae1ff] to-[#7c7c7c] max-sm:text-center max-sm:leading-[60px]">
                 AUDIO
                 <br>
                 VISUALES
             </div>
             <div
-                class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:pt-6 max-sm:pb-16 max-sm:px-0 max-[1280px]:items-center max-[1280px]:pt-6 max-[1280px]:pb-0">
+                class="trabajos place-self-center max-sm:pb-2 flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:pt-6 max-sm:px-0 max-[1280px]:items-center max-[1280px]:pt-6 max-[1280px]:pb-0">
 
                 <div
                     class="text max-w-[60ch] text-[16px] uppercase text-zinc-900 max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
                     Modelado 3d - Cinema 4d - After Effects - Animación - Blender
                 </div>
                 <div
-                    class="text max-w-[80ch] pb-16 pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:max-w-[100ch] max-[800px]:pb-4">
+                    class="text max-w-[80ch] pb-4 pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:max-w-[100ch] max-[800px]:pb-4">
                     Creación de diferentes trabajos para distintas asignaturas, creando piezas audiovisuales que mezclan
                     las destrezas del 3D, la animación frame a frema con dibujos, animaciones creadas mediante After
                     Effects y diferentes recursos gráficos para crear composiciones audiovisuales.
@@ -250,15 +250,15 @@
                 proyecto</div>
             <div class="programas flex flex-col items-center">
                 <div class="three_programas flex gap-10">
-                    <img class="image_logo w-[40px] rounded-lg opacity-80 hover:opacity-100 max-xl:max-w-[30px] max-xl:max-h-[29px]"
+                    <img class="image_logo w-[40px] rounded-lg opacity-100 hover:opacity-60 max-xl:max-w-[30px] max-xl:max-h-[29px]"
                         src="/img/Procreate.png" alt="">
-                    <img class="image_logo w-[40px] opacity-80 hover:opacity-100 max-xl:max-w-[30px] max-xl:max-h-[29px]"
-                        src="/img/Cinema4d.png" alt="">
-                    <img class="image_logo w-[40px] opacity-80 hover:opacity-100 max-xl:max-w-[30px]"
+                    <img class="image_logo w-[40px] opacity-100 hover:opacity-60 max-xl:max-w-[30px] max-xl:max-h-[29px]"
+                        src="/img/Cinema4d.svg" alt="">
+                    <img class="image_logo w-[40px] opacity-100 hover:opacity-60 max-xl:max-w-[30px]"
                         src="/img/Illustrator.svg" alt="">
-                    <img class="image_logo w-[40px] opacity-80 hover:opacity-100 max-xl:max-w-[30px]"
+                    <img class="image_logo w-[40px] opacity-100 hover:opacity-60 max-xl:max-w-[30px]"
                         src="/img/InDesign.svg" alt="">
-                    <img class="image_logo w-[40px] opacity-80 hover:opacity-100 max-xl:max-w-[30px]"
+                    <img class="image_logo w-[40px] opacity-100 hover:opacity-60 max-xl:max-w-[30px]"
                         src="/img/Photoshop.svg" alt="">
                 </div>
             </div>

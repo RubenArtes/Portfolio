@@ -386,9 +386,9 @@
         @apply text-zinc-300
   
 .image_logo
-  @apply opacity-60
+  @apply opacity-100
   &:hover
-    @apply opacity-100
+    @apply opacity-60
 
 
   </style>
