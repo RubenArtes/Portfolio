@@ -19,7 +19,7 @@
         <div id="navegacion"
             class="titular2 flex px-64 gap-32 content-start space-between justify-center pt-32 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-[1500px]:flex-col max-[1500px]:gap-2 max-[1500px]:items-center max-[1700px]:px-10">
             <div
-                class="titular text-[120px] font-['PPE-Ultralight'] leading-12 font-bold animate-pulse bg-gradient-to-r bg-clip-text text-transparent animate-text max-sm:text-[55px] max-[1500px]:text-left max-[1280px]:text-[100px] from-[#faf8ff] via-[#cae1ff] to-[#e3d5ff] max-sm:text-center max-sm:leading-[60px]">
+                class="titular text-[120px] font-['PPE-Ultralight'] leading-12 font-bold animate-pulse bg-gradient-to-r bg-clip-text text-transparent animate-text max-sm:text-[55px] max-[1500px]:text-left max-[1280px]:text-[100px] from-[#593cff] via-[#fff202] to-[#7d86ed] max-sm:text-center max-sm:leading-[60px]">
                 CINE YELMO</div>
             <div
                 class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:pt-6 max-sm:pb-16 max-sm:px-0 max-[1280px]:items-center max-[1280px]:pt-6 max-[1280px]:pb-0">
@@ -157,17 +157,10 @@
         </div>
 
         <div
-            class="images pt-20 px-64 pb-10 text-white justify-center flex flex-col gap-10 max-xl:pt-8 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
+            class="images items-center text-center pt-20 pb-20 px-64 text-white justify-center flex flex-col gap-32 max-xl:pt-8 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
             <div
-                class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
+                class="titular text-[40px] font-['PPE-Ultralight'] text-center leading-[50px] text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
                 <p class="font-['PPE-UltralightItalic']">Tipografías</p>DEL SISTEMA
-            </div>
-            <div 
-            class="text max-w-[80ch] pt-4 text-left font-['SFUIDisplay-Regular'] text-[20px] text-white max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
-            La tipografía
-                seleccionada para toda la
-                marca es la Proxima Nova y todos sus pesos
-                jugando entre ellos y convinandolos.
             </div>
 
             <div class="grid grid-cols-1 max-sm:pt-24">
@@ -177,61 +170,39 @@
         </div>
 
         <div
-            class="images pt-20 px-64 pb-10 text-white justify-center flex flex-col gap-10 max-xl:pt-8 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
-            <div
-                class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
+        class="images items-center text-center pt-20 pb-20 px-64 text-white justify-center flex flex-col gap-32 max-xl:pt-8 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
+        <div
+                class="titular text-[40px] font-['PPE-Ultralight'] text-center leading-[50px] text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
                 <p class="font-['PPE-UltralightItalic']">Pictogramas</p>DEL SISTEMA
             </div>
-            <div 
-            class="text max-w-[80ch] pt-4 text-left font-['SFUIDisplay-Regular'] text-[20px] text-white max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
-            Los pictogramas del
-                sistema siempre
-                estarán creados a raíz
-                de la reticula de formación del logo, de formas geométricas y siempre se intentará jugar con la C que
-                forma
-                el logo.
-            </div>
+        </div>
 
-            <div class="grid grid-cols-1 max-sm:pt-12">
+        <div class="grid px-8 grid-cols-1 max-sm:pt-12">
                 <img class="image_grid w-full h-full pb-6" src="/img/pictogramas.png" alt="">
             </div>
-        </div>
 
         <div
-            class="images pt-20 px-64 pb-10 text-white justify-center flex flex-col gap-10 max-xl:pt-8 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
+            class="images items-center text-center pt-20 px-64 text-white justify-center flex flex-col gap-32 max-xl:pt-8 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
             <div
-                class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
+                class="titular text-[40px] font-['PPE-Ultralight'] text-center leading-[50px] text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
                 <p class="font-['PPE-UltralightItalic']">Elementos</p>DEL SISTEMA
             </div>
-            <div 
-            class="text max-w-[80ch] pt-4 text-left font-['SFUIDisplay-Regular'] text-[20px] text-white max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
-            Caratulas para
-                instagrama formadas a
-                raiz de las formas geométricas y de las
-                reticulas mencionadas anteriormente.
-            </div>
-
-            <div class="grid grid-cols-1 max-sm:pt-12">
-                <img class="image_grid w-full h-full pb-6" src="/img/caratulas.png" alt="">
-                <img class="image_grid w-full h-full pb-6" src="/img/caratulas2.png" alt="">
-                <img class="image_grid w-full h-full pb-6" src="/img/caratulas3.png" alt="">
-                <img class="image_grid w-full h-full pb-6" src="/img/caratulas4.png" alt="">
-            </div>
         </div>
 
+        <div class="grid grid-cols-1 gap-24 max-sm:pt-12 max-sm:px-8 max-sm:gap-8 max-sm:pb-12">
+                <img class="image_grid w-full h-full pb-6 max-sm:pb-0" src="/img/caratulas.png" alt="">
+                <img class="image_grid w-full h-full pb-6 max-sm:pb-0" src="/img/caratulas2.png" alt="">
+                <img class="image_grid w-full h-full pb-6 max-sm:pb-0" src="/img/caratulas3.png" alt="">
+                <img class="image_grid w-full h-full pb-6 max-sm:pb-0" src="/img/caratulas4.png" alt="">
+            </div>
+
         <div
-            class="images pt-20 px-64 pb-10 text-white justify-center flex flex-col gap-10 max-xl:pt-8 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
-            <div
-                class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
+        class="images items-center text-center pt-20 pb-20 px-64 text-white justify-center flex flex-col gap-32 max-xl:pt-8 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
+        <div
+                class="titular text-[40px] font-['PPE-Ultralight'] text-center leading-[50px] text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
                 <p class="font-['PPE-UltralightItalic']">Prototipo</p>APLICACIÓN
             </div>
-            <div 
-            class="text max-w-[80ch] pt-4 text-left font-['SFUIDisplay-Regular'] text-[20px] text-white max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
-            Prueba de aplicación
-                para Cine Yelmo
-                siguiendo la idea de minimalismo que sigue
-                este nuevo rediseño, el uso de colores y formas geométrica.
-            </div>
+
 
             <div class="grid grid-cols-1 max-sm:pt-12">
                 <img class="image_grid w-full h-full pb-6" src="/img/aplicacion.png" alt="">
@@ -241,9 +212,9 @@
         </div>
 
         <div
-            class="images pt-20 px-64 pb-10 text-white justify-center flex flex-col gap-10 max-xl:pt-8 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
-            <div
-                class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
+        class="images items-center text-center pt-20 pb-20 px-64 text-white justify-center flex flex-col gap-10 max-xl:pt-8 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
+        <div
+                class="titular text-[40px] font-['PPE-Ultralight'] text-center leading-[50px] text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
                 <p class="font-['PPE-UltralightItalic']">Entradas</p>CINE FÍSICAS
             </div>
 
@@ -311,7 +282,7 @@
 
         </div>
 
-        <div class="foter bg-[#101010] p-10 flex text-white justify-between sticky top-0 max-xl:p-6">
+        <div class="foter bg-black p-10 flex text-white justify-between sticky top-0 max-xl:p-6">
             <div class="foter_image flex flex-start">
                 <NuxtLink to="/">
                     <img class="vector max-xl:max-w-[15px]" src="/img/star.svg">

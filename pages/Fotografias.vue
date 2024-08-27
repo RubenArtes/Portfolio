@@ -16,64 +16,80 @@
     </div>
     <VueScrollProgressBar background-color="white" />
     <div
-      class="trabajos flex pt-20 px-40 pb-20 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
+      class="titular2 flex px-64 gap-32 content-start space-between justify-center pt-20 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-[1500px]:flex-col max-[1500px]:gap-2 max-[1500px]:items-center max-[1700px]:px-10">
       <div
-        class="titular text-[70px] font-bold max-w-[13ch] leading-12 animate-pulse leading-12 bg-gradient-to-r bg-clip-text text-transparent from-[#979797] via-[#dfdfdf] to-[#ffffff] animate-text max-xl:text-[45px] max-xl:justify-center">
-        Fotografías</div>
-      <div class="info flex flex-col gap-6">
+        class="titular text-[120px] font-['PPE-Ultralight'] leading-12 font-bold animate-pulse bg-gradient-to-r bg-clip-text text-transparent animate-text max-sm:text-[55px] max-[1500px]:text-left max-[1280px]:text-[100px] from-[#fffafa] via-[#bbbbbb] to-[#c2c2c2] ">
+        FOTOGRAFÍAS</div>
+      <div
+        class="trabajos flex flex-col max-sm:gap-2 items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:pt-6 max-sm:pb-16 max-sm:px-0 max-[1280px]:items-center max-[1280px]:pt-6 max-[1280px]:pb-0">
+
         <div
-          class="text max-w-[60ch] text-[16px] leading-10 text-zinc-400 max-xl:leading-2 max-xl:text-xs max-xl:text-center">
+          class="text max-w-[60ch] text-[16px] uppercase text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
           Fotografías - Ediciones - Retratos -
           Paisajes - Social -
           Diseño Gráfico</div>
         <div
-          class="text max-w-[60ch] text-[20px] leading-8 text-zinc-300 font-bold max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center">
+          class="text max-w-[80ch] pb-16 pt-4 max-sm:text-left text-left font-['SFUIDisplay-Light'] text-[20px] text-white max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:max-w-[100ch] max-[800px]:pb-4">
           Recopilación de fotografías y
           fanzines realizados durante el curso y
           como trabajos personales sobre diferentes temáticas y con diferentes cometidos. Fotografías de retrato,
           bodegones, paisajes y representación de lo social.
           Editadas y postproducidas.
         </div>
+
       </div>
     </div>
 
 
     <div
-      class="trabajos flex pt-20 px-40 text-white items-start flex-nowrap gap-40 justify-center max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-xl:text-center max-xl:pt-0 max-xl:pb-16">
+      class="trabajos max-[1440px]:px-32 flex max-sm:justify-start max-sm:pb-24 pt-20 px-40 pb-20 items-start text-white flex-nowrap gap-96 justify-center max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-start max-xl:text-center max-xl:pt-0 max-xl:pb-16 max-[1500px]:px-20 max-[1500px]:justify-between">
       <div class="info flex flex-col">
-        <div class="text max-w-[60ch] italic text-[16px] leading-10 text-zinc-400 max-xl:text-xs">Asignatura</div>
-        <div class="text max-w-[20ch] text-[16px] leading-6 text-white font-bold max-xl:text-sm max-xl:max-w-[40ch]">
-          Fotografía y audiovisuales, Técnicas Fotográficas, 2 - 3º Diseño Gráfico.
+        <div
+          class="text max-w-[200ch] max-sm:text-left text-center font-['PPE-Ultralight'] max-sm:text-[20px] pb-4 uppercase text-[24px] leading-10 max-xl:text-xs">
+          Asignatura</div>
+        <div
+          class="text max-w-[200ch] font-['SFUIDisplay-Light'] text-center max-sm:text-left max-sm:max-w-[19ch] text-[16px] leading-6 max-xl:text-sm max-xl:max-w-[40ch]">
+          Fotografía y audiovisuales, Técnicas Fotográficas, 4º Diseño Gráfico.
         </div>
       </div>
       <div class="info flex flex-col">
-        <div class="text max-w-[60ch] text-[16px] italic leading-10 text-zinc-400 max-xl:text-xs">Tiempo</div>
-        <div class="text max-w-[20ch] text-[16px] leading-6 text-white font-bold max-xl:text-sm max-xl:max-w-[40ch]">
+        <div
+          class="text max-w-[60ch] max-sm:text-left font-['PPE-Ultralight'] max-sm:text-[20px] pb-4 text-center text-[24px] uppercase leading-10 max-xl:text-xs">
+          Tiempo</div>
+        <div
+          class="text max-w-[20ch] font-['SFUIDisplay-Light'] max-sm:text-start text-center text-[16px] leading-6 max-xl:text-sm max-xl:max-w-[40ch]">
           2 años
         </div>
       </div>
       <div class="info flex flex-col">
-        <div class="text max-w-[60ch] text-[16px] italic leading-10 text-zinc-400 max-xl:text-xs">Briefing</div>
-        <div class="text max-w-[20ch] text-[16px] leading-6 text-white font-bold max-xl:text-sm max-xl:max-w-[40ch]">
+        <div
+          class="text max-w-[60ch] max-sm:text-left font-['PPE-Ultralight'] max-sm:text-[20px] pb-4 text-center text-[24px] uppercase leading-10 max-xl:text-xs">
+          Briefing</div>
+        <div
+          class="text max-w-[20ch] text-left font-['SFUIDisplay-Light']  text-[16px] leading-6 max-xl:text-sm max-xl:max-w-[40ch]">
           Creación de fotografías con el aspecto técnico requerido.
         </div>
       </div>
     </div>
 
     <div
-      class="video flex pt-20 px-64 pb-20 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
-      <video width="1240" height="788" loop autoplay controls>
+      class="video flex pt-20 px-64 pb-32 max-sm:px-0 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
+      <video width="1240" height="788" loop autoplay>
         <source src="/img/fanzine.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
 
     </div>
     <div
-      class="colum flex pt-20 px-64 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center">
-      <div class="info_proyect max-w-[80ch]">
-        <div class="info_secondary flex flex-col gap-6 sticky top-32">
-          <div class="text max-w-[60ch] text-[32px] leading-10 text-white">Social</div>
-          <div class="text text-[16px] leading-6 text-zinc-400 font-normal max-w-[64ch] max-xl:text-xs">
+      class="colum grid grid-cols-2 max-sm:grid-cols-1 pt-20 px-64 pb-10 text-white gap-24 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-[1500px]:px-60">
+      <div class="info_proyect">
+        <div class="info_secondary flex flex-col gap-6 sticky top-32 max-[1500px]:gap-12">
+          <div
+            class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-white max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
+            <p class="font-['PPE-Ultralightitalic'] max-sm:pb-2">Retrato</p> TEMÁTICA SOCIAL
+          </div>
+          <div
+            class="text text-[20px] font-['SFUIDisplay-Light'] text-white max-w-[50ch] max-xl:text-sm max-[1500px]:text-[16px] max-[1500px]:max-w-[100ch]">
             Sobretodo en la mayoría de mi trabajo me gusta retratar el aspecto social y a las personas sin que se den
             cuenta
             de que están siendo retratadas en la fotografía para darle ese aspecto de improvisación, sin preparar y
@@ -89,66 +105,107 @@
       </div>
 
       <div class="fotografias flex flex-col gap-6 h-min items-center">
-        <img class="image_rect w-[590px]" src="/img/fotosgrupo.png" alt="">
-        <img class="image_rect w-[590px]" src="/img/fotosgrupo2.png" alt="">
-        <img class="image_rect w-[590px]" src="/img/fotosgrupo3.png" alt="">
-        <img class="image_rect w-[590px]" src="/img/fotosgrupo4.png" alt="">
-        <img class="image_rect w-[590px]" src="/img/fotosgrupo5.png" alt="">
+        <img class="image_rect" src="/img/fotosgrupo.png" alt="">
+        <img class="image_rect" src="/img/fotosgrupo2.png" alt="">
+        <img class="image_rect" src="/img/fotosgrupo3.png" alt="">
+        <img class="image_rect" src="/img/fotosgrupo4.png" alt="">
+        <img class="image_rect" src="/img/fotosgrupo5.png" alt="">
 
       </div>
     </div>
 
-    <div
-      class="categorias pt-20 px-64 pb-14 text-center items-center text-white justify-center flex flex-col gap-4 max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
-      <div class="text max-w-[60ch] text-[32px] leading-10 text-white">Categorías fotográficas</div>
-      <div class="text max-w-[100ch] text-[14px] text-zinc-500 font-bold max-xl:text-xs">Selecciona una catetegoría de
-        fotografías para saber más y ver la colección completa de imágenes.</div>
+    <div class="fotografias flex-col gap-6 h-min items-center px-4 hidden max-sm:flex">
+      <img class="image_rect w-[590px]" src="/img/fotosgrupo.png" alt="">
+      <img class="image_rect w-[590px]" src="/img/fotosgrupo2.png" alt="">
+      <img class="image_rect w-[590px]" src="/img/fotosgrupo3.png" alt="">
+      <img class="image_rect w-[590px]" src="/img/fotosgrupo4.png" alt="">
+      <img class="image_rect w-[590px]" src="/img/fotosgrupo5.png" alt="">
+
+    </div>
+
+    <div id="libroimpreso"
+      class="titular2 max-sm:pt-24 max-sm:pb-24 flex px-64 pb-24 gap-64 pt-48 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-[1500px]:px-12 max-[1500px]:gap-12 max-[1500px]:items-center max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+      <div
+        class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
+        CATEGORÍAS FOTOGRÁFICAS</div>
     </div>
 
     <div
-      class="seleccion_trabajos pt-4 px-64 pb-20 text-white flex flex-col justify-center max-lg:px-6 max-lg:justify-items-center max-lg:justify-center">
+      class="seleccion_trabajos pt-4 px-64 max-sm:px-2 pb-20 text-white flex flex-col justify-center max-lg:px-6 max-lg:justify-items-center max-lg:justify-center">
       <div
-        class="twotrabajos p-0 flex gap-4 justify-center pb-8 max-lg:flex-col max-lg:justify-items-center max-lg:items-center max-lg:px-10">
-        <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
+        class="twotrabajos max-sm:px-2 p-0 flex gap-4 justify-center pb-4 max-lg:flex-col max-lg:justify-items-center max-lg:items-center max-lg:px-10">
+        <div class="trabajo">
           <NuxtLink to="/Oporto">
-            <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/Portadaimagenes3.png">
+            <div
+                class="flex hover:bg-[url('/img/fotocaratula5.png')] bg-black bg-cover bg-center flex-col text-[40px] w-[600px] h-[600px] max-sm:w-[400px] max-sm:h-[400px] items-center justify-center border font-['PPE-Ultralight'] leading-[50px] text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
+                <p class="font-['PPE-UltralightItalic'] text-[24px] leading-7">Fotografías</p>OPORTO</div>
           </NuxtLink>
-          
+
         </div>
-        <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
+        <div class="trabajo">
           <NuxtLink to="/Provoke">
-            <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/Portadaimagenes.png">
+            <div
+                class="flex hover:bg-[url('/img/fotocaratula12.png')] bg-black bg-cover bg-center flex-col text-[40px] w-[600px] h-[600px] max-sm:w-[400px] max-sm:h-[400px] items-center justify-center border font-['PPE-Ultralight'] leading-[50px] text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
+                <p class="font-['PPE-UltralightItalic'] text-[24px] leading-7">Fotografías</p>PROVOKE</div>
           </NuxtLink>
 
         </div>
       </div>
       <div
-        class="twotrabajos p-0 flex gap-4 justify-center pb-8 max-lg:flex-col max-lg:justify-items-center max-lg:items-center max-lg:px-10">
-        <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
+      class="twotrabajos p-0 max-sm:px-2 flex gap-4 justify-center pb-4 max-lg:flex-col max-lg:justify-items-center max-lg:items-center max-lg:px-10">
+      <div class="trabajo">
           <NuxtLink to="/Bodegon">
-            <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/Portadaimagenes4.png">
+            <div
+                class="flex hover:bg-[url('/img/fotocaratula10.png')] bg-black bg-cover bg-center flex-col text-[40px] w-[600px] h-[600px] max-sm:w-[400px] max-sm:h-[400px] items-center justify-center border font-['PPE-Ultralight'] leading-[50px] text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
+                <p class="font-['PPE-UltralightItalic'] text-[24px] leading-7">Fotografías</p>BODEGON</div>
           </NuxtLink>
-          
+
         </div>
-        <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
+        <div class="trabajo">
           <NuxtLink to="/retratos">
-            <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/Portadaimagenes2.png">
+            <div
+                class="flex hover:bg-[url('/img/fotocaratula11.png')] bg-black bg-cover bg-center flex-col text-[40px] w-[600px] h-[600px] max-sm:w-[400px] max-sm:h-[400px] items-center justify-center border font-['PPE-Ultralight'] leading-[50px] text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
+                <p class="font-['PPE-UltralightItalic'] text-[24px] leading-7">Fotografías</p>RETRATOS</div>
           </NuxtLink>
 
         </div>
       </div>
 
       <div
-        class="twotrabajos p-0 flex gap-4 justify-center pb-8 max-lg:flex-col max-lg:justify-items-center max-lg:items-center max-lg:px-10">
-        <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
+      class="twotrabajos p-0 flex max-sm:px-2 gap-4 justify-center pb-4 max-lg:flex-col max-lg:justify-items-center max-lg:items-center max-lg:px-10">
+      <div class="trabajo">
           <NuxtLink to="/MetroMadrid">
-            <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/Portadaimagenes5.png">
+            <div
+                class="flex hover:bg-[url('/img/fotocaratula8.png')] bg-black bg-cover bg-center flex-col text-[40px] w-[600px] h-[600px] max-sm:w-[400px] max-sm:h-[400px] items-center justify-center border font-['PPE-Ultralight'] leading-[50px] text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
+                <p class="font-['PPE-UltralightItalic'] text-[24px] leading-7">Fotografías</p>METRO MADRID</div>
           </NuxtLink>
-          
+
         </div>
-        <div class="trabajo max-w-[600px] max-lg:max-w-[300px] max-lg:justify-center max-lg:flex max-lg:flex-col">
+        <div class="trabajo">
           <NuxtLink to="/madrid">
-            <img class="image m-0 rounded-sm max-w-[600px] max-lg:max-w-[300px]" src="/img/Portadaimagenes6.png">
+            <div
+                class="flex hover:bg-[url('/img/fotocaratula9.png')] bg-black bg-cover bg-center flex-col text-[40px] w-[600px] h-[600px] max-sm:w-[400px] max-sm:h-[400px] items-center justify-center border font-['PPE-Ultralight'] leading-[50px] text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
+                <p class="font-['PPE-UltralightItalic'] text-[24px] leading-7">Fotografías</p>MADRID</div>
+          </NuxtLink>
+
+        </div>
+      </div>
+
+      <div
+      class="twotrabajos p-0 flex max-sm:px-2 gap-4 justify-center pb-4 max-lg:flex-col max-lg:justify-items-center max-lg:items-center max-lg:px-10">
+      <div class="trabajo">
+          <NuxtLink to="/Tenerife">
+            <div
+                class="flex hover:bg-[url('/img/fotocaratula2.png')] bg-black bg-cover bg-center flex-col text-[40px] w-[600px] h-[600px] max-sm:w-[400px] max-sm:h-[400px] items-center justify-center border font-['PPE-Ultralight'] leading-[50px] text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
+                <p class="font-['PPE-UltralightItalic'] text-[24px] leading-7">Fotografías</p>TENERIFE</div>
+          </NuxtLink>
+
+        </div>
+        <div class="trabajo">
+          <NuxtLink to="/madrid">
+            <div
+                class="flex hover:bg-[url('/img/fotocaratula3.png')] bg-black bg-cover bg-center flex-col text-[40px] w-[600px] h-[600px] max-sm:w-[400px] max-sm:h-[400px] items-center justify-center border font-['PPE-Ultralight'] leading-[50px] text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
+                <p class="font-['PPE-UltralightItalic'] text-[24px] leading-7">Fotografías</p>GRANADA</div>
           </NuxtLink>
 
         </div>
@@ -176,7 +233,8 @@
 
     <div
       class="links_rrss pt-32 px-80 pb-32 text-white justify-center flex flex-row gap-60 max-xl:pt-20 max-xl:px-10 max-xl:flex-col max-xl:justify-items-center max-xl:gap-20 max-xl:flex max-xl:justify-center max-xl:pb-20">
-      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado." target="_blank"  class="email text-lg flex gap-2 items-center max-xl:text-[14px] max-xl:justify-center">
+      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado."
+        target="_blank" class="email text-lg flex gap-2 items-center max-xl:text-[14px] max-xl:justify-center">
         ruben.maldonado.graphic@gmail.com
         <img class="vector" src="/img/Vector-11.svg">
       </a>
@@ -255,9 +313,9 @@ export default {
     @apply opacity-80 duration-75 outline outline-2 outline-white rounded-sm
 
 .image_logo
-  @apply opacity-60
+  @apply opacity-100
   &:hover
-    @apply opacity-100
+    @apply opacity-60
 
 .red
   &:hover
