@@ -72,7 +72,7 @@
     </div>
 
     <div
-      class="banner hidden max-sm:px-8 max-sm:flex max-sm:pt-24 max-sm:pb-24 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
+      class="banner hidden max-sm:px-8 max-sm:flex max-sm:pt-12 max-sm:pb-20 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
       <img class="banner_image w-full h-full" src="/img/nombreruben2.gif">
 
 
@@ -99,7 +99,7 @@
       </div>
 
 
-      <div class="texto2 hidden max-sm:flex gap-6 justify-between max-sm:pt-12">
+      <div class="texto2 hidden max-sm:flex gap-6 justify-between max-sm:pt-4">
 
         <div
           class="text place-self-start text-[14px] text-left max-sm:text-[12px] max-sm:leading-[1rem] text-zinc-400 leading-[18px] font-['Neue'] tracking-normal flex flex-col items-start justify-self-start max-3xl:text-[30px] max-sm:pt-2 max-sm:pb-4 max-[1920px]:leading-[14px]">
