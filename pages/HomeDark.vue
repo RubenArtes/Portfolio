@@ -66,13 +66,13 @@
     </div>
 
     <div
-    class="banner hidden max-sm:px-8 max-sm:flex max-sm:pt-12 max-sm:pb-20 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
-    <img class="banner_image w-full h-full" src="/img/nombreruben4.gif">
+      class="banner hidden max-sm:px-8 max-sm:flex max-sm:pt-12 max-sm:pb-20 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
+      <img class="banner_image w-full h-full" src="/img/nombreruben4.gif">
 
 
     </div>
 
-    <div class="grid grid-cols-3 px-32 max-sm:px-8 pt-2 pb-20 max-[1920px]:pt-0 max-sm:grid-cols-1 text-white">
+    <div class="grid grid-cols-3 text-white px-32 max-sm:px-8 pt-2 pb-20 max-[1920px]:pt-0 max-sm:grid-cols-1">
 
       <div class="texto1 flex flex-col place-self-start">
 
@@ -111,7 +111,7 @@
           AUDIOVISUALES
         </div>
 
-        <div class="texto3 flex flex-col place-self-end max-sm:place-self-end max-sm:pt-12">
+        <div class="texto3 flex flex-col place-self-end max-sm:place-self-end max-sm:pt-0">
 
           <a href="#trabajos"
             class="text text-right text-[26px] uppercase font-['PPE-UltralightItalic'] tracking-normal flex flex-col items-left max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[18px] max-sm:leading-[1rem] max-sm:pb-0 max-sm:text-center max-[1920px]:text-[22px]">
@@ -578,8 +578,8 @@
 
         <NuxtLink to="/Prau">
           <div
-          class="trabajo1 border border-b-1 border-solid border-r-0 border-l-0 border-t-0 px-20 py-30 flex flex-col justify-center bg-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-black max-sm:border-solid max-sm:border-1 max-sm:text-white">
-          <div
+            class="trabajo1 border border-b-1 border-solid border-r-0 border-l-0 border-t-0 px-20 py-30 flex flex-col justify-center bg-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-black max-sm:border-solid max-sm:border-1 max-sm:text-white">
+            <div
               class="text text-center text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[3rem] max-sm:pb-4 max-sm:text-center">
               Etiquetado<br />
               <p class="font-['PPE-Ultralight'] uppercase">VINOS PRAU</p>
@@ -596,8 +596,8 @@
         </NuxtLink>
         <NuxtLink to="/MetrodeMadrid">
           <div
-          class="trabajo1 border border-b-1 border-solid border-r-0 border-l-0 border-t-0 px-20 py-30 flex flex-col justify-center bg-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-black max-sm:border-solid max-sm:border-1 max-sm:text-white">
-          <div
+            class="trabajo1 border border-b-1 border-solid border-r-0 border-l-0 border-t-0 px-20 py-30 flex flex-col justify-center bg-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-black max-sm:border-solid max-sm:border-1 max-sm:text-white">
+            <div
               class="text text-center text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[3rem] max-sm:pb-4 max-sm:text-center">
               Fotolibro<br />
               <p class="font-['PPE-Ultralight'] uppercase">metro madrid</p>
@@ -614,8 +614,8 @@
         </NuxtLink>
         <NuxtLink to="/Typenotes">
           <div
-          class="trabajo1 border border-b-1 border-solid border-r-0 border-l-0 border-t-0 px-20 py-30 flex flex-col justify-center bg-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-black max-sm:border-solid max-sm:border-1 max-sm:text-white">
-          <div
+            class="trabajo1 border border-b-1 border-solid border-r-0 border-l-0 border-t-0 px-20 py-30 flex flex-col justify-center bg-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-black max-sm:border-solid max-sm:border-1 max-sm:text-white">
+            <div
               class="text text-center text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[3rem] max-sm:pb-4 max-sm:text-center">
               Revista<br />
               <p class="font-['PPE-Ultralight'] uppercase">TYPENOTES</p>
@@ -632,8 +632,8 @@
         </NuxtLink>
         <NuxtLink to="/Movistar">
           <div
-          class="trabajo1 border border-b-1 border-solid border-r-0 border-l-0 border-t-0 px-20 py-30 flex flex-col justify-center bg-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-black max-sm:border-solid max-sm:border-1 max-sm:text-white">
-          <div
+            class="trabajo1 border border-b-1 border-solid border-r-0 border-l-0 border-t-0 px-20 py-30 flex flex-col justify-center bg-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-black max-sm:border-solid max-sm:border-1 max-sm:text-white">
+            <div
               class="text text-center text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[3rem] max-sm:pb-4 max-sm:text-center">
               Audiovisual<br />
               <p class="font-['PPE-Ultralight'] uppercase">MOVISTAR +</p>
@@ -650,8 +650,8 @@
         </NuxtLink>
         <NuxtLink to="/Audiovisuales">
           <div
-          class="trabajo1 border border-b-1 border-solid border-r-0 border-l-0 border-t-0 px-20 py-30 flex flex-col justify-center bg-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-black max-sm:border-solid max-sm:border-1 max-sm:text-white">
-          <div
+            class="trabajo1 border border-b-1 border-solid border-r-0 border-l-0 border-t-0 px-20 py-30 flex flex-col justify-center bg-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-black max-sm:border-solid max-sm:border-1 max-sm:text-white">
+            <div
               class="text text-center text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[3rem] max-sm:pb-4 max-sm:text-center">
               Colección<br />
               <p class="font-['PPE-Ultralight'] uppercase">AUDIOVISUALES</p>
@@ -668,8 +668,8 @@
         </NuxtLink>
         <NuxtLink to="/YelmoCines">
           <div
-          class="trabajo1 border border-b-1 border-solid border-r-0 border-l-0 border-t-0 px-20 py-30 flex flex-col justify-center bg-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-black max-sm:border-solid max-sm:border-1 max-sm:text-white">
-          <div
+            class="trabajo1 border border-b-1 border-solid border-r-0 border-l-0 border-t-0 px-20 py-30 flex flex-col justify-center bg-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-black max-sm:border-solid max-sm:border-1 max-sm:text-white">
+            <div
               class="text text-center text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[3rem] max-sm:pb-4 max-sm:text-center">
               Rediseño<br />
               <p class="font-['PPE-Ultralight'] uppercase">CINE YELMO</p>
@@ -686,8 +686,8 @@
         </NuxtLink>
         <NuxtLink to="/Editorial">
           <div
-          class="trabajo1 border border-b-1 border-solid border-r-0 border-l-0 border-t-0 px-20 py-30 flex flex-col justify-center bg-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-black max-sm:border-solid max-sm:border-1 max-sm:text-white">
-          <div
+            class="trabajo1 border border-b-1 border-solid border-r-0 border-l-0 border-t-0 px-20 py-30 flex flex-col justify-center bg-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-black max-sm:border-solid max-sm:border-1 max-sm:text-white">
+            <div
               class="text text-center text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[3rem] max-sm:pb-4 max-sm:text-center">
               Pensamiento<br />
               <p class="font-['PPE-Ultralight'] uppercase">LATERAL</p>
@@ -704,8 +704,8 @@
         </NuxtLink>
         <NuxtLink to="/WebESD">
           <div
-          class="trabajo1 border border-b-1 border-solid border-r-0 border-l-0 border-t-0 px-20 py-30 flex flex-col justify-center bg-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-black max-sm:border-solid max-sm:border-1 max-sm:text-white">
-          <div
+            class="trabajo1 border border-b-1 border-solid border-r-0 border-l-0 border-t-0 px-20 py-30 flex flex-col justify-center bg-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-black max-sm:border-solid max-sm:border-1 max-sm:text-white">
+            <div
               class="text text-center text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[3rem] max-sm:pb-4 max-sm:text-center">
               Página web<br />
               <p class="font-['PPE-Ultralight'] uppercase">ESD MADRID</p>
@@ -722,8 +722,8 @@
         </NuxtLink>
         <NuxtLink to="/Fotografias">
           <div
-          class="trabajo1 border border-b-1 border-solid border-r-0 border-l-0 border-t-0 px-20 py-30 flex flex-col justify-center bg-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-black max-sm:border-solid max-sm:border-1 max-sm:text-white">
-          <div
+            class="trabajo1 border border-b-1 border-solid border-r-0 border-l-0 border-t-0 px-20 py-30 flex flex-col justify-center bg-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-black max-sm:border-solid max-sm:border-1 max-sm:text-white">
+            <div
               class="text text-center text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[3rem] max-sm:pb-4 max-sm:text-center">
               Colección<br />
               <p class="font-['PPE-Ultralight'] uppercase">FOTOGRÁFICA</p>
@@ -740,8 +740,8 @@
         </NuxtLink>
         <NuxtLink to="/GarridoGallery">
           <div
-          class="trabajo1 border border-b-1 border-solid border-r-0 border-l-0 border-t-0 px-20 py-30 flex flex-col justify-center bg-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-black max-sm:border-solid max-sm:border-1 max-sm:text-white">
-          <div
+            class="trabajo1 border border-b-1 border-solid border-r-0 border-l-0 border-t-0 px-20 py-30 flex flex-col justify-center bg-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-black max-sm:border-solid max-sm:border-1 max-sm:text-white">
+            <div
               class="text text-center text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[3rem] max-sm:pb-4 max-sm:text-center">
               Garrido<br />
               <p class="font-['PPE-Ultralight'] uppercase">GALLERY</p>
@@ -758,8 +758,8 @@
         </NuxtLink>
         <NuxtLink to="/Ilustraciones">
           <div
-          class="trabajo1 border border-b-1 border-solid border-r-0 border-l-0 border-t-0 px-20 py-30 flex flex-col justify-center bg-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-black max-sm:border-solid max-sm:border-1 max-sm:text-white">
-          <div
+            class="trabajo1 border border-b-1 border-solid border-r-0 border-l-0 border-t-0 px-20 py-30 flex flex-col justify-center bg-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-black max-sm:border-solid max-sm:border-1 max-sm:text-white">
+            <div
               class="text text-center text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[3rem] max-sm:pb-4 max-sm:text-center">
               Colección<br />
               <p class="font-['PPE-Ultralight'] uppercase">Ilustraciones</p>
