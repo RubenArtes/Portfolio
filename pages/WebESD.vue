@@ -17,10 +17,10 @@
 
         <VueScrollProgressBar background-color="#52525B" />
         <div id="navegacion"
-            class="titular2 flex px-64 gap-64 content-start space-between justify-center pt-32 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-[1500px]:flex-col max-[1500px]:gap-2 max-[1500px]:items-center max-[1700px]:px-10">
+            class="titular2 flex px-64 gap-32 content-start space-between justify-center pt-32 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-[1500px]:flex-col max-[1500px]:gap-2 max-[1500px]:items-center max-[1700px]:px-10">
             <div
-                class="titular text-[90px] font-['Domaine-Display'] font-bold leading-[120px] animate-pulse bg-gradient-to-r bg-clip-text text-transparent animate-text max-sm:text-[45px] max-[1500px]:text-left max-[1280px]:text-[100px] from-[#faf8ff] via-[#cae1ff] to-[#e3d5ff] max-sm:text-center max-sm:leading-[2.75rem] max-sm:font-normal">
-                PROTOTIPADO</div>
+            class="titular text-[120px] font-['PPE-Ultralight'] leading-12 font-bold animate-pulse bg-gradient-to-r bg-clip-text text-transparent animate-text max-sm:text-[55px] max-[1500px]:text-left max-[1280px]:text-[100px] from-[#faf8ff] via-[#cae1ff] to-[#e3d5ff] max-sm:text-center max-sm:leading-[60px]">
+                WEB ESD MADRID</div>
             <div
                 class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:pt-6 max-sm:pb-16 max-sm:px-0 max-[1280px]:items-center max-[1280px]:pt-6 max-[1280px]:pb-0">
 
@@ -38,10 +38,10 @@
         </div>
 
         <div
-            class="trabajos flex pt-20 px-40 pb-20 items-start text-white flex-nowrap gap-96 justify-center max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-xl:text-center max-xl:pt-0 max-xl:pb-16 max-[1500px]:px-20 max-[1500px]:justify-between">
+            class="trabajos max-[1440px]:px-32 flex max-sm:justify-start max-sm:pb-24 pt-20 px-40 pb-20 items-start text-white flex-nowrap gap-96 justify-center max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-start max-xl:text-center max-xl:pt-0 max-xl:pb-16 max-[1500px]:px-20 max-[1500px]:justify-between">
             <div class="info flex flex-col">
                 <div
-                    class="text max-w-[200ch] text-center font-['Domaine-Display'] uppercase text-[24px] leading-10 max-xl:text-xs">
+                    class="text max-w-[200ch] max-sm:text-left text-center font-['PPE-Ultralight'] max-sm:text-[20px] pb-4 uppercase text-[24px] leading-10 text-white max-xl:text-xs">
                     Asignatura</div>
                 <div
                     class="text max-w-[200ch] font-['SFUIDisplay-Regular'] text-center text-[16px] leading-6 max-xl:text-sm max-xl:max-w-[40ch]">
@@ -62,8 +62,8 @@
                     class="text max-w-[60ch] font-['Domaine-Display'] text-center text-[24px] uppercase leading-10 text-white max-xl:text-xs">
                     Briefing</div>
                 <div
-                    class="text max-w-[20ch] text-center font-['SFUIDisplay-Regular']  text-[16px] leading-6 text-white max-xl:text-sm max-xl:max-w-[40ch]">
-                    Rediseño de la página web oficial de la Escuela Superior de Diseño de Madrid.
+                class="text max-w-[20ch] text-center font-['SFUIDisplay-Regular'] max-sm:text-left text-[16px] leading-6 text-white max-xl:text-sm max-[1440px]:max-w-[60ch]">
+                Rediseño de la página web oficial de la Escuela Superior de Diseño de Madrid.
                 </div>
             </div>
         </div>
@@ -79,14 +79,14 @@
         </div>
 
         <div
-            class="colum flex pt-20 px-64 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-[1500px]:px-60">
+            class="colum max-[1440px]:px-32 flex pt-20 px-64 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-[1500px]:px-60">
             <div class="info_proyect max-w-[80ch]">
                 <div class="info_secondary flex flex-col gap-6 sticky top-48 max-[1500px]:gap-12">
                     <div
-                        class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-[#FFFFF] pb-6 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left max-sm:pb-0">
-                        PROTOTIPADO FIGMA</div>
+                        class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
+                        <p class="font-['PPE-UltralightItalic']">Prototipado</p>FIGMA</div>
                     <div
-                        class="text text-[20px] font-['SFUIDisplay-Regular'] indent-12 text-white max-w-[70ch] max-xl:text-sm max-[1500px]:text-[16px] max-[1500px]:max-w-[100ch]">
+                        class="text text-[20px] font-['SFUIDisplay-Regular'] indent-12 text-white max-[1440px]:max-w-[50ch] max-w-[70ch] max-xl:text-sm max-[1500px]:text-[16px] max-[1500px]:max-w-[100ch]">
                         Para este rediseño de la Escuela Superior de Madrid, se ha utilizado los mismo colores y
                         tipografías
                         pero hemos variado los conceptos princiapales.
@@ -117,8 +117,8 @@
         <div id="primercompartimento"
             class="titular2 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
-                class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
-                COMPONENTES</div>
+                        class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
+                        <p class="font-['PPE-UltralightItalic']">Componentes</p>INDIVIDUALES</div>
             <div
                 class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[1280px]:p-0">
 
@@ -145,36 +145,37 @@
 
             <div class="grid grid-cols-1">
                 <div
-                    class="titular text-[40px] font-['Domaine-Display'] text-center leading-10 font-bold text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
-                    BOTONES</div>
+                class="titular max-[1440px]:pt-12 max-[1440px]:pb-12 max-[1440px]:text-center text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
+                LIBRO IMPRESO</div>
+        
 
                 <img class="image_grid w-full h-full pb-6" src="/img/componentes.png" alt="">
                 <div
-                    class="titular pt-32 p-12 text-[40px] font-['Domaine-Display'] text-center leading-10 font-bold text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
-                    FORMULARIOS</div>
+                class="titular max-[1440px]:pt-12 max-[1440px]:pb-12 max-[1440px]:text-center text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
+                FORMULARIOS</div>
                 <img class="image_grid w-full h-full pb-6" src="/img/componentes2.png" alt="">
                 <div
-                    class="titular pt-32 p-12 text-[40px] font-['Domaine-Display'] text-center leading-10 font-bold text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
+                class="titular max-[1440px]:pt-12 max-[1440px]:pb-12 max-[1440px]:text-center text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
                     PREGUNTAS</div>
                 <img class="image_grid w-full h-full pb-6" src="/img/componentes3.png" alt="">
                 <div
-                    class="titular pt-32 p-12 text-[40px] font-['Domaine-Display'] text-center leading-10 font-bold text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
+                class="titular max-[1440px]:pt-12 max-[1440px]:pb-12 max-[1440px]:text-center text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
                     NEWSLETTER</div>
                 <img class="image_grid w-full h-full pb-6" src="/img/componentes4.png" alt="">
                 <div
-                    class="titular pt-32 p-12 text-[40px] font-['Domaine-Display'] text-center leading-10 font-bold text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
+                class="titular max-[1440px]:pt-12 max-[1440px]:pb-12 max-[1440px]:text-center text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
                     CARDS TFG</div>
                 <img class="image_grid w-full h-full pb-6" src="/img/componentes5.png" alt="">
                 <div
-                    class="titular pt-32 p-12 text-[40px] font-['Domaine-Display'] text-center leading-10 font-bold text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
+                class="titular max-[1440px]:pt-12 max-[1440px]:pb-12 max-[1440px]:text-center text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
                     BANNER</div>
                 <img class="image_grid w-full h-full pb-6" src="/img/componentes6.png" alt="">
                 <div
-                    class="titular pt-32 p-12 text-[40px] font-['Domaine-Display'] text-center leading-10 font-bold text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
+                class="titular max-[1440px]:pt-12 max-[1440px]:pb-12 max-[1440px]:text-center text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
                     CARDS EMPRESAS</div>
                 <img class="image_grid w-full h-full pb-6" src="/img/componentes7.png" alt="">
                 <div
-                    class="titular pt-32 p-12 text-[40px] font-['Domaine-Display'] text-center leading-10 font-bold text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
+                class="titular max-[1440px]:pt-12 max-[1440px]:pb-12 max-[1440px]:text-center text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
                     FOOTER</div>
                 <img class="image_grid w-full h-full pb-6" src="/img/componentes8.png" alt="">
             </div>
@@ -184,8 +185,8 @@
         <div id="primercompartimento"
             class="titular2 flex px-64 pb-12 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
-                class="titular text-[40px] font-['Domaine-Display'] text-start leading-10 font-bold text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
-                PROCESO</div>
+            class="titular max-[1440px]:text-left text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
+            PROCESO</div>
             <div
                 class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[1280px]:p-0">
 

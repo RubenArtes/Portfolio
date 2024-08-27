@@ -15,8 +15,8 @@
 
         </div>
         <VueScrollProgressBar background-color="#52525B" />
-        <div
-            class="titular2 flex px-64 gap-64 content-start space-between justify-center pt-20 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-[1500px]:flex-col max-[1500px]:gap-2 max-[1500px]:items-center max-[1700px]:px-10">
+        <div id="navegacion"
+            class="titular2 flex px-64 gap-32 content-start space-between justify-center pt-32 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-[1500px]:flex-col max-[1500px]:gap-2 max-[1500px]:items-center max-[1700px]:px-10">
             <div
                 class="titular text-[120px] max-sm:text-[40px] font-['PPE-UltralightItalic'] leading-[120px] pt-4 max-[1920px]:hidden font-bold animate-pulse bg-gradient-to-r bg-clip-text text-transparent animate-text max-[1500px]:text-left max-[1280px]:text-[100px] from-[#2c2c2c] via-[#aaaaaa] to-[#9f9f9f]">
                 Audio
@@ -25,7 +25,7 @@
             </div>
 
             <div
-                class="titular hidden text-[100px] max-sm:text-[40px] font-['PPE-Ultralight'] leading-[50px] max-[1920px]:flex font-bold text-center animate-pulse bg-gradient-to-r bg-clip-text text-transparent animate-text max-[1500px]:text-center max-[1280px]:text-[100px] from-[#2c2c2c] via-[#aaaaaa] to-[#9f9f9f]">
+            class="titular max-[1440px]:text-center max-[1440px]:leading-[120px] max-[1440px]:pb-16 text-[120px] font-['PPE-Ultralight'] leading-12 font-bold animate-pulse bg-gradient-to-r bg-clip-text text-transparent animate-text max-sm:text-[55px] max-[1500px]:text-left max-[1280px]:text-[100px] from-[#88878a] via-[#cae1ff] to-[#7c7c7c] max-sm:text-center max-sm:leading-[60px]">
                 AUDIO
                 <br>
                 VISUALES
@@ -48,12 +48,11 @@
             </div>
         </div>
 
-
         <div
-            class="trabajos flex pt-40 px-40 pb-20 items-start text-white flex-nowrap gap-96 justify-center max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-xl:text-center max-xl:pt-0 max-xl:pb-16 max-[1500px]:px-20 max-[1500px]:justify-between">
+            class="trabajos max-[1440px]:px-32 flex max-sm:justify-start max-sm:pb-24 pt-20 px-40 pb-20 items-start text-white flex-nowrap gap-96 justify-center max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-start max-xl:text-center max-xl:pt-0 max-xl:pb-16 max-[1500px]:px-20 max-[1500px]:justify-between">
             <div class="info flex flex-col">
                 <div
-                    class="text max-w-[200ch] text-center font-['PPE-Ultralight'] uppercase text-[24px] leading-10 text-zinc-800 max-xl:text-xs">
+                    class="text max-w-[200ch] max-sm:text-left text-center font-['PPE-Ultralight'] max-sm:text-[20px] pb-4 uppercase text-[24px] leading-10 text-zinc-900 max-xl:text-xs">
                     Asignatura</div>
                 <div
                     class="text max-w-[200ch] font-['SFUIDisplay-Light'] text-center text-[16px] leading-6 text-zinc-900 max-xl:text-sm max-xl:max-w-[40ch]">
@@ -73,8 +72,8 @@
                 <div
                     class="text max-w-[60ch] font-['PPE-Ultralight'] text-center text-[24px] uppercase leading-10 text-zinc-800 max-xl:text-xs">
                     Briefing</div>
-                <div
-                    class="text max-w-[20ch] text-center font-['SFUIDisplay-Light']  text-[16px] leading-6 text-zinc-900 max-xl:text-sm max-xl:max-w-[40ch]">
+                    <div
+                    class="text max-w-[20ch] text-center font-['SFUIDisplay-Regular'] max-sm:text-left text-[16px] leading-6 text-zinc-900 max-xl:text-sm max-[1440px]:max-w-[60ch]">
                     Creación de piezas y proyectos visuales.
                 </div>
             </div>
@@ -114,13 +113,13 @@
 
 
         <div
-            class="flex flex-col max-sm:hidden grid-cols-1 grid-rows-3 items-stretch pb-32 max-[1280px]:p-10 max-[1500px]:px-60 max-sm:px-0 max-[800px]:grid-cols-1">
+            class="flex max-[1440px]:px-0 flex-col max-sm:hidden grid-cols-1 grid-rows-3 items-stretch pb-32 max-[1280px]:p-10 max-[1500px]:px-60 max-sm:px-0 max-[800px]:grid-cols-1">
 
             <NuxtLink to="/Audiovisual2" target="_blank">
                 <div
                     class="trabajo1 text-zinc-800 border-zinc-800 border border-solid border-r-0 flex flex-col border-l-0 border-b-0 hover:bg-[url('/img/puff2.gif')] bg-cover bg-center hover:text-white max-[1840px]:px-16 max-sm:px-0 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-12 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
                     <div
-                        class="text text-center text-[200px] leading-[8rem] pt-40 font-['PPE-Ultralight'] justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
+                        class="text max-[1440px]:text-[170px] text-center text-[200px] leading-[8rem] pt-40 font-['PPE-Ultralight'] justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
                         LETTERING 3D
                     </div>
                     <div
@@ -134,7 +133,7 @@
                 <div
                     class="trabajo1 text-zinc-800 border-zinc-800 border border-solid border-r-0 flex flex-col border-l-0 border-t-1 hover:bg-[url('/img/variacionesfinal.gif')] bg-cover bg-center hover:text-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
                     <div
-                        class="text text-center text-[200px] leading-[8rem] pt-40 font-['PPE-Ultralight'] justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
+                        class="text max-[1440px]:text-[170px] text-center text-[200px] leading-[8rem] pt-40 font-['PPE-Ultralight'] justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
                         MONSTRUOS INC
                     </div>
                     <div
@@ -149,7 +148,7 @@
                 <div
                     class="trabajo1 text-zinc-800 border-zinc-800 border border-solid border-r-0 flex flex-col border-l-0 border-t-0 hover:bg-[url('/img/animacion2.gif')] bg-cover bg-center hover:text-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
                     <div
-                        class="text text-center text-[200px] leading-[8rem] pt-40 font-['PPE-Ultralight'] justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
+                        class="text max-[1440px]:text-[170px] text-center text-[200px] leading-[8rem] pt-40 font-['PPE-Ultralight'] justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
                         ROBOT
                     </div>
                     <div
@@ -163,7 +162,7 @@
                 <div
                     class="trabajo1 text-zinc-800 border-zinc-800 border border-solid border-r-0 flex flex-col border-l-0 border-t-0 hover:bg-[url('/img/videoruben.gif')] bg-cover bg-center hover:text-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
                     <div
-                        class="text text-center text-[200px] leading-[8rem] pt-40 font-['PPE-Ultralight'] justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
+                        class="text max-[1440px]:text-[170px] text-center text-[200px] leading-[8rem] pt-40 font-['PPE-Ultralight'] justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
                         ROTOSCOPIA
                     </div>
                     <div

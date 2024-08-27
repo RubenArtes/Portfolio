@@ -38,7 +38,7 @@
       </div>
 
       <div
-            class="trabajos flex max-sm:justify-start max-sm:pb-24 pt-20 px-40 pb-20 items-start text-white flex-nowrap gap-96 justify-center max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-start max-xl:text-center max-xl:pt-0 max-xl:pb-16 max-[1500px]:px-20 max-[1500px]:justify-between">
+            class="trabajos max-[1440px]:px-32 flex max-sm:justify-start max-sm:pb-24 pt-20 px-40 pb-20 items-start text-white flex-nowrap gap-96 justify-center max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-start max-xl:text-center max-xl:pt-0 max-xl:pb-16 max-[1500px]:px-20 max-[1500px]:justify-between">
             <div class="info flex flex-col">
                 <div
                     class="text max-w-[200ch] max-sm:text-left text-center font-['PPE-Ultralight'] max-sm:text-[20px] pb-4 uppercase text-[24px] leading-10 text-white max-xl:text-xs">
@@ -62,14 +62,14 @@
                     class="text max-w-[200ch] max-sm:text-left text-center font-['PPE-Ultralight'] max-sm:text-[20px] pb-4 uppercase text-[24px] leading-10 text-white max-xl:text-xs">
                     Briefing</div>
                 <div
-                    class="text max-w-[20ch] text-center font-['SFUIDisplay-Regular'] max-sm:text-left text-[16px] leading-6 text-white max-xl:text-sm max-xl:max-w-[40ch]">
+                    class="text max-w-[20ch] text-center font-['SFUIDisplay-Regular'] max-sm:text-left text-[16px] leading-6 text-white max-xl:text-sm max-[1440px]:max-w-[60ch]">
                     Creación de Artes Finales y producción de libro impreso.
                 </div>
             </div>
         </div>
 
 
-      <div class="video flex pt-20 px-64 pb-20 text-zinc-600 flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:px-0 max-sm:pb-24">
+      <div class="video max-[1440px]:px-12 flex pt-20 px-64 pb-20 text-zinc-600 flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:px-0 max-sm:pb-24">
         <video class="justify-self-center max-w-[1240px] max-h-[788px] max-sm:w-full" loop autoplay>
           <source src="/img/fanzine3.mp4" type="video/mp4">
           Your browser does not support the video tag.
@@ -99,7 +99,7 @@
 
         </div>
   
-        <div class="px-64 max-sm:px-4 grid grid-cols-2 gap-2 max-xl:grid-cols-1 max-sm:pb-24">
+        <div class="px-64 max-[1440px]:px-12 max-sm:px-4 grid grid-cols-2 gap-2 max-xl:grid-cols-1 max-sm:pb-24">
           <img class="image_grid w-full h-full" src="/img/libroexperimental.png" alt="">
           <img class="image_grid w-full h-full" src="/img/libroexperimental2.png" alt="">
           <img class="image_grid w-full h-full" src="/img/libroexperimental3.png" alt="">

@@ -45,7 +45,7 @@
 
 
         <div
-            class="trabajos flex max-sm:justify-start pt-20 px-40 pb-20 items-start text-white flex-nowrap gap-96 justify-center max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-start max-xl:text-center max-xl:pt-0 max-xl:pb-16 max-[1500px]:px-20 max-[1500px]:justify-between">
+            class="trabajos max-[1440px]:px-32 flex max-sm:justify-start max-sm:pb-24 pt-20 px-40 pb-20 items-start text-white flex-nowrap gap-96 justify-center max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-start max-xl:text-center max-xl:pt-0 max-xl:pb-16 max-[1500px]:px-20 max-[1500px]:justify-between">
             <div class="info flex flex-col">
                 <div
                     class="text max-w-[200ch] max-sm:text-left text-center font-['PPE-Ultralight'] max-sm:text-[20px] pb-4 uppercase text-[24px] leading-10 text-zinc-800 max-xl:text-xs">
@@ -81,7 +81,7 @@
         </div>
 
         <div
-            class="grid grid-cols-3 gap-8 px-8 pb-12 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-sm:hidden">
+            class="grid max-[1440px]:px-8 grid-cols-3 gap-8 px-8 pb-12 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-sm:hidden">
             <a class="type text-[14px] font-['Neue'] uppercase">▲ Render 3D</a>
         </div>
 
@@ -213,8 +213,9 @@
         <div
             class="titular2 flex px-64 pb-2 gap-64 pt-32 content-start space-between justify-center pt-20 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
-                        class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
-                        <p class="font-['PPE-Ultralightitalic'] max-sm:pb-2">Tipografías,</p> JERARQUÍA E INFORMACIÓN</div>
+                class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
+                <p class="font-['PPE-Ultralightitalic'] max-sm:pb-2">Tipografías,</p> JERARQUÍA E INFORMACIÓN
+            </div>
             <div
                 class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[1280px]:p-0">
 
@@ -237,29 +238,29 @@
         </div>
 
 
-        <img class="image_grid w-full h-full px-[500px] pt-12 items-center justify-center max-sm:px-0 max-[1280px]:p-0"
+        <img class="image_grid w-full h-full max-[1440px]:px-64 px-[500px] pt-12 items-center justify-center max-sm:px-0 max-[1280px]:p-0"
             src="/img/3frutaslettering.png" alt="">
 
-        <img class="image_grid w-full h-full pb-32 px-[500px] items-center justify-center max-sm:px-0 max-[1280px]:p-0"
+        <img class="image_grid w-full h-full max-[1440px]:px-64 pb-32 px-[500px] items-center justify-center max-sm:px-0 max-[1280px]:p-0"
             src="/img/lettering.png" alt="">
 
-        <img class="image_grid px-[500px] pb-32 w-full h-full items-center justify-center max-sm:px-0 max-[1280px]:p-0 max-[800px]:pt-12"
+        <img class="image_grid px-[500px] max-[1440px]:px-64 pb-32 w-full h-full items-center justify-center max-sm:px-0 max-[1280px]:p-0 max-[800px]:pt-12"
             src="/img/3frutas.png" alt="">
 
 
         <div
-            class="images pt-20 pb-6 text-white justify-center content-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4 max-[1500px]:px-60 max-[800px]:px-0 max-[800px]:pt-12">
+            class="images pt-20 pb-6 max-[1440px]:px-0 text-white justify-center content-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4 max-[1500px]:px-60 max-[800px]:px-0 max-[800px]:pt-12">
 
             <img src="/img/todospackaging.png" alt="" class="foto justify-center content-center w-full h-full">
-            
+
         </div>
 
         <div
-            class="grid grid-cols-3 gap-8 px-8 pb-12 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-sm:hidden">
+            class="grid max-[1440px]:px-8 grid-cols-3 gap-8 px-8 pb-12 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-sm:hidden">
             <a class="type text-[14px] font-['Neue'] uppercase">▲ Render 3D</a>
         </div>
 
-        
+
 
         <div
             class="grid grid-cols-3 gap-32 px-60 pb-4 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-[800px]:gap-2">
@@ -286,8 +287,9 @@
         <div
             class="titular2 flex px-64 pb-2 gap-64 pt-32 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:px-60 max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
-                        class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
-                        <p class="font-['PPE-Ultralightitalic'] max-sm:pb-2">Intercambio</p> DE PIEZAS</div>
+                class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
+                <p class="font-['PPE-Ultralightitalic'] max-sm:pb-2">Intercambio</p> DE PIEZAS
+            </div>
             <div
                 class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:px-0 max-[1280px]:p-0">
 
@@ -326,7 +328,7 @@
         </div>
 
         <div
-            class="grid grid-cols-3 gap-8 max-sm:px-4 max-sm:gap-2 px-8 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60">
+            class="grid max-[1440px]:px-8 grid-cols-3 gap-8 max-sm:px-4 max-sm:gap-2 px-8 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60">
 
             <img class="image_grid w-full h-full" src="/img/combinación1.png" alt="">
             <img class="image_grid w-full h-full" src="/img/combinación2.png" alt="">
@@ -335,15 +337,16 @@
         </div>
 
         <div
-            class="grid grid-cols-3 gap-8  px-8 pb-32 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-sm:hidden">
+            class="grid grid-cols-3 gap-8 max-[1440px]:px-8 px-8 pb-32 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-sm:hidden">
             <a class="type text-[14px] pt-4 font-['Neue'] uppercase">▲ Combinación entre packs</a>
         </div>
 
         <div
             class="titular2 flex px-64 pb-40 gap-64 pt-24 content-start space-between justify-center pt-20 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:px-60 max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
-                        class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
-                        <p class="font-['PPE-Ultralightitalic'] max-sm:pb-2">Bocetos y</p> CREACIÓN</div>
+                class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
+                <p class="font-['PPE-Ultralightitalic'] max-sm:pb-2">Bocetos y</p> CREACIÓN
+            </div>
             <div
                 class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:px-0 max-[1280px]:p-0">
 
@@ -366,7 +369,7 @@
         </div>
 
         <div
-            class="grid grid-cols-2 gap-2 items-center justify-items-center px-64 pb-32 max-sm:px-10 max-[1280px]:p-10 max-[1500px]:px-60 max-sm:grid-cols-1">
+            class="grid max-[1440px]:px-32 grid-cols-2 gap-2 items-center justify-items-center px-64 pb-32 max-sm:px-10 max-[1280px]:p-10 max-[1500px]:px-60 max-sm:grid-cols-1">
 
             <Carousel class="carousel max-w-[320px]">
 

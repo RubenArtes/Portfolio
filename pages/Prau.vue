@@ -15,21 +15,21 @@
 
         </div>
         <VueScrollProgressBar background-color="#52525B" />
-        <div
-        class="titular2 flex px-64 gap-80 content-start space-between justify-center pt-32 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-[1500px]:flex-col max-[1500px]:gap-2 max-[1500px]:items-center max-[1700px]:px-10">
+        <div id="navegacion"
+            class="titular2 flex px-64 gap-32 content-start space-between justify-center pt-32 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-[1500px]:flex-col max-[1500px]:gap-2 max-[1500px]:items-center max-[1700px]:px-10">
             <div
-            class="titular text-[120px] font-['PPE-Ultralight'] leading-[130px] font-bold animate-pulse bg-gradient-to-r bg-clip-text text-transparent animate-text max-sm:text-[55px] max-[1500px]:text-left max-[1280px]:text-[100px] from-[#311568] via-[#4797ff] to-[#311568]  ">
+            class="titular text-[120px] font-['PPE-Ultralight'] leading-12 font-bold animate-pulse bg-gradient-to-r bg-clip-text text-transparent animate-text max-sm:text-[55px] max-[1440px]:leading-[140px] max-[1500px]:text-center max-[1280px]:text-[100px] from-[#311568] via-[#4797ff] to-[#311568]  ">
                 MARCA <br> PRAU</div>
             <div
                 class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:pt-6 max-sm:pb-16 max-sm:px-0 max-[1280px]:items-center max-[1280px]:pt-6 max-[1280px]:pb-0">
 
                 <div
-                    class="text max-w-[60ch] text-[16px] uppercase text-zinc-900 max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
+                    class="text max-w-[60ch] text-[16px] max-[1440px]:pt-12 uppercase text-zinc-900 max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
                     Diseño Prau - Packaging - Marca -
                     Diseño Gráfico</div>
-                <div
-                class="text max-w-[80ch] pb-16 pt-4 max-sm:text-left text-left font-['SFUIDisplay-Regular'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:max-w-[100ch] max-[800px]:pb-4">
-                    Este trabajo consiste en
+                    <div
+                class="text max-w-[80ch] max-[1440px]:pt-12 pb-16 pt-4 max-sm:text-left text-left font-['SFUIDisplay-Regular'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:max-w-[100ch] max-[800px]:pb-4">
+                Este trabajo consiste en
                     realizar una identidad visual de un distribuidor de productos y alimentos de km0, que cumplan ciertas
                     condiciones, como productos de buena calidad y relación calidad precio y que sean productos artesanos y
                     de proximidad. Creación de la marca visual, logo y tres productos, uno siendo el vino el principal
@@ -44,7 +44,7 @@
 
 
         <div
-            class="trabajos flex max-sm:justify-start max-sm:pb-24 pt-20 px-40 pb-20 items-start text-white flex-nowrap gap-96 justify-center max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-start max-xl:text-center max-xl:pt-0 max-xl:pb-16 max-[1500px]:px-20 max-[1500px]:justify-between">
+            class="trabajos max-[1440px]:px-32 flex max-sm:justify-start max-sm:pb-24 pt-20 px-40 pb-20 items-start text-white flex-nowrap gap-96 justify-center max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-start max-xl:text-center max-xl:pt-0 max-xl:pb-16 max-[1500px]:px-20 max-[1500px]:justify-between">
             <div class="info flex flex-col">
                 <div
                     class="text max-w-[200ch] max-sm:text-left text-center font-['PPE-Ultralight'] max-sm:text-[20px] pb-4 uppercase text-[24px] leading-10 text-zinc-800 max-xl:text-xs">
@@ -80,11 +80,11 @@
             
         </div>
         <div
-            class="grid grid-cols-3 gap-8  px-8 pb-32 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-sm:hidden">
+            class="grid max-[1440px]:px-8 grid-cols-3 gap-8  px-8 pb-32 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-sm:hidden">
             <a class="type text-[14px] pt-4 font-['Neue'] uppercase">▲ Mockup de etiquetado delantero/trasero</a>
         </div>
         <div
-            class="colum flex pt-20 px-64 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-[1500px]:px-60">
+            class="colum flex max-[1440px]:px-32 pt-20 px-64 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-[1500px]:px-60">
             <div class="info_proyect max-w-[80ch]">
                 <div class="info_secondary flex flex-col gap-6 sticky top-32 max-[1500px]:gap-12">
                     <div
@@ -152,19 +152,19 @@
         </div>
 
         <div
-        class="images pt-20 pb-4 text-white justify-center content-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4 max-[1500px]:px-60 max-[800px]:px-0 max-[800px]:pt-12">
+        class="images max-[1440px]:px-0 pt-20 pb-4 text-white justify-center content-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4 max-[1500px]:px-60 max-[800px]:px-0 max-[800px]:pt-12">
 
             <img class="image_grid w-full h-full" src="/img/mockupmer_3.png" alt="">
 
         </div>
 
         <div
-            class="grid grid-cols-3 gap-8  px-8 pb-32 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-sm:hidden">
+            class="grid max-[1440px]:px-8 grid-cols-3 gap-8  px-8 pb-32 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-sm:hidden">
             <a class="type text-[14px] pt-4 font-['Neue'] uppercase">▲ Mockup etiquetado de Mermelada</a>
         </div>
 
         <div
-            class="grid grid-cols-2 items-center justify-items-center pb-12 max-sm:px-0 max-sm:grid-cols-1 max-[1280px]:p-10 max-[1500px]:px-60">
+            class="grid max-[1440px]:px-0 grid-cols-2 items-center justify-items-center pb-12 max-sm:px-0 max-sm:grid-cols-1 max-[1280px]:p-10 max-[1500px]:px-60">
 
             <img class="image_grid border-t border-b w-full h-full max-sm:border-b-0" src="/img/etiquetafrontal.png" alt="">
             <img class="image_grid border-t border-b w-full h-full" src="/img/etiquetatrasera.png" alt="">
@@ -211,7 +211,7 @@
 
         
         <div
-        class="images pt-12 pb-4 text-white justify-center content-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4 max-[1500px]:px-60 max-[800px]:px-0 max-[800px]:pt-4">
+        class="images max-[1440px]:px-0 pt-12 pb-4 text-white justify-center content-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4 max-[1500px]:px-60 max-[800px]:px-0 max-[800px]:pt-4">
 
             <img class="image_grid w-full h-full max-sm:hidden" src="/img/vinospng2.png" alt="">
         </div>
@@ -220,7 +220,7 @@
         <img class="image_grid w-full h-full min-[800px]:hidden max-sm:flex" src="/img/botella2.png" alt="">
 
         <div
-            class="grid grid-cols-3 gap-8  px-8 pb-32 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-sm:hidden">
+            class="grid max-[1440px]:px-8 grid-cols-3 gap-8  px-8 pb-32 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-sm:hidden">
             <a class="type text-[14px] pt-4 font-['Neue'] uppercase">▲ Etiquetado botellas por delante/detras</a>
         </div>
 
@@ -252,7 +252,7 @@
 
         
         <div
-        class="images pt-12 pb-4 justify-center content-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4 max-[1500px]:px-60 max-[800px]:px-0 max-[800px]:pt-4">
+        class="images pt-12 max-[1440px]:px-0 pb-4 justify-center content-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4 max-[1500px]:px-60 max-[800px]:px-0 max-[800px]:pt-4">
 
             <img class="image_grid w-full h-full" src="/img/quesoprau5.png" alt="">
         </div>
@@ -262,7 +262,7 @@
             <a class="type text-[14px] pt-4 font-['Neue'] uppercase">▲ FOTOGRAFÍA ETIQUETA QUESOS</a>
         </div>
 
-        <div class="texto flex gap-[53rem] justify-center pt-24 max-sm:gap-16">
+        <div class="texto max-[1440px]:px-32 max-[1440px]:gap-80 flex gap-[53rem] justify-center pt-24 max-sm:gap-16">
             <div
                     class="text max-w-[80ch] pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600  max-sm:text-[12px]">
                 ETIQUETA TRASERA
@@ -275,7 +275,7 @@
         </div>
 
         <div
-        class="images pt-2 pb-2 text-white justify-center content-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4 max-[1500px]:px-60 max-[800px]:px-0 max-[800px]:pt-4">
+        class="images max-[1440px]:px-12 pt-2 pb-2 text-white justify-center content-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4 max-[1500px]:px-60 max-[800px]:px-0 max-[800px]:pt-4">
 
             <img class="image_grid w-full h-full" src="/img/etiquetaqueso.png" alt="">
         </div>
@@ -305,7 +305,7 @@
         </div>
 
         <div
-            class="grid grid-cols-4 pt-32 gap-12 px-60 pb-32 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-sm:gap-2">
+            class="grid max-[1440px]:px-12 grid-cols-4 pt-32 gap-12 px-60 pb-32 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-sm:gap-2">
 
             <img class="image_grid w-full h-full" src="/img/marca2.png" alt="">
             <img class="image_grid w-full h-full" src="/img/marca1.png" alt="">
@@ -315,7 +315,7 @@
         </div>
 
         <div
-        class="images pt-12 pb-2 text-white justify-center content-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4 max-[1500px]:px-60 max-[800px]:px-0 max-[800px]:pt-4 max-sm:gap-4">
+        class="images max-[1440px]:px-0 pt-12 pb-2 text-white justify-center content-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4 max-[1500px]:px-60 max-[800px]:px-0 max-[800px]:pt-4 max-sm:gap-4">
 
             <img class="image_grid w-full h-full" src="/img/rotulofachada.jpg" alt="">
         </div>
@@ -351,7 +351,7 @@
         </div>
 
         <div
-            class="grid grid-cols-1 gap-0 items-center justify-items-center px-64 pb-32 max-sm:px-10 max-[1280px]:p-10 max-[1500px]:px-60 max-sm:grid-cols-1">
+            class="grid max-[1440px]:px-24 grid-cols-1 gap-0 items-center justify-items-center px-64 pb-32 max-sm:px-10 max-[1280px]:p-10 max-[1500px]:px-60 max-sm:grid-cols-1">
             
             <img class="image_grid w-full h-full " src="/img/ilustracionesfinales1.png" alt="">
 

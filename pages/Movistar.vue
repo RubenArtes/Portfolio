@@ -40,7 +40,7 @@
         </div>
 
         <div
-            class="trabajos flex max-sm:justify-start max-sm:pb-24 pt-20 px-40 pb-20 items-start text-white flex-nowrap gap-96 justify-center max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-start max-xl:text-center max-xl:pt-0 max-xl:pb-16 max-[1500px]:px-20 max-[1500px]:justify-between">
+            class="trabajos max-[1440px]:px-32 flex max-sm:justify-start max-sm:pb-24 pt-20 px-40 pb-20 items-start text-white flex-nowrap gap-96 justify-center max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-start max-xl:text-center max-xl:pt-0 max-xl:pb-16 max-[1500px]:px-20 max-[1500px]:justify-between">
             <div class="info flex flex-col">
                 <div
                     class="text max-w-[200ch] max-sm:text-left text-center font-['PPE-Ultralight'] max-sm:text-[20px] pb-4 uppercase text-[24px] leading-10 text-white max-xl:text-xs">
@@ -64,8 +64,8 @@
                     class="text max-w-[200ch] max-sm:text-left text-center font-['PPE-Ultralight'] max-sm:text-[20px] pb-4 uppercase text-[24px] leading-10 text-white max-xl:text-xs">
                     Briefing</div>
                 <div
-                    class="text max-w-[20ch] text-center font-['SFUIDisplay-Regular'] max-sm:text-left text-[16px] leading-6 text-white max-xl:text-sm max-xl:max-w-[40ch]">
-                    Cortinillas informativas para programa de televisión o canal audiovisual.
+                class="text max-w-[20ch] text-center font-['SFUIDisplay-Regular'] max-sm:text-left text-[16px] leading-6 text-white max-xl:text-sm max-[1440px]:max-w-[60ch]">
+                Cortinillas informativas para programa de televisión o canal audiovisual.
                 </div>
             </div>
         </div>
@@ -90,7 +90,7 @@
 
 
         <div
-            class="colum flex pt-20 px-64 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-[1500px]:px-60">
+            class="colum flex pt-20 px-64 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-[1440px]:px-32">
             <div class="info_proyect">
                 <div class="info_secondary flex flex-col gap-8 sticky top-32 max-[1500px]:gap-12">
                     <div
@@ -255,26 +255,26 @@
         </div>
 
         <div
-            class="grid grid-rows-1 gap-12 items-center justify-items-center pt-12 px-32 pb-32 max-sm:px-4 max-[1280px]:p-10 max-[1500px]:px-60 max-[800px]:grid-cols-1 max-sm:gap-8 max-sm:pt-0">
+            class="grid max-[1440px]:px-12 max-[1440px]:gap-4 grid-rows-1 gap-12 items-center justify-items-center pt-12 px-32 pb-32 max-sm:px-4 max-[1280px]:p-10 max-[1500px]:px-60 max-[800px]:grid-cols-1 max-sm:gap-8 max-sm:pt-0">
 
             <div
-                class="text max-w-[80ch] leading-[200px] pt-4 text-center font-['Apercu-Light'] text-[240px] max-[1920px]:text-[170px] text-white max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:text-[40px]">
+                class="text max-w-[80ch] leading-[200px] pt-4 text-center font-['Apercu-Light'] text-[240px] max-[1440px]:text-[150px] max-[1920px]:text-[130px] text-white max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:text-[40px]">
                 Apercu Pro Light
             </div>
 
 
             <div
-                class="text max-w-[80ch] leading-[200px] pt-4 text-center font-['Apercu-Regular'] text-[240px] max-[1920px]:text-[170px] max-[1920px]:max-w-[140ch] text-white max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:text-[40px]">
+                class="text max-w-[80ch] leading-[200px] pt-4 text-center font-['Apercu-Regular'] text-[240px] max-[1920px]:text-[170px] max-[1440px]:text-[130px]  max-[1920px]:max-w-[140ch] text-white max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:text-[40px]">
                 Apercu Pro Regular
             </div>
 
             <div
-                class="text max-w-[80ch] leading-[200px] pt-4 text-center font-['Apercu-Medium'] text-[240px] max-[1920px]:text-[180px] max-[1920px]:max-w-[140ch] text-white max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:text-[40px]">
+                class="text max-w-[80ch] leading-[200px] pt-4 text-center font-['Apercu-Medium'] text-[240px] max-[1920px]:text-[180px] max-[1440px]:text-[130px]  max-[1920px]:max-w-[140ch] text-white max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:text-[40px]">
                 Apercu Pro Medium
             </div>
 
             <div
-                class="text max-w-[80ch] leading-[200px] pt-4 text-center font-['Apercu-Bold'] text-[240px] max-[1920px]:text-[200px] text-white max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:text-[40px]">
+                class="text max-w-[80ch] leading-[200px] pt-4 text-center font-['Apercu-Bold'] text-[240px] max-[1920px]:text-[200px] max-[1440px]:text-[130px] text-white max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:text-[40px]">
                 Apercu Pro Bold
             </div>
 
@@ -288,7 +288,7 @@
         </div>
 
         <div
-            class="grid grid-cols-3 grid-rows-1 gap-24 items-center justify-items-center pt-12 px-32 pb-2 max-sm:px-4 max-[1280px]:p-10 max-[1500px]:px-60 max-[800px]:grid-cols-1 max-sm:pt-0 max-sm:gap-24">
+            class="grid max-[1440px]:px-12 grid-cols-3 grid-rows-1 gap-24 items-center justify-items-center pt-12 px-32 pb-2 max-sm:px-4 max-[1280px]:p-10 max-[1500px]:px-60 max-[800px]:grid-cols-1 max-sm:pt-0 max-sm:gap-24">
             <img class="image_grid w-full h-full" src="/img/movistarplus1.png" alt="">
             <img class="image_grid w-full h-full" src="/img/movistarplus3.png" alt="">
             <img class="image_grid w-full h-full" src="/img/movistarplus2.png" alt="">
