@@ -104,6 +104,7 @@
           EDITORIAL
           <br>
           MARCA
+          <br>
           ILUSTRACIÓN
           <br>
           RENDER
@@ -203,7 +204,7 @@
     </div>
 
     <div
-      class="accede2 hidden max-sm:flex px-64 text-center justify-center text-zinc-600 pb-16 text-xs max-[720px]:px-4 max-sm:px-20 max-sm:pb-12 max-sm:pt-16">
+      class="accede2 hidden max-sm:flex px-64 text-center justify-center text-zinc-200 pb-16 text-xs max-[720px]:px-4 max-sm:px-20 max-sm:pb-12 max-sm:pt-16">
       «Baja para ver los trabajos y clickea sobre uno para saber más sobre el»
     </div>
 
@@ -784,25 +785,63 @@
         APPS
       </div>
       <div
-        class="programas flex flex-col gap-20 items-center max-lg:gap-8 min-w-[575px] max-lg:items-center max-lg:min-w-[60px] max-lg:grid">
-        <div class="three_programas flex justify-center gap-40 max-lg:grid-cols-3 max-lg:grid max-lg:gap-8">
-          <img class="image_logo max-w-[50px] max-lg:max-w-[50px]" src="/img/AfterEffects.svg" alt="" />
-          <img class="image_logo max-w-[50px] max-lg:max-w-[50px]" src="/img/Photoshop.svg" alt="" />
-          <img class="image_logo max-w-[50px] max-lg:max-w-[50px]" src="/img/Lightroom.svg" alt="" />
+        class="programas grid grid-cols-1 gap-14 max-sm:gap-16 items-center max-lg:gap-8 min-w-[575px] max-lg:items-center max-lg:min-w-[60px] max-lg:grid">
+        <div
+          class="three_programas grid-cols-3 max-sm:gap-16 grid justify-center gap-8 place-items-center max-sm:grid-cols-3 max-lg:grid-cols-3 max-lg:grid max-lg:gap-8">
+          <img class="image_logo max-w-[50px] max-lg:max-w-[50px] max-sm:w-[40px]" src="/img/AfterEffects.svg" alt="" />
+          <img class="image_logo max-w-[50px] max-lg:max-w-[50px] max-sm:w-[40px]" src="/img/Photoshop.svg" alt="" />
+          <img class="image_logo max-w-[50px] max-lg:max-w-[50px] max-sm:w-[40px]" src="/img/Lightroom.svg" alt="" />
+
+          <div
+            class="text place-self-center text-center max-w-[60ch] font-['Neue'] font-normal text-[14px] max-sm:leading-5.5 max-sm:text-[12px] text-zinc-300 max-sm:hidden">
+            Adobe <br> AfterEffects</div>
+          <div
+            class="text place-self-center text-center max-w-[60ch] font-['Neue'] font-normal text-[14px] max-sm:leading-5.5 max-sm:text-[12px] text-zinc-300 max-sm:hidden">
+            Adobe <br>Photoshop</div>
+          <div
+            class="text place-self-center text-center max-w-[60ch] font-['Neue'] font-normal text-[14px] max-sm:leading-5.5 max-sm:text-[12px] text-zinc-300 max-sm:hidden">
+            Adobe <br> Lightroom</div>
+
         </div>
 
-        <div class="three_programas flex justify-center gap-40 max-lg:grid-cols-3 max-lg:grid max-lg:gap-8">
-          <img class="image_logo max-w-[50px] max-lg:max-w-[50px]" src="/img/InDesign.svg" alt="" />
-          <img class="image_logo max-w-[50px] max-lg:max-w-[50px]" src="/img/Illustrator.svg" alt="" />
-          <img class="image_logo max-w-[50px] max-lg:max-w-[50px]" src="/img/Figma.svg" alt="" />
+        <div
+          class="three_programas grid-cols-3 max-sm:gap-16 grid justify-center gap-8 place-items-center max-sm:grid-cols-3 max-lg:grid-cols-3 max-lg:grid max-lg:gap-8">
+          <img class="image_logo max-w-[50px] max-lg:max-w-[50px] max-sm:w-[40px]" src="/img/InDesign.svg" alt="" />
+          <img class="image_logo max-w-[50px] max-lg:max-w-[50px] max-sm:w-[40px]" src="/img/Illustrator.svg" alt="" />
+          <img class="image_logo max-w-[50px] max-lg:max-w-[50px] max-sm:w-[40px]" src="/img/Figma.svg" alt="" />
+
+          <div
+            class="text place-self-center text-center max-w-[60ch] font-['Neue'] font-normal text-[14px] max-sm:leading-5.5 max-sm:text-[12px] text-zinc-300 max-sm:hidden">
+            Adobe <br>InDesign</div>
+          <div
+            class="text place-self-center text-center max-w-[60ch] font-['Neue'] font-normal text-[14px] max-sm:leading-5.5 max-sm:text-[12px] text-zinc-300 max-sm:hidden">
+            Adobe <br>Illustrator</div>
+          <div
+            class="text place-self-center text-center max-w-[60ch] font-['Neue'] font-normal text-[14px] max-sm:leading-5.5 max-sm:text-[12px] text-zinc-300 max-sm:hidden">
+            Figma</div>
+
         </div>
-        <div class="three_programas flex justify-center gap-40 max-lg:grid-cols-3 max-lg:grid max-lg:gap-8">
-          <img class="image_logo w-[50px] h-[49px] max-lg:max-w-[50px] max-lg:max-h-[49px]" src="/img/blender.png"
-            alt="" />
-          <img class="image_logo w-[50px] h-[49px] max-lg:max-w-[50px] max-lg:max-h-[49px]" src="/img/Cinema4d.png"
-            alt="" />
-          <img class="image_logo rounded-lg w-[50px] h-[49px] max-lg:max-w-[50px] max-lg:max-h-[49px]"
+        <div
+          class="three_programas grid-cols-3 max-sm:gap-16 grid justify-center gap-8 place-items-center max-sm:grid-cols-3 max-lg:grid-cols-3 max-lg:grid max-lg:gap-8">
+          <img
+            class="image_logo w-[50px] h-[50px] max-lg:max-w-[50px] max-lg:max-h-[50px] max-sm:h-[40px] max-sm:w-[40px]"
+            src="/img/blender.svg" alt="" />
+          <img
+            class="image_logo w-[50px] h-[50px] max-lg:max-w-[50px] max-lg:max-h-[50px] max-sm:h-[40px] max-sm:w-[40px]"
+            src="/img/Cinema4d.svg" alt="" />
+          <img
+            class="image_logo rounded-lg w-[50px] h-[49px] max-lg:max-w-[50px] max-lg:max-h-[49px] max-sm:h-[40px] max-sm:w-[40px]"
             src="/img/Procreate.png" alt="" />
+
+          <div
+            class="text place-self-center text-center max-w-[60ch] font-['Neue'] font-normal text-[14px] max-sm:leading-5.5 max-sm:text-[12px] text-zinc-300 max-sm:hidden">
+            Blender 4.0</div>
+          <div
+            class="text place-self-center text-center max-w-[60ch] font-['Neue'] font-normal text-[14px] max-sm:leading-5.5 max-sm:text-[12px] text-zinc-300 max-sm:hidden">
+            Cinema 4D</div>
+          <div
+            class="text place-self-center text-center max-w-[60ch] font-['Neue'] font-normal text-[14px] max-sm:leading-5.5 max-sm:text-[12px] text-zinc-300 max-sm:hidden">
+            Procreate</div>
         </div>
       </div>
     </div>
@@ -816,11 +855,12 @@
         </div>
       </div>
 
-      <div class="servicios_ofrecidos flex flex-col gap-6 text-white">
+      <div class="servicios_ofrecidos flex flex-col gap-6 font-['Neue']">
         <div class="servicio flex flex-col gap-6">
           <img class="vector w-[17px]" src="/img/star.svg" />
-          <div class="tittle_servicios font-['PPE-UltralightItalic'] text-[24px]">Fotografía</div>
-          <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400">
+          <div class="tittle_servicios font-['PPE-UltralightItalic'] text-[24px] max-sm:text-[22px] uppercase">
+            Fotografía</div>
+          <div class="text max-w-[60ch] font-normal text-[16px] max-sm:leading-5.5 max-sm:text-[15px] text-zinc-300">
             Experiencia realizando sesiones fotográficas de exterior y interior de modelaje. Fotografía de
             naturaleza o
             urbana.
@@ -831,8 +871,9 @@
         </div>
         <div class="servicio flex flex-col gap-6">
           <img class="vector w-[17px]" src="/img/star.svg" />
-          <div class="tittle_servicios font-['PPE-UltralightItalic'] text-[24px]">Ilustración</div>
-          <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400">
+          <div class="tittle_servicios font-['PPE-UltralightItalic'] text-[24px] max-sm:text-[22px] uppercase">
+            Ilustración</div>
+          <div class="text max-w-[60ch] font-normal text-[16px] max-sm:leading-5.5 max-sm:text-[15px] text-zinc-300">
             Experiencia realizando ilustraciones tradicionales (Acuarela, Acrílico, Rotuladores, Lapiz, etc) e
             ilustraciones
             digitales mediante Procreate (IPad) y otros soportes de ilustración digital.
@@ -840,10 +881,10 @@
         </div>
         <div class="servicio flex flex-col gap-6">
           <img class="vector w-[17px]" src="/img/star.svg" />
-          <div class="tittle_servicios font-['PPE-UltralightItalic'] text-[24px]">
+          <div class="tittle_servicios font-['PPE-UltralightItalic'] text-[24px] max-sm:text-[22px] uppercase">
             Web y Programación
           </div>
-          <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400">
+          <div class="text max-w-[60ch] font-normal text-[16px] max-sm:leading-5.5 max-sm:text-[15px] text-zinc-300">
             Conocimientos altos de HTML y CSS (sass).
             <br />
             Conocimientos medio-altos de
@@ -854,10 +895,10 @@
         </div>
         <div class="servicio flex flex-col gap-6">
           <img class="vector w-[17px]" src="/img/star.svg" />
-          <div class="tittle_servicios font-['PPE-UltralightItalic'] text-[24px]">
+          <div class="tittle_servicios font-['PPE-UltralightItalic'] text-[24px] max-sm:text-[22px] uppercase">
             Pack Adobe y Figma
           </div>
-          <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400">
+          <div class="text max-w-[60ch] font-normal text-[16px] max-sm:leading-5.5 max-sm:text-[15px] text-zinc-300">
             Alto conocimiento en utilización del pack
             <a class="texto_color text-[#dc8f00]">Adobe</a> (concretamente los
             mencionados arriba) y
@@ -867,10 +908,10 @@
         </div>
         <div class="servicio flex flex-col gap-6">
           <img class="vector w-[17px]" src="/img/star.svg" />
-          <div class="tittle_servicios font-['PPE-UltralightItalic'] text-[24px]">
+          <div class="tittle_servicios font-['PPE-UltralightItalic'] text-[24px] max-sm:text-[22px] uppercase">
             Audiovisuales y Multimedia
           </div>
-          <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400">
+          <div class="text max-w-[60ch] font-normal text-[16px] max-sm:leading-5.5 max-sm:text-[15px] text-zinc-300">
             Conocimientos en diferentes ambitos del mundo de audiovisuales,
             concretamente
             <a class="texto_color text-[#9c46e2]">After Effects</a> para Motion
@@ -882,8 +923,9 @@
         </div>
         <div class="servicio flex flex-col gap-6">
           <img class="vector w-[17px]" src="/img/star.svg" />
-          <div class="tittle_servicios font-['PPE-UltralightItalic'] text-[24px]">Maquetación</div>
-          <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400">
+          <div class="tittle_servicios font-['PPE-UltralightItalic'] text-[24px] max-sm:text-[22px] uppercase">
+            Maquetación</div>
+          <div class="text max-w-[60ch] font-normal text-[16px] max-sm:leading-5.5 max-sm:text-[15px] text-zinc-300">
             Conocimientos altos en
             <a class="texto_color text-[#bd3f9d]">Indesign</a> y
             <a class="texto_color text-[#4b6ad1]">Photoshop</a> para la
@@ -893,10 +935,10 @@
         </div>
         <div class="servicio flex flex-col gap-6">
           <img class="vector w-[17px]" src="/img/star.svg" />
-          <div class="tittle_servicios font-['PPE-UltralightItalic'] text-[24px]">
+          <div class="tittle_servicios font-['PPE-UltralightItalic'] text-[24px] max-sm:text-[22px] uppercase">
             Redes Sociales
           </div>
-          <div class="text max-w-[60ch] font-normal text-[16px] text-zinc-400">
+          <div class="text max-w-[60ch] font-normal text-[16px] max-sm:leading-5.5 max-sm:text-[15px] text-zinc-300">
             Conocimientos altos de redes sociales, actualidad y flujo de
             información en las aplicaciones actuales como
             <a class="texto_color text-[#d14bb0]">Instagram, TikTok, Facebook y Twitter.</a>
@@ -915,21 +957,21 @@
       </div>
       <div class="servicios_ofrecidos flex flex-col gap-6 pt-6">
         <div class="servicio flex flex-col gap-6">
-          <div class="text max-w-[60ch] font-normal text-[16px] text-white">
+          <div class="text max-w-[60ch] font-normal text-[16px] max-sm:text-[15px] text-zinc-300">
             Soy un estudiante de 23 años, actualmente terminando un grado
             Universitario de Diseño Gráfico en la Escuela Superior De Diseño de
             Madrid.
-            <a class="animate-pulse texto_type italic text-xs text-white">(Nota media - 9).</a>
+            <a class="animate-pulse texto_type italic text-xs text-zinc-300">(Nota media - 9).</a>
             <br />
             Cuento con un Grado Superior de Ilustración realizado en la Escuela de Artes de Toledo
-            <a class="texto_type italic text-xs text-white animate-pulse">(Nota TFG - 9).</a>
+            <a class="texto_type italic text-xs text-zinc-300 animate-pulse">(Nota TFG - 9).</a>
             <br />
             <br />
             Soy muy polifacetico y no me cierro a ninguna vía del diseño, suelo
             abarcar todos los ambitos, como ya he mostrado anteriormente. Soy
             resolutivo y trabajador.
 
-            <img class="img pt-10" src="/img/yofotoyo.jpeg" alt="" />
+            <img class="img pt-10 max-sm:pt-24" src="/img/yofotoyo.jpeg" alt="" />
           </div>
         </div>
       </div>
@@ -943,33 +985,33 @@
         </div>
       </div>
       <div class="servicios_ofrecidos flex flex-col gap-6 pt-6">
-        <div class="servicio flex flex-col gap-6">
-          <div class="text max-w-[60ch] font-normal text-[16px] text-white">
-            → Ganador de concurso de carteles para
-            <a class="bold font-bold text-white">Villaluenga de la Sagra</a> -
+        <div class="servicio flex flex-col gap-6 font-['Neue']">
+          <div class="text max-w-[60ch] font-normal text-[16px] max-sm:text-[15px] text-zinc-300">
+            ▶ Ganador de concurso de carteles para
+            <a class="bold font-['Neue'] text-white">Villaluenga de la Sagra</a> -
             Cartel para el libro de las fiestas <br />
-            → Creación de cartelería para página web y físico y creación de
+            ▶ Creación de cartelería para página web y físico y creación de
             pictogramas para empresa
-            <a class="bold font-bold text-white">Neumáticos por Poco.</a>
+            <a class="bold font-['Neue'] text-white">Neumáticos por Poco.</a>
             <a class="bold text-xs text-white">- (6 meses)</a> <br />
-            → Renovación y creación de marca para la empresa
-            <a class="bold font-bold text-white">Motor 76.</a>
+            ▶ Renovación y creación de marca para la empresa
+            <a class="bold font-['Neue'] text-white">Motor 76.</a>
             <a class="bold text-xs text-white">- (1 mes)</a> <br />
-            → Creación de ilustraciones para portadas de noticias en
-            <a class="bold font-bold text-white">Ecos Castilla La Mancha.</a>
+            ▶ Creación de ilustraciones para portadas de noticias en
+            <a class="bold font-['Neue'] text-white">Ecos Castilla La Mancha.</a>
             <a class="bold text-xs text-white">- (2 meses)</a> <br />
-            → Diseño de portadas para proyecto musical. <br />
-            → Encargos Freelance de sesiones fotográficas, diseño de tatuajes e
+            ▶ Diseño de portadas para proyecto musical. <br />
+            ▶ Encargos Freelance de sesiones fotográficas, diseño de tatuajes e
             ilustraciones personales.
             <a class="bold text-xs text-white">- (4 años)</a> <br />
-            → Diseñador Freelance por horas para empresas.
+            ▶ Diseñador Freelance por horas para empresas.
             <a class="bold text-xs text-white">- (2 meses)</a> <br />
-            → Trabajo en practicas de empresa extracurriculares
-            <a class="bold animate-pulse font-bold text-white" href="https://www.garridogallery.com/">Garrido
+            ▶ Trabajo en practicas de empresa extracurriculares
+            <a class="bold animate-pulse font-['Neue'] text-white" href="https://www.garridogallery.com/">Garrido
               Gallery</a>
-            (Empresa de diseños y piezas de arte de lujo)<a class="bold text-xs text-black">- (9 meses)</a>
+            (Empresa de diseños y piezas de arte de lujo)<a class="bold text-xs text-white">- (9 meses)</a>
             <br />
-            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; →
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ▶
               Maquetación e impresión del Catalogo 2024</a>
           </div>
         </div>
@@ -986,26 +1028,27 @@
       </div>
       <div class="servicios_ofrecidos flex flex-col gap-6">
         <div class="servicio flex flex-col gap-6">
-          <div class="text max-w-[60ch] font-normal text-[16px] text-white">
-            <br /><a class="bold font-bold text-white">
-              → Bachillerato Artístico
+          <div class="text max-w-[60ch] font-normal text-[16px] max-sm:text-[15px] text-zinc-300 font-['Neue']">
+            <br /><a class="bold text-white font-['Neue']">
+              ▶ Bachillerato Artístico
             </a>
-            en IES El Greco Toledo. <br /><a class="bold font-bold text-white">
-              → Grado Superior de Ilustración</a>
-            en la Escuela de Artes de Toledo. <br /><a class="bold font-bold text-white">
-              → 4º de Grado Universitario de Diseño Gráfico
+            en IES El Greco Toledo. <br /><a class="bold text-white font-['Neue']">
+              ▶ Grado Superior de Ilustración</a>
+            en la Escuela de Artes de Toledo. <br /><a class="bold text-white font-['Neue']">
+              ▶ 4º de Grado Universitario de Diseño Gráfico
             </a>
-            en la Escuela Superior de Diseño de Madrid. <br /><a class="bold font-bold text-white">
-              → Curso extracurricular de 2 años de Arte y Pintura
+            en la Escuela Superior de Diseño de Madrid. <br /><a class="bold text-white font-['Neue']">
+              ▶ Curso extracurricular de 2 años de Arte y Pintura
             </a>
-            en Villaluenga de la Sagra. <br /><a class="bold font-bold text-white">
-              → Cursos de Domestika:</a>
+            en Villaluenga de la Sagra. <br /><a class="bold text-white font-['Neue']">
+              ▶ Cursos de Domestika:</a>
             "Ilustración Digital con Procreate", "Ilustración Digital aplicada a
             productos", "Introducción al lettering con Procreate".
           </div>
         </div>
       </div>
     </div>
+
 
     <div
       class="max-sm:hidden grid-flow-cols border-0 border-b-0 border-none grid-cols-4 max-[1920px]:grid-cols-3 text-center max-[1450px]:grid-cols-2 animate-pulse max-[1930px]:grid-cols-3 max-sm:grid-cols-1">
@@ -1015,9 +1058,7 @@
         NUEVO CONTENIDO -
         NUEVO CONTENIDO - NUEVO CONTENIDO - NUEVO CONTENIDO - NUEVO CONTENIDO - NUEVO CONTENIDO - NUEVO CONTENIDO
         -
-        NUEVO CONTENIDO - NUEVO CONTENIDO - NUEVO CONTENIDO - NUEVO CONTENIDO - NUEVO CONTENIDO - NUEVO CONTENIDO
-        -
-        NUEVO CONTENIDO
+        NUEVO CONTENIDO - NUEVO CONTENIDO - NUEVO CONTENIDO
       </div>
     </div>
 
@@ -1292,9 +1333,9 @@ export default {
     opacity: 1
     transition: opacity 2s
   .image_logo
-    @apply opacity-60
+    @apply opacity-100
     &:hover
-      @apply opacity-100
+      @apply opacity-60
   
   .red
     &:hover

@@ -155,7 +155,7 @@
                 <div class="info_secondary flex flex-col gap-6 sticky top-48 max-[1500px]:gap-12">
                     <div
                         class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-[#243673] max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
-                        <p class="font-['PPE-Ultralightitalic'] max-sm:pb-2">Tres packs</p> SALUDABLES
+                        <p class="font-['PPE-Ultralightitalic'] max-sm:pb-2">Caja cont.</p> VIAJE OPORTO
                     </div>
                     <div
                         class="text text-[20px] font-['Regular'] indent-12 text-zinc-900 max-w-[70ch] max-xl:text-sm max-[1500px]:text-[16px] max-[1500px]:max-w-[100ch]">
@@ -223,7 +223,7 @@
 
 
         <div
-            class="video grid-cols-2 grid pt-32 px-64 pb-20 text-zinc-600 justify-items-center items-center gap-12 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:grid-cols-1 max-sm:pt-12 max-[1440px]:px-32">
+            class="video grid-cols-2 grid max-sm:pt-24 pt-32 px-64 pb-20 text-zinc-600 justify-items-center items-center gap-12 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:grid-cols-1 max-[1440px]:px-32">
             <div
                 class="text max-w-[80ch] text-left font-['Regular'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
 
@@ -921,7 +921,7 @@
         </div>
 
         <div
-            class="video grid-cols-1 grid pt-24 px-64 pb-48 text-zinc-600 justify-items-center items-center gap-12 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:grid-cols-1 max-sm:pt-12">
+            class="video grid-cols-1 max-sm:pt-24 grid pt-24 px-64 pb-48 text-zinc-600 justify-items-center items-center gap-12 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:grid-cols-1">
             <div
                 class="text max-w-[100ch] text-center font-['Regular'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
 
@@ -1110,19 +1110,19 @@
         </div>
 
         <div
-            class="grid grid-rows-1 gap-2 items-center justify-items-center pt-12 px-32 pb-32 max-sm:px-4 max-[1280px]:p-10 max-[1500px]:px-60 max-[800px]:grid-cols-1 max-sm:gap-8 max-sm:pt-0">
+            class="grid grid-rows-1 gap-2 items-center justify-items-center pt-12 px-32 pb-32 max-sm:px-4 max-[1280px]:p-10 max-[1500px]:px-60 max-[800px]:grid-cols-1 max-sm:gap-16 max-sm:pt-0">
 
             <div
-                class="text max-w-[80ch] leading-[200px] pt-4 text-center font-['Regular'] text-[240px] text-[#859ed2] max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[180px] max-sm:text-[30px]">
+                class="text max-w-[80ch] leading-[200px] pt-4 text-center font-['Regular'] text-[240px] text-[#859ed2] max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[180px] max-sm:text-[60px]">
                 Regular font
             </div>
 
             <div
-                class="text max-w-[80ch] text-center font-['Regular'] font-bold text-[240px] text-[#243673] max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[180px] max-sm:text-[30px]">
+                class="text max-w-[80ch] text-center font-['Regular'] font-bold text-[240px] text-[#243673] max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[180px] max-sm:text-[60px]">
                 Regular bold
             </div>
             <div
-                class="text text-center leading-[200px] pt-12 uppercase font-['PPE-Ultralight'] font-normal text-[240px] text-[#243673] max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[180px] max-sm:pt-0 max-sm:text-[30px]">
+                class="text text-center leading-[200px] pt-12 uppercase font-['PPE-Ultralight'] font-normal text-[240px] text-[#243673] max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[180px] max-sm:pt-0 max-sm:leading-[60px] max-sm:text-[60px] max-sm:text-center">
                 Domaine Display
             </div>
 
@@ -1319,7 +1319,7 @@
                 para este
                 proyecto</div>
             <div class="programas flex flex-col items-center">
-                <div class="three_programas flex gap-10">
+                <div class="three_programas flex gap-10 max-sm:grid max-sm:grid-cols-3">
                     <img class="image_logo w-[40px] rounded-lg opacity-80 hover:opacity-100 max-xl:max-w-[30px] max-xl:max-h-[29px]"
                         src="/img/Procreate.png" alt="">
                     <img class="image_logo w-[40px] opacity-80 hover:opacity-100 max-xl:max-w-[30px] max-xl:max-h-[29px]"
