@@ -1,77 +1,96 @@
 <template>
-    <div class="app bg-white">
+    <div class="app bg-white font-['SFUIDisplay-Regular']">
         <Cursor />
-        <div class="header bg-white p-10 flex text-blac justify-between sticky top-0 z-10 max-xl:p-6 max-xl:items-center">
-            <div class="image flex flex-start">
-                <NuxtLink to="/">
-                    <img class="vector max-xl:max-w-[15px]" src="/img/Vectorzinc.svg">
-                </NuxtLink>
-            </div>
-            <div class="email text-lg flex gap-2 items-center max-xl:text-xs">ruben.maldonado.graphic@gmail.com
-                <NuxtLink to="/">
-                    <img class="vector max-xl:max-w-[8px]" src="/img/Vector-11zinc.svg">
-                </NuxtLink>
-            </div>
-        </div>
-        <VueScrollProgressBar background-color="#52525b" />
         <div
-            class="trabajos flex pt-20 px-40 pb-20 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 ">
+            class="header bg-white p-10 flex px-24 text-black justify-between sticky top-0 z-10 max-lg:p-6 max-lg:sticky border border-b-0">
+            <div class="image flex flex-start justify-items-start">
+                <NuxtLink to="/">
+                    <img class="max-lg:max-w-[15px]" src="/img/Vectorblack.svg">
+                </NuxtLink>
+            </div>
+
+            <div class="email text-lg justify-items-end flex gap-2 max-lg:text-xs ">ruben.maldonado.graphic@gmail.com
+                <img class="vector max-lg:max-w-[8px]" src="/img/Vector-11black.svg">
+            </div>
+
+        </div>
+        <VueScrollProgressBar background-color="#52525B" />
+
+        <div
+            class="titular2 flex px-64 gap-32 content-start space-between justify-center pt-20 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-[1500px]:flex-col max-[1500px]:gap-2 max-[1500px]:items-center max-[1700px]:px-10">
             <div
-                class="titular text-[70px] font-bold max-w-[13ch] leading-12 bg-gradient-to-r bg-clip-text text-transparent from-indigo-500 via-purple-500 to-indigo-500 animate-text max-xl:text-[45px] max-xl:justify-center">
-                Ilustraciones</div>
-            <div class="info flex flex-col gap-6">
-                <div class="text max-w-[60ch] text-[16px] leading-10 text-zinc-400 max-xl:leading-2 max-xl:text-xs max-xl:text-center">Dibujos - Lettering -
-                    Ilustraciones -
-                    Carteles -
-                    Pegatinas</div>
+                class="titular text-[120px] font-['PPE-Ultralight'] leading-12 font-bold animate-pulse bg-gradient-to-r bg-clip-text text-transparent animate-text max-sm:text-[45px] max-[1500px]:text-left max-[1280px]:text-[100px] from-indigo-500 via-purple-500 to-indigo-500">
+                ILUSTRACIONES</div>
+            <div
+                class="trabajos flex flex-col max-sm:gap-2 items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:pt-6 max-sm:pb-16 max-sm:px-0 max-[1280px]:items-center max-[1280px]:pt-6 max-[1280px]:pb-0">
+
                 <div
-                    class="text max-w-[60ch] text-[20px] leading-8 text-zinc-600 font-bold max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center">
-                    Recopilatorio de mis
-                    ilustraciones, carteles ilustrados,
-                    lettering y dibujos variados realizados digitalmente en Procreate con el IPad.
+                    class="text max-w-[60ch] text-[16px] uppercase text-zinc-900 max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
+                    Dibujos - Lettering - Ilustraciones - Carteles - Pegatinas
                 </div>
+                <div
+                    class="text max-w-[80ch] pb-16 pt-4 max-sm:text-left text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:max-w-[100ch] max-[800px]:pb-4">
+                    Recopilatorio de mis ilustraciones, carteles ilustrados, lettering y dibujos variados realizados
+                    digitalmente en Procreate con el IPad.
+
+                </div>
+
             </div>
         </div>
-        <div class="trabajos flex pt-20 px-40 text-white items-start flex-nowrap gap-40 justify-center max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-xl:text-center max-xl:pt-0 max-xl:pb-16">
+
+
+        <div
+            class="trabajos max-[1440px]:px-32 flex max-sm:justify-start max-sm:pb-24 pt-20 px-40 pb-20 items-start text-white flex-nowrap gap-96 justify-center max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-start max-xl:text-center max-xl:pt-0 max-xl:pb-16 max-[1500px]:px-20 max-[1500px]:justify-between">
             <div class="info flex flex-col">
-                <div class="text max-w-[60ch] italic text-[16px] leading-10 text-zinc-400 max-xl:text-xs">Asignatura</div>
                 <div
-                    class="text max-w-[20ch] text-[16px] leading-6 text-zinc-600 font-bold max-xl:text-sm max-xl:max-w-[40ch]">
-                    Trabajos libres,
-                    Aprendizaje propio.
+                    class="text max-w-[200ch] max-sm:text-left text-center font-['PPE-Ultralight'] max-sm:text-[20px] pb-4 uppercase text-[24px] leading-10 text-zinc-800 max-xl:text-xs">
+                    Asignatura</div>
+                <div
+                    class="text max-w-[200ch] font-['SFUIDisplay-Light'] text-center max-sm:text-left max-sm:max-w-[22ch] text-[16px] leading-6 text-zinc-900 max-xl:text-sm max-xl:max-w-[40ch]">
+                    Trabajos libres, Aprendizaje propio.
                 </div>
             </div>
             <div class="info flex flex-col">
-                <div class="text max-w-[60ch] text-[16px] italic leading-10 text-zinc-400 max-xl:text-xs">Tiempo</div>
                 <div
-                    class="text max-w-[20ch] text-[16px] leading-6 text-zinc-600 font-bold max-xl:text-sm max-xl:max-w-[40ch]">
+                    class="text max-w-[60ch] max-sm:text-left font-['PPE-Ultralight'] max-sm:text-[20px] pb-4 text-center text-[24px] uppercase leading-10 text-zinc-800 max-xl:text-xs">
+                    Tiempo</div>
+                <div
+                    class="text max-w-[20ch] font-['SFUIDisplay-Light'] max-sm:text-start text-center text-[16px] leading-6 text-zinc-900 max-xl:text-sm max-xl:max-w-[40ch]">
                     3 meses
                 </div>
             </div>
             <div class="info flex flex-col">
-                <div class="text max-w-[60ch] text-[16px] italic leading-10 text-zinc-400 max-xl:text-xs">Materiales</div>
                 <div
-                    class="text max-w-[20ch] text-[16px] leading-6 text-zinc-600 font-bold max-xl:text-sm max-xl:max-w-[40ch]">
-                    IPad,
-                    PC.
+                    class="text max-w-[60ch] max-sm:text-left font-['PPE-Ultralight'] max-sm:text-[20px] pb-4 text-center text-[24px] uppercase leading-10 text-zinc-800 max-xl:text-xs">
+                    MATERIALES</div>
+                <div
+                    class="text max-w-[20ch] text-center font-['SFUIDisplay-Light']  text-[16px] leading-6 text-zinc-900 max-xl:text-sm max-xl:max-w-[40ch]">
+                    IPad, PC.
                 </div>
             </div>
         </div>
+
         <div
-            class="video flex px-64 pt-10 pb-20 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center">
-            <video width="1240" height="788" loop autoplay controls>
+            class="video flex px-64 pt-2 pb-40 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center">
+            <video width="1240" height="788" loop autoplay>
                 <source src="/img/videoilustraciones.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
 
         </div>
         <div
-            class="colum flex pt-20 px-64 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center">
+            class="colum flex pt-20 px-64 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-[1500px]:px-60">
             <div class="info_proyect max-w-[80ch]">
-                <div class="info_secondary flex flex-col gap-6 sticky top-32">
-                    <div class="text max-w-[60ch] text-[32px] leading-10 text-black">Ilustraciones Isométricas</div>
-                    <div class="text text-[16px] leading-6 text-zinc-600 font-normal max-w-[64ch] max-xl:text-xs">
-                        Una de las ilsutraciones que más he estado practicando ultimamente son perspectivas e isométricas
+                <div class="info_secondary flex flex-col gap-6 sticky top-32 max-[1500px]:gap-12">
+                    <div
+                        class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
+                        <p class="font-['PPE-Ultralightitalic'] max-sm:pb-2">Ilustraciones</p> ISOMÉTRICAS
+                    </div>
+                    <div
+                        class="text text-[20px] font-['SFUIDisplay-Light'] indent-12 text-zinc-900 max-w-[70ch] max-xl:text-sm max-[1500px]:text-[16px] max-[1500px]:max-w-[100ch]">
+                        <br>
+                        Una de las ilsutraciones que más he estado practicando ultimamente son perspectivas e
+                        isométricas
                         creando espacios en 3D en un dibujo 2D.
                         Me han ayudado mucho a comprender el espacio y a componer. Después gracias a estos dibujos he
                         practicado bastante la creación de sombras e iluminaciones, el color
@@ -85,11 +104,13 @@
             </div>
         </div>
         <div
-            class="images pt-20 px-64 pb-10 text-white justify-center flex flex-col gap-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
-            <div class="text max-w-[60ch] text-[32px] leading-10 text-black">Bocetos y creación</div>
-            <div class="text max-w-[60ch] text-[16px] text-zinc-600 font-bold pb-12 max-xl:text-xs"> Creación de las
-                perspectivas paso a
-                paso.
+            class="images pt-20 px-64 pb-10 text-white justify-center flex flex-col gap-12 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
+            
+            <div id="folleto"
+                class="titular2 flex px-64 pb-32 gap-64 pt-48 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-2 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-center max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+                <div
+                    class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
+                    PROCESO DE CREACIÓN</div>
             </div>
 
             <div class="grid grid-cols-4 gap-2 max-xl:grid-cols-1">
@@ -114,14 +135,15 @@
         </div>
         <div
             class="images pt-20 px-64 pb-10 text-white justify-center flex flex-col gap-2 max-xl:pb-0 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
-            <div class="text max-w-[60ch] text-[32px] leading-10 text-black">Pegatinas</div>
-            <div class="text max-w-[60ch] text-[16px] text-zinc-600 font-bold max-xl:text-xs">Pegatinas con temática
-                Ataque a los
-                Titanes, representación propia de los personajes de la serie, creando una pequeña colección.
+            <div id="folleto"
+                class="titular2 flex px-64 pb-2 gap-64 pt-48 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-2 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-center max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+                <div
+                    class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
+                    PEGATINAS</div>
             </div>
             <div
                 class="video flex px-40 pb-20 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
-                <video width="1240" height="788" loop autoplay controls>
+                <video width="1240" height="788" loop autoplay>
                     <source src="/img/videoilustraciones2.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
@@ -146,29 +168,20 @@
                     <div class="div text-black text-center text-lg m-0">Titan Bestia</div>
                 </div>
             </div>
-            <div class="grid grid-cols-4 pb-28 gap-2 max-xl:grid-cols-1">
+            <div class="grid grid-cols-4 pb-6 gap-2 max-xl:grid-cols-1">
                 <img class="image_grid w-full h-full" src="/img/ataque1.png" alt="">
                 <img class="image_grid w-full h-full" src="/img/ataque2.png" alt="">
                 <img class="image_grid w-full h-full" src="/img/ataque3.png" alt="">
                 <img class="image_grid w-full h-full" src="/img/ataque4.png" alt="">
             </div>
-
-            <div class="grid grid-cols-2 gap-2 max-xl:grid-cols-1">
-                <img class="image_grid w-full h-full" src="/img/pegatinas.png" alt="">
-                <img class="image_grid w-full h-full" src="/img/pegatinas2.png" alt="">
-                <img class="image_grid w-full h-full" src="/img/pegatinas3.png" alt="">
-                <img class="image_grid w-full h-full" src="/img/pegatinas4.png" alt="">
-            </div>
-            
-
         </div>
         <div
-            class="images pt-20 px-64 pb-10 text-white justify-center flex flex-col gap-2 max-xl:pb-0 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
-            <div class="text max-w-[60ch] text-[32px] leading-10 text-black">Casa de las Carcasas</div>
-            <div class="text max-w-[60ch] text-[16px] text-zinc-600 font-bold pb-12 max-xl:text-xs">Ilustraciones con
-                temática de
-                Jean-Michel Basquiat y el Neoexpresionismo
-                para las fundas encargadas por la Casa de las Carcasas.
+            class="images pt-2 px-64 pb-10 text-white justify-center flex flex-col gap-2 max-xl:pb-0 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
+            <div id="folleto"
+                class="titular2 flex px-64 pb-32 gap-64 pt-48 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-2 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-center max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+                <div
+                    class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
+                    CASA DE LAS CARCASAS</div>
             </div>
 
             <div class="grid grid-gaps-3 gap-2 max-xl:grid-cols-1">
@@ -183,9 +196,14 @@
         <div
             class="images pt-20 px-64 pb-10 text-white justify-center flex flex-col gap-2 max-xl:pb-0 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
             <div class="text max-w-[60ch] text-[32px] leading-10 text-black">Barbieheimer</div>
-            <div class="text max-w-[100ch] text-[16px] text-zinc-600 font-bold pb-12 max-xl:text-xs">Ilustración con temática de las dos películas taquilleras del 2023, "Barbie" y "Openheimer". Se llevó un movimiento
-                de hermandad entre las dos peliculas creando el "Barbieheimer". Esto me dió la idea de crear una ilustración conjunta en la que represento al protagonista de Openheimer, Robert Openheimer como un personaje de 
-                Barbie utilizando la paleta y fondo de esta segunda película mencionada. Se puede ver en esta ilustración como se ha realizado la anatomía del personaje, el control de la linea, los colores y las sombras y el postprocesado
+            <div class="text max-w-[100ch] text-[16px] text-zinc-600 font-bold pb-12 max-xl:text-xs">Ilustración con
+                temática de las dos películas taquilleras del 2023, "Barbie" y "Openheimer". Se llevó un movimiento
+                de hermandad entre las dos peliculas creando el "Barbieheimer". Esto me dió la idea de crear una
+                ilustración conjunta en la que represento al protagonista de Openheimer, Robert Openheimer como un
+                personaje de
+                Barbie utilizando la paleta y fondo de esta segunda película mencionada. Se puede ver en esta
+                ilustración como se ha realizado la anatomía del personaje, el control de la linea, los colores y las
+                sombras y el postprocesado
                 de la ilustración.
             </div>
 
@@ -204,7 +222,8 @@
         <div
             class="images pt-20 px-64 pb-32 text-white justify-center flex flex-col gap-2 max-xl:pb-0 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
             <div class="text max-w-[60ch] text-[32px] leading-10 text-black">Pegatinas</div>
-            <div class="text max-w-[60ch] text-[16px] text-zinc-600 font-bold pb-12 max-xl:text-xs">Pegatinas con temática
+            <div class="text max-w-[60ch] text-[16px] text-zinc-600 font-bold pb-12 max-xl:text-xs">Pegatinas con
+                temática
                 Cars, representación propia de los personajes de la pelicula, creando una pequeña colección
             </div>
 
@@ -249,16 +268,17 @@
                 <a class="text justify-center text-[#373D83] text-center max-xl:hidden">Doc Hudson Hornet</a>
 
             </div>
-            
+
 
         </div>
 
-        
+
 
 
         <div
             class="trabajos flex pt-10 pl-40 pr-40 pb-10 text-zinc-600 flex-col gap-10 justify-center items-center max-xl:pt-6 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
-            <div class="titular text-[16px] font-normal flex flex-start items-center max-xl:text-xs">Programas utilizados
+            <div class="titular text-[16px] font-normal flex flex-start items-center max-xl:text-xs">Programas
+                utilizados
                 para este
                 proyecto</div>
             <div class="programas flex flex-col items-center">
@@ -278,7 +298,8 @@
 
         <div
             class="links_rrss pt-32 px-80 pb-32 text-black justify-center flex flex-row gap-60 max-xl:pt-20 max-xl:px-10 max-xl:flex-col max-xl:justify-items-center max-xl:gap-20 max-xl:flex max-xl:justify-center max-xl:pb-20">
-            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado." target="_blank" class="email text-lg flex gap-2 items-center max-xl:text-[14px] max-xl:justify-center">
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado."
+                target="_blank" class="email text-lg flex gap-2 items-center max-xl:text-[14px] max-xl:justify-center">
                 ruben.maldonado.graphic@gmail.com
                 <img class="vector" src="/img/Vector-11black.svg">
             </a>
@@ -322,7 +343,7 @@
 
     </div>
 </template>
-  
+
 <script>
 export default {
     mounted() {
@@ -339,8 +360,8 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-  
-  
+
+
   .email
     &:hover
       @apply text-zinc-300
