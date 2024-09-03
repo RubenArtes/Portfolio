@@ -1,6 +1,6 @@
 <template>
     <div class="app bg-white font-['SFUIDisplay-Regular']">
-        <Cursor />
+        <Cursor class="max-sm:hidden" />
         <div
             class="header bg-white p-10 flex px-24 text-black justify-between sticky top-0 z-10 max-lg:p-6 max-lg:sticky border border-b-0">
             <div class="image flex flex-start justify-items-start">
@@ -69,7 +69,7 @@
                 </div>
             </div>
         </div>
-        
+
         <div
             class="video flex pt-20 pb-20 text-zinc-600 flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
             <video class="video border border-zinc-600 drop-shadow-xl" width="1240" height="788" loop controls autoplay>

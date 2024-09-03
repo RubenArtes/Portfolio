@@ -86,12 +86,15 @@
 
 
         <div
-            class="video hidden max-sm:flex pt-20 pb-4 text-zinc-600 flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
+            class="video hidden pt-20 pb-4 text-zinc-600 flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
             <video class="justify-self-center w-[1920px] max-sm:w-full" loop autoplay controls>
                 <source src="/img/member40.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
         </div>
+
+        <img class="image_rect px-0 hidden max-sm:flex" src="/img/member40.gif" alt="">
+
 
 
         <div

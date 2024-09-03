@@ -1,6 +1,6 @@
 <template>
     <div class="app bg-black">
-        <Cursor />
+        <Cursor class="max-sm:hidden" />
         <div
             class="header bg-black p-10 flex text-white justify-between sticky top-0 z-10 max-xl:p-6 max-xl:items-center">
             <div class="image flex flex-start">

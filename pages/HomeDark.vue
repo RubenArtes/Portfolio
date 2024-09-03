@@ -1,6 +1,6 @@
 <template>
   <div class="app bg-black font-['SFUIDisplay-Light']">
-    <Cursor />
+    <Cursor class="max-sm:hidden" />
     <div
       class="header bg-black p-10 border-r-0 border-l-0 border-t-0 px-24 text-white grid grid-cols-3 sticky top-0 z-10 max-lg:p-6 max-lg:sticky max-sm:flex max-sm:justify-between">
       <div class="image place-self-start self-center">
