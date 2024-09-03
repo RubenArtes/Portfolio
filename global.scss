@@ -13,6 +13,77 @@
 }
 
 @font-face {
+    font-family: "ProximaNova";
+    src: local("ProximaNova"),
+     url(/assets/fonts/ProximaNova-Regular.eot) format("opentype");
+     src: local("ProximaNova"),
+     url(/assets/fonts/ProximaNova-Regular.ttf) format("truetype");
+     src: local("ProximaNova"),
+     url(/assets/fonts/ProximaNova-Regular.woff) format("woff");
+     src: local("ProximaNova"),
+     url(/assets/fonts/ProximaNova-Regular.woff2) format("woff2");
+     font-style: normal;
+     
+}
+
+@font-face {
+    font-family: "ProximaNova-Bold";
+    src: local("ProximaNova-Bold"),
+     url(/assets/fonts/ProximaNova-Bold.eot) format("opentype");
+     src: local("ProximaNova-Bold"),
+     url(/assets/fonts/ProximaNova-Bold.ttf) format("truetype");
+     src: local("ProximaNova-Bold"),
+     url(/assets/fonts/ProximaNova-Bold.woff) format("woff");
+     src: local("ProximaNova-Bold"),
+     url(/assets/fonts/ProximaNova-Bold.woff2) format("woff2");
+     font-style: normal;
+     
+}
+
+@font-face {
+    font-family: "ProximaNova-Black";
+    src: local("ProximaNova-Black"),
+     url(/assets/fonts/ProximaNova-Black.eot) format("opentype");
+     src: local("ProximaNova-Black"),
+     url(/assets/fonts/ProximaNova-Black.ttf) format("truetype");
+     src: local("ProximaNova-Black"),
+     url(/assets/fonts/ProximaNova-Black.woff) format("woff");
+     src: local("ProximaNova-Black"),
+     url(/assets/fonts/ProximaNova-Black.woff2) format("woff2");
+     font-style: normal;
+     
+}
+
+@font-face {
+    font-family: "ProximaNova-Thin";
+    src: local("ProximaNova-Thin"),
+     url(/assets/fonts/ProximaNovaT-Thin.eot) format("opentype");
+     src: local("ProximaNova-Thin"),
+     url(/assets/fonts/ProximaNovaT-Thin.ttf) format("truetype");
+     src: local("ProximaNova-Thin"),
+     url(/assets/fonts/ProximaNovaT-Thin.woff) format("woff");
+     src: local("ProximaNova-Thin"),
+     url(/assets/fonts/ProximaNovaT-Thin.woff2) format("woff2");
+     font-style: normal;
+     
+}
+
+@font-face {
+    font-family: "ProximaNova-Extrabold";
+    src: local("ProximaNova-Extrabold"),
+     url(/assets/fonts/ProximaNova-Extrabld.eot) format("opentype");
+     src: local("ProximaNova-Extrabold"),
+     url(/assets/fonts/ProximaNova-Extrabld.ttf) format("truetype");
+     src: local("ProximaNova-Extrabold"),
+     url(/assets/fonts/ProximaNova-Extrabld.woff) format("woff");
+     src: local("ProximaNova-Extrabold"),
+     url(/assets/fonts/ProximaNova-Extrabld.woff2) format("woff2");
+     font-style: normal;
+     
+}
+
+
+@font-face {
     font-family: "Epiloge";
     src: local("Epiloge"),
      url(/assets/fonts/Epilogue-Bold.eot) format("opentype");
@@ -181,6 +252,202 @@
      url(/assets/fonts/NeueMontreal-Regular.woff2) format("woff2");
      font-weight: normal;
 }
+
+@font-face {
+    font-family: "FSBrabo";
+    src: local("FSBrabo"),
+     url(/assets/fonts/FSBraboPro-Regular.eot) format("opentype");
+     src: local("FSBrabo"),
+     url(/assets/fonts/FSBraboPro-Regular.ttf) format("truetype");
+     src: local("FSBrabo"),
+     url(/assets/fonts/FSBraboPro-Regular.woff) format("woff");
+     src: local("FSBrabo"),
+     url(/assets/fonts/FSBraboPro-Regular.woff2) format("woff2");
+     font-weight: normal;
+}
+
+@font-face {
+    font-family: "FSBrabo-Bold";
+    src: local("FSBrabo-Bold"),
+     url(/assets/fonts/FSBraboPro-Bold.eot) format("opentype");
+     src: local("FSBrabo-Bold"),
+     url(/assets/fonts/FSBraboPro-Bold.ttf) format("truetype");
+     src: local("FSBrabo-Bold"),
+     url(/assets/fonts/FSBraboPro-Bold.woff) format("woff");
+     src: local("FSBrabo-Bold"),
+     url(/assets/fonts/FSBraboPro-Bold.woff2) format("woff2");
+     font-weight: normal;
+}
+
+@font-face {
+    font-family: "FSBrabo-BoldItalic";
+    src: local("FSBrabo-BoldItalic"),
+     url(/assets/fonts/FSBraboPro-BoldItalic.eot) format("opentype");
+     src: local("FSBrabo-BoldItalic"),
+     url(/assets/fonts/FSBraboPro-BoldItalic.ttf) format("truetype");
+     src: local("FSBrabo-BoldItalic"),
+     url(/assets/fonts/FSBraboPro-BoldItalic.woff) format("woff");
+     src: local("FSBrabo-BoldItalic"),
+     url(/assets/fonts/FSBraboPro-BoldItalic.woff2) format("woff2");
+     font-weight: normal;
+}
+
+@font-face {
+    font-family: "FSBrabo-Medium";
+    src: local("FSBrabo-Medium"),
+     url(/assets/fonts/FSBraboPro-Medium.eot) format("opentype");
+     src: local("FSBrabo-Medium"),
+     url(/assets/fonts/FSBraboPro-Medium.ttf) format("truetype");
+     src: local("FSBrabo-Medium"),
+     url(/assets/fonts/FSBraboPro-Medium.woff) format("woff");
+     src: local("FSBrabo-Medium"),
+     url(/assets/fonts/FSBraboPro-Medium.woff2) format("woff2");
+     font-weight: normal;
+}
+
+@font-face {
+    font-family: "FSBrabo-MediumItalic";
+    src: local("FSBrabo-MediumItalic"),
+     url(/assets/fonts/FSBraboPro-MediumItalic.eot) format("opentype");
+     src: local("FSBrabo-MediumItalic"),
+     url(/assets/fonts/FSBraboPro-MediumItalic.ttf) format("truetype");
+     src: local("FSBrabo-MediumItalic"),
+     url(/assets/fonts/FSBraboPro-MediumItalic.woff) format("woff");
+     src: local("FSBrabo-MediumItalic"),
+     url(/assets/fonts/FSBraboPro-MediumItalic.woff2) format("woff2");
+     font-weight: normal;
+}
+
+@font-face {
+    font-family: "FSBrabo-LightItalic";
+    src: local("FSBrabo-LightItalic"),
+     url(/assets/fonts/FSBraboPro-LightItalic.eot) format("opentype");
+     src: local("FSBrabo-LightItalic"),
+     url(/assets/fonts/FSBraboPro-LightItalic.ttf) format("truetype");
+     src: local("FSBrabo-LightItalic"),
+     url(/assets/fonts/FSBraboPro-LightItalic.woff) format("woff");
+     src: local("FSBrabo-LightItalic"),
+     url(/assets/fonts/FSBraboPro-LightItalic.woff2) format("woff2");
+     font-weight: normal;
+}
+
+@font-face {
+    font-family: "FSBrabo-Bold";
+    src: local("FSBrabo-Bold"),
+     url(/assets/fonts/FSBraboPro-Bold.eot) format("opentype");
+     src: local("FSBrabo-Bold"),
+     url(/assets/fonts/FSBraboPro-Bold.ttf) format("truetype");
+     src: local("FSBrabo-Bold"),
+     url(/assets/fonts/FSBraboPro-Bold.woff) format("woff");
+     src: local("FSBrabo-Bold"),
+     url(/assets/fonts/FSBraboPro-Bold.woff2) format("woff2");
+     font-weight: normal;
+}
+
+@font-face {
+    font-family: "FSBrabo-Light";
+    src: local("FSBrabo-Light"),
+     url(/assets/fonts/FSBraboPro-Light.eot) format("opentype");
+     src: local("FSBrabo-Light"),
+     url(/assets/fonts/FSBraboPro-Light.ttf) format("truetype");
+     src: local("FSBrabo-Light"),
+     url(/assets/fonts/FSBraboPro-Light.woff) format("woff");
+     src: local("FSBrabo-Light"),
+     url(/assets/fonts/FSBraboPro-Light.woff2) format("woff2");
+     font-weight: normal;
+}
+
+@font-face {
+    font-family: "FSKim";
+    src: local("FSKim"),
+     url(/assets/fonts/FSKim-Regular.eot) format("opentype");
+     src: local("FSKim"),
+     url(/assets/fonts/FSKim-Regular.ttf) format("truetype");
+     src: local("FSKim"),
+     url(/assets/fonts/FSKim-Regular.woff) format("woff");
+     src: local("FSKim"),
+     url(/assets/fonts/FSKim-Regular.woff2) format("woff2");
+     font-weight: normal;
+}
+
+@font-face {
+    font-family: "FSKim-Bold";
+    src: local("FSKim-Bold"),
+     url(/assets/fonts/FSKim-Bold.eot) format("opentype");
+     src: local("FSKim-Bold"),
+     url(/assets/fonts/FSKim-Bold.ttf) format("truetype");
+     src: local("FSKim-Bold"),
+     url(/assets/fonts/FSKim-Bold.woff) format("woff");
+     src: local("FSKim-Bold"),
+     url(/assets/fonts/FSKim-Bold.woff2) format("woff2");
+     font-weight: normal;
+}
+
+@font-face {
+    font-family: "FSKim-BoldItalic";
+    src: local("FSKim-BoldItalic"),
+     url(/assets/fonts/FSKim-BoldItalic.eot) format("opentype");
+     src: local("FSKim-BoldItalic"),
+     url(/assets/fonts/FSKim-BoldItalic.ttf) format("truetype");
+     src: local("FSKim-BoldItalic"),
+     url(/assets/fonts/FSKim-BoldItalic.woff) format("woff");
+     src: local("FSKim-BoldItalic"),
+     url(/assets/fonts/FSKim-BoldItalic.woff2) format("woff2");
+     font-weight: normal;
+}
+
+@font-face {
+    font-family: "FSKim-Italic";
+    src: local("FSKim-Italic"),
+     url(/assets/fonts/FSKim-Italic.eot) format("opentype");
+     src: local("FSKim-Italic"),
+     url(/assets/fonts/FSKim-Italic.ttf) format("truetype");
+     src: local("FSKim-Italic"),
+     url(/assets/fonts/FSKim-Italic.woff) format("woff");
+     src: local("FSKim-Italic"),
+     url(/assets/fonts/FSKim-Italic.woff2) format("woff2");
+     font-weight: normal;
+}
+
+@font-face {
+    font-family: "FSKim-Heavy";
+    src: local("FSKim-Heavy"),
+     url(/assets/fonts/FSKim-Heavy.eot) format("opentype");
+     src: local("FSKim-Heavy"),
+     url(/assets/fonts/FSKim-Heavy.ttf) format("truetype");
+     src: local("FSKim-Heavy"),
+     url(/assets/fonts/FSKim-Heavy.woff) format("woff");
+     src: local("FSKim-Heavy"),
+     url(/assets/fonts/FSKim-Heavy.woff2) format("woff2");
+     font-weight: normal;
+}
+
+@font-face {
+    font-family: "FSKim-HeavyItalic";
+    src: local("FSKim-HeavyItalic"),
+     url(/assets/fonts/FSKim-HeavyItalic.eot) format("opentype");
+     src: local("FSKim-HeavyItalic"),
+     url(/assets/fonts/FSKim-HeavyItalic.ttf) format("truetype");
+     src: local("FSKim-HeavyItalic"),
+     url(/assets/fonts/FSKim-HeavyItalic.woff) format("woff");
+     src: local("FSBrabo-LightItalic"),
+     url(/assets/fonts/FSKim-HeavyItalic.woff2) format("woff2");
+     font-weight: normal;
+}
+
+@font-face {
+    font-family: "FSBrabo-Bold";
+    src: local("FSBrabo-Bold"),
+     url(/assets/fonts/FSBraboPro-Bold.eot) format("opentype");
+     src: local("FSBrabo-Bold"),
+     url(/assets/fonts/FSBraboPro-Bold.ttf) format("truetype");
+     src: local("FSBrabo-Bold"),
+     url(/assets/fonts/FSBraboPro-Bold.woff) format("woff");
+     src: local("FSBrabo-Bold"),
+     url(/assets/fonts/FSBraboPro-Bold.woff2) format("woff2");
+     font-weight: normal;
+}
+
 
 @font-face {
     font-family: "Neue-Light";

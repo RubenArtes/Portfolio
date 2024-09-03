@@ -17,9 +17,9 @@
         <VueScrollProgressBar background-color="white" />
 
         <div id="navegacion"
-            class="titular2 flex px-64 gap-32 content-start space-between justify-center pt-32 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-[1500px]:flex-col max-[1500px]:gap-2 max-[1500px]:items-center max-[1700px]:px-10">
-            <div
-                class="titular text-[120px] font-['PPE-Ultralight'] leading-12 font-bold animate-pulse bg-gradient-to-r bg-clip-text text-transparent animate-text max-sm:text-[55px] max-[1500px]:text-left max-[1280px]:text-[100px] from-[#593cff] via-[#fff202] to-[#7d86ed] max-sm:text-center max-sm:leading-[60px]">
+      class="titular2 flex px-64 gap-32 content-start space-between justify-center pt-32 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-[1500px]:flex-col max-[1500px]:gap-2 max-[1500px]:items-center max-[1700px]:px-10">
+      <div
+        class="titular max-[1920px]:text-[100px] max-[1920px]:leading-[100px] text-[120px] font-['PPE-Ultralight'] leading-12 font-bold animate-pulse bg-gradient-to-r bg-clip-text text-transparent animate-text max-sm:text-[55px] max-[1500px]:text-left max-[1280px]:text-[100px] max-sm:text-center max-sm:leading-[60px] from-[#593cff] via-[#fff202] to-[#7d86ed]">
                 CINE YELMO</div>
             <div
                 class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:pt-6 max-sm:pb-16 max-sm:px-0 max-[1280px]:items-center max-[1280px]:pt-6 max-[1280px]:pb-0">
@@ -123,7 +123,6 @@
                 </div>
             </div>
             <div class="fotografias flex flex-col gap-6 h-min max-sm:pt-24">
-                <img class="image_rect w-[550px]" src="/img/yelmocines1.png" alt="">
                 <img class="image_rect rounded-xl w-[550px]" src="/img/yelmocines2.png" alt="">
                 <img class="image_rect rounded-xl w-[550px]" src="/img/yelmocines3.png" alt="">
             </div>
@@ -139,8 +138,9 @@
 
                 <div
                     class="text max-w-[60ch] text-[16px] uppercase text-white max-xl:leading-2 max-xl:text-xs max-xl:text-center max-[1280px]:text-left">
-                    <a class="type text-[#312783]">Yelmo Cines</a> - <a class="type text-[#eec331]">Juniors</a> -
-                    <a class="type text-zinc-500">Luxury</a> - <a class="type text-[#ffffff]">+ Que Yelmo</a>
+                    <a class="type text-[#312783]">Juniors</a> - <a class="type text-[#eec331]">Yelmo Cines</a> -
+                    <a class="type text-zinc-100">Luxury</a> - <a class="text text-[#593cff] to-[#fff202]">+ Que
+                        Yelmo</a>
                 </div>
                 <div
                     class="text max-w-[80ch] pt-4 text-left font-['SFUIDisplay-Regular'] text-[20px] text-white max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
@@ -156,73 +156,231 @@
             </div>
         </div>
 
+        <img class="image_grid flex max-sm:hidden pt-12 w-full h-full max-sm:pb-0 max-sm:pt-0"
+            src="/img/logosyelmo.svg">
+        <img class="image_grid hidden max-sm:flex w-full h-full max-sm:pb-12 max-sm:pt-12"
+            src="/img/logoyelmomovil.svg">
+
+
+        <div id="primercompartimento"
+            class="titular2 flex px-64 pb-12 gap-64 pt-40 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            <div
+                class="titular max-[1440px]:text-left text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
+                PALETA DE COLOR</div>
+        </div>
         <div
-            class="images items-center text-center pt-20 pb-20 px-64 text-white justify-center flex flex-col gap-32 max-xl:pt-8 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
+            class="hidden gap-8 items-center justify-items-center px-12 pb-32 pt-32 max-[1280px]:p-10 max-[1500px]:px-60 max-[800px]:grid-cols-1 max-sm:grid max-sm:grid-cols-2 max-sm:px-8">
+            <div class="columna1 grid gap-2 max-sm:grid max-sm:grid-rows-3">
+
+                <div class="color w-[150px] h-[150px] bg-[#161616]">
+                </div>
+                <div class="color w-[150px] h-[150px] bg-[#FFDE00]">
+                </div>
+                <div class="color w-[150px] h-[150px] bg-[#312783]">
+                </div>
+                <div class="color w-[150px] h-[150px] bg-[#FFFFFF]">
+                </div>
+            </div>
+            <div class="columna2 grid gap-6">
+                <div
+                    class="text max-w-[80ch] text-left font-['Regular'] text-[16px] text-white max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                    <a class="color text-[#ffffff] font-bold">HEX : #161616</a> <br>
+                    C - 0 <br>
+                    M - 0 <br>
+                    Y - 0 <br>
+                    K - 91
+                </div>
+                <div
+                    class="text max-w-[80ch] text-left font-['Regular'] text-[16px] text-white max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                    <a class="color text-[#ffffff] font-bold">HEX : #FFDE00</a> <br>
+                    C - 0 <br>
+                    M - 13 <br>
+                    Y - 100 <br>
+                    K - 0
+                </div>
+                <div
+                    class="text max-w-[80ch] text-left font-['Regular'] text-[16px] text-white max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                    <a class="color text-[#ffffff] font-bold">HEX : #312783</a> <br>
+                    C - 63 <br>
+                    M - 70 <br>
+                    Y - 0 <br>
+                    K - 49
+                </div>
+                <div
+                    class="text max-w-[80ch] text-left font-['Regular'] text-[16px] text-white max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                    <a class="color text-[#ffffff] font-bold">HEX : #FFFFFF</a> <br>
+                    C - 0 <br>
+                    M - 0 <br>
+                    Y - 0 <br>
+                    K - 0
+                </div>
+            </div>
+
+
+        </div>
+
+        <div
+            class="grid grid-cols-4 grid-rows-2 gap-2 items-center justify-items-center px-64 pb-32 pt-32 max-sm:px-10 max-[1280px]:p-10 max-[1500px]:px-60 max-[800px]:grid-cols-1 max-sm:hidden">
+            <div class="color w-[200px] h-[200px] bg-[#161616]">
+            </div>
+            <div class="color w-[200px] h-[200px] bg-[#FFDE00]">
+            </div>
+            <div class="color w-[200px] h-[200px]  bg-[#312783]">
+
+            </div>
+            <div class="color w-[200px] h-[200px]  bg-[#FFFFFF]">
+
+            </div>
+
+            <div
+                class="text max-w-[80ch] text-left font-['Regular'] text-[16px] text-white max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                <a class="color text-[#ffffff] font-bold">HEX : #161616</a> <br>
+                C - 0 <br>
+                M - 0 <br>
+                Y - 0 <br>
+                K - 91
+            </div>
+            <div
+                class="text max-w-[80ch] text-left font-['Regular'] text-[16px] text-white max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                <a class="color text-[#ffffff] font-bold">HEX : #FFDE00</a> <br>
+                C - 0 <br>
+                M - 13 <br>
+                Y - 100 <br>
+                K - 0
+            </div>
+            <div
+                class="text max-w-[80ch] text-left font-['Regular'] text-[16px] text-white max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                <a class="color text-[#ffffff] font-bold">HEX : #312783</a> <br>
+                C - 63 <br>
+                M - 70 <br>
+                Y - 0 <br>
+                K - 49
+            </div>
+            <div
+                class="text max-w-[80ch] text-left font-['Regular'] text-[16px] text-white max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                <a class="color text-[#ffffff] font-bold">HEX : #FFFFFF</a> <br>
+                C - 0 <br>
+                M - 0 <br>
+                Y - 0 <br>
+                K - 0
+            </div>
+
+        </div>
+
+        <div
+            class="images max-sm:px-6 max-sm:pt-24 items-center text-center pt-20 pb-20 px-64 text-white justify-center flex flex-col gap-32 max-xl:pt-8 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
             <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-center leading-[50px] text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
                 <p class="font-['PPE-UltralightItalic']">Tipografías</p>DEL SISTEMA
             </div>
 
-            <div class="grid grid-cols-1 max-sm:pt-24">
-                <img class="image_grid w-full h-full pb-20 border-b border-zinc-500" src="/img/tipografia2.png" alt="">
-                <img class="image_grid w-full h-full pb-6 pt-20" src="/img/tipografia.png" alt="">
+
+            <div
+                class="grid grid-cols-2 max-sm:grid-cols-1 max-sm:px-4 gap-64 px-64 max-sm:gap-6 max-sm:pb-24 max-sm:pt-12 max-[1920px]:px-8">
+
+                <div
+                    class="images items-center max-sm:px-0 text-center pt-20 pb-20 text-white justify-center flex flex-col max-xl:pt-8 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
+                    <div
+                        class="titular max-sm:text-center text-[100px] max-sm:text-[80px] max-sm:leading-[70px] font-['PPE-Ultralight'] text-left leading-[100px] text-white max-xl:justify-center max-xl:text-[60px]">
+                        <p class="font-['ProximaNova']">Proxima Nova</p>
+                    </div>
+                </div>
+                <div
+                    class="images items-end max-sm:items-center text-left pt-20 max-sm:px-0 pb-20 px-64 max-[1920px]:px-12 text-white max-sm:justify-center justify-end flex flex-col gap-32 max-xl:pt-8 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-left max-xl:gap-4">
+                    <div
+                        class="titular max-sm:grid max-sm:grid-cols-2 text-[40px] font-['PPE-Ultralight'] text-left leading-[50px] text-white max-sm:text-30px max-sm:leading-8 max-xl:text-[60px] max-xl:justify-center max-sm:text-[20px]">
+                        <p class="font-['ProximaNova-Thin']">Thin</p>
+                        <p class="font-['ProximaNova']">Regular</p>
+                        <p class="font-['ProximaNova-Bold']">Bold</p>
+                        <p class="font-['ProximaNova-ExtraBold']">ExtraBold</p>
+                        <p class="font-['ProximaNova-Black'] max-sm:hidden">Black</p>
+
+                    </div>
+                </div>
+
             </div>
+
         </div>
 
         <div
-        class="images items-center text-center pt-20 pb-20 px-64 text-white justify-center flex flex-col gap-32 max-xl:pt-8 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
-        <div
+            class="images items-center text-center pt-20 pb-20 px-64 text-white justify-center flex flex-col gap-32 max-xl:pt-8 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
+            <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-center leading-[50px] text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
                 <p class="font-['PPE-UltralightItalic']">Pictogramas</p>DEL SISTEMA
             </div>
         </div>
 
-        <div class="grid px-8 grid-cols-1 max-sm:pt-12">
-                <img class="image_grid w-full h-full pb-6" src="/img/pictogramas.png" alt="">
-            </div>
+        <div class="grid place-items-center px-64 max-sm:px-12 grid-cols-1 max-sm:pt-12 max-sm:hidden">
+            <img class="image_grid max-[1920px]:pb-40 px-32 pt-32 pb-64 w-full h-full" src="/img/pictogramasyelmo.svg" alt="">
+            <img class="image_grid max-[1920px]:pb-40 px-12 pt-4 pb-52 w-1/2 h-full" src="/img/pictogramasyelmo.svg" alt="">
+
+        </div>
+
+        <img class="image_grid pt-32 pb-32 px-32 hidden max-sm:flex w-full h-full" src="/img/pictogramasyelmomovil.svg" alt="">
+
 
         <div
-            class="images items-center text-center pt-20 px-64 text-white justify-center flex flex-col gap-32 max-xl:pt-8 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
+            class="images items-center text-center pb-20 pt-20 px-64 text-white justify-center flex flex-col gap-32 max-xl:pt-8 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
             <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-center leading-[50px] text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
                 <p class="font-['PPE-UltralightItalic']">Elementos</p>DEL SISTEMA
             </div>
         </div>
 
-        <div class="grid grid-cols-1 gap-24 max-sm:pt-12 max-sm:px-8 max-sm:gap-8 max-sm:pb-12">
-                <img class="image_grid w-full h-full pb-6 max-sm:pb-0" src="/img/caratulas.png" alt="">
-                <img class="image_grid w-full h-full pb-6 max-sm:pb-0" src="/img/caratulas2.png" alt="">
-                <img class="image_grid w-full h-full pb-6 max-sm:pb-0" src="/img/caratulas3.png" alt="">
-                <img class="image_grid w-full h-full pb-6 max-sm:pb-0" src="/img/caratulas4.png" alt="">
+        <div class="grid px-64 grid-cols-1 gap-24 pt-24 max-sm:pt-12 max-sm:px-8 max-sm:gap-8 max-sm:pb-12 max-sm:hidden">
+            <div class="grid grid-cols-3 px-32 gap-32">
+                <img class="image_grid w-full h-full pb-6 max-sm:pb-0" src="/img/caratula1.svg" alt="">
+                <img class="image_grid w-full h-full pb-6 max-sm:pb-0" src="/img/caratula3.svg" alt="">
+                <img class="image_grid w-full h-full pb-6 max-sm:pb-0" src="/img/caratula2.svg" alt="">
+
+            </div>
+            <img class="image_grid pt-24 w-full h-full pb-6 max-sm:pb-0" src="/img/caratulasinstagram.png" alt="">
+            <img class="image_grid px-64 w-full h-full pb-6 max-sm:pb-0" src="/img/caratulas3.png" alt="">
+            <img class="image_grid px-[500px] max-[1920px]:px-[22rem] w-full h-full pb-6 max-sm:pb-0" src="/img/caratulas4.png" alt="">
+        </div>
+
+        <div class="max-sm:grid-cols-1 hidden pt-32 px-16 gap-12 max-sm:grid">
+                <img class="image_grid w-full h-full pb-6 max-sm:pb-0" src="/img/caratula1.svg" alt="">
+                <img class="image_grid w-full h-full pb-6 max-sm:pb-0" src="/img/caratula3.svg" alt="">
+                <img class="image_grid w-full h-full pb-6 max-sm:pb-0" src="/img/caratula2.svg" alt="">
+
             </div>
 
+        <img class="image_grid pt-32 pb-32 px-16 hidden max-sm:flex w-full h-full" src="/img/caratulasinstagrammovil.png" alt="">
+
+
         <div
-        class="images items-center text-center pt-20 pb-20 px-64 text-white justify-center flex flex-col gap-32 max-xl:pt-8 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
-        <div
+            class="images items-center text-center pt-40 pb-32 px-64 text-white justify-center flex flex-col gap-32 max-xl:pt-8 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
+            <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-center leading-[50px] text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
                 <p class="font-['PPE-UltralightItalic']">Prototipo</p>APLICACIÓN
             </div>
-
-
-            <div class="grid grid-cols-1 max-sm:pt-12">
-                <img class="image_grid w-full h-full pb-6" src="/img/aplicacion.png" alt="">
-                <img class="image_grid w-full h-full pb-6" src="/img/aplicacion2.png" alt="">
-
-            </div>
         </div>
 
+        <div class="grid grid-cols-1 max-sm:pt-12 px-6 max-sm:hidden">
+            <img class="image_grid w-full h-full pb-6" src="/img/aplicacion.png" alt="">
+            <img class="image_grid w-full h-full pb-6" src="/img/aplicacion2.png" alt="">
+
+        </div>
+
+        <img class="image_grid px-16 pt-32 pb-32 hidden max-sm:flex w-full h-full" src="/img/movilyelmo.png" alt="">
+
+
         <div
-        class="images items-center text-center pt-20 pb-20 px-64 text-white justify-center flex flex-col gap-10 max-xl:pt-8 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
-        <div
+            class="images items-center text-center pt-20 pb-20 px-64 text-white justify-center flex flex-col gap-10 max-xl:pt-8 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
+            <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-center leading-[50px] text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
                 <p class="font-['PPE-UltralightItalic']">Entradas</p>CINE FÍSICAS
             </div>
 
-            <div class="grid grid-cols-1">
-                <img class="image_grid w-full h-full" src="/img/entradas.png" alt="">
+        </div>
+
+        <div class="grid grid-cols-1 max-[1920px]:px-64 max-[1920px]:pb-56 max-[1920px]:gap-6 px-[32rem] gap-12 pt-24 pb-32 max-sm:gap-6 max-sm:pt-12 max-sm:pb-24 max-sm:px-6">
+                <img class="image_grid max-sm:px-0 w-full h-full" src="/img/entrada1.png" alt="">
+                <img class="image_grid max-sm:px-0 w-full h-full" src="/img/entrada2.png" alt="">
+
 
             </div>
-        </div>
 
         <div
             class="trabajos flex pl-40 pr-40 pb-20 text-zinc-300 flex-col gap-10 justify-center items-center max-xl:pt-12 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10">

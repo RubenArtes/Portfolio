@@ -19,7 +19,7 @@
     <div id="navegacion"
       class="titular2 flex px-64 gap-32 content-start space-between justify-center pt-32 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-[1500px]:flex-col max-[1500px]:gap-2 max-[1500px]:items-center max-[1700px]:px-10">
       <div
-        class="titular text-[120px] font-['PPE-Ultralight'] leading-12 font-bold animate-pulse bg-gradient-to-r bg-clip-text text-transparent animate-text max-sm:text-[55px] max-[1500px]:text-left max-[1280px]:text-[100px] from-[#faf8ff] via-[#cae1ff] to-[#e3d5ff] max-sm:text-center max-sm:leading-[60px]">
+        class="titular max-[1920px]:text-[100px] max-[1920px]:leading-[100px] text-[120px] font-['PPE-Ultralight'] leading-12 font-bold animate-pulse bg-gradient-to-r bg-clip-text text-transparent animate-text max-sm:text-[55px] max-[1500px]:text-left max-[1280px]:text-[100px]  max-sm:text-center max-sm:leading-[60px] from-[#faf8ff] via-[#cae1ff] to-[#e3d5ff]">
         METRO MADRID</div>
       <div
         class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:pt-6 max-sm:pb-16 max-sm:px-0 max-[1280px]:items-center max-[1280px]:pt-6 max-[1280px]:pb-0">
@@ -71,7 +71,7 @@
 
 
     <div
-      class="video max-[1440px]:px-12 flex pt-20 px-64 pb-20 text-zinc-600 flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:px-0 max-sm:pb-24">
+      class="video max-[1920px]:px-12 max-[1440px]:px-12 flex pt-20 px-64 pb-20 text-zinc-600 flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:px-0 max-sm:pb-24">
       <video class="justify-self-center max-w-[1240px] max-h-[788px] max-sm:w-full" loop autoplay>
         <source src="/img/fanzine3.mp4" type="video/mp4">
         Your browser does not support the video tag.
@@ -102,7 +102,7 @@
 
     </div>
 
-    <div class="px-64 max-[1440px]:px-12 max-sm:px-4 grid grid-cols-2 gap-2 max-xl:grid-cols-1 max-sm:pb-24">
+    <div class="px-64 max-[1440px]:px-12 max-sm:px-4 grid grid-cols-2 gap-2 max-xl:grid-cols-1 max-sm:pb-24 max-[1920px]:px-32">
       <img class="image_grid w-full h-full" src="/img/libroexperimental.png" alt="">
       <img class="image_grid w-full h-full" src="/img/libroexperimental2.png" alt="">
       <img class="image_grid w-full h-full" src="/img/libroexperimental3.png" alt="">

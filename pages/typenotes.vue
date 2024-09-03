@@ -19,8 +19,8 @@
         <div id="navegacion"
             class="titular2 flex px-64 gap-64 content-start space-between justify-center pt-32 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-[1500px]:flex-col max-[1500px]:gap-2 max-[1500px]:items-center max-[1700px]:px-10">
             <div
-            class="titular text-[120px] font-['PPE-Ultralight'] leading-12 font-bold animate-pulse bg-gradient-to-r bg-clip-text text-transparent animate-text max-sm:text-[55px] max-[1500px]:text-left max-[1280px]:text-[100px] from-[#faf8ff] via-[#cae1ff] to-[#e3d5ff] max-sm:text-center max-sm:leading-[60px]">
-            TYPENOTES</div>
+                class="titular text-[120px] font-['PPE-Ultralight'] leading-12 font-bold animate-pulse bg-gradient-to-r bg-clip-text text-transparent animate-text max-sm:text-[55px] max-[1500px]:text-left max-[1280px]:text-[100px] from-[#faf8ff] via-[#cae1ff] to-[#e3d5ff] max-sm:text-center max-sm:leading-[60px]">
+                TYPENOTES</div>
             <div
                 class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:pt-6 max-sm:pb-16 max-sm:px-0 max-[1280px]:items-center max-[1280px]:pt-6 max-[1280px]:pb-0">
 
@@ -48,22 +48,22 @@
                 <div
                     class="text max-w-[200ch] max-sm:text-left text-center font-['PPE-Ultralight'] max-sm:text-[20px] pb-4 uppercase text-[24px] leading-10 text-white max-xl:text-xs">
                     Asignatura</div>
-                    <div
+                <div
                     class="text max-w-[200ch] font-['SFUIDisplay-Regular'] text-center max-sm:text-left max-sm:max-w-[16ch] text-[16px] leading-6 text-white max-xl:text-sm max-xl:max-w-[40ch]">
                     Diseño editorial, 3º Diseño Gráfico.
                 </div>
             </div>
             <div class="info flex flex-col max-sm:text-start">
-              <div
+                <div
                     class="text max-w-[200ch] text-center font-['PPE-Ultralight'] max-sm:text-[20px] max-sm:text-left pb-4 uppercase text-[24px] leading-10 text-white max-xl:text-xs">
                     Tiempo</div>
                 <div
-                class="text max-w-[20ch] font-['SFUIDisplay-Regular']  text-center max-sm:text-start text-[16px] leading-6 text-white max-xl:text-sm max-xl:max-w-[40ch]">
-                1 -2 meses
+                    class="text max-w-[20ch] font-['SFUIDisplay-Regular']  text-center max-sm:text-start text-[16px] leading-6 text-white max-xl:text-sm max-xl:max-w-[40ch]">
+                    1 -2 meses
                 </div>
             </div>
             <div class="info flex flex-col">
-              <div
+                <div
                     class="text max-w-[200ch] max-sm:text-left text-center font-['PPE-Ultralight'] max-sm:text-[20px] pb-4 uppercase text-[24px] leading-10 text-white max-xl:text-xs">
                     Briefing</div>
                 <div
@@ -86,8 +86,9 @@
             <div class="info_proyect max-w-[80ch]">
                 <div class="info_secondary flex flex-col gap-6 sticky top-48 max-[1500px]:gap-12">
                     <div
-                class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
-                <p class="font-['PPE-UltralightItalic']">Revista</p>TYPENOTES</div>
+                        class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
+                        <p class="font-['PPE-UltralightItalic']">Revista</p>TYPENOTES
+                    </div>
                     <div
                         class="text text-[20px] font-['SFUIDisplay-Regular'] indent-12 text-white max-w-[70ch] max-xl:text-sm max-[1500px]:text-[16px] max-[1500px]:max-w-[100ch]">
                         El trabajo de Diseño Editorial consiste en la adaptación propia de la revista de TypeNotes a un
@@ -129,7 +130,8 @@
             class="titular2 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
-                <p class="font-['PPE-UltralightItalic']">Elementos</p>MAQUETACIÓN</div>
+                <p class="font-['PPE-UltralightItalic']">Elementos</p>MAQUETACIÓN
+            </div>
             <div
                 class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[1280px]:p-0">
 
@@ -148,9 +150,12 @@
         </div>
 
         <div class="grid grid-cols-1 max-sm:px-4 text-center">
-            <div
-                class=" pt-32 max-sm:pt-4 px-32 max-sm:px-0 text underline underline-offset-8 decoration-1 max-sm:p-12 text-center max-w-[60ch] text-[16px] uppercase text-white max-xl:leading-2 max-xl:text-xs max-xl:text-center max-[1280px]:text-center">
-                <a class="type flex place-content-center text-center">PALETA DE COLORES</a>
+
+            <div id="primercompartimento"
+                class="titular2 flex px-64 pb-12 gap-64 pt-12 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+                <div
+                    class="titular max-[1440px]:text-left text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
+                    PALETA DE COLOR</div>
             </div>
             <div
                 class="hidden gap-8 items-center justify-items-center px-12 pb-32 pt-32 max-[1280px]:p-10 max-[1500px]:px-60 max-[800px]:grid-cols-1 max-sm:grid max-sm:grid-cols-2 max-sm:px-8">
@@ -228,29 +233,155 @@
 
             </div>
 
-            <div
-                class=" pt-12 max-sm:pt-4 px-32 max-sm:px-0 text underline underline-offset-8 decoration-1 max-sm:p-12 text-center max-w-[60ch] text-[16px] uppercase text-white max-xl:leading-2 max-xl:text-xs max-xl:text-center max-[1280px]:text-center">
-                <a class="type flex pb-12 max-sm:pb-0 place-content-center text-center">LOGOTIPO</a>
+            <div id="primercompartimento"
+                class="titular2 flex px-64 pb-12 gap-64 pt-12 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+                <div
+                    class="titular max-[1440px]:text-left text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
+                    LOGOTIPO</div>
             </div>
-            <img class="image_grid px-[22rem] max-sm:px-0 w-full h-full pb-12" src="/img/elementos2.png" alt="">
-            <div
-                class="pt-32 max-sm:pt-4 px-32 max-sm:px-0 text underline underline-offset-8 decoration-1 max-sm:p-12 text-center max-w-[60ch] text-[16px] uppercase text-white max-xl:leading-2 max-xl:text-xs max-xl:text-center max-[1280px]:text-center">
-                <a class="type pb-12 max-sm:pb-0 flex place-content-center text-center">TIPOGRAFÍAS</a>
+
+            <img class="image_grid px-[50rem] max-[1920px]:px-[30rem] max-sm:px-12 w-full h-full pt-32 max-sm:pt-12"
+                src="/img/LogoTypenotes2.svg" alt="">
+            <p
+                class="text-[70px] z-50 uppercase font-bold text-white pt-24 pb-40 max-sm:pt-6 max-sm:pb-12 max-sm:text-[40px]">
+                ↓
+            </p>
+            <img class="image_grid px-[50rem] max-[1920px]:px-[30rem] max-sm:px-12 w-full h-full pb-12"
+                src="/img/LogoTypenotes1.svg" alt="">
+
+
+            <div id="primercompartimento"
+                class="titular2 flex px-64 pb-32 gap-64 pt-32 max-sm:pb-12 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+                <div
+                    class="titular max-[1440px]:text-left text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
+                    TIPOGRAFÍA</div>
             </div>
-            <img class="image_grid px-72 max-sm:px-0  pt-12 w-full h-full pb-12" src="/img/elementos4.png" alt="">
+
             <div
-                class="pt-32 max-sm:pt-4 px-32 max-sm:px-0 text underline underline-offset-8 decoration-1 max-sm:p-12 text-center max-w-[60ch] text-[16px] uppercase text-white max-xl:leading-2 max-xl:text-xs max-xl:text-center max-[1280px]:text-center">
-                <a class="type flex place-content-center text-center">JERARQUÍAS TIPOGRÁFICAS</a>
+                class="titular2 grid grid-cols-3 max-sm:grid-cols-1 max-sm:px-0 max-sm:gap-16 px-64 pt-4 max-sm:pt-0 content-start justify-center text-center max-sm:flex-col max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+                <div class="segundogrid flex flex-col gap-2 max-sm:gap-0">
+
+                    <div
+                        class="titular2 content-start pb-12 justify-left text-left max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+                        <div
+                            class="titular max-sm:leading-[60px] max-sm:text-[50px] max-[1920px]:text-[70px] max-[1440px]:text-left text-[90px] font-['FSBrabo'] text-start leading-10 text-white max-sm:text-30px max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-2">
+                            FS Brabo Font</div>
+                    </div>
+                    <div id="primercompartimento"
+                        class="titular2 content-start justify-left text-left max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20 max-sm:pt-0 max-sm:pb-0">
+                        <div
+                            class="titular max-sm:leading-[30px] max-[1920px]:text-[30px] max-[1440px]:text-left text-[30px] font-['FSBrabo-Light'] text-start leading-10 text-white max-sm:text-30px max-xl:justify-center max-xl:text-[60px] max-sm:text-center max-sm:pt-2 max-sm:text-[22px]">
+                            FS Brabo Font Light</div>
+                    </div>
+                    <div id="primercompartimento"
+                        class="titular2 content-start justify-left text-left max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20 max-sm:pt-0 max-sm:pb-0">
+                        <div
+                            class="titular max-sm:leading-[30px] max-[1920px]:text-[30px] max-[1440px]:text-left text-[30px] font-['FSBrabo-LightItalic'] text-start leading-10 text-white max-sm:text-30px max-xl:justify-center max-xl:text-[60px] max-sm:text-center max-sm:pt-2 max-sm:text-[22px]">
+                            FS Brabo Font Light Italic</div>
+                    </div>
+                    <div id="primercompartimento"
+                        class="titular2 content-start justify-left text-left max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20 max-sm:pt-0 max-sm:pb-0">
+                        <div
+                            class="titular max-sm:leading-[30px] max-[1920px]:text-[30px] max-[1440px]:text-left text-[30px] font-['FSBrabo'] text-start leading-10 text-white max-sm:text-30px max-xl:justify-center max-xl:text-[60px] max-sm:text-center max-sm:pt-2 max-sm:text-[22px]">
+                            FS Brabo Font Regular</div>
+                    </div>
+                    <div id="primercompartimento"
+                        class="titular2 content-start justify-left text-left max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20 max-sm:pt-0 max-sm:pb-0">
+                        <div
+                            class="titular max-sm:leading-[30px] max-[1920px]:text-[30px] max-[1440px]:text-left text-[30px] font-['FSBrabo-MediumItalic'] text-start leading-10 text-white max-sm:text-30px max-xl:justify-center max-xl:text-[60px] max-sm:text-center max-sm:pt-2 max-sm:text-[22px]">
+                            FS Brabo Font Medium Italic</div>
+                    </div>
+                    <div id="primercompartimento"
+                        class="titular2 content-start justify-left text-left max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20 max-sm:pt-0 max-sm:pb-0">
+                        <div
+                            class="titular max-sm:leading-[30px] max-[1920px]:text-[30px] max-[1440px]:text-left text-[30px] font-['FSBrabo-Medium'] text-start leading-10 text-white max-sm:text-30px max-xl:justify-center max-xl:text-[60px] max-sm:text-center max-sm:pt-2 max-sm:text-[22px]">
+                            FS Brabo Font Medium</div>
+                    </div>
+                    <div id="primercompartimento"
+                        class="titular2 content-start justify-left text-left max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20 max-sm:pt-0 max-sm:pb-0">
+                        <div
+                            class="titular max-sm:leading-[30px] max-[1920px]:text-[30px] max-[1440px]:text-left text-[30px] font-['FSBrabo-BoldItalic'] text-start leading-10 text-white max-sm:text-30px max-xl:justify-center max-xl:text-[60px] max-sm:text-center max-sm:pt-2 max-sm:text-[22px]">
+                            FS Brabo Font Bold Italic</div>
+                    </div>
+                    <div id="primercompartimento"
+                        class="titular2 content-start justify-left text-left max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20 max-sm:pt-0 max-sm:pb-0">
+                        <div
+                            class="titular max-sm:leading-[30px] max-[1920px]:text-[30px] max-[1440px]:text-left text-[30px] font-['FSBrabo-Bold'] text-start leading-10 text-white max-sm:text-30px max-xl:justify-center max-xl:text-[60px] max-sm:text-center max-sm:pt-2 max-sm:text-[22px]">
+                            FS Brabo Font Bold</div>
+                    </div>
+                </div>
+                <div class="primergrid flex flex-col gap-2 max-sm:hidden">
+                </div>
+
+                <div class="primergrid flex flex-col gap-2">
+
+                    <div
+                        class="titular2 content-start pb-12 justify-left text-left max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+                        <div
+                            class="titular max-sm:leading-[60px] max-sm:text-[50px] max-[1920px]:text-[70px] max-[1440px]:text-left text-[90px] font-['FSKim-Bold'] text-start leading-10 text-white max-sm:text-30px max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-2">
+                            FS Kim Font</div>
+                    </div>
+                    <div id="primercompartimento"
+                        class="titular2 content-start justify-left text-left max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20 max-sm:pt-0 max-sm:pb-0">
+                        <div
+                            class="titular max-sm:leading-[30px] max-[1920px]:text-[30px] max-[1440px]:text-left text-[30px] font-['FSKim-Italic'] text-start leading-10 text-white max-sm:text-30px max-xl:justify-center max-xl:text-[60px] max-sm:text-center max-sm:pt-2 max-sm:text-[22px]">
+                            FS Kim Italic</div>
+                    </div>
+                    <div id="primercompartimento"
+                        class="titular2 content-start justify-left text-left max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20 max-sm:pt-0 max-sm:pb-0">
+                        <div
+                            class="titular max-sm:leading-[30px] max-[1920px]:text-[30px] max-[1440px]:text-left text-[30px] font-['FSKim'] text-start leading-10 text-white max-sm:text-30px max-xl:justify-center max-xl:text-[60px] max-sm:text-center max-sm:pt-2 max-sm:text-[22px]">
+                            FS Kim Regular</div>
+                    </div>
+                    <div id="primercompartimento"
+                        class="titular2 content-start justify-left text-left max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20 max-sm:pt-0 max-sm:pb-0">
+                        <div
+                            class="titular max-sm:leading-[30px] max-[1920px]:text-[30px] max-[1440px]:text-left text-[30px] font-['FSKim-BoldItalic'] text-start leading-10 text-white max-sm:text-30px max-xl:justify-center max-xl:text-[60px] max-sm:text-center max-sm:pt-2 max-sm:text-[22px]">
+                            FS Kim Bold Italic</div>
+                    </div>
+                    <div id="primercompartimento"
+                        class="titular2 content-start justify-left text-left max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20 max-sm:pt-0 max-sm:pb-0">
+                        <div
+                            class="titular max-sm:leading-[30px] max-[1920px]:text-[30px] max-[1440px]:text-left text-[30px] font-['FSKim-Bold'] text-start leading-10 text-white max-sm:text-30px max-xl:justify-center max-xl:text-[60px] max-sm:text-center max-sm:pt-2 max-sm:text-[22px]">
+                            FS Kim Bold</div>
+                    </div>
+                    <div id="primercompartimento"
+                        class="titular2 content-start justify-left text-left max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20 max-sm:pt-0 max-sm:pb-0">
+                        <div
+                            class="titular max-sm:leading-[30px] max-[1920px]:text-[30px] max-[1440px]:text-left text-[30px] font-['FSKim-HeavyItalic'] text-start leading-10 text-white max-sm:text-30px max-xl:justify-center max-xl:text-[60px] max-sm:text-center max-sm:pt-2 max-sm:text-[22px]">
+                            FS Kim Heavy Italic</div>
+                    </div>
+                    <div id="primercompartimento"
+                        class="titular2 content-start justify-left text-left max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20 max-sm:pt-0 max-sm:pb-0">
+                        <div
+                            class="titular max-sm:leading-[30px] max-[1920px]:text-[30px] max-[1440px]:text-left text-[30px] font-['FSKim-Heavy'] text-start leading-10 text-white max-sm:text-30px max-xl:justify-center max-xl:text-[60px] max-sm:text-center max-sm:pt-2 max-sm:text-[22px]">
+                            FS Kim Heavy </div>
+                    </div>
+
+                </div>
             </div>
+
+            <div id="primercompartimento"
+                class="titular2 flex px-64 pb-32 gap-64 pt-40 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+                <div
+                    class="titular max-[1440px]:text-left text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
+                    JERARQUÍAS TIPOGRÁFICAS</div>
+            </div>
+
             <img class="image_grid px-72 max-sm:px-0 pt-12 w-full h-full pb-12" src="/img/elementos8.png" alt="">
-            <div
-                class="pt-32 max-sm:pt-4 px-32 max-sm:px-0 text underline underline-offset-8 decoration-1 max-sm:p-12 text-center max-w-[60ch] text-[16px] uppercase text-white max-xl:leading-2 max-xl:text-xs max-xl:text-center max-[1280px]:text-center">
-                <a class="type flex place-content-center text-center">RETICULA</a>
+
+            <div id="primercompartimento"
+                class="titular2 flex px-64 pb-32 gap-64 pt-32 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+                <div
+                    class="titular max-[1440px]:text-left text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
+                    RETÍCULA</div>
             </div>
             <img class="image_grid px-72 max-sm:px-0  w-full h-full pb-12" src="/img/elementos6.png" alt="">
-            <div
-                class="pt-32 max-sm:pt-4 px-32 max-sm:px-0 text underline underline-offset-8 decoration-1 max-sm:p-12 text-center max-w-[60ch] text-[16px] uppercase text-white max-xl:leading-2 max-xl:text-xs max-xl:text-center max-[1280px]:text-center">
-                <a class="type flex place-content-center text-center">DISPOSICIÓN DE PÁGINAS</a>
+            <div id="primercompartimento"
+                class="titular2 flex px-64 pb-32 gap-64 pt-32 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+                <div
+                    class="titular max-[1440px]:text-left text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
+                    DISPOSICIÓN DE PÁGINAS</div>
             </div>
             <img class="image_grid px-72 max-sm:px-0 w-full h-full pb-12" src="/img/elementos7.png" alt="">
 
@@ -262,7 +393,8 @@
             class="titular2 grid max-sm:hidden grid-cols-1 px-64 pb-32 gap-4 place-items-center max-sm:text-left max-sm:items-center max-sm:flex-start items-center pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-center leading-[50px] text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
-                <p class="font-['PPE-UltralightItalic']">Páginas</p>COMPLETAS</div>
+                <p class="font-['PPE-UltralightItalic']">Páginas</p>COMPLETAS
+            </div>
             <div
                 class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[1280px]:p-0">
 
@@ -279,7 +411,8 @@
             class="titular2 hidden max-sm:grid grid-cols-1 px-64 pb-32 gap-4 place-items-left max-sm:text-left max-sm:items-center max-sm:flex-start items-center pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
-                <p class="font-['PPE-UltralightItalic']">Páginas</p>COMPLETAS</div>
+                <p class="font-['PPE-UltralightItalic']">Páginas</p>COMPLETAS
+            </div>
             <div
                 class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[1280px]:p-0">
 
