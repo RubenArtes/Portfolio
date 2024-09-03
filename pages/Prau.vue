@@ -18,7 +18,7 @@
         <div id="navegacion"
             class="titular2 flex px-64 gap-32 content-start space-between justify-center pt-32 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-[1500px]:flex-col max-[1500px]:gap-2 max-[1500px]:items-center max-[1700px]:px-10">
             <div
-            class="titular max-sm:leading-[60px] text-[120px] font-['PPE-Ultralight'] leading-[130px] font-bold animate-pulse bg-gradient-to-r bg-clip-text text-transparent animate-text max-sm:text-[55px] max-[1440px]:leading-[140px] max-[1500px]:text-center max-[1280px]:text-[100px] from-[#311568] via-[#4797ff] to-[#311568]  ">
+                class="titular max-sm:leading-[60px] text-[120px] font-['PPE-Ultralight'] leading-[130px] font-bold animate-pulse bg-gradient-to-r bg-clip-text text-transparent animate-text max-sm:text-[55px] max-[1440px]:leading-[140px] max-[1500px]:text-center max-[1280px]:text-[100px] from-[#311568] via-[#4797ff] to-[#311568]  ">
                 MARCA <br> PRAU</div>
             <div
                 class="trabajos flex max-sm:gap-2 flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:pt-6 max-sm:pb-16 max-sm:px-0 max-[1280px]:items-center max-[1280px]:pt-6 max-[1280px]:pb-0">
@@ -27,14 +27,18 @@
                     class="text max-sm:pt-4 max-w-[60ch] text-[16px] max-[1440px]:pt-12 uppercase text-zinc-900 max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
                     Diseño Prau - Packaging - Marca -
                     Diseño Gráfico</div>
-                    <div
-                class="text max-sm:pt-4 max-w-[80ch] max-[1440px]:pt-12 pb-16 pt-4 max-sm:text-left text-left font-['SFUIDisplay-Regular'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:max-w-[100ch] max-[800px]:pb-4">
-                Este trabajo consiste en
-                    realizar una identidad visual de un distribuidor de productos y alimentos de km0, que cumplan ciertas
-                    condiciones, como productos de buena calidad y relación calidad precio y que sean productos artesanos y
+                <div
+                    class="text max-sm:pt-4 max-w-[80ch] max-[1440px]:pt-12 pb-16 pt-4 max-sm:text-left text-left font-['SFUIDisplay-Regular'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:max-w-[100ch] max-[800px]:pb-4">
+                    Este trabajo consiste en
+                    realizar una identidad visual de un distribuidor de productos y alimentos de km0, que cumplan
+                    ciertas
+                    condiciones, como productos de buena calidad y relación calidad precio y que sean productos
+                    artesanos y
                     de proximidad. Creación de la marca visual, logo y tres productos, uno siendo el vino el principal
-                    productos y otros dos a elección propia, en mi caso el queso de cabra y la mermelada natural (naranja).
-                    Hay que crear un nombre y logo de marca (+ descriptor), propuesta de etiquetado para vino y otros dos
+                    productos y otros dos a elección propia, en mi caso el queso de cabra y la mermelada natural
+                    (naranja).
+                    Hay que crear un nombre y logo de marca (+ descriptor), propuesta de etiquetado para vino y otros
+                    dos
                     productos, rotulo de fachada y bolsa de papel.
                     Mi proyecto se llama Prau, una bodega de vinos que crea productos KM0 de La Rioja.
                 </div>
@@ -58,7 +62,7 @@
                 <div
                     class="text max-w-[60ch] max-sm:text-left font-['PPE-Ultralight'] max-sm:text-[20px] pb-4 text-center text-[24px] uppercase leading-10 text-zinc-800 max-xl:text-xs">
                     Tiempo</div>
-                    <div
+                <div
                     class="text max-w-[20ch] font-['SFUIDisplay-Light'] text-center max-sm:text-start text-[16px] leading-6 text-zinc-900 max-xl:text-sm max-xl:max-w-[40ch]">
                     2 - 3 meses
                 </div>
@@ -66,10 +70,10 @@
             <div class="info flex flex-col">
                 <div
                     class="text max-w-[60ch] max-sm:text-left font-['PPE-Ultralight'] max-sm:text-[20px] pb-4 text-center text-[24px] uppercase leading-10 text-zinc-800 max-xl:text-xs">
-                   Briefing</div>
+                    Briefing</div>
                 <div
-                class="text max-w-[20ch] font-['SFUIDisplay-Light'] text-center max-sm:text-start text-[16px] leading-6 text-zinc-900 max-xl:text-sm max-xl:max-w-[40ch]">
-                Productos KM0
+                    class="text max-w-[20ch] font-['SFUIDisplay-Light'] text-center max-sm:text-start text-[16px] leading-6 text-zinc-900 max-xl:text-sm max-xl:max-w-[40ch]">
+                    Productos KM0
                 </div>
             </div>
         </div>
@@ -77,7 +81,7 @@
         <div
             class="video flex pt-20 pb-4 text-zinc-600 flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
             <img class="image w-full h-full" src="/img/finalprau.jpg" alt="">
-            
+
         </div>
         <div
             class="grid max-[1440px]:px-8 grid-cols-3 gap-8  px-8 pb-32 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-sm:hidden">
@@ -94,37 +98,43 @@
                     <div
                         class="text text-[20px] font-['SFUIDisplay-Light'] indent-12 text-zinc-900 max-w-[70ch] max-xl:text-sm max-[1500px]:text-[16px] max-[1500px]:max-w-[100ch]">
                         Esta marca es un gran legado familiar y a lo largo de tres generaciones se ha producido un vino
-                        clarete de alta calidad, conservando siempre el gran valor principal de esta marca, la pasión por la
+                        clarete de alta calidad, conservando siempre el gran valor principal de esta marca, la pasión
+                        por la
                         tierra y dedicarse con un gran compromiso a esta.
-                        Cobra una gran importancia el cuidado del terreno y los suelos que ofrecen luego un gran producto de
+                        Cobra una gran importancia el cuidado del terreno y los suelos que ofrecen luego un gran
+                        producto de
                         calidad. <br> <br>
                         <div class="text indent-12">Una vez desarrollado durante años el vino clarete se ha pensado el
                             producir otras elaboraciones
                             asemejando la calidad y el cuidado del vino y con la idea de crear productos gourmets. Estos
-                            productos serán el queso de cabra y la mermelada natural, haciendo de estos unos productos con
+                            productos serán el queso de cabra y la mermelada natural, haciendo de estos unos productos
+                            con
                             una
                             elaboración muy cuidada y artesanal con cero idea de producción industrial.
-                            Esta marca tendrá como nombre Prau, productor y exportador de La Rioja con un concepto de pasión
+                            Esta marca tendrá como nombre Prau, productor y exportador de La Rioja con un concepto de
+                            pasión
                             por
                             la tierra y el campo.</div>
                         <br>
-                        <div class="text indent-12">El nombre de Prau nace con la idea de utilizar el campo y la tierra y
+                        <div class="text indent-12">El nombre de Prau nace con la idea de utilizar el campo y la tierra
+                            y
                             combinarlo con el dialecto
                             riojano, por lo que Prau - Del dialecto de Rioja, riojano, sirve para denominar al prado, al
                             campo
-                            la tierra en general. Entra en consonancia con los valores de esta marca, ya que representa esa
+                            la tierra en general. Entra en consonancia con los valores de esta marca, ya que representa
+                            esa
                             pasión por la tierra y por
-                            los campos de cultivo, esa pasión por el terreno que lleva pasando de familia en familia.</div>
+                            los campos de cultivo, esa pasión por el terreno que lleva pasando de familia en familia.
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="fotografias flex flex-col gap-6 h-min">
-                <img class="image_rect shadow-md border w-[550px]" src="/img/finaltrasera.png" alt="">
-                <img class="image_rect shadow-md border w-[550px]" src="/img/finaldelantera.png" alt="">
+            <div class="fotografias flex flex-col max-sm:pt-12 gap-6 h-min">
+                <img class="image_rect w-[800px]" src="/img/vinoprau3d.png" alt="">
             </div>
         </div>
 
-        
+
 
         <div
             class="titular2 flex px-64 pb-24 gap-64 pt-32 content-start space-between justify-center pt-20 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-24 max-sm:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:px-60 max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
@@ -152,7 +162,7 @@
         </div>
 
         <div
-        class="images max-[1440px]:px-0 pt-20 pb-4 text-white justify-center content-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4 max-[1500px]:px-60 max-[800px]:px-0 max-[800px]:pt-12">
+            class="images max-[1440px]:px-0 pt-20 pb-4 text-white justify-center content-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4 max-[1500px]:px-60 max-[800px]:px-0 max-[800px]:pt-12">
 
             <img class="image_grid w-full h-full" src="/img/mockupmer_3.png" alt="">
 
@@ -163,22 +173,17 @@
             <a class="type text-[14px] pt-4 font-['Neue'] uppercase">▲ Mockup etiquetado de Mermelada</a>
         </div>
 
-        <div
-            class="grid max-[1440px]:px-0 grid-cols-2 items-center justify-items-center pb-12 max-sm:px-0 max-sm:grid-cols-1 max-[1280px]:p-10 max-[1500px]:px-60">
-
-            <img class="image_grid border-t border-b w-full h-full max-sm:border-b-0" src="/img/etiquetafrontal.png" alt="">
-            <img class="image_grid border-t border-b w-full h-full" src="/img/etiquetatrasera.png" alt="">
-
+        <div class="div max-sm:pt-12 max-sm:pb-8 text-zinc-600 text-center text-xs m-0 pb-14 max-xl:pb-4">Etiqueta final
+            envolvente con
+            información
+            <br>
+            <div class="div text-[#FFB047] text-center text-lg m-0 animate-pulse font-['Domaine-Display'] uppercase">
+                MERMELADA DE NARANJA</div>
         </div>
 
-        
+        <img class="px-[10rem] max-sm:px-0 max-sm:pb-12 pb-24 image_grid w-full h-full" src="/img/prau3d2.png" alt="">
 
-        <div class="div text-zinc-600 text-center text-xs m-0 pb-14 max-xl:pb-4">Etiqueta final envolvente con información
-                <br>
-                <div
-                    class="div text-[#FFB047] text-center text-lg m-0 animate-pulse font-['Domaine-Display'] uppercase">
-                    MERMELADA DE NARANJA</div>
-            </div>
+
 
 
         <div
@@ -198,7 +203,8 @@
                     class="text max-w-[80ch] pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
                     Etiqueta para el apartado de vino,
                     muestra de la etiqueta y como se integra
-                    en el packaging con la cara de delante y la de detrás teniendo en cuenta los espaciados, colocación de
+                    en el packaging con la cara de delante y la de detrás teniendo en cuenta los espaciados, colocación
+                    de
                     los
                     textos y maquetación general.
                 </div>
@@ -207,11 +213,11 @@
 
         </div>
 
-        
 
-        
+
+
         <div
-        class="images max-[1440px]:px-0 pt-12 pb-4 text-white justify-center content-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4 max-[1500px]:px-60 max-[800px]:px-0 max-[800px]:pt-4">
+            class="images max-[1440px]:px-0 pt-12 pb-4 text-white justify-center content-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4 max-[1500px]:px-60 max-[800px]:px-0 max-[800px]:pt-4">
 
             <img class="image_grid w-full h-full max-sm:hidden" src="/img/vinospng2.png" alt="">
         </div>
@@ -241,7 +247,8 @@
                     class="text max-w-[80ch] pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
                     Etiqueta para el apartado de queso de cabra,
                     muestra de la etiqueta y como se integra
-                    en el packaging con la cara de delante y la de detrás teniendo en cuenta los espaciados, colocación de
+                    en el packaging con la cara de delante y la de detrás teniendo en cuenta los espaciados, colocación
+                    de
                     los textos y maquetación general.
                 </div>
 
@@ -250,9 +257,9 @@
         </div>
 
 
-        
+
         <div
-        class="images pt-12 max-[1440px]:px-0 pb-4 justify-center content-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4 max-[1500px]:px-60 max-[800px]:px-0 max-[800px]:pt-4">
+            class="images pt-12 max-[1440px]:px-0 pb-4 justify-center content-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4 max-[1500px]:px-60 max-[800px]:px-0 max-[800px]:pt-4">
 
             <img class="image_grid w-full h-full" src="/img/quesoprau5.png" alt="">
         </div>
@@ -262,23 +269,27 @@
             <a class="type text-[14px] pt-4 font-['Neue'] uppercase">▲ FOTOGRAFÍA ETIQUETA QUESOS</a>
         </div>
 
-        <div class="texto max-[1440px]:px-32 max-[1440px]:gap-80 flex gap-[53rem] justify-center pt-24 max-sm:gap-16">
+        <div
+            class="texto max-[1440px]:px-32 max-[1440px]:gap-80 flex gap-[53rem] justify-center pt-24 max-sm:gap-16 max-sm:hidden">
             <div
-                    class="text max-w-[80ch] pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600  max-sm:text-[12px]">
+                class="text max-w-[80ch] pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600  max-sm:text-[12px]">
                 ETIQUETA TRASERA
-                </div>
+            </div>
 
-                <div
-                    class="text max-w-[80ch] pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600  max-sm:text-[12px]">
+            <div
+                class="text max-w-[80ch] pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600  max-sm:text-[12px]">
                 ETIQUETA DELANTERA
-                </div>
+            </div>
         </div>
 
         <div
-        class="images max-[1440px]:px-12 pt-2 pb-2 text-white justify-center content-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4 max-[1500px]:px-60 max-[800px]:px-0 max-[800px]:pt-4">
+            class="images max-[1440px]:px-12 pt-2 pb-2 text-white justify-center content-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4 max-[1500px]:px-60 max-[800px]:px-0 max-[800px]:pt-4">
 
-            <img class="image_grid w-full h-full" src="/img/etiquetaqueso.png" alt="">
+            <img class="image_grid w-full h-full max-sm:hidden" src="/img/etiquetaqueso.png" alt="">
         </div>
+
+        <img class="image_grid pt-12 hidden w-full h-full max-sm:flex" src="/img/etiqueta2.png" alt="">
+        <img class="image_grid hidden w-full h-full max-sm:flex" src="/img/etiqueta1.png" alt="">
 
 
         <div
@@ -296,7 +307,8 @@
                 </div>
                 <div
                     class="text max-w-[80ch] pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
-                    En esta marca se utiliza el nombre de PRAU como logotipo principal utilizando diferentes opicones que da la tipografía original
+                    En esta marca se utiliza el nombre de PRAU como logotipo principal utilizando diferentes opicones
+                    que da la tipografía original
                     y se le añade un descriptor debajo para cada uno de los productos.
                 </div>
 
@@ -315,7 +327,7 @@
         </div>
 
         <div
-        class="images max-[1440px]:px-0 pt-12 pb-2 text-white justify-center content-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4 max-[1500px]:px-60 max-[800px]:px-0 max-[800px]:pt-4 max-sm:gap-4">
+            class="images max-[1440px]:px-0 pt-12 pb-2 text-white justify-center content-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4 max-[1500px]:px-60 max-[800px]:px-0 max-[800px]:pt-4 max-sm:gap-4">
 
             <img class="image_grid w-full h-full" src="/img/rotulofachada.jpg" alt="">
         </div>
@@ -336,14 +348,14 @@
                 <div
                     class="text max-w-[80ch] pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
                     Ilustraciones creadas para cada uno de los
-              packaging
-              mediante ilustración digital.
-              <br> <br>
-              → Vinos - Uvas
-              <br>
-              → Mermelada - Fruta seleccionada
-              <br>
-              → Queso de cabra - Cabra
+                    packaging
+                    mediante ilustración digital.
+                    <br> <br>
+                    → Vinos - Uvas
+                    <br>
+                    → Mermelada - Fruta seleccionada
+                    <br>
+                    → Queso de cabra - Cabra
                 </div>
 
             </div>
@@ -352,7 +364,7 @@
 
         <div
             class="grid max-[1440px]:px-24 grid-cols-1 gap-0 items-center justify-items-center px-64 pb-32 max-sm:px-10 max-[1280px]:p-10 max-[1500px]:px-60 max-sm:grid-cols-1">
-            
+
             <img class="image_grid w-full h-full " src="/img/ilustracionesfinales1.png" alt="">
 
 
@@ -383,7 +395,8 @@
 
         <div
             class="links_rrss font-['SFUIDisplay-Light'] leading-6 pt-32 px-64 pb-32 text-zinc-600 justify-center flex flex-row gap-60 max-xl:pt-20 max-xl:px-10 max-xl:flex-col max-xl:justify-items-center max-xl:gap-20 max-xl:flex max-xl:justify-center max-xl:pb-20 max-[1500px]:px-60">
-            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado." target="_blank"  class="email text-lg flex gap-2 items-center max-xl:text-[14px] max-xl:justify-center">
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado."
+                target="_blank" class="email text-lg flex gap-2 items-center max-xl:text-[14px] max-xl:justify-center">
                 ruben.maldonado.graphic@gmail.com
                 <img class="vector" src="/img/Vector-11zinc.svg">
             </a>

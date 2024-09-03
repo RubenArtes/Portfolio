@@ -185,7 +185,7 @@
         </div>
 
         <div
-            class="grid grid-cols-1 gap-2 items-center justify-items-center px-64 pb-12 max-sm:px-10 max-[1280px]:p-10 max-[1500px]:px-60">
+            class="grid grid-cols-1 gap-2 items-center justify-items-center px-64 pb-32 max-sm:px-10 max-[1280px]:p-10 max-[1500px]:px-60">
 
             <Carousel class="carousel max-w-[1200px]">
 
@@ -267,18 +267,18 @@
             class="grid grid-cols-3 gap-32 px-60 pb-4 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-[800px]:gap-2">
 
             <div class="div text-zinc-600 text-center text-xs m-0 pb-14 max-xl:pb-4">
-                <div class="div text-[#FFB047] text-center text-lg m-0 animate-pulse font-['Migra-Regular'] uppercase">
+                <div class="div text-[#FFB047] text-center text-[30px] m-0 animate-pulse font-['PPE-Ultralight'] uppercase">
                     Snacks
                     Garbanzo Spicy</div>
             </div>
 
             <div class="div text-zinc-600 text-center text-xs m-0 pb-14 max-xl:pb-4">
-                <div class="div text-[#F3536D] text-center text-lg m-0 animate-pulse font-['Migra-Regular'] uppercase">
+                <div class="div text-[#F3536D] text-center text-[30px] m-0 animate-pulse font-['PPE-Ultralight'] uppercase">
                     Frambuesa Liofilizada</div>
             </div>
 
             <div class="div text-zinc-600 text-center text-xs m-0 pb-14 max-xl:pb-4">
-                <div class="div text-[#FBCE37] text-center text-lg m-0 animate-pulse font-['Migra-Regular'] uppercase">
+                <div class="div text-[#FBCE37] text-center text-[30px] m-0 animate-pulse font-['PPE-Ultralight'] uppercase">
                     Snacks
                     de verduras</div>
             </div>

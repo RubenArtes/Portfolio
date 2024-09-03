@@ -13,6 +13,20 @@
 }
 
 @font-face {
+    font-family: "AlteHaasGrotesk-Bold";
+    src: local("AlteHaasGrotesk-Bold"),
+     url(/assets/fonts/AlteHaasGrotesk_Bold.eot) format("opentype");
+     src: local("AlteHaasGrotesk-Bold"),
+     url(/assets/fonts/AlteHaasGrotesk_Bold.ttf) format("truetype");
+     src: local("AlteHaasGrotesk-Bold"),
+     url(/assets/fonts/AlteHaasGrotesk_Bold.woff) format("woff");
+     src: local("AlteHaasGrotesk-Bold"),
+     url(/assets/fonts/AlteHaasGrotesk_Bold.woff2) format("woff2");
+     font-style: normal;
+     
+}
+
+@font-face {
     font-family: "ProximaNova";
     src: local("ProximaNova"),
      url(/assets/fonts/ProximaNova-Regular.eot) format("opentype");

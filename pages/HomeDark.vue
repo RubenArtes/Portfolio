@@ -278,7 +278,7 @@
         PÁGINAS
         NUEVAS - PÁGINAS NUEVAS - PÁGINAS NUEVAS
       </div>
-      <div class=" bg-red-700 text-white justify-center content-center font-['Regular'] text-[16px] hidden">
+      <div class=" bg-red-700 text-white justify-center content-center font-['Regular'] text-[16px] max-sm:hidden">
         PÁGINAS
         NUEVAS -
         PÁGINAS NUEVAS - PÁGINAS NUEVAS
@@ -360,9 +360,30 @@
             </div>
           </div>
         </NuxtLink>
+
+
+        <NuxtLink to="/Member">
+          <div
+            class="trabajo1 max-[1920px]:border-r-0 border border-solid border-r-1 border-t-0 px-20 py-30 flex flex-col justify-center hover:bg-[url('/img/member30.gif')] bg-cover bg-center hover:text-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
+            <div
+              class="text text-center max-[2300px]:text-[50px] max-[2300px]:leading-[3.5rem] text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
+              Asistente <br />
+              <p class="font-['PPE-Ultralight']">MEMBER</p>
+            </div>
+            <div
+              class="text text-[16px] text-center leading-[3rem] pb-96 font-['Regular'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
+              MARCA Y AUDIOVISUAL
+            </div>
+            <div
+              class="text text-[250px] pt-24 font-['Apercu'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
+              *
+            </div>
+          </div>
+        </NuxtLink>
+
         <NuxtLink to="/MetrodeMadrid">
           <div
-            class="trabajo1 border border-solid border-r-0 px-20 py-30 flex flex-col justify-center hover:bg-[url('/img/animacionlibro5.gif')] bg-cover bg-center hover:text-white max-[1920px]:border-b-0 max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
+            class="trabajo1 border max-[1920px]:border-r-1 max-[1920px]:border-l-0 border-solid border-r-0 px-20 py-30 flex flex-col justify-center hover:bg-[url('/img/animacionlibro5.gif')] bg-cover bg-center hover:text-white max-[1920px]:border-b-0 max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
             <div
               class="text text-center max-[2300px]:text-[50px] max-[2300px]:leading-[3.5rem] text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
               Fotolibro <br />
@@ -378,27 +399,10 @@
             </div>
           </div>
         </NuxtLink>
-        <NuxtLink to="/Typenotes">
-          <div
-            class="trabajo1 border border-solid border-r-1 border-t-1 px-20 py-30 flex flex-col justify-center hover:bg-[url('/img/NuevaCategoria4.jpg')] bg-cover bg-center hover:text-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
-            <div
-              class="text text-center max-[2300px]:text-[50px] max-[2300px]:leading-[3.5rem] text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
-              Revista <br />
-              <p class="font-['PPE-Ultralight']">TYPENOTES</p>
-            </div>
-            <div
-              class="text text-[16px] text-center leading-[3rem] pb-96 font-['Regular'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
-              EDITORIAL
-            </div>
-            <div
-              class="text text-[250px] pt-24 font-['Apercu'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
-              *
-            </div>
-          </div>
-        </NuxtLink>
+
         <NuxtLink to="/Movistar">
           <div
-            class="trabajo1 border border-solid border-r-0 border-l-0 border-t-1 px-20 py-30 flex flex-col justify-center hover:bg-[url('/img/portadamovistar.gif')] bg-cover bg-center hover:text-black max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
+            class="trabajo1 border max-[1920px]:border max-[1920px]:border-r-0 max-[1920px]:border-b-0 max-[1920px]:border-l-1 border-solid border-r-0 border-l-0 border-t-1 px-20 py-30 flex flex-col justify-center hover:bg-[url('/img/portadamovistar.gif')] bg-cover bg-center hover:text-black max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
             <div
               class="text text-center max-[2300px]:text-[50px] max-[2300px]:leading-[3.5rem] text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
               Audiovisual <br />
@@ -434,7 +438,7 @@
         </NuxtLink>
         <NuxtLink to="/YelmoCines">
           <div
-            class="trabajo1 border border-solid border-r-0 border-t-0 px-20 py-30 flex flex-col justify-center hover:bg-[url('/img/videoyelmo.gif')] bg-cover bg-center hover:text-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
+            class="trabajo1 max-[1920px]:border max-[1920px]:border-l-0 max-[1920px]:border-r-0 border border-solid border-r-0 border-t-0 px-20 py-30 flex flex-col justify-center hover:bg-[url('/img/videoyelmo.gif')] bg-cover bg-center hover:text-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
             <div
               class="text text-center max-[2300px]:text-[50px] max-[2300px]:leading-[3.5rem] text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
               Rediseño <br />
@@ -450,20 +454,20 @@
             </div>
           </div>
         </NuxtLink>
-        <NuxtLink to="/Editorial">
+        <NuxtLink to="/Typenotes">
           <div
-            class="trabajo1 border border-solid border-r-1 border-t-0 px-20 py-30 flex flex-col justify-center hover:bg-[url('/img/NuevaCategoria8.jpg')] bg-cover bg-center hover:text-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
+            class="trabajo1 border border-solid border-r-1 border-t-1 px-20 py-30 flex flex-col justify-center hover:bg-[url('/img/NuevaCategoria4.jpg')] bg-cover bg-center hover:text-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
             <div
               class="text text-center max-[2300px]:text-[50px] max-[2300px]:leading-[3.5rem] text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
-              Pensamiento <br />
-              <p class="font-['PPE-Ultralight']">LATERAL</p>
+              Revista <br />
+              <p class="font-['PPE-Ultralight']">TYPENOTES</p>
             </div>
             <div
               class="text text-[16px] text-center leading-[3rem] pb-96 font-['Regular'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
               EDITORIAL
             </div>
             <div
-              class="text  text-[250px] pt-24 font-['Apercu'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
+              class="text text-[250px] pt-24 font-['Apercu'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
               *
             </div>
           </div>
@@ -488,7 +492,7 @@
         </NuxtLink>
         <NuxtLink to="/Fotografias">
           <div
-            class="trabajo1 border border-solid border-r-0 border-t-0 px-20 py-30 flex flex-col justify-center hover:bg-[url('/img/fotografias3.gif')] bg-cover bg-center hover:text-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
+            class="trabajo1 max-[1920px]:border-l-0 border border-solid border-r-0 border-t-0 px-20 py-30 flex flex-col justify-center hover:bg-[url('/img/fotografias3.gif')] bg-cover bg-center hover:text-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
             <div
               class="text text-center max-[2300px]:text-[50px] max-[2300px]:leading-[3.5rem] text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
               Colección <br />
@@ -587,7 +591,7 @@
 
         <NuxtLink to="/Prau">
           <div
-            class="trabajo1 border border-b-1 border-solid border-r-0 border-l-0 border-t-0 px-20 py-30 flex flex-col justify-center bg-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-black max-sm:border-solid max-sm:border-1 max-sm:text-white">
+            class="trabajo1 border border-b-0 border-solid border-r-0 border-l-0 border-t-0 px-20 py-30 flex flex-col justify-center bg-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-black max-sm:border-solid max-sm:border-1 max-sm:text-white">
             <div
               class="text text-center text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[3rem] max-sm:pb-4 max-sm:text-center">
               Etiquetado<br />
@@ -603,17 +607,38 @@
             </div>
           </div>
         </NuxtLink>
-        <NuxtLink to="/MetrodeMadrid">
+
+
+        <div
+          class="grid-flow-cols border-0 border-none grid-cols-4 max-[1920px]:grid-cols-3 text-center max-[1450px]:grid-cols-2 animate-pulse max-[1930px]:grid-cols-3 max-sm:grid-cols-1 hidden max-sm:grid">
+
+          <div class=" bg-red-700 text-white justify-center content-center text-[12px]">PÁGINAS NUEVAS - PÁGINAS
+            NUEVAS - PÁGINAS NUEVAS
+          </div>
+          <div class=" bg-red-700 text-white justify-center content-center text-[12px] max-sm:hidden">PÁGINAS
+            NUEVAS - PÁGINAS NUEVAS - PÁGINAS NUEVAS
+          </div>
+          <div class=" bg-red-700 text-white justify-center content-center text-[12px] hidden">PÁGINAS NUEVAS -
+            PÁGINAS NUEVAS - PÁGINAS NUEVAS
+          </div>
+          <div class=" bg-red text-white justify-center content-center text-[12px] hidden">PÁGINAS NUEVAS -
+            PÁGINAS
+            NUEVAS - PÁGINAS NUEVAS
+          </div>
+
+        </div>
+
+        <NuxtLink to="/Member">
           <div
-            class="trabajo1 border border-b-1 border-solid border-r-0 border-l-0 border-t-0 px-20 py-30 flex flex-col justify-center bg-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-black max-sm:border-solid max-sm:border-1 max-sm:text-white">
+            class="trabajo1 border border-solid border-b-1 border-t-1 px-20 py-30 flex flex-col justify-center bg-black hover:text-black max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-black max-sm:hover:bg-white max-sm:border-solid max-sm:border-b-1 max-sm:border-t-0 max-sm:border-r-0 max-sm:border-l-0 max-sm:border-1 max-sm:text-white">
             <div
               class="text text-center text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[3rem] max-sm:pb-4 max-sm:text-center">
-              Fotolibro<br />
-              <p class="font-['PPE-Ultralight'] uppercase">metro madrid</p>
+              Asistente<br />
+              <p class="font-['PPE-Ultralight'] uppercase">MEMBER</p>
             </div>
             <div
               class="text text-[16px] text-center leading-[3rem] pb-2 font-['Regular'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
-              AUDIOVISUALES
+              MARCA Y AUDIOVISUALES
             </div>
             <div
               class="text text-[250px] pt-24 font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
@@ -621,17 +646,18 @@
             </div>
           </div>
         </NuxtLink>
-        <NuxtLink to="/Typenotes">
+
+        <NuxtLink to="/MetrodeMadrid">
           <div
-            class="trabajo1 border border-b-1 border-solid border-r-0 border-l-0 border-t-0 px-20 py-30 flex flex-col justify-center bg-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-black max-sm:border-solid max-sm:border-1 max-sm:text-white">
-            <div
+          class="trabajo1 border border-solid border-b-1 border-t-1 px-20 py-30 flex flex-col justify-center bg-black hover:text-black max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-black max-sm:hover:bg-white max-sm:border-solid max-sm:border-b-1 max-sm:border-t-0 max-sm:border-r-0 max-sm:border-l-0 max-sm:border-1 max-sm:text-white">
+          <div
               class="text text-center text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[3rem] max-sm:pb-4 max-sm:text-center">
-              Revista<br />
-              <p class="font-['PPE-Ultralight'] uppercase">TYPENOTES</p>
+              Fotolibro<br />
+              <p class="font-['PPE-Ultralight'] uppercase">metro madrid</p>
             </div>
             <div
               class="text text-[16px] text-center leading-[3rem] pb-2 font-['Regular'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
-              EDITORIAL
+              AUDIOVISUALES
             </div>
             <div
               class="text text-[250px] pt-24 font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">

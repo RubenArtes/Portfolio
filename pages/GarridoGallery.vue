@@ -160,7 +160,7 @@
             class="grid grid-cols-1 gap-2 items-center justify-items-center px-64 pb-32 max-[1280px]:p-10 max-[1500px]:px-60 max-sm:grid-cols-1 max-sm:px-2 max-sm:p-6">
 
             <Carousel :autoplay="2000" :wrap-around="true"
-                class="carousel max-w-[1794px] max-h-[975px] max-sm:px-20 max-sm:max-w-[500px]  max-sm:hidden">
+                class="carousel max-w-[1794px] max-h-[975px] max-sm:px-20 max-sm:max-w-[500px] max-sm:hidden">
 
                 <Slide v-for="slide in 1" :key="slide">
                     <img class="image_grid w-full h-full border border-zinc-300" src="/img/Catalogo3.png" alt="">
