@@ -135,7 +135,7 @@
                     </div>
                 </div>
             </div>
-            <div class="fotografias flex flex-col gap-6 h-min">
+            <div class="fotografias max-sm:pt-12 flex flex-col gap-6 h-min">
                 <img class="image_rect rounded-xl w-[550px]" src="/img/finales.png" alt="">
                 <img class="image_rect rounded-xl w-[550px]" src="/img/finales2.png" alt="">
                 <img class="image_rect rounded-xl w-[550px]" src="/img/finales3.png" alt="">
@@ -267,18 +267,18 @@
             class="grid grid-cols-3 gap-32 px-60 pb-4 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-[800px]:gap-2">
 
             <div class="div text-zinc-600 text-center text-xs m-0 pb-14 max-xl:pb-4">
-                <div class="div text-[#FFB047] text-center text-[30px] m-0 animate-pulse font-['PPE-Ultralight'] uppercase">
+                <div class="div text-[#FFB047] text-center text-[30px] max-sm:text-[20px] m-0 animate-pulse font-['PPE-Ultralight'] uppercase">
                     Snacks
                     Garbanzo Spicy</div>
             </div>
 
             <div class="div text-zinc-600 text-center text-xs m-0 pb-14 max-xl:pb-4">
-                <div class="div text-[#F3536D] text-center text-[30px] m-0 animate-pulse font-['PPE-Ultralight'] uppercase">
+                <div class="div text-[#F3536D] text-center text-[30px] max-sm:text-[20px] m-0 animate-pulse font-['PPE-Ultralight'] uppercase">
                     Frambuesa Liofilizada</div>
             </div>
 
             <div class="div text-zinc-600 text-center text-xs m-0 pb-14 max-xl:pb-4">
-                <div class="div text-[#FBCE37] text-center text-[30px] m-0 animate-pulse font-['PPE-Ultralight'] uppercase">
+                <div class="div text-[#FBCE37] text-center text-[30px] max-sm:text-[20px] m-0 animate-pulse font-['PPE-Ultralight'] uppercase">
                     Snacks
                     de verduras</div>
             </div>
