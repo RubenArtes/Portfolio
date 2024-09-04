@@ -14,7 +14,7 @@
             </div>
 
         </div>
-        <VueScrollProgressBar background-color="#52525B" />
+        <VueScrollProgressBar background-color="#18181b" />
 
         <div
             class="titular2 flex px-64 gap-32 content-start space-between justify-center pt-20 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-[1500px]:flex-col max-[1500px]:gap-2 max-[1500px]:items-center max-[1700px]:px-10">
