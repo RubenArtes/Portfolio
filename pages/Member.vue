@@ -82,7 +82,7 @@
         </div>
 
         <div
-            class="video pt-20 pb-4 text-zinc-600 flex justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
+            class="video max-sm:hidden pt-20 pb-4 text-zinc-600 flex justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
             <video class="justify-self-center max-sm:w-full" loop autoplay>
                 <source src="/img/member40.mp4" type="video/mp4">
                 Your browser does not support the video tag.
