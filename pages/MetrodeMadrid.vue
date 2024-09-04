@@ -102,7 +102,7 @@
 
     </div>
 
-    <div class="px-64 max-[1440px]:px-12 max-sm:px-4 grid grid-cols-2 gap-2 max-xl:grid-cols-1 max-sm:pb-24 max-[1920px]:px-32">
+    <div class="px-64 max-sm:px-6 max-sm:gap-4 max-[1440px]:px-12 grid grid-cols-2 gap-2 max-xl:grid-cols-1 max-sm:pb-24 max-[1920px]:px-32">
       <img class="image_grid w-full h-full" src="/img/libroexperimental.png" alt="">
       <img class="image_grid w-full h-full" src="/img/libroexperimental2.png" alt="">
       <img class="image_grid w-full h-full" src="/img/libroexperimental3.png" alt="">
