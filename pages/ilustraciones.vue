@@ -19,7 +19,7 @@
         <div
             class="titular2 flex px-64 gap-32 content-start space-between justify-center pt-20 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-[1500px]:flex-col max-[1500px]:gap-2 max-[1500px]:items-center max-[1700px]:px-10">
             <div
-                class="titular text-[120px] max-[1920px]:text-[80px] font-['PPE-Ultralight'] leading-12 font-bold animate-pulse bg-gradient-to-r bg-clip-text text-transparent animate-text max-sm:text-[45px] max-[1500px]:text-left max-[1280px]:text-[100px] from-red-800 via-gray-900 to-red-500">
+                class="titular text-[120px] max-[1920px]:text-[80px] font-['PPE-Ultralight'] leading-12 font-bold animate-pulse bg-gradient-to-r bg-clip-text text-transparent animate-text max-sm:text-[45px] max-[1500px]:text-left max-[1280px]:text-[100px] from-red-800 via-red-800 to-red-500">
                 ILUSTRACIONES</div>
             <div
                 class="trabajos flex flex-col max-sm:gap-2 items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:pt-6 max-sm:pb-16 max-sm:px-0 max-[1280px]:items-center max-[1280px]:pt-6 max-[1280px]:pb-0">
@@ -101,10 +101,10 @@
                     </div>
                 </div>
             </div>
-            <div class="fotografias max-sm:pt-6 flex flex-col gap-6 h-min">
-                <img class="image_rect w-[550px]" src="/img/lettering1.png" alt="">
-                <img class="image_rect w-[550px]" src="/img/lettering2.png" alt="">
-                <img class="image_rect w-[550px]" src="/img/lettering3.png" alt="">
+            <div class="fotografias max-sm:pt-6 flex flex-col max-sm:gap-0 gap-6 h-min">
+                <img class="image_rect w-[850px]" src="/img/lettering1.png" alt="">
+                <img class="image_rect w-[850px]" src="/img/lettering2.png" alt="">
+                <img class="image_rect w-[850px]" src="/img/lettering3.png" alt="">
 
 
             </div>
@@ -121,7 +121,7 @@
                     CASA DE LAS CARCASAS</div>
             </div>
 
-            <div class="grid grid-cols-3 gap-2 max-xl:grid-cols-1">
+            <div class="grid grid-cols-3 max-sm:gap-0 gap-2 max-xl:grid-cols-1">
                 <img class="image_grid w-full h-full" src="/img/renderfundas.png" alt="">
                 <img class="image_grid w-full h-full" src="/img/renderfundas5.png" alt="">
                 <img class="image_grid w-full h-full" src="/img/renderfundas4.png" alt="">
@@ -162,13 +162,14 @@
             class="images max-sm:px-6 pt-20 px-64 pb-10 text-white justify-center flex flex-col gap-2 max-xl:pb-0 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
 
             <div
-                class="video max-sm:px-0 max-sm:gap-24 max-sm:pb-12 grid grid-cols-2 pt-24 pb-10 text-white items-center gap-24 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:grid-cols-1">
+                class="video max-sm:px-0 max-sm:gap-24 max-sm:pb-12 grid grid-cols-3 pt-24 pb-10 text-white items-center gap-24 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:grid-cols-1">
                 <video width="740" loop autoplay class=" place-self-end border border-1">
                     <source src="/img/VideoBarbie.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
 
                 <img class="" src="/img/ilustracionbarbie2.png">
+                <img class="shadow-lg" src="/img/BarbieIlus.png">
 
             </div>
         </div>
@@ -270,61 +271,65 @@
             <div id="folleto"
                 class="titular2 flex px-64 pb-12 gap-64 pt-48 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-2 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-center max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
                 <div
-                    class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
-                    CARTELES FIESTAS</div>
+                    class="titular text-[40px] font-['PPE-Ultralight'] text-center leading-6 text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
+                    <p class="font-['PPE-UltralightItalic'] max-sm:leading-4">Carteles fiestas</p><br> VILLALUENGA DE LA SAGRA</div>
             </div>
 
         </div>
 
-        <div
-            class="grid max-[1920px]:px-24 max-sm:px-2 max-sm:grid-cols-1 px-[16rem] pt-4 max-sm:pt-12 max-sm:pb-24 gap-12 grid-cols-2">
+        <div class="grid1 pt-24 max-sm:px-2 max-sm:gap-6 max-sm:pt-8 max-[1920px]:px-[12rem] px-[18rem] grid grid-cols-3 max-sm:pb-28 gap-12 max-sm:grid-cols-1">
+            <img class="image_grid max-sm:pt-8 max-sm:px-8 max-sm:pb-12" src="/img/cartelfiestas2.png" alt="">
 
-            <div class="grid1">
-                <img class="image_grid max-sm:pt-8 max-sm:px-8 max-sm:pb-12" src="/img/cartelfiestas2.png"
-                    alt="">
-
-            </div>
-
-            <div class="grid1 pl-24 max-sm:pl-0 grid grid-cols-2 gap-8 max-sm:grid-cols-1">
-                <img class="image_grid place-self-center max-sm:px-8 max-sm:shadow-none shadow-lg"
-                    src="/img/cartelfiestas.png" alt="">
-                <img class="image_grid place-self-center max-sm:px-8 max-sm:shadow-none shadow-lg"
-                    src="/img/isometrica1.png" alt="">
-
-            </div>
-
-
-
+            <img class="image_grid place-self-end max-sm:px-8 max-sm:shadow-none shadow-lg"
+                src="/img/cartelfiestas.png" alt="">
+            <img class="image_grid place-self-start max-sm:px-8 max-sm:shadow-none shadow-lg"
+                src="/img/isometrica1.png" alt="">
 
         </div>
 
         <div
-            class="images pt-2 px-32 pb-0 text-white justify-center flex flex-col gap-2 max-xl:pb-0 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
+            class="grid pt-8 max-[1920px]:px-[12rem] max-[1440px]:px-8 grid-cols-3 gap-12 px-[18rem] pb-44 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-sm:hidden">
+            <a class="type text-[14px] invisible place-self-start pt-4 font-['Neue'] uppercase">▲ Mockup de etiquetado delantero/trasero</a>
+            <a class="type text-[14px] place-self-start pt-4 font-['Neue'] uppercase">▲ CARTEL NO GANADOR FIESTAS VILLALUENGA DE LA SAGRA 2022</a>
+            <a class="type text-[14px] place-self-start pt-4 font-['Neue'] uppercase">▲ CARTEL NO GANADOR FIESTAS VILLALUENGA DE LA SAGRA 2023</a>
+
+        </div>
+
+
+
+        <div
+            class="images pt-2 px-32 pb-0 text-white bg-black justify-center flex flex-col gap-2 max-xl:pb-0 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
             <div id="folleto"
-                class="titular2 flex px-64 pb-12 gap-64 pt-48 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-2 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-center max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+                class="titular2 flex px-64 pb-12 gap-64 pt-32 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-2 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-center max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
                 <div
-                    class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
+                    class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
                     AUTORETRATO</div>
             </div>
 
         </div>
 
-        <div class="hidden pt-24 max-sm:px-0 max-sm:flex px-12">
-            <img class="image_grid max-sm:border-0 max-sm:shadow-none border border-zinc-300 shadow-lg w-full h-full"
+        <div class="hidden bg-black pt-16 max-sm:px-6 max-sm:flex px-12">
+            <img class="image_grid max-sm:border-1 max-sm:shadow-none w-full h-full"
                 src="/img/autoretrato2.png" alt="">
 
         </div>
 
 
-        <div class="grid max-sm:pb-12 max-sm:px-2 max-sm:grid-cols-1 px-64 pt-24 max-sm:pt-12 gap-24 grid-cols-2">
-            <img class="image_grid max-sm:hidden border border-zinc-300 shadow-sm w-full h-full"
+        <div class="grid bg-black max-sm:pb-24 max-sm:px-2 max-sm:grid-cols-1 px-64 pt-24 max-sm:pt-16 gap-40 grid-cols-2">
+            <img class="image_grid w-full h-full" src="/img/autorretrato1.png" alt="">
+            <img class="image_grid max-sm:hidden shadow-sm w-full h-full"
                 src="/img/autoretrato2.png" alt="">
-            <img class="image_grid w-full h-full" src="/img/autorretrato4.png" alt="">
+        </div>
+
+        <div
+            class="grid bg-black text-white pb-64 pt-12 max-[1920px]:px-[16rem] max-[1440px]:px-8 grid-cols-2 gap-40 px-[18rem] max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-sm:hidden">
+            <a class="type text-[14px] place-self-start pt-4 font-['Neue'] uppercase">▲ REALIZACIÓN MANUAL SOBRE PVC CON ACRÍLICO Y ROTULADOR</a>
+            <a class="type text-[14px] invisible place-self-start pt-4 font-['Neue'] uppercase">▲ CARTEL NO GANADOR FIESTAS VILLALUENGA DE LA SAGRA 2023</a>
 
         </div>
 
         <div
-            class="titular2 max-[1920px]:px-24 flex px-64 pb-2 gap-64 pt-52 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:px-60 max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 max-sm:pt-24 max-[1920px]:px-24 flex px-64 pb-2 gap-64 pt-52 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:px-60 max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-lack max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
                 <p class="font-['PPE-Ultralightitalic'] max-sm:pb-2">Pegatinas</p>PIXAR CARS

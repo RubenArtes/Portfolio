@@ -299,7 +299,7 @@
         class="grid grid-cols-4 text-white max-[1920px]:grid-cols-3 max-[1450px]:grid-cols-2 max-sm:grid-cols-1 max-sm:divide-y max-sm:order-t-1 max-sm:border-solid max-sm:border-black">
         <NuxtLink to="/Matutano">
           <div
-            class="trabajo1 border border-solid border-r-1 border-l-0 border-t-0 border-b-0 px-20 py-30 flex flex-col justify-center hover:bg-[url('/img/giframbuesa_1.gif')] hover:text-black bg-cover bg-center max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
+            class="trabajo1 border border-solid border-r-1 border-l-0 border-t-0 border-b-0 px-20 py-30 flex flex-col justify-center hover:bg-[url('/img/gifframbuesadark.gif')] hover:text-white bg-cover bg-center max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
             <div
               class="text text-center max-[2300px]:text-[50px] max-[2300px]:leading-[3.5rem] text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
               Matutano <br />
@@ -344,7 +344,7 @@
 
         <NuxtLink to="/Prau">
           <div
-            class="trabajo1 border-r-0 border-t-0 px-20 py-30 flex flex-col justify-center hover:bg-[url('/img/vinosprau.gif')] hover:text-black bg-cover bg-center max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
+            class="trabajo1 border-r-0 border-t-0 px-20 py-30 flex flex-col justify-center hover:bg-[url('/img/vinodark.gif')] hover:text-white bg-cover bg-center max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
             <div
               class="text text-center max-[2300px]:text-[50px] max-[2300px]:leading-[3.5rem] text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
               Etiquetado <br />
@@ -402,7 +402,7 @@
 
         <NuxtLink to="/Movistar">
           <div
-            class="trabajo1 border max-[1920px]:border max-[1920px]:border-r-0 max-[1920px]:border-b-0 max-[1920px]:border-l-1 border-solid border-r-0 border-l-0 border-t-1 px-20 py-30 flex flex-col justify-center hover:bg-[url('/img/portadamovistar.gif')] bg-cover bg-center hover:text-black max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
+            class="trabajo1 border max-[1920px]:border max-[1920px]:border-r-0 max-[1920px]:border-b-0 max-[1920px]:border-l-1 border-solid border-r-0 border-l-0 border-t-1 px-20 py-30 flex flex-col justify-center hover:bg-[url('/img/movistardark.gif')] bg-cover bg-center hover:text-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
             <div
               class="text text-center max-[2300px]:text-[50px] max-[2300px]:leading-[3.5rem] text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
               Audiovisual <br />
@@ -528,7 +528,7 @@
         </NuxtLink>
         <NuxtLink to="/Ilustraciones">
           <div
-            class="trabajo1 border border-solid border-r-0 border-t-0 px-20 py-30 flex flex-col justify-center hover:bg-[url('/img/NuevaCategoria11.png')] bg-cover bg-center hover:text-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-1 max-sm:text-black max-xs:border-b-1">
+            class="trabajo1 border border-solid border-r-0 border-t-0 px-20 py-30 flex flex-col justify-center hover:bg-[url('/img/animacionilustraciones2.gif')] bg-cover bg-center hover:text-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-1 max-sm:text-black max-xs:border-b-1">
             <div
               class="text text-center max-[2300px]:text-[50px] max-[2300px]:leading-[3.5rem] text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
               Colección <br />
@@ -539,7 +539,7 @@
               ILUSTRACIÓN
             </div>
             <div
-              class="text  text-[250px] pt-24 font-['Apercu'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
+              class="text text-[250px] pt-24 font-['Apercu'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
               *
             </div>
           </div>
