@@ -247,12 +247,12 @@
         </div>
 
         <div class="grid max-sm:pt-12 pt-32 px-2 max-sm:gap-2 max-sm:px-8 grid-cols-6 gap-2 max-xl:grid-cols-1">
-            <img class="image_grid" src="/img/fotomontanas3.jpg" alt="">
-            <img class="image_grid" src="/img/fotomontanas4.jpg" alt="">
-            <img class="image_grid" src="/img/fotomontanas5.jpg" alt="">
-            <img class="image_grid" src="/img/fotomontanas6.jpg" alt="">
-            <img class="image_grid" src="/img/fotomontanas7.jpg" alt="">
-            <img class="image_grid" src="/img/fotomontanas8.jpg" alt="">
+            <img class="image_grid" src="/img/fotomontanas3.JPG" alt="">
+            <img class="image_grid" src="/img/fotomontanas4.JPG" alt="">
+            <img class="image_grid" src="/img/fotomontanas5.JPG" alt="">
+            <img class="image_grid" src="/img/fotomontanas6.JPG" alt="">
+            <img class="image_grid" src="/img/fotomontanas7.JPG" alt="">
+            <img class="image_grid" src="/img/fotomontanas8.JPG" alt="">
 
         </div>
 
