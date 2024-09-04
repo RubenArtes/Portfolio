@@ -29,7 +29,7 @@
           ARTE FINAL - FOTOGRAFÍAS - MAQUETACIÓN - EDICIÓN -
           Diseño Gráfico</div>
         <div
-          class="text max-w-[80ch] pb-16 pt-4 max-sm:text-left text-left font-['SFUIDisplay-Regular'] text-[20px] text-white max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:max-w-[100ch] max-[800px]:pb-4">
+          class="text max-w-[80ch] pb-16 pt-4 max-sm:text-left text-left font-['SFUIDisplay-Light'] text-[20px] text-white max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:max-w-[100ch] max-[800px]:pb-4">
           Creación de Arte Final y libro sobre una temática (Metro de Madrid),
           recreando los diferentes efectos de impresión y controlando todos los elementos a la ahora de crear un Arte
           Final para imprenta.
@@ -45,7 +45,7 @@
           class="text max-w-[200ch] max-sm:text-left text-center font-['PPE-Ultralight'] max-sm:text-[20px] pb-4 uppercase text-[24px] leading-10 text-white max-xl:text-xs">
           Asignatura</div>
         <div
-          class="text max-w-[200ch] font-['SFUIDisplay-Regular'] text-center max-sm:text-left max-sm:max-w-[26ch] text-[16px] leading-6 text-white max-xl:text-sm max-xl:max-w-[40ch]">
+          class="text max-w-[200ch] font-['SFUIDisplay-Light'] text-center max-sm:text-left max-sm:max-w-[26ch] text-[16px] leading-6 text-white max-xl:text-sm max-xl:max-w-[40ch]">
           Fundamentos de estampación e impresión, 2º Diseño Gráfico.
         </div>
       </div>
@@ -54,7 +54,7 @@
           class="text max-w-[200ch] text-center font-['PPE-Ultralight'] max-sm:text-[20px] max-sm:text-left pb-4 uppercase text-[24px] leading-10 text-white max-xl:text-xs">
           Tiempo</div>
         <div
-          class="text max-w-[20ch] font-['SFUIDisplay-Regular']  text-center max-sm:text-start text-[16px] leading-6 text-white max-xl:text-sm max-xl:max-w-[40ch]">
+          class="text max-w-[20ch] font-['SFUIDisplay-Light']  text-center max-sm:text-start text-[16px] leading-6 text-white max-xl:text-sm max-xl:max-w-[40ch]">
           3 meses
         </div>
       </div>
@@ -63,7 +63,7 @@
           class="text max-w-[200ch] max-sm:text-left text-center font-['PPE-Ultralight'] max-sm:text-[20px] pb-4 uppercase text-[24px] leading-10 text-white max-xl:text-xs">
           Briefing</div>
         <div
-          class="text max-w-[20ch] text-center font-['SFUIDisplay-Regular'] max-sm:text-left text-[16px] leading-6 text-white max-xl:text-sm max-[1440px]:max-w-[60ch]">
+          class="text max-w-[20ch] text-center font-['SFUIDisplay-Light'] max-sm:text-left text-[16px] leading-6 text-white max-xl:text-sm max-[1440px]:max-w-[60ch]">
           Creación de Artes Finales y producción de libro impreso.
         </div>
       </div>
@@ -78,6 +78,54 @@
       </video>
 
     </div>
+
+    <div id="primercompartimento"
+      class="titular2 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+      <div
+        class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
+        <p class="font-['PPE-UltralightItalic']">Imagenes reales</p>LIBRO IMPRESO
+      </div>
+      <div
+        class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[1280px]:p-0">
+
+        <div
+          class="text max-w-[60ch] text-[16px] uppercase text-white max-xl:leading-2 max-xl:text-xs max-xl:text-center max-[1280px]:text-left">
+          <a class="type">IMÁGENES DEL PROYECTO COMPLETO</a>
+        </div>
+        <div
+          class="text max-w-[80ch] pt-4 text-left font-['SFUIDisplay-Regular'] text-[20px] text-white max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+          Fotografías de algunas de las páginas del libro, realizadas sobre el mismo soporte final impreso, a tamaño real.
+        </div>
+
+      </div>
+
+    </div>
+
+    <div
+            class="colum flex max-[1440px]:px-4 px-64 pt-20 pb-24 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-[1500px]:px-60 max-sm:px-2">
+
+            <div class="fotografias px-64 max-[1440px]:px-12 grid grid-cols-1 gap-8 max-sm:gap-4 max-sm:px-2">
+                <img class="image w-full h-full" src="/img/fotolibrometro.png" alt="">
+                <img class="image w-full h-full" src="/img/fotolibrometro2.png" alt="">
+                <img class="image w-full h-full" src="/img/fotolibrometro15.png" alt="">
+                <img class="image w-full h-full" src="/img/fotolibrometro6.png" alt="">
+                <img class="image w-full h-full" src="/img/fotolibrometro3.png" alt="">
+                <img class="image w-full h-full" src="/img/fotolibrometro4.png" alt="">
+                <img class="image w-full h-full" src="/img/fotolibrometro5.png" alt="">
+                <img class="image w-full h-full" src="/img/fotolibrometro7.png" alt="">
+                <img class="image w-full h-full" src="/img/fotolibrometro8.png" alt="">
+                <img class="image w-full h-full" src="/img/fotolibrometro9.png" alt="">
+                <img class="image w-full h-full" src="/img/fotolibrometro10.png" alt="">
+                <img class="image w-full h-full" src="/img/fotolibrometro11.png" alt="">
+                <img class="image w-full h-full" src="/img/fotolibrometro12.png" alt="">
+                <img class="image w-full h-full" src="/img/fotolibrometro13.png" alt="">
+
+
+
+
+            </div>
+
+        </div>
 
     <div id="primercompartimento"
       class="titular2 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">

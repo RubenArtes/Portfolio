@@ -71,10 +71,18 @@
         </div>
 
         <div
-            class="video flex pb-32 text-zinc-600 flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
+            class="video flex text-zinc-600 flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
             <img class="image w-full h-full" src="/img/hombrespaco.png" alt="">
         </div>
 
+        <div
+            class="grid pb-32 pt-12 max-[1440px]:px-8 grid-cols-3 px-12 gap-24 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-sm:hidden">
+            <a class="type text-[14px] place-self-start font-['Neue'] uppercase">▲ BOCETO DIBUJO HOMBRES DE PACO</a>
+            <a class="type text-[14px] invisible place-self-center font-['Neue'] uppercase">▲ Pegatinas para el set de
+                fundas</a>
+            <a class="type text-[14px] invisible font-['Neue'] uppercase">▲ ILUSTRACIÓN FINAL</a>
+
+        </div>
 
         <div
             class="colum flex pt-20 px-64 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-[1500px]:px-60">
@@ -129,6 +137,13 @@
 
             <img class="image_grid px-64 max-sm:px-0 max-sm:pb-24 w-full h-full" src="/img/pegatinas5.png" alt="">
 
+        </div>
+
+        <div
+            class="grid pt-12 max-[1440px]:px-8 grid-cols-3 gap-8 px-8 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-sm:hidden">
+            <a class="type text-[14px] invisible font-['Neue'] uppercase">▲ Render 3D</a>
+            <a class="type text-[14px] place-self-center font-['Neue'] uppercase">▲ Pegatinas para el set de fundas</a>
+            <a class="type text-[14px] invisible font-['Neue'] uppercase">▲ Render 3D</a>
 
         </div>
 
@@ -174,7 +189,140 @@
             </div>
         </div>
 
+        <div
+            class="grid max-[1440px]:px-8 grid-cols-3 px-64 gap-24 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-sm:hidden">
+            <a class="type text-[14px] font-['Neue'] uppercase">▲ VIDEO PROCESO DIBUJO Y COLOREADO (8min)</a>
+            <a class="type text-[14px] invisible place-self-center font-['Neue'] uppercase">▲ Pegatinas para el set de
+                fundas</a>
+            <a class="type text-[14px] font-['Neue'] uppercase">▲ ILUSTRACIÓN FINAL</a>
 
+        </div>
+
+        <div
+            class="titular2 max-sm:pt-16 max-[1920px]:px-24 flex px-64 pb-2 gap-64 pt-52 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:px-60 max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            <div
+                class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-lack max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
+                <p class="font-['PPE-Ultralightitalic'] max-sm:pb-2">Historia de</p> BHOWAM
+            </div>
+            <div
+                class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:px-0 max-[1280px]:p-0">
+                <div
+                    class="text max-w-[80ch] pt-0 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-900 max-sm:order-last max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                    Los Rai se diferencian en muy diferentes sub-etnias con más de 28
+                    lenguas maternas distintas. Pero todos practican la religión Kirat (anterior
+                    al budismo y al hinduismo) a través del Mundhum que es un
+                    sistema filosófico y cosmogónico que ordena cada acto de sus vidas.
+                    El Mundhum no tiene escritos, solo se transmite de manera oral; por
+                    ello se han ido perdiendo mucho de sus conceptos ancestrales, o se
+                    han ido contaminando por el budismo y el hinduismo.
+                    La cultura Kirat se desarrolla desde tiempo inmemorial en las áreas
+                    en torno al Everest que es considerado/a la gran deidad femenina,
+                    madre de todas las religiones y dioses. El “cielo Kirat” está allí, en las
+                    faldas de la montaña. Los ritos de paso a la otra vida son complejos
+                    y muy interesantes.
+                    <br><br>
+                    Para los Rai cuando un niño/a muere el chamán del pueblo, si es poderoso,
+                    interpreta ciertos signos y puede convertir al niño o a la niña
+                    fallecidos en dioses ya del valle (del pueblo) ya de las montañas.
+                    A veces los niños llegan a ser dioses porque han muerto asesinados,
+                    desatendidos o mal tratados por sus padres. En los pueblos les elevan
+                    altares y se les hacen ofrendas y sacrificios anuales, se les practica
+                    culto.
+                    Resulta que los Rai consideran que los niños dioses de las montañas
+                    pueden aparecerse en sueños cuando uno está en las grandes alturas
+                    de los Himalayas. Uno de los efectos del mal de altura es el insomnio
+                    y los sueños extraños.
+                    Mediante el comportamiento alegre o enfadado de los niños dioses
+                    de montaña en el sueño, advierten del riesgo que el durmiente corre
+                    por estar allí, te van a proteger o no.
+                    <br><br>
+                    Estando en altura acampados a los pies de un glaciar inmenso,
+                    Bhowan soñó que unas niñas se le aparecían: no interfirieron con él,
+                    ni le miraron ni le hablaron. Solo jugaban entre ellas muy felices. Él
+                    lo interpretó como un buen augurio.
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="grid max-sm:pt-12 pt-32 px-2 max-sm:gap-2 max-sm:px-8 grid-cols-6 gap-2 max-xl:grid-cols-1">
+            <img class="image_grid" src="/img/fotomontañas3.jpg" alt="">
+            <img class="image_grid" src="/img/fotomontañas4.jpg" alt="">
+            <img class="image_grid" src="/img/fotomontañas5.jpg" alt="">
+            <img class="image_grid" src="/img/fotomontañas6.jpg" alt="">
+            <img class="image_grid" src="/img/fotomontañas7.jpg" alt="">
+            <img class="image_grid" src="/img/fotomontañas8.jpg" alt="">
+
+        </div>
+
+        <div
+            class="grid pb-32 pt-12 max-[1440px]:px-8 grid-cols-3 px-12 gap-24 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-sm:hidden">
+            <a class="type text-[14px] place-self-start font-['Neue'] uppercase">▲ FOTOGRAFÍAS EVEREST POR FRANCISCO
+                TORREGO</a>
+            <a class="type text-[14px] invisible place-self-center font-['Neue'] uppercase">▲ Pegatinas para el set de
+                fundas</a>
+            <a class="type text-[14px] invisible font-['Neue'] uppercase">▲ ILUSTRACIÓN FINAL</a>
+
+        </div>
+
+
+        <img class="image_grid hidden max-sm:hidden" src="/img/maquetacionbhowam2.png" alt="">
+
+        <div
+            class="hidden max-sm:hidden px-2 max-sm:pt-12 max-sm:gap-0 max-sm:px-8 grid-cols-10 max-sm:gap-y-2 max-xl:grid-cols-5">
+            <img class="image_grid" src="/img/partetrasera.png" alt="">
+            <img class="image_grid" src="/img/partetrasera2.png" alt="">
+            <img class="image_grid" src="/img/partetrasera3.png" alt="">
+            <img class="image_grid" src="/img/partetrasera4.png" alt="">
+            <img class="image_grid" src="/img/partetrasera5.png" alt="">
+            <img class="image_grid" src="/img/partetrasera6.png" alt="">
+            <img class="image_grid" src="/img/partetrasera7.png" alt="">
+            <img class="image_grid" src="/img/partetrasera8.png" alt="">
+            <img class="image_grid" src="/img/partetrasera9.png" alt="">
+            <img class="image_grid" src="/img/partetrasera10.png" alt="">
+
+        </div>
+
+        <div class="hidden max-sm:pt-12 max-sm:gap-0 max-sm:px-8 max-sm:gap-y-2 grid-cols-10 max-xl:grid-cols-5">
+            <img class="image_grid border border-r-0" src="/img/paginasbhowam.png" alt="">
+            <img class="image_grid border border-r-0" src="/img/paginasbhowam2.png" alt="">
+            <img class="image_grid border border-r-0" src="/img/paginasbhowam3.png" alt="">
+            <img class="image_grid border border-r-0" src="/img/paginasbhowam4.png" alt="">
+            <img class="image_grid border border-r-0 max-sm:h-[110.33px]" src="/img/paginasbhowam5.png" alt="">
+            <img class="image_grid border border-r-0" src="/img/paginasbhowam6.png" alt="">
+            <img class="image_grid border border-r-0" src="/img/paginasbhowam7.png" alt="">
+            <img class="image_grid border border-r-0" src="/img/paginasbhowam8.png" alt="">
+            <img class="image_grid border border-r-0" src="/img/paginasbhowam9.png" alt="">
+            <img class="image_grid border max-sm:h-[110.33px]" src="/img/paginasbhowam10.png" alt="">
+
+        </div>
+
+        <div
+            class="hidden pb-32 pt-12 max-[1440px]:px-8 grid-cols-3 px-12 gap-24 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-sm:hidden">
+            <a class="type text-[14px] place-self-start font-['Neue'] uppercase">▲ PÁGINAS TRASERAS Y DELANTERAS DEL
+                LIBRO ILUSTRADO DE BHOWAM</a>
+            <a class="type text-[14px] invisible place-self-center font-['Neue'] uppercase">▲ Pegatinas para el set de
+                fundas</a>
+            <a class="type text-[14px] invisible font-['Neue'] uppercase">▲ ILUSTRACIÓN FINAL</a>
+
+        </div>
+
+        <div
+            class="colum flex max-[1440px]:px-4 px-64 pt-20 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-[1500px]:px-60 max-sm:px-2">
+
+            <div class="fotografias px-64 max-[1440px]:px-12 grid grid-cols-1 gap-8 max-sm:gap-4 max-sm:px-2">
+                <img class="image w-full h-full" src="/img/fotobhowam.png" alt="">
+                <img class="image w-full h-full" src="/img/fotobhowam2.png" alt="">
+                <img class="image w-full h-full" src="/img/fotobhowam3.png" alt="">
+                <img class="image w-full h-full" src="/img/fotobhowam4.png" alt="">
+                <img class="image w-full h-full" src="/img/fotobhowam5.png" alt="">
+                <img class="image w-full h-full" src="/img/fotobhowam6.png" alt="">
+                <img class="image w-full h-full" src="/img/fotobhowam7.png" alt="">
+
+            </div>
+
+        </div>
 
         <div
             class="images max-sm:pt-8 pt-20 px-64 pb-0 text-white justify-center flex flex-col gap-12 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
@@ -189,7 +337,7 @@
         </div>
 
         <div
-            class="video max-sm:pb-12 max-sm:px-2 flex px-64 pt-2 pb-40 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center">
+            class="video max-sm:hidden max-sm:pb-12 max-sm:px-2 flex px-64 pt-2 pb-40 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center">
             <video width="1240" height="788" loop autoplay>
                 <source src="/img/videoilustraciones.mp4" type="video/mp4">
                 Your browser does not support the video tag.
@@ -197,7 +345,7 @@
 
         </div>
 
-        <div class="grid px-64 max-sm:gap-2 max-sm:px-8 grid-cols-4 gap-12 max-xl:grid-cols-1">
+        <div class="grid max-sm:pt-12 px-64 max-sm:gap-2 max-sm:px-8 grid-cols-4 gap-12 max-xl:grid-cols-1">
             <img class="image_grid w-full h-full" src="/img/isometrica6.png" alt="">
             <img class="image_grid w-full h-full" src="/img/isometrica11.png" alt="">
             <img class="image_grid w-full h-full" src="/img/isometrica7.png" alt="">
@@ -211,19 +359,20 @@
         </div>
 
 
+
         <div
             class="images pt-20 px-64 pb-10 text-white justify-center flex flex-col gap-2 max-xl:pb-0 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
             <div id="folleto"
                 class="titular2 flex px-64 pb-2 gap-64 pt-48 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-2 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-center max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
                 <div
-                    class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
-                    PEGATINAS</div>
+                    class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-sm:text-30px max-sm:leading-[3rem] max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
+                    PEGATINAS ATAQUE A LOS TITANES</div>
             </div>
 
         </div>
 
         <div
-            class="video flex px-40 max-sm:px-2 pb-20 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
+            class="video max-sm:hidden flex px-40 max-sm:px-2 pb-20 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
             <video width="1240" height="788" loop autoplay>
                 <source src="/img/videoilustraciones2.mp4" type="video/mp4">
                 Your browser does not support the video tag.
@@ -259,39 +408,37 @@
         </div>
 
         <div
-            class="grid pt-12 max-[1440px]:px-8 grid-cols-3 gap-8 px-8 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-sm:hidden">
-            <a class="type text-[14px] invisible font-['Neue'] uppercase">▲ Render 3D</a>
-            <a class="type text-[14px] place-self-center font-['Neue'] uppercase">▲ Pegatinas para el set de fundas</a>
-            <a class="type text-[14px] invisible font-['Neue'] uppercase">▲ Render 3D</a>
-
-        </div>
-
-        <div
             class="images pt-2 px-64 max-sm:px-2 pb-0 text-black justify-center flex flex-col gap-2 max-xl:pb-0 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
             <div id="folleto"
                 class="titular2 flex px-64 pb-12 gap-64 pt-48 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-2 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-center max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
                 <div
                     class="titular text-[40px] font-['PPE-Ultralight'] text-center leading-6 text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
-                    <p class="font-['PPE-UltralightItalic'] max-sm:leading-4">Carteles fiestas</p><br> VILLALUENGA DE LA SAGRA</div>
+                    <p class="font-['PPE-UltralightItalic'] max-sm:leading-4">Carteles fiestas</p><br> VILLALUENGA DE LA
+                    SAGRA
+                </div>
             </div>
 
         </div>
 
-        <div class="grid1 pt-24 max-sm:px-2 max-sm:gap-6 max-sm:pt-8 max-[1920px]:px-[12rem] px-[18rem] grid grid-cols-3 max-sm:pb-28 gap-12 max-sm:grid-cols-1">
+        <div
+            class="grid1 pt-24 max-sm:px-2 max-sm:gap-6 max-sm:pt-8 max-[1920px]:px-[12rem] px-[18rem] grid grid-cols-3 max-sm:pb-28 gap-12 max-sm:grid-cols-1">
             <img class="image_grid max-sm:pt-8 max-sm:px-8 max-sm:pb-12" src="/img/cartelfiestas2.png" alt="">
 
-            <img class="image_grid place-self-end max-sm:px-8 max-sm:shadow-none shadow-lg"
-                src="/img/cartelfiestas.png" alt="">
-            <img class="image_grid place-self-start max-sm:px-8 max-sm:shadow-none shadow-lg"
-                src="/img/isometrica1.png" alt="">
+            <img class="image_grid place-self-end max-sm:px-8 max-sm:shadow-none shadow-lg" src="/img/cartelfiestas.png"
+                alt="">
+            <img class="image_grid place-self-start max-sm:px-8 max-sm:shadow-none shadow-lg" src="/img/isometrica1.png"
+                alt="">
 
         </div>
 
         <div
             class="grid pt-8 max-[1920px]:px-[12rem] max-[1440px]:px-8 grid-cols-3 gap-12 px-[18rem] pb-44 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-sm:hidden">
-            <a class="type text-[14px] invisible place-self-start pt-4 font-['Neue'] uppercase">▲ Mockup de etiquetado delantero/trasero</a>
-            <a class="type text-[14px] place-self-start pt-4 font-['Neue'] uppercase">▲ CARTEL NO GANADOR FIESTAS VILLALUENGA DE LA SAGRA 2022</a>
-            <a class="type text-[14px] place-self-start pt-4 font-['Neue'] uppercase">▲ CARTEL NO GANADOR FIESTAS VILLALUENGA DE LA SAGRA 2023</a>
+            <a class="type text-[14px] invisible place-self-start pt-4 font-['Neue'] uppercase">▲ Mockup de etiquetado
+                delantero/trasero</a>
+            <a class="type text-[14px] place-self-start pt-4 font-['Neue'] uppercase">▲ CARTEL NO GANADOR FIESTAS
+                VILLALUENGA DE LA SAGRA 2022</a>
+            <a class="type text-[14px] place-self-start pt-4 font-['Neue'] uppercase">▲ CARTEL NO GANADOR FIESTAS
+                VILLALUENGA DE LA SAGRA 2023</a>
 
         </div>
 
@@ -309,22 +456,23 @@
         </div>
 
         <div class="hidden bg-black pt-16 max-sm:px-6 max-sm:flex px-12">
-            <img class="image_grid max-sm:border-1 max-sm:shadow-none w-full h-full"
-                src="/img/autoretrato2.png" alt="">
+            <img class="image_grid max-sm:border-1 max-sm:shadow-none w-full h-full" src="/img/autoretrato2.png" alt="">
 
         </div>
 
 
-        <div class="grid bg-black max-sm:pb-24 max-sm:px-2 max-sm:grid-cols-1 px-64 pt-24 max-sm:pt-16 gap-40 grid-cols-2">
+        <div
+            class="grid bg-black max-sm:pb-24 max-sm:px-2 max-sm:grid-cols-1 px-64 pt-24 max-sm:pt-16 gap-40 grid-cols-2">
             <img class="image_grid w-full h-full" src="/img/autorretrato1.png" alt="">
-            <img class="image_grid max-sm:hidden shadow-sm w-full h-full"
-                src="/img/autoretrato2.png" alt="">
+            <img class="image_grid max-sm:hidden shadow-sm w-full h-full" src="/img/autoretrato2.png" alt="">
         </div>
 
         <div
             class="grid bg-black text-white pb-64 pt-12 max-[1920px]:px-[16rem] max-[1440px]:px-8 grid-cols-2 gap-40 px-[18rem] max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-sm:hidden">
-            <a class="type text-[14px] place-self-start pt-4 font-['Neue'] uppercase">▲ REALIZACIÓN MANUAL SOBRE PVC CON ACRÍLICO Y ROTULADOR</a>
-            <a class="type text-[14px] invisible place-self-start pt-4 font-['Neue'] uppercase">▲ CARTEL NO GANADOR FIESTAS VILLALUENGA DE LA SAGRA 2023</a>
+            <a class="type text-[14px] place-self-start pt-4 font-['Neue'] uppercase">▲ REALIZACIÓN MANUAL SOBRE PVC CON
+                ACRÍLICO Y ROTULADOR</a>
+            <a class="type text-[14px] invisible place-self-start pt-4 font-['Neue'] uppercase">▲ CARTEL NO GANADOR
+                FIESTAS VILLALUENGA DE LA SAGRA 2023</a>
 
         </div>
 
@@ -347,17 +495,34 @@
 
         </div>
 
+        
         <div
-            class="video max-sm:px-2 flex px-40 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
+            class="colum max-sm:pt-4 pt-52 flex max-[1440px]:px-4 px-64 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-[1500px]:px-60 max-sm:px-2">
+
+            <div class="fotografias px-64 max-[1440px]:px-12 grid grid-cols-1 gap-8 max-sm:gap-4 max-sm:px-2">
+                <img class="image w-full h-full" src="/img/fotopegatinas5.png" alt="">
+                <img class="image w-full h-full" src="/img/fotopegatinas6.png" alt="">
+                <img class="image w-full h-full" src="/img/fotopegatinas7.png" alt="">
+                <img class="image w-full h-full" src="/img/fotopegatinas4.png" alt="">
+                <img class="image w-full h-full" src="/img/fotopegatinas3.png" alt="">
+                <img class="image w-full h-full" src="/img/fotopegatinas2.png" alt="">
+                <img class="image w-full h-full" src="/img/fotopegatinas.png" alt="">
+
+            </div>
+
+        </div>
+
+
+        <div
+            class="video max-sm:hidden max-sm:px-2 flex px-40 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
             <video width="1240" height="788" loop autoplay>
                 <source src="/img/videoilustraciones3.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
 
         </div>
-
         <div
-            class="images pt-20 max-sm:px-2 px-64 pb-32 text-white justify-center flex flex-col gap-2 max-xl:pb-0 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
+            class="images max-sm:pt-4 pt-20 max-sm:px-2 px-64 pb-32 text-white justify-center flex flex-col gap-2 max-xl:pb-0 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
 
             <div class="grid grid-cols-4 max-xl:grid-cols-2 text-black">
                 <img class="image_grid w-full h-full" src="/img/Cars1.png" alt="">

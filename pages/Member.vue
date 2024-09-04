@@ -39,7 +39,7 @@
                     ARTE FINAL - FOTOGRAFÍAS - MAQUETACIÓN - EDICIÓN -
                     Diseño Gráfico</div>
                 <div
-                    class="text max-w-[80ch] pb-16 pt-4 max-sm:text-left text-left font-['SFUIDisplay-Regular'] text-[20px] text-white max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:max-w-[100ch] max-[800px]:pb-4">
+                    class="text max-w-[80ch] pb-16 pt-4 max-sm:text-left text-left font-['SFUIDisplay-Light'] text-[20px] text-white max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:max-w-[100ch] max-[800px]:pb-4">
                     Member es un asistente virtual personal que facilita el recordado de experiencias, personas,
                     memorias y vivencias del usuario. Nace con el fin de ayudar a cualquier persona e instalarse desde
                     el nacimiento para poder ir recogiendo información. Más adelante puede ser usado con personas en
@@ -57,7 +57,7 @@
                     class="text max-w-[200ch] max-sm:text-left text-center font-['PPE-Ultralight'] max-sm:text-[20px] pb-4 uppercase text-[24px] leading-10 text-white max-xl:text-xs">
                     Asignatura</div>
                 <div
-                    class="text max-w-[200ch] font-['SFUIDisplay-Regular'] text-center max-sm:text-left max-sm:max-w-[26ch] text-[16px] leading-6 text-white max-xl:text-sm max-xl:max-w-[40ch]">
+                    class="text max-w-[200ch] font-['SFUIDisplay-Light'] text-center max-sm:text-left max-sm:max-w-[26ch] text-[16px] leading-6 text-white max-xl:text-sm max-xl:max-w-[40ch]">
                     Proyectos Experimentales, 4º Diseño Gráfico.
                 </div>
             </div>
@@ -66,7 +66,7 @@
                     class="text max-w-[200ch] text-center font-['PPE-Ultralight'] max-sm:text-[20px] max-sm:text-left pb-4 uppercase text-[24px] leading-10 text-white max-xl:text-xs">
                     Tiempo</div>
                 <div
-                    class="text max-w-[20ch] font-['SFUIDisplay-Regular']  text-center max-sm:text-start text-[16px] leading-6 text-white max-xl:text-sm max-xl:max-w-[40ch]">
+                    class="text max-w-[20ch] font-['SFUIDisplay-Light']  text-center max-sm:text-start text-[16px] leading-6 text-white max-xl:text-sm max-xl:max-w-[40ch]">
                     6 meses
                 </div>
             </div>
@@ -75,25 +75,21 @@
                     class="text max-w-[200ch] max-sm:text-left text-center font-['PPE-Ultralight'] max-sm:text-[20px] pb-4 uppercase text-[24px] leading-10 text-white max-xl:text-xs">
                     Briefing</div>
                 <div
-                    class="text max-w-[20ch] text-center font-['SFUIDisplay-Regular'] max-sm:text-left text-[16px] leading-6 text-white max-xl:text-sm max-[1440px]:max-w-[60ch]">
+                    class="text max-w-[20ch] text-center font-['SFUIDisplay-Light'] max-sm:text-left text-[16px] leading-6 text-white max-xl:text-sm max-[1440px]:max-w-[60ch]">
                     Creación de asistente personal virtual.
                 </div>
             </div>
         </div>
 
-        <img class="image_rect px-64" src="/img/memberfinal3.png" alt="">
-
-
-
         <div
-            class="video hidden pt-20 pb-4 text-zinc-600 flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
-            <video class="justify-self-center w-[1920px] max-sm:w-full" loop autoplay controls>
+            class="video pt-20 pb-4 text-zinc-600 flex justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
+            <video class="justify-self-center max-sm:w-full" loop autoplay>
                 <source src="/img/member40.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
         </div>
 
-        <img class="image_rect px-0 hidden max-sm:flex" src="/img/member40.gif" alt="">
+        <img class="image_rect hidden px-0 max-sm:flex" src="/img/member40.gif" alt="">
 
 
 
@@ -559,8 +555,8 @@
 
         </div>
 
-        <div class="grid max-sm:grid-cols-1 max-sm:pt-6 max-sm:px-6 grid-cols-2 px-12 gap-6 pt-44 pb-32">
-            <img class="image_grid w-full h-full" src="/img/framemember1.png" alt="">
+        <div class="grid max-sm:grid-cols-1 max-sm:pt-6 max-sm:px-6 grid-cols-2 px-64 gap-6 pt-44 pb-32">
+            <img class="image_grid w-full h-full" src="/img/memberfinal3.png" alt="">
             <img class="image_grid w-full h-full" src="/img/framemember2.png" alt="">
             <img class="image_grid w-full h-full" src="/img/framemember4.png" alt="">
             <img class="image_grid w-full h-full" src="/img/framemember3.png" alt="">
