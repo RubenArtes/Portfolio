@@ -14,7 +14,7 @@
       class="header bg-white p-2 px-12 text-black flex justify-center items-center sticky top-[109px] z-10 max-[1080px]:gap-6 max-[1025px]:top-[64px] max-sm:gap-2">
       <div
         class="titular_small uppercase pr-2 pl-2 text-zinc-500 font-['Neue'] animate-pulse text-[13px] max-[1920px]:text-xs max-sm:px-2 max-sm:text-[11px]">
-        Ultima actualización Agosto 2024
+        Ultima actualización SEPTIEMBRE 2024
       </div>
       <img class="info animate-pulse max-w-[12px] max-h-[12px]" src="/img/infoblack.png" />
     </div>
@@ -76,7 +76,7 @@
           class="text text-[16px] leading-[18px] font-['Neue'] tracking-normal flex flex-col items-left justify-self-start max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[14px] max-sm:leading-[1rem] max-sm:pb-4 max-sm:text-start max-[1920px]:text-[14px] max-[1920px]:leading-[16px]">
           RUBÉN MALDONADO GONZÁLEZ
           <br>
-          AGOSTO 2024
+          SEPTIEMBRE 2024
         </div>
 
 
