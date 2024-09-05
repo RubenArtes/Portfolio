@@ -53,7 +53,6 @@
                 <img class="fotografia" src="/img/granada17.png">
                 <img class="fotografia" src="/img/granada.png">
                 <img class="fotografia" src="/img/granada3.png">
-                <img class="fotografia" src="/img/granada4.png">
                 <img class="fotografia" src="/img/granada5.png">
                 <img class="fotografia" src="/img/granada6.png">
                 <img class="fotografia" src="/img/granada7.png">
@@ -124,7 +123,6 @@
             <img class="fotografia" src="/img/granada17.png">
                 <img class="fotografia" src="/img/granada.png">
                 <img class="fotografia" src="/img/granada3.png">
-                <img class="fotografia" src="/img/granada4.png">
                 <img class="fotografia" src="/img/granada5.png">
                 <img class="fotografia" src="/img/granada6.png">
                 <img class="fotografia" src="/img/granada7.png">

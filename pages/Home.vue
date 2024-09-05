@@ -241,7 +241,7 @@
           EDITORIAL - PACKAGING
         </div>
         <div
-          class="text text-[100px] pt-2 font-['Apercu'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[150px] max-sm:text-[120px] max-sm:hidden">
+          class="text text-[100px] pt-2 font-['Apercu-Bold'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[150px] max-sm:text-[120px] max-sm:hidden">
           *
         </div>
       </div>
@@ -282,7 +282,7 @@
         NUEVAS - PÁGINAS NUEVAS - PÁGINAS NUEVAS
       </div>
       <div
-        class=" bg-red-700 text-white justify-center content-center font-['Regular'] text-[16px] max-sm:text-[12px] max-sm:hidden">
+        class=" bg-red-700 text-white justify-center content-center font-['Regular'] max-[1500px]:hidden text-[16px] max-sm:text-[12px] max-sm:hidden">
         PÁGINAS
         NUEVAS -
         PÁGINAS NUEVAS - PÁGINAS NUEVAS
@@ -316,7 +316,7 @@
               PACKAGING
             </div>
             <div
-              class="text text-[250px] pt-24 font-['Apercu'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
+              class="text text-[250px] pt-24 font-['Apercu-Bold'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
               *
             </div>
           </div>
@@ -361,12 +361,11 @@
               PACKAGING
             </div>
             <div
-              class="text text-black text-[250px] pt-24 font-['Apercu'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
+              class="text text-black text-[250px] pt-24 font-['Apercu-Bold'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
               *
             </div>
           </div>
         </NuxtLink>
-
 
         <NuxtLink to="/Member">
           <div
@@ -381,7 +380,7 @@
               MARCA Y AUDIOVISUALES
             </div>
             <div
-              class="text text-[250px] pt-24 font-['Apercu'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
+              class="text text-[250px] pt-24 font-['Apercu-Bold'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
               *
             </div>
           </div>
@@ -399,7 +398,7 @@
               AUDIOVISUALES
             </div>
             <div
-              class="text text-[250px] pt-24 font-['Apercu'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
+              class="text text-[250px] pt-24 font-['Apercu-Bold'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
               *
             </div>
           </div>
@@ -418,7 +417,7 @@
               AUDIOVISUALES
             </div>
             <div
-              class="text text-black text-[250px] pt-24 font-['Apercu'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
+              class="text text-black text-[250px] pt-24 font-['Apercu-Bold'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
               *
             </div>
           </div>
@@ -436,7 +435,7 @@
               RENDER Y AUDIOVISUAL
             </div>
             <div
-              class="text text-[250px] pt-24 font-['Apercu'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
+              class="text text-[250px] pt-24 font-['Apercu-Bold'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
               *
             </div>
           </div>
@@ -454,7 +453,7 @@
               MARCA
             </div>
             <div
-              class="text text-[250px] pt-24 font-['Apercu'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
+              class="text text-[250px] pt-24 font-['Apercu-Bold'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
               *
             </div>
           </div>
@@ -472,7 +471,7 @@
               EDITORIAL
             </div>
             <div
-              class="text text-[250px] pt-24 font-['Apercu'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
+              class="text text-[250px] pt-24 font-['Apercu-Bold'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
               *
             </div>
           </div>
@@ -490,7 +489,7 @@
               AUDIOVISUALES
             </div>
             <div
-              class="text text-black text-[250px] pt-24 font-['Apercu'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
+              class="text text-black text-[250px] pt-24 font-['Apercu-Bold'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
               *
             </div>
           </div>
@@ -508,7 +507,7 @@
               AUDIOVISUALES
             </div>
             <div
-              class="text text-black text-[250px] pt-24 font-['Apercu'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
+              class="text text-black text-[250px] pt-24 font-['Apercu-Bold'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
               *
             </div>
           </div>
@@ -526,7 +525,7 @@
               MARCA
             </div>
             <div
-              class="text text-[250px] pt-24 font-['Apercu'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
+              class="text text-[250px] pt-24 font-['Apercu-Bold'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
               *
             </div>
           </div>
@@ -544,7 +543,7 @@
               ILUSTRACIÓN
             </div>
             <div
-              class="text text-[250px] pt-24 font-['Apercu'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
+              class="text text-[250px] pt-24 font-['Apercu-Bold'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
               *
             </div>
           </div>
