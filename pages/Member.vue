@@ -135,8 +135,8 @@
         </div>
 
         <div
-            class="titular2 max-[1920px]:px-24 flex px-64 pb-2 gap-64 pt-52 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:px-60 max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
-            <div
+        class="titular2 max-[1500px]:pt-32 max-[1500px]:pb-12 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-32 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+        <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-white max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
                 <p class="font-['PPE-Ultralightitalic'] max-sm:pb-2">¿Que es</p> MEMBER?
             </div>
@@ -169,7 +169,7 @@
         </div>
 
         <div
-            class="grid max-sm:hidden max-[1920px]:px-32 max-[1920px]:pt-24 grid-cols-2 px-64 max-sm:px-2 max-sm:grid-cols-1">
+            class="grid max-[1500px]:pt-0 max-[1500px]:pb-12 max-sm:hidden max-[1920px]:px-32 max-[1920px]:pt-24 grid-cols-2 px-64 max-sm:px-2 max-sm:grid-cols-1">
             <img class="image_grid animate-pulse duration-700 w-full h-full" src="/img/main1.png" alt="">
             <img class="image_grid animate-pulse duration-700 w-full h-full" src="/img/main2.png" alt="">
 
@@ -185,14 +185,14 @@
         </div>
 
         <div id="primercompartimento"
-            class="titular2 flex px-64 pb-24 gap-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 flex px-64 pb-4 max-[1500px]:pb-6 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-32 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
-                class="titular max-[1440px]:text-left text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
+                class="titular max-[1500px]:text-center text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-white max-sm:text-[30px] max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
                 MARCA DINÁMICA</div>
         </div>
 
         <div
-            class="text max-sm:px-12 max-sm:pb-32 px-[900px] max-[1920px]:px-[22rem] pb-48 pt-4 text-center font-['SFUIDisplay-Light'] text-[16px] text-zinc-200 max-sm:order-last">
+            class="text max-sm:px-12 max-sm:pb-32 px-[900px] max-[1920px]:px-[22rem] pb-48 pt-4 max-[1500px]:pt-0 text-center font-['SFUIDisplay-Light'] text-[16px] text-zinc-200 max-sm:order-last">
             El logo tiene variación para cada usuario que utilice Member, cada persona al iniciar el programa tendrá un
             movimiento concreto del asistente, que se transforma en un frame que conforma un logo
             totalmente único y personal dentro de las millones de posibilidades.
@@ -221,7 +221,7 @@
         </div>
 
         <div
-            class="titular2 max-[1920px]:px-24 flex px-64 pb-64 gap-[360px] pt-52 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:px-60 max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+        class="titular2 max-[1500px]:pt-32 max-[1500px]:pb-12 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-32 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-white max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
                 <p class="font-['PPE-Ultralightitalic'] max-sm:pb-2">Diferentes usos</p> LOGOTIPO
@@ -258,7 +258,7 @@
         </div>
 
         <div
-            class="grid max-sm:grid-cols-1 justify-items-center grid-cols-3 pt-4 pb-44 max-sm:pb-32 max-[1920px]:px-[200px] px-[500px] gap-[250px] max-sm:pt-12 max-sm:px-24 max-sm:gap-12">
+            class="grid max-[1500px]:pt-24 max-[1500px]:pb-24 max-[1500px]:px-12 max-sm:grid-cols-1 justify-items-center grid-cols-3 pt-4 pb-44 max-sm:pb-32 max-[1920px]:px-[200px] px-[500px] gap-[250px] max-sm:pt-12 max-sm:px-24 max-sm:gap-12">
             <img class="image_grid opacity-60 hover:opacity-100 duration-700 w-1/2 max-sm:opacity-100"
                 src="/img/member11.png" alt="">
             <img class="image_grid opacity-60 hover:opacity-100 w-1/2 duration-700 max-sm:opacity-100"
@@ -270,7 +270,7 @@
         </div>
 
         <div
-            class="titular2 max-[1920px]:px-24 flex px-64 pb-2 gap-64 pt-52 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:px-60 max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+        class="titular2 max-[1500px]:pt-32 max-[1500px]:pb-12 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-24 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-white max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
                 <p class="font-['PPE-Ultralightitalic'] max-sm:pb-2">¿Para que</p> SIRVE MEMBER?
@@ -283,7 +283,7 @@
                     <a class="type text">INFORMACIÓN ACERCA DE MEMBER</a>
                 </div>
                 <div
-                    class="text max-w-[80ch] pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-200 max-sm:order-last max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                    class="text max-w-[80ch] max-[1500px]:max-w-[70ch] pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-200 max-sm:order-last max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
                     Member tiene como función principal todo tipo de público desde que nace hasta que muere, su objetivo
                     principal es ayudar a las personas a recordar y no olvidar su día a día, recuerdos pasados, memorias
                     y acontecimientos importantes. Guardarlos en una base de datos y poder mostrarlos como si de un
@@ -305,7 +305,7 @@
 
 
         <div
-            class="titular2 max-[1920px]:px-24 flex px-64 pb-2 gap-[360px] pt-52 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:px-60 max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+        class="titular2 max-[1500px]:pt-32 max-[1500px]:pb-12 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-[2rem] max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-white max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
                 <p class="font-['PPE-Ultralightitalic'] max-sm:pb-2">¿Como es</p> MEMBER?
@@ -318,8 +318,8 @@
                     <a class="type text">INFORMACIÓN ACERCA DE MEMBER</a>
                 </div>
                 <div
-                    class="text max-w-[80ch] pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-200 max-sm:order-last max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
-                    En la creación de Member el color seleccionado fue el rojo y es el que se ha mantenido como color
+                class="text max-w-[80ch] max-[1500px]:max-w-[70ch] pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-200 max-sm:order-last max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                En la creación de Member el color seleccionado fue el rojo y es el que se ha mantenido como color
                     principal de la marca y del sistema, pero ha esto se le ha añadido dos colores más que en un futuro
                     podría llegar a crecer mucho más.
                     El color amarillo representa la memoria episódica, cualquier momento en el que Member haga uso de
@@ -343,13 +343,13 @@
 
 
         <div id="primercompartimento"
-            class="titular2 flex px-64 pb-12 gap-64 pt-52 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 flex px-64 pb-12 gap-64 pt-52 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-32  max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
-                class="titular max-[1440px]:text-left text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
-                PALETA DE COLOR</div>
+            class="titular max-[1500px]:text-center text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-white max-sm:text-[30px] max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
+            PALETA DE COLOR</div>
         </div>
         <div
-            class="hidden gap-8 items-center justify-items-center px-12 pb-32 pt-32 max-[1280px]:p-10 max-[1500px]:px-60 max-[800px]:grid-cols-1 max-sm:grid max-sm:grid-cols-2 max-sm:px-8">
+            class="hidden gap-8 items-center justify-items-center px-12 pb-32 pt-32 max-[1280px]:p-10 max-[1500px]:px-32  max-[800px]:grid-cols-1 max-sm:grid max-sm:grid-cols-2 max-sm:px-8">
             <div class="columna1 grid gap-2 max-sm:grid max-sm:grid-rows-3">
                 <div class="color w-[150px] h-[150px] bg-[#ffc942]">
                 </div>
@@ -390,7 +390,7 @@
 
 
         <div
-            class="grid grid-cols-3 grid-rows-2 gap-2 items-center justify-items-center px-64 pb-32 pt-32 max-sm:px-10 max-[1280px]:p-10 max-[1500px]:px-60 max-[800px]:grid-cols-1 max-sm:hidden">
+            class="grid grid-cols-3 grid-rows-2 gap-2 items-center justify-items-center px-64 pb-32 pt-32 max-sm:px-10 max-[1280px]:p-10 max-[1500px]:px-32  max-[800px]:grid-cols-1 max-sm:hidden">
             <div class="color w-[200px] h-[200px] bg-[#ffc942]">
             </div>
             <div class="color w-[200px] h-[200px] bg-[#ff455d]">
@@ -423,24 +423,24 @@
         </div>
 
         <div id="primercompartimento"
-            class="titular2 flex px-64 pb-32 max-[1920px]:pt-12 max-[1920px]:pb-24 gap-64 pt-32 max-sm:pb-12 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 flex px-64 pb-32 max-[1920px]:pt-12 max-[1920px]:pb-24 gap-64 pt-32 max-sm:pb-12 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-[1500px]:px-32  max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
-                class="titular max-[1440px]:text-left text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
-                TIPOGRAFÍA</div>
+            class="titular max-[1500px]:text-center text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-white max-sm:text-[30px] max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
+            TIPOGRAFÍA</div>
         </div>
 
         <div
-            class="titular2 pb-24 grid grid-cols-1 max-sm:grid-cols-1 max-sm:px-0 max-sm:gap-16 px-64 pt-4 max-sm:pt-0 content-center justify-center text-center max-sm:flex-col max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 pb-24 grid grid-cols-1 max-sm:grid-cols-1 max-sm:px-0 max-sm:gap-16 px-64 pt-4 max-sm:pt-0 content-center justify-center text-center max-sm:flex-col max-sm:pb-16 max-[1500px]:px-32  max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div class="segundogrid flex flex-col gap-16 max-sm:gap-0">
 
                 <div
-                    class="titular2 max-sm:pb-4 content-center pb-0 justify-center text-center max-sm:px-4 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+                    class="titular2 max-sm:pb-4 content-center pb-0 justify-center text-center max-sm:px-4 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-[1500px]:px-32  max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
                     <div
-                        class="titular text-center max-sm:leading-[60px] max-[1920px]:leading-[190px] max-sm:text-[50px] max-[1920px]:text-[200px] max-[1440px]:text-left text-[200px] font-['SFUIDisplay-Light'] leading-12 text-white max-sm:text-30px max-xl:justify-center max-xl:text-[200px] max-sm:text-center max-sm:pt-2">
+                        class="titular text-center max-sm:leading-[60px] max-[1920px]:leading-[190px] max-sm:text-[50px] max-[1920px]:text-[200px] max-[1500px]:text-center text-[200px] font-['SFUIDisplay-Light'] leading-12 text-white max-sm:text-30px max-xl:justify-center max-xl:text-[200px] max-sm:text-center max-sm:pt-2">
                         SFUI Display</div>
                 </div>
                 <div
-                    class="titular max-sm:px-4 text-center max-sm:leading-[60px] max-[1920px]:leading-[190px] max-sm:text-[50px] max-[1920px]:text-[200px] max-[1440px]:text-left text-[200px] font-['AlteHaasGrotesk-Bold'] leading-12 text-white max-sm:text-30px max-xl:justify-center max-xl:text-[200px] max-sm:text-center max-sm:pt-2">
+                    class="titular max-sm:px-4 text-center max-sm:leading-[60px] max-[1920px]:leading-[190px] max-sm:text-[50px] max-[1920px]:text-[200px] max-[1500px]:text-center text-[200px] font-['AlteHaasGrotesk-Bold'] leading-12 text-white max-sm:text-30px max-xl:justify-center max-xl:text-[200px] max-sm:text-center max-sm:pt-2">
                     Alte Haas Grotesk</div>
             </div>
 
@@ -448,7 +448,7 @@
 
 
         <div
-            class="titular2 max-[1920px]:px-24 flex px-32 pb-64 gap-[360px] pt-52 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:px-60 max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+        class="titular2 max-[1500px]:pt-32 max-[1500px]:pb-12 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-[2rem] max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-white max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
                 <p class="font-['PPE-Ultralightitalic'] max-sm:pb-2">Video</p> FINAL
@@ -515,7 +515,7 @@
 
         <div
             class="video flex pt-20 max-sm:px-0 px-64 pb-32 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
-            <video class="border border-zinc-700" width="1240" height="788" loop controls>
+            <video class="shadow-md shadow-zinc-900" width="1240" height="788" loop controls>
                 <source src="/img/videofinalmember.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -532,7 +532,7 @@
 
 
         <div
-            class="titular2 max-[1920px]:px-24 flex px-64 pb-2 gap-[360px] pt-32 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:px-60 max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+        class="titular2 max-[1500px]:pt-32 max-[1500px]:pb-12 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-[2rem] max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-white max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
                 <p class="font-['PPE-Ultralightitalic'] max-sm:pb-2">Frames e</p> IMÁGENES
@@ -568,7 +568,7 @@
 
 
         <div
-            class="trabajos flex pt-10 pl-40 pr-40 pb-20 text-white flex-col gap-10 justify-center items-center max-xl:pt-12 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[1500px]:px-60">
+            class="trabajos flex pt-10 pl-40 pr-40 pb-20 text-white flex-col gap-10 justify-center items-center max-xl:pt-12 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[1500px]:px-32 ">
             <div
                 class="titular text-[16px] font-['SFUIDisplay-Light'] leading-6 font-normal flex flex-start items-center max-xl:text-xs">
                 Programas utilizados
@@ -591,7 +591,7 @@
         </div>
 
         <div
-            class="links_rrss font-['SFUIDisplay-Light'] leading-6 pt-32 px-64 pb-32 text-white justify-center flex flex-row gap-60 max-xl:pt-20 max-xl:px-10 max-xl:flex-col max-xl:justify-items-center max-xl:gap-20 max-xl:flex max-xl:justify-center max-xl:pb-20 max-[1500px]:px-60">
+            class="links_rrss font-['SFUIDisplay-Light'] leading-6 pt-32 px-64 pb-32 text-white justify-center flex flex-row gap-60 max-xl:pt-20 max-xl:px-10 max-xl:flex-col max-xl:justify-items-center max-xl:gap-20 max-xl:flex max-xl:justify-center max-xl:pb-20 max-[1500px]:px-32 ">
             <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado."
                 target="_blank" class="email text-lg flex gap-2 items-center max-xl:text-[14px] max-xl:justify-center">
                 ruben.maldonado.graphic@gmail.com

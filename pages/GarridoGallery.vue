@@ -76,8 +76,8 @@
             <img class="image_rect" src="/img/fotoprincipal_1.jpg" alt="">
         </div>
         <div
-            class="colum max-[1440px]:px-32 max-[1440px]:gap-12 flex pt-20 px-64 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-[1500px]:px-60">
-            <div class="info_proyect max-w-[80ch]">
+        class="colum max-[1500px]:px-32 flex pt-20 px-64 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center">
+        <div class="info_proyect max-w-[80ch]">
                 <div class="info_secondary flex flex-col gap-6 sticky top-32 max-[1500px]:gap-12">
                     <div
                         class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-zinc-900 max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
@@ -117,8 +117,8 @@
         </div>
 
         <div
-            class="titular2 flex px-64 pb-24 gap-64 pt-32 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:px-60 max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
-            <div
+        class="titular2 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-32 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+        <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-zinc-900 max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
                 <p class="font-['PPE-UltralightItalic']">Catálogo</p>GARRIDO 2024
             </div>
@@ -140,7 +140,7 @@
         </div>
 
         <div
-            class="images max-[1440px]:px-0 pt-20 pb-12 flex flex-col gap-6 text-white justify-center content-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4 max-[1500px]:px-60 max-[800px]:px-0 max-[800px]:pt-12">
+            class="images max-[1440px]:px-0 pt-20 pb-12 flex flex-col gap-6 text-white justify-center content-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4 max-[1500px]:px-32  max-[800px]:px-0 max-[800px]:pt-12">
 
             <img class="image_grid w-full h-full" src="/img/fotofinalcatalogo2.png" alt="">
             <img class="image_grid w-full h-full" src="/img/fotofinalcatalogo.png" alt="">
@@ -157,7 +157,7 @@
         </div>
 
         <div
-            class="grid grid-cols-1 gap-2 items-center justify-items-center px-64 pb-32 max-[1280px]:p-10 max-[1500px]:px-60 max-sm:grid-cols-1 max-sm:px-2 max-sm:p-6">
+            class="grid grid-cols-1 gap-2 items-center justify-items-center px-64 pb-32 max-[1280px]:p-10 max-[1500px]:px-32  max-sm:grid-cols-1 max-sm:px-2 max-sm:p-6">
 
             <Carousel :autoplay="2000" :wrap-around="true"
                 class="carousel max-w-[1794px] max-h-[975px] max-sm:px-20 max-sm:max-w-[500px] max-sm:hidden">
@@ -314,7 +314,7 @@
         </div>
 
         <div
-            class="titular2 flex px-64 pb-2 gap-64 pt-32 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20 max-sm:pt-32">
+        class="titular2 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-32 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-zinc-900 max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
                 <p class="font-['PPE-UltralightItalic']">Material</p>INSTAGRAM
@@ -373,7 +373,7 @@
         </div>
 
         <div
-            class="titular2 flex px-64 pb-2 gap-64 pt-32 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20 max-sm:pt-32">
+        class="titular2 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-32 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-zinc-900 max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
                 <p class="font-['PPE-UltralightItalic']">Fotografías</p>Y EDICIÓN
@@ -427,7 +427,7 @@
         </div>
 
         <div
-            class="titular2 flex px-64 pb-2 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-24 max-sm:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:px-60 max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+        class="titular2 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-32 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-zinc-900 max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
                 <p class="font-['PPE-UltralightItalic']">Página</p>WEB GARRIDO
@@ -450,7 +450,7 @@
 
         </div>
 
-        <div class="boton flex justify-center pt-32 max-sm:pt-6 max-sm:pb-24">
+        <div class="boton max-[1500px]:pt-2 flex justify-center pt-32 max-sm:pt-6 max-sm:pb-24">
 
             <a class="bg-gray-300 font-['PPE-Ultralightitalic'] uppercase hover:bg-gray-400 text-gray-800 font-bold py-4 px-6 rounded-xl inline-flex items-center"
                 href="https://www.garridogallery.com">
@@ -475,7 +475,7 @@
 
 
         <div
-            class="titular2 flex px-64 pb-12 gap-64 pt-12 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:px-60 max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+        class="titular2 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-32 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-zinc-900 max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
                 <p class="font-['PPE-UltralightItalic']">Otras creaciones</p>GARRIDO GALLERY
@@ -488,7 +488,7 @@
                     <a class="type text">CREACIÓN DE DIFERENTES FORMATOS Y ELEMENTOS</a>
                 </div>
                 <div
-                    class="text max-w-[80ch] order-last pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                    class="text max-w-[80ch] max-[1500px]:max-w-[50ch] order-last pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
                     Cartelería para exposiciones concretas, tarjetas de visita para eventos y folletos para momentos
                     concretos
                     en la Galería.
@@ -499,11 +499,11 @@
         </div>
 
         <div
-            class="div max-[1440px]:px-40 text-[#474747] px-64 pb-2 pt-24 text-left text-lg m-0 font-['PPE-Ultralight'] uppercase max-sm:text-xs max-sm:px-12 max-sm:text-center max-sm:pt-12">
+            class="div max-[1500px]:px-24 text-[#474747] px-64 pb-2 pt-24 text-left text-lg m-0 font-['PPE-Ultralight'] uppercase max-sm:text-xs max-sm:px-12 max-sm:text-center max-sm:pt-12">
             > TARJETA DE VISITA SALON 2023</div>
 
         <div
-            class="grid max-[1440px]:px-40 grid-cols-2 pt-8 gap-8 items-center justify-items-center px-64 pb-12 max-[1280px]:p-6 max-[1500px]:px-60 max-sm:grid-cols-1 max-sm:px-0">
+            class="grid max-[1500px]:px-24 grid-cols-2 pt-8 gap-8 items-center justify-items-center px-64 pb-12 max-[1280px]:p-6 max-[1500px]:px-32  max-sm:grid-cols-1 max-sm:px-0">
             <div>
                 <img class="image_grid w-full h-full pb-4" src="/img/Mockuptarjeta.png" alt="">
                 <img class="image_grid w-full h-full" src="/img/Mockuptarjeta1.png" alt="">
@@ -523,11 +523,11 @@
         </div>
 
         <div
-            class="div max-[1440px]:px-40 text-[#474747]  pb-2 pt-12 text-left px-64 text-lg m-0 font-['PPE-Ultralight'] uppercase max-sm:text-xs max-sm:px-12 max-sm:text-center">
+            class="div max-[1500px]:px-24 text-[#474747]  pb-2 pt-12 text-left px-64 text-lg m-0 font-['PPE-Ultralight'] uppercase max-sm:text-xs max-sm:px-12 max-sm:text-center">
             > FOLLETO DÍPTICO EXPOSICIÓN LUIS GORDILLO 2024</div>
 
         <div
-            class="grid max-[1440px]:px-40 grid-cols-2 pt-8 items-end gap-6 justify-items-center px-64 pb-32 max-[1280px]:p-10 max-[1500px]:px-60 max-sm:grid-cols-1 max-sm:px-0">
+            class="grid max-[1500px]:pb-24 max-[1500px]:px-24 grid-cols-2 pt-8 items-end gap-6 justify-items-center px-64 pb-32 max-[1280px]:p-10 max-[1500px]:px-32  max-sm:grid-cols-1 max-sm:px-0">
 
             <div>
                 <img class="image_grid w-full h-full" src="/img/FicticioFolleto.jpg" alt="">
@@ -546,10 +546,10 @@
         </div>
 
         <div
-            class="div max-[1440px]:px-40 text-[#474747]  pb-2 pt-12 text-left px-64 text-lg m-0 font-['PPE-Ultralight'] uppercase max-sm:text-xs max-sm:px-12 max-sm:text-center">
+            class="div max-[1500px]:pt-2 max-[1500px]:px-24 text-[#474747]  pb-2 pt-12 text-left px-64 text-lg m-0 font-['PPE-Ultralight'] uppercase max-sm:text-xs max-sm:px-12 max-sm:text-center">
             > CARTEL PARA LA EXPOSICIÓN DE GORDILLO 2024</div>
         <div
-            class="grid max-[1440px]:px-40 grid-cols-2 pt-8 items-end gap-6 justify-items-center px-64 pb-32 max-[1280px]:p-10 max-[1500px]:px-60 max-sm:grid-cols-1 max-sm:px-0">
+            class="grid max-[1500px]:px-24 grid-cols-2 pt-8 items-end gap-6 justify-items-center px-64 pb-32 max-[1280px]:p-10 max-[1500px]:px-32  max-sm:grid-cols-1 max-sm:px-0">
 
             <div>
                 <img class="image_grid w-full h-full" src="/img/Mockupcartel.png" alt="">
@@ -568,7 +568,7 @@
 
 
         <div
-            class="trabajos flex pt-10 pl-40 pr-40 pb-20 text-zinc-600 flex-col gap-10 justify-center items-center max-xl:pt-12 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[1500px]:px-60">
+            class="trabajos flex pt-10 pl-40 pr-40 pb-20 text-zinc-600 flex-col gap-10 justify-center items-center max-xl:pt-12 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[1500px]:px-32 ">
             <div
                 class="titular text-[16px] font-['SFUIDisplay-Light'] leading-6 font-normal flex flex-start items-center max-xl:text-xs">
                 Programas utilizados
@@ -591,7 +591,7 @@
         </div>
 
         <div
-            class="links_rrss font-['SFUIDisplay-Light'] leading-6 pt-32 px-64 pb-32 text-zinc-600 justify-center flex flex-row gap-60 max-xl:pt-20 max-xl:px-10 max-xl:flex-col max-xl:justify-items-center max-xl:gap-20 max-xl:flex max-xl:justify-center max-xl:pb-20 max-[1500px]:px-60">
+            class="links_rrss font-['SFUIDisplay-Light'] leading-6 pt-32 px-64 pb-32 text-zinc-600 justify-center flex flex-row gap-60 max-xl:pt-20 max-xl:px-10 max-xl:flex-col max-xl:justify-items-center max-xl:gap-20 max-xl:flex max-xl:justify-center max-xl:pb-20 max-[1500px]:px-32 ">
             <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado."
                 target="_blank" class="email text-lg flex gap-2 items-center max-xl:text-[14px] max-xl:justify-center">
                 ruben.maldonado.graphic@gmail.com

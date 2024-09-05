@@ -17,9 +17,9 @@
         <VueScrollProgressBar background-color="white" />
 
         <div id="navegacion"
-      class="titular2 flex px-64 gap-32 content-start space-between justify-center pt-32 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-[1500px]:flex-col max-[1500px]:gap-2 max-[1500px]:items-center max-[1700px]:px-10">
-      <div
-        class="titular max-[1920px]:text-[100px] max-[1920px]:leading-[100px] text-[120px] font-['PPE-Ultralight'] leading-12 font-bold animate-pulse bg-gradient-to-r bg-clip-text text-transparent animate-text max-sm:text-[55px] max-[1500px]:text-left max-[1280px]:text-[100px] max-sm:text-center max-sm:leading-[60px] from-[#593cff] via-[#fff202] to-[#7d86ed]">
+            class="titular2 flex px-64 gap-32 content-start space-between justify-center pt-32 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-[1500px]:flex-col max-[1500px]:gap-2 max-[1500px]:items-center max-[1700px]:px-10">
+            <div
+                class="titular max-[1920px]:text-[100px] max-[1920px]:leading-[100px] text-[120px] font-['PPE-Ultralight'] leading-12 font-bold animate-pulse bg-gradient-to-r bg-clip-text text-transparent animate-text max-sm:text-[55px] max-[1500px]:text-left max-[1280px]:text-[100px] max-sm:text-center max-sm:leading-[60px] from-[#593cff] via-[#fff202] to-[#7d86ed]">
                 CINE YELMO</div>
             <div
                 class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:pt-6 max-sm:pb-16 max-sm:px-0 max-[1280px]:items-center max-[1280px]:pt-6 max-[1280px]:pb-0">
@@ -40,13 +40,13 @@
         </div>
 
         <div
-            class="trabajos max-[1440px]:px-32 flex max-sm:justify-start max-sm:pb-24 pt-20 px-40 pb-20 items-start text-white flex-nowrap gap-96 justify-center max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-start max-xl:text-center max-xl:pt-0 max-xl:pb-16 max-[1500px]:px-20 max-[1500px]:justify-between">
+            class="trabajos max-[1500px]:px-32 flex max-sm:justify-start max-sm:pb-24 pt-20 px-40 pb-20 items-start text-white flex-nowrap gap-96 max-[1500px]:gap-[15rem] justify-center max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-start max-xl:text-center max-xl:pt-0 max-xl:pb-16 max-[1500px]:justify-between">
             <div class="info flex flex-col">
                 <div
                     class="text max-w-[200ch] max-sm:text-left text-center font-['PPE-Ultralight'] max-sm:text-[20px] pb-4 uppercase text-[24px] leading-10 text-white max-xl:text-xs">
                     Asignatura</div>
                 <div
-                    class="text max-w-[200ch] font-['SFUIDisplay-Light'] text-center max-sm:text-left max-sm:max-w-[26ch] text-[16px] leading-6 text-white max-xl:text-sm max-xl:max-w-[40ch]">
+                    class="text max-[1500px]:w-[20ch] font-['SFUIDisplay-Light'] text-center max-sm:text-left max-sm:max-w-[22ch] text-[16px] leading-6 text-white max-xl:text-sm max-xl:max-w-[40ch]">
                     Proyectos interdisciplinares de Diseño Gráfico, LAB, 3º Diseño Gráfico.
                 </div>
             </div>
@@ -64,7 +64,7 @@
                     class="text max-w-[200ch] max-sm:text-left text-center font-['PPE-Ultralight'] max-sm:text-[20px] pb-4 uppercase text-[24px] leading-10 text-white max-xl:text-xs">
                     Briefing</div>
                 <div
-                    class="text max-w-[20ch] text-center font-['SFUIDisplay-Light'] max-sm:text-left text-[16px] leading-6 text-white max-xl:text-sm max-[1440px]:max-w-[60ch]">
+                    class="text max-w-[20ch] text-center font-['SFUIDisplay-Light'] text-[16px] leading-6 text-white max-xl:text-sm max-xl:max-w-[40ch]">
                     Rediseño de la identidad completa de Yelmo Cines.
                 </div>
             </div>
@@ -79,7 +79,7 @@
 
         </div>
         <div
-            class="colum flex pt-20 px-64 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-[1500px]:px-60 max-sm:pt-12">
+            class="colum flex pt-20 px-64 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-[1500px]:px-32  max-sm:pt-12">
             <div class="info_proyect max-w-[80ch]">
                 <div class="info_secondary flex flex-col gap-6 sticky top-48 max-[1500px]:gap-12">
                     <div
@@ -128,7 +128,7 @@
             </div>
         </div>
         <div id="primercompartimento"
-            class="titular2 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-46 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
                 <p class="font-['PPE-UltralightItalic']">Marca</p>DINÁMICA
@@ -163,13 +163,13 @@
 
 
         <div id="primercompartimento"
-            class="titular2 flex px-64 pb-12 gap-64 pt-40 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 flex px-64 pb-12 gap-64 pt-40 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-32  max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
-                class="titular max-[1440px]:text-left text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
+                class="titular max-[1500px]:text-center text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
                 PALETA DE COLOR</div>
         </div>
         <div
-            class="hidden gap-8 items-center justify-items-center px-12 pb-32 pt-32 max-[1280px]:p-10 max-[1500px]:px-60 max-[800px]:grid-cols-1 max-sm:grid max-sm:grid-cols-2 max-sm:px-8">
+            class="hidden gap-8 items-center justify-items-center px-12 pb-32 pt-32 max-[1280px]:p-10 max-[1500px]:px-32  max-[800px]:grid-cols-1 max-sm:grid max-sm:grid-cols-2 max-sm:px-8">
             <div class="columna1 grid gap-2 max-sm:grid max-sm:grid-rows-3">
 
                 <div class="color w-[150px] h-[150px] bg-[#161616]">
@@ -220,7 +220,7 @@
         </div>
 
         <div
-            class="grid grid-cols-4 grid-rows-2 gap-2 items-center justify-items-center px-64 pb-32 pt-32 max-sm:px-10 max-[1280px]:p-10 max-[1500px]:px-60 max-[800px]:grid-cols-1 max-sm:hidden">
+            class="grid grid-cols-4 grid-rows-2 gap-2 items-center justify-items-center px-64 pb-32 pt-32 max-sm:px-10 max-[1280px]:p-10 max-[1500px]:px-32  max-[800px]:grid-cols-1 max-sm:hidden">
             <div class="color w-[200px] h-[200px] bg-[#161616]">
             </div>
             <div class="color w-[200px] h-[200px] bg-[#FFDE00]">
@@ -310,9 +310,12 @@
             </div>
         </div>
 
-        <div class="grid place-items-center px-64 max-sm:px-12 grid-cols-1 max-sm:pt-12 max-sm:hidden">
-            <img class="image_grid max-[1920px]:pb-40 px-32 pt-32 pb-64 w-full h-full" src="/img/pictogramasyelmo.svg" alt="">
-            <img class="image_grid max-[1920px]:pb-40 px-12 pt-4 pb-52 w-1/2 h-full" src="/img/pictogramasyelmo.svg" alt="">
+        <div
+            class="grid place-items-center max-[1500px]:px-12 px-64 max-sm:px-12 grid-cols-1 max-sm:pt-12 max-sm:hidden">
+            <img class="image_grid max-[1920px]:pb-40 px-32 pt-32 pb-64 w-full h-full" src="/img/pictogramasyelmo.svg"
+                alt="">
+            <img class="image_grid max-[1920px]:pb-40 px-12 pt-4 pb-52 w-1/2 h-full" src="/img/pictogramasyelmo.svg"
+                alt="">
 
         </div>
 
@@ -330,7 +333,8 @@
             </div>
         </div>
 
-        <div class="grid px-64 grid-cols-1 gap-24 pt-24 max-sm:pt-12 max-sm:px-8 max-sm:gap-8 max-sm:pb-12 max-sm:hidden">
+        <div
+            class="grid px-64 grid-cols-1 max-[1500px]:px-12 gap-24 pt-24 max-sm:pt-12 max-sm:px-8 max-sm:gap-8 max-sm:pb-12 max-sm:hidden">
             <div class="grid grid-cols-3 px-32 gap-32">
                 <img class="image_grid w-full h-full pb-6 max-sm:pb-0" src="/img/caratula1.svg" alt="">
                 <img class="image_grid w-full h-full pb-6 max-sm:pb-0" src="/img/caratula3.svg" alt="">
@@ -339,17 +343,19 @@
             </div>
             <img class="image_grid pt-24 w-full h-full pb-6 max-sm:pb-0" src="/img/caratulasinstagram.png" alt="">
             <img class="image_grid px-64 w-full h-full pb-6 max-sm:pb-0" src="/img/caratulas3.png" alt="">
-            <img class="image_grid px-[500px] max-[1920px]:px-[22rem] w-full h-full pb-6 max-sm:pb-0" src="/img/caratulas4.png" alt="">
+            <img class="image_grid px-[500px] max-[1920px]:px-[22rem] w-full h-full pb-6 max-sm:pb-0"
+                src="/img/caratulas4.png" alt="">
         </div>
 
         <div class="max-sm:grid-cols-1 hidden pt-32 px-16 gap-12 max-sm:grid">
-                <img class="image_grid w-full h-full pb-6 max-sm:pb-0" src="/img/caratula1.svg" alt="">
-                <img class="image_grid w-full h-full pb-6 max-sm:pb-0" src="/img/caratula3.svg" alt="">
-                <img class="image_grid w-full h-full pb-6 max-sm:pb-0" src="/img/caratula2.svg" alt="">
+            <img class="image_grid w-full h-full pb-6 max-sm:pb-0" src="/img/caratula1.svg" alt="">
+            <img class="image_grid w-full h-full pb-6 max-sm:pb-0" src="/img/caratula3.svg" alt="">
+            <img class="image_grid w-full h-full pb-6 max-sm:pb-0" src="/img/caratula2.svg" alt="">
 
-            </div>
+        </div>
 
-        <img class="image_grid pt-32 pb-32 px-16 hidden max-sm:flex w-full h-full" src="/img/caratulasinstagrammovil.png" alt="">
+        <img class="image_grid pt-32 pb-32 px-16 hidden max-sm:flex w-full h-full"
+            src="/img/caratulasinstagrammovil.png" alt="">
 
 
         <div
@@ -378,12 +384,13 @@
 
         </div>
 
-        <div class="grid grid-cols-1 max-[1920px]:px-64 max-[1920px]:pb-56 max-[1920px]:gap-6 px-[32rem] gap-12 pt-24 pb-32 max-sm:gap-6 max-sm:pt-12 max-sm:pb-24 max-sm:px-6">
-                <img class="image_grid max-sm:px-0 w-full h-full" src="/img/entrada1.png" alt="">
-                <img class="image_grid max-sm:px-0 w-full h-full" src="/img/entrada2.png" alt="">
+        <div
+            class="grid grid-cols-1 max-[1920px]:px-64 max-[1920px]:pb-56 max-[1920px]:gap-6 px-[32rem] gap-12 pt-24 pb-32 max-sm:gap-6 max-sm:pt-12 max-sm:pb-24 max-sm:px-6">
+            <img class="image_grid max-sm:px-0 w-full h-full" src="/img/entrada1.png" alt="">
+            <img class="image_grid max-sm:px-0 w-full h-full" src="/img/entrada2.png" alt="">
 
 
-            </div>
+        </div>
 
         <div
             class="trabajos flex pl-40 pr-40 pb-20 text-zinc-300 flex-col gap-10 justify-center items-center max-xl:pt-12 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10">

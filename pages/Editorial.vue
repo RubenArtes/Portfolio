@@ -79,7 +79,7 @@
 
 
         <div
-            class="colum flex pt-20 px-64 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-[1500px]:px-60 max-sm:pt-12">
+            class="colum flex pt-20 px-64 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-[1500px]:px-32  max-sm:pt-12">
             <div class="info_proyect max-w-[80ch]">
                 <div class="info_secondary flex flex-col gap-6 sticky top-48 max-[1500px]:gap-12">
                     <div

@@ -91,16 +91,16 @@
             <div
             class="titular text-[120px] font-['PPE-Ultralight'] leading-12 font-bold animate-pulse bg-gradient-to-r bg-clip-text text-transparent animate-text max-sm:text-[55px] max-[1500px]:text-left max-[1280px]:text-[100px] from-[#311568] via-[#4797ff] to-[#311568]  ">
                 OPORTO</div>
-            <div
-                class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:pt-6 max-sm:pb-16 max-sm:px-0 max-[1280px]:items-center max-[1280px]:pt-6 max-[1280px]:pb-0">
+                <div
+                class="trabajos flex flex-col max-sm:gap-2 items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:pt-6 max-sm:pb-16 max-sm:px-0 max-[1280px]:items-center max-[1280px]:pt-6 max-[1280px]:pb-0">
 
                 <div
-                class="text max-w-[60ch] text-[16px] uppercase text-zinc-900 max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
-                IMPRESIÓN - Packaging - Marca -
+                    class="text max-w-[60ch] text-[16px] uppercase text-zinc-900 max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
+                    IMPRESIÓN - Packaging - Marca -
                     Diseño Gráfico</div>
                 <div
-                class="text max-w-[80ch] pb-16 pt-4 max-sm:text-left text-left font-['Regular'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:max-w-[100ch] max-[800px]:pb-4">
-                El proyecto consistirá en la creación de una caja contenedora de diferentes elementos impresos sobre
+                    class="text max-w-[80ch] pb-16 pt-4 max-sm:text-left text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:max-w-[100ch] max-[800px]:pb-4">
+                    El proyecto consistirá en la creación de una caja contenedora de diferentes elementos impresos sobre
                     un tema concreto, realizando diferentes pruebas físicas como folletos, cuadernillos impresos o
                     carteles. Para este trabajo
                     la temática ha sido Oporto y la cultura portuguesa, creando una caja que sea una experencia y visión
@@ -113,13 +113,13 @@
 
 
         <div
-            class="trabajos max-[1440px]:px-32 flex max-sm:justify-start max-sm:pb-24 pt-20 px-40 pb-20 items-start text-white flex-nowrap gap-96 justify-center max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-start max-xl:text-center max-xl:pt-0 max-xl:pb-16 max-[1500px]:px-20 max-[1500px]:justify-between">
+            class="trabajos max-[1500px]:px-32 flex max-sm:justify-start max-sm:pb-24 pt-20 px-40 pb-20 items-start text-white flex-nowrap gap-96 max-[1500px]:gap-[15rem] justify-center max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-start max-xl:text-center max-xl:pt-0 max-xl:pb-16 max-[1500px]:justify-between">
             <div class="info flex flex-col">
                 <div
                     class="text max-w-[200ch] max-sm:text-left text-center font-['PPE-Ultralight'] max-sm:text-[20px] pb-4 uppercase text-[24px] leading-10 text-zinc-800 max-xl:text-xs">
                     Asignatura</div>
-                    <div
-                    class="text max-w-[200ch] font-['Regular'] text-center max-sm:text-left max-sm:max-w-[26ch] text-[16px] leading-6 text-zinc-900 max-xl:text-sm max-xl:max-w-[40ch]">
+                <div
+                    class="text max-[1500px]:w-[20ch] font-['SFUIDisplay-Light'] text-center max-sm:text-left max-sm:max-w-[22ch] text-[16px] leading-6 text-zinc-900 max-xl:text-sm max-xl:max-w-[40ch]">
                     Producción para artes gráficas, 4º Curso Diseño Gráfico.
                 </div>
             </div>
@@ -127,8 +127,8 @@
                 <div
                     class="text max-w-[60ch] max-sm:text-left font-['PPE-Ultralight'] max-sm:text-[20px] pb-4 text-center text-[24px] uppercase leading-10 text-zinc-800 max-xl:text-xs">
                     Tiempo</div>
-                    <div
-                    class="text max-w-[20ch] font-['Regular']  text-center max-sm:text-start text-[16px] leading-6 text-zinc-900 max-xl:text-sm max-xl:max-w-[40ch]">
+                <div
+                    class="text max-w-[20ch] font-['SFUIDisplay-Light'] max-sm:text-start text-center text-[16px] leading-6 text-zinc-900 max-xl:text-sm max-xl:max-w-[40ch]">
                     4 meses
                 </div>
             </div>
@@ -137,7 +137,7 @@
                     class="text max-w-[60ch] max-sm:text-left font-['PPE-Ultralight'] max-sm:text-[20px] pb-4 text-center text-[24px] uppercase leading-10 text-zinc-800 max-xl:text-xs">
                     Briefing</div>
                 <div
-                    class="text max-w-[20ch] text-center font-['Regular'] text-[16px] leading-6 text-zinc-900 max-xl:text-sm max-[1440px]:max-w-[40ch] max-xl:max-w-[40ch]">
+                    class="text max-w-[20ch] text-center font-['SFUIDisplay-Light'] text-[16px] leading-6 text-zinc-900 max-xl:text-sm max-xl:max-w-[40ch]">
                     Oporto y cultura portuguesa
                 </div>
             </div>
@@ -150,7 +150,7 @@
 
         </div>
         <div
-            class="colum flex pt-20 px-64 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-[1500px]:px-60">
+            class="colum max-[1500px]:px-32 flex pt-20 px-64 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center">
             <div class="info_proyect max-w-[80ch]">
                 <div class="info_secondary flex flex-col gap-6 sticky top-48 max-[1500px]:gap-12">
                     <div
@@ -198,7 +198,7 @@
 
 
         <div id="primercompartimento"
-            class="titular2 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-46 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
                 <p class="font-['PPE-UltralightItalic']">Primer</p>COMPARTIMENTO</div>
@@ -257,8 +257,8 @@
         </div>
 
         <div id="segundocompartimento"
-            class="titular2 max-[1440px]:px-32 flex px-64 pb-12 gap-64 max-[1440px]:pt-48 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
-            <div
+        class="titular2 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-46 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+        <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
                 <p class="font-['PPE-UltralightItalic']">Segundo</p>COMPARTIMENTO</div>
             <div
@@ -298,7 +298,7 @@
 
 
         <div id="postales"
-            class="titular2 max-[1440px]:px-32 max-[1440px]:text-center max-[1440px]:content-center flex px-64 pb-32 gap-64 pt-48 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-center max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 max-[1440px]:px-32 max-[1440px]:text-center max-[1440px]:content-center flex px-64 pb-32 gap-64 pt-48 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-32  max-[1500px]:gap-12 max-[1500px]:items-center max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
                 POSTALES</div>
@@ -337,7 +337,7 @@
         </div>
 
         <div
-            class="grid grid-cols-3 pb-32 px-64 gap-8 justify-items-center max-sm:grid-cols-1 max-sm:px-12 max-sm:gap-6 max-sm:pb-24 max-sm:hidden">
+            class="grid grid-cols-3 pb-32 px-64 max-[1500px]:px-32 gap-8 justify-items-center max-sm:grid-cols-1 max-sm:px-12 max-sm:gap-6 max-sm:pb-24 max-sm:hidden">
 
             <div class="columna1">
                 <img class="image w-full h-full shadow-lg border border-zinc-100" src="/img/postal6.png" alt="">
@@ -376,7 +376,7 @@
 
 
         <div id="sellos"
-        class="titular2 max-[1440px]:px-32 max-[1440px]:text-center max-[1440px]:content-center flex px-64 pb-32 gap-64 pt-48 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-center max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+        class="titular2 max-[1440px]:px-32 max-[1440px]:text-center max-[1440px]:content-center flex px-64 pb-32 gap-64 pt-48 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-32  max-[1500px]:gap-12 max-[1500px]:items-center max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
         <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
                 SELLOS</div>
@@ -406,7 +406,7 @@
         </div> -->
 
         <div
-            class="grid grid-cols-4 gap-2 pb-32 px-64 justify-items-center max-[1920px]:px-12 max-sm:grid-cols-1 max-sm:pb-2 max-sm:px-2">
+            class="grid grid-cols-2 gap-2 pb-32 px-64 justify-items-center max-[1920px]:px-12 max-sm:grid-cols-1 max-sm:pb-2 max-sm:px-2">
             <img src="/img/sellos1.webp" alt="">
             <img src="/img/sellos2.webp" alt="">
             <img src="/img/sellos3.webp" alt="">
@@ -417,14 +417,14 @@
 
 
         <div id="cuadernos"
-        class="titular2 max-[1440px]:px-32 max-[1440px]:text-center max-[1440px]:content-center flex px-64 pb-32 gap-64 pt-48 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-center max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+        class="titular2 max-[1440px]:px-32 max-[1440px]:text-center max-[1440px]:content-center flex px-64 pb-32 gap-64 pt-48 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-32  max-[1500px]:gap-12 max-[1500px]:items-center max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
         <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-zinc-900 max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6 max-sm:text-[30px] max-sm:pb-0">
                 CUADERNOS DE VIAJE EXPERIMENTALES</div>
         </div>
 
         <div
-            class="grid bg-white grid-cols-1 grid-row-2 gap-2 px-64 max-[1440px]:px-12 max-[1440px]:pb-32 pb-64 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-sm:hidden">
+            class="grid bg-white grid-cols-1 grid-row-2 gap-2 px-64 max-[1440px]:px-12 max-[1440px]:pb-32 pb-64 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-32  max-sm:hidden">
             <div
                 class="grid grid-cols-3 px-12 grid-row-1 gap-12 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-12 max-sm:px-0 max-sm:pt-0 max-sm:gap-2">
 
@@ -566,7 +566,7 @@
 
         </div>
         <div
-            class="hidden grid-cols-3 px-12 grid-row-1 gap-12 max-xl:grid-cols-1 max-xl:px-10 max-sm:pb-0 max-xl:pt-10 max-[1500px]:px-60 max-sm:pt-0 max-sm:gap-2 max-sm:grid max-sm:px-6">
+            class="hidden grid-cols-3 px-12 grid-row-1 gap-12 max-xl:grid-cols-1 max-xl:px-10 max-sm:pb-0 max-xl:pt-10 max-[1500px]:px-32  max-sm:pt-0 max-sm:gap-2 max-sm:grid max-sm:px-6">
 
             <div
                 class="text pt-12 pb-2 text-left justify-items-left font-['Regular'] text-[14px] text-zinc-800 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:text-[12px]">
@@ -711,7 +711,7 @@
         </div>
 
         <div
-            class="colum flex max-[1440px]:px-32 max-[1440px]:pt-2 max-[1440px]:gap-12 pt-20 px-64 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-sm:px-4">
+            class="colum flex max-[1500px]:px-12 max-[1440px]:pt-2 max-[1440px]:gap-24 pt-20 px-64 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-sm:px-4">
 
             <div class="fotografias flex flex-col gap-6 max-w-[120h] max-sm:gap-4">
                 <img class="image w-full h-full" src="/img/IMG_2459.jpg" alt="">
@@ -756,8 +756,8 @@
         </div>
 
         <div id="tercercompartimento"
-            class="titular2 flex px-64 pb-12 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
-            <div
+        class="titular2 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-46 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+        <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
                 <p class="font-['PPE-UltralightItalic']">Tercer</p>COMPARTIMENTO</div>
             <div
@@ -780,7 +780,7 @@
         </div>
 
         <div id="mapa"
-            class="titular2 flex px-64 pb-24 gap-64 pt-48 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-center max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20 max-sm:pt-2">
+            class="titular2 flex px-64 pb-24 gap-64 pt-48 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pb-16 max-[1500px]:pt-12 max-[1500px]:px-32  max-[1500px]:gap-12 max-[1500px]:items-center max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20 max-sm:pt-2">
             <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
                 MAPA</div>
@@ -804,7 +804,7 @@
             </a>
         </div>
 
-        <div class="grid grid-cols-1 max-[1440px]:px-12 px-64 gap-20 max-sm:grid-cols-1 pb-32 max-sm:px-4 max-sm:hidden">
+        <div class="grid grid-cols-1 max-[1500px]:px-2 px-64 gap-20 max-sm:grid-cols-1 pb-32 max-sm:px-4 max-sm:hidden">
             <img class="image px-64 w-full h-full max-sm:pb-2 max-sm:px-12" src="/img/pictosoporto.png" alt="">
 
 
@@ -817,7 +817,7 @@
         </div>
 
         <div
-            class="colum flex max-[1440px]:px-4 px-64 pt-20 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-[1500px]:px-60 max-sm:px-2">
+            class="colum flex max-[1440px]:px-4 px-64 pt-20 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-[1500px]:px-32  max-sm:px-2">
 
             <div class="fotografias px-64 max-[1440px]:px-12 grid grid-cols-1 gap-8 max-sm:gap-4 max-sm:px-2">
                 <img class="image w-full h-full" src="/img/IMG_2525.jpg" alt="">
@@ -836,7 +836,7 @@
         </div>
 
         <div id="folleto"
-            class="titular2 flex px-64 pb-12 gap-64 pt-48 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-2 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-center max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 flex px-64 pb-12 gap-64 pt-48 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-2 max-[1500px]:px-32  max-[1500px]:gap-12 max-[1500px]:items-center max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
                 FOLLETO</div>
@@ -883,7 +883,7 @@
 
 
         <div id="cuartocompartimento"
-            class="titular2 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20 max-sm:pt-20">
+        class="titular2 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-46 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
                 <p class="font-['PPE-UltralightItalic']">Cuarto</p>COMPARTIMENTO</div>
@@ -906,7 +906,7 @@
         </div>
 
         <div id="packanalogicas"
-            class="titular2 flex px-64 pb-12 gap-64 pt-48 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-2 max-sm:pb-2 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-center max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 flex px-64 pb-12 gap-64 pt-48 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-2 max-sm:pb-2 max-[1500px]:pt-2 max-[1500px]:px-32 max-[1500px]:gap-12 max-[1500px]:items-center max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
                 PACK ANALÓGICAS</div>
@@ -1004,7 +1004,7 @@
         </div>
 
         <div
-            class="colum flex max-[1500px]:px-12 max-[1500px]:pt-4 px-64 pt-20 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-[1500px]:px-60 max-sm:px-2">
+            class="colum flex max-[1500px]:px-12 max-[1500px]:pt-4 px-64 pt-20 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-sm:px-2">
 
             <div class="fotografias max-[1500px]:px-12 px-64 grid grid-cols-1 gap-8 max-sm:gap-4 max-sm:px-2">
                 <img class="image w-full h-full" src="/img/IMG_2580.jpg" alt="">
@@ -1025,7 +1025,7 @@
 
 
         <div id="cajafajilla"
-            class="titular2 flex px-64 pb-2 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20 max-sm:pt-20">
+        class="titular2 max-[1500px]:pb-0 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-46 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center">
                 Caja &<br>FAJILLA</div>
@@ -1060,9 +1060,9 @@
 
 
         <div
-            class="grid max-[1500px]:px-12 grid-cols-2 grid-row-2 gap-2 pl-12 pb-32 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-sm:grid-cols-1 max-sm:px-8 max-sm:hidden">
+            class="grid max-[1500px]:px-12 grid-cols-2 grid-row-2 gap-2 pl-12 pb-32 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-sm:grid-cols-1 max-sm:px-8 max-sm:hidden">
             <div
-                class="grid max-[1500px]:px-12  grid-cols-2 grid-row-2 gap-12 px-12 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-sm:px-0 max-sm:pt-0">
+                class="grid max-[1500px]:px-12  grid-cols-2 grid-row-2 gap-12 px-12 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-sm:px-0 max-sm:pt-0">
                 <div
                     class="text max-w-[80ch] place-self-end pt-4 text-right font-['Regular'] text-[14px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:hidden">
                     REVERSO
@@ -1087,7 +1087,7 @@
 
 
         <div id="tipografias"
-            class="titular2 flex px-64 pb-24 gap-64 pt-48 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:px-60 max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+        class="titular2 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-32 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
                 <p class="font-['PPE-UltralightItalic']">Tipografías y</p>PALETA DE COLOR</div>
@@ -1110,7 +1110,7 @@
         </div>
 
         <div
-            class="grid grid-rows-1 gap-2 items-center justify-items-center pt-12 px-32 pb-32 max-sm:px-4 max-[1280px]:p-10 max-[1500px]:px-60 max-[800px]:grid-cols-1 max-sm:gap-16 max-sm:pt-0">
+            class="grid grid-rows-1 gap-2 items-center justify-items-center pt-12 px-32 pb-32 max-sm:px-4 max-[1280px]:p-10 max-[1500px]:px-32  max-[800px]:grid-cols-1 max-sm:gap-16 max-sm:pt-0">
 
             <div
                 class="text max-w-[80ch] leading-[200px] pt-4 text-center font-['Regular'] text-[240px] text-[#859ed2] max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[180px] max-sm:text-[60px]">
@@ -1129,7 +1129,7 @@
         </div>
 
         <div
-            class="hidden gap-8 items-center justify-items-center px-12 pb-32 pt-32 max-[1280px]:p-10 max-[1500px]:px-60 max-[800px]:grid-cols-1 max-sm:grid max-sm:grid-cols-2 max-sm:px-12">
+            class="hidden gap-8 items-center justify-items-center px-12 pb-32 pt-32 max-[1280px]:p-10 max-[1500px]:px-32  max-[800px]:grid-cols-1 max-sm:grid max-sm:grid-cols-2 max-sm:px-12">
             <div class="columna1 grid gap-2 max-sm:grid max-sm:grid-rows-4">
                 <div class="color w-[150px] h-[150px] border border-zinc-200 bg-[#243673]">
                 </div>
@@ -1179,7 +1179,7 @@
         </div>
 
         <div
-            class="grid grid-cols-4 grid-rows-2 gap-2 items-center justify-items-center px-64 pb-32 pt-32 max-sm:px-10 max-[1280px]:p-10 max-[1500px]:px-60 max-[800px]:grid-cols-1 max-sm:hidden">
+            class="grid grid-cols-4 grid-rows-2 gap-2 items-center justify-items-center px-64 pb-32 pt-32 max-sm:px-10 max-[1280px]:p-10 max-[1500px]:px-32  max-[800px]:grid-cols-1 max-sm:hidden">
             <div class="color w-[200px] h-[200px] border border-zinc-200 bg-[#243673]">
             </div>
             <div class="color w-[200px] h-[200px] border border-zinc-200 bg-[#3a5aa6]">
@@ -1224,7 +1224,7 @@
         </div>
 
         <div id="fotografias"
-            class="titular2 flex px-64 pb-2 gap-64 pt-48 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+        class="titular2 max-[1500px]:pt-2 max-[1500px]:pb-2 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-46 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
                 <p class="font-['PPE-UltralightItalic']">Fotografías y</p>MATERIALES</div>
@@ -1266,7 +1266,7 @@
 
 
         <div id="piezas"
-            class="titular2 flex px-64 pb-2 gap-64 pt-48 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:px-60 max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+        class="titular2 max-[1500px]:pt-24 max-[1500px]:pb-12 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-46 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
                 <p class="font-['PPE-UltralightItalic']">Piezas del</p>SISTEMA</div>
@@ -1300,7 +1300,7 @@
 
 
         <div
-            class="grid grid-cols-2 gap-12 px-60 pb-32 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-sm:gap-6">
+            class="grid grid-cols-2 gap-12 px-60 pb-32 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-32  max-sm:gap-6">
 
             <img class="image_grid w-full h-full" src="/img/primercompartimento.png" alt="">
             <img class="image_grid w-full h-full" src="/img/segundocompartimento.png" alt="">
@@ -1312,7 +1312,7 @@
 
 
         <div
-            class="trabajos flex pt-10 pl-40 pr-40 pb-20 text-zinc-600 flex-col gap-10 justify-center items-center max-xl:pt-12 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[1500px]:px-60">
+            class="trabajos flex pt-10 pl-40 pr-40 pb-20 text-zinc-600 flex-col gap-10 justify-center items-center max-xl:pt-12 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[1500px]:px-32 ">
             <div
                 class="titular text-[16px] font-['Regular'] leading-6 font-normal flex flex-start items-center max-xl:text-xs">
                 Programas utilizados
@@ -1337,7 +1337,7 @@
         </div>
 
         <div
-            class="links_rrss font-['Regular'] leading-6 pt-32 px-64 pb-32 text-zinc-600 justify-center flex flex-row gap-60 max-xl:pt-20 max-xl:px-10 max-xl:flex-col max-xl:justify-items-center max-xl:gap-20 max-xl:flex max-xl:justify-center max-xl:pb-20 max-[1500px]:px-60">
+            class="links_rrss font-['Regular'] leading-6 pt-32 px-64 pb-32 text-zinc-600 justify-center flex flex-row gap-60 max-xl:pt-20 max-xl:px-10 max-xl:flex-col max-xl:justify-items-center max-xl:gap-20 max-xl:flex max-xl:justify-center max-xl:pb-20 max-[1500px]:px-32 ">
             <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado."
                 target="_blank" class="email text-lg flex gap-2 items-center max-xl:text-[14px] max-xl:justify-center">
                 ruben.maldonado.graphic@gmail.com

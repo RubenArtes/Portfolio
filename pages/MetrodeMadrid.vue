@@ -17,9 +17,9 @@
 
     <VueScrollProgressBar background-color="#52525B" />
     <div id="navegacion"
-      class="titular2 flex px-64 gap-32 content-start space-between justify-center pt-32 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-[1500px]:flex-col max-[1500px]:gap-2 max-[1500px]:items-center max-[1700px]:px-10">
+      class="titular2 max-[1500px]:pt-12 flex px-64 gap-32 content-start space-between justify-center pt-32 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-[1500px]:flex-col max-[1500px]:gap-2 max-[1500px]:items-center max-[1700px]:px-10">
       <div
-        class="titular max-[1920px]:text-[100px] max-[1920px]:leading-[100px] text-[120px] font-['PPE-Ultralight'] leading-12 font-bold animate-pulse bg-gradient-to-r bg-clip-text text-transparent animate-text max-sm:text-[55px] max-[1500px]:text-left max-[1280px]:text-[100px]  max-sm:text-center max-sm:leading-[60px] from-[#faf8ff] via-[#cae1ff] to-[#e3d5ff]">
+        class="titular max-[1500px]:leading-[8rem] max-[1920px]:text-[100px] max-[1920px]:leading-[100px] text-[120px] font-['PPE-Ultralight'] leading-12 font-bold animate-pulse bg-gradient-to-r bg-clip-text text-transparent animate-text max-sm:text-[55px] max-[1500px]:text-left max-[1280px]:text-[100px]  max-sm:text-center max-sm:leading-[60px] from-[#faf8ff] via-[#cae1ff] to-[#e3d5ff]">
         METRO MADRID</div>
       <div
         class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:pt-6 max-sm:pb-16 max-sm:px-0 max-[1280px]:items-center max-[1280px]:pt-6 max-[1280px]:pb-0">
@@ -39,14 +39,14 @@
     </div>
 
     <div
-      class="trabajos max-[1440px]:px-32 flex max-sm:justify-start max-sm:pb-24 pt-20 px-40 pb-20 items-start text-white flex-nowrap gap-96 justify-center max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-start max-xl:text-center max-xl:pt-0 max-xl:pb-16 max-[1500px]:px-20 max-[1500px]:justify-between">
-      <div class="info flex flex-col">
+    class="trabajos max-[1500px]:px-32 flex max-sm:justify-start max-sm:pb-24 pt-20 px-40 pb-20 items-start text-white flex-nowrap gap-96 max-[1500px]:gap-[15rem] justify-center max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-start max-xl:text-center max-xl:pt-0 max-xl:pb-16 max-[1500px]:justify-between">
+    <div class="info flex flex-col">
         <div
           class="text max-w-[200ch] max-sm:text-left text-center font-['PPE-Ultralight'] max-sm:text-[20px] pb-4 uppercase text-[24px] leading-10 text-white max-xl:text-xs">
           Asignatura</div>
         <div
-          class="text max-w-[200ch] font-['SFUIDisplay-Light'] text-center max-sm:text-left max-sm:max-w-[26ch] text-[16px] leading-6 text-white max-xl:text-sm max-xl:max-w-[40ch]">
-          Fundamentos de estampación e impresión, 2º Diseño Gráfico.
+        class="text max-[1500px]:w-[20ch] font-['SFUIDisplay-Light'] text-center max-sm:text-left max-sm:max-w-[22ch] text-[16px] leading-6 text-white max-xl:text-sm max-xl:max-w-[40ch]">
+        Fundamentos de estampación e impresión, 2º Diseño Gráfico.
         </div>
       </div>
       <div class="info flex flex-col max-sm:text-start">
@@ -63,8 +63,8 @@
           class="text max-w-[200ch] max-sm:text-left text-center font-['PPE-Ultralight'] max-sm:text-[20px] pb-4 uppercase text-[24px] leading-10 text-white max-xl:text-xs">
           Briefing</div>
         <div
-          class="text max-w-[20ch] text-center font-['SFUIDisplay-Light'] max-sm:text-left text-[16px] leading-6 text-white max-xl:text-sm max-[1440px]:max-w-[60ch]">
-          Creación de Artes Finales y producción de libro impreso.
+        class="text max-w-[20ch] text-center font-['SFUIDisplay-Light'] text-[16px] leading-6 text-white max-xl:text-sm max-xl:max-w-[40ch]">
+        Creación de Artes Finales y producción de libro impreso.
         </div>
       </div>
     </div>
@@ -80,8 +80,8 @@
     </div>
 
     <div id="primercompartimento"
-      class="titular2 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
-      <div
+    class="titular2 max-[1500px]:pt-32 max-[1500px]:pb-12 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-32 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+    <div
         class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
         <p class="font-['PPE-UltralightItalic']">Imagenes reales</p>LIBRO IMPRESO
       </div>
@@ -93,8 +93,9 @@
           <a class="type">IMÁGENES DEL PROYECTO COMPLETO</a>
         </div>
         <div
-          class="text max-w-[80ch] pt-4 text-left font-['SFUIDisplay-Regular'] text-[20px] text-white max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
-          Fotografías de algunas de las páginas del libro, realizadas sobre el mismo soporte final impreso, a tamaño real.
+          class="text max-[1500px]:max-w-[40ch] max-w-[80ch] pt-4 text-left font-['SFUIDisplay-Regular'] text-[20px] text-white max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+          Fotografías de algunas de las páginas del libro, realizadas sobre el mismo soporte final impreso, a tamaño
+          real.
         </div>
 
       </div>
@@ -102,33 +103,33 @@
     </div>
 
     <div
-            class="colum flex max-[1440px]:px-4 px-64 pt-20 pb-24 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-[1500px]:px-60 max-sm:px-2">
+      class="colum flex max-[1440px]:px-4 px-64 pt-20 pb-24 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-[1500px]:px-32  max-sm:px-2">
 
-            <div class="fotografias px-64 max-[1440px]:px-12 grid grid-cols-1 gap-8 max-sm:gap-4 max-sm:px-2">
-                <img class="image w-full h-full" src="/img/fotolibrometro.png" alt="">
-                <img class="image w-full h-full" src="/img/fotolibrometro2.png" alt="">
-                <img class="image w-full h-full" src="/img/fotolibrometro15.png" alt="">
-                <img class="image w-full h-full" src="/img/fotolibrometro6.png" alt="">
-                <img class="image w-full h-full" src="/img/fotolibrometro3.png" alt="">
-                <img class="image w-full h-full" src="/img/fotolibrometro4.png" alt="">
-                <img class="image w-full h-full" src="/img/fotolibrometro5.png" alt="">
-                <img class="image w-full h-full" src="/img/fotolibrometro7.png" alt="">
-                <img class="image w-full h-full" src="/img/fotolibrometro8.png" alt="">
-                <img class="image w-full h-full" src="/img/fotolibrometro9.png" alt="">
-                <img class="image w-full h-full" src="/img/fotolibrometro10.png" alt="">
-                <img class="image w-full h-full" src="/img/fotolibrometro11.png" alt="">
-                <img class="image w-full h-full" src="/img/fotolibrometro12.png" alt="">
-                <img class="image w-full h-full" src="/img/fotolibrometro13.png" alt="">
-
-
+      <div class="fotografias px-64 max-[1440px]:px-12 grid grid-cols-1 gap-8 max-sm:gap-4 max-sm:px-2">
+        <img class="image w-full h-full" src="/img/fotolibrometro.png" alt="">
+        <img class="image w-full h-full" src="/img/fotolibrometro2.png" alt="">
+        <img class="image w-full h-full" src="/img/fotolibrometro15.png" alt="">
+        <img class="image w-full h-full" src="/img/fotolibrometro6.png" alt="">
+        <img class="image w-full h-full" src="/img/fotolibrometro3.png" alt="">
+        <img class="image w-full h-full" src="/img/fotolibrometro4.png" alt="">
+        <img class="image w-full h-full" src="/img/fotolibrometro5.png" alt="">
+        <img class="image w-full h-full" src="/img/fotolibrometro7.png" alt="">
+        <img class="image w-full h-full" src="/img/fotolibrometro8.png" alt="">
+        <img class="image w-full h-full" src="/img/fotolibrometro9.png" alt="">
+        <img class="image w-full h-full" src="/img/fotolibrometro10.png" alt="">
+        <img class="image w-full h-full" src="/img/fotolibrometro11.png" alt="">
+        <img class="image w-full h-full" src="/img/fotolibrometro12.png" alt="">
+        <img class="image w-full h-full" src="/img/fotolibrometro13.png" alt="">
 
 
-            </div>
 
-        </div>
+
+      </div>
+
+    </div>
 
     <div id="primercompartimento"
-      class="titular2 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+    class="titular2 max-[1500px]:pt-32 max-[1500px]:pb-32 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-32 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
       <div
         class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
         <p class="font-['PPE-UltralightItalic']">Páginas</p>DESGLOSADAS
@@ -141,8 +142,8 @@
           <a class="type">IMÁGENES DEL PROYECTO COMPLETO</a>
         </div>
         <div
-          class="text max-w-[80ch] pt-4 text-left font-['SFUIDisplay-Regular'] text-[20px] text-white max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
-          Doble páginas de todo el libro completo, mostrando la maquetación y la edición
+        class="text max-[1500px]:max-w-[40ch] max-w-[80ch] pt-4 text-left font-['SFUIDisplay-Regular'] text-[20px] text-white max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+        Doble páginas de todo el libro completo, mostrando la maquetación y la edición
           de las diferentes fotografías.
         </div>
 
@@ -150,7 +151,8 @@
 
     </div>
 
-    <div class="px-64 max-sm:px-6 max-sm:gap-4 max-[1440px]:px-12 grid grid-cols-2 gap-2 max-xl:grid-cols-1 max-sm:pb-24 max-[1920px]:px-32">
+    <div
+      class="px-64 max-sm:px-6 max-sm:gap-4 max-[1440px]:px-12 grid grid-cols-2 gap-2 max-xl:grid-cols-1 max-sm:pb-24 max-[1920px]:px-32">
       <img class="image_grid w-full h-full" src="/img/libroexperimental.png" alt="">
       <img class="image_grid w-full h-full" src="/img/libroexperimental2.png" alt="">
       <img class="image_grid w-full h-full" src="/img/libroexperimental3.png" alt="">

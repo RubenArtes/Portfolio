@@ -76,7 +76,7 @@
         </div>
 
         <div
-            class="grid pb-32 pt-12 max-[1440px]:px-8 grid-cols-3 px-12 gap-24 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-sm:hidden">
+            class="grid pb-32 pt-12 max-[1440px]:px-8 grid-cols-3 px-12 gap-24 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-32  max-sm:hidden">
             <a class="type text-[14px] place-self-start font-['Neue'] uppercase">▲ BOCETO DIBUJO HOMBRES DE PACO</a>
             <a class="type text-[14px] invisible place-self-center font-['Neue'] uppercase">▲ Pegatinas para el set de
                 fundas</a>
@@ -85,7 +85,7 @@
         </div>
 
         <div
-            class="colum flex pt-20 px-64 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-[1500px]:px-60">
+            class="colum flex pt-20 px-64 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-[1500px]:px-32 ">
             <div class="info_proyect max-w-[80ch]">
                 <div class="info_secondary flex flex-col gap-6 sticky top-32 max-[1500px]:gap-12">
                     <div
@@ -121,9 +121,9 @@
 
 
         <div
-            class="images pt-2 px-64 pb-0 text-white justify-center flex flex-col gap-2 max-xl:pb-0 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
+            class="images pt-2 max-[1500px]:px-12 px-64 pb-0 text-white justify-center flex flex-col gap-2 max-xl:pb-0 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
             <div id="folleto"
-                class="titular2 flex px-64 pb-12 gap-64 pt-48 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-2 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-center max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+                class="titular2 flex px-64 pb-12 gap-64 pt-48 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-2 max-[1500px]:px-32  max-[1500px]:gap-12 max-[1500px]:items-center max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
                 <div
                     class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
                     CASA DE LAS CARCASAS</div>
@@ -140,7 +140,7 @@
         </div>
 
         <div
-            class="grid pt-12 max-[1440px]:px-8 grid-cols-3 gap-8 px-8 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-sm:hidden">
+            class="grid pt-12 max-[1440px]:px-8 grid-cols-3 gap-8 px-8 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-32  max-sm:hidden">
             <a class="type text-[14px] invisible font-['Neue'] uppercase">▲ Render 3D</a>
             <a class="type text-[14px] place-self-center font-['Neue'] uppercase">▲ Pegatinas para el set de fundas</a>
             <a class="type text-[14px] invisible font-['Neue'] uppercase">▲ Render 3D</a>
@@ -148,7 +148,7 @@
         </div>
 
         <div
-            class="titular2 max-[1920px]:px-24 flex px-64 pb-2 gap-64 pt-52 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:px-60 max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+        class="titular2 max-[1500px]:pb-2 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-46 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-lack max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
                 <p class="font-['PPE-Ultralightitalic'] max-sm:pb-2">Barbie</p> HEIMER
@@ -174,7 +174,7 @@
         </div>
 
         <div
-            class="images max-sm:px-6 pt-20 px-64 pb-10 text-white justify-center flex flex-col gap-2 max-xl:pb-0 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
+            class="images max-[1500px]:pt-2 max-[1500px]:px-12 max-sm:px-6 pt-20 px-64 pb-10 text-white justify-center flex flex-col gap-2 max-xl:pb-0 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
 
             <div
                 class="video max-sm:px-0 max-sm:gap-24 max-sm:pb-12 grid grid-cols-3 pt-24 pb-10 text-white items-center gap-24 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:grid-cols-1">
@@ -190,7 +190,7 @@
         </div>
 
         <div
-            class="grid max-[1440px]:px-8 grid-cols-3 px-64 gap-24 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-sm:hidden">
+            class="grid max-[1440px]:px-8 grid-cols-3 px-64 gap-24 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-32  max-sm:hidden">
             <a class="type text-[14px] font-['Neue'] uppercase">▲ VIDEO PROCESO DIBUJO Y COLOREADO (8min)</a>
             <a class="type text-[14px] invisible place-self-center font-['Neue'] uppercase">▲ Pegatinas para el set de
                 fundas</a>
@@ -199,7 +199,7 @@
         </div>
 
         <div
-            class="titular2 max-sm:pt-16 max-[1920px]:px-24 flex px-64 pb-2 gap-64 pt-52 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:px-60 max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+        class="titular2 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-32 max-[1500px]:pb-4 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-lack max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
                 <p class="font-['PPE-Ultralightitalic'] max-sm:pb-2">Historia de</p> BHOWAM
@@ -257,7 +257,7 @@
         </div>
 
         <div
-            class="grid pb-32 pt-12 max-[1440px]:px-8 grid-cols-3 px-12 gap-24 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-sm:hidden">
+            class="grid pb-32 pt-12 max-[1440px]:px-8 grid-cols-3 px-12 gap-24 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-32  max-sm:hidden">
             <a class="type text-[14px] place-self-start font-['Neue'] uppercase">▲ FOTOGRAFÍAS EVEREST POR FRANCISCO
                 TORREGO</a>
             <a class="type text-[14px] invisible place-self-center font-['Neue'] uppercase">▲ Pegatinas para el set de
@@ -299,7 +299,7 @@
         </div>
 
         <div
-            class="hidden pb-32 pt-12 max-[1440px]:px-8 grid-cols-3 px-12 gap-24 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-sm:hidden">
+            class="hidden pb-32 pt-12 max-[1440px]:px-8 grid-cols-3 px-12 gap-24 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-32  max-sm:hidden">
             <a class="type text-[14px] place-self-start font-['Neue'] uppercase">▲ PÁGINAS TRASERAS Y DELANTERAS DEL
                 LIBRO ILUSTRADO DE BHOWAM</a>
             <a class="type text-[14px] invisible place-self-center font-['Neue'] uppercase">▲ Pegatinas para el set de
@@ -309,7 +309,7 @@
         </div>
 
         <div
-            class="colum flex max-[1440px]:px-4 px-64 pt-20 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-[1500px]:px-60 max-sm:px-2">
+            class="colum max-[1500px]:pt-2 flex max-[1440px]:px-4 px-64 pt-20 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-[1500px]:px-32  max-sm:px-2">
 
             <div class="fotografias px-64 max-[1440px]:px-12 grid grid-cols-1 gap-8 max-sm:gap-4 max-sm:px-2">
                 <img class="image w-full h-full" src="/img/fotobhowam.png" alt="">
@@ -328,7 +328,7 @@
             class="images max-sm:pt-8 pt-20 px-64 pb-0 text-white justify-center flex flex-col gap-12 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
 
             <div id="folleto"
-                class="titular2 flex px-64 pb-2 gap-64 pt-12 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-2 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-center max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+                class="titular2 flex px-64 pb-2 gap-64 pt-12 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-2 max-[1500px]:px-32  max-[1500px]:gap-12 max-[1500px]:items-center max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
                 <div
                     class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
                     ISOMÉTRICAS</div>
@@ -345,13 +345,13 @@
 
         </div>
 
-        <div class="grid max-sm:pt-12 px-64 max-sm:gap-2 max-sm:px-8 grid-cols-4 gap-12 max-xl:grid-cols-1">
+        <div class="grid max-[1500px]:px-20 max-sm:pt-12 px-64 max-sm:gap-2 max-sm:px-8 grid-cols-4 gap-12 max-xl:grid-cols-1">
             <img class="image_grid w-full h-full" src="/img/isometrica6.png" alt="">
             <img class="image_grid w-full h-full" src="/img/isometrica11.png" alt="">
             <img class="image_grid w-full h-full" src="/img/isometrica7.png" alt="">
             <img class="image_grid w-full h-full" src="/img/isometrica5.png" alt="">
         </div>
-        <div class="grid px-64 max-sm:gap-6 pt-12 gap-12 max-sm:px-8 grid-cols-4 max-xl:grid-cols-1">
+        <div class="grid px-64 max-[1500px]:px-20 max-sm:gap-6 pt-12 gap-12 max-sm:px-8 grid-cols-4 max-xl:grid-cols-1">
             <img class="image_grid w-full h-full" src="/img/isometrica4.png" alt="">
             <img class="image_grid w-full h-full" src="/img/isometrica10.png" alt="">
             <img class="image_grid w-full h-full" src="/img/isometrica8.png" alt="">
@@ -363,7 +363,7 @@
         <div
             class="images pt-20 px-64 pb-10 text-white justify-center flex flex-col gap-2 max-xl:pb-0 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
             <div id="folleto"
-                class="titular2 flex px-64 pb-2 gap-64 pt-48 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-2 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-center max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+                class="titular2 flex px-64 pb-2 gap-64 pt-48 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-2 max-[1500px]:px-32  max-[1500px]:gap-12 max-[1500px]:items-center max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
                 <div
                     class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-sm:text-30px max-sm:leading-[3rem] max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
                     PEGATINAS ATAQUE A LOS TITANES</div>
@@ -381,7 +381,7 @@
         </div>
 
 
-        <div class="grid max-sm:hidden px-24 grid-cols-4 gap-2 max-xl:grid-cols-1">
+        <div class="grid max-sm:hidden max-[1500px]:px-12 px-24 grid-cols-4 gap-2 max-xl:grid-cols-1">
             <div class="div text-zinc-600 text-center text-sm m-0">Eren Jaeger
                 <br>
                 <div class="div text-black text-center text-lg m-0">Titan de Ataque</div>
@@ -400,7 +400,7 @@
             </div>
         </div>
 
-        <div class="grid max-sm:px-8 max-sm:pt-24 px-24 grid-cols-4 pb-6 gap-2 max-xl:grid-cols-1">
+        <div class="grid max-[1500px]:px-2 max-sm:px-8 max-sm:pt-24 px-24 grid-cols-4 pb-6 gap-2 max-xl:grid-cols-1">
             <img class="image_grid w-full h-full" src="/img/ataque1.png" alt="">
             <img class="image_grid w-full h-full" src="/img/ataque2.png" alt="">
             <img class="image_grid w-full h-full" src="/img/ataque3.png" alt="">
@@ -410,7 +410,7 @@
         <div
             class="images pt-2 px-64 max-sm:px-2 pb-0 text-black justify-center flex flex-col gap-2 max-xl:pb-0 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
             <div id="folleto"
-                class="titular2 flex px-64 pb-12 gap-64 pt-48 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-2 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-center max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+                class="titular2 flex px-64 pb-12 gap-64 pt-48 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-2 max-[1500px]:px-32  max-[1500px]:gap-12 max-[1500px]:items-center max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
                 <div
                     class="titular text-[40px] font-['PPE-Ultralight'] text-center leading-6 text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
                     <p class="font-['PPE-UltralightItalic'] max-sm:leading-4">Carteles fiestas</p><br> VILLALUENGA DE LA
@@ -421,7 +421,7 @@
         </div>
 
         <div
-            class="grid1 pt-24 max-sm:px-2 max-sm:gap-6 max-sm:pt-8 max-[1920px]:px-[12rem] px-[18rem] grid grid-cols-3 max-sm:pb-28 gap-12 max-sm:grid-cols-1">
+            class="grid1 max-[1500px]:px-12 pt-24 max-sm:px-2 max-sm:gap-6 max-sm:pt-8 max-[1920px]:px-[12rem] px-[18rem] grid grid-cols-3 max-sm:pb-28 gap-12 max-sm:grid-cols-1">
             <img class="image_grid max-sm:pt-8 max-sm:px-8 max-sm:pb-12" src="/img/cartelfiestas2.png" alt="">
 
             <img class="image_grid place-self-end max-sm:px-8 max-sm:shadow-none shadow-lg" src="/img/cartelfiestas.png"
@@ -432,12 +432,12 @@
         </div>
 
         <div
-            class="grid pt-8 max-[1920px]:px-[12rem] max-[1440px]:px-8 grid-cols-3 gap-12 px-[18rem] pb-44 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-sm:hidden">
-            <a class="type text-[14px] invisible place-self-start pt-4 font-['Neue'] uppercase">▲ Mockup de etiquetado
+            class="grid pt-8 max-[1920px]:px-[12rem] max-[1500px]:px-12 grid-cols-3 gap-12 px-[18rem] pb-44 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-sm:hidden">
+            <a class="type text-[14px] max-[1500px]:text-[13px] invisible place-self-start pt-4 font-['Neue'] uppercase">▲ Mockup de etiquetado
                 delantero/trasero</a>
-            <a class="type text-[14px] place-self-start pt-4 font-['Neue'] uppercase">▲ CARTEL NO GANADOR FIESTAS
+            <a class="type text-[14px] max-[1500px]:text-[13px] place-self-start pt-4 font-['Neue'] uppercase">▲ CARTEL NO GANADOR FIESTAS
                 VILLALUENGA DE LA SAGRA 2022</a>
-            <a class="type text-[14px] place-self-start pt-4 font-['Neue'] uppercase">▲ CARTEL NO GANADOR FIESTAS
+            <a class="type text-[14px] max-[1500px]:text-[13px] place-self-start pt-4 font-['Neue'] uppercase">▲ CARTEL NO GANADOR FIESTAS
                 VILLALUENGA DE LA SAGRA 2023</a>
 
         </div>
@@ -447,7 +447,7 @@
         <div
             class="images pt-2 px-32 pb-0 text-white bg-black justify-center flex flex-col gap-2 max-xl:pb-0 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
             <div id="folleto"
-                class="titular2 flex px-64 pb-12 gap-64 pt-32 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-2 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-center max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+                class="titular2 flex px-64 pb-12 gap-64 pt-32 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-2 max-[1500px]:px-32  max-[1500px]:gap-12 max-[1500px]:items-center max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
                 <div
                     class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
                     AUTORETRATO</div>
@@ -462,13 +462,13 @@
 
 
         <div
-            class="grid bg-black max-sm:pb-24 max-sm:px-2 max-sm:grid-cols-1 px-64 pt-24 max-sm:pt-16 gap-40 grid-cols-2">
+            class="grid max-[1500px]:px-12 bg-black max-sm:pb-24 max-sm:px-2 max-sm:grid-cols-1 px-64 pt-24 max-sm:pt-16 gap-40 grid-cols-2">
             <img class="image_grid w-full h-full" src="/img/autorretrato1.png" alt="">
             <img class="image_grid max-sm:hidden shadow-sm w-full h-full" src="/img/autoretrato2.png" alt="">
         </div>
 
         <div
-            class="grid bg-black text-white pb-64 pt-12 max-[1920px]:px-[16rem] max-[1440px]:px-8 grid-cols-2 gap-40 px-[18rem] max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-sm:hidden">
+            class="grid max-[1500px]:pb-32 bg-black text-white pb-64 pt-12 max-[1920px]:px-[16rem] max-[1440px]:px-8 grid-cols-2 gap-40 px-[18rem] max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-32  max-sm:hidden">
             <a class="type text-[14px] place-self-start pt-4 font-['Neue'] uppercase">▲ REALIZACIÓN MANUAL SOBRE PVC CON
                 ACRÍLICO Y ROTULADOR</a>
             <a class="type text-[14px] invisible place-self-start pt-4 font-['Neue'] uppercase">▲ CARTEL NO GANADOR
@@ -477,7 +477,7 @@
         </div>
 
         <div
-            class="titular2 max-sm:pt-24 max-[1920px]:px-24 flex px-64 pb-2 gap-64 pt-52 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:px-60 max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+        class="titular2 max-[1500px]:pb-2 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-46 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-lack max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
                 <p class="font-['PPE-Ultralightitalic'] max-sm:pb-2">Pegatinas</p>PIXAR CARS
@@ -497,7 +497,7 @@
 
         
         <div
-            class="colum max-sm:pt-4 pt-52 flex max-[1440px]:px-4 px-64 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-[1500px]:px-60 max-sm:px-2">
+            class="colum max-sm:pt-4 pt-52 flex max-[1440px]:px-4 px-64 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-[1500px]:px-32  max-sm:px-2">
 
             <div class="fotografias px-64 max-[1440px]:px-12 grid grid-cols-1 gap-8 max-sm:gap-4 max-sm:px-2">
                 <img class="image w-full h-full" src="/img/fotopegatinas5.png" alt="">
@@ -522,7 +522,7 @@
 
         </div>
         <div
-            class="images max-sm:pt-4 pt-20 max-sm:px-2 px-64 pb-32 text-white justify-center flex flex-col gap-2 max-xl:pb-0 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
+            class="images max-[1500px]:px-6 max-sm:pt-4 pt-20 max-sm:px-2 px-64 pb-32 text-white justify-center flex flex-col gap-2 max-xl:pb-0 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
 
             <div class="grid grid-cols-4 max-xl:grid-cols-2 text-black">
                 <img class="image_grid w-full h-full" src="/img/Cars1.png" alt="">

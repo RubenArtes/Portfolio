@@ -20,15 +20,15 @@
             class="colum max-sm:hidden divide-x-1 grid grid-cols-2 pb-10 text-white justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center">
             <div class="div1 pt-2 border border-zinc-200 border-t-0 border-l-0 border-r-0 border-b-0">
                 <div
-                    class="info_secondary z-20 bg-black border border-t-0 border-r-0 border-l-0 max-[1920px]:px-[12rem] max-[1500px]:px-[8rem] px-[22rem] pb-52 place-items-start pt-32 flex flex-col gap-6 sticky top-32 max-[1500px]:gap-12">
+                    class="info_secondary max-[1500px]:px-24 max-[1500px]:pt-12 max-[1500px]:pb-32 z-20 bg-black border border-t-0 border-r-0 border-l-0 max-[1920px]:px-[12rem] px-[22rem] pb-52 place-items-start pt-32 flex flex-col gap-6 sticky top-32 max-[1500px]:gap-12">
                     <div
-                        class="titular text-[60px] font-['PPE-Ultralight'] leading-12 font-bold text-[#6e3f26] max-sm:text-[55px] max-[1500px]:text-left max-[1280px]:text-[100px]">
+                        class="titular max-[1500px]:text-[50px] max-[1500px]:text-[50px]max-[1500px]:text-[50px]text-[60px] font-['PPE-Ultralight'] leading-12 font-bold text-[#6e3f26] max-sm:text-[55px] max-[1500px]:text-left max-[1280px]:text-[100px]">
                         GRANADA</div>
                     <div
-                        class="text max-w-[60ch] text-[16px] text-start uppercase text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
+                    class="text max-[1500px]:text-[12px] max-w-[60ch] text-[16px] text-start uppercase text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
                         FOTOGRAFÍAS - AGOSTO 2024 - LIBRE - VIAJE - PAISAJES</div>
                     <div
-                        class="text text-[17px] font-['SFUIDisplay-Light'] text-white max-xl:text-sm max-[1500px]:text-[16px] max-[1500px]:max-w-[100ch]">
+                    class="text text-[17px] font-['SFUIDisplay-Light'] text-white max-xl:text-sm max-[1500px]:text-[14px] max-[1500px]:max-w-[100ch]">
                         Fotografías realizadas de paisaje libre por las zonas de Granada, desde la ciudad y el centro
                         como las zonas, de la
                         Alhambra, los Palacios Nazaries y el Generalife.
@@ -39,10 +39,10 @@
 
                 </div>
                 <div
-                    class="info_secondary z-10 px-52 pb-44 place-items-start pt-32 flex flex-col gap-6 sticky top-[48rem] max-[1500px]:gap-12">
+                    class="info_secondary z-10 px-52 pb-44 place-items-start pt-32 flex flex-col gap-6 sticky top-[48rem] max-[1500px]:top-[44rem] max-[1500px]:pt-2">
 
                     <a href="#inicio"
-                        class="sticky flex place-self-center pt-24 text-[70px] uppercase font-bold text-white">
+                        class="sticky flex place-self-center max-[1500px]:pt-0 pt-24 text-[70px] uppercase font-bold text-white">
                         ↑
                     </a>
 
@@ -183,7 +183,7 @@
         </div>
 
         <div
-            class="links_rrss font-['SFUIDisplay-Light'] leading-6 pt-32 px-64 pb-32 text-white justify-center flex flex-row gap-60 max-xl:pt-20 max-xl:px-10 max-xl:flex-col max-xl:justify-items-center max-xl:gap-20 max-xl:flex max-xl:justify-center max-xl:pb-20 max-[1500px]:px-60">
+            class="links_rrss font-['SFUIDisplay-Light'] leading-6 pt-32 px-64 pb-32 text-white justify-center flex flex-row gap-60 max-xl:pt-20 max-xl:px-10 max-xl:flex-col max-xl:justify-items-center max-xl:gap-20 max-xl:flex max-xl:justify-center max-xl:pb-20 max-[1500px]:px-32 ">
             <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado."
                 target="_blank" class="email text-lg flex gap-2 items-center max-xl:text-[14px] max-xl:justify-center">
                 ruben.maldonado.graphic@gmail.com

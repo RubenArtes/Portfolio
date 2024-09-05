@@ -143,8 +143,8 @@
       <div class="texto2 flex max-sm:hidden gap-6 place-self-center">
 
         <div
-          class="text text-[14px] max-sm:text-[12px] max-sm:leading-[1rem] text-zinc-400 leading-[18px] font-['Neue'] tracking-normal flex flex-col items-left justify-self-start max-3xl:text-[30px] max-sm:pt-2 max-sm:pb-4 max-sm:text-center max-[1920px]:leading-[14px]">
-          <br>
+        class="text text-[14px] max-sm:text-[12px] max-sm:leading-[1rem] text-zinc-400 leading-[18px] font-['Neue'] tracking-normal flex flex-col items-left justify-self-start max-3xl:text-[30px] max-sm:pt-2 max-sm:pb-4 max-sm:text-center max-[1920px]:leading-[20px]">
+        <br>
           <br>
           PACKAGING
           <br>
@@ -154,7 +154,7 @@
         </div>
 
         <div
-          class="text text-[14px] max-sm:text-[12px] max-sm:leading-[1rem] text-zinc-400 leading-[18px] font-['Neue'] tracking-normal flex flex-col items-left justify-self-start max-3xl:text-[30px] max-sm:pt-2 max-sm:pb-4 max-sm:text-center max-[1920px]:leading-[14px]">
+          class="text text-[14px] max-sm:text-[12px] max-sm:leading-[1rem] text-zinc-400 leading-[18px] font-['Neue'] tracking-normal flex flex-col items-left justify-self-start max-3xl:text-[30px] max-sm:pt-2 max-sm:pb-4 max-sm:text-center max-[1920px]:leading-[20px]">
           <br>
           <br>
           ILUSTRACIÓN
@@ -270,26 +270,21 @@
     <div
       class="grid grid-flow-cols grid-cols-4 max-[1920px]:grid-cols-3 text-center max-[1450px]:grid-cols-2 animate-pulse max-[1930px]:grid-cols-3 max-sm:grid-cols-1">
 
-      <div class=" bg-red-700 text-white justify-center content-center font-['Regular'] text-[16px] max-sm:text-[12px]">
-        PÁGINAS
+      <div class=" bg-red-700 text-white justify-center content-center font-['Regular'] text-[12px]">PÁGINAS
         NUEVAS -
         PÁGINAS
         NUEVAS - PÁGINAS NUEVAS
       </div>
-      <div
-        class=" bg-red-700 text-white justify-center content-center font-['Regular'] text-[16px] max-sm:text-[12px] max-sm:hidden">
+      <div class=" bg-red-700 text-white justify-center content-center font-['Regular'] text-[16px] max-sm:hidden">
         PÁGINAS
         NUEVAS - PÁGINAS NUEVAS - PÁGINAS NUEVAS
       </div>
-      <div
-        class=" bg-red-700 text-white justify-center content-center font-['Regular'] max-[1500px]:hidden text-[16px] max-sm:text-[12px] max-sm:hidden">
+      <div class=" bg-red-700 text-white justify-center content-center font-['Regular'] text-[16px] max-sm:hidden">
         PÁGINAS
         NUEVAS -
         PÁGINAS NUEVAS - PÁGINAS NUEVAS
       </div>
-      <div
-        class=" bg-red text-white justify-center content-center font-['Regular'] text-[16px] max-sm:text-[12px] hidden">
-        PÁGINAS
+      <div class=" bg-red text-white justify-center content-center font-['Regular'] text-[16px] hidden">PÁGINAS
         NUEVAS -
         PÁGINAS
         NUEVAS - PÁGINAS NUEVAS

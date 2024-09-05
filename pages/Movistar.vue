@@ -16,7 +16,7 @@
         </div>
         <VueScrollProgressBar background-color="white" />
         <div id="navegacion"
-            class="titular2 flex px-64 gap-64 content-start space-between justify-center pt-32 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-[1500px]:flex-col max-[1500px]:gap-2 max-[1500px]:items-center max-[1700px]:px-10">
+            class="titular2 max-[1500px]:pt-12 flex px-64 gap-64 content-start space-between justify-center pt-32 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-[1500px]:flex-col max-[1500px]:gap-2 max-[1500px]:items-center max-[1700px]:px-10">
             <div
                 class="titular text-[120px] font-['PPE-Ultralight'] leading-12 font-bold animate-pulse bg-gradient-to-r bg-clip-text text-transparent animate-text max-sm:text-[55px] max-[1500px]:text-left max-[1280px]:text-[100px] from-[#EB595A] via-[#bc3f3f] to-[#f77b7b] max-sm:text-center max-sm:leading-[60px]">
                 MOVISTAR +</div>
@@ -40,13 +40,13 @@
         </div>
 
         <div
-            class="trabajos max-[1440px]:px-32 flex max-sm:justify-start max-sm:pb-24 pt-20 px-40 pb-20 items-start text-white flex-nowrap gap-96 justify-center max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-start max-xl:text-center max-xl:pt-0 max-xl:pb-16 max-[1500px]:px-20 max-[1500px]:justify-between">
-            <div class="info flex flex-col">
+        class="trabajos max-[1500px]:px-32 flex max-sm:justify-start max-sm:pb-24 pt-20 px-40 pb-20 items-start text-white flex-nowrap gap-96 max-[1500px]:gap-[15rem] justify-center max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-start max-xl:text-center max-xl:pt-0 max-xl:pb-16 max-[1500px]:justify-between">
+        <div class="info flex flex-col">
                 <div
                     class="text max-w-[200ch] max-sm:text-left text-center font-['PPE-Ultralight'] max-sm:text-[20px] pb-4 uppercase text-[24px] leading-10 text-white max-xl:text-xs">
                     Asignatura</div>
                     <div
-                    class="text max-w-[200ch] font-['SFUIDisplay-Light'] text-center max-sm:text-left max-sm:max-w-[24ch] text-[16px] leading-6 text-white max-xl:text-sm max-xl:max-w-[40ch]">
+                    class="text max-[1500px]:w-[20ch] font-['SFUIDisplay-Light'] text-center max-sm:text-left max-sm:max-w-[22ch] text-[16px] leading-6 text-white max-xl:text-sm max-xl:max-w-[40ch]">
                     Iniciación al diseño Audiovisual, 2º Curso Diseño Gráfico.
                 </div>
             </div>
@@ -64,7 +64,7 @@
                     class="text max-w-[200ch] max-sm:text-left text-center font-['PPE-Ultralight'] max-sm:text-[20px] pb-4 uppercase text-[24px] leading-10 text-white max-xl:text-xs">
                     Briefing</div>
                 <div
-                class="text max-w-[20ch] text-center font-['SFUIDisplay-Light'] max-sm:text-left text-[16px] leading-6 text-white max-xl:text-sm max-[1440px]:max-w-[60ch]">
+                class="text max-w-[20ch] text-center font-['SFUIDisplay-Light'] text-[16px] leading-6 text-white max-xl:text-sm max-xl:max-w-[40ch]">
                 Cortinillas informativas para programa de televisión o canal audiovisual.
                 </div>
             </div>
@@ -135,7 +135,7 @@
         </div>
 
         <div id="sellos"
-            class="titular2 flex px-64 pb-24 gap-64 pt-24 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 flex px-64 pb-24 gap-64 pt-24 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-32  max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-center leading-[50px] text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
                 <p class="font-['PPE-UltralightItalic']">Paleta</p>DE COLOR</div>
@@ -143,7 +143,7 @@
 
 
         <div
-            class="hidden gap-8 items-center justify-items-center px-12 pb-32 pt-12 max-[1280px]:p-10 max-[1500px]:px-60 max-[800px]:grid-cols-1 max-sm:grid max-sm:grid-cols-2 max-sm:px-12">
+            class="hidden gap-8 items-center justify-items-center px-12 pb-32 pt-12 max-[1280px]:p-10 max-[1500px]:px-32  max-[800px]:grid-cols-1 max-sm:grid max-sm:grid-cols-2 max-sm:px-12">
             <div class="columna1 grid gap-2 max-sm:grid max-sm:grid-rows-4">
                 <div class="color w-[150px] h-[150px]  bg-[#E88AB4]">
                 </div>
@@ -199,7 +199,7 @@
         </div>
 
         <div
-            class="grid grid-cols-4 grid-rows-2 gap-2 items-center justify-items-center px-64 pb-32 pt-12 max-sm:px-10 max-[1280px]:p-10 max-[1500px]:px-60 max-[800px]:grid-cols-1 max-sm:hidden">
+            class="grid grid-cols-4 grid-rows-2 gap-2 items-center justify-items-center px-64 pb-32 pt-12 max-sm:px-10 max-[1280px]:p-10 max-[1500px]:px-32  max-[800px]:grid-cols-1 max-sm:hidden">
             <div class="color w-[200px] h-[200px]  bg-[#E88AB4]">
             </div>
             <div class="color w-[200px] h-[200px]  bg-[#0C4C5A]">
@@ -248,14 +248,14 @@
         </div>
 
         <div id="sellos"
-            class="titular2 flex px-64 pb-24 gap-64 pt-6 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 flex px-64 pb-24 gap-64 pt-6 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-32  max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] max-sm:pt-16 font-['PPE-Ultralight'] text-center leading-[50px] text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
                 TIPOGRAFÍAS</div>
         </div>
 
         <div
-            class="grid max-[1440px]:px-12 max-[1440px]:gap-4 grid-rows-1 gap-12 items-center justify-items-center pt-12 px-32 pb-32 max-sm:px-4 max-[1280px]:p-10 max-[1500px]:px-60 max-[800px]:grid-cols-1 max-sm:gap-8 max-sm:pt-0">
+            class="grid max-[1440px]:px-12 max-[1440px]:gap-4 grid-rows-1 gap-12 items-center justify-items-center pt-12 px-32 pb-32 max-sm:px-4 max-[1280px]:p-10 max-[1500px]:px-32  max-[800px]:grid-cols-1 max-sm:gap-8 max-sm:pt-0">
 
             <div
                 class="text max-w-[80ch] leading-[200px] pt-4 text-center font-['Apercu-Light'] text-[240px] max-[1440px]:text-[150px] max-[1920px]:text-[130px] text-white max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:text-[40px]">
@@ -281,14 +281,14 @@
         </div>
 
         <div id="sellos"
-            class="titular2 flex px-64 pb-20 gap-64 pt-24 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 flex px-64 pb-20 gap-64 pt-24 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-32  max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] max-sm:pt-16 font-['PPE-Ultralight'] text-center leading-[50px] text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
                 <p class="font-['PPE-UltralightItalic']">Elementos</p>GRAFICOS</div>
         </div>
 
         <div
-            class="grid max-[1440px]:px-12 grid-cols-3 grid-rows-1 gap-24 items-center justify-items-center pt-12 px-32 pb-2 max-sm:px-4 max-[1280px]:p-10 max-[1500px]:px-60 max-[800px]:grid-cols-1 max-sm:pt-0 max-sm:gap-24">
+            class="grid max-[1440px]:px-12 grid-cols-3 grid-rows-1 gap-24 items-center justify-items-center pt-12 px-32 pb-2 max-sm:px-4 max-[1280px]:p-10 max-[1500px]:px-32  max-[800px]:grid-cols-1 max-sm:pt-0 max-sm:gap-24">
             <img class="image_grid w-full h-full" src="/img/movistarplus1.png" alt="">
             <img class="image_grid w-full h-full" src="/img/movistarplus3.png" alt="">
             <img class="image_grid w-full h-full" src="/img/movistarplus2.png" alt="">
@@ -297,7 +297,7 @@
 
 
         <div
-            class="grid grid-cols-3 grid-rows-1 gap-24 items-center justify-items-center pt-12 px-32 pb-64 max-sm:px-4 max-[1280px]:p-10 max-[1500px]:px-60 max-[800px]:grid-cols-1 max-sm:gap-8 max-sm:hidden">
+            class="grid grid-cols-3 grid-rows-1 gap-24 items-center justify-items-center pt-12 px-32 pb-64 max-sm:px-4 max-[1280px]:p-10 max-[1500px]:px-32  max-[800px]:grid-cols-1 max-sm:gap-8 max-sm:hidden">
             <a class="color text-white font-regular">Elemento principal de las composiciones</a>
             <a class="color text-white font-regular">Cruces - elementos secundarios</a>
             <a class="color text-white font-regular">Logotipo de Movistar + utilizado</a>
@@ -305,7 +305,7 @@
         </div>
 
         <div
-            class="trabajos flex pt-10 pl-40 pr-40 pb-20 text-white flex-col gap-10 justify-center items-center max-xl:pt-12 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[1500px]:px-60">
+            class="trabajos flex pt-10 pl-40 pr-40 pb-20 text-white flex-col gap-10 justify-center items-center max-xl:pt-12 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[1500px]:px-32 ">
             <div
                 class="titular text-[16px] font-['SFUIDisplay-Light'] leading-6 font-normal flex flex-start items-center max-xl:text-xs">
                 Programas utilizados
@@ -328,7 +328,7 @@
         </div>
 
         <div
-            class="links_rrss font-['SFUIDisplay-Light'] leading-6 pt-32 px-64 pb-32 text-white justify-center flex flex-row gap-60 max-xl:pt-20 max-xl:px-10 max-xl:flex-col max-xl:justify-items-center max-xl:gap-20 max-xl:flex max-xl:justify-center max-xl:pb-20 max-[1500px]:px-60">
+            class="links_rrss font-['SFUIDisplay-Light'] leading-6 pt-32 px-64 pb-32 text-white justify-center flex flex-row gap-60 max-xl:pt-20 max-xl:px-10 max-xl:flex-col max-xl:justify-items-center max-xl:gap-20 max-xl:flex max-xl:justify-center max-xl:pb-20 max-[1500px]:px-32 ">
             <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado."
                 target="_blank" class="email text-lg flex gap-2 items-center max-xl:text-[14px] max-xl:justify-center">
                 ruben.maldonado.graphic@gmail.com

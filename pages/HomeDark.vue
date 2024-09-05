@@ -87,7 +87,7 @@
         </div>
 
         <div
-          class="text text-[16px] leading-[18px] font-['Neue'] tracking-normal flex flex-col items-left justify-self-start max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[14px] max-sm:leading-[1rem] max-sm:pb-4 max-sm:text-start max-[1920px]:text-[14px] max-[1920px]:leading-[16px]">
+          class="text text-[16px] leading-[18px] font-['Neue'] tracking-normal flex flex-col items-left justify-self-start max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[14px] max-sm:leading-[1rem] max-sm:pb-4 max-sm:text-start max-[1920px]:text-[14px] max-[1920px]:leading-[20px]">
           RUBÉN MALDONADO GONZÁLEZ
           <br>
           SEPTIEMBRE 2024
@@ -100,7 +100,7 @@
       <div class="texto2 hidden max-sm:flex gap-6 justify-between max-sm:pt-4">
 
         <div
-          class="text place-self-start text-[14px] text-left max-sm:text-[12px] max-sm:leading-[1rem] text-zinc-400 leading-[18px] font-['Neue'] tracking-normal flex flex-col items-start justify-self-start max-3xl:text-[30px] max-sm:pt-2 max-sm:pb-4 max-[1920px]:leading-[14px]">
+          class="text place-self-start text-[14px] text-left max-sm:text-[12px] max-sm:leading-[1rem] text-zinc-400 leading-[18px] font-['Neue'] tracking-normal flex flex-col items-start justify-self-start max-3xl:text-[30px] max-sm:pt-2 max-sm:pb-4 max-[1920px]:leading-[20px]">
           <br>
           PACKAGING
           <br>
@@ -1116,7 +1116,7 @@
 
       <div class="servicios_ofrecidos flex flex-col gap-6">
         <div class="servicio flex flex-col gap-6">
-          <div class="text max-w-[60ch] font-normal text-[16px] text-white">
+          <div class="text max-w-[60ch] font-normal text-[16px] max-sm:text-[15px] text-white font-['Neue']">
             Diferentes trabajos y disciplinas de referencia de gente interesante.
             En las categorías como ilustración realista o experimental, ilustración digital o analógica,
             comentario de cuadros artísticos, diseño 3D, cartelería, fanzines, tatuaje, serigrafía, marca y moda.
@@ -1130,7 +1130,7 @@
     </div>
 
     <div
-      class="flex gap-60 text-sm bg-black border-t-0 min-[1920px]:px-94 px-56 pb-72 items-center justify-center content-center self-center max-sm:grid max-sm:gap-12 max-sm:pb-24 max-sm:border-t-0 max-sm:grid-cols-1 max-sm:px-10 max-sm:border-none max-sm:border-0 max-sm:pt-24">
+      class="flex gap-60 max-[1500px]:px-32 max-[1500px]:gap-20 text-sm bg-black border-t-0 min-[1920px]:px-94 px-56 pb-32 items-center justify-center content-center self-center max-sm:grid max-sm:gap-12 max-sm:pb-24 max-sm:border-t-0 max-sm:grid-cols-1 max-sm:px-10 max-sm:border-none max-sm:border-0 max-sm:pt-24">
       <div class="servicios_ofrecidos items-left flex max-sm:hidden flex-col gap-6 max-sm:order-last">
 
         <div class="flex flex-col gap-1 text-left justify-left">
@@ -1305,7 +1305,7 @@
   </div>
 
   <div
-    class="foter bg-black p-10 border-b-0 border-l-0 border-r-0 flex text-white justify-between sticky top-0 max-lg:p-6 border border-t-1">
+    class="foter bg-black p-10 border-b-0 border-l-0 border-r-0 border-t-0 flex text-white justify-between sticky top-0 max-lg:p-6 border border-t-1">
     <div class="foter_image flex flex-start">
       <img class="vector max-lg:max-w-[15px]" src="/img/star.svg" />
     </div>

@@ -16,12 +16,10 @@
         </div>
         <VueScrollProgressBar background-color="#52525B" />
         <div id="navegacion"
-            class="titular2 flex px-64 gap-32 max-sm:pb-16 pb-32 content-start space-between justify-center pt-32 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-[1500px]:flex-col max-[1500px]:gap-24 max-[1500px]:items-center max-[1700px]:px-10">
+            class="titular2 flex px-64 max-[1500px]:pb-4 max-[1500px]:pt-12 max-[1500px]:gap-2 gap-32 max-sm:pb-16 pb-32 content-start space-between justify-center pt-32 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-[1500px]:flex-col max-[1500px]:gap-24 max-[1500px]:items-center max-[1700px]:px-10">
             <div
                 class="titular max-sm:hidden text-[120px] max-sm:text-[40px] font-['PPE-UltralightItalic'] max-[1440px]:text-center leading-[120px] pt-4 max-[1920px]:flex-col max-[1920px]:flex font-bold animate-pulse bg-gradient-to-r bg-clip-text text-transparent animate-text max-[1280px]:text-[100px] from-[#2c2c2c] via-[#aaaaaa] to-[#9f9f9f]">
-                Audio
-                <br>
-                <p class="font-['PPE-Ultralight']">VISUALES</p>
+             <p class="font-['PPE-Ultralight']">AUDIOVISUALES</p>
             </div>
 
             <div
@@ -34,7 +32,7 @@
                 class="trabajos flex max-sm:gap-2 flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:pt-6 max-sm:pb-2 max-sm:px-0 max-[1280px]:items-center max-[1280px]:pt-6 max-[1280px]:pb-0">
 
                 <div
-                    class="text max-sm:pt-4 max-w-[60ch] text-[16px] max-[1440px]:pt-12 uppercase text-zinc-900 max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
+                    class="text max-sm:pt-4 max-w-[60ch] text-[16px] uppercase text-zinc-900 max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
                     Modelado 3d - Cinema 4d - After Effects - Animación - Blender
                 </div>
                 <div
@@ -49,14 +47,14 @@
         </div>
 
         <div
-            class="trabajos max-[1440px]:px-32 flex max-sm:justify-start max-sm:pb-24 pt-20 px-40 pb-20 items-start text-white flex-nowrap gap-96 justify-center max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-start max-xl:text-center max-xl:pt-0 max-xl:pb-16 max-[1500px]:px-20 max-[1500px]:justify-between">
-            <div class="info flex flex-col">
+        class="trabajos max-[1500px]:px-32 flex max-sm:justify-start max-sm:pb-24 pt-20 px-40 pb-20 items-start text-white flex-nowrap gap-96 max-[1500px]:gap-[15rem] justify-center max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-start max-xl:text-center max-xl:pt-0 max-xl:pb-16 max-[1500px]:justify-between">
+        <div class="info flex flex-col">
                 <div
-                    class="text max-w-[200ch] max-sm:text-left text-center font-['PPE-Ultralight'] max-sm:text-[20px] pb-4 uppercase text-[24px] leading-10 text-zinc-800 max-xl:text-xs">
-                    Asignatura</div>
+                class="text max-w-[200ch] max-sm:text-left text-center font-['PPE-Ultralight'] max-sm:text-[20px] pb-4 uppercase text-[24px] leading-10 text-zinc-800 max-xl:text-xs">
+                Asignatura</div>
                 <div
-                    class="text max-w-[200ch] font-['SFUIDisplay-Light'] text-center max-sm:text-left max-sm:max-w-[22ch] text-[16px] leading-6 text-zinc-900 max-xl:text-sm max-xl:max-w-[40ch]">
-                    Animación, Modelado 3D y Audiovisuales, Diseño Gráfico.
+                class="text max-w-[200ch] font-['SFUIDisplay-Light'] max-[1500px]:max-w-[30ch] text-center max-sm:text-left max-sm:max-w-[16ch] text-[16px] leading-6 text-black max-xl:text-sm max-xl:max-w-[40ch]">
+                Animación, Modelado 3D y Audiovisuales, Diseño Gráfico.
                 </div>
             </div>
             <div class="info flex flex-col">
@@ -89,7 +87,7 @@
         </div>
 
         <div id="tipografias"
-            class="titular2 flex px-64 pb-4 pt-12 gap-64 content-center space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:px-60 max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 flex px-64 pb-4 pt-12 gap-64 content-center space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:px-32  max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['PPE-Ultralightitalic'] text-center leading-10 text-black max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-center max-sm:pt-12">
                 Haz click
@@ -113,7 +111,7 @@
 
 
         <div
-            class="flex max-[1440px]:px-0 flex-col max-sm:hidden grid-cols-1 grid-rows-3 items-stretch pb-32 max-[1280px]:p-10 max-[1500px]:px-60 max-sm:px-0 max-[800px]:grid-cols-1">
+            class="flex max-[1440px]:px-0 flex-col max-sm:hidden grid-cols-1 grid-rows-3 items-stretch pb-32 max-[1280px]:p-10 max-[1500px]:px-32  max-sm:px-0 max-[800px]:grid-cols-1">
 
             <NuxtLink to="/Audiovisual2" target="_blank">
                 <div
@@ -242,7 +240,7 @@
         </div>
 
         <div
-            class="trabajos flex pt-10 pl-40 pr-40 pb-20 text-zinc-600 flex-col gap-10 justify-center items-center max-xl:pt-12 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[1500px]:px-60">
+            class="trabajos flex pt-10 pl-40 pr-40 pb-20 text-zinc-600 flex-col gap-10 justify-center items-center max-xl:pt-12 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[1500px]:px-32 ">
             <div
                 class="titular text-[16px] font-['SFUIDisplay-Light'] leading-6 font-normal flex flex-start items-center max-xl:text-xs">
                 Programas utilizados
@@ -265,7 +263,7 @@
         </div>
 
         <div
-            class="links_rrss font-['SFUIDisplay-Light'] leading-6 pt-32 px-64 pb-32 text-zinc-600 justify-center flex flex-row gap-60 max-xl:pt-20 max-xl:px-10 max-xl:flex-col max-xl:justify-items-center max-xl:gap-20 max-xl:flex max-xl:justify-center max-xl:pb-20 max-[1500px]:px-60">
+            class="links_rrss font-['SFUIDisplay-Light'] leading-6 pt-32 px-64 pb-32 text-zinc-600 justify-center flex flex-row gap-60 max-xl:pt-20 max-xl:px-10 max-xl:flex-col max-xl:justify-items-center max-xl:gap-20 max-xl:flex max-xl:justify-center max-xl:pb-20 max-[1500px]:px-32 ">
             <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado."
                 target="_blank" class="email text-lg flex gap-2 items-center max-xl:text-[14px] max-xl:justify-center">
                 ruben.maldonado.graphic@gmail.com

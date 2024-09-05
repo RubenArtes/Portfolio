@@ -82,12 +82,12 @@
         </div>
 
         <div
-            class="grid max-[1440px]:px-8 grid-cols-3 gap-8 px-8 pb-12 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-sm:hidden">
+            class="grid max-[1440px]:px-8 grid-cols-3 gap-8 px-8 pb-12 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-32  max-sm:hidden">
             <a class="type text-[14px] font-['Neue'] uppercase">▲ Render 3D</a>
         </div>
 
         <div
-            class="colum flex pt-20 px-64 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-[1500px]:px-60">
+            class="colum flex pt-20 px-64 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-[1500px]:px-32 ">
             <div class="info_proyect max-w-[80ch]">
                 <div class="info_secondary flex flex-col gap-6 sticky top-32 max-[1500px]:gap-12">
                     <div
@@ -143,8 +143,8 @@
         </div>
 
         <div
-            class="titular2 flex px-64 pb-24 gap-64 pt-32 content-start space-between justify-center pt-20 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:px-60 max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
-            <div
+        class="titular2 max-[1500px]:pt-32 max-[1500px]:pb-0 max-[1920px]:pb-12 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-32 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+        <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
                 <p class="font-['PPE-Ultralightitalic'] max-sm:pb-2">Packs</p> COMPLETOS
             </div>
@@ -175,7 +175,7 @@
         </div>
 
         <div
-            class="grid grid-cols-3 gap-2 items-center justify-items-center px-64 pb-32 max-sm:px-10 max-[1280px]:p-10 max-[1500px]:px-60 max-[800px]:grid-cols-1">
+        class="grid max-[1500px]:px-0 max-[1920px]:px-12 grid-cols-3 gap-2 items-center justify-items-center px-64 pb-32 max-sm:px-10 max-[1280px]:p-10 max-[800px]:grid-cols-1">
 
             <img class="image_grid w-full h-full" src="/img/nuevoframbuesa.gif" alt="">
             <img class="image_grid w-full h-full" src="/img/nuevoverduras.gif" alt="">
@@ -185,7 +185,7 @@
         </div>
 
         <div
-            class="grid grid-cols-1 gap-2 items-center justify-items-center px-64 pb-32 max-sm:px-10 max-[1280px]:p-10 max-[1500px]:px-60">
+            class="grid grid-cols-1 gap-2 items-center justify-items-center px-64 pb-32 max-sm:px-10 max-[1280px]:p-10 max-[1500px]:px-32 ">
 
             <Carousel class="carousel max-w-[1200px]">
 
@@ -212,7 +212,7 @@
 
 
         <div
-            class="titular2 flex px-64 pb-2 gap-64 pt-32 content-start space-between justify-center pt-20 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-60 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+        class="titular2 max-[1500px]:pt-32 max-[1500px]:pb-4 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-32 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
                 <p class="font-['PPE-Ultralightitalic'] max-sm:pb-2">Tipografías,</p> JERARQUÍA E INFORMACIÓN
@@ -250,35 +250,35 @@
 
 
         <div
-            class="images pt-20 pb-6 max-[1440px]:px-0 text-white justify-center content-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4 max-[1500px]:px-60 max-[800px]:px-0 max-[800px]:pt-12">
+            class="images pt-20 pb-6 max-[1440px]:px-0 text-white justify-center content-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4 max-[1500px]:px-32  max-[800px]:px-0 max-[800px]:pt-12">
 
             <img src="/img/todospackaging.png" alt="" class="foto justify-center content-center w-full h-full">
 
         </div>
 
         <div
-            class="grid max-[1440px]:px-8 grid-cols-3 gap-8 px-8 pb-12 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-sm:hidden">
+            class="grid max-[1440px]:px-8 grid-cols-3 gap-8 px-8 pb-12 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-32  max-sm:hidden">
             <a class="type text-[14px] font-['Neue'] uppercase">▲ Render 3D</a>
         </div>
 
 
 
         <div
-            class="grid grid-cols-3 gap-32 px-60 pb-4 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-[800px]:gap-2">
+            class="grid grid-cols-3 gap-32 px-60 pb-4 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-32  max-[800px]:gap-2">
 
             <div class="div text-zinc-600 text-center text-xs m-0 pb-14 max-xl:pb-4">
-                <div class="div text-[#FFB047] text-center text-[30px] max-sm:text-[20px] m-0 animate-pulse font-['PPE-Ultralight'] uppercase">
+                <div class="div text-[#FFB047] text-center text-[30px] max-[1500px]:text-[16px] max-sm:text-[20px] m-0 animate-pulse font-['PPE-Ultralight'] uppercase">
                     Snacks
                     Garbanzo Spicy</div>
             </div>
 
             <div class="div text-zinc-600 text-center text-xs m-0 pb-14 max-xl:pb-4">
-                <div class="div text-[#F3536D] text-center text-[30px] max-sm:text-[20px] m-0 animate-pulse font-['PPE-Ultralight'] uppercase">
+                <div class="div text-[#F3536D] text-center text-[30px] max-[1500px]:text-[16px] max-sm:text-[20px] m-0 animate-pulse font-['PPE-Ultralight'] uppercase">
                     Frambuesa Liofilizada</div>
             </div>
 
             <div class="div text-zinc-600 text-center text-xs m-0 pb-14 max-xl:pb-4">
-                <div class="div text-[#FBCE37] text-center text-[30px] max-sm:text-[20px] m-0 animate-pulse font-['PPE-Ultralight'] uppercase">
+                <div class="div text-[#FBCE37] text-center text-[30px] max-[1500px]:text-[16px] max-sm:text-[20px] m-0 animate-pulse font-['PPE-Ultralight'] uppercase">
                     Snacks
                     de verduras</div>
             </div>
@@ -286,8 +286,8 @@
         </div>
 
         <div
-            class="titular2 flex px-64 pb-2 gap-64 pt-32 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:px-60 max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
-            <div
+        class="titular2 max-[1500px]:pt-32 max-[1500px]:pb-32 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-32 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+        <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
                 <p class="font-['PPE-Ultralightitalic'] max-sm:pb-2">Intercambio</p> DE PIEZAS
             </div>
@@ -329,7 +329,7 @@
         </div>
 
         <div
-            class="grid max-[1440px]:px-8 grid-cols-3 gap-8 max-sm:px-4 max-sm:gap-2 px-8 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60">
+            class="grid max-[1440px]:px-8 grid-cols-3 gap-8 max-sm:px-4 max-sm:gap-2 px-8 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-32 ">
 
             <img class="image_grid w-full h-full" src="/img/combinación1.png" alt="">
             <img class="image_grid w-full h-full" src="/img/combinación2.png" alt="">
@@ -338,12 +338,12 @@
         </div>
 
         <div
-            class="grid grid-cols-3 gap-8 max-[1440px]:px-8 px-8 pb-32 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-60 max-sm:hidden">
+            class="grid grid-cols-3 gap-8 max-[1440px]:px-8 px-8 pb-32 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-32  max-sm:hidden">
             <a class="type text-[14px] pt-4 font-['Neue'] uppercase">▲ Combinación entre packs</a>
         </div>
 
         <div
-            class="titular2 flex px-64 pb-40 gap-64 pt-24 content-start space-between justify-center pt-20 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-12 max-[1500px]:items-left max-[1500px]:px-60 max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+        class="titular2 max-[1500px]:pt-32 max-[1500px]:pb-32 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-40 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
                 <p class="font-['PPE-Ultralightitalic'] max-sm:pb-2">Bocetos y</p> CREACIÓN
@@ -370,7 +370,7 @@
         </div>
 
         <div
-            class="grid max-[1440px]:px-32 grid-cols-2 gap-2 items-center justify-items-center px-64 pb-32 max-sm:px-10 max-[1280px]:p-10 max-[1500px]:px-60 max-sm:grid-cols-1">
+            class="grid max-[1440px]:px-32 grid-cols-2 gap-2 items-center justify-items-center px-64 pb-32 max-sm:px-10 max-[1280px]:p-10 max-[1500px]:px-32  max-sm:grid-cols-1">
 
             <Carousel class="carousel max-w-[320px]">
 
@@ -417,7 +417,7 @@
         </div>
 
         <div
-            class="trabajos flex pt-10 pl-40 pr-40 pb-20 text-zinc-600 flex-col gap-10 justify-center items-center max-xl:pt-12 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[1500px]:px-60">
+            class="trabajos flex pt-10 pl-40 pr-40 pb-20 text-zinc-600 flex-col gap-10 justify-center items-center max-xl:pt-12 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[1500px]:px-32 ">
             <div
                 class="titular text-[16px] font-['SFUIDisplay-Light'] leading-6 font-normal flex flex-start items-center max-xl:text-xs">
                 Programas utilizados
@@ -440,7 +440,7 @@
         </div>
 
         <div
-            class="links_rrss font-['SFUIDisplay-Light'] leading-6 pt-32 px-64 pb-32 text-zinc-600 justify-center flex flex-row gap-60 max-xl:pt-20 max-xl:px-10 max-xl:flex-col max-xl:justify-items-center max-xl:gap-20 max-xl:flex max-xl:justify-center max-xl:pb-20 max-[1500px]:px-60">
+            class="links_rrss font-['SFUIDisplay-Light'] leading-6 pt-32 px-64 pb-32 text-zinc-600 justify-center flex flex-row gap-60 max-xl:pt-20 max-xl:px-10 max-xl:flex-col max-xl:justify-items-center max-xl:gap-20 max-xl:flex max-xl:justify-center max-xl:pb-20 max-[1500px]:px-32 ">
             <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado."
                 target="_blank" class="email text-lg flex gap-2 items-center max-xl:text-[14px] max-xl:justify-center">
                 ruben.maldonado.graphic@gmail.com
