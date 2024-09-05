@@ -25,10 +25,10 @@
                         class="titular max-[1500px]:text-[50px] max-[1500px]:text-[50px] text-[60px] font-['PPE-Ultralight'] leading-12 font-bold text-[#f1f1f1] max-sm:text-[55px] max-[1500px]:text-left max-[1280px]:text-[100px]">
                         MADRID</div>
                     <div
-                    class="text max-[1500px]:text-[12px] max-w-[60ch] text-[16px] text-start uppercase text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
+                        class="text max-[1500px]:text-[12px] max-w-[60ch] text-[16px] text-start uppercase text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
                         FOTOGRAFÍAS - 2023 - ASIGNATURA FOTOGRAFÍA - MADRID - VELOCIDAD - PERSONAS</div>
                     <div
-                    class="text text-[17px] font-['SFUIDisplay-Light'] text-white max-xl:text-sm max-[1500px]:text-[14px] max-[1500px]:max-w-[100ch]">
+                        class="text text-[17px] font-['SFUIDisplay-Light'] text-white max-xl:text-sm max-[1500px]:text-[14px] max-[1500px]:max-w-[100ch]">
                         Sobretodo en la mayoría de mi trabajo me gusta retratar el aspecto social y a las personas sin
                         que se den cuenta de que están siendo retratadas en la fotografía para darle ese aspecto de
                         improvisación, sin preparar y representando la realidad.
@@ -101,18 +101,20 @@
 
         <div class="max-sm:grid max-sm:gap-4 max-sm:grid-cols-1 max-sm:pb-12 max-sm:px-4 hidden">
 
-            <img class="image_grid " src="/img/provoke.jpg" alt="">
-            <img class="image_grid " src="/img/provoke2.jpg" alt="">
-            <img class="image_grid " src="/img/provoke3.jpg" alt="">
-            <img class="image_grid " src="/img/provoke4.jpg" alt="">
-            <img class="image_grid " src="/img/provoke5.jpg" alt="">
-            <img class="image_grid " src="/img/provoke6.jpg" alt="">
-            <img class="image_grid " src="/img/provoke7.jpg" alt="">
-            <img class="image_grid " src="/img/provoke8.jpg" alt="">
-            <img class="image_grid " src="/img/provoke9.jpg" alt="">
-            <img class="image_grid " src="/img/provoke10.jpg" alt="">
-            <img class="image_grid " src="/img/provoke11.jpg" alt="">
-            <img class="image_grid " src="/img/provoke12.jpg" alt="">
+            <video width="1240" height="788" loop autoplay>
+                <source src="/img/fanzine.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <img class="image_rect" src="/img/fotosgrupo.png" alt="">
+            <img class="image_rect" src="/img/fotosgrupo2.png" alt="">
+            <img class="image_rect" src="/img/fotosgrupo3.png" alt="">
+            <img class="image_rect" src="/img/fotosgrupo4.png" alt="">
+            <img class="image_rect" src="/img/fotosgrupo5.png" alt="">
+            <img class="image_rect" src="/img/fotosgrupo.png" alt="">
+            <img class="image_rect" src="/img/fotosgrupo2.png" alt="">
+            <img class="image_rect" src="/img/fotosgrupo3.png" alt="">
+            <img class="image_rect" src="/img/fotosgrupo4.png" alt="">
+            <img class="image_rect" src="/img/fotosgrupo5.png" alt="">
 
 
 
