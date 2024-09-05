@@ -91,18 +91,15 @@
 
         <div class="max-sm:grid max-sm:gap-4 max-sm:grid-cols-1 max-sm:pb-12 max-sm:px-4 hidden">
 
-            <img class="image_grid " src="/img/provoke.jpg" alt="">
-            <img class="image_grid " src="/img/provoke2.jpg" alt="">
-            <img class="image_grid " src="/img/provoke3.jpg" alt="">
-            <img class="image_grid " src="/img/provoke4.jpg" alt="">
-            <img class="image_grid " src="/img/provoke5.jpg" alt="">
-            <img class="image_grid " src="/img/provoke6.jpg" alt="">
-            <img class="image_grid " src="/img/provoke7.jpg" alt="">
-            <img class="image_grid " src="/img/provoke8.jpg" alt="">
-            <img class="image_grid " src="/img/provoke9.jpg" alt="">
-            <img class="image_grid " src="/img/provoke10.jpg" alt="">
-            <img class="image_grid " src="/img/provoke11.jpg" alt="">
-            <img class="image_grid " src="/img/provoke12.jpg" alt="">
+            <img class="image_grid" src="/img/finallibre.jpg" alt="">
+                <img class="image_grid" src="/img/finallibre2.jpg" alt="">
+                <img class="image_grid" src="/img/finallibre3.jpg" alt="">
+                <img class="image_grid" src="/img/finallibre4.jpg" alt="">
+                <img class="image_grid" src="/img/finallibre5.jpg" alt="">
+                <img class="image_grid" src="/img/finallibre6.jpg" alt="">
+                <img class="image_grid" src="/img/finalcristal2.jpg" alt="">
+                <img class="image_grid" src="/img/finalcristal.jpg" alt="">
+
 
 
 
