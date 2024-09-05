@@ -140,7 +140,7 @@
         </div>
 
         <div
-            class="images max-[1440px]:px-0 pt-20 pb-12 flex flex-col gap-6 text-white justify-center content-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4 max-[1500px]:px-32  max-[800px]:px-0 max-[800px]:pt-12">
+            class="images max-[1500px]:px-0 pt-20 pb-12 flex flex-col gap-6 text-white justify-center content-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4 max-[1500px]:px-32  max-[800px]:px-0 max-[800px]:pt-12">
 
             <img class="image_grid w-full h-full" src="/img/fotofinalcatalogo2.png" alt="">
             <img class="image_grid w-full h-full" src="/img/fotofinalcatalogo.png" alt="">
@@ -397,34 +397,36 @@
         </div>
 
         <div
-            class="titular2 max-[1440px]:px-32 grid grid-cols-1 place-items-center px-64 max-sm:px-0 pt-24 w-full h-full max-sm:grid-cols-1 max-sm:pt-2">
+            class="titular2 max-[1500px]:px-12 max-[1500px]:pt-4 grid grid-cols-1 place-items-center px-64 max-sm:px-0 pt-24 pb-24 w-full h-full max-sm:grid-cols-1 max-sm:pt-2">
 
             <img class="image_grid w-full h-full max-[1440px]:px-32 px-64 max-sm:px-0" src="/img/edicionpieza_1.gif"
                 alt="">
         </div>
 
         <div
-            class="titular2 grid grid-cols-4 gap-4 px-12 place-items-center pt-24 w-full h-full max-sm:grid-cols-1 max-sm:px-4">
-
-            <img class="image_grid w-[600px] h-[600px] max-sm:h-[400px] max-[1440px]:h-[340px]"
+        class="  text-white justify-center content-center max-sm:pb-24">
+        <NuxtMarquee class="h-[500px] w-[500px] max-sm:w-[300px] max-sm:h-[300px] flex">
+            <img class="h-[500px] w-[500px] pl-4 max-sm:w-[300px] max-sm:h-[300px]"
                 src="/img/Corregida1.jpg" alt="">
-            <img class="image_grid w-[600px] h-[600px] max-sm:h-[400px] max-[1440px]:h-[340px]"
+            <img class="h-[500px] w-[500px] pl-4 max-sm:w-[300px] max-sm:h-[300px]"
                 src="/img/Corregida2.jpg" alt="">
-            <img class="image_grid w-[600px] h-[600px] max-sm:h-[400px] max-[1440px]:h-[340px]"
+            <img class="h-[500px] w-[500px] pl-4 max-sm:w-[300px] max-sm:h-[300px]"
                 src="/img/Corregida3.jpg" alt="">
-            <img class="image_grid w-[600px] h-[600px] max-sm:h-[400px] max-[1440px]:h-[340px]"
+            <img class="h-[500px] w-[500px] pl-4 max-sm:w-[300px] max-sm:h-[300px]"
                 src="/img/Corregida4.jpg" alt="">
 
-            <img class="image_grid w-[600px] h-[600px] max-sm:h-[400px] max-[1440px]:h-[340px]"
+            <img class="h-[500px] w-[500px] pl-4 max-sm:w-[300px] max-sm:h-[300px]"
                 src="/img/Corregida5.jpg" alt="">
-            <img class="image_grid w-[600px] h-[600px] max-sm:h-[400px] max-[1440px]:h-[340px]"
+            <img class="h-[500px] w-[500px] pl-4 max-sm:w-[300px] max-sm:h-[300px]"
                 src="/img/Corregida6.jpg" alt="">
-            <img class="image_grid w-[600px] h-[600px] max-sm:h-[400px] max-[1440px]:h-[340px]"
+            <img class="h-[500px] w-[500px] pl-4 max-sm:w-[300px] max-sm:h-[300px]"
                 src="/img/Corregida7.jpg" alt="">
-            <img class="image_grid w-[600px] h-[600px] max-sm:h-[400px] max-[1440px]:h-[340px]"
+            <img class="h-[500px] w-[500px] pl-4 max-sm:w-[300px] max-sm:h-[300px]"
                 src="/img/Corregida8.jpg" alt="">
 
-        </div>
+        </NuxtMarquee>
+        
+      </div>
 
         <div
         class="titular2 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-32 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
@@ -460,11 +462,11 @@
         </div>
 
 
-        <div class="titular2 flex justify-center w-full h-full max-sm:hidden">
+        <div class="titular2 flex justify-center w-full h-full">
 
 
-            <video class="pb-2 justify-items-center content-center justify-center w-full h-full" loop autoplay>
-                <source src="/img/paginaweb.mp4" type="video/mp4">
+            <video class="pb-2 justify-items-center max-sm:pt-0 max-sm:pb-24 max-sm:px-0 max-[1500px]:px-32 px-64 pt-32 content-center justify-center w-full h-full" loop autoplay>
+                <source src="/img/paginaweb2.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
 
