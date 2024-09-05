@@ -1,286 +1,208 @@
 <template>
-    <div class="app bg-white">
+    <div id="inicio" class="app bg-black font-['SFUIDisplay-Regular']">
         <Cursor class="max-sm:hidden" />
-        <div class="header bg-white p-10 flex text-black justify-between sticky top-0 z-10 max-xl:p-6 max-xl:items-center">
-            <div class="image flex flex-start">
+        <div
+            class="header bg-black p-10 flex border border-x-0 max-sm:border-0 border-t-0 border-b-1 px-24 text-white justify-between sticky top-0 z-30 max-lg:p-6 max-lg:sticky">
+            <div class="image flex flex-start justify-items-start">
                 <NuxtLink to="/">
-                    <img class="vector max-xl:max-w-[15px]" src="/img/Vectorblack.svg">
+                    <img class="max-lg:max-w-[15px]" src="/img/Vector.svg">
                 </NuxtLink>
             </div>
 
-            <div class="email text-lg flex gap-2 items-center max-xl:text-xs">ruben.maldonado.graphic@gmail.com
-                <NuxtLink to="/">
-                    <img class="vector max-xl:max-w-[8px]" src="/img/Vector-11black.svg">
-                </NuxtLink>
+            <div class="email text-lg justify-items-end flex gap-2 max-lg:text-xs ">ruben.maldonado.graphic@gmail.com
+                <img class="vector max-lg:max-w-[8px]" src="/img/Vector-11white.svg">
+            </div>
+
+        </div>
+
+        <VueScrollProgressBar background-color="#ffffff" />
+        <div
+            class="colum max-sm:hidden divide-x-1 grid grid-cols-2 pb-10 text-white justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center">
+            <div class="div1 pt-2 border border-zinc-200 border-t-0 border-l-0 border-r-0 border-b-0">
+                <div
+                    class="info_secondary z-20 bg-black border border-t-0 border-r-0 border-l-0 max-[1920px]:px-[12rem] max-[1500px]:px-[8rem] px-[22rem] pb-52 place-items-start pt-32 flex flex-col gap-6 sticky top-32 max-[1500px]:gap-12">
+                    <div
+                        class="titular text-[60px] font-['PPE-Ultralight'] leading-12 font-bold text-[#405ab0] max-sm:text-[55px] max-[1500px]:text-left max-[1280px]:text-[100px]">
+                        OPORTO</div>
+                    <div
+                        class="text max-w-[60ch] text-[16px] text-start uppercase text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
+                        FOTOGRAFÍAS - FEBRERO 2023 - OPORTO - PORTUGAL</div>
+                    <div
+                        class="text text-[17px] font-['SFUIDisplay-Light'] text-white max-xl:text-sm max-[1500px]:text-[16px] max-[1500px]:max-w-[100ch]">
+                        Fotografías realizadas en un viaje personal a Portugal, Oporto. Fotografías
+                        realizadas con temática de la ciudad portugesa Oporto. Fotografías de paisajes, lugares,
+                        rincones y
+                        detalles durante el viaje. Visitando partes como "El Ponte Luis I", "Distrito de Ribeira", "La
+                        torre
+                        de los Clérigos", "La Igreja do Carmo y La Igrejia dos Carmelitas", "Mercado do Bolhao" y la
+                        "Estación de tren de
+                        Sao Bento" entre otros sitios. Fotografías postproducidas con Lightroom y Photoshop.
+
+                    </div>
+
+
+                </div>
+                <div
+                    class="info_secondary z-10 px-52 pb-44 place-items-start pt-32 flex flex-col gap-6 sticky top-[48rem] max-[1500px]:gap-12">
+
+                    <a href="#inicio"
+                        class="sticky flex place-self-center pt-24 text-[70px] uppercase font-bold text-white">
+                        ↑
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="div1 pl-4 grid grid-cols-1 gap-4 border border-t-0">
+
+                <img class="image_grid " src="/img/oporto_4.jpg" alt="">
+                <img class="image_grid " src="/img/oporto_6.jpg" alt="">
+                <img class="image_grid " src="/img/oporto_8.jpg" alt="">
+                <img class="image_grid " src="/img/oporto_10.jpg" alt="">
+                <img class="image_grid " src="/img/oporto_12.jpg" alt="">
+                <img class="image_grid " src="/img/oporto_13.jpg" alt="">
+                <img class="image_grid " src="/img/oporto_15.jpg" alt="">
+                <img class="image_grid " src="/img/oporto_17.jpg" alt="">
+                <img class="image_grid " src="/img/oporto_18.jpg" alt="">
+                <img class="image_grid " src="/img/oporto_39.jpg" alt="">
+                <img class="image_grid " src="/img/oporto_26.jpg" alt="">
+                <img class="image_grid " src="/img/oporto_27.jpg" alt="">
+                <img class="image_grid " src="/img/oporto_29.jpg" alt="">
+                <img class="image_grid " src="/img/oporto_33.jpg" alt="">
+                <img class="image_grid " src="/img/oporto_35.jpg" alt="">
+                <img class="image_grid " src="/img/oporto_37.jpg" alt="">
+                <img class="image_grid " src="/img/oporto_40.jpg" alt="">
+                <img class="image_grid " src="/img/oporto_45.jpg" alt="">
+                <img class="image_grid " src="/img/oporto_47.jpg" alt="">
+                <img class="image_grid " src="/img/oporto_48.jpg" alt="">
+                <img class="image_grid " src="/img/oporto_57.jpg" alt="">
+                <img class="image_grid " src="/img/oporto_58.jpg" alt="">
+                <img class="image_grid " src="/img/oporto_59.jpg" alt="">
+                <img class="image_grid " src="/img/oporto_61.jpg" alt="">
+                <img class="image_grid " src="/img/oporto_63.jpg" alt="">
+                <img class="image_grid " src="/img/oporto_65.jpg" alt="">
+                <img class="image_grid " src="/img/oporto_66.jpg" alt="">
+                <img class="image_grid " src="/img/oporto_68.jpg" alt="">
+                <div class="grid grid-cols-2 gap-4">
+                    <img class="image_grid " src="/img/oporto_5.jpg" alt="">
+                    <img class="image_grid " src="/img/oporto_9.jpg" alt="">
+                    <img class="image_grid " src="/img/oporto_20.jpg" alt="">
+                    <img class="image_grid " src="/img/oporto_23.jpg" alt="">
+                    <img class="image_grid " src="/img/oporto_24.jpg" alt="">
+                    <img class="image_grid " src="/img/oporto_36.jpg" alt="">
+                    <img class="image_grid " src="/img/oporto_41.jpg" alt="">
+                    <img class="image_grid " src="/img/oporto_42.jpg" alt="">
+                    <img class="image_grid " src="/img/oporto_55.jpg" alt="">
+                    <img class="image_grid " src="/img/oporto_56.jpg" alt="">
+                    <img class="image_grid " src="/img/oporto_60.jpg" alt="">
+                    <img class="image_grid " src="/img/oporto_67.jpg" alt="">
+                </div>
+
             </div>
         </div>
-        <VueScrollProgressBar background-color="white" />
 
         <div
-            class="carousel flex gap-14 justify-center mt-24 mb-10 px-20 items-center max-xl:flex-col max-xl:mt-4 max-xl:mb-4 max-xl:text-center max-xl:justify-center max-xl:px-12">
-            <div class="text text-left">
-                <div
-                    class="trabajos text-left px-14 pt-20 pb-4 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:text-center">
-                    <div
-                        class="titular text-[100px] text-left font-bold leading-12 animate-pulse leading-12 bg-gradient-to-r bg-clip-text text-transparent from-[#a9baf0] via-[#4467db] to-[#0c2882] max-xl:text-[60px] max-xl:justify-center max-xl:text-center">
-                        Oporto</div>
+            class="titular2 max-sm:border-0 hidden max-sm:flex max-sm:pt-14 px-64 gap-64 content-start space-between justify-center pt-20 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-[1500px]:flex-col max-[1500px]:gap-2 max-[1500px]:items-center max-[1700px]:px-10">
+            <div
+            class="titular text-[60px] font-['PPE-Ultralight'] leading-12 font-bold text-[#405ab0] max-sm:text-[55px] max-[1500px]:text-left max-[1280px]:text-[100px]">
+                OPORTO</div>
+            <div
+                class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:pt-6 max-sm:pb-16 max-sm:px-0 max-[1280px]:items-center max-[1280px]:pt-6 max-[1280px]:pb-0">
 
-                </div>
                 <div
-                    class="images px-14 pb-10 text-black text-right items-left justify-center flex flex-col gap-10 max-xl:pt-12 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4 max-xl:text-center">
-                    <div
-                        class="text max-w-[60ch] text-[14px] text-left text-zinc-400 font-regular pb-12 max-xl:text-xs max-xl:text-center max-xl:justify-center max-xl:max-w-[100ch]">
-                        Fotografías
-                        realizadas
-                        con temática de la ciudad portugesa Oporto. Fotografías de paisajes, lugares, rincones y detalles
-                        durante el viaje. Visitando partes como "El Ponte Luis I", "Distrito de Ribeira", "La torre de los
-                        Clérigos",
-                        "La Igreja do Carmo y La Igrejia dos Carmelitas", "Mercado do Bolhao" y la "Estación de tren de Sao
-                        Bento" entre otros sitios.
-                        <br>
-                        <br>
-                        <div class="fecha pb-10 text-xs max-xl:pt-10">30 enero 2023</div>
-                    </div>
+                    class="text max-w-[60ch] text-[16px] uppercase text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
+                    FOTOGRAFÍAS - FEBRERO 2023 - OPORTO - PORTUGAL</div>
+                <div
+                    class="text max-w-[80ch] pb-16 pt-4 max-sm:text-left text-left font-['SFUIDisplay-Light'] text-[20px] text-white max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:max-w-[100ch] max-[800px]:pb-4">
+                    Fotografías realizadas en un viaje personal a Portugal, Oporto. Fotografías
+                        realizadas con temática de la ciudad portugesa Oporto. Fotografías de paisajes, lugares,
+                        rincones y
+                        detalles durante el viaje. Visitando partes como "El Ponte Luis I", "Distrito de Ribeira", "La
+                        torre
+                        de los Clérigos", "La Igreja do Carmo y La Igrejia dos Carmelitas", "Mercado do Bolhao" y la
+                        "Estación de tren de
+                        Sao Bento" entre otros sitios. Fotografías postproducidas con Lightroom y Photoshop.
                 </div>
+
             </div>
-
-            <Carousel class="carousel max-w-[1200px] max-xl:hidden">
-                <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full mb-2" src="/img/oporto_3.jpg" alt="">
-                </Slide>
-                <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full mb-2" src="/img/oporto_4.jpg" alt="">
-                </Slide>
-                <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full mb-2" src="/img/oporto_6.jpg" alt="">
-                </Slide>
-                <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full mb-2" src="/img/oporto_7.jpg" alt="">
-                </Slide>
-                <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full mb-2" src="/img/oporto_8.jpg" alt="">
-                </Slide>
-                <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full mb-2" src="/img/oporto_10.jpg" alt="">
-                </Slide>
-                <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full mb-2" src="/img/oporto_12.jpg" alt="">
-                </Slide>
-                <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full mb-2" src="/img/oporto_13.jpg" alt="">
-                </Slide>
-                <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full mb-2" src="/img/oporto_15.jpg" alt="">
-                </Slide>
-                <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full mb-2" src="/img/oporto_17.jpg" alt="">
-                </Slide>
-                <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full mb-2" src="/img/oporto_18.jpg" alt="">
-                </Slide>
-                <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full mb-2" src="/img/oporto_39.jpg" alt="">
-                </Slide>
-                <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full mb-2" src="/img/oporto_26.jpg" alt="">
-                </Slide>
-                <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full mb-2" src="/img/oporto_25.jpg" alt="">
-                </Slide>
-                <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full mb-2" src="/img/oporto_30.jpg" alt="">
-                </Slide>
-                <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full mb-2" src="/img/oporto_27.jpg" alt="">
-                </Slide>
-                <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full mb-2" src="/img/oporto_29.jpg" alt="">
-                </Slide>
-                <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full mb-2" src="/img/oporto_33.jpg" alt="">
-                </Slide>
-                <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full mb-2" src="/img/oporto_35.jpg" alt="">
-                </Slide>
-                <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full mb-2" src="/img/oporto_37.jpg" alt="">
-                </Slide>
-                <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full mb-2" src="/img/oporto_39.jpg" alt="">
-                </Slide>
-                <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full mb-2" src="/img/oporto_40.jpg" alt="">
-                </Slide>
-                <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full mb-2" src="/img/oporto_45.jpg" alt="">
-                </Slide>
-                <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full mb-2" src="/img/oporto_47.jpg" alt="">
-                </Slide>
-                <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full mb-2" src="/img/oporto_48.jpg" alt="">
-                </Slide>
-                <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full mb-2" src="/img/oporto_49.jpg" alt="">
-                </Slide>
-                <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full mb-2" src="/img/oporto_57.jpg" alt="">
-                </Slide>
-                <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full mb-2" src="/img/oporto_58.jpg" alt="">
-                </Slide>
-                <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full mb-2" src="/img/oporto_59.jpg" alt="">
-                </Slide>
-                <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full mb-2" src="/img/oporto_61.jpg" alt="">
-                </Slide>
-                <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full mb-2" src="/img/oporto_63.jpg" alt="">
-                </Slide>
-                <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full mb-2" src="/img/oporto_64.jpg" alt="">
-                </Slide>
-                <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full mb-2" src="/img/oporto_65.jpg" alt="">
-                </Slide>
-                <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full mb-2" src="/img/oporto_66.jpg" alt="">
-                </Slide>
-                <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full mb-2" src="/img/oporto_68.jpg" alt="">
-                </Slide>
-
-                <template #addons>
-                    <Navigation class="" />
-                    <Pagination />
-                </template>
-            </Carousel>
-            <Carousel class="carousel max-w-[1200px] max-xl:hidden">
-                <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full mb-2" src="/img/oporto_1.jpg" alt="">
-                </Slide>
-                <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full mb-2" src="/img/oporto_5.jpg" alt="">
-                </Slide>
-                <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full mb-2" src="/img/oporto_9.jpg" alt="">
-                </Slide>
-                <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full mb-2" src="/img/oporto_20.jpg" alt="">
-                </Slide>
-                <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full mb-2" src="/img/oporto_21.jpg" alt="">
-                </Slide>
-                <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full mb-2" src="/img/oporto_23.jpg" alt="">
-                </Slide>
-                <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full mb-2" src="/img/oporto_24.jpg" alt="">
-                </Slide>
-                <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full mb-2" src="/img/oporto_36.jpg" alt="">
-                </Slide>
-                <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full mb-2" src="/img/oporto_41.jpg" alt="">
-                </Slide>
-                <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full mb-2" src="/img/oporto_42.jpg" alt="">
-                </Slide>
-                <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full mb-2" src="/img/oporto_55.jpg" alt="">
-                </Slide>
-                <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full mb-2" src="/img/oporto_56.jpg" alt="">
-                </Slide>
-                <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full mb-2" src="/img/oporto_60.jpg" alt="">
-                </Slide>
-                <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full mb-2" src="/img/oporto_67.jpg" alt="">
-                </Slide>
-
-
-                <template #addons>
-                    <Navigation />
-                    <Pagination />
-                </template>
-            </Carousel>
         </div>
 
-        <div class="max-xl:grid max-xl:gap-4 max-xl:grid-cols-1 max-xl:px-4 hidden">
-
-            <img class="image_grid w-full h-full mb-2" src="/img/oporto_2.jpg" alt="">
-            <img class="image_grid w-full h-full mb-2" src="/img/oporto_3.jpg" alt="">
-            <img class="image_grid w-full h-full mb-2" src="/img/oporto_4.jpg" alt="">
-
-            <img class="image_grid w-full h-full mb-2" src="/img/oporto_6.jpg" alt="">
-            <img class="image_grid w-full h-full mb-2" src="/img/oporto_7.jpg" alt="">
-            <img class="image_grid w-full h-full mb-2" src="/img/oporto_8.jpg" alt="">
-
-            <img class="image_grid w-full h-full mb-2" src="/img/oporto_10.jpg" alt="">
-            <img class="image_grid w-full h-full mb-2" src="/img/oporto_12.jpg" alt="">
-            <img class="image_grid w-full h-full mb-2" src="/img/oporto_13.jpg" alt="">
-
-            <img class="image_grid w-full h-full mb-2" src="/img/oporto_15.jpg" alt="">
-            <img class="image_grid w-full h-full mb-2" src="/img/oporto_17.jpg" alt="">
-            <img class="image_grid w-full h-full mb-2" src="/img/oporto_18.jpg" alt="">
-
-            <img class="image_grid w-full h-full mb-2" src="/img/oporto_20.jpg" alt="">
-            <img class="image_grid w-full h-full mb-2" src="/img/oporto_21.jpg" alt="">
-            <img class="image_grid w-full h-full mb-2" src="/img/oporto_24.jpg" alt="">
 
 
-            <img class="image_grid w-full h-full mb-2" src="/img/oporto_23.jpg" alt="">
-            <img class="image_grid w-full h-full mb-2" src="/img/oporto_39.jpg" alt="">
+        <div class="max-sm:grid max-sm:gap-4 max-sm:grid-cols-1 max-sm:pb-12 max-sm:px-4 hidden">
 
-            <img class="image_grid w-full h-full mb-2" src="/img/oporto_26.jpg" alt="">
-            <img class="image_grid w-full h-full mb-2" src="/img/oporto_25.jpg" alt="">
+            <img class="image_grid " src="/img/oporto_2.jpg" alt="">
+            <img class="image_grid " src="/img/oporto_3.jpg" alt="">
+            <img class="image_grid " src="/img/oporto_4.jpg" alt="">
+
+            <img class="image_grid " src="/img/oporto_6.jpg" alt="">
+            <img class="image_grid " src="/img/oporto_7.jpg" alt="">
+            <img class="image_grid " src="/img/oporto_8.jpg" alt="">
+
+            <img class="image_grid " src="/img/oporto_10.jpg" alt="">
+            <img class="image_grid " src="/img/oporto_12.jpg" alt="">
+            <img class="image_grid " src="/img/oporto_13.jpg" alt="">
+
+            <img class="image_grid " src="/img/oporto_15.jpg" alt="">
+            <img class="image_grid " src="/img/oporto_17.jpg" alt="">
+            <img class="image_grid " src="/img/oporto_18.jpg" alt="">
+
+            <img class="image_grid " src="/img/oporto_20.jpg" alt="">
+            <img class="image_grid " src="/img/oporto_21.jpg" alt="">
+            <img class="image_grid " src="/img/oporto_24.jpg" alt="">
 
 
-            <img class="image_grid w-full h-full mb-2" src="/img/oporto_30.jpg" alt="">
-            <img class="image_grid w-full h-full mb-2" src="/img/oporto_27.jpg" alt="">
-            <img class="image_grid w-full h-full mb-2" src="/img/oporto_29.jpg" alt="">
+            <img class="image_grid " src="/img/oporto_23.jpg" alt="">
+            <img class="image_grid " src="/img/oporto_39.jpg" alt="">
 
-            <img class="image_grid w-full h-full mb-2" src="/img/oporto_33.jpg" alt="">
-            <img class="image_grid w-full h-full mb-2" src="/img/oporto_31.jpg" alt="">
-            <img class="image_grid w-full h-full mb-2" src="/img/oporto_32.jpg" alt="">
+            <img class="image_grid " src="/img/oporto_26.jpg" alt="">
+            <img class="image_grid " src="/img/oporto_25.jpg" alt="">
 
-            <img class="image_grid w-full h-full mb-2" src="/img/oporto_34.jpg" alt="">
-            <img class="image_grid w-full h-full mb-2" src="/img/oporto_37.jpg" alt="">
-            <img class="image_grid w-full h-full mb-2" src="/img/oporto_40.jpg" alt="">
 
-            <img class="image_grid w-full h-full mb-2" src="/img/oporto_9.jpg" alt="">
-            <img class="image_grid w-full h-full mb-2" src="/img/oporto_36.jpg" alt="">
-            <img class="image_grid w-full h-full mb-2" src="/img/oporto_41.jpg" alt="">
+            <img class="image_grid " src="/img/oporto_30.jpg" alt="">
+            <img class="image_grid " src="/img/oporto_27.jpg" alt="">
+            <img class="image_grid " src="/img/oporto_29.jpg" alt="">
 
-            <img class="image_grid w-full h-full mb-2" src="/img/oporto_56.jpg" alt="">
-            <img class="image_grid w-full h-full mb-2" src="/img/oporto_45.jpg" alt="">
+            <img class="image_grid " src="/img/oporto_33.jpg" alt="">
+            <img class="image_grid " src="/img/oporto_31.jpg" alt="">
+            <img class="image_grid " src="/img/oporto_32.jpg" alt="">
 
-            <img class="image_grid w-full h-full mb-2" src="/img/oporto_47.jpg" alt="">
-            <img class="image_grid w-full h-full mb-2" src="/img/oporto_49.jpg" alt="">
-            <img class="image_grid w-full h-full mb-2" src="/img/oporto_48.jpg" alt="">
+            <img class="image_grid " src="/img/oporto_34.jpg" alt="">
+            <img class="image_grid " src="/img/oporto_37.jpg" alt="">
+            <img class="image_grid " src="/img/oporto_40.jpg" alt="">
 
-            <img class="image_grid w-full h-full mb-2" src="/img/oporto_55.jpg" alt="">
-            <img class="image_grid w-full h-full mb-2" src="/img/oporto_60.jpg" alt="">
-            <img class="image_grid w-full h-full mb-2" src="/img/oporto_44.jpg" alt="">
+            <img class="image_grid " src="/img/oporto_9.jpg" alt="">
+            <img class="image_grid " src="/img/oporto_36.jpg" alt="">
+            <img class="image_grid " src="/img/oporto_41.jpg" alt="">
 
-            <img class="image_grid w-full h-full mb-2" src="/img/oporto_57.jpg" alt="">
-            <img class="image_grid w-full h-full mb-2" src="/img/oporto_59.jpg" alt="">
-            <img class="image_grid w-full h-full mb-2" src="/img/oporto_58.jpg" alt="">
+            <img class="image_grid " src="/img/oporto_56.jpg" alt="">
+            <img class="image_grid " src="/img/oporto_45.jpg" alt="">
 
-            <img class="image_grid w-full h-full mb-2" src="/img/oporto_61.jpg" alt="">
-            <img class="image_grid w-full h-full mb-2" src="/img/oporto_63.jpg" alt="">
-            <img class="image_grid w-full h-full mb-2" src="/img/oporto_64.jpg" alt="">
+            <img class="image_grid " src="/img/oporto_47.jpg" alt="">
+            <img class="image_grid " src="/img/oporto_49.jpg" alt="">
+            <img class="image_grid " src="/img/oporto_48.jpg" alt="">
 
-            <img class="image_grid w-full h-full mb-2" src="/img/oporto_66.jpg" alt="">
-            <img class="image_grid w-full h-full mb-2" src="/img/oporto_46.jpg" alt="">
-            <img class="image_grid w-full h-full mb-2" src="/img/oporto_65.jpg" alt="">
+            <img class="image_grid " src="/img/oporto_55.jpg" alt="">
+            <img class="image_grid " src="/img/oporto_60.jpg" alt="">
+            <img class="image_grid " src="/img/oporto_44.jpg" alt="">
 
-            <img class="image_grid w-full h-full mb-2" src="/img/oporto_22.jpg" alt="">
-            <img class="image_grid w-full h-full mb-2" src="/img/oporto_43.jpg" alt="">
-            <img class="image_grid w-full h-full mb-2" src="/img/oporto_19.jpg" alt="">
-            <img class="image_grid w-full h-full mb-2" src="/img/oporto_50.jpg" alt="">
+            <img class="image_grid " src="/img/oporto_57.jpg" alt="">
+            <img class="image_grid " src="/img/oporto_59.jpg" alt="">
+            <img class="image_grid " src="/img/oporto_58.jpg" alt="">
+
+            <img class="image_grid " src="/img/oporto_61.jpg" alt="">
+            <img class="image_grid " src="/img/oporto_63.jpg" alt="">
+            <img class="image_grid " src="/img/oporto_64.jpg" alt="">
+
+            <img class="image_grid " src="/img/oporto_66.jpg" alt="">
+            <img class="image_grid " src="/img/oporto_46.jpg" alt="">
+            <img class="image_grid " src="/img/oporto_65.jpg" alt="">
+
+            <img class="image_grid " src="/img/oporto_22.jpg" alt="">
+            <img class="image_grid " src="/img/oporto_43.jpg" alt="">
+            <img class="image_grid " src="/img/oporto_19.jpg" alt="">
+            <img class="image_grid " src="/img/oporto_50.jpg" alt="">
 
 
 
@@ -305,52 +227,53 @@
         </div>
 
         <div
-            class="links_rrss pt-32 px-80 pb-32 text-black justify-center flex flex-row gap-60 max-xl:pt-20 max-xl:px-10 max-xl:flex-col max-xl:justify-items-center max-xl:gap-20 max-xl:flex max-xl:justify-center max-xl:pb-20">
-            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado." target="_blank"  class="email text-lg flex gap-2 items-center max-xl:text-[14px] max-xl:justify-center">
+            class="links_rrss font-['SFUIDisplay-Light'] leading-6 pt-32 px-64 pb-32 text-white justify-center flex flex-row gap-60 max-xl:pt-20 max-xl:px-10 max-xl:flex-col max-xl:justify-items-center max-xl:gap-20 max-xl:flex max-xl:justify-center max-xl:pb-20 max-[1500px]:px-60">
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado."
+                target="_blank" class="email text-lg flex gap-2 items-center max-xl:text-[14px] max-xl:justify-center">
                 ruben.maldonado.graphic@gmail.com
-                <img class="vector" src="/img/Vector-11black.svg">
+                <img class="vector" src="/img/Vector-11white.svg">
             </a>
-            <div class="links flex flex-col gap-2">
+            <div class="links flex flex-col gap-2 text-white">
                 <div class="links1 flex gap-32 max-xl:justify-center">
                     <a class="red flex gap-2 items-center max-xl:text-[14px]"
                         href="https://www.instagram.com/ruben.artes/">Instagram
-                        <img class="vector" src="/img/Vector-11black.svg">
+                        <img class="vector" src="/img/Vector-11white.svg">
                     </a>
                     <a class="red flex gap-2 items-center max-xl:text-[14px]"
                         href="https://www.behance.net/rubenartes">Behance
-                        <img class="vector" src="/img/Vector-11black.svg">
+                        <img class="vector" src="/img/Vector-11white.svg">
                     </a>
                 </div>
                 <div class="links2 flex gap-32 flex-end max-xl:justify-center">
                     <a class="red flex gap-2 items-center max-xl:text-[14px]"
                         href="https://www.instagram.com/ruben.iso">Instagram
-                        <img class="vector" src="/img/Vector-11black.svg">
+                        <img class="vector" src="/img/Vector-11white.svg">
 
                     </a> <a class="red flex gap-2 items-center max-xl:text-[14px]"
                         href="https://www.linkedin.com/in/rubenmaldonado10">LinkedIn
-                        <img class="vector" src="/img/Vector-11black.svg">
+                        <img class="vector" src="/img/Vector-11white.svg">
                     </a>
                 </div>
             </div>
 
         </div>
 
-        <div class="foter bg-white p-10 flex text-black justify-between sticky top-0 max-xl:p-6">
+        <div class="foter bg-black p-10 flex text-white justify-between sticky top-0 max-xl:p-6">
             <div class="foter_image flex flex-start">
                 <NuxtLink to="/">
-                    <img class="vector max-xl:max-w-[15px]" src="/img/starblack.svg">
+                    <img class="vector max-xl:max-w-[15px]" src="/img/star.svg">
                 </NuxtLink>
             </div>
             <div class="email flex gap-2 items-center text-sm max-xl:text-xs">Ruben Maldonado González
                 <NuxtLink to="/">
-                    <img class="vector max-xl:max-w-[15px]" src="/img/futbolblack.svg">
+                    <img class="vector max-xl:max-w-[15px]" src="/img/futbol.svg">
                 </NuxtLink>
             </div>
         </div>
 
     </div>
 </template>
-  
+
 <script>
 
 import 'vue3-carousel/dist/carousel.css'
@@ -381,7 +304,7 @@ export default {
     },
 }
 </script>
-  
+
 <style lang="sass" scoped>
 
   .email

@@ -72,59 +72,8 @@
       </div>
     </div>
 
-    <div
-      class="video flex pt-20 px-64 pb-32 max-sm:px-0 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
-      <video width="1240" height="788" loop autoplay>
-        <source src="/img/fanzine.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-
-    </div>
-    <div
-      class="colum grid grid-cols-2 max-sm:grid-cols-1 pt-20 px-64 pb-10 text-white gap-24 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-[1500px]:px-60">
-      <div class="info_proyect">
-        <div class="info_secondary flex flex-col gap-6 sticky top-32 max-[1500px]:gap-12">
-          <div
-            class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-white max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
-            <p class="font-['PPE-Ultralightitalic'] max-sm:pb-2">Retrato</p> TEMÁTICA SOCIAL
-          </div>
-          <div
-            class="text text-[20px] font-['SFUIDisplay-Light'] text-white max-w-[50ch] max-xl:text-sm max-[1500px]:text-[16px] max-[1500px]:max-w-[100ch]">
-            Sobretodo en la mayoría de mi trabajo me gusta retratar el aspecto social y a las personas sin que se den
-            cuenta
-            de que están siendo retratadas en la fotografía para darle ese aspecto de improvisación, sin preparar y
-            representando
-            la realidad.
-            <br>
-            <br>
-            Fotografías realizadas por zonas de Madrid, como Gran Vía o diferentes paradas de Metro de Madrid, contando
-            con fotografía a personas o
-            fotografías al paisaje o los detalles.
-          </div>
-        </div>
-      </div>
-
-      <div class="fotografias flex flex-col gap-6 h-min items-center">
-        <img class="image_rect" src="/img/fotosgrupo.png" alt="">
-        <img class="image_rect" src="/img/fotosgrupo2.png" alt="">
-        <img class="image_rect" src="/img/fotosgrupo3.png" alt="">
-        <img class="image_rect" src="/img/fotosgrupo4.png" alt="">
-        <img class="image_rect" src="/img/fotosgrupo5.png" alt="">
-
-      </div>
-    </div>
-
-    <div class="fotografias flex-col gap-6 h-min items-center px-4 hidden max-sm:flex">
-      <img class="image_rect w-[590px]" src="/img/fotosgrupo.png" alt="">
-      <img class="image_rect w-[590px]" src="/img/fotosgrupo2.png" alt="">
-      <img class="image_rect w-[590px]" src="/img/fotosgrupo3.png" alt="">
-      <img class="image_rect w-[590px]" src="/img/fotosgrupo4.png" alt="">
-      <img class="image_rect w-[590px]" src="/img/fotosgrupo5.png" alt="">
-
-    </div>
-
     <div id="libroimpreso"
-      class="titular2 max-sm:pt-24 max-sm:pb-24 flex px-64 pb-24 gap-64 pt-48 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-[1500px]:px-12 max-[1500px]:gap-12 max-[1500px]:items-center max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+      class="titular2 max-sm:pt-24 max-sm:pb-24 flex px-64 pb-24 gap-64 pt-12 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-[1500px]:px-12 max-[1500px]:gap-12 max-[1500px]:items-center max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
       <div
         class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
         CATEGORÍAS FOTOGRÁFICAS</div>
@@ -151,33 +100,35 @@
 
         </div>
       </div>
+
       <div
-      class="twotrabajos p-0 max-sm:px-2 flex gap-4 justify-center pb-4 max-lg:flex-col max-lg:justify-items-center max-lg:items-center max-lg:px-10">
+      class="twotrabajos p-0 flex max-sm:px-2 gap-4 justify-center pb-4 max-lg:flex-col max-lg:justify-items-center max-lg:items-center max-lg:px-10">
       <div class="trabajo">
-          <NuxtLink to="/Bodegon">
+          <NuxtLink to="/Tenerife">
             <div
-                class="flex hover:bg-[url('/img/fotocaratula10.png')] bg-black bg-cover bg-center flex-col text-[40px] w-[600px] h-[600px] max-sm:w-[400px] max-sm:h-[400px] items-center justify-center border font-['PPE-Ultralight'] leading-[50px] text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
-                <p class="font-['PPE-UltralightItalic'] text-[24px] leading-7">Fotografías</p>BODEGON</div>
+                class="flex hover:bg-[url('/img/fotocaratula2.png')] bg-black bg-cover bg-center flex-col text-[40px] w-[600px] h-[600px] max-sm:w-[400px] max-sm:h-[400px] items-center justify-center border font-['PPE-Ultralight'] leading-[50px] text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
+                <p class="font-['PPE-UltralightItalic'] text-[24px] leading-7">Fotografías</p>TENERIFE</div>
           </NuxtLink>
 
         </div>
         <div class="trabajo">
-          <NuxtLink to="/retratos">
+          <NuxtLink to="/granada">
             <div
-                class="flex hover:bg-[url('/img/fotocaratula11.png')] bg-black bg-cover bg-center flex-col text-[40px] w-[600px] h-[600px] max-sm:w-[400px] max-sm:h-[400px] items-center justify-center border font-['PPE-Ultralight'] leading-[50px] text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
-                <p class="font-['PPE-UltralightItalic'] text-[24px] leading-7">Fotografías</p>RETRATOS</div>
+                class="flex hover:bg-[url('/img/fotocaratula3.png')] bg-black bg-cover bg-center flex-col text-[40px] w-[600px] h-[600px] max-sm:w-[400px] max-sm:h-[400px] items-center justify-center border font-['PPE-Ultralight'] leading-[50px] text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
+                <p class="font-['PPE-UltralightItalic'] text-[24px] leading-7">Fotografías</p>GRANADA</div>
           </NuxtLink>
 
         </div>
       </div>
 
+      
       <div
       class="twotrabajos p-0 flex max-sm:px-2 gap-4 justify-center pb-4 max-lg:flex-col max-lg:justify-items-center max-lg:items-center max-lg:px-10">
       <div class="trabajo">
           <NuxtLink to="/MetroMadrid">
             <div
                 class="flex hover:bg-[url('/img/fotocaratula8.png')] bg-black bg-cover bg-center flex-col text-[40px] w-[600px] h-[600px] max-sm:w-[400px] max-sm:h-[400px] items-center justify-center border font-['PPE-Ultralight'] leading-[50px] text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
-                <p class="font-['PPE-UltralightItalic'] text-[24px] leading-7">Fotografías</p>METRO MADRID</div>
+                <p class="font-['PPE-UltralightItalic'] text-[24px] leading-7">Fanzine</p>METRO MADRID</div>
           </NuxtLink>
 
         </div>
@@ -192,24 +143,24 @@
       </div>
 
       <div
-      class="twotrabajos p-0 flex max-sm:px-2 gap-4 justify-center pb-4 max-lg:flex-col max-lg:justify-items-center max-lg:items-center max-lg:px-10">
+      class="twotrabajos p-0 max-sm:px-2 flex gap-4 justify-center pb-4 max-lg:flex-col max-lg:justify-items-center max-lg:items-center max-lg:px-10">
       <div class="trabajo">
-          <NuxtLink to="/Tenerife">
+          <NuxtLink to="/Bodegon">
             <div
-                class="flex hover:bg-[url('/img/fotocaratula2.png')] bg-black bg-cover bg-center flex-col text-[40px] w-[600px] h-[600px] max-sm:w-[400px] max-sm:h-[400px] items-center justify-center border font-['PPE-Ultralight'] leading-[50px] text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
-                <p class="font-['PPE-UltralightItalic'] text-[24px] leading-7">Fotografías</p>TENERIFE</div>
+                class="flex hover:bg-[url('/img/fotocaratula10.png')] bg-black bg-cover bg-center flex-col text-[40px] w-[600px] h-[600px] max-sm:w-[400px] max-sm:h-[400px] items-center justify-center border font-['PPE-Ultralight'] leading-[50px] text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
+                <p class="font-['PPE-UltralightItalic'] text-[24px] leading-7">Fotografías</p>BODEGON</div>
           </NuxtLink>
 
         </div>
         <div class="trabajo">
-          <NuxtLink to="/madrid">
+
             <div
-                class="flex hover:bg-[url('/img/fotocaratula3.png')] bg-black bg-cover bg-center flex-col text-[40px] w-[600px] h-[600px] max-sm:w-[400px] max-sm:h-[400px] items-center justify-center border font-['PPE-Ultralight'] leading-[50px] text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
-                <p class="font-['PPE-UltralightItalic'] text-[24px] leading-7">Fotografías</p>GRANADA</div>
-          </NuxtLink>
+                class="flex hover:bg-[url('/img/fotocaratula11.png')] bg-black bg-cover bg-center flex-col text-[40px] w-[600px] h-[600px] max-sm:w-[400px] max-sm:h-[400px] items-center justify-center border font-['PPE-Ultralight'] leading-[50px] text-zinc-600 max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
+                <p class="font-['PPE-UltralightItalic'] text-[24px] leading-7">Fotografías</p>RETRATOS  <p class="font-['PPE-UltralightItalic'] text-[16px] leading-3">[no disponible]</p></div>
 
         </div>
       </div>
+
     </div>
 
     <div
