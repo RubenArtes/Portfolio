@@ -74,13 +74,17 @@
         </div>
 
         <div
-            class="video flex pt-12 px-64 pb-32 text-zinc-600 flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:px-0 max-sm:pt-12 max-sm:pb-24">
-            <video class="justify-self-center max-w-[1240px] max-h-[788px] max-sm:w-full" loop autoplay>
+        class="video max-sm:hidden max-[1920px]:px-12 max-[1440px]:px-12 flex pt-20 px-64 pb-20 text-zinc-600 flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:px-0 max-sm:pb-24">
+        <video class="justify-self-center max-w-[1240px] max-h-[788px] max-sm:w-full" loop autoplay>
                 <source src="/img/Comp_2.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
 
         </div>
+
+        <img class="image hidden max-sm:flex w-full h-full pb-24" src="/img/Comp_2.gif" alt="">
+
+
         <div
             class="colum flex pt-20 px-64 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-[1500px]:px-32  max-sm:pt-12">
             <div class="info_proyect max-w-[80ch]">

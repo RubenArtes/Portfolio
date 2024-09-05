@@ -73,7 +73,7 @@
     </div>
 
     <div id="libroimpreso"
-      class="titular2 max-sm:pt-24 max-sm:pb-24 flex px-64 pb-24 gap-64 pt-12 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-[1500px]:px-12 max-[1500px]:gap-12 max-[1500px]:items-center max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+      class="titular2 max-sm:pt-8 max-sm:pb-24 flex px-64 pb-24 gap-64 pt-12 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-[1500px]:px-12 max-[1500px]:gap-12 max-[1500px]:items-center max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
       <div
         class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
         CATEGORÍAS FOTOGRÁFICAS</div>
