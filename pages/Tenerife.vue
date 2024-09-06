@@ -59,7 +59,6 @@
                 <img class="fotografia" src="/img/tenerife10.png">
                 <img class="fotografia" src="/img/tenerife11.png">
                 <img class="fotografia" src="/img/tenerife12.png">
-                <img class="fotografia" src="/img/tenerife13.png">
                 <img class="fotografia" src="/img/tenerife14.png">
                 <img class="fotografia" src="/img/tenerife15.png">
                 <img class="fotografia" src="/img/tenerife16.png">
@@ -137,7 +136,6 @@
                 <img class="fotografia" src="/img/tenerife10.png">
                 <img class="fotografia" src="/img/tenerife11.png">
                 <img class="fotografia" src="/img/tenerife12.png">
-                <img class="fotografia" src="/img/tenerife13.png">
                 <img class="fotografia" src="/img/tenerife14.png">
                 <img class="fotografia" src="/img/tenerife15.png">
                 <img class="fotografia" src="/img/tenerife16.png">

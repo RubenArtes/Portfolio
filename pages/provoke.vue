@@ -28,7 +28,7 @@
                         class="text max-w-[60ch] text-[16px] text-start uppercase text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
                         FOTOGRAFÍAS - FEBRERO 2023 - ASIGNATURA FOTOGRAFÍA - ABSTRACCIÓN</div>
                     <div
-                    class="text max-[1500px]:text-[12px] max-w-[60ch] text-[16px] text-start uppercase text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
+                    class="text text-[17px] font-['SFUIDisplay-Light'] text-white max-xl:text-sm max-[1500px]:text-[14px] max-[1500px]:max-w-[100ch]">
                     Fotografías realizadas con temática de la revista Japonesa Provoke, los cuales utilizan mucho el
                         grano en sus fotografías, el alto contraste, la subexposición y la sobrexposición, además de
                         elementos abstractos o poco usuales. Fotografías realizadas con temática de la revista Japonesa

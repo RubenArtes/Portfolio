@@ -12,7 +12,7 @@
             <div class="email text-lg justify-items-end flex gap-2 max-lg:text-xs ">ruben.maldonado.graphic@gmail.com
                 <img class="vector max-lg:max-w-[8px]" src="/img/Vector-11white.svg">
             </div>
-
+            
         </div>
 
         <VueScrollProgressBar background-color="#ffffff" />
@@ -22,8 +22,8 @@
                 <div
                     class="info_secondary max-[1500px]:px-24 max-[1500px]:pt-12 max-[1500px]:pb-32 z-20 bg-black border border-t-0 border-r-0 border-l-0 max-[1920px]:px-[12rem] px-[22rem] pb-52 place-items-start pt-32 flex flex-col gap-6 sticky top-32 max-[1500px]:gap-12">
                     <div
-                        class="titular max-[1500px]:text-[50px] max-[1500px]:text-[50px]max-[1500px]:text-[50px]text-[60px] font-['PPE-Ultralight'] leading-12 font-bold text-[#6e3f26] max-sm:text-[55px] max-[1500px]:text-left max-[1280px]:text-[100px]">
-                        GRANADA</div>
+                    class="titular text-[60px] max-[1500px]:text-[50px] font-['PPE-Ultralight'] leading-12 font-bold text-[#6e3f26] max-sm:text-[55px] max-[1500px]:text-left max-[1280px]:text-[100px]">
+                    GRANADA</div>
                     <div
                     class="text max-[1500px]:text-[12px] max-w-[60ch] text-[16px] text-start uppercase text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
                         FOTOGRAFÍAS - AGOSTO 2024 - LIBRE - VIAJE - PAISAJES</div>
