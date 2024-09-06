@@ -68,20 +68,18 @@
             class="titular2 max-sm:border-0 hidden max-sm:flex max-sm:pt-14 px-64 gap-64 content-start space-between justify-center pt-20 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-[1500px]:flex-col max-[1500px]:gap-2 max-[1500px]:items-center max-[1700px]:px-10">
             <div
                 class="titular text-[60px] font-['PPE-Ultralight'] leading-12 font-bold text-[#f1f1f1] max-sm:text-[55px] max-[1500px]:text-left max-[1280px]:text-[100px]">
-                PROVOKE</div>
+                MODELOS</div>
             <div
                 class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:pt-6 max-sm:pb-16 max-sm:px-0 max-[1280px]:items-center max-[1280px]:pt-6 max-[1280px]:pb-0">
 
                 <div
                     class="text max-w-[60ch] text-[16px] uppercase text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
-                    FOTOGRAFÍAS - FEBRERO 2023 - ASIGNATURA FOTOGRAFÍA - ABSTRACCIÓN</div>
-                <div
+                    FOTOGRAFÍAS - 2022 / 2023 - ASIGNATURA FOTOGRAFÍA - MODELOS</div>
+                    <div
                     class="text max-w-[80ch] pb-16 pt-4 max-sm:text-left text-left font-['SFUIDisplay-Light'] text-[20px] text-white max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:max-w-[100ch] max-[800px]:pb-4">
-                    Fotografías realizadas con temática de la revista Japonesa Provoke, los cuales utilizan mucho el
-                    grano en sus fotografías, el alto contraste, la subexposición y la sobrexposición, además de
-                    elementos abstractos o poco usuales. Fotografías realizadas con temática de la revista Japonesa
-                    Provoke, los cuales utilizan mucho el grano en sus fotografías, el alto contraste, la
-                    subexposición y la sobrexposición, además de elementos abstractos o poco usuales.
+                    Fotografías realizadas en la Escuela Superior de Diseño en interior y exterior, controlando las luces naturales y en el estudio, control
+                    de iluminación, focos y diferentes elementos profesionales. Fotografías a Lisa Barbieri, Carlos Martinez, Sergio Martín, Laura Morales y Barbara Ibáñez.
+
                 </div>
 
             </div>
