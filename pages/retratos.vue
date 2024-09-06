@@ -91,18 +91,17 @@
 
         <div class="max-sm:grid max-sm:gap-4 max-sm:grid-cols-1 max-sm:pb-12 max-sm:px-4 hidden">
 
-            <img class="image_grid " src="/img/provoke.jpg" alt="">
-            <img class="image_grid " src="/img/provoke2.jpg" alt="">
-            <img class="image_grid " src="/img/provoke3.jpg" alt="">
-            <img class="image_grid " src="/img/provoke4.jpg" alt="">
-            <img class="image_grid " src="/img/provoke5.jpg" alt="">
-            <img class="image_grid " src="/img/provoke6.jpg" alt="">
-            <img class="image_grid " src="/img/provoke7.jpg" alt="">
-            <img class="image_grid " src="/img/provoke8.jpg" alt="">
-            <img class="image_grid " src="/img/provoke9.jpg" alt="">
-            <img class="image_grid " src="/img/provoke10.jpg" alt="">
-            <img class="image_grid " src="/img/provoke11.jpg" alt="">
-            <img class="image_grid " src="/img/provoke12.jpg" alt="">
+            <img class="image_grid " src="/img/estudio5.jpg" alt="">
+                <img class="image_grid " src="/img/estudio3.jpg" alt="">
+                <img class="image_grid " src="/img/estudio6.jpg" alt="">
+                <img class="image_grid " src="/img/estudio8.jpg" alt="">
+                <img class="image_grid " src="/img/modelo6.jpg" alt="">
+                <img class="image_grid " src="/img/modelo.jpg" alt="">
+                <img class="image_grid " src="/img/modelo2.jpg" alt="">
+                <img class="image_grid " src="/img/modelo3.jpg" alt="">
+                <img class="image_grid " src="/img/modelo4.jpg" alt="">
+                <img class="image_grid " src="/img/modelo5.jpg" alt="">
+
 
 
 
