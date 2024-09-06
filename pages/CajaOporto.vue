@@ -971,7 +971,14 @@
 
         </div>
 
-        <NuxtLink to="/AnalogicasOporto">
+        <NuxtLink to="/AnalogicasOporto" class="max-sm:hidden">
+            <a
+                class="px-64 flex underline decoration-1 hover:font-['Regular-Bold'] underline-offset-8 justify-center text-center pt-12 titulo font-['Regular'] text-[20px] text-[#243673] max-sm:px-4 max-sm:pb-24 max-sm:pt-4 max-sm:text-[12px] max-sm:underline-offset-4">
+                CLICK PARA VER LAS 21 FOTOGRAFÍAS EXCLUSIVAS DE LA CAJA
+            </a>
+        </NuxtLink>
+
+        <NuxtLink to="/AnalogicasOporto" class="max-sm:grid max-sm:items-center">
             <a
                 class="px-64 flex underline decoration-1 hover:font-['Regular-Bold'] underline-offset-8 justify-center text-center pt-12 titulo font-['Regular'] text-[20px] text-[#243673] max-sm:px-4 max-sm:pb-24 max-sm:pt-4 max-sm:text-[12px] max-sm:underline-offset-4">
                 CLICK PARA VER LAS 21 FOTOGRAFÍAS EXCLUSIVAS DE LA CAJA
