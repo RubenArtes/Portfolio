@@ -15,7 +15,7 @@
 
         </div>
         <div
-            class="header bg-white p-1 flex px-8 gap-12 text-center justify-items-center place-content-center sticky top-[110px] z-10 max-lg:p-6 max-lg:sticky border border-b-1 max-sm:hidden max-[1920px]:gap-8 max-[1440px]:gap-2 max-[1440px]:px-4 max-[1440px]:justify-between">
+            class="header bg-white p-1 flex px-8 gap-12 text-center justify-items-center place-content-center sticky top-[110px] z-10 max-lg:p-6 max-lg:sticky border border-b-1 max-sm:hidden max-[1920px]:gap-8 max-[1500px]:gap-2 max-[1500px]:px-4 max-[1500px]:justify-between">
             <a href="#navegacion"
                 class="email text-black text-[12px] max-[1920px]:text-[10px] justify-items-center flex gap-2 max-[1440px]:text-[10px]">NAVEGACIÓN
             </a>
@@ -104,8 +104,7 @@
                     un tema concreto, realizando diferentes pruebas físicas como folletos, cuadernillos impresos o
                     carteles. Para este trabajo
                     la temática ha sido Oporto y la cultura portuguesa, creando una caja que sea una experencia y visión
-                    personal de un viaje de 3 días. Uno de mis mejores trabajos de la carrera por todo el trabajo que
-                    han tenido las piezas que lo componen.
+                    personal de un viaje de 3 días.
                 </div>
 
             </div>
@@ -113,7 +112,7 @@
 
 
         <div
-            class="trabajos max-[1500px]:px-32 flex max-sm:justify-start max-sm:pb-24 pt-20 px-40 pb-20 items-start text-white flex-nowrap gap-96 max-[1500px]:gap-[15rem] justify-center max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-start max-xl:text-center max-xl:pt-0 max-xl:pb-16 max-[1500px]:justify-between">
+            class="trabajos max-[1500px]:px-32 flex max-sm:justify-start max-sm:pb-12 pt-20 px-40 pb-20 items-start text-white flex-nowrap gap-96 max-[1500px]:gap-[15rem] justify-center max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-start max-xl:text-center max-xl:pt-0 max-xl:pb-16 max-[1500px]:justify-between">
             <div class="info flex flex-col">
                 <div
                     class="text max-w-[200ch] max-sm:text-left text-center font-['PPE-Ultralight'] max-sm:text-[20px] pb-4 uppercase text-[24px] leading-10 text-zinc-800 max-xl:text-xs">
@@ -144,8 +143,10 @@
         </div>
 
         <div
-            class="video flex pt-8 pb-20 max-sm:pb-12 text-zinc-600 flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
-            <img class="image w-full h-full" src="/img/oportoazulejo2.png" alt="">
+            class="video flex pt-8 pb-20 max-sm:pb-8 text-zinc-600 flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
+            <img class="image max-sm:hidden w-full h-full" src="/img/oportoazulejo2.png" alt="">
+            <img class="image hidden max-sm:flex w-full h-full" src="/img/cajaoporto.png" alt="">
+
 
 
         </div>
@@ -251,8 +252,8 @@
                 de otras culturas como la árabe.
             </div>
 
-            <img class="image w-full h-full max-sm:hidden" src="/img/gifazulejo2.gif" alt="">
-            <img class="image hidden w-full h-full max-sm:flex" src="/img/azulejo2.webp" alt="">
+            <img class="image hidden w-full h-full max-sm:flex" src="/img/gifazulejo2.gif" alt="">
+            <img class="image flex w-full h-full max-sm:hidden" src="/img/azulejo2.webp" alt="">
 
 
         </div>
@@ -307,8 +308,7 @@
         </div>
 
         <div
-            class="hidden grid-cols-3 pb-32 px-64 gap-8 justify-items-center max-sm:grid-cols-1 max-sm:px-12 max-sm:gap-6 max-sm:pb-24 max-sm:grid">
-
+            class="hidden grid-cols-3 pb-32 px-64 gap-8 justify-items-center max-sm:grid-cols-1 max-sm:px-8 max-sm:gap-6 max-sm:pb-24 max-sm:grid">
             <div class="columna1">
                 <img class="image w-full h-full shadow-lg border border-zinc-100" src="/img/postal6.png" alt="">
 
@@ -338,38 +338,41 @@
 
         </div>
 
-        <div
-            class="grid grid-cols-3 pb-32 px-64 max-[1500px]:px-32 gap-8 justify-items-center max-sm:grid-cols-1 max-sm:px-12 max-sm:gap-6 max-sm:pb-24 max-sm:hidden">
+        <div class="marquee max-sm:hidden">
 
-            <div class="columna1">
-                <img class="image w-full h-full shadow-lg border border-zinc-100" src="/img/postal6.png" alt="">
+            <NuxtMarquee class="h-[400px] w-[900px] gap-12">
 
-            </div>
-            <div class="columna1">
-                <img class="image w-full h-full shadow-lg border border-zinc-100" src="/img/postal4.png" alt="">
+                <div class="columna1 max-sm:hidden">
+                    <img class="h-[400px] w-[900px] ml-4 border border-zinc-200 max-sm:w-[200px] max-sm:h-[450px]"
+                        src="/img/postal6.png" alt="">
+                </div>
+                <div class="columna1 max-sm:hidden">
+                    <img class="h-[400px] w-[900px] ml-4 border border-zinc-200 max-sm:w-[200px] max-sm:h-[450px]"
+                        src="/img/postal4.png" alt="">
+                </div>
+                <div class="columna1 max-sm:hidden">
+                    <img class="h-[400px] w-[900px] ml-4 border border-zinc-200 max-sm:w-[200px] max-sm:h-[450px]"
+                        src="/img/postal3.png" alt="">
+                </div>
+                <div class="columna1 max-sm:hidden">
+                    <img class="h-[400px] w-[900px] ml-4 border border-zinc-200 max-sm:w-[200px] max-sm:h-[450px]"
+                        src="/img/postal1.png" alt="">
+                </div>
+                <div class="columna1 max-sm:hidden">
+                    <img class="h-[400px] w-[900px] ml-4 border border-zinc-200 max-sm:w-[200px] max-sm:h-[450px]"
+                        src="/img/postal2.png" alt="">
+                </div>
+                <div class="columna1 max-sm:hidden">
+                    <img class="h-[400px] w-[900px] ml-4 border border-zinc-200 max-sm:w-[200px] max-sm:h-[450px]"
+                        src="/img/postal5.png" alt="">
 
-            </div>
+                </div>
+            </NuxtMarquee>
 
-            <div class="columna1">
-                <img class="image w-full h-full shadow-lg border border-zinc-100" src="/img/postal3.png" alt="">
-
-            </div>
-            <div class="columna1">
-                <img class="image w-full h-full shadow-lg border border-zinc-100" src="/img/postal1.png" alt="">
-
-            </div>
-
-            <div class="columna1">
-                <img class="image w-full h-full shadow-lg border border-zinc-100" src="/img/postal2.png" alt="">
-
-            </div>
-            <div class="columna1">
-                <img class="image w-full h-full shadow-lg border border-zinc-100" src="/img/postal5.png" alt="">
-
-            </div>
         </div>
 
-        <img class="image w-full h-full pb-32 max-sm:hidden" src="/img/postalespng.png" alt="">
+
+        <img class="image pt-32 w-full h-full pb-32 max-sm:hidden" src="/img/postalespng.png" alt="">
 
         <div class="grid grid-cols-2 max-sm:grid-cols-1">
             <img class="image w-full h-full pb-32 max-sm:pb-2" src="/img/IMG_2450.jpg" alt="">
@@ -385,12 +388,6 @@
         </div>
 
         <img class="image w-full h-full pb-32 max-sm:pb-12" src="/img/IMG_2444.jpg" alt="">
-
-        <div
-            class="text pt-4 pb-12 text-center px-64 justify-items-center font-['Regular'] text-[14px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:hidden">
-            «Pasa el ratón por encima para ampliar»
-
-        </div>
 
         <!--<div
             class="grid grid-cols-4 gap-2 pb-32 px-64 justify-items-center max-[1920px]:px-12 max-sm:grid-cols-1 max-sm:pb-2 max-sm:hidden">
@@ -408,18 +405,18 @@
         </div> -->
 
         <div
-            class="grid grid-cols-2 gap-2 pb-32 px-64 justify-items-center max-[1920px]:px-12 max-sm:grid-cols-1 max-sm:pb-2 max-sm:px-2">
-            <img src="/img/sellos1.webp" alt="">
-            <img src="/img/sellos2.webp" alt="">
-            <img src="/img/sellos3.webp" alt="">
-            <img src="/img/sellos4.webp" alt="">
+            class="grid grid-cols-2 gap-32 pb-4 px-64 pt-12 justify-items-center max-[1920px]:px-12 max-sm:grid-cols-1 max-sm:pb-12 max-sm:pt-12 max-sm:px-24 max-sm:gap-12">
+            <img class="place-self-end" src="/img/sellos12.webp" alt="">
+            <img class="place-self-start" src="/img/sellos22.webp" alt="">
+            <img class="place-self-end" src="/img/sellos33.webp" alt="">
+            <img class="place-self-start" src="/img/sellos44.webp" alt="">
 
         </div>
 
 
 
         <div id="cuadernos"
-            class="titular2 max-[1440px]:px-32 max-[1440px]:text-center max-[1440px]:content-center flex px-64 pb-32 gap-64 pt-48 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-32  max-[1500px]:gap-12 max-[1500px]:items-center max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 max-[1440px]:px-32 max-[1440px]:text-center max-[1440px]:content-center flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-32  max-[1500px]:gap-12 max-[1500px]:items-center max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-zinc-900 max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6 max-sm:text-[30px] max-sm:pb-0">
                 CUADERNOS DE VIAJE EXPERIMENTALES</div>
@@ -840,48 +837,42 @@
         </div>
 
         <div id="folleto"
-            class="titular2 flex px-64 pb-12 gap-64 pt-48 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-2 max-[1500px]:px-32  max-[1500px]:gap-12 max-[1500px]:items-center max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 flex px-64 pb-12 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-2 max-[1500px]:px-32  max-[1500px]:gap-12 max-[1500px]:items-center max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
                 FOLLETO</div>
         </div>
 
-        <div class="grid grid-cols-5 max-[1440px]:px-12 px-52 pt-32 pb-6 max-sm:px-4 max-sm:pt-20">
-            <img class="image w-full h-full border border-zinc-200 shadow-md" src="/img/folletoen1.png" alt="">
-            <img class="image w-full h-full border border-zinc-200 border-l-0 shadow-md" src="/img/folletoen2.png"
-                alt="">
-            <img class="image w-full h-full border border-zinc-200 border-l-0 shadow-md" src="/img/folletoen3.png"
-                alt="">
-            <img class="image w-full h-full border border-zinc-200 border-l-0 shadow-md" src="/img/folletoen4.png"
-                alt="">
-            <img class="image w-full h-full border border-zinc-200 border-l-0 shadow-md" src="/img/folletoen5.png"
-                alt="">
 
-        </div>
+        <img class="pt-32 max-sm:px-4 max-sm:pt-12 max-[1500px]:px-32 max-[1500px]:pt-6 max-[1920px]:pt-16 px-64"
+            src="/img/folleto.png">
+        <img class="px-64 max-sm:px-4 max-sm:pb-4 max-sm:pt-12 max-[1500px]:px-32 max-[1920px]:pb-16"
+            src="/img/folleto2.png">
 
-        <div class="grid grid-cols-5 max-[1440px]:px-12 px-52 pt-2 pb-32 max-sm:px-4 max-sm:pb-2">
-            <img class="image w-full h-full border border-zinc-200 shadow-md" src="/img/folletoen8.png" alt="">
-            <img class="image w-full h-full border border-zinc-200 border-l-0 shadow-md" src="/img/folletoen9.png"
-                alt="">
-            <img class="image w-full h-full border border-zinc-200 border-l-0 shadow-md" src="/img/folletoen10.png"
-                alt="">
-            <img class="image w-full h-full border border-zinc-200 border-l-0 shadow-md" src="/img/folletoen6.png"
-                alt="">
-            <img class="image w-full h-full border border-zinc-200 border-l-0 shadow-md" src="/img/folletoen7.png"
-                alt="">
-
-        </div>
 
         <div
-            class="colum flex px-12 pt-20 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-[1500px]:px-12 max-sm:px-2">
+            class="colum flex pt-20 pb-10 text-white justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-[1500px]:px-12 max-sm:px-2">
+            <NuxtMarquee>
 
-            <div
-                class="fotografias px-12 grid grid-cols-2 grid-rows-2 gap-2 max-sm:gap-4 max-[1500px]:px-2 max-sm:px-2 max-sm:grid-cols-1">
-                <img class="image w-full h-full" src="/img/IMG_2552.jpg" alt="">
-                <img class="image w-full h-full" src="/img/IMG_2548.jpg" alt="">
-                <img class="image w-full h-full" src="/img/IMG_2554.jpg" alt="">
-                <img class="image w-full h-full" src="/img/IMG_2558.jpg" alt="">
-            </div>
+                <div class="fotografias flex max-sm:h-[250px] h-[500px]">
+                    <img class="image h-full max-sm:h-[250px] pl-4" src="/img/IMG_2552.jpg" alt="">
+                    <img class="image h-full max-sm:h-[250px] pl-4" src="/img/IMG_2548.jpg" alt="">
+                    <img class="image h-full max-sm:h-[250px] pl-4" src="/img/IMG_2554.jpg" alt="">
+                    <img class="image h-full max-sm:h-[250px] pl-4" src="/img/IMG_2558.jpg" alt="">
+                    <img class="image h-full max-sm:h-[250px] pl-4" src="/img/IMG_2552.jpg" alt="">
+                    <img class="image h-full max-sm:h-[250px] pl-4" src="/img/IMG_2548.jpg" alt="">
+                    <img class="image h-full max-sm:h-[250px] pl-4" src="/img/IMG_2554.jpg" alt="">
+                    <img class="image h-full max-sm:h-[250px] pl-4" src="/img/IMG_2558.jpg" alt="">
+                    <img class="image h-full max-sm:h-[250px] pl-4" src="/img/IMG_2552.jpg" alt="">
+                    <img class="image h-full max-sm:h-[250px] pl-4" src="/img/IMG_2548.jpg" alt="">
+                    <img class="image h-full max-sm:h-[250px] pl-4" src="/img/IMG_2554.jpg" alt="">
+                    <img class="image h-full max-sm:h-[250px] pl-4" src="/img/IMG_2558.jpg" alt="">
+                    <img class="image h-full max-sm:h-[250px] pl-4" src="/img/IMG_2552.jpg" alt="">
+                    <img class="image h-full max-sm:h-[250px] pl-4" src="/img/IMG_2548.jpg" alt="">
+                    <img class="image h-full max-sm:h-[250px] pl-4" src="/img/IMG_2554.jpg" alt="">
+                    <img class="image h-full max-sm:h-[250px] pl-4" src="/img/IMG_2558.jpg" alt="">
+                </div>
+            </NuxtMarquee>
 
         </div>
 
@@ -921,8 +912,8 @@
         <div
             class="grid grid-cols-2 px-72 items-center pt-12 gap-32 pb-32 max-sm:pb-2 max-sm:grid-cols-1 max-sm:gap-12 max-sm:pt-24 max-sm:px-12">
             <img class="image w-full h-full" src="/img/packanalogicas5.png" alt="">
-            <img class="image items-end w-full" src="/img/cajaanalogicas.webp" alt="">
-
+            <img class="image items-end hidden max-sm:flex w-full h-full" src="/img/cajaanalogicas2.gif" alt="">
+            <img class="image items-end max-sm:hidden flex w-full h-full" src="/img/cajaanalogicas.webp" alt="">            
         </div>
 
         <div
@@ -970,20 +961,13 @@
             </div>
 
         </div>
+        <div class="grid max-sm:items-center">
 
-        <NuxtLink to="/AnalogicasOporto" class="max-sm:hidden">
-            <a
+            <a href="https://rubenmaldonado.es/AnalogicasOporto"
                 class="px-64 flex underline decoration-1 hover:font-['Regular-Bold'] underline-offset-8 justify-center text-center pt-12 titulo font-['Regular'] text-[20px] text-[#243673] max-sm:px-4 max-sm:pb-24 max-sm:pt-4 max-sm:text-[12px] max-sm:underline-offset-4">
                 CLICK PARA VER LAS 21 FOTOGRAFÍAS EXCLUSIVAS DE LA CAJA
             </a>
-        </NuxtLink>
-
-        <NuxtLink to="/AnalogicasOporto" class="max-sm:grid max-sm:items-center">
-            <a
-                class="px-64 flex underline decoration-1 hover:font-['Regular-Bold'] underline-offset-8 justify-center text-center pt-12 titulo font-['Regular'] text-[20px] text-[#243673] max-sm:px-4 max-sm:pb-24 max-sm:pt-4 max-sm:text-[12px] max-sm:underline-offset-4">
-                CLICK PARA VER LAS 21 FOTOGRAFÍAS EXCLUSIVAS DE LA CAJA
-            </a>
-        </NuxtLink>
+        </div>
 
         <div id="libroimpreso"
             class="titular2 flex px-64 pb-12 gap-64 pt-48 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-2 max-sm:pb-2 max-[1500px]:px-12 max-[1500px]:gap-12 max-[1500px]:items-center max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
@@ -1012,7 +996,9 @@
                 físico mejor ha quedado por el acabado realizado en Saal Digital.
             </div>
 
-            <img class="image w-full h-full" src="/img/libroimpreso.webp" alt="">
+            <img class="image hidden max-sm:flex w-full h-full" src="/img/libroimpreso2.gif" alt="">
+            <img class="image max-sm:hidden flex w-full h-full" src="/img/libroimpreso.webp" alt="">
+
 
         </div>
 
@@ -1068,15 +1054,18 @@
 
 
         <div
-            class="grid max-[1500px]:px-12 grid-cols-2 grid-row-2 gap-2 pl-12 pb-32 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-sm:grid-cols-1 max-sm:px-8 max-sm:hidden">
-                <img class="image_grid" src="/img/fajillaoporto2.png" alt="">
-                <img class="image_grid" src="/img/cajaoporto.png" alt="">
+            class="grid max-[1500px]:pt-32 max-[1500px]:px-12 grid-cols-2 grid-row-2 gap-2 pl-12 pb-32 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-sm:grid-cols-1 max-sm:px-8 max-sm:hidden">
+            <img class="image_grid" src="/img/fajillaoporto2.png" alt="">
+            <img class="image_grid" src="/img/cajaoporto.png" alt="">
 
         </div>
 
-        <img class="image max-sm:pt-8 pt-24" src="/img/IMG_2409.jpg" alt="">
-        <img class="image_grid max-sm:hidden" src="/img/IMG_2412.jpg" alt="">
+        <div class="grid max-sm:hidden grid-cols-2 gap-6 pt-24">
+            <img class="image" src="/img/IMG_2409.jpg" alt="">
+            <img class="image_grid" src="/img/IMG_2412.jpg" alt="">
+        </div>
 
+        <img class="image hidden max-sm:pt-24 max-sm:flex" src="/img/IMG_2409.jpg" alt="">
 
         <img class="image_grid hidden pb-12 max-sm:pt-2 max-sm:pb-24 pt-6 max-sm:flex" src="/img/IMG_2412.jpg" alt="">
 
@@ -1297,16 +1286,47 @@
 
         </div>
 
+        <div class="px-60 max-[1500px]:pt-6 pt-32 grid grid-cols-2 max-sm:hidden">
 
+            <div
+                class="text max-sm:hidden place-self-center text-center max-w-[80ch] pt-4 font-['Regular'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                Primer Compartimento
+                <br>
+                <br>
+                ↓
+            </div>
+            <div
+                class="text max-sm:hidden place-self-center text-center max-w-[80ch] pt-4 font-['Regular'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                Segundo Compartimento
+                <br>
+                <br>
+                ↓
+            </div>
+        </div>
 
         <div
-            class="grid grid-cols-2 gap-12 px-60 pb-32 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-32  max-sm:gap-6">
+            class="grid grid-cols-2 pt-4 gap-12 px-60 pb-32 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-32  max-sm:gap-6">
 
-            <img class="image_grid w-full h-full" src="/img/primercompartimento.png" alt="">
-            <img class="image_grid w-full h-full" src="/img/segundocompartimento.png" alt="">
+            <img class="image_grid w-full h-full" src="/img/compartimento1.png" alt="">
+            <img class="image_grid w-full h-full" src="/img/compartimento2.png" alt="">
 
-            <img class="image_grid w-full h-full" src="/img/tercercompartimento.png" alt="">
-            <img class="image_grid w-full h-full" src="/img/cuartocompartimento.png" alt="">
+            <div
+                class="text max-sm:hidden pt-12 place-self-center text-center max-w-[80ch] font-['Regular'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                Tercer Compartimento
+                <br>
+                <br>
+                ↓
+            </div>
+            <div
+                class="text max-sm:hidden pt-12 place-self-center text-center max-w-[80ch] font-['Regular'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                Cuarto Compartimento
+                <br>
+                <br>
+                ↓
+            </div>
+
+            <img class="image_grid w-full h-full" src="/img/compartimento3.png" alt="">
+            <img class="image_grid w-full h-full" src="/img/compartimento4.png" alt="">
         </div>
 
 

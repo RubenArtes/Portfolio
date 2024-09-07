@@ -140,7 +140,7 @@
         </div>
 
         <div
-            class="images max-[1500px]:px-0 pt-20 pb-12 flex flex-col gap-6 text-white justify-center content-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4 max-[1500px]:px-32  max-[800px]:px-0 max-[800px]:pt-12">
+            class="images max-[1500px]:px-0 pt-20 pb-12 flex flex-col gap-6 text-white justify-center content-center max-xl:pt-2 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4 max-[800px]:px-0 max-[800px]:pt-12">
 
             <img class="image_grid w-full h-full" src="/img/fotofinalcatalogo2.png" alt="">
             <img class="image_grid w-full h-full" src="/img/fotofinalcatalogo.png" alt="">
