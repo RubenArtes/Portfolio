@@ -332,7 +332,7 @@
 
         <div
             class="grid max-[1440px]:px-8 grid-cols-3 gap-8 max-sm:px-4 max-sm:gap-2 px-8 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-32 ">
-
+           
             <img class="image_grid w-full h-full" src="/img/combinación1.png" alt="">
             <img class="image_grid w-full h-full" src="/img/combinación2.png" alt="">
             <img class="image_grid w-full h-full" src="/img/combinación3.png" alt="">
