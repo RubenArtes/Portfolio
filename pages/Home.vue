@@ -275,16 +275,16 @@
         PÁGINAS
         NUEVAS - PÁGINAS NUEVAS
       </div>
-      <div class=" bg-red-700 text-white justify-center content-center font-['Regular'] text-[16px] max-sm:hidden">
+      <div class=" bg-red-700 text-white justify-center content-center font-['Regular'] text-[12px] max-sm:hidden">
         PÁGINAS
         NUEVAS - PÁGINAS NUEVAS - PÁGINAS NUEVAS
       </div>
-      <div class=" bg-red-700 text-white justify-center content-center font-['Regular'] text-[16px] max-sm:hidden">
+      <div class=" bg-red-700 text-white justify-center content-center font-['Regular'] text-[12px] max-sm:hidden">
         PÁGINAS
         NUEVAS -
         PÁGINAS NUEVAS - PÁGINAS NUEVAS
       </div>
-      <div class=" bg-red text-white justify-center content-center font-['Regular'] text-[16px] hidden">PÁGINAS
+      <div class=" bg-red text-white justify-center content-center font-['Regular'] text-[12px] hidden">PÁGINAS
         NUEVAS -
         PÁGINAS
         NUEVAS - PÁGINAS NUEVAS
