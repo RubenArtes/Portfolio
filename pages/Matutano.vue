@@ -175,17 +175,19 @@
         </div>
 
         <div
-        class="grid max-[1500px]:px-0 max-[1920px]:px-12 grid-cols-3 gap-2 items-center justify-items-center px-64 pb-32 max-sm:px-10 max-[1280px]:p-10 max-[800px]:grid-cols-1">
+        class="grid max-sm:gap-12 max-[1500px]:px-0 max-[1920px]:px-12 grid-cols-3 gap-2 items-center justify-items-center px-64 pb-64 max-sm:px-10 max-[1280px]:p-10 max-[800px]:grid-cols-1">
 
-            <img class="image_grid w-full h-full" src="/img/nuevoframbuesa.gif" alt="">
-            <img class="image_grid w-full h-full" src="/img/nuevoverduras.gif" alt="">
-            <img class="image_grid w-full h-full" src="/img/nuevogarbanzos.gif" alt="">
-
+            <img class="image_grid max-sm:hidden w-full h-full" src="/img/nuevoframbuesa2.gif" alt="">
+            <img class="image_grid max-sm:hidden w-full h-full" src="/img/nuevoverduras2.gif" alt="">
+            <img class="image_grid max-sm:hidden w-full h-full" src="/img/nuevogarbanzos2.gif" alt="">
+            <img class="image_grid hidden max-sm:flex w-full h-full" src="/img/nuevoframbuesa2.gif" alt="">
+            <img class="image_grid hidden max-sm:flex w-full h-full" src="/img/nuevoverduras2.gif" alt="">
+            <img class="image_grid max-sm:pb-24 hidden max-sm:flex w-full h-full" src="/img/nuevogarbanzos2.gif" alt="">
 
         </div>
 
         <div
-            class="grid grid-cols-1 gap-2 items-center justify-items-center px-64 pb-32 max-sm:px-10 max-[1280px]:p-10 max-[1500px]:px-32 ">
+            class="grid pt-24 grid-cols-1 gap-2 items-center justify-items-center px-64 pb-32 max-sm:px-10 max-[1280px]:p-10 max-[1500px]:px-32 ">
 
             <Carousel class="carousel max-w-[1200px]">
 
