@@ -27,8 +27,8 @@
         <VueScrollProgressBar background-color="#ffffff" />
 
         <div
-            class="titular2 max-sm:pt-14 flex px-64 gap-64 content-start space-between justify-center pt-20 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-[1500px]:flex-col max-[1500px]:gap-2 max-[1500px]:items-center max-[1700px]:px-10">
-            <div
+        class="titular2 flex px-64 gap-64 max-[1920px]:px-32 max-[1920px]:gap-44 content-start space-between justify-center pt-32 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-[1500px]:flex-col max-[1500px]:gap-12 max-[1500px]:items-center max-[1700px]:px-10">
+        <div
                 class="titular text-[120px] font-['PPE-Ultralight'] leading-12 font-bold animate-pulse bg-gradient-to-r bg-clip-text text-transparent animate-text max-sm:text-[55px] max-[1500px]:text-left max-[1280px]:text-[100px] from-[#ff4747] via-[#c2322d] to-[#e00d2c] ">
                 MEMBER</div>
             <div
@@ -39,7 +39,7 @@
                     ARTE FINAL - FOTOGRAFÍAS - MAQUETACIÓN - EDICIÓN -
                     Diseño Gráfico</div>
                 <div
-                    class="text max-w-[80ch] pb-16 pt-4 max-sm:text-left text-left font-['SFUIDisplay-Light'] text-[20px] text-white max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:max-w-[100ch] max-[800px]:pb-4">
+                    class="text max-w-[80ch] max-[1920px]:max-w-[70ch] pb-16 pt-4 max-sm:text-left text-left font-['SFUIDisplay-Light'] text-[20px] text-white max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:max-w-[100ch] max-[800px]:pb-4">
                     Member es un asistente virtual personal que facilita el recordado de experiencias, personas,
                     memorias y vivencias del usuario. Nace con el fin de ayudar a cualquier persona e instalarse desde
                     el nacimiento para poder ir recogiendo información. Más adelante puede ser usado con personas en
@@ -98,8 +98,8 @@
             <div class="info_proyect max-w-[80ch] max-[1920px]:max-w-[60ch]">
                 <div class="info_secondary flex flex-col gap-6 sticky top-[11rem] max-[1500px]:gap-12">
                     <div
-                        class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-white max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
-                        <p class="font-['PPE-Ultralightitalic'] max-sm:pb-2">Asistente</p> MEMBER
+                    class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-white max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
+                    <p class="font-['PPE-Ultralightitalic'] text-[35px] pb-1 max-sm:pb-2">Asistente</p> MEMBER
                     </div>
                     <div
                         class="text text-[20px] font-['SFUIDisplay-Light'] text-zinc-200 max-xl:text-sm max-[1500px]:text-[16px]">
@@ -137,8 +137,8 @@
         <div
         class="titular2 max-[1500px]:pt-32 max-[1500px]:pb-12 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-32 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
         <div
-                class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-white max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
-                <p class="font-['PPE-Ultralightitalic'] max-sm:pb-2">¿Que es</p> MEMBER?
+        class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-white max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
+        <p class="font-['PPE-Ultralightitalic'] text-[35px] pb-1 max-sm:pb-2">¿Que es</p> MEMBER?
             </div>
             <div
                 class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:px-0 max-[1280px]:p-0">
@@ -223,8 +223,8 @@
         <div
         class="titular2 max-[1500px]:pt-32 max-[1500px]:pb-12 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-32 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
-                class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-white max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
-                <p class="font-['PPE-Ultralightitalic'] max-sm:pb-2">Diferentes usos</p> LOGOTIPO
+            class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-white max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
+            <p class="font-['PPE-Ultralightitalic'] text-[35px] pb-1 max-sm:pb-2">Diferentes usos</p> LOGOTIPO
             </div>
             <div
                 class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:px-0 max-[1280px]:p-0">
@@ -272,8 +272,8 @@
         <div
         class="titular2 max-[1500px]:pt-32 max-[1500px]:pb-12 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-24 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
-                class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-white max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
-                <p class="font-['PPE-Ultralightitalic'] max-sm:pb-2">¿Para que</p> SIRVE MEMBER?
+            class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-white max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
+            <p class="font-['PPE-Ultralightitalic'] text-[35px] pb-1 max-sm:pb-2">¿Para que</p> SIRVE MEMBER?
             </div>
             <div
                 class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:px-0 max-[1280px]:p-0">
@@ -307,8 +307,8 @@
         <div
         class="titular2 max-[1500px]:pt-32 max-[1500px]:pb-12 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-[2rem] max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
-                class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-white max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
-                <p class="font-['PPE-Ultralightitalic'] max-sm:pb-2">¿Como es</p> MEMBER?
+            class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-white max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
+            <p class="font-['PPE-Ultralightitalic'] text-[35px] pb-1 max-sm:pb-2">¿Como es</p> MEMBER?
             </div>
             <div
                 class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:px-0 max-[1280px]:p-0">
@@ -450,8 +450,8 @@
         <div
         class="titular2 max-[1500px]:pt-32 max-[1500px]:pb-12 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-[2rem] max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
-                class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-white max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
-                <p class="font-['PPE-Ultralightitalic'] max-sm:pb-2">Video</p> FINAL
+            class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-white max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
+            <p class="font-['PPE-Ultralightitalic'] text-[35px] pb-1 max-sm:pb-2">Video</p> FINAL
             </div>
             <div
                 class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:px-0 max-[1280px]:p-0">
@@ -524,7 +524,7 @@
 
         <div class="px-64 max-sm:px-12 max-sm:pt-24 max-sm:pb-32 pb-12 grid place-self-center justify-items-center">
 
-            <a class="uppercase bg-gray-300 hover:bg-gray-400 text-gray-800 font-normal py-4 px-6 gap-4 inline-flex items-center rounded-lg"
+            <a class="uppercase bg-white hover:bg-black hover:text-white hover:border text-gray-800 font-normal py-4 px-6 gap-4 inline-flex items-center rounded-lg"
                 href="/img/MemoriaFinalMember_RubénMaldonado.pdf" target="_blank"
                 download="MemoriaFinalMember_RubénMaldonado.pdf">Descargar memoria del proyecto</a>
 
@@ -534,8 +534,8 @@
         <div
         class="titular2 max-[1500px]:pt-32 max-[1500px]:pb-12 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-[2rem] max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
-                class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-white max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
-                <p class="font-['PPE-Ultralightitalic'] max-sm:pb-2">Frames e</p> IMÁGENES
+            class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-white max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
+            <p class="font-['PPE-Ultralightitalic'] text-[35px] pb-1 max-sm:pb-2">Frames e</p> IMÁGENES
             </div>
             <div
                 class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:px-0 max-[1280px]:p-0">
