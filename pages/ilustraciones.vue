@@ -89,8 +89,9 @@
             <div class="info_proyect max-w-[80ch]">
                 <div class="info_secondary flex flex-col gap-6 sticky top-32 max-[1500px]:gap-12">
                     <div
-                        class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
-                        <p class="font-['PPE-Ultralightitalic'] max-sm:pb-2">Colección de</p> ILUSTRACIONES
+                        class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-[#0b0b0b] max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
+                        <p class="font-['PPE-Ultralightitalic'] text-[35px] text-zinc-500 pb-1 max-sm:pb-1">Colección de
+                        </p> ILUSTRACIONES
                     </div>
                     <div
                         class="text text-[20px] font-['SFUIDisplay-Light'] indent-12 text-zinc-900 max-w-[70ch] max-xl:text-sm max-[1500px]:text-[16px] max-[1500px]:max-w-[100ch]">
@@ -123,10 +124,11 @@
         <div
             class="images pt-2 max-[1500px]:px-12 px-64 pb-0 text-white justify-center flex flex-col gap-2 max-xl:pb-0 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
             <div id="folleto"
-                class="titular2 flex px-64 pb-12 gap-64 pt-48 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-2 max-[1500px]:px-32  max-[1500px]:gap-12 max-[1500px]:items-center max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+                class="titular2 flex px-64 pb-12 gap-64 pt-48 content-center space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-2 max-[1500px]:px-32  max-[1500px]:gap-12 max-[1500px]:items-center max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
                 <div
-                    class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
-                    CASA DE LAS CARCASAS</div>
+                    class="titular text-[35px] font-['PPE-UltralightItalic'] text-center leading-10 text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
+                    Casa de las <p class="font-['PPE-Ultralight'] text-[40px]">CARCASAS</p>
+                </div>
             </div>
 
             <div class="grid grid-cols-3 max-sm:gap-0 gap-2 max-xl:grid-cols-1">
@@ -148,10 +150,10 @@
         </div>
 
         <div
-        class="titular2 max-[1500px]:pb-2 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-46 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 max-[1500px]:pb-2 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-46 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
-                class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-lack max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
-                <p class="font-['PPE-Ultralightitalic'] max-sm:pb-2">Barbie</p> HEIMER
+                class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-[#0b0b0b] max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
+                <p class="font-['PPE-Ultralightitalic'] text-[35px] text-zinc-500 pb-1 max-sm:pb-1">Barbie</p> HEIMER
             </div>
             <div
                 class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:px-0 max-[1280px]:p-0">
@@ -199,15 +201,16 @@
         </div>
 
         <div
-        class="titular2 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-32 max-[1500px]:pb-4 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-32 max-[1500px]:pb-4 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
-                class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-lack max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
-                <p class="font-['PPE-Ultralightitalic'] max-sm:pb-2">Historia de</p> BHOWAM
+                class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-[#0b0b0b] max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
+                <p class="font-['PPE-Ultralightitalic'] text-[35px] text-zinc-500 pb-1 max-sm:pb-1">Historia de</p>
+                BHOWAM
             </div>
             <div
                 class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:px-0 max-[1280px]:p-0">
                 <div
-                    class="text max-w-[80ch] pt-0 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-900 max-sm:order-last max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                    class="text max-w-[80ch] pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-900 max-sm:order-last max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
                     Los Rai se diferencian en muy diferentes sub-etnias con más de 28
                     lenguas maternas distintas. Pero todos practican la religión Kirat (anterior
                     al budismo y al hinduismo) a través del Mundhum que es un
@@ -345,7 +348,8 @@
 
         </div>
 
-        <div class="grid max-[1500px]:px-20 max-sm:pt-12 px-64 max-sm:gap-2 max-sm:px-8 grid-cols-4 gap-12 max-xl:grid-cols-1">
+        <div
+            class="grid max-[1500px]:px-20 max-sm:pt-12 px-64 max-sm:gap-2 max-sm:px-8 grid-cols-4 gap-12 max-xl:grid-cols-1">
             <img class="image_grid w-full h-full" src="/img/isometrica6.png" alt="">
             <img class="image_grid w-full h-full" src="/img/isometrica11.png" alt="">
             <img class="image_grid w-full h-full" src="/img/isometrica7.png" alt="">
@@ -361,12 +365,14 @@
 
 
         <div
-            class="images pt-20 px-64 pb-10 text-white justify-center flex flex-col gap-2 max-xl:pb-0 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
+            class="images pt-12 max-[1500px]:px-12 px-64 pb-0 text-white justify-center flex flex-col gap-2 max-xl:pb-0 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
             <div id="folleto"
-                class="titular2 flex px-64 pb-2 gap-64 pt-48 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-2 max-[1500px]:px-32  max-[1500px]:gap-12 max-[1500px]:items-center max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+                class="titular2 flex px-64 pb-12 gap-64 pt-48 content-center space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-2 max-[1500px]:px-32  max-[1500px]:gap-12 max-[1500px]:items-center max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
                 <div
-                    class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-sm:text-30px max-sm:leading-[3rem] max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
-                    PEGATINAS ATAQUE A LOS TITANES</div>
+                    class="titular text-[35px] font-['PPE-UltralightItalic'] text-center leading-10 text-black max-sm:text-30px max-sm:leading-12 max-xl:justify-center max-sm:text-center max-sm:pt-6">
+                    Pegatinas <p class="font-['PPE-Ultralight'] text-[40px] leading-12 max-sm:leading-12 max-sm:pt-2">
+                        ATAQUE A LOS TITANES</p>
+                </div>
             </div>
 
         </div>
@@ -433,11 +439,15 @@
 
         <div
             class="grid pt-8 max-[1920px]:px-[12rem] max-[1500px]:px-12 grid-cols-3 gap-12 px-[18rem] pb-44 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-sm:hidden">
-            <a class="type text-[14px] max-[1500px]:text-[13px] invisible place-self-start pt-4 font-['Neue'] uppercase">▲ Mockup de etiquetado
+            <a
+                class="type text-[14px] max-[1500px]:text-[13px] invisible place-self-start pt-4 font-['Neue'] uppercase">▲
+                Mockup de etiquetado
                 delantero/trasero</a>
-            <a class="type text-[14px] max-[1500px]:text-[13px] place-self-start pt-4 font-['Neue'] uppercase">▲ CARTEL NO GANADOR FIESTAS
+            <a class="type text-[14px] max-[1500px]:text-[13px] place-self-start pt-4 font-['Neue'] uppercase">▲ CARTEL
+                NO GANADOR FIESTAS
                 VILLALUENGA DE LA SAGRA 2022</a>
-            <a class="type text-[14px] max-[1500px]:text-[13px] place-self-start pt-4 font-['Neue'] uppercase">▲ CARTEL NO GANADOR FIESTAS
+            <a class="type text-[14px] max-[1500px]:text-[13px] place-self-start pt-4 font-['Neue'] uppercase">▲ CARTEL
+                NO GANADOR FIESTAS
                 VILLALUENGA DE LA SAGRA 2023</a>
 
         </div>
@@ -477,10 +487,10 @@
         </div>
 
         <div
-        class="titular2 max-[1500px]:pb-2 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-46 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 max-sm:pt-32 max-[1500px]:pb-2 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pb-16 max-[1500px]:gap-46 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
-                class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-lack max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
-                <p class="font-['PPE-Ultralightitalic'] max-sm:pb-2">Pegatinas</p>PIXAR CARS
+            class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-[#0b0b0b] max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
+            <p class="font-['PPE-Ultralightitalic'] text-[35px] text-zinc-500 pb-1 max-sm:pb-1">Pegatinas</p>PIXAR CARS
             </div>
             <div
                 class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:px-0 max-[1280px]:p-0">
@@ -495,7 +505,7 @@
 
         </div>
 
-        
+
         <div
             class="colum max-sm:pt-4 pt-52 flex max-[1440px]:px-4 px-64 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-[1500px]:px-32  max-sm:px-2">
 
@@ -521,115 +531,113 @@
             </video>
 
         </div>
+
         <div
-            class="images max-[1500px]:px-6 max-sm:pt-4 pt-20 max-sm:px-2 px-64 pb-32 text-white justify-center flex flex-col gap-2 max-xl:pb-0 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
+            class="grid max-sm:pb-4 max-[1920px]:px-0 pt-24 max-[1920px]:p-24 max-[1500px]:pb-4 max-[1500px]:px-0 grid-cols-1 gap-12 px-0 pb-32 max-xl:grid-cols-1 max-xl:px-0 max-xl:pb-10 max-xl:pt-10 max-sm:gap-2">
+        <NuxtMarquee>
 
-            <div class="grid grid-cols-4 max-xl:grid-cols-2 text-black">
-                <img class="image_grid w-full h-full" src="/img/Cars1.png" alt="">
-                <img class="image_grid w-full h-full" src="/img/Cars2.png" alt="">
-                <img class="image_grid w-full h-full" src="/img/Cars3.png" alt="">
-                <img class="image_grid w-full h-full" src="/img/Cars4.png" alt="">
-
-                <a class="text justify-center text-[#A5A9F4] text-center mb-20 max-xl:hidden">Guido Quaroni</a>
-                <a class="text justify-center text-[#F9DA81] text-center max-xl:hidden">Luigi</a>
-                <a class="text justify-center text-[#F99A46] text-center max-xl:hidden">Miss Fractura</a>
-                <a class="text justify-center text-[#B6D29A] text-center max-xl:hidden">Fillmore</a>
-
-                <img class="image_grid w-full h-full" src="/img/Cars5.png" alt="">
-                <img class="image_grid w-full h-full" src="/img/Cars6.png" alt="">
-                <img class="image_grid w-full h-full" src="/img/Cars7.png" alt="">
-                <img class="image_grid w-full h-full" src="/img/Cars8.png" alt="">
-
-                <a class="text justify-center text-[#96313b] text-center mb-20 max-xl:hidden">Rayo McQueen</a>
-                <a class="text justify-center text-[#79a63d] text-center max-xl:hidden">Chick Hicks</a>
-                <a class="text justify-center text-[#23A1EF] text-center max-xl:hidden">Strip Weathers</a>
-                <a class="text justify-center text-[#FEC557] text-center max-xl:hidden">Copa Piston</a>
-
-            </div>
-            <div class="grid grid-cols-4 mb-20 max-xl:grid-cols-2 text-black">
-                <img class="image_grid col-start-2 w-full h-full max-xl:col-start-1" src="/img/Cars9.png" alt="">
-                <img class="image_grid w-full h-full" src="/img/Cars10.png" alt="">
-
-                <a class="text justify-center text-center mb-20 max-xl:hidden"></a>
-                <a class="text justify-center text-center max-xl:hidden"></a>
-                <a class="text justify-center text-[#EE885F] text-center max-xl:hidden">Mate</a>
-                <a class="text justify-center text-[#373D83] text-center max-xl:hidden">Doc Hudson Hornet</a>
-
-            </div>
-
+            <img class="image_grid max-sm:w-[250px] w-[500px] h-full" src="/img/cars1.png" alt="">
+            <img class="image_grid max-sm:w-[250px] w-[500px] h-full" src="/img/cars2.png" alt="">
+            <img class="image_grid max-sm:w-[250px] w-[500px] h-full" src="/img/cars3.png" alt="">
+            <img class="image_grid max-sm:w-[250px] w-[500px] h-full" src="/img/cars4.png" alt="">
+            <img class="image_grid max-sm:w-[250px] w-[500px] h-full" src="/img/cars5.png" alt="">
+            <img class="image_grid max-sm:w-[250px] w-[500px] h-full" src="/img/cars6.png" alt="">
+            <img class="image_grid max-sm:w-[250px] w-[500px] h-full" src="/img/cars7.png" alt="">
+            <img class="image_grid max-sm:w-[250px] w-[500px] h-full" src="/img/cars8.png" alt="">
+            <img class="image_grid max-sm:w-[250px] w-[500px] h-full" src="/img/cars9.png" alt="">
+            <img class="image_grid max-sm:w-[250px] w-[500px] h-full" src="/img/cars10.png" alt="">
+        </NuxtMarquee>
 
         </div>
 
-
-
-
         <div
-            class="trabajos flex pt-10 pl-40 pr-40 pb-10 text-zinc-600 flex-col gap-10 justify-center items-center max-xl:pt-6 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
-            <div class="titular text-[16px] font-normal flex flex-start items-center max-xl:text-xs">Programas
-                utilizados
-                para este
-                proyecto</div>
-            <div class="programas flex flex-col items-center">
-                <div class="three_programas flex gap-10">
-                    <img class="image_logo w-[40px] rounded-lg opacity-100 hover:opacity-60 max-xl:max-w-[30px] max-xl:max-h-[29px]"
-                        src="/img/Procreate.png" alt="">
-                    <img class="image_logo w-[40px] opacity-100 hover:opacity-60 max-xl:max-w-[30px]"
-                        src="/img/Illustrator.svg" alt="">
-                    <img class="image_logo w-[40px] opacity-100 hover:opacity-60 max-xl:max-w-[30px]"
-                        src="/img/Photoshop.svg" alt="">
+            class="grid max-sm:pt-4 max-sm:pb-24 max-[1500px]:pb-44 max-[1500px]:px-0 grid-cols-1 pt-0 gap-12 px-0 pb-64 max-xl:grid-cols-1 max-xl:px-0 max-xl:pb-10 max-xl:pt-10 max-sm:gap-2">
 
-                </div>
-            </div>
+            <NuxtMarquee>
+                <a class="text text-[#A5A9F4] max-sm:w-[250px] text-center w-[500px]">Guido Quaroni</a>
+                <a class="text text-[#F9DA81] max-sm:w-[250px] text-center w-[500px]">Luigi</a>
+                <a class="text text-[#F99A46] max-sm:w-[250px] text-center w-[500px]">Miss Fractura</a>
+                <a class="text text-[#B6D29A] max-sm:w-[250px] text-center w-[500px]">Fillmore</a>
+                <a class="text text-[#96313b] max-sm:w-[250px] text-center w-[500px]">Rayo McQueen</a>
+                <a class="text text-[#79a63d] max-sm:w-[250px] text-center w-[500px]">Chick Hicks</a>
+                <a class="text text-[#23A1EF] max-sm:w-[250px] text-center w-[500px]">Strip Weathers</a>
+                <a class="text text-[#FEC557] max-sm:w-[250px] text-center w-[500px]">Copa Piston</a>
+                <a class="text text-[#EE885F] max-sm:w-[250px] text-center w-[500px]">Mate</a>
+                <a class="text text-[#373D83] max-sm:w-[250px] text-center w-[500px]">Doc Hudson Hornet</a>
+            </NuxtMarquee>
         </div>
 
+    </div>
 
 
-        <div
-            class="links_rrss pt-32 px-80 pb-32 text-black justify-center flex flex-row gap-60 max-xl:pt-20 max-xl:px-10 max-xl:flex-col max-xl:justify-items-center max-xl:gap-20 max-xl:flex max-xl:justify-center max-xl:pb-20">
-            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado."
-                target="_blank" class="email text-lg flex gap-2 items-center max-xl:text-[14px] max-xl:justify-center">
-                ruben.maldonado.graphic@gmail.com
-                <img class="vector" src="/img/Vector-11black.svg">
-            </a>
-            <div class="links flex flex-col gap-2">
-                <div class="links1 flex gap-32 max-xl:justify-center">
-                    <a class="red flex gap-2 items-center max-xl:text-[14px]"
-                        href="https://www.instagram.com/ruben.artes/">Instagram
-                        <img class="vector" src="/img/Vector-11zinc.svg">
-                    </a>
-                    <a class="red flex gap-2 items-center max-xl:text-[14px]"
-                        href="https://www.behance.net/rubenartes">Behance
-                        <img class="vector" src="/img/Vector-11zinc.svg">
-                    </a>
-                </div>
-                <div class="links2 flex gap-32 flex-end max-xl:justify-center">
-                    <a class="red flex gap-2 items-center max-xl:text-[14px]"
-                        href="https://www.instagram.com/ruben.iso">Instagram
-                        <img class="vector" src="/img/Vector-11zinc.svg">
 
-                    </a> <a class="red flex gap-2 items-center max-xl:text-[14px]"
-                        href="https://www.linkedin.com/in/rubenmaldonado10">LinkedIn
-                        <img class="vector" src="/img/Vector-11zinc.svg">
-                    </a>
-                </div>
+
+    <div
+        class="trabajos flex pt-10 pl-40 pr-40 pb-10 text-zinc-600 flex-col gap-10 justify-center items-center max-xl:pt-6 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
+        <div class="titular text-[16px] font-normal flex flex-start items-center max-xl:text-xs">Programas
+            utilizados
+            para este
+            proyecto</div>
+        <div class="programas flex flex-col items-center">
+            <div class="three_programas flex gap-10">
+                <img class="image_logo w-[40px] rounded-lg opacity-100 hover:opacity-60 max-xl:max-w-[30px] max-xl:max-h-[29px]"
+                    src="/img/Procreate.png" alt="">
+                <img class="image_logo w-[40px] opacity-100 hover:opacity-60 max-xl:max-w-[30px]"
+                    src="/img/Illustrator.svg" alt="">
+                <img class="image_logo w-[40px] opacity-100 hover:opacity-60 max-xl:max-w-[30px]"
+                    src="/img/Photoshop.svg" alt="">
+
             </div>
-
         </div>
+    </div>
 
-        <div class="foter bg-white p-10 flex text-black justify-between sticky top-0 max-xl:p-6">
-            <div class="foter_image flex flex-start">
-                <NuxtLink to="/">
-                    <img class="vector max-xl:max-w-[15px]" src="/img/starzinc.svg">
-                </NuxtLink>
+
+
+    <div
+        class="links_rrss pt-32 px-80 pb-32 text-black justify-center flex flex-row gap-60 max-xl:pt-20 max-xl:px-10 max-xl:flex-col max-xl:justify-items-center max-xl:gap-20 max-xl:flex max-xl:justify-center max-xl:pb-20">
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado."
+            target="_blank" class="email text-lg flex gap-2 items-center max-xl:text-[14px] max-xl:justify-center">
+            ruben.maldonado.graphic@gmail.com
+            <img class="vector" src="/img/Vector-11black.svg">
+        </a>
+        <div class="links flex flex-col gap-2">
+            <div class="links1 flex gap-32 max-xl:justify-center">
+                <a class="red flex gap-2 items-center max-xl:text-[14px]"
+                    href="https://www.instagram.com/ruben.artes/">Instagram
+                    <img class="vector" src="/img/Vector-11zinc.svg">
+                </a>
+                <a class="red flex gap-2 items-center max-xl:text-[14px]"
+                    href="https://www.behance.net/rubenartes">Behance
+                    <img class="vector" src="/img/Vector-11zinc.svg">
+                </a>
             </div>
-            <div class="email flex gap-2 items-center text-sm max-xl:text-xs">Ruben Maldonado González
-                <NuxtLink to="/">
-                    <img class="vector max-xl:max-w-[15px]" src="/img/futbolzinc.svg">
-                </NuxtLink>
+            <div class="links2 flex gap-32 flex-end max-xl:justify-center">
+                <a class="red flex gap-2 items-center max-xl:text-[14px]"
+                    href="https://www.instagram.com/ruben.iso">Instagram
+                    <img class="vector" src="/img/Vector-11zinc.svg">
+
+                </a> <a class="red flex gap-2 items-center max-xl:text-[14px]"
+                    href="https://www.linkedin.com/in/rubenmaldonado10">LinkedIn
+                    <img class="vector" src="/img/Vector-11zinc.svg">
+                </a>
             </div>
         </div>
 
     </div>
+
+    <div class="foter bg-white p-10 flex text-black justify-between sticky top-0 max-xl:p-6">
+        <div class="foter_image flex flex-start">
+            <NuxtLink to="/">
+                <img class="vector max-xl:max-w-[15px]" src="/img/starzinc.svg">
+            </NuxtLink>
+        </div>
+        <div class="email flex gap-2 items-center text-sm max-xl:text-xs">Ruben Maldonado González
+            <NuxtLink to="/">
+                <img class="vector max-xl:max-w-[15px]" src="/img/futbolzinc.svg">
+            </NuxtLink>
+        </div>
+    </div>
+
 </template>
 
 <script>

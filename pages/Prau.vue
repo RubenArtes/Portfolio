@@ -98,7 +98,7 @@
                 <div class="info_secondary flex flex-col gap-6 sticky top-32 max-[1500px]:gap-12">
                     <div
                         class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-[#243673] max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
-                        <p class="font-['PPE-Ultralightitalic'] text-[35px] pb-1 max-sm:pb-2">Vinos Prau</p> MARCA KM0
+                        <p class="font-['PPE-Ultralightitalic'] text-[35px] pb-1 max-sm:pb-1">Vinos Prau</p> MARCA KM0
                     </div>
                     <div
                         class="text text-[20px] font-['SFUIDisplay-Light'] indent-12 text-zinc-900 max-w-[70ch] max-xl:text-sm max-[1500px]:text-[16px] max-[1500px]:max-w-[100ch]">
@@ -145,7 +145,7 @@
             class="titular2 max-[1500px]:pt-32 max-[1500px]:pb-12 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-32 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-[#0b0b0b] max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
-                <p class="font-['PPE-Ultralightitalic'] text-[35px] text-zinc-500 pb-1 max-sm:pb-2">Mermeladas</p> DE NARANJA
+                <p class="font-['PPE-Ultralightitalic'] text-[35px] text-zinc-500 pb-1 max-sm:pb-1">Mermeladas</p> DE NARANJA
             </div>
             <div
                 class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:px-0 max-[1280px]:p-0">
@@ -195,7 +195,7 @@
             class="titular2 max-[1500px]:pt-32 max-[1500px]:pb-12 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-32 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-[#0b0b0b] max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
-                <p class="font-['PPE-Ultralightitalic'] text-[35px] text-zinc-500 pb-1 max-sm:pb-2">Etiq. Vino</p> CLARETE
+                <p class="font-['PPE-Ultralightitalic'] text-[35px] text-zinc-500 pb-1 max-sm:pb-1">Etiq. Vino</p> CLARETE
             </div>
             <div
                 class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[1280px]:p-0">
@@ -227,8 +227,8 @@
             <img class="image_grid w-full h-full max-sm:hidden" src="/img/vinospng2.png" alt="">
         </div>
 
-        <img class="image_grid w-full h-full pb-12 min-[800px]:hidden max-sm:flex" src="/img/botella1.png" alt="">
-        <img class="image_grid w-full h-full min-[800px]:hidden max-sm:flex" src="/img/botella2.png" alt="">
+        <img class="image_grid w-full max-sm:px-12 h-full pb-12 min-[800px]:hidden max-sm:flex" src="/img/botella1.png" alt="">
+        <img class="image_grid w-full max-sm:px-12 max-sm:pt-12 max-sm:pb-24 h-full min-[800px]:hidden max-sm:flex" src="/img/botella2.png" alt="">
 
         <div
             class="grid max-[1440px]:px-8 grid-cols-3 gap-8  px-8 pb-32 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-32  max-sm:hidden">
@@ -239,14 +239,14 @@
             class="titular2 max-[1500px]:pt-32 max-[1500px]:pb-12 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-32 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-32 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-[#0b0b0b] max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
-                <p class="font-['PPE-Ultralightitalic'] text-[35px] text-zinc-500 pb-1 max-sm:pb-2">Etiq. Queso</p> DE CABRA
+                <p class="font-['PPE-Ultralightitalic'] text-[35px] text-zinc-500 pb-1 max-sm:pb-1">Etiq. Queso</p> DE CABRA
             </div>
             <div
                 class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[1280px]:p-0">
 
                 <div
                     class="text max-w-[60ch] text-[16px] uppercase text-zinc-900 max-xl:leading-2 max-xl:text-xs max-xl:text-center max-[1280px]:text-left">
-                    <a class="type text-[#311568]">LA MARCA DE VINO KM0</a>
+                    <a class="type text-[#a58d66]">QUESOS 100% NATURALES DE CABRA</a>
                 </div>
                 <div
                     class="text max-w-[80ch] pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
@@ -301,13 +301,13 @@
             class="titular2 max-sm:pt-24 max-[1500px]:pt-32 max-[1500px]:pb-12 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pb-16 max-[1500px]:gap-32 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-[#0b0b0b] max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
-                <p class="font-['PPE-Ultralightitalic'] text-[35px] text-zinc-500 pb-1 max-sm:pb-2">Construcción</p> DE MARCA
+                <p class="font-['PPE-Ultralightitalic'] text-[35px] text-zinc-500 pb-1 max-sm:pb-1">Construcción</p> DE MARCA
             </div>
             <div
                 class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:px-0 max-[1280px]:p-0">
 
                 <div
-                    class="text max-w-[60ch] text-[16px] uppercase text-zinc-900 max-xl:leading-2 max-xl:text-xs max-xl:text-center max-sm:order-last max-[1280px]:text-left">
+                    class="text max-w-[60ch] text-[16px] uppercase text-zinc-900 max-xl:leading-2 max-xl:text-xs max-xl:text-center max-[1280px]:text-left">
                     <a class="type text">LOGOTIPO PRINCIPAL CON DIFERENTES DESCRIPTORES</a>
                 </div>
                 <div
@@ -348,29 +348,25 @@
         </div>
 
         <div
-            class="titular2 max-[1500px]:pt-32 max-[1500px]:pb-12 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-32 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 max-sm:pt-24 max-[1500px]:pt-32 max-[1500px]:pb-12 max-[1500px]:px-32 flex px-64 pb-24 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pb-16 max-[1500px]:gap-32 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-[#0b0b0b] max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
-                <p class="font-['PPE-Ultralightitalic'] text-[35px] text-zinc-500 pb-1 max-sm:pb-2">Iustraciones</p> FINALES
+                <p class="font-['PPE-Ultralightitalic'] text-[35px] text-zinc-500 pb-1 max-sm:pb-1">Ilustraciones</p> FINALES
             </div>
             <div
                 class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:px-0 max-[1280px]:p-0">
 
                 <div
-                    class="text max-w-[60ch] text-[16px] uppercase text-zinc-900 max-xl:leading-2 max-xl:text-xs max-xl:text-center max-sm:order-last max-[1280px]:text-left">
+                    class="text max-w-[60ch] text-[16px] uppercase text-zinc-900 max-xl:leading-2 max-xl:text-xs max-xl:text-center max-[1280px]:text-left">
                     <a class="type text">ILUSTRACIONES PARA CADA UNA DE LAS ETIQUETAS</a>
                 </div>
                 <div
                     class="text max-w-[80ch] pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
                     Ilustraciones creadas para cada uno de los
                     packaging
-                    mediante ilustración digital.
-                    <br> <br>
-                    → Vinos - Uvas
-                    <br>
-                    → Mermelada - Fruta seleccionada
-                    <br>
-                    → Queso de cabra - Cabra
+                    mediante ilustración digital. La etiqueta de vino representada con una ilustración de las propias uvas. 
+                    Para la mermelada se hace una ilustración de la fruta seleccionada. Y en el queso se representa el animal de procedencia
+                    en este caso la cabra.
                 </div>
 
             </div>
@@ -378,9 +374,17 @@
         </div>
 
         <div
-            class="grid max-[1500px]:px-24 grid-cols-1 gap-0 items-center justify-items-center px-64 pb-32 max-sm:px-6 max-sm:pt-2 max-sm:pb-24 max-[1280px]:p-10 max-sm:grid-cols-1">
+            class="grid max-sm:hidden max-[1920px]:px-12 max-[1500px]:px-24 grid-cols-1 gap-0 items-center justify-items-center px-64 pb-32 max-sm:px-6 max-sm:pt-2 max-sm:pb-24 max-[1280px]:p-10 max-sm:grid-cols-1">
 
-            <img class="image_grid w-full h-full " src="/img/ilustracionesfinales1.png" alt="">
+            <img class="image_grid w-full h-full " src="/img/ilustraciones444.png" alt="">
+
+
+        </div>
+
+        <div
+            class="hidden max-sm:grid max-[1920px]:px-12 max-[1500px]:px-24 grid-cols-1 gap-0 items-center justify-items-center px-64 pb-32 max-sm:px-6 max-sm:pt-2 max-sm:pb-24 max-[1280px]:p-10 max-sm:grid-cols-1">
+
+            <img class="image_grid w-full h-full " src="/img/ilustraciones33.png" alt="">
 
 
         </div>

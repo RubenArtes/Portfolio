@@ -33,7 +33,7 @@
 
     <!-- Botón flotante -->
     <a href="#inicio"
-      class="fixed max-sm:hidden right-0 top-1/2 transform -translate-y-1/2 text-[70px] z-50 uppercase font-bold text-black tracking-widest px-7 py-4 transition-all duration-300 ease-in-out hover:translate-y-[-7px]">
+      class="fixed max-sm:hidden mix-blend-exclusion right-0 top-1/2 transform -translate-y-1/2 text-[70px] z-50 uppercase font-bold text-white tracking-widest px-7 py-4 transition-all duration-300 ease-in-out hover:translate-y-[-7px]">
       ↑
     </a>
 
