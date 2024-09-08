@@ -213,7 +213,7 @@
       «Baja para ver los trabajos y clickea sobre uno para saber más sobre el»
     </div>
 
-    <div
+    <div 
       class="grid grid-flow-cols grid-cols-1 text-center max-[1450px]:grid-cols-1 animate-pulse max-[1920px]:grid-cols-1 max-sm:grid-cols-1">
 
       <div
@@ -229,7 +229,7 @@
     </div>
 
     <NuxtLink class="max-sm:hidden" to="/CajaOporto">
-      <div
+      <div 
         class="trabajo1 border border-solid border-r-1 border-t-0 border-b-0 px-20 py-32 flex flex-col justify-center hover:bg-[url('/img/libroimpreso.webp')] hover:text-white bg-cover bg-center max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
         <div
           class="text text-center text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
@@ -820,7 +820,7 @@
     </div>
 
 
-    <div
+    <div data-aos="fade-up" data-aos-duration="2000"
       class="flex pt-32 px-40 pb-40 border-t-0 border-r-0 border-l-0 text-black flex-col gap-20 border border-b-1 items-center justify-center max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-14">
       <div class="titular flex text-[72px] font-normal max-lg:text-[60px] font-['PPE-Ultralight']">
         APPS
@@ -887,7 +887,7 @@
       </div>
     </div>
 
-    <div id="servicios"
+    <div id="servicios" data-aos="fade-up" data-aos-duration="2000"
       class="trabajos flex pt-32 pl-40 pr-40 pb-40 border border-b-1 border-t-0 border-r-0 border-l-0 text-black flex-nowrap gap-60 justify-center max-lg:pt-20 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20">
       <div class="sticky_menu">
         <div
@@ -988,7 +988,7 @@
       </div>
     </div>
 
-    <div id="sobremi"
+    <div id="sobremi" data-aos="fade-up" data-aos-duration="2000"
       class="trabajos flex pt-32 pl-40 pr-40 pb-40 border border-b-1 border-t-0 border-r-0 border-l-0 text-black flex-nowrap gap-60 justify-center max-lg:pt-20 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20">
       <div class="sticky_menu">
         <div
@@ -1017,7 +1017,8 @@
         </div>
       </div>
     </div>
-    <div
+
+    <div data-aos="fade-up" data-aos-duration="2000"
       class="trabajos flex pt-32 pl-40 pr-40 pb-20 border-t-0 border-r-0 border-l-0 text-black flex-nowrap gap-60 justify-center max-lg:pt-20 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20">
       <div class="sticky_menu">
         <div
@@ -1059,7 +1060,7 @@
       </div>
     </div>
 
-    <div
+    <div data-aos="fade-up" data-aos-duration="2000"
       class="trabajos flex pt-32 pl-40 pr-40 pb-40 text-black flex-nowrap gap-60 justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20">
       <div class="sticky_menu">
         <div
@@ -1111,7 +1112,7 @@
       </div>
     </div>
 
-    <div
+    <div 
       class="trabajos flex pt-32 pl-40 pr-40 pb-40 bg-black text-white flex-nowrap gap-72 justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-6 max-sm:pb-12 max-sm:pt-16 border-black">
       <div class="sticky_menu">
         <div

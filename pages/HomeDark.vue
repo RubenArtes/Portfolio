@@ -1,5 +1,5 @@
 <template>
-  <div class="app bg-black font-['SFUIDisplay-Light']">
+  <div id="inicio" class="inicio bg-black font-['SFUIDisplay-Light']">
     <Cursor class="max-sm:hidden" />
     <div
       class="header bg-black p-10 border-r-0 border-l-0 border-t-0 px-24 text-white grid grid-cols-3 sticky top-0 z-10 max-lg:p-6 max-lg:sticky max-sm:flex max-sm:justify-between">
@@ -813,7 +813,7 @@
     </div>
 
 
-    <div
+    <div data-aos="fade-up" data-aos-duration="2000"
       class="flex pt-32 px-40 pb-40 border-t-0 border-r-0 border-l-0 text-white flex-col gap-20 border border-b-1 items-center justify-center max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-14">
       <div class="titular flex text-[72px] font-normal max-lg:text-[60px] font-['PPE-Ultralight']">
         APPS
@@ -838,7 +838,7 @@
 
         </div>
 
-        <div
+        <div 
           class="three_programas grid-cols-3 max-sm:gap-16 grid justify-center gap-8 place-items-center max-sm:grid-cols-3 max-lg:grid-cols-3 max-lg:grid max-lg:gap-8">
           <img class="image_logo max-w-[50px] max-lg:max-w-[50px] max-sm:w-[40px]" src="/img/InDesign.svg" alt="" />
           <img class="image_logo max-w-[50px] max-lg:max-w-[50px] max-sm:w-[40px]" src="/img/Illustrator.svg" alt="" />
@@ -880,7 +880,7 @@
       </div>
     </div>
 
-    <div id="servicios"
+    <div id="servicios" data-aos="fade-up" data-aos-duration="2000"
       class="trabajos flex pt-32 pl-40 pr-40 pb-40 border border-b-1 border-t-0 border-r-0 border-l-0 text-white flex-nowrap gap-60 justify-center max-lg:pt-20 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20">
       <div class="sticky_menu">
         <div
@@ -981,7 +981,7 @@
       </div>
     </div>
 
-    <div id="sobremi"
+    <div id="sobremi" data-aos="fade-up" data-aos-duration="2000"
       class="trabajos flex pt-32 pl-40 pr-40 pb-40 border border-b-1 border-t-0 border-r-0 border-l-0 text-white flex-nowrap gap-60 justify-center max-lg:pt-20 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20">
       <div class="sticky_menu">
         <div
@@ -1010,7 +1010,7 @@
         </div>
       </div>
     </div>
-    <div
+    <div data-aos="fade-up" data-aos-duration="2000"
       class="trabajos flex pt-32 pl-40 pr-40 pb-20 border-t-0 border-r-0 border-l-0 text-white flex-nowrap gap-60 justify-center max-lg:pt-20 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20">
       <div class="sticky_menu">
         <div
@@ -1052,7 +1052,7 @@
       </div>
     </div>
 
-    <div
+    <div data-aos="fade-up" data-aos-duration="2000"
       class="trabajos flex pt-32 pl-40 pr-40 pb-40 text-white flex-nowrap gap-60 justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20">
       <div class="sticky_menu">
         <div
