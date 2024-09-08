@@ -20,19 +20,24 @@
             class="colum max-sm:hidden divide-x-1 grid grid-cols-2 pb-10 text-white justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center">
             <div class="div1 pt-2 border border-zinc-200 border-t-0 border-l-0 border-r-0 border-b-0">
                 <div
-                    class="info_secondary max-[1500px]:px-24 max-[1500px]:pt-12 max-[1500px]:pb-32 z-20 bg-black border border-t-0 border-r-0 border-l-0 max-[1920px]:px-[12rem] px-[22rem] pb-52 place-items-start pt-32 flex flex-col gap-6 sticky top-32 max-[1500px]:gap-12">
+                    class="info_secondary max-[1500px]:px-24 max-[1500px]:pt-12 max-[1500px]:pb-32 z-20 bg-black border border-t-0 border-r-0 border-l-0 max-[1920px]:px-[12rem] px-[17rem] pb-44 place-items-start pt-32 flex flex-col gap-6 sticky top-32 max-[1500px]:gap-12">
                     <div
-                        class="titular max-[1500px]:text-[50px] text-[60px] font-['PPE-Ultralight'] leading-12 font-bold text-[#da2e2e] max-sm:text-[55px] max-[1500px]:text-left max-[1280px]:text-[100px]">
+                        class="titular max-[1500px]:text-[50px] text-[30px] font-['PPE-UltralightItalic'] leading-3 font-normal text-[#f1f1f1] max-sm:text-[55px] max-[1500px]:text-left max-[1280px]:text-[100px]">
+                        Colección</div>
+                    <div
+                        class="titular max-[1500px]:text-[50px] text-[50px] font-['PPE-Ultralight'] leading-8 font-normal text-[#da2e2e] max-sm:text-[55px] max-[1500px]:text-left max-[1280px]:text-[100px]">
                         BODEGÓN</div>
                     <div
-                    class="text max-[1500px]:text-[12px] max-w-[60ch] text-[16px] text-start uppercase text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
+                        class="text max-[1500px]:text-[12px] max-w-[60ch] text-[16px] text-start uppercase text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
                         FOTOGRAFÍAS - JUNIO 2023 - ASIGNATURA FOTOGRAFÍA - BODEGÓN</div>
                     <div
-                    class="text text-[17px] font-['SFUIDisplay-Light'] text-white max-xl:text-sm max-[1500px]:text-[14px] max-[1500px]:max-w-[100ch]">
+                        class="text text-[16px] font-['SFUIDisplay-Light'] text-white max-xl:text-sm max-[1500px]:text-[14px] max-[1500px]:max-w-[100ch]">
                         Fotografías en
-                estudio de bodegones
-                con diferentes temáticas. Utilización de focos y flashes. Demostración de destreza y manejo de elementos de estudio.
-                Realización de fotografía estilo Romanticismo, con globos dorados, sangre (colorante rojo) y tomates. Fotografías a copas de cristal.
+                        estudio de bodegones
+                        con diferentes temáticas. Utilización de focos y flashes. Demostración de destreza y manejo de
+                        elementos de estudio.
+                        Realización de fotografía estilo Romanticismo, con globos dorados, sangre (colorante rojo) y
+                        tomates. Fotografías a copas de cristal.
 
 
                     </div>
@@ -76,11 +81,11 @@
                 <div
                     class="text max-w-[60ch] text-[16px] uppercase text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
                     FOTOGRAFÍAS - JUNIO 2023 - ASIGNATURA FOTOGRAFÍA - BODEGÓN</div>
-                    <div
+                <div
                     class="text max-w-[80ch] pb-16 pt-4 max-sm:text-left text-left font-['SFUIDisplay-Light'] text-[20px] text-white max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:max-w-[100ch] max-[800px]:pb-4">
                     Fotografías en
-                estudio de bodegones
-                con diferentes temáticas. Utilización de focos y flashes.
+                    estudio de bodegones
+                    con diferentes temáticas. Utilización de focos y flashes.
 
                 </div>
 
@@ -92,13 +97,13 @@
         <div class="max-sm:grid max-sm:gap-4 max-sm:grid-cols-1 max-sm:pb-12 max-sm:px-4 hidden">
 
             <img class="image_grid" src="/img/finallibre.jpg" alt="">
-                <img class="image_grid" src="/img/finallibre2.jpg" alt="">
-                <img class="image_grid" src="/img/finallibre3.jpg" alt="">
-                <img class="image_grid" src="/img/finallibre4.jpg" alt="">
-                <img class="image_grid" src="/img/finallibre5.jpg" alt="">
-                <img class="image_grid" src="/img/finallibre6.jpg" alt="">
-                <img class="image_grid" src="/img/finalcristal2.jpg" alt="">
-                <img class="image_grid" src="/img/finalcristal.jpg" alt="">
+            <img class="image_grid" src="/img/finallibre2.jpg" alt="">
+            <img class="image_grid" src="/img/finallibre3.jpg" alt="">
+            <img class="image_grid" src="/img/finallibre4.jpg" alt="">
+            <img class="image_grid" src="/img/finallibre5.jpg" alt="">
+            <img class="image_grid" src="/img/finallibre6.jpg" alt="">
+            <img class="image_grid" src="/img/finalcristal2.jpg" alt="">
+            <img class="image_grid" src="/img/finalcristal.jpg" alt="">
 
 
 
