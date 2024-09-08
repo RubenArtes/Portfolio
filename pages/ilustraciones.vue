@@ -490,7 +490,7 @@
             class="titular2 max-sm:pt-32 max-[1500px]:pb-2 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pb-16 max-[1500px]:gap-46 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
             class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-[#0b0b0b] max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
-            <p class="font-['PPE-Ultralightitalic'] text-[35px] text-zinc-500 pb-1 max-sm:pb-1">Pegatinas</p>PIXAR CARS
+            <p class="font-['PPE-Ultralightitalic'] text-[35px] text-zinc-500 pb-1 max-sm:pb-1">Pegatinas</p>PIXAR Cars
             </div>
             <div
                 class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:px-0 max-[1280px]:p-0">
@@ -536,16 +536,16 @@
             class="grid max-sm:pb-4 max-[1920px]:px-0 pt-24 max-[1920px]:p-24 max-[1500px]:pb-4 max-[1500px]:px-0 grid-cols-1 gap-12 px-0 pb-32 max-xl:grid-cols-1 max-xl:px-0 max-xl:pb-10 max-xl:pt-10 max-sm:gap-2">
         <NuxtMarquee>
 
-            <img class="image_grid max-sm:w-[250px] w-[500px] h-full" src="/img/cars1.png" alt="">
-            <img class="image_grid max-sm:w-[250px] w-[500px] h-full" src="/img/cars2.png" alt="">
-            <img class="image_grid max-sm:w-[250px] w-[500px] h-full" src="/img/cars3.png" alt="">
-            <img class="image_grid max-sm:w-[250px] w-[500px] h-full" src="/img/cars4.png" alt="">
-            <img class="image_grid max-sm:w-[250px] w-[500px] h-full" src="/img/cars5.png" alt="">
-            <img class="image_grid max-sm:w-[250px] w-[500px] h-full" src="/img/cars6.png" alt="">
-            <img class="image_grid max-sm:w-[250px] w-[500px] h-full" src="/img/cars7.png" alt="">
-            <img class="image_grid max-sm:w-[250px] w-[500px] h-full" src="/img/cars8.png" alt="">
-            <img class="image_grid max-sm:w-[250px] w-[500px] h-full" src="/img/cars9.png" alt="">
-            <img class="image_grid max-sm:w-[250px] w-[500px] h-full" src="/img/cars10.png" alt="">
+            <img class="image_grid max-sm:w-[250px] w-[500px] h-full" src="/img/Cars1.png" alt="">
+            <img class="image_grid max-sm:w-[250px] w-[500px] h-full" src="/img/Cars2.png" alt="">
+            <img class="image_grid max-sm:w-[250px] w-[500px] h-full" src="/img/Cars3.png" alt="">
+            <img class="image_grid max-sm:w-[250px] w-[500px] h-full" src="/img/Cars4.png" alt="">
+            <img class="image_grid max-sm:w-[250px] w-[500px] h-full" src="/img/Cars5.png" alt="">
+            <img class="image_grid max-sm:w-[250px] w-[500px] h-full" src="/img/Cars6.png" alt="">
+            <img class="image_grid max-sm:w-[250px] w-[500px] h-full" src="/img/Cars7.png" alt="">
+            <img class="image_grid max-sm:w-[250px] w-[500px] h-full" src="/img/Cars8.png" alt="">
+            <img class="image_grid max-sm:w-[250px] w-[500px] h-full" src="/img/Cars9.png" alt="">
+            <img class="image_grid max-sm:w-[250px] w-[500px] h-full" src="/img/Cars10.png" alt="">
         </NuxtMarquee>
 
         </div>
