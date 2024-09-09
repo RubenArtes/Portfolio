@@ -87,8 +87,8 @@
         </div>
         <VueScrollProgressBar background-color="#52525B" />
         <div id="navegacion"
-        class="titular2 flex px-64 gap-64 max-[1920px]:px-32 max-[1920px]:gap-32 content-start space-between justify-center pt-32 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-[1500px]:flex-col max-[1500px]:gap-2 max-[1500px]:items-center max-[1700px]:px-10">
-        <div
+            class="titular2 flex px-64 gap-64 max-[1920px]:px-32 max-[1920px]:gap-32 content-start space-between justify-center pt-32 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-[1500px]:flex-col max-[1500px]:gap-2 max-[1500px]:items-center max-[1700px]:px-10">
+            <div
                 class="titular text-[120px] font-['PPE-Ultralight'] leading-12 font-bold animate-pulse bg-gradient-to-r bg-clip-text text-transparent animate-text max-sm:text-[55px] max-[1500px]:text-left max-[1280px]:text-[100px] from-[#311568] via-[#4797ff] to-[#311568]  ">
                 OPORTO</div>
             <div
@@ -150,8 +150,8 @@
 
 
         </div>
-        <div
-        data-aos="fade-up"  data-aos-duration="2000" class="colum max-[1500px]:px-32 flex pt-20 px-64 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center">
+        <div data-aos="fade-up" data-aos-duration="2000"
+            class="colum max-[1500px]:px-32 flex pt-20 px-64 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center">
             <div class="info_proyect max-w-[80ch]">
                 <div class="info_secondary flex flex-col gap-6 sticky top-48 max-[1500px]:gap-12">
                     <div
@@ -198,7 +198,7 @@
         </div>
 
 
-        <div id="primercompartimento" data-aos="fade-up"  data-aos-duration="2000" 
+        <div id="primercompartimento" data-aos="fade-up" data-aos-duration="2000"
             class="titular2 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-46 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
@@ -221,7 +221,7 @@
 
         </div>
 
-        <img data-aos="fade-up"  data-aos-duration="2000" class="image w-full h-full" src="/img/IMG_2423.jpg" alt="">
+        <img data-aos="fade-up" data-aos-duration="2000" class="image w-full h-full" src="/img/IMG_2423.jpg" alt="">
 
 
         <div data-aos="fade-up" data-aos-duration="2000"
@@ -258,7 +258,7 @@
 
         </div>
 
-        <div id="segundocompartimento" data-aos="fade-up"  data-aos-duration="2000" 
+        <div id="segundocompartimento" data-aos="fade-up" data-aos-duration="2000"
             class="titular2 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-46 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
@@ -283,9 +283,12 @@
 
         </div>
 
-        <img data-aos="fade-up" data-aos-duration="2000" class="image px-24 w-full h-full max-sm:hidden" src="/img/piezascompartimento3.png" alt="">
-        <img data-aos="fade-up" data-aos-duration="2000" class="image hidden px-12 w-full h-full max-sm:block" src="/img/piezascompartimento32.png" alt="">
-        <div data-aos="fade-up" data-aos-duration="1000" class="grid grid-cols-3 gap-24 justify-items-center max-sm:hidden">
+        <img data-aos="fade-up" data-aos-duration="2000" class="image px-24 w-full h-full max-sm:hidden"
+            src="/img/piezascompartimento3.png" alt="">
+        <img data-aos="fade-up" data-aos-duration="2000" class="image hidden px-12 w-full h-full max-sm:block"
+            src="/img/piezascompartimento32.png" alt="">
+        <div data-aos="fade-up" data-aos-duration="1000"
+            class="grid grid-cols-3 gap-24 justify-items-center max-sm:hidden">
 
             <div
                 class="text max-w-[80ch] pt-4 text-left font-['Regular'] text-[18px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
@@ -387,7 +390,8 @@
                 SELLOS</div>
         </div>
 
-        <img data-aos="fade-up" data-aos-duration="2000" class="image w-full h-full pb-32 max-sm:pb-12" src="/img/IMG_2444.jpg" alt="">
+        <img data-aos="fade-up" data-aos-duration="2000" class="image w-full h-full pb-32 max-sm:pb-12"
+            src="/img/IMG_2444.jpg" alt="">
 
         <!--<div
             class="grid grid-cols-4 gap-2 pb-32 px-64 justify-items-center max-[1920px]:px-12 max-sm:grid-cols-1 max-sm:pb-2 max-sm:hidden">
@@ -786,7 +790,8 @@
                 MAPA</div>
         </div>
 
-        <div data-aos="fade-up" data-aos-duration="2000" class="grid grid-cols-1 px-64 max-[1440px]:px-12 max-sm:grid-cols-1 pb-32 max-sm:pb-12 max-sm:px-4">
+        <div data-aos="fade-up" data-aos-duration="2000"
+            class="grid grid-cols-1 px-64 max-[1440px]:px-12 max-sm:grid-cols-1 pb-32 max-sm:pb-12 max-sm:px-4">
             <img class="image px-64 max-[1440px]:px-12 w-full h-full max-sm:pb-2 max-sm:px-4" src="/img/IMG_2522.png"
                 alt="">
         </div>
@@ -844,9 +849,11 @@
         </div>
 
 
-        <img data-aos="fade-up" data-aos-duration="2000" class="pt-32 max-sm:px-4 max-sm:pt-12 max-[1500px]:px-32 max-[1500px]:pt-6 max-[1920px]:pt-16 px-64"
+        <img data-aos="fade-up" data-aos-duration="2000"
+            class="pt-32 max-sm:px-4 max-sm:pt-12 max-[1500px]:px-32 max-[1500px]:pt-6 max-[1920px]:pt-16 px-64"
             src="/img/folleto.png">
-        <img data-aos="fade-up" data-aos-duration="2000" class="px-64 max-sm:px-4 max-sm:pb-4 max-sm:pt-12 max-[1500px]:px-32 max-[1920px]:pb-16"
+        <img data-aos="fade-up" data-aos-duration="2000"
+            class="px-64 max-sm:px-4 max-sm:pb-4 max-sm:pt-12 max-[1500px]:px-32 max-[1920px]:pb-16"
             src="/img/folleto2.png">
 
 
@@ -913,7 +920,7 @@
             class="grid grid-cols-2 px-72 items-center pt-12 gap-32 pb-32 max-sm:pb-2 max-sm:grid-cols-1 max-sm:gap-12 max-sm:pt-24 max-sm:px-12">
             <img class="image w-full h-full" src="/img/packanalogicas5.png" alt="">
             <img class="image items-end hidden max-sm:flex w-full h-full" src="/img/cajaanalogicas2.gif" alt="">
-            <img class="image items-end max-sm:hidden flex w-full h-full" src="/img/cajaanalogicas.webp" alt="">            
+            <img class="image items-end max-sm:hidden flex w-full h-full" src="/img/cajaanalogicas.webp" alt="">
         </div>
 
         <div data-aos="fade-up" data-aos-duration="2000"
@@ -948,7 +955,7 @@
 
         </div>
 
-        <div 
+        <div
             class="colum flex px-64 pt-20 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-[1500px]:px-12 max-sm:px-2">
 
             <div class="fotografias px-64 max-[1500px]:px-12 grid grid-cols-1 gap-8 max-sm:gap-4 max-sm:px-2">
@@ -1047,7 +1054,8 @@
 
 
 
-        <div data-aos="fade-up" data-aos-duration="2000" class="hidden max-sm:grid max-sm:grid-cols-1 gap-12 max-sm:px-0 pt-6 pb-12">
+        <div data-aos="fade-up" data-aos-duration="2000"
+            class="hidden max-sm:grid max-sm:grid-cols-1 gap-12 max-sm:px-0 pt-6 pb-12">
             <img class="image_grid" src="/img/fajillaoporto2.png" alt="">
             <img class="image_grid" src="/img/cajaoporto.png" alt="">
         </div>
@@ -1280,13 +1288,15 @@
         </div>
 
 
-        <div data-aos="fade-up" data-aos-duration="2000" class="flex pt-32 pb-32 titular2 max-sm:flex justify-center w-full h-full max-sm:pb-12 max-sm:pt-0">
+        <div data-aos="fade-up" data-aos-duration="2000"
+            class="flex pt-32 pb-32 titular2 max-sm:flex justify-center w-full h-full max-sm:pb-12 max-sm:pt-0">
 
             <img class="image_grid w-full h-full" src="/img/compartimentos.png" alt="">
 
         </div>
 
-        <div data-aos="fade-up" data-aos-duration="2000" class="px-60 max-[1500px]:pt-6 pt-32 grid grid-cols-2 max-sm:hidden">
+        <div data-aos="fade-up" data-aos-duration="2000"
+            class="px-60 max-[1500px]:pt-6 pt-32 grid grid-cols-2 max-sm:hidden">
 
             <div
                 class="text max-sm:hidden place-self-center text-center max-w-[80ch] pt-4 font-['Regular'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
@@ -1325,14 +1335,33 @@
                 ↓
             </div>
 
-            <img data-aos="fade-up" data-aos-duration="2000" class="image_grid w-full h-full" src="/img/compartimento3.png" alt="">
-            <img data-aos="fade-up" data-aos-duration="2000" class="image_grid w-full h-full" src="/img/compartimento4.png" alt="">
+            <img data-aos="fade-up" data-aos-duration="2000" class="image_grid w-full h-full"
+                src="/img/compartimento3.png" alt="">
+            <img data-aos="fade-up" data-aos-duration="2000" class="image_grid w-full h-full"
+                src="/img/compartimento4.png" alt="">
         </div>
 
 
+        <div
+            class="titular2 max-[1500px]:pt-24 max-[1500px]:pb-12 max-[1500px]:px-32 flex px-64 gap-64 pt-32 pb-24 content-center space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-46 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            <div
+                class="titular text-[40px] font-['PPE-Ultralight'] text-center leading-[50px] text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
+                <p class="font-['PPE-UltralightItalic']">Contenido</p>AMPLIADO / EXTRA
+            </div>
+        </div>
 
-        <div 
-            class="trabajos flex pt-10 pl-40 pr-40 pb-20 text-zinc-600 flex-col gap-10 justify-center items-center max-xl:pt-12 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[1500px]:px-32 ">
+        <div class="grid max-sm:items-center">
+
+            <a href="https://rubenmaldonado.es/viajeoporto" target="_blank"
+                class="px-64 flex justify-center pt-24 pb-64 text-center titulo font-['Regular'] text-[20px] text-[#243673] max-sm:px-4 max-sm:pb-24 max-sm:pt-4 max-sm:text-[12px] max-sm:underline-offset-4">
+                <img class="image_grid w-[200px] h-[200px]"
+                src="/img/qrweb.png" alt="">
+            </a>
+        </div>
+
+
+        <div
+            class="trabajos flex pt-24 pl-40 pr-40 pb-20 text-zinc-600 flex-col gap-10 justify-center items-center max-xl:pt-12 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[1500px]:px-32 ">
             <div
                 class="titular text-[16px] font-['Regular'] leading-6 font-normal flex flex-start items-center max-xl:text-xs">
                 Programas utilizados
