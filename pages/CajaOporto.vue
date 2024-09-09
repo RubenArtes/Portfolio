@@ -1343,7 +1343,7 @@
 
 
         <div
-            class="titular2 max-[1500px]:pt-24 max-[1500px]:pb-12 max-[1500px]:px-32 flex px-64 gap-64 pt-32 pb-24 content-center space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-46 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 max-sm:pt-24 max-[1500px]:pt-24 max-[1500px]:pb-12 max-[1500px]:px-32 flex px-64 gap-64 pt-32 pb-24 content-center space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pb-16 max-[1500px]:gap-46 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-center leading-[50px] text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
                 <p class="font-['PPE-UltralightItalic']">Contenido</p>AMPLIADO / EXTRA
@@ -1354,14 +1354,14 @@
 
             <a href="https://rubenmaldonado.es/viajeoporto" target="_blank"
                 class="px-64 flex justify-center pt-24 pb-64 text-center titulo font-['Regular'] text-[20px] text-[#243673] max-sm:px-4 max-sm:pb-24 max-sm:pt-4 max-sm:text-[12px] max-sm:underline-offset-4">
-                <img class="image_grid w-[200px] h-[200px]"
+                <img class="image_grid max-sm:w-[100px] max-sm:h-[100px] w-[200px] h-[200px]"
                 src="/img/qrweb.png" alt="">
             </a>
         </div>
 
 
         <div
-            class="trabajos flex pt-24 pl-40 pr-40 pb-20 text-zinc-600 flex-col gap-10 justify-center items-center max-xl:pt-12 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[1500px]:px-32 ">
+            class="trabajos max-sm:pt-32 flex pt-24 pl-40 pr-40 pb-20 text-zinc-600 flex-col gap-10 justify-center items-center max-xl:pt-12 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[1500px]:px-32 ">
             <div
                 class="titular text-[16px] font-['Regular'] leading-6 font-normal flex flex-start items-center max-xl:text-xs">
                 Programas utilizados
