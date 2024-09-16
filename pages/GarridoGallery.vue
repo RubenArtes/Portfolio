@@ -455,7 +455,7 @@
 
             <a class="bg-gray-300 font-['PPE-Ultralightitalic'] uppercase hover:bg-gray-400 text-gray-800 font-bold py-4 px-6 rounded-xl inline-flex items-center"
                 href="https://www.garridogallery.com">
-                <span>/página web</span>
+                <span>/Página Web</span>
             </a>
 
         </div>
