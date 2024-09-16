@@ -467,7 +467,7 @@
             <video
                 class="pb-2 justify-items-center max-sm:pt-0 max-sm:pb-24 max-sm:px-0 max-[1500px]:px-32 px-64 pt-32 content-center justify-center w-full h-full"
                 loop autoplay>
-                <source src="/img/paginaweb2.mp4" type="video/mp4">
+                <source src="/img/paginaweb2.mp4" type="video/mp4" muted>
                 Your browser does not support the video tag.
             </video>
 
