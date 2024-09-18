@@ -12,7 +12,7 @@
             <div class="email text-lg justify-items-end flex gap-2 max-lg:text-xs ">ruben.maldonado.graphic@gmail.com
                 <img class="vector max-lg:max-w-[8px]" src="/img/Vector-11white.svg">
             </div>
-            
+
         </div>
 
         <VueScrollProgressBar background-color="#ffffff" />
@@ -20,18 +20,18 @@
             class="colum max-sm:hidden divide-x-1 grid grid-cols-2 pb-10 text-white justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center">
             <div class="div1 pt-2 border border-zinc-200 border-t-0 border-l-0 border-r-0 border-b-0">
                 <div
-                class="info_secondary max-[1500px]:px-24 max-[1500px]:pt-12 max-[1500px]:pb-32 z-20 bg-black border border-t-0 border-r-0 border-l-0 max-[1920px]:px-[12rem] px-[17rem] pb-44 place-items-start pt-32 flex flex-col gap-6 sticky top-32 max-[1500px]:gap-12">
-                <div
+                    class="info_secondary max-[1500px]:px-24 max-[1500px]:pt-12 max-[1500px]:pb-32 z-20 bg-black border border-t-0 border-r-0 border-l-0 max-[1920px]:px-[12rem] px-[17rem] pb-44 place-items-start pt-32 flex flex-col gap-6 sticky top-32 max-[1500px]:gap-12">
+                    <div
                         class="titular max-[1500px]:text-[50px] text-[30px] font-['PPE-UltralightItalic'] leading-3 font-normal text-[#f1f1f1] max-sm:text-[55px] max-[1500px]:text-left max-[1280px]:text-[100px]">
                         Colección</div>
                     <div
                         class="titular max-[1500px]:text-[50px] text-[50px] font-['PPE-Ultralight'] leading-8 font-normal text-[#ee8349] max-sm:text-[55px] max-[1500px]:text-left max-[1280px]:text-[100px]">
-                    GRANADA</div>
+                        GRANADA</div>
                     <div
-                    class="text max-[1500px]:text-[12px] max-w-[60ch] text-[16px] text-start uppercase text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
+                        class="text max-[1500px]:text-[12px] max-w-[60ch] text-[16px] text-start uppercase text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
                         FOTOGRAFÍAS - AGOSTO 2024 - LIBRE - VIAJE - PAISAJES</div>
                     <div
-                    class="text text-[16px] font-['SFUIDisplay-Light'] text-white max-xl:text-sm max-[1500px]:text-[14px] max-[1500px]:max-w-[100ch]">
+                        class="text text-[16px] font-['SFUIDisplay-Light'] text-white max-xl:text-sm max-[1500px]:text-[14px] max-[1500px]:max-w-[100ch]">
                         Fotografías realizadas de paisaje libre por las zonas de Granada, desde la ciudad y el centro
                         como las zonas, de la
                         Alhambra, los Palacios Nazaries y el Generalife.
@@ -124,45 +124,45 @@
         <div class="max-sm:grid max-sm:gap-4 max-sm:grid-cols-1 max-sm:pb-12 max-sm:px-4 hidden">
 
             <img class="fotografia" loading="lazy" data-src="/img/granada17.png" src="/img/granada17.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada.png" src="/img/granada.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada3.png" src="/img/granada3.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada5.png" src="/img/granada5.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada6.png" src="/img/granada6.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada7.png" src="/img/granada7.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada8.png" src="/img/granada8.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada9.png" src="/img/granada9.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada10.png" src="/img/granada10.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada11.png" src="/img/granada11.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada12.png" src="/img/granada12.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada13.png" src="/img/granada13.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada14.png" src="/img/granada14.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada15.png" src="/img/granada15.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada16.png" src="/img/granada16.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada18.png" src="/img/granada18.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada19.png" src="/img/granada19.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada20.png" src="/img/granada20.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada21.png" src="/img/granada21.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada22.png" src="/img/granada22.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada23.png" src="/img/granada23.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada24.png" src="/img/granada24.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada25.png" src="/img/granada25.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada26.png" src="/img/granada26.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada27.png" src="/img/granada27.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada28.png" src="/img/granada28.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada29.png" src="/img/granada29.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada30.png" src="/img/granada30.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada31.png" src="/img/granada31.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada32.png" src="/img/granada32.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada33.png" src="/img/granada33.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada34.png" src="/img/granada34.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada35.png" src="/img/granada35.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada36.png" src="/img/granada36.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada37.png" src="/img/granada37.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada38.png" src="/img/granada38.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada39.png" src="/img/granada39.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada40.png" src="/img/granada40.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada41.png" src="/img/granada41.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada42.png" src="/img/granada42.png">
+            <img class="fotografia" loading="lazy" data-src="/img/granada.png" src="/img/granada.png">
+            <img class="fotografia" loading="lazy" data-src="/img/granada3.png" src="/img/granada3.png">
+            <img class="fotografia" loading="lazy" data-src="/img/granada5.png" src="/img/granada5.png">
+            <img class="fotografia" loading="lazy" data-src="/img/granada6.png" src="/img/granada6.png">
+            <img class="fotografia" loading="lazy" data-src="/img/granada7.png" src="/img/granada7.png">
+            <img class="fotografia" loading="lazy" data-src="/img/granada8.png" src="/img/granada8.png">
+            <img class="fotografia" loading="lazy" data-src="/img/granada9.png" src="/img/granada9.png">
+            <img class="fotografia" loading="lazy" data-src="/img/granada10.png" src="/img/granada10.png">
+            <img class="fotografia" loading="lazy" data-src="/img/granada11.png" src="/img/granada11.png">
+            <img class="fotografia" loading="lazy" data-src="/img/granada12.png" src="/img/granada12.png">
+            <img class="fotografia" loading="lazy" data-src="/img/granada13.png" src="/img/granada13.png">
+            <img class="fotografia" loading="lazy" data-src="/img/granada14.png" src="/img/granada14.png">
+            <img class="fotografia" loading="lazy" data-src="/img/granada15.png" src="/img/granada15.png">
+            <img class="fotografia" loading="lazy" data-src="/img/granada16.png" src="/img/granada16.png">
+            <img class="fotografia" loading="lazy" data-src="/img/granada18.png" src="/img/granada18.png">
+            <img class="fotografia" loading="lazy" data-src="/img/granada19.png" src="/img/granada19.png">
+            <img class="fotografia" loading="lazy" data-src="/img/granada20.png" src="/img/granada20.png">
+            <img class="fotografia" loading="lazy" data-src="/img/granada21.png" src="/img/granada21.png">
+            <img class="fotografia" loading="lazy" data-src="/img/granada22.png" src="/img/granada22.png">
+            <img class="fotografia" loading="lazy" data-src="/img/granada23.png" src="/img/granada23.png">
+            <img class="fotografia" loading="lazy" data-src="/img/granada24.png" src="/img/granada24.png">
+            <img class="fotografia" loading="lazy" data-src="/img/granada25.png" src="/img/granada25.png">
+            <img class="fotografia" loading="lazy" data-src="/img/granada26.png" src="/img/granada26.png">
+            <img class="fotografia" loading="lazy" data-src="/img/granada27.png" src="/img/granada27.png">
+            <img class="fotografia" loading="lazy" data-src="/img/granada28.png" src="/img/granada28.png">
+            <img class="fotografia" loading="lazy" data-src="/img/granada29.png" src="/img/granada29.png">
+            <img class="fotografia" loading="lazy" data-src="/img/granada30.png" src="/img/granada30.png">
+            <img class="fotografia" loading="lazy" data-src="/img/granada31.png" src="/img/granada31.png">
+            <img class="fotografia" loading="lazy" data-src="/img/granada32.png" src="/img/granada32.png">
+            <img class="fotografia" loading="lazy" data-src="/img/granada33.png" src="/img/granada33.png">
+            <img class="fotografia" loading="lazy" data-src="/img/granada34.png" src="/img/granada34.png">
+            <img class="fotografia" loading="lazy" data-src="/img/granada35.png" src="/img/granada35.png">
+            <img class="fotografia" loading="lazy" data-src="/img/granada36.png" src="/img/granada36.png">
+            <img class="fotografia" loading="lazy" data-src="/img/granada37.png" src="/img/granada37.png">
+            <img class="fotografia" loading="lazy" data-src="/img/granada38.png" src="/img/granada38.png">
+            <img class="fotografia" loading="lazy" data-src="/img/granada39.png" src="/img/granada39.png">
+            <img class="fotografia" loading="lazy" data-src="/img/granada40.png" src="/img/granada40.png">
+            <img class="fotografia" loading="lazy" data-src="/img/granada41.png" src="/img/granada41.png">
+            <img class="fotografia" loading="lazy" data-src="/img/granada42.png" src="/img/granada42.png">
 
 
 
@@ -243,51 +243,47 @@ import PlvPointer from "/components/Cursor.vue";
 import VueScrollProgressBar from '/components/VueScrollProgressBar'
 
 export default {
-  mounted() {
-    this.initLazyLoad();
-  },
-  methods: {
-    initLazyLoad() {
-      const lazyImages = [].slice.call(document.querySelectorAll('img.lazy'));
-
-      if ('IntersectionObserver' in window) {
-        let lazyImageObserver = new IntersectionObserver((entries, observer) => {
-          entries.forEach(entry => {
-            if (entry.isIntersecting) {
-              let lazyImage = entry.target;
-              lazyImage.src = lazyImage.dataset.src;
-              lazyImage.classList.remove('lazy');
-              lazyImageObserver.unobserve(lazyImage);
-            }
-          });
-        });
-
-        lazyImages.forEach(lazyImage => {
-          lazyImageObserver.observe(lazyImage);
-        });
-      } else {
-        // Fallback for browsers that don't support IntersectionObserver
-        let lazyLoad = () => {
-          lazyImages.forEach(lazyImage => {
-            if (lazyImage.getBoundingClientRect().top <= window.innerHeight) {
-              lazyImage.src = lazyImage.dataset.src;
-              lazyImage.classList.remove('lazy');
-            }
-          });
-        };
-        lazyLoad();
-        window.addEventListener('scroll', lazyLoad);
-        window.addEventListener('resize', lazyLoad);
-      }
+    mounted() {
+        this.initLazyLoad();
     },
-  },
-  components: {
-        Carousel,
-        Slide,
-        Pagination,
-        Navigation,
+    methods: {
+        initLazyLoad() {
+            let lazyImages = [].slice.call(document.querySelectorAll("img.lazy"));
+
+            // Verifica si el navegador soporta IntersectionObserver
+            if ("IntersectionObserver" in window) {
+                let lazyImageObserver = new IntersectionObserver(function (entries, observer) {
+                    entries.forEach(function (entry) {
+                        if (entry.isIntersecting) {
+                            let lazyImage = entry.target;
+                            lazyImage.src = lazyImage.dataset.src;
+                            lazyImage.classList.remove("lazy");
+                            lazyImageObserver.unobserve(lazyImage);
+                        }
+                    });
+                }, {
+                    rootMargin: '50px 0px', // Cargar imágenes un poco antes de que entren en el viewport
+                    threshold: 0.01 // Cargar cuando el 1% de la imagen es visible
+                });
+
+                lazyImages.forEach(function (lazyImage) {
+                    lazyImageObserver.observe(lazyImage);
+                });
+            } else {
+                // Fallback para navegadores sin IntersectionObserver
+                lazyImages.forEach(function (lazyImage) {
+                    lazyImage.src = lazyImage.dataset.src;
+                });
+            }
+        },
+        components: {
+            Carousel,
+            Slide,
+            Pagination,
+            Navigation,
+        },
     },
-};
+}
 
 </script>
 
