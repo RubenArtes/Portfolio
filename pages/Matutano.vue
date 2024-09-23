@@ -9,13 +9,15 @@
                 </NuxtLink>
             </div>
 
-            <div class="email text-lg justify-items-end flex gap-2 max-lg:text-xs ">ruben.maldonado.graphic@gmail.com
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado."
+                target="_blank" class="email text-lg  place-self-end flex gap-2 max-lg:text-xs">
+                ruben.maldonado.graphic@gmail.com
                 <img class="vector max-lg:max-w-[8px]" src="/img/Vector-11black.svg">
-            </div>
+            </a>
 
         </div>
         <VueScrollProgressBar background-color="#52525B" />
-       
+
         <div
             class="titular2 flex px-64 gap-64 max-[1920px]:px-32 max-[1920px]:gap-32 content-start space-between justify-center pt-20 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-[1500px]:flex-col max-[1500px]:gap-2 max-[1500px]:items-center max-[1700px]:px-10">
             <div
@@ -92,7 +94,8 @@
                 <div class="info_secondary flex flex-col gap-6 sticky top-32 max-[1500px]:gap-12">
                     <div
                         class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
-                        <p class="font-['PPE-Ultralightitalic'] text-[35px] text-zinc-500 pb-1 max-sm:pb-1">Tres packs</p> SALUDABLES
+                        <p class="font-['PPE-Ultralightitalic'] text-[35px] text-zinc-500 pb-1 max-sm:pb-1">Tres packs
+                        </p> SALUDABLES
                     </div>
                     <div
                         class="text text-[20px] font-['SFUIDisplay-Light'] indent-12 text-zinc-900 max-w-[70ch] max-xl:text-sm max-[1500px]:text-[16px] max-[1500px]:max-w-[100ch]">
@@ -143,8 +146,8 @@
         </div>
 
         <div
-        class="titular2 max-[1500px]:pt-32 max-[1500px]:pb-0 max-[1920px]:pb-12 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-32 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
-        <div
+            class="titular2 max-[1500px]:pt-32 max-[1500px]:pb-0 max-[1920px]:pb-12 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-32 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
                 <p class="font-['PPE-Ultralightitalic'] text-[35px] text-zinc-500 pb-1 max-sm:pb-1">Packs</p> COMPLETOS
             </div>
@@ -175,7 +178,7 @@
         </div>
 
         <div
-        class="grid max-sm:gap-12 max-[1500px]:px-0 max-[1920px]:px-12 grid-cols-3 gap-2 items-center justify-items-center px-64 pb-64 max-sm:px-10 max-[1280px]:p-10 max-[800px]:grid-cols-1">
+            class="grid max-sm:gap-12 max-[1500px]:px-0 max-[1920px]:px-12 grid-cols-3 gap-2 items-center justify-items-center px-64 pb-64 max-sm:px-10 max-[1280px]:p-10 max-[800px]:grid-cols-1">
 
             <img class="image_grid max-sm:hidden w-full h-full" src="/img/nuevoframbuesa2.gif" alt="">
             <img class="image_grid max-sm:hidden w-full h-full" src="/img/nuevoverduras2.gif" alt="">
@@ -214,15 +217,18 @@
 
         <div
             class="grid max-[1440px]:px-8 grid-cols-1 place-self-center gap-8 px-8 pb-12 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-12  max-sm:hidden">
-            <a class="type text-[14px] font-['Neue'] text-center uppercase">▲ Maquetación de las caras completas de los packs</a>
+            <a class="type text-[14px] font-['Neue'] text-center uppercase">▲ Maquetación de las caras completas de los
+                packs</a>
         </div>
 
 
         <div
-        class="titular2 max-[1500px]:pt-32 max-[1500px]:pb-4 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-32 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 max-[1500px]:pt-32 max-[1500px]:pb-4 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-32 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
-                <p class="font-['PPE-Ultralightitalic'] text-[35px] text-zinc-500 pb-1 max-sm:pb-1">Tipografías,</p> JERARQUÍA E INFORMACIÓN
+                <p class="font-['PPE-Ultralightitalic'] text-[35px] text-zinc-500 pb-1 max-sm:pb-1">Tipografías,</p>
+                JERARQUÍA E
+                INFORMACIÓN
             </div>
             <div
                 class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[1280px]:p-0">
@@ -274,20 +280,24 @@
             class="grid grid-cols-3 gap-44 px-[22rem] max-[1920px]:gap-12 max-[1920px]:px-[14rem] pb-4 max-sm:grid-cols-3 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-64 max-sm:px-6 max-[800px]:gap-2">
 
             <div class="div text-zinc-600 text-center text-xs m-0 pb-14 max-xl:pb-4">
-                <div class="div block max-sm:hidden text-[#FFB047] max-[1500px]:text-start  text-start max-[1920px]:text-center text-[30px] max-[1500px]:text-[16px] max-sm:text-[14px] m-0 animate-pulse font-['PPE-Ultralight'] uppercase">
-                    
+                <div
+                    class="div block max-sm:hidden text-[#FFB047] max-[1500px]:text-start  text-start max-[1920px]:text-center text-[30px] max-[1500px]:text-[16px] max-sm:text-[14px] m-0 animate-pulse font-['PPE-Ultralight'] uppercase">
+
                     Spicy Garbanzo</div>
-                    <div class="div hidden max-sm:block text-[#FFB047] text-center text-[30px] max-[1500px]:text-[16px] max-sm:text-[14px] m-0 animate-pulse font-['PPE-Ultralight'] uppercase">
-                        Spicy <br> GARBANZO</div>
+                <div
+                    class="div hidden max-sm:block text-[#FFB047] text-center text-[30px] max-[1500px]:text-[16px] max-sm:text-[14px] m-0 animate-pulse font-['PPE-Ultralight'] uppercase">
+                    Spicy <br> GARBANZO</div>
             </div>
 
             <div class="div text-zinc-600 text-center text-xs m-0 pb-14 max-xl:pb-4">
-                <div class="div text-[#F3536D] text-center text-[30px] max-[1500px]:text-[16px] max-sm:text-[14px] m-0 animate-pulse font-['PPE-Ultralight'] uppercase">
+                <div
+                    class="div text-[#F3536D] text-center text-[30px] max-[1500px]:text-[16px] max-sm:text-[14px] m-0 animate-pulse font-['PPE-Ultralight'] uppercase">
                     Frambuesa Liofilizada</div>
             </div>
 
             <div class="div text-zinc-600 text-center text-xs m-0 pb-14 max-xl:pb-4">
-                <div class="div text-[#FBCE37] text-end text-[30px] max-sm:text-center max-[1500px]:text-end max-[1920px]:text-center max-[1500px]:text-[16px] max-sm:text-[14px] m-0 animate-pulse font-['PPE-Ultralight'] uppercase">
+                <div
+                    class="div text-[#FBCE37] text-end text-[30px] max-sm:text-center max-[1500px]:text-end max-[1920px]:text-center max-[1500px]:text-[16px] max-sm:text-[14px] m-0 animate-pulse font-['PPE-Ultralight'] uppercase">
                     Snacks
                     de verduras</div>
             </div>
@@ -295,10 +305,11 @@
         </div>
 
         <div
-        class="titular2 max-[1500px]:pt-32 max-[1500px]:pb-32 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-32 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
-        <div
+            class="titular2 max-[1500px]:pt-32 max-[1500px]:pb-32 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-32 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
-                <p class="font-['PPE-Ultralightitalic'] text-[35px] text-zinc-500 pb-1 max-sm:pb-1">Intercambio</p> DE PIEZAS
+                <p class="font-['PPE-Ultralightitalic'] text-[35px] text-zinc-500 pb-1 max-sm:pb-1">Intercambio</p> DE
+                PIEZAS
             </div>
             <div
                 class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:px-0 max-[1280px]:p-0">
@@ -337,11 +348,11 @@
 
         </div>
 
-        
+
 
         <div
             class="grid max-[1920px]:px-0 max-[1500px]:gap-4 max-[1500px]:px-0 grid-cols-3 gap-8 max-sm:px-4 max-sm:gap-2 px-8 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10">
-           
+
             <img class="image_grid w-full h-full" src="/img/combinación1.png" alt="">
             <img class="image_grid w-full h-full" src="/img/combinación2.png" alt="">
             <img class="image_grid w-full h-full" src="/img/combinación3.png" alt="">
@@ -354,10 +365,63 @@
         </div>
 
         <div
-        class="titular2 max-[1500px]:pt-32 max-[1500px]:pb-32 max-[1500px]:px-32 flex px-64 pb-64 gap-64 pt-44 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-40 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 max-[1500px]:pt-32 max-[1500px]:pb-32 max-[1500px]:px-32 flex px-64 pb-64 gap-64 pt-44 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-40 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
-                <p class="font-['PPE-Ultralightitalic'] text-[35px] text-zinc-500 pb-1 max-sm:pb-1">Bocetos y</p> CREACIÓN
+                <p class="font-['PPE-Ultralightitalic'] text-[35px] text-zinc-500 pb-1 max-sm:pb-1">Imagenes</p> REALES
+            </div>
+            <div
+                class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:px-0 max-[1280px]:p-0">
+
+                <div
+                    class="text max-w-[60ch] text-[16px] uppercase text-zinc-900 max-xl:leading-2 max-xl:text-xs max-xl:text-center  max-[1280px]:text-left">
+                    <a class="type text">FOTOGRAFÍAS REALES DEL PROTOTIPO</a>
+                </div>
+                <div
+                    class="text max-w-[80ch] pt-4 text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600 max-xl:text-sm max-sm:order-last max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                    Prototipo y maqueta real entregada para el trabajo, realizada a mano e impresa a escala real del
+                    proyecto.
+                    Diferentes planos para ver la diferencia con los renders ya mostrados.
+                </div>
+
+            </div>
+
+        </div>
+
+        <div
+            class="colum flex max-[1440px]:px-4 px-24 pt-6 pb-32 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-[1500px]:px-32  max-sm:px-2">
+
+            <div class="fotografias px-64 max-[1440px]:px-12 grid grid-cols-1 gap-8 max-sm:gap-4 max-sm:px-2">
+                <img class="image w-full h-full" src="/img/fotorealpackaging.png" alt="">
+                <img class="image w-full h-full" src="/img/fotorealpackaging4.png" alt="">
+                <img class="image w-full h-full" src="/img/fotorealpackaging3.png" alt="">
+                <img class="image w-full h-full" src="/img/fotorealpackaging2.png" alt="">
+                <img class="image w-full h-full" src="/img/fotorealpackaging5.png" alt="">
+                <img class="image w-full h-full" src="/img/fotorealpackaging6.png" alt="">
+                <img class="image w-full h-full" src="/img/fotorealpackaging7.png" alt="">
+                <img class="image w-full h-full" src="/img/fotorealpackaging8.png" alt="">
+                <img class="image w-full h-full" src="/img/fotorealpackaging9.png" alt="">
+                <img class="image w-full h-full" src="/img/fotorealpackaging10.png" alt="">
+                <img class="image w-full h-full" src="/img/fotorealpackaging11.png" alt="">
+                <img class="image w-full h-full" src="/img/fotorealpackaging12.png" alt="">
+                <img class="image w-full h-full" src="/img/fotorealpackaging13.png" alt="">
+                <img class="image w-full h-full" src="/img/fotorealpackaging14.png" alt="">
+                <img class="image w-full h-full" src="/img/fotorealpackaging15.png" alt="">
+                <img class="image w-full h-full" src="/img/fotorealpackaging16.png" alt="">
+                <img class="image w-full h-full" src="/img/fotorealpackaging17.png" alt="">
+                <img class="image w-full h-full" src="/img/fotorealpackaging18.png" alt="">
+
+
+            </div>
+
+        </div>
+
+        <div
+            class="titular2 max-[1500px]:pt-32 max-[1500px]:pb-32 max-[1500px]:px-32 flex px-64 pb-64 gap-64 pt-44 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-40 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            <div
+                class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
+                <p class="font-['PPE-Ultralightitalic'] text-[35px] text-zinc-500 pb-1 max-sm:pb-1">Bocetos y</p>
+                CREACIÓN
             </div>
             <div
                 class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:px-0 max-[1280px]:p-0">

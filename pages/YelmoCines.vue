@@ -1,19 +1,22 @@
 <template>
-    <div class="app bg-black">
+    <div class="app bg-black font-['SFUIDisplay-Regular']">
         <Cursor class="max-sm:hidden" />
         <div
-            class="header bg-black p-10 flex text-white justify-between sticky top-0 z-10 max-xl:p-6 max-xl:items-center">
-            <div class="image flex flex-start">
+            class="header bg-black p-10 flex px-24 text-white justify-between sticky top-0 z-10 max-lg:p-6 max-lg:sticky">
+            <div class="image flex flex-start justify-items-start">
                 <NuxtLink to="/">
-                    <img class="vector max-xl:max-w-[15px]" src="/img/Vector.svg">
+                    <img class="max-lg:max-w-[15px]" src="/img/Vector.svg">
                 </NuxtLink>
             </div>
-            <div class="email text-lg flex gap-2 items-center max-xl:text-xs">ruben.maldonado.graphic@gmail.com
-                <NuxtLink to="/">
-                    <img class="vector max-xl:max-w-[8px]" src="/img/Vector-11.svg">
-                </NuxtLink>
-            </div>
+
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado."
+                target="_blank" class="email text-lg  place-self-end flex gap-2 max-lg:text-xs">
+                ruben.maldonado.graphic@gmail.com
+                <img class="vector max-lg:max-w-[8px]" src="/img/Vector-11.svg" />
+            </a>
+
         </div>
+
         <VueScrollProgressBar background-color="white" />
 
         <div id="navegacion"

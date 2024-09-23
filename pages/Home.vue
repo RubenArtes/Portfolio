@@ -65,7 +65,7 @@
     </div>-->
 
     <div
-      class="banner flex pt-12 pb-[190px] text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[1920px]:pb-16 max-sm:hidden">
+      class="banner flex pt-12 pb-[120px] text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[1920px]:px-28 max-[1920px]:pb-12 max-sm:hidden">
       <img class="banner_image w-1/2 h-full" src="/img/nombreruben2.gif">
 
 
@@ -78,9 +78,9 @@
 
     </div>
 
-    <div class="grid grid-cols-3 px-32 max-sm:px-8 pt-2 pb-20 max-[1920px]:pt-0 max-sm:grid-cols-1">
+    <div class="grid grid-cols-3 px-32 max-sm:px-8 pt-2 pb-20 max-[1920px]:pt-0 max-sm:grid-cols-1 ">
 
-      <div class="texto1 flex flex-col place-self-start">
+      <div class="texto1 flex flex-col place-self-start self-end">
 
         <div
           class="text flex text-[40px] leading-[4rem] font-['PPE-UltralightItalic'] tracking-normal items-left max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center max-[1920px]:text-[36px]">
@@ -130,9 +130,14 @@
             Servicios.
           </a>
           <a href="#sobremi"
-            class="text text-right text-[26px] uppercase font-['PPE-UltralightItalic'] tracking-normal flex flex-col items-left max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[18px] max-sm:leading-[1rem] max-sm:pb-4 max-sm:text-center max-[1920px]:text-[22px]">
+            class="text text-right text-[26px] uppercase font-['PPE-UltralightItalic'] tracking-normal flex flex-col items-left max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[18px] max-sm:leading-[1rem] max-sm:pb-0 max-sm:text-center max-[1920px]:text-[22px]">
             Sobre mi.
           </a>
+          <a href="#tienda"
+            class="text text-right text-[26px] uppercase font-['PPE-UltralightItalic'] tracking-normal flex flex-col items-left max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[18px] max-sm:leading-[1rem] max-sm:pb-4 max-sm:text-center max-[1920px]:text-[22px]">
+            Tienda.
+          </a>
+
 
 
         </div>
@@ -140,11 +145,11 @@
 
       </div>
 
-      <div class="texto2 flex max-sm:hidden gap-6 place-self-center">
+      <div class="texto2 flex max-sm:hidden gap-6 justify-center self-end">
 
         <div
-        class="text text-[14px] max-sm:text-[12px] max-sm:leading-[1rem] text-zinc-400 leading-[18px] font-['Neue'] tracking-normal flex flex-col items-left justify-self-start max-3xl:text-[30px] max-sm:pt-2 max-sm:pb-4 max-sm:text-center max-[1920px]:leading-[20px]">
-        <br>
+          class="text text-[14px] max-sm:text-[12px] max-sm:leading-[1rem] text-zinc-400 leading-[18px] font-['Neue'] tracking-normal flex flex-col items-left justify-self-start max-3xl:text-[30px] max-sm:pt-2 max-sm:pb-4 max-sm:text-center max-[1920px]:leading-[20px]">
+          <br>
           <br>
           PACKAGING
           <br>
@@ -169,6 +174,10 @@
 
       <div class="texto3 flex flex-col place-self-end max-sm:place-self-end max-sm:hidden">
 
+        <a href="#sobremi"
+          class="text text-right text-[26px] uppercase font-['PPE-UltralightItalic'] tracking-normal flex flex-col items-left max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[18px] max-sm:leading-[1rem] max-sm:pb-4 max-sm:text-center max-[1920px]:text-[22px]">
+          Sobre mi.
+        </a>
         <a href="#trabajos"
           class="text text-right text-[26px] uppercase font-['PPE-UltralightItalic'] tracking-normal flex flex-col items-left max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[18px] max-sm:leading-[1rem] max-sm:pb-0 max-sm:text-center max-[1920px]:text-[22px]">
           Trabajos.
@@ -179,10 +188,12 @@
           class="text text-right text-[26px] uppercase font-['PPE-UltralightItalic'] tracking-normal flex flex-col items-left max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[18px] max-sm:leading-[1rem] max-sm:pb-0 max-sm:text-center max-[1920px]:text-[22px]">
           Servicios.
         </a>
-        <a href="#sobremi"
+        <a href="#tienda"
           class="text text-right text-[26px] uppercase font-['PPE-UltralightItalic'] tracking-normal flex flex-col items-left max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[18px] max-sm:leading-[1rem] max-sm:pb-4 max-sm:text-center max-[1920px]:text-[22px]">
-          Sobre mi.
+          Tienda.
         </a>
+
+
 
 
       </div>
@@ -213,23 +224,25 @@
       «Baja para ver los trabajos y clickea sobre uno para saber más sobre el»
     </div>
 
-    <div 
+    <div
       class="grid grid-flow-cols grid-cols-1 text-center max-[1450px]:grid-cols-1 animate-pulse max-[1920px]:grid-cols-1 max-sm:grid-cols-1">
 
       <div
         class=" bg-orange-400 font-['Regular'] text-[16px] border border-orange-400 text-white justify-center content-center max-sm:text-[12px]">
         <NuxtMarquee>
-          <MyComponent /> PÁGINAS NUEVAS - PÁGINAS NUEVAS - PÁGINAS NUEVAS - PÁGINAS NUEVAS - PÁGINAS NUEVAS - PÁGINAS NUEVAS - BEST SELLER - PÁGINAS NUEVAS - PÁGINAS
+          <MyComponent /> PÁGINAS NUEVAS - PÁGINAS NUEVAS - PÁGINAS NUEVAS - PÁGINAS NUEVAS - PÁGINAS NUEVAS - PÁGINAS
+          NUEVAS - BEST SELLER - PÁGINAS NUEVAS - PÁGINAS
           NUEVAS - PÁGINAS NUEVAS - PÁGINAS NUEVAS - PÁGINAS NUEVAS - PÁGINAS NUEVAS
-          <MyComponent /> PÁGINAS NUEVAS - PÁGINAS NUEVAS - PÁGINAS NUEVAS - PÁGINAS NUEVAS - PÁGINAS NUEVAS - PÁGINAS NUEVAS - BEST SELLER - PÁGINAS NUEVAS - PÁGINAS
+          <MyComponent /> PÁGINAS NUEVAS - PÁGINAS NUEVAS - PÁGINAS NUEVAS - PÁGINAS NUEVAS - PÁGINAS NUEVAS - PÁGINAS
+          NUEVAS - BEST SELLER - PÁGINAS NUEVAS - PÁGINAS
           NUEVAS - PÁGINAS NUEVAS - PÁGINAS NUEVAS - PÁGINAS NUEVAS - PÁGINAS NUEVAS
         </NuxtMarquee>
-        
+
       </div>
     </div>
 
     <NuxtLink class="max-sm:hidden" to="/CajaOporto">
-      <div 
+      <div
         class="trabajo1 border border-solid border-r-1 border-t-0 border-b-0 px-20 py-32 flex flex-col justify-center hover:bg-[url('/img/libroimpreso.webp')] hover:text-white bg-cover bg-center max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
         <div
           class="text text-center text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
@@ -898,7 +911,7 @@
 
       <div class="servicios_ofrecidos flex flex-col gap-6 font-['Neue']">
         <div class="servicio flex flex-col gap-6">
-          <img class="vector w-[15px]" src="/img/starzinc.svg"/>
+          <img class="vector w-[15px]" src="/img/starzinc.svg" />
           <div class="tittle_servicios font-['PPE-UltralightItalic'] text-[24px] max-sm:text-[22px] uppercase">
             Fotografía</div>
           <div class="text max-w-[60ch] font-normal text-[16px] max-sm:leading-5.5 max-sm:text-[15px] text-zinc-500">
@@ -911,7 +924,7 @@
           </div>
         </div>
         <div class="servicio flex flex-col gap-6">
-          <img class="vector w-[15px]" src="/img/starzinc.svg"/>
+          <img class="vector w-[15px]" src="/img/starzinc.svg" />
           <div class="tittle_servicios font-['PPE-UltralightItalic'] text-[24px] max-sm:text-[22px] uppercase">
             Ilustración</div>
           <div class="text max-w-[60ch] font-normal text-[16px] max-sm:leading-5.5 max-sm:text-[15px] text-zinc-500">
@@ -921,7 +934,7 @@
           </div>
         </div>
         <div class="servicio flex flex-col gap-6">
-          <img class="vector w-[15px]" src="/img/starzinc.svg"/>
+          <img class="vector w-[15px]" src="/img/starzinc.svg" />
           <div class="tittle_servicios font-['PPE-UltralightItalic'] text-[24px] max-sm:text-[22px] uppercase">
             Web y Programación
           </div>
@@ -935,7 +948,7 @@
           </div>
         </div>
         <div class="servicio flex flex-col gap-6">
-          <img class="vector w-[15px]" src="/img/starzinc.svg"/>
+          <img class="vector w-[15px]" src="/img/starzinc.svg" />
           <div class="tittle_servicios font-['PPE-UltralightItalic'] text-[24px] max-sm:text-[22px] uppercase">
             Pack Adobe y Figma
           </div>
@@ -948,7 +961,7 @@
           </div>
         </div>
         <div class="servicio flex flex-col gap-6">
-          <img class="vector w-[15px]" src="/img/starzinc.svg"/>
+          <img class="vector w-[15px]" src="/img/starzinc.svg" />
           <div class="tittle_servicios font-['PPE-UltralightItalic'] text-[24px] max-sm:text-[22px] uppercase">
             Audiovisuales y Multimedia
           </div>
@@ -963,7 +976,7 @@
           </div>
         </div>
         <div class="servicio flex flex-col gap-6">
-          <img class="vector w-[15px]" src="/img/starzinc.svg"/>
+          <img class="vector w-[15px]" src="/img/starzinc.svg" />
           <div class="tittle_servicios font-['PPE-UltralightItalic'] text-[24px] max-sm:text-[22px] uppercase">
             Maquetación</div>
           <div class="text max-w-[60ch] font-normal text-[16px] max-sm:leading-5.5 max-sm:text-[15px] text-zinc-500">
@@ -975,7 +988,7 @@
           </div>
         </div>
         <div class="servicio flex flex-col gap-6">
-          <img class="vector w-[15px]" src="/img/starzinc.svg"/>
+          <img class="vector w-[15px]" src="/img/starzinc.svg" />
           <div class="tittle_servicios font-['PPE-UltralightItalic'] text-[24px] max-sm:text-[22px] uppercase">
             Redes Sociales
           </div>
@@ -1092,6 +1105,99 @@
     </div>
 
     <div
+      class="max-sm:hidden pt-24 grid-flow-cols border-0 border-b-0 border-none grid-cols-4 max-[1920px]:grid-cols-3 text-center max-[1450px]:grid-cols-2 animate-pulse max-[1930px]:grid-cols-3 max-sm:grid-cols-1">
+
+      <div class=" bg-red-700 text-white justify-center content-center text-[12px] font-['Regular']">NUEVO
+        CONTENIDO -
+        NUEVO CONTENIDO -
+        NUEVO CONTENIDO - NUEVO CONTENIDO - NUEVO CONTENIDO - NUEVO CONTENIDO - NUEVO CONTENIDO - NUEVO CONTENIDO
+        -
+        NUEVO CONTENIDO - NUEVO CONTENIDO - NUEVO CONTENIDO
+      </div>
+    </div>
+
+    <div
+      class="hidden max-sm:grid grid-flow-cols border-0 border-b-0 border-none grid-cols-4 max-[1920px]:grid-cols-3 text-center max-[1450px]:grid-cols-2 animate-pulse max-[1930px]:grid-cols-3 max-sm:grid-cols-1">
+
+      <div class=" bg-red-700 text-white justify-center content-center text-[12px]">NUEVO CONTENIDO - NUEVO
+        CONTENIDO -
+        NUEVO CONTENIDO
+      </div>
+    </div>
+
+    <div id="tienda"
+      class="trabajos flex pt-32 pl-40 pr-40 pb-12 bg-white text-black flex-nowrap gap-[340px] justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-6 max-sm:pb-12 max-sm:pt-24 border-black">
+      <div class="sticky_menu">
+        <div
+          class="titular flex flex-col text-[72px] font-normal sticky top-[9rem] max-lg:text-[60px] font-['PPE-Ultralight']">
+          TIENDA
+        </div>
+      </div>
+
+      <div class="servicios_ofrecidos flex flex-col gap-6">
+        <div class="servicio flex flex-col gap-6">
+          <div class="text max-w-[60ch] font-normal text-[16px] max-sm:text-[15px] text-black font-['Neue']">
+            Elementos para comprar a raiz de mis trabajos, creando versiones 2/2 para darle un valor añadido a mis
+            proyectos y
+            pueda ser coleccionado y sea más físico y accesible a los demás. (No esta oficializada una tienda como tal,
+            para comprar los podructos
+            es necesario contactar vía <a
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado."
+              target="_blank" class="text-red-700 animate-pulse font-['Neue-Italic']">EMAIL</a> o contactandome
+            personalmente)
+
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="grid grid-cols-2 pt-32 px-72 bg-white max-[1500px]:gap-46 max-[1500px]:px-32 max-sm:px-4 max-sm:grid-cols-1 max-sm:pt-12 max-sm:gap-8">
+      <div class="titular max-sm:flex-col text-blue-600 flex text-[22px] animate-pulse justify-center text-center uppercase font-['PPE-Ultralight']">
+        Pack Oporto | <a class="font-['PPE-UltralightItalic'] normal-case pl-2">Tirada 2/2</a>
+      </div>
+      <div class="titular max-sm:hidden max-sm:flex-col text-red-600 flex text-[22px] animate-pulse justify-center text-center uppercase font-['PPE-Ultralight']">
+        Pack Pegatinas | <a class="font-['PPE-UltralightItalic'] normal-case pl-2">Selección Individual
+        </a>
+
+      </div>
+    </div>
+    <div class="grid grid-cols-2 px-72 bg-white max-[1500px]:gap-46 max-[1500px]:px-32 max-sm:px-2 max-sm:text-center max-sm:grid-cols-1 max-sm:pt-4 max-sm:pb-12">
+      <div class="titular text-zinc-600 flex text-[14px] justify-center text-center">
+        « Haz click para preguntar por presupuesto»
+      </div>
+      <div class="titular text-zinc-600 flex text-[14px] justify-center text-center max-sm:hidden">
+        « Haz click para preguntar por presupuesto»
+      </div>
+    </div>
+
+    <div class="grid grid-cols-2 gap-32 px-12 pb-24 bg-white max-[1500px]:gap-4 max-sm:grid-cols-1 max-sm:px-6">
+      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=COMPRA|PRESUPUESTO&body=Hola Ruben Maldonado.Preguntaba por el trabajo de Oporto..."
+      class="cosas grid pb-32 max-sm:pb-0 justify-end place-items-center items-center content-center">
+        <img class="hover:w-[920px] duration-500 border border-t-3 border-b-0 border-white w-[900px]"
+          src="/img/tienda.png" alt="" />
+      </a>
+
+      <div class="hidden max-sm:grid max-sm:grid-cols-1 pt-32 px-72 bg-white max-[1500px]:gap-46 max-[1500px]:px-32 max-sm:px-4 max-sm:pt-12 max-sm:gap-8">
+
+      <div class="titular max-sm:flex-col text-red-600 flex text-[22px] animate-pulse justify-center text-center uppercase font-['PPE-Ultralight']">
+        Pack Pegatinas | <a class="font-['PPE-UltralightItalic'] normal-case pl-2">Selección Individual
+        </a>
+        <div class="titular text-zinc-600 max-sm:pt-4 flex text-[14px] justify-center text-center normal-case font-['SFUIDisplay-Light'] max-sm:pb-20">
+        « Haz click para preguntar por presupuesto»
+      </div>
+
+      </div>
+    </div>
+
+      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=COMPRA|PRESUPUESTO&body=Hola Ruben Maldonado.Preguntaba por las pegatinas..."
+      class="cosas grid pb-32 max-sm:pb-12 justify-start place-items-center items-center content-center">
+        <img class="hover:w-[720px] duration-500 border border-t-3 border-b-0 border-white w-[700px] max-[1500px]:w-[540px] max-sm:px-6"
+          src="/img/tienda2.png" alt="" />
+      </a>
+    </div>
+
+    <div
       class="max-sm:hidden grid-flow-cols border-0 border-b-0 border-none grid-cols-4 max-[1920px]:grid-cols-3 text-center max-[1450px]:grid-cols-2 animate-pulse max-[1930px]:grid-cols-3 max-sm:grid-cols-1">
 
       <div class=" bg-red-700 text-white justify-center content-center text-[12px] font-['Regular']">NUEVO
@@ -1112,7 +1218,7 @@
       </div>
     </div>
 
-    <div 
+    <div
       class="trabajos flex pt-32 pl-40 pr-40 pb-40 bg-black text-white flex-nowrap gap-72 justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-6 max-sm:pb-12 max-sm:pt-16 border-black">
       <div class="sticky_menu">
         <div
@@ -1385,7 +1491,6 @@ export default {
   
   .app.animate-enter
     opacity: 1
-
 
 
 </style>

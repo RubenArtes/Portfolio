@@ -9,9 +9,11 @@
                 </NuxtLink>
             </div>
 
-            <div class="email text-lg justify-items-end flex gap-2 max-lg:text-xs ">ruben.maldonado.graphic@gmail.com
-                <img class="vector max-lg:max-w-[8px]" src="/img/Vector-11white.svg">
-            </div>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado."
+                target="_blank" class="email text-lg  place-self-end flex gap-2 max-lg:text-xs">
+                ruben.maldonado.graphic@gmail.com
+                <img class="vector max-lg:max-w-[8px]" src="/img/Vector-11.svg" />
+            </a>
 
         </div>
 
@@ -20,18 +22,18 @@
             class="colum max-sm:hidden divide-x-1 grid grid-cols-2 pb-10 text-white justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center">
             <div class="div1 pt-2 border border-zinc-200 border-t-0 border-l-0 border-r-0 border-b-0">
                 <div
-                class="info_secondary max-[1500px]:px-24 max-[1500px]:pt-12 max-[1500px]:pb-32 z-20 bg-black border border-t-0 border-r-0 border-l-0 max-[1920px]:px-[12rem] px-[17rem] pb-44 place-items-start pt-32 flex flex-col gap-6 sticky top-32 max-[1500px]:gap-12">
-                <div
+                    class="info_secondary max-[1500px]:px-24 max-[1500px]:pt-12 max-[1500px]:pb-32 z-20 bg-black border border-t-0 border-r-0 border-l-0 max-[1920px]:px-[12rem] px-[17rem] pb-44 place-items-start pt-32 flex flex-col gap-6 sticky top-32 max-[1500px]:gap-12">
+                    <div
                         class="titular max-[1500px]:text-[50px] text-[30px] font-['PPE-UltralightItalic'] leading-3 font-normal text-[#f1f1f1] max-sm:text-[55px] max-[1500px]:text-left max-[1280px]:text-[100px]">
                         Colección</div>
                     <div
                         class="titular max-[1500px]:text-[50px] text-[50px] font-['PPE-Ultralight'] leading-8 font-normal text-[#f1f1f1] max-sm:text-[55px] max-[1500px]:text-left max-[1280px]:text-[100px]">
                         METRO</div>
                     <div
-                    class="text max-[1500px]:text-[12px] max-w-[60ch] text-[16px] text-start uppercase text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
-                    FOTOGRAFÍAS - 2022 - ASIGNATURA FOTOGRAFÍA - METRO - PERSONAL - MADRID</div>
+                        class="text max-[1500px]:text-[12px] max-w-[60ch] text-[16px] text-start uppercase text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
+                        FOTOGRAFÍAS - 2022 - ASIGNATURA FOTOGRAFÍA - METRO - PERSONAL - MADRID</div>
                     <div
-                    class="text text-[16px] font-['SFUIDisplay-Light'] text-white max-xl:text-sm max-[1500px]:text-[14px] max-[1500px]:max-w-[100ch]">
+                        class="text text-[16px] font-['SFUIDisplay-Light'] text-white max-xl:text-sm max-[1500px]:text-[14px] max-[1500px]:max-w-[100ch]">
                         Fanzine sobre el Subterraneo de Madrid, conteniendo diferentes temas como este, la composición
                         de sus lugares, el tema social y las personas y la arquitectura.
 
@@ -124,48 +126,48 @@
         <div class="max-sm:grid max-sm:gap-4 max-sm:grid-cols-1 max-sm:pb-12 max-sm:px-4 hidden">
 
             <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález.jpg">
-                <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález2.jpg">
-                <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález3.jpg">
-                <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález4.jpg">
-                <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález5.jpg">
-                <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález6.jpg">
-                <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález7.jpg">
-                <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález8.jpg">
-                <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález9.jpg">
-                <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález10.jpg">
-                <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález11.jpg">
-                <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález12.jpg">
-                <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález13.jpg">
-                <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález14.jpg">
-                <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález15.jpg">
-                <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález16.jpg">
-                <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález17.jpg">
-                <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález18.jpg">
-                <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález19.jpg">
-                <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález20.jpg">
-                <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález21.jpg">
-                <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález22.jpg">
-                <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález23.jpg">
-                <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález24.jpg">
-                <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález25.jpg">
-                <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález26.jpg">
-                <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález27.jpg">
-                <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález28.jpg">
-                <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález29.jpg">
-                <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález30.jpg">
-                <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález31.jpg">
-                <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález32.jpg">
-                <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález33.jpg">
-                <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález34.jpg">
-                <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález35.jpg">
-                <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález36.jpg">
-                <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález37.jpg">
-                <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález38.jpg">
-                <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález39.jpg">
-                <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález40.jpg">
-                <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález41.jpg">
-                <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález42.jpg">
-                <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález43.jpg">
+            <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález2.jpg">
+            <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález3.jpg">
+            <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález4.jpg">
+            <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález5.jpg">
+            <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález6.jpg">
+            <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález7.jpg">
+            <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález8.jpg">
+            <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález9.jpg">
+            <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález10.jpg">
+            <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález11.jpg">
+            <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález12.jpg">
+            <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález13.jpg">
+            <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález14.jpg">
+            <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález15.jpg">
+            <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález16.jpg">
+            <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález17.jpg">
+            <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález18.jpg">
+            <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález19.jpg">
+            <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález20.jpg">
+            <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález21.jpg">
+            <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález22.jpg">
+            <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález23.jpg">
+            <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález24.jpg">
+            <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález25.jpg">
+            <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález26.jpg">
+            <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález27.jpg">
+            <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález28.jpg">
+            <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález29.jpg">
+            <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález30.jpg">
+            <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález31.jpg">
+            <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález32.jpg">
+            <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález33.jpg">
+            <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález34.jpg">
+            <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález35.jpg">
+            <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález36.jpg">
+            <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález37.jpg">
+            <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález38.jpg">
+            <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález39.jpg">
+            <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález40.jpg">
+            <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález41.jpg">
+            <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález42.jpg">
+            <img class="fotografia" src="/img/Fotolibro_RubénMaldonadoGonzález43.jpg">
 
 
 
