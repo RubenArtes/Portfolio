@@ -33,9 +33,14 @@
 
     <!-- Botón flotante -->
     <a href="#inicio"
-      class="fixed max-sm:hidden right-0 top-1/2 mix-blend-exclusion transform -translate-y-1/2 text-[70px] z-50 uppercase font-bold text-white tracking-widest px-7 py-4 transition-all duration-300 ease-in-out hover:translate-y-[-7px]">
+      class="fixed max-sm:hidden mix-blend-exclusion bottom-0 right-0 transform -translate-y-1/2 text-[70px] z-50 uppercase font-bold text-white tracking-widest px-7 py-4 transition-all duration-300 ease-in-out hover:translate-y-[-7px]">
       ↑
     </a>
+
+    <p href="#inicio"
+      class="absolute max-[1920px]:hidden z-0 max-sm:hidden left-[1700px] top-[350px] transform -translate-y-1/2 text-[70px] uppercase font-bold bg-gradient-to-r from-red-700 via-orange-600 to-orange-400 inline-block text-transparent bg-clip-text tracking-widest px-7 py-4 transition-all duration-300 ease-in-out hover:translate-y-[-7px]">
+      *
+  </p>
 
     <div
       class="trabajos hidden px-64 pt-16 pb-6 text-white flex-col items-left gap-10 items-left max-lg:pt-16 max-lg:px-10 max-lg:flex-col max-lg:justify-center max-lg:gap-2 max-lg:justify-items-center max-[1930px]:pt-4 max-[1080px]:px-20 max-[1080px]:pb-14 max-[720px]:px-4 max-sm:px-2 max-sm:pb-8 max-sm:pt-12 max-sm:hidden">
@@ -891,7 +896,7 @@
         </div>
       </div>
     </div>
-    
+
     <div id="servicios" class="pb-14"></div>
 
     <div data-aos="fade-up" data-aos-duration="2000"
@@ -1005,7 +1010,14 @@
         </div>
 
         <div
-          class="absolute opacity-30 text-zinc-300 rotate-[-90deg] text-center font-['PPE-UltralightItalic'] flex leading-[110px] pt-4 top-[36rem] text-[120px] left-[54rem]">
+        class="absolute max-sm:hidden opacity-30 text-zinc-300 rotate-[-90deg] text-center font-['PPE-UltralightItalic'] flex leading-[110px] pt-4 top-[36rem] max-[600px]:hidden max-[1000px]:hidden max-[1500px]:left-[20rem] max-[1920px]:left-[34rem] text-[120px] max-[2200px]:left-[42rem] left-[54rem]">
+        Rubén
+          <br>
+          MALDONADO
+        </div>
+
+        <div
+          class="absolute hidden max-sm:flex text-[30px] text-zinc-300 rotate-[-90deg] leading-[30px] text-center font-['PPE-UltralightItalic'] top-[42rem] right-[19rem]">
           Rubén
           <br>
           MALDONADO
@@ -1029,8 +1041,8 @@
             resolutivo y trabajador.
 
             <div class="pt-24 max-sm:pt-24">
-              <img class="img shadow-xl" src="/img/gifyo.gif" alt="" />
-              <div class="text pt-2 flex justify-end font-bold text-[12px] max-sm:text-[15px] text-zinc-200">
+              <img class="img" src="/img/gifyo.gif" alt="" />
+              <div class="text pt-2 flex justify-end font-bold max-sm:text-[12px] font-['SFUIDisplay-Light'] text-[12px] text-zinc-200">
                 YO_PRIMERO_FINAL_PRUEBA_CAMBIOS.jpg</div>
             </div>
 
@@ -1049,37 +1061,40 @@
       </div>
       <div class="servicios_ofrecidos flex flex-col gap-6 pt-2">
         <div class="servicio flex flex-col gap-6 font-['Neue']">
-          <div class="text max-w-[60ch] font-normal text-[16px] max-sm:text-[15px] text-zinc-300">
-            ▶ Ganador de concurso de carteles para
-            <a class="bold font-['Neue'] text-white">Villaluenga de la Sagra</a> -
-            Cartel para el libro de las fiestas <br />
-            ▶ Creación de cartelería para página web y físico y creación de
+          <div class="text max-w-[60ch] font-normal text-[16px] max-sm:text-[15px]">
+            → Ganador de concurso de carteles para
+            <a href="https://rubenmaldonado.es/Ilustraciones#carteles" class="bold font-['Neue'] text-red-400 underline">Villaluenga de la Sagra</a>
+            <br />
+            → Creación de cartelería para página web y físico y creación de
             pictogramas para empresa
             <a class="bold font-['Neue'] text-white">Neumáticos por Poco.</a>
             <a class="bold text-xs text-white">- (6 meses)</a> <br />
-            ▶ Renovación y creación de marca para la empresa
+            → Renovación y creación de marca para la empresa
             <a class="bold font-['Neue'] text-white">Motor 76.</a>
             <a class="bold text-xs text-white">- (1 mes)</a> <br />
-            ▶ Creación de ilustraciones para portadas de noticias en
+            → Creación de ilustraciones para portadas de noticias en
             <a class="bold font-['Neue'] text-white">Ecos Castilla La Mancha.</a>
-            <a class="bold text-xs text-white">- (2 meses)</a> <br />
-            ▶ Diseño de portadas para proyecto musical. <br />
-            ▶ Encargos Freelance de sesiones fotográficas, diseño de tatuajes e
+            <a class="bold text-xs text-white"><br> (2 meses)</a> <br />
+            → Diseño de portadas para proyecto musical. <br />
+            → Encargos Freelance de sesiones fotográficas, diseño de tatuajes e
             ilustraciones personales.
             <a class="bold text-xs text-white">- (4 años)</a> <br />
-            ▶ Diseñador Freelance por horas para empresas.
+            → Diseñador Freelance por horas para empresas.
             <a class="bold text-xs text-white">- (2 meses)</a> <br />
-            ▶ Trabajo en practicas de empresa extracurriculares
+            → Trabajo en practicas de empresa extracurriculares
             <a class="bold animate-pulse font-['Neue'] text-white" href="https://www.garridogallery.com/">Garrido
               Gallery</a>
             (Empresa de diseños y piezas de arte de lujo)<a class="bold text-xs text-white">- (9 meses)</a>
             <br />
-            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ▶
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="text-red-400 underline" href="https://rubenmaldonado.es/GarridoGallery#catalogo"> →
               Maquetación e impresión del Catalogo 2024</a>
+            <br>
+            → Actualmente trabajando de practicas en <a href="https://www.prodigiosovolcan.com/" class="bold font-['Neue'] text-red-400 underline">Prodigioso Volcán</a>
           </div>
         </div>
       </div>
     </div>
+
 
     <div data-aos="fade-up" data-aos-duration="2000"
       class="trabajos flex pt-32 pl-40 pr-40 pb-40 text-white flex-nowrap gap-60 justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20">
@@ -1093,18 +1108,18 @@
         <div class="servicio flex flex-col gap-6">
           <div class="text max-w-[60ch] font-normal text-[16px] max-sm:text-[15px] text-zinc-300 font-['Neue']">
             <a class="bold text-white font-['Neue']">
-              ▶ Bachillerato Artístico
+              → Bachillerato Artístico
             </a>
             en IES El Greco Toledo. <br /><a class="bold text-white font-['Neue']">
-              ▶ Grado Superior de Ilustración</a>
+              → Grado Superior de Ilustración</a>
             en la Escuela de Artes de Toledo. <br /><a class="bold text-white font-['Neue']">
-              ▶ 4º de Grado Universitario de Diseño Gráfico
+              → 4º de Grado Universitario de Diseño Gráfico
             </a>
             en la Escuela Superior de Diseño de Madrid. <br /><a class="bold text-white font-['Neue']">
-              ▶ Curso extracurricular de 2 años de Arte y Pintura
+              → Curso extracurricular de 2 años de Arte y Pintura
             </a>
             en Villaluenga de la Sagra. <br /><a class="bold text-white font-['Neue']">
-              ▶ Cursos de Domestika:</a>
+              → Cursos de Domestika:</a>
             "Ilustración Digital con Procreate", "Ilustración Digital aplicada a
             productos", "Introducción al lettering con Procreate".
           </div>
@@ -1132,7 +1147,7 @@
         NUEVO CONTENIDO
       </div>
     </div>
-    <div id="tienda" class="pb-14"></div>
+    <div id="tienda" class="pb-14 bg-white"></div>
 
     <div
       class="trabajos flex pt-32 pl-40 pr-40 pb-12 bg-white text-black flex-nowrap gap-[340px] justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-6 max-sm:pb-12 max-sm:pt-24 border-black">
@@ -1152,7 +1167,7 @@
             para comprar los podructos
             es necesario contactar vía <a
               href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado."
-              target="_blank" class="text-red-700 animate-pulse font-['Neue-Italic']">EMAIL</a> o contactandome
+              target="_blank" class="text-red-400 underline animate-pulse font-['Neue-Italic']">EMAIL</a> o contactandome
             personalmente)
 
 
@@ -1397,7 +1412,7 @@
 
 
   <div
-    class="links_rrss pt-32 bg-black px-80 pb-32 text-white justify-center gap-12 flex flex-row max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20 max-lg:flex max-lg:justify-center max-sm:pt-24">
+    class="links_rrss bg-black pt-32 px-80 pb-32 text-white justify-center gap-12 flex flex-row max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20 max-lg:flex max-lg:justify-center max-sm:pt-24">
     <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado."
       target="_blank"
       class="email text-lg pr-12 flex gap-2 items-center max-lg:text-[14px] max-lg:justify-center max-sm:pr-0">
@@ -1405,9 +1420,8 @@
       <img class="vector" src="/img/Vector-11.svg" />
     </a>
     <div class="links flex flex-col pl-12 gap-2 max-lg:justify-center max-sm:pl-0">
-      <div class="links1 flex gap-32 max-lg:justify-center">
-        <a class="red flex gap-2 items-center max-lg:text-[14px]"
-          href="https://www.instagram.com/ruben.artes/">
+      <div class="links1 flex max-sm:gap-24 gap-32 max-lg:justify-center">
+        <a class="red flex gap-2 items-center max-lg:text-[14px]" href="https://www.instagram.com/ruben.artes/">
           <img class="vector w-[14px]" src="/img/Instagram2.png" />
           | Instagram
           <img class="vector" src="/img/Vector-11.svg" />
@@ -1418,14 +1432,13 @@
           <img class="vector" src="/img/Vector-11.svg" />
         </a>
       </div>
-      <div class="links2 flex gap-32 flex-end max-lg:justify-center">
+      <div class="links2 flex max-sm:gap-24 gap-32 flex-end max-lg:justify-center">
         <a class="red flex gap-2 items-center max-lg:text-[14px]" href="https://www.instagram.com/ruben.iso">
           <img class="vector w-[14px]" src="/img/Instagram2.png" />
           | Instagram
           <img class="vector" src="/img/Vector-11.svg" />
         </a>
-        <a class="red flex gap-2 items-center max-lg:text-[14px]"
-          href="https://www.linkedin.com/in/rubenmaldonado00">
+        <a class="red flex gap-2 items-center max-lg:text-[14px]" href="https://www.linkedin.com/in/rubenmaldonado00">
           <img class="vector w-[14px]" src="/img/LinkedIn2.png" />
           | LinkedIn
           <img class="vector" src="/img/Vector-11.svg" />
@@ -1435,17 +1448,20 @@
   </div>
 
   <div
-  class="foter bg-black p-10 grid grid-cols-3 text-white max-lg:p-6">
-  <div class="foter_image flex flex-start">
+    class="foter bg-black p-10 max-sm:border-0 border-b-0 border-l-0 border-r-0 grid grid-cols-3 max-sm:grid-cols-2 text-white max-lg:p-6 border border-t-1">
+    <div class="foter_image flex flex-start max-sm:gap-2">
       <img class="vector max-lg:max-w-[15px]" src="/img/star.svg" />
+      <div class="email hidden max-sm:flex gap-2 items-center text-[10px] justify-center text-sm max-lg:text-xs">
+        Copyright ©</div>
     </div>
-    <div class="email flex gap-2 items-center text-[10px] justify-center text-sm max-lg:text-xs">
+    <div class="email max-sm:hidden flex gap-2 items-center text-[10px] justify-center text-sm max-lg:text-xs">
       All rights reserved | Copyright ©</div>
     <div class="email flex gap-2 justify-end items-center text-sm max-lg:text-xs">
       Ruben Maldonado González
-      <img class="vector max-lg:max-w-[15px]" src="/img/futbolblack.svg" />
+      <img class="vector max-lg:max-w-[15px]" src="/img/futbol.svg" />
     </div>
   </div>
+
 
 </template>
 

@@ -2,7 +2,7 @@
   <div id="inicio" class="app bg-white font-['SFUIDisplay-Light']">
     <Cursor class="max-sm:hidden" />
     <div
-      class="header bg-white p-10 border-t-0 px-24 text-black grid grid-cols-3 sticky top-0 z-10 max-lg:p-6 max-lg:sticky max-sm:flex max-sm:justify-between">
+      class="header bg-white p-10 border-t-0 px-24 text-black grid grid-cols-3 sticky top-0 z-50 max-lg:p-6 max-lg:sticky max-sm:flex max-sm:justify-between">
       <div class="image place-self-start self-center">
         <NuxtLink to="/Home">
           <img class="max-lg:max-w-[15px]" src="/img/Vectorblack.svg" />
@@ -32,12 +32,17 @@
     <VueScrollProgressBar background-color="#000000" />
 
     <!-- Botón flotante -->
+
     <a href="#inicio"
-      class="fixed max-sm:hidden mix-blend-exclusion right-0 top-1/2 transform -translate-y-1/2 text-[70px] z-50 uppercase font-bold text-white tracking-widest px-7 py-4 transition-all duration-300 ease-in-out hover:translate-y-[-7px]">
+      class="fixed max-sm:hidden mix-blend-exclusion bottom-0 right-0 transform -translate-y-1/2 text-[70px] z-50 uppercase font-bold text-white tracking-widest px-7 py-4 transition-all duration-300 ease-in-out hover:translate-y-[-7px]">
       ↑
     </a>
 
-
+    <p href="#inicio"
+    class="absolute max-[1920px]:hidden z-0 max-sm:hidden left-[1700px] top-[350px] transform -translate-y-1/2 text-[70px] uppercase font-bold bg-gradient-to-r from-red-700 via-orange-600 to-orange-400 inline-block text-transparent bg-clip-text tracking-widest px-7 py-4 transition-all duration-300 ease-in-out hover:translate-y-[-7px]">
+    *
+  </p>
+    
 
     <div
       class="trabajos hidden px-64 pt-16 pb-6 text-white flex-col items-left gap-10 items-left max-lg:pt-16 max-lg:px-10 max-lg:flex-col max-lg:justify-center max-lg:gap-2 max-lg:justify-items-center max-[1930px]:pt-4 max-[1080px]:px-20 max-[1080px]:pb-14 max-[720px]:px-4 max-sm:px-2 max-sm:pb-8 max-sm:pt-12 max-sm:hidden">
@@ -1015,13 +1020,13 @@
         </div>
 
         <div
-          class="absolute max-sm:hidden opacity-30 text-zinc-300 rotate-[-90deg] text-center font-['PPE-UltralightItalic'] flex leading-[110px] pt-4 top-[36rem] text-[120px] left-[54rem]">
+          class="absolute max-sm:hidden opacity-30 text-zinc-300 rotate-[-90deg] text-center font-['PPE-UltralightItalic'] flex leading-[110px] pt-4 top-[36rem] max-[600px]:hidden max-[1000px]:hidden max-[1500px]:left-[20rem] max-[1920px]:left-[34rem] text-[120px] max-[2200px]:left-[42rem] left-[54rem]">
           Rubén
           <br>
           MALDONADO
         </div>
         <div
-          class="absolute hidden max-sm:flex text-[30px] text-zinc-300 rotate-[-90deg] leading-[30px] text-center font-['PPE-UltralightItalic'] top-[42rem] right-[19rem]">
+          class="absolute hidden min-sm:flex text-[30px] text-zinc-300 rotate-[-90deg] leading-[30px] text-center font-['PPE-UltralightItalic'] top-[42rem] right-[19rem]">
           Rubén
           <br>
           MALDONADO
@@ -1047,7 +1052,7 @@
 
             <div class="pt-24 max-sm:pt-24">
               <img class="img shadow-xl" src="/img/gifyo.gif" alt="" />
-              <div class="text pt-2 flex justify-end font-bold max-sm:text-[12px] text-[12px]text-zinc-900">
+              <div class="text pt-2 flex justify-end font-bold max-sm:text-[12px] font-['SFUIDisplay-Light'] text-[12px]text-zinc-900">
                 YO_PRIMERO_FINAL_PRUEBA_CAMBIOS.jpg</div>
             </div>
 
@@ -1066,33 +1071,35 @@
       </div>
       <div class="servicios_ofrecidos flex flex-col gap-6 pt-2">
         <div class="servicio flex flex-col gap-6 font-['Neue']">
-          <div class="text max-w-[60ch] font-normal text-[16px] max-sm:text-[15px] text-zinc-600">
-            ▶ Ganador de concurso de carteles para
-            <a class="bold font-['Neue'] text-black">Villaluenga de la Sagra</a> -
-            Cartel para el libro de las fiestas <br />
-            ▶ Creación de cartelería para página web y físico y creación de
+          <div class="text max-w-[60ch] font-normal text-[16px] max-sm:text-[15px]">
+            → Ganador de concurso de carteles para
+            <a href="https://rubenmaldonado.es/Ilustraciones#carteles" class="bold font-['Neue'] text-red-400 underline">Villaluenga de la Sagra</a>
+            <br />
+            → Creación de cartelería para página web y físico y creación de
             pictogramas para empresa
             <a class="bold font-['Neue'] text-black">Neumáticos por Poco.</a>
             <a class="bold text-xs text-black">- (6 meses)</a> <br />
-            ▶ Renovación y creación de marca para la empresa
+            → Renovación y creación de marca para la empresa
             <a class="bold font-['Neue'] text-black">Motor 76.</a>
             <a class="bold text-xs text-black">- (1 mes)</a> <br />
-            ▶ Creación de ilustraciones para portadas de noticias en
+            → Creación de ilustraciones para portadas de noticias en
             <a class="bold font-['Neue'] text-black">Ecos Castilla La Mancha.</a>
-            <a class="bold text-xs text-black">- (2 meses)</a> <br />
-            ▶ Diseño de portadas para proyecto musical. <br />
-            ▶ Encargos Freelance de sesiones fotográficas, diseño de tatuajes e
+            <a class="bold text-xs text-black"><br>(2 meses)</a> <br />
+            → Diseño de portadas para proyecto musical. <br />
+            → Encargos Freelance de sesiones fotográficas, diseño de tatuajes e
             ilustraciones personales.
             <a class="bold text-xs text-black">- (4 años)</a> <br />
-            ▶ Diseñador Freelance por horas para empresas.
+            → Diseñador Freelance por horas para empresas.
             <a class="bold text-xs text-black">- (2 meses)</a> <br />
-            ▶ Trabajo en practicas de empresa extracurriculares
+            → Trabajo en practicas de empresa extracurriculares
             <a class="bold animate-pulse font-['Neue'] text-black" href="https://www.garridogallery.com/">Garrido
               Gallery</a>
             (Empresa de diseños y piezas de arte de lujo)<a class="bold text-xs text-black">- (9 meses)</a>
             <br />
-            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ▶
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="text-red-400 underline" href="https://rubenmaldonado.es/GarridoGallery#catalogo"> →
               Maquetación e impresión del Catalogo 2024</a>
+            <br>
+            → Actualmente trabajando de practicas en <a href="https://www.prodigiosovolcan.com/" class="bold font-['Neue'] text-red-400 underline">Prodigioso Volcán</a>
           </div>
         </div>
       </div>
@@ -1110,18 +1117,19 @@
         <div class="servicio flex flex-col gap-6">
           <div class="text max-w-[60ch] font-normal text-[16px] max-sm:text-[15px] text-zinc-600 font-['Neue']">
             <a class="bold text-black font-['Neue']">
-              ▶ Bachillerato Artístico
+              → Bachillerato Artístico
             </a>
-            en IES El Greco Toledo. <br /><a class="bold text-black font-['Neue']">
-              ▶ Grado Superior de Ilustración</a>
-            en la Escuela de Artes de Toledo. <br /><a class="bold text-black font-['Neue']">
-              ▶ 4º de Grado Universitario de Diseño Gráfico
+            en IES El Greco Toledo. <br />
+            <a class="bold text-black font-['Neue']">
+             → Grado Superior de Ilustración
+            en la Escuela de Artes de Toledo.</a> <br /><a class="bold text-black font-['Neue']">
+              → 4º de Grado Universitario de Diseño Gráfico
             </a>
             en la Escuela Superior de Diseño de Madrid. <br /><a class="bold text-black font-['Neue']">
-              ▶ Curso extracurricular de 2 años de Arte y Pintura
+              → Curso extracurricular de 2 años de Arte y Pintura
             </a>
             en Villaluenga de la Sagra. <br /><a class="bold text-black font-['Neue']">
-              ▶ Cursos de Domestika:</a>
+              → Cursos de Domestika:</a>
             "Ilustración Digital con Procreate", "Ilustración Digital aplicada a
             productos", "Introducción al lettering con Procreate".
           </div>
@@ -1169,7 +1177,7 @@
             para comprar los podructos
             es necesario contactar vía <a
               href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado."
-              target="_blank" class="text-red-700 animate-pulse font-['Neue-Italic']">EMAIL</a> o contactandome
+              target="_blank" class="text-red-400 underline animate-pulse font-['Neue-Italic']">EMAIL</a> o contactandome
             personalmente)
 
 
@@ -1212,7 +1220,7 @@
         class="hidden max-sm:grid max-sm:grid-cols-1 pt-32 px-72 bg-white max-[1500px]:gap-46 max-[1500px]:px-32 max-sm:px-4 max-sm:pt-12 max-sm:gap-8">
 
         <div
-          class="titular max-sm:flex-col text-red-600 flex text-[22px] animate-pulse justify-center text-center uppercase font-['PPE-Ultralight']">
+          class="titular max-sm:flex-col text-red-400 underline flex text-[22px] animate-pulse justify-center text-center uppercase font-['PPE-Ultralight']">
           Pack Pegatinas | <a class="font-['PPE-UltralightItalic'] normal-case pl-2">Selección Individual
           </a>
           <div
@@ -1430,7 +1438,7 @@
       <img class="vector" src="/img/Vector-11black.svg" />
     </a>
     <div class="links flex flex-col pl-12 gap-2 max-lg:justify-center max-sm:pl-0">
-      <div class="links1 flex gap-32 max-lg:justify-center">
+      <div class="links1 flex max-sm:gap-24 gap-32 max-lg:justify-center">
         <a class="red flex gap-2 items-center max-lg:text-[14px]" href="https://www.instagram.com/ruben.artes/">
           <img class="vector w-[14px]" src="/img/Instagram.png" />
           | Instagram
@@ -1442,7 +1450,7 @@
           <img class="vector" src="/img/Vector-11black.svg" />
         </a>
       </div>
-      <div class="links2 flex gap-32 flex-end max-lg:justify-center">
+      <div class="links2 flex max-sm:gap-24 gap-32 flex-end max-lg:justify-center">
         <a class="red flex gap-2 items-center max-lg:text-[14px]" href="https://www.instagram.com/ruben.iso">
           <img class="vector w-[14px]" src="/img/Instagram.png" />
           | Instagram
@@ -1458,11 +1466,13 @@
   </div>
 
   <div
-    class="foter bg-white p-10 border-b-0 border-l-0 border-r-0 grid grid-cols-3 text-black max-lg:p-6 border border-t-1">
-    <div class="foter_image flex flex-start">
+    class="foter bg-white p-10 border-b-0 border-l-0 border-r-0 grid grid-cols-3 max-sm:grid-cols-2 text-black max-lg:p-6 border border-t-1">
+    <div class="foter_image flex flex-start max-sm:gap-2">
       <img class="vector max-lg:max-w-[15px]" src="/img/starblack.svg" />
+      <div class="email hidden max-sm:flex gap-2 items-center text-[10px] justify-center text-sm max-lg:text-xs">
+        Copyright ©</div>
     </div>
-    <div class="email flex gap-2 items-center text-[10px] justify-center text-sm max-lg:text-xs">
+    <div class="email max-sm:hidden flex gap-2 items-center text-[10px] justify-center text-sm max-lg:text-xs">
       All rights reserved | Copyright ©</div>
     <div class="email flex gap-2 justify-end items-center text-sm max-lg:text-xs">
       Ruben Maldonado González

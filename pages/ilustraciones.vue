@@ -415,7 +415,7 @@
             <img class="image_grid w-full h-full" src="/img/ataque4.png" alt="">
         </div>
 
-        <div
+        <div id="carteles"
             class="images pt-2 px-64 max-sm:px-2 pb-0 text-black justify-center flex flex-col gap-2 max-xl:pb-0 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-4">
             <div id="folleto"
                 class="titular2 flex px-64 pb-12 gap-64 pt-48 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-2 max-[1500px]:px-32  max-[1500px]:gap-12 max-[1500px]:items-center max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
@@ -442,7 +442,7 @@
         <div
             class="grid pt-8 max-[1920px]:px-[12rem] max-[1500px]:px-12 grid-cols-3 gap-12 px-[18rem] pb-44 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-sm:hidden">
             <a
-                class="type text-[14px] max-[1500px]:text-[13px] invisible place-self-start pt-4 font-['Neue'] uppercase">▲
+                class="type text-black text-[14px] max-[1500px]:text-[13px] max-sm:invisible place-self-start pt-4 font-['Neue'] uppercase">▲
                 Mockup de etiquetado
                 delantero/trasero</a>
             <a class="type text-[14px] max-[1500px]:text-[13px] place-self-start pt-4 font-['Neue'] uppercase">▲ CARTEL

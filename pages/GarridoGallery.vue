@@ -157,7 +157,7 @@
         </div>
 
 
-        <div
+        <div id="garrido"
             class="div text-[#252525] pt-24 pb-24 text-center text-[50px] m-0 animate-pulse font-['PPE-Ultralight'] uppercase max-sm:text-xs">
             <p class="font-['PPE-UltralightItalic'] text-[30px] capitalize leading-6">Catalogo Oficial</p> GARRIDO GALLERY 2024</div>
 
@@ -474,10 +474,6 @@
             </video>
 
         </div>
-
-
-
-
 
         <div
             class="titular2 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-32 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
