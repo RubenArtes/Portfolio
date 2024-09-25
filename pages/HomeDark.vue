@@ -891,8 +891,10 @@
         </div>
       </div>
     </div>
+    
+    <div id="servicios" class="pb-14"></div>
 
-    <div id="servicios" data-aos="fade-up" data-aos-duration="2000"
+    <div data-aos="fade-up" data-aos-duration="2000"
       class="trabajos flex pt-32 pl-40 pr-40 pb-40 border border-b-1 border-t-0 border-r-0 border-l-0 text-white flex-nowrap gap-60 justify-center max-lg:pt-20 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20">
       <div class="sticky_menu">
         <div
@@ -992,36 +994,51 @@
         </div>
       </div>
     </div>
+    <div id="sobremi" class="pb-14"></div>
 
-    <div id="sobremi" data-aos="fade-up" data-aos-duration="2000"
+    <div data-aos="fade-up" data-aos-duration="2000"
       class="trabajos flex pt-32 pl-40 pr-40 pb-40 border border-b-1 border-t-0 border-r-0 border-l-0 text-white flex-nowrap gap-60 justify-center max-lg:pt-20 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20">
       <div class="sticky_menu">
         <div
-          class="titular flex flex-col text-[72px] max-[1500px]:text-[60px] font-normal sticky top-[10rem] max-lg:text-[60px] font-['PPE-Ultralight']">
+          class="titular flex flex-col leading-[80px] text-[72px] max-[1500px]:text-[60px] font-normal sticky top-[10rem] max-lg:text-[60px] font-['PPE-Ultralight']">
           SOBRE MI
         </div>
+
+        <div
+          class="absolute opacity-30 text-zinc-300 rotate-[-90deg] text-center font-['PPE-UltralightItalic'] flex leading-[110px] pt-4 top-[36rem] text-[120px] left-[54rem]">
+          Rubén
+          <br>
+          MALDONADO
+        </div>
+
       </div>
       <div class="servicios_ofrecidos flex flex-col gap-6">
         <div class="servicio flex flex-col gap-6">
-          <div class="text max-w-[60ch] font-normal text-[16px] max-sm:text-[15px] text-zinc-300">
+          <div class="text max-w-[60ch] font-normal text-[16px] max-sm:text-[15px] text-zinc-200">
             Soy un estudiante de 23 años, actualmente terminando un grado
             Universitario de Diseño Gráfico en la Escuela Superior De Diseño de
             Madrid.
-            <a class="animate-pulse texto_type italic text-xs text-zinc-300">(Nota media - 9).</a>
+            <a class="animate-pulse texto_type italic text-xs text-zinc-200">(Nota media - 9).</a>
             <br />
             Cuento con un Grado Superior de Ilustración realizado en la Escuela de Artes de Toledo
-            <a class="texto_type italic text-xs text-zinc-300 animate-pulse">(Nota TFG - 9).</a>
+            <a class="texto_type italic text-xs text-zinc-200 animate-pulse">(Nota TFG - 9).</a>
             <br />
             <br />
             Soy muy polifacetico y no me cierro a ninguna vía del diseño, suelo
             abarcar todos los ambitos, como ya he mostrado anteriormente. Soy
             resolutivo y trabajador.
 
-            <img class="img pt-10 max-sm:pt-24" src="/img/yofotoyo.jpeg" alt="" />
+            <div class="pt-24 max-sm:pt-24">
+              <img class="img shadow-xl" src="/img/gifyo.gif" alt="" />
+              <div class="text pt-2 flex justify-end font-bold text-[12px] max-sm:text-[15px] text-zinc-200">
+                YO_PRIMERO_FINAL_PRUEBA_CAMBIOS.jpg</div>
+            </div>
+
           </div>
         </div>
       </div>
     </div>
+
     <div data-aos="fade-up" data-aos-duration="2000"
       class="trabajos flex pt-32 pl-40 pr-40 pb-20 border-t-0 border-r-0 border-l-0 text-white flex-nowrap gap-60 justify-center max-lg:pt-20 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20">
       <div class="sticky_menu">
@@ -1115,8 +1132,9 @@
         NUEVO CONTENIDO
       </div>
     </div>
+    <div id="tienda" class="pb-14"></div>
 
-    <div id="tienda"
+    <div
       class="trabajos flex pt-32 pl-40 pr-40 pb-12 bg-white text-black flex-nowrap gap-[340px] justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-6 max-sm:pb-12 max-sm:pt-24 border-black">
       <div class="sticky_menu">
         <div
@@ -1389,19 +1407,27 @@
     <div class="links flex flex-col pl-12 gap-2 max-lg:justify-center max-sm:pl-0">
       <div class="links1 flex gap-32 max-lg:justify-center">
         <a class="red flex gap-2 items-center max-lg:text-[14px]"
-          href="https://www.instagram.com/ruben.artes/">Instagram
+          href="https://www.instagram.com/ruben.artes/">
+          <img class="vector w-[14px]" src="/img/Instagram2.png" />
+          | Instagram
           <img class="vector" src="/img/Vector-11.svg" />
         </a>
-        <a class="red flex gap-2 items-center max-lg:text-[14px]" href="https://www.behance.net/rubenartes">Behance
+        <a class="red flex gap-2 items-center max-lg:text-[14px]" href="https://www.behance.net/rubenartes">
+          <img class="vector w-[14px]" src="/img/Behance2.png" />
+          | Behance
           <img class="vector" src="/img/Vector-11.svg" />
         </a>
       </div>
       <div class="links2 flex gap-32 flex-end max-lg:justify-center">
-        <a class="red flex gap-2 items-center max-lg:text-[14px]" href="https://www.instagram.com/ruben.iso">Instagram
+        <a class="red flex gap-2 items-center max-lg:text-[14px]" href="https://www.instagram.com/ruben.iso">
+          <img class="vector w-[14px]" src="/img/Instagram2.png" />
+          | Instagram
           <img class="vector" src="/img/Vector-11.svg" />
         </a>
         <a class="red flex gap-2 items-center max-lg:text-[14px]"
-          href="https://www.linkedin.com/in/rubenmaldonado10">LinkedIn
+          href="https://www.linkedin.com/in/rubenmaldonado00">
+          <img class="vector w-[14px]" src="/img/LinkedIn2.png" />
+          | LinkedIn
           <img class="vector" src="/img/Vector-11.svg" />
         </a>
       </div>
@@ -1409,13 +1435,15 @@
   </div>
 
   <div
-    class="foter bg-black p-10 border-b-0 border-l-0 border-r-0 border-t-0 flex text-white justify-between sticky top-0 max-lg:p-6 border border-t-1">
-    <div class="foter_image flex flex-start">
+  class="foter bg-black p-10 grid grid-cols-3 text-white max-lg:p-6">
+  <div class="foter_image flex flex-start">
       <img class="vector max-lg:max-w-[15px]" src="/img/star.svg" />
     </div>
-    <div class="email flex gap-2 items-center text-sm max-lg:text-xs">
+    <div class="email flex gap-2 items-center text-[10px] justify-center text-sm max-lg:text-xs">
+      All rights reserved | Copyright ©</div>
+    <div class="email flex gap-2 justify-end items-center text-sm max-lg:text-xs">
       Ruben Maldonado González
-      <img class="vector max-lg:max-w-[15px]" src="/img/futbol.svg" />
+      <img class="vector max-lg:max-w-[15px]" src="/img/futbolblack.svg" />
     </div>
   </div>
 

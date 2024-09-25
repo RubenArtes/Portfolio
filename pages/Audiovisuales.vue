@@ -19,18 +19,10 @@
 
         <VueScrollProgressBar background-color="#ffffff" />
         <div id="navegacion"
-            class="titular2 flex px-64 max-[1500px]:pb-4 max-[1500px]:pt-12 max-[1500px]:gap-2 gap-32 max-sm:pb-16 pb-32 content-start space-between justify-center pt-32 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-[1500px]:flex-col max-[1500px]:gap-24 max-[1500px]:items-center max-[1700px]:px-10">
+            class="titular2 flex px-64 gap-64 content-start space-between justify-center pt-32 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-[1500px]:flex-col max-[1500px]:gap-2 max-[1500px]:items-center max-[1700px]:px-10">
             <div
-                class="titular max-sm:hidden text-[120px] max-sm:text-[40px] font-['PPE-UltralightItalic'] max-[1440px]:text-center leading-[120px] pt-4 max-[1920px]:flex-col max-[1920px]:flex font-bold animate-pulse bg-gradient-to-r bg-clip-text text-transparent animate-text max-[1280px]:text-[100px] from-[#fdfdfd] via-[#aaaaaa] to-[#9f9f9f]">
-                <p class="font-['PPE-Ultralight']">AUDIOVISUALES</p>
-            </div>
-
-            <div
-                class="titular flex min-[1440px]:hidden max-[1440px]:text-center max-[1440px]:leading-[130px] max-sm:pb-4 max-[1440px]:pb-16 text-[120px] font-['PPE-Ultralight'] leading-12 font-bold animate-pulse bg-gradient-to-r bg-clip-text text-transparent animate-text max-sm:text-[55px] max-[1500px]:text-left max-[1280px]:text-[100px] from-[#88878a] via-[#cae1ff] to-[#7c7c7c] max-sm:text-center max-sm:leading-[60px]">
-                AUDIO
-                <br>
-                VISUALES
-            </div>
+                class="titular text-[120px] font-['PPE-Ultralight'] leading-12 font-bold animate-pulse bg-gradient-to-r bg-clip-text text-transparent animate-text max-sm:text-[55px] max-[1500px]:text-left max-[1280px]:text-[100px] from-[#faf8ff] via-[#cae1ff] to-[#e3d5ff] max-sm:text-center max-sm:leading-[60px]">
+                VISUALES</div>
             <div
                 class="trabajos flex max-sm:gap-2 flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:pt-6 max-sm:pb-2 max-sm:px-0 max-[1280px]:items-center max-[1280px]:pt-6 max-[1280px]:pb-0">
 
@@ -39,7 +31,7 @@
                     Modelado 3d - Cinema 4d - After Effects - Animación - Blender
                 </div>
                 <div
-                    class="text max-sm:pt-4 max-w-[80ch] max-[1440px]:pt-12 pb-16 pt-4 max-sm:text-left text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-200 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:max-w-[100ch] max-[800px]:pb-4">
+                    class="text max-sm:pt-4 max-w-[80ch] max-[1500px]:pt-12 pb-16 pt-4 max-sm:text-left text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-200 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:max-w-[100ch] max-[800px]:pb-4">
                     Creación de diferentes trabajos para distintas asignaturas, creando piezas audiovisuales que mezclan
                     las destrezas del 3D, la animación frame a frema con dibujos, animaciones creadas mediante After
                     Effects y diferentes recursos gráficos para crear composiciones audiovisuales.
@@ -122,11 +114,11 @@
                 <div
                     class="trabajo1 text-zinc-100 border-zinc-100 border border-solid border-r-0 flex flex-col border-l-0 border-b-0 hover:bg-[url('/img/puff2.gif')] bg-cover bg-center hover:text-white max-[1840px]:px-16 max-sm:px-0 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-12 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
                     <div
-                        class="text max-[1440px]:text-[170px] text-center text-[50px] leading-[9rem] pt-32 font-['PPE-UltralightItalic'] justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
+                        class="text max-[1500px]:text-[60px] text-center text-[50px] leading-[9rem] pt-32 font-['PPE-UltralightItalic'] justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
                         Render 3D
                     </div>
                     <div
-                        class="text max-[1440px]:text-[120px] text-center text-[120px] leading-[3rem] font-['PPE-Ultralight'] justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
+                        class="text max-[1500px]:text-[120px] text-center text-[120px] leading-[3rem] font-['PPE-Ultralight'] justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
                         LETTERING 3D
                     </div>
                     <div
@@ -140,11 +132,11 @@
                 <div
                     class="trabajo1 text-zinc-100 border-zinc-100 border border-solid border-r-0 flex flex-col border-l-0 border-t-1 hover:bg-[url('/img/variacionesfinal.gif')] bg-cover bg-center hover:text-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
                     <div
-                        class="text max-[1440px]:text-[120px] text-center text-[50px] leading-[9rem] pt-32 font-['PPE-UltralightItalic'] justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
+                        class="text max-[1500px]:text-[60px] text-center text-[50px] leading-[9rem] pt-32 font-['PPE-UltralightItalic'] justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
                         Motion Graphic
                     </div>
                     <div
-                        class="text max-[1440px]:text-[120px] text-center text-[120px] leading-[3rem] font-['PPE-Ultralight'] justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
+                        class="text max-[1500px]:text-[120px] text-center text-[120px] leading-[3rem] font-['PPE-Ultralight'] justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
                         MONSTRUOS INC
                     </div>
                     <div
@@ -159,11 +151,11 @@
                 <div
                     class="trabajo1 text-zinc-100 border-zinc-100 border border-solid border-r-0 flex flex-col border-l-0 border-t-0 hover:bg-[url('/img/animacion2.gif')] bg-cover bg-center hover:text-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
                     <div
-                        class="text max-[1440px]:text-[120px] text-center text-[50px] leading-[9rem] pt-32 font-['PPE-UltralightItalic'] justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
+                        class="text max-[1500px]:text-[60px] text-center text-[50px] leading-[9rem] pt-32 font-['PPE-UltralightItalic'] justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
                         Animación
                     </div>
                     <div
-                        class="text max-[1440px]:text-[120px] text-center text-[120px] leading-[3rem] font-['PPE-Ultralight'] justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
+                        class="text max-[1500px]:text-[120px] text-center text-[120px] leading-[3rem] font-['PPE-Ultralight'] justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
                         ROBOT
                     </div>
                     <div
@@ -177,11 +169,11 @@
                 <div
                     class="trabajo1 text-zinc-100 border-zinc-100 border border-solid border-r-0 flex flex-col border-l-0 border-t-0 hover:bg-[url('/img/videoruben.gif')] bg-cover bg-center hover:text-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
                     <div
-                        class="text max-[1440px]:text-[120px] text-center text-[50px] leading-[9rem] pt-32 font-['PPE-UltralightItalic'] justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
+                        class="text max-[1500px]:text-[60px] text-center text-[50px] leading-[9rem] pt-32 font-['PPE-UltralightItalic'] justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
                         Ilustración
                     </div>
                     <div
-                        class="text max-[1440px]:text-[120px] text-center text-[120px] leading-[3rem] font-['PPE-Ultralight'] justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
+                        class="text max-[1500px]:text-[120px] text-center text-[120px] leading-[3rem] font-['PPE-Ultralight'] justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
                         ROTOSCOPIA
                     </div>
                     <div
@@ -202,7 +194,7 @@
                 <div
                     class="trabajo1 border border-solid border-r-0 border-l-0 border-b-0 px-20 py-20 flex flex-col justify-center max-[1840px]:px-16 max-sm:px-8 max-sm:pb-12 max-sm:max-h-[800px] max-sm:pt-16 max-sm:bg-black max-sm:border-solid max-sm:border-1 max-sm:text-white">
                     <div
-                        class="text max-[1440px]:text-[120px] text-center text-[50px] leading-[9rem] pt-32 font-['PPE-UltralightItalic'] justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[30px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
+                        class="text max-[1500px]:text-[120px] text-center text-[50px] leading-[9rem] pt-32 font-['PPE-UltralightItalic'] justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[30px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
                         Render 3D
                     </div>
                     <div
@@ -221,7 +213,7 @@
                 <div
                 class="trabajo1 border border-solid border-r-0 border-l-0 border-b-0 px-20 py-20 flex flex-col justify-center max-[1840px]:px-16 max-sm:px-8 max-sm:pb-12 max-sm:max-h-[800px] max-sm:pt-16 max-sm:bg-black max-sm:border-solid max-sm:border-1 max-sm:text-white">
                 <div
-                        class="text max-[1440px]:text-[120px] text-center text-[50px] leading-[9rem] pt-32 font-['PPE-UltralightItalic'] justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[30px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
+                        class="text max-[1500px]:text-[120px] text-center text-[50px] leading-[9rem] pt-32 font-['PPE-UltralightItalic'] justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[30px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
                         Motion Graphic
                     </div>
                     <div
@@ -240,7 +232,7 @@
                 <div
                 class="trabajo1 border border-solid border-r-0 border-l-0 border-b-0 px-20 py-20 flex flex-col justify-center max-[1840px]:px-16 max-sm:px-8 max-sm:pb-12 max-sm:max-h-[800px] max-sm:pt-16 max-sm:bg-black max-sm:border-solid max-sm:border-1 max-sm:text-white">
                 <div
-                        class="text max-[1440px]:text-[120px] text-center text-[50px] leading-[9rem] pt-32 font-['PPE-UltralightItalic'] justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[30px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
+                        class="text max-[1500px]:text-[120px] text-center text-[50px] leading-[9rem] pt-32 font-['PPE-UltralightItalic'] justify-center max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[30px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
                         Animación
                     </div>
                     <div

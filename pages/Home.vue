@@ -292,7 +292,8 @@
         PÁGINAS
         NUEVAS - PÁGINAS NUEVAS - PÁGINAS NUEVAS
       </div>
-      <div class=" bg-red-700 text-white justify-center content-center font-['Regular'] text-[12px] max-[1500px]:hidden max-sm:hidden">
+      <div
+        class=" bg-red-700 text-white justify-center content-center font-['Regular'] text-[12px] max-[1500px]:hidden max-sm:hidden">
         PÁGINAS
         NUEVAS -
         PÁGINAS NUEVAS - PÁGINAS NUEVAS
@@ -900,7 +901,9 @@
       </div>
     </div>
 
-    <div id="servicios" data-aos="fade-up" data-aos-duration="2000"
+    <div id="servicios" class="pb-14"></div>
+
+    <div data-aos="fade-up" data-aos-duration="2000"
       class="trabajos flex pt-32 pl-40 pr-40 pb-40 border border-b-1 border-t-0 border-r-0 border-l-0 text-black flex-nowrap gap-60 justify-center max-lg:pt-20 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20">
       <div class="sticky_menu">
         <div
@@ -1001,13 +1004,30 @@
       </div>
     </div>
 
-    <div id="sobremi" data-aos="fade-up" data-aos-duration="2000"
+    <div id="sobremi" class="pb-14"></div>
+
+    <div data-aos="fade-up" data-aos-duration="2000"
       class="trabajos flex pt-32 pl-40 pr-40 pb-40 border border-b-1 border-t-0 border-r-0 border-l-0 text-black flex-nowrap gap-60 justify-center max-lg:pt-20 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20">
       <div class="sticky_menu">
         <div
-        class="titular flex flex-col text-[72px] max-[1500px]:text-[60px] font-normal sticky top-[10rem] max-lg:text-[60px] font-['PPE-Ultralight']">
-        SOBRE MI
+          class="titular flex flex-col leading-[80px] text-[72px] max-[1500px]:text-[60px] font-normal sticky top-[10rem] max-lg:text-[60px] font-['PPE-Ultralight']">
+          SOBRE MI
         </div>
+
+        <div
+          class="absolute max-sm:hidden opacity-30 text-zinc-300 rotate-[-90deg] text-center font-['PPE-UltralightItalic'] flex leading-[110px] pt-4 top-[36rem] text-[120px] left-[54rem]">
+          Rubén
+          <br>
+          MALDONADO
+        </div>
+        <div
+          class="absolute hidden max-sm:flex text-[30px] text-zinc-300 rotate-[-90deg] leading-[30px] text-center font-['PPE-UltralightItalic'] top-[42rem] right-[19rem]">
+          Rubén
+          <br>
+          MALDONADO
+        </div>
+
+
       </div>
       <div class="servicios_ofrecidos flex flex-col gap-6">
         <div class="servicio flex flex-col gap-6">
@@ -1025,7 +1045,12 @@
             abarcar todos los ambitos, como ya he mostrado anteriormente. Soy
             resolutivo y trabajador.
 
-            <img class="img pt-10 max-sm:pt-24" src="/img/yofotoyo.jpeg" alt="" />
+            <div class="pt-24 max-sm:pt-24">
+              <img class="img shadow-xl" src="/img/gifyo.gif" alt="" />
+              <div class="text pt-2 flex justify-end font-bold max-sm:text-[12px] text-[12px]text-zinc-900">
+                YO_PRIMERO_FINAL_PRUEBA_CAMBIOS.jpg</div>
+            </div>
+
           </div>
         </div>
       </div>
@@ -1124,8 +1149,9 @@
         NUEVO CONTENIDO
       </div>
     </div>
+    <div id="tienda" class="pb-14"></div>
 
-    <div id="tienda"
+    <div
       class="trabajos flex pt-32 pl-40 pr-40 pb-12 bg-white text-black flex-nowrap gap-[340px] justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-6 max-sm:pb-12 max-sm:pt-24 border-black">
       <div class="sticky_menu">
         <div
@@ -1152,17 +1178,21 @@
       </div>
 
     </div>
-    <div class="grid grid-cols-2 pt-32 px-72 bg-white max-[1500px]:gap-46 max-[1500px]:px-32 max-sm:px-4 max-sm:grid-cols-1 max-sm:pt-12 max-sm:gap-8">
-      <div class="titular max-sm:flex-col text-blue-600 flex text-[22px] animate-pulse justify-center text-center uppercase font-['PPE-Ultralight']">
+    <div
+      class="grid grid-cols-2 pt-32 px-72 bg-white max-[1500px]:gap-46 max-[1500px]:px-32 max-sm:px-4 max-sm:grid-cols-1 max-sm:pt-12 max-sm:gap-8">
+      <div
+        class="titular max-sm:flex-col text-blue-600 flex text-[22px] animate-pulse justify-center text-center uppercase font-['PPE-Ultralight']">
         Pack Oporto | <a class="font-['PPE-UltralightItalic'] normal-case pl-2">Tirada 2/2</a>
       </div>
-      <div class="titular max-sm:hidden max-sm:flex-col text-red-600 flex text-[22px] animate-pulse justify-center text-center uppercase font-['PPE-Ultralight']">
+      <div
+        class="titular max-sm:hidden max-sm:flex-col text-red-600 flex text-[22px] animate-pulse justify-center text-center uppercase font-['PPE-Ultralight']">
         Pack Pegatinas | <a class="font-['PPE-UltralightItalic'] normal-case pl-2">Selección Individual
         </a>
 
       </div>
     </div>
-    <div class="grid grid-cols-2 px-72 bg-white max-[1500px]:gap-46 max-[1500px]:px-32 max-sm:px-2 max-sm:text-center max-sm:grid-cols-1 max-sm:pt-4 max-sm:pb-12">
+    <div
+      class="grid grid-cols-2 px-72 bg-white max-[1500px]:gap-46 max-[1500px]:px-32 max-sm:px-2 max-sm:text-center max-sm:grid-cols-1 max-sm:pt-4 max-sm:pb-12">
       <div class="titular text-zinc-600 flex text-[14px] justify-center text-center">
         « Haz click para preguntar por presupuesto»
       </div>
@@ -1173,26 +1203,30 @@
 
     <div class="grid grid-cols-2 gap-32 px-12 pb-24 bg-white max-[1500px]:gap-4 max-sm:grid-cols-1 max-sm:px-6">
       <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=COMPRA|PRESUPUESTO&body=Hola Ruben Maldonado.Preguntaba por el trabajo de Oporto..."
-      class="cosas grid pb-32 max-sm:pb-0 justify-end place-items-center items-center content-center">
+        class="cosas grid pb-32 max-sm:pb-0 justify-end place-items-center items-center content-center">
         <img class="hover:w-[920px] duration-500 border border-t-3 border-b-0 border-white w-[900px]"
           src="/img/tienda.png" alt="" />
       </a>
 
-      <div class="hidden max-sm:grid max-sm:grid-cols-1 pt-32 px-72 bg-white max-[1500px]:gap-46 max-[1500px]:px-32 max-sm:px-4 max-sm:pt-12 max-sm:gap-8">
+      <div
+        class="hidden max-sm:grid max-sm:grid-cols-1 pt-32 px-72 bg-white max-[1500px]:gap-46 max-[1500px]:px-32 max-sm:px-4 max-sm:pt-12 max-sm:gap-8">
 
-      <div class="titular max-sm:flex-col text-red-600 flex text-[22px] animate-pulse justify-center text-center uppercase font-['PPE-Ultralight']">
-        Pack Pegatinas | <a class="font-['PPE-UltralightItalic'] normal-case pl-2">Selección Individual
-        </a>
-        <div class="titular text-zinc-600 max-sm:pt-4 flex text-[14px] justify-center text-center normal-case font-['SFUIDisplay-Light'] max-sm:pb-20">
-        « Haz click para preguntar por presupuesto»
-      </div>
+        <div
+          class="titular max-sm:flex-col text-red-600 flex text-[22px] animate-pulse justify-center text-center uppercase font-['PPE-Ultralight']">
+          Pack Pegatinas | <a class="font-['PPE-UltralightItalic'] normal-case pl-2">Selección Individual
+          </a>
+          <div
+            class="titular text-zinc-600 max-sm:pt-4 flex text-[14px] justify-center text-center normal-case font-['SFUIDisplay-Light'] max-sm:pb-20">
+            « Haz click para preguntar por presupuesto»
+          </div>
 
+        </div>
       </div>
-    </div>
 
       <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=COMPRA|PRESUPUESTO&body=Hola Ruben Maldonado.Preguntaba por las pegatinas..."
-      class="cosas grid pb-32 max-sm:pb-12 justify-start place-items-center items-center content-center">
-        <img class="hover:w-[720px] duration-500 border border-t-3 border-b-0 border-white w-[700px] max-[1500px]:w-[540px] max-sm:px-6"
+        class="cosas grid pb-32 max-sm:pb-12 justify-start place-items-center items-center content-center">
+        <img
+          class="hover:w-[720px] duration-500 border border-t-3 border-b-0 border-white w-[700px] max-[1500px]:w-[540px] max-sm:px-6"
           src="/img/tienda2.png" alt="" />
       </a>
     </div>
@@ -1388,7 +1422,7 @@
 
 
   <div
-    class="links_rrss pt-32 px-80 pb-32 text-black justify-center gap-12 flex flex-row max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20 max-lg:flex max-lg:justify-center max-sm:pt-24">
+    class="links_rrss bg-white pt-32 px-80 pb-32 text-black justify-center gap-12 flex flex-row max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20 max-lg:flex max-lg:justify-center max-sm:pt-24">
     <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado."
       target="_blank"
       class="email text-lg pr-12 flex gap-2 items-center max-lg:text-[14px] max-lg:justify-center max-sm:pr-0">
@@ -1397,20 +1431,26 @@
     </a>
     <div class="links flex flex-col pl-12 gap-2 max-lg:justify-center max-sm:pl-0">
       <div class="links1 flex gap-32 max-lg:justify-center">
-        <a class="red flex gap-2 items-center max-lg:text-[14px]"
-          href="https://www.instagram.com/ruben.artes/">Instagram
+        <a class="red flex gap-2 items-center max-lg:text-[14px]" href="https://www.instagram.com/ruben.artes/">
+          <img class="vector w-[14px]" src="/img/Instagram.png" />
+          | Instagram
           <img class="vector" src="/img/Vector-11black.svg" />
         </a>
-        <a class="red flex gap-2 items-center max-lg:text-[14px]" href="https://www.behance.net/rubenartes">Behance
+        <a class="red flex gap-2 items-center max-lg:text-[14px]" href="https://www.behance.net/rubenartes">
+          <img class="vector w-[14px]" src="/img/Behance.png" />
+          | Behance
           <img class="vector" src="/img/Vector-11black.svg" />
         </a>
       </div>
       <div class="links2 flex gap-32 flex-end max-lg:justify-center">
-        <a class="red flex gap-2 items-center max-lg:text-[14px]" href="https://www.instagram.com/ruben.iso">Instagram
+        <a class="red flex gap-2 items-center max-lg:text-[14px]" href="https://www.instagram.com/ruben.iso">
+          <img class="vector w-[14px]" src="/img/Instagram.png" />
+          | Instagram
           <img class="vector" src="/img/Vector-11black.svg" />
         </a>
-        <a class="red flex gap-2 items-center max-lg:text-[14px]"
-          href="https://www.linkedin.com/in/rubenmaldonado10">LinkedIn
+        <a class="red flex gap-2 items-center max-lg:text-[14px]" href="https://www.linkedin.com/in/rubenmaldonado00">
+          <img class="vector w-[14px]" src="/img/LinkedIn.png" />
+          | LinkedIn
           <img class="vector" src="/img/Vector-11black.svg" />
         </a>
       </div>
@@ -1418,11 +1458,13 @@
   </div>
 
   <div
-    class="foter bg-white p-10 border-b-0 border-l-0 border-r-0 flex text-black justify-between sticky top-0 max-lg:p-6 border border-t-1">
+    class="foter bg-white p-10 border-b-0 border-l-0 border-r-0 grid grid-cols-3 text-black max-lg:p-6 border border-t-1">
     <div class="foter_image flex flex-start">
       <img class="vector max-lg:max-w-[15px]" src="/img/starblack.svg" />
     </div>
-    <div class="email flex gap-2 items-center text-sm max-lg:text-xs">
+    <div class="email flex gap-2 items-center text-[10px] justify-center text-sm max-lg:text-xs">
+      All rights reserved | Copyright ©</div>
+    <div class="email flex gap-2 justify-end items-center text-sm max-lg:text-xs">
       Ruben Maldonado González
       <img class="vector max-lg:max-w-[15px]" src="/img/futbolblack.svg" />
     </div>
