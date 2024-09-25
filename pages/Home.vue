@@ -281,7 +281,7 @@
 
 
     <div
-      class="grid grid-flow-cols grid-cols-4 max-[1920px]:grid-cols-3 text-center max-[1450px]:grid-cols-2 animate-pulse max-[1930px]:grid-cols-3 max-sm:grid-cols-1">
+      class="grid grid-flow-cols grid-cols-4 max-[1920px]:grid-cols-3 text-center max-[1450px]:grid-cols-2 animate-pulse max-[1930px]:grid-cols-3 max-[1500px]:grid-cols-2 max-sm:grid-cols-1">
 
       <div class=" bg-red-700 text-white justify-center content-center font-['Regular'] text-[12px]">PÁGINAS
         NUEVAS -
@@ -292,7 +292,7 @@
         PÁGINAS
         NUEVAS - PÁGINAS NUEVAS - PÁGINAS NUEVAS
       </div>
-      <div class=" bg-red-700 text-white justify-center content-center font-['Regular'] text-[12px] max-sm:hidden">
+      <div class=" bg-red-700 text-white justify-center content-center font-['Regular'] text-[12px] max-[1500px]:hidden max-sm:hidden">
         PÁGINAS
         NUEVAS -
         PÁGINAS NUEVAS - PÁGINAS NUEVAS
@@ -1005,8 +1005,8 @@
       class="trabajos flex pt-32 pl-40 pr-40 pb-40 border border-b-1 border-t-0 border-r-0 border-l-0 text-black flex-nowrap gap-60 justify-center max-lg:pt-20 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20">
       <div class="sticky_menu">
         <div
-          class="titular flex flex-col text-[72px] font-normal sticky top-[10rem] max-lg:text-[60px] font-['PPE-Ultralight']">
-          SOBRE MI
+        class="titular flex flex-col text-[72px] max-[1500px]:text-[60px] font-normal sticky top-[10rem] max-lg:text-[60px] font-['PPE-Ultralight']">
+        SOBRE MI
         </div>
       </div>
       <div class="servicios_ofrecidos flex flex-col gap-6">
@@ -1243,7 +1243,7 @@
     </div>
 
     <div
-      class="flex gap-60 max-[1500px]:px-32 max-[1500px]:gap-20 text-sm bg-black border-t-0 min-[1920px]:px-94 px-56 pb-72 items-center justify-center content-center self-center max-sm:grid max-sm:gap-12 max-sm:pb-24 max-sm:border-t-0 max-sm:grid-cols-1 max-sm:px-10 max-sm:border-none max-sm:border-0 max-sm:pt-24">
+      class="flex gap-60 max-[1500px]:gap-[2rem] max-[1500px]:px-32 max-[1500px]:gap-20 text-sm bg-black border-t-0 min-[1920px]:px-94 px-56 pb-72 items-center justify-center content-center self-center max-sm:grid max-sm:gap-12 max-sm:pb-24 max-sm:border-t-0 max-sm:grid-cols-1 max-sm:px-10 max-sm:border-none max-sm:border-0 max-sm:pt-24">
       <div class="servicios_ofrecidos items-left flex max-sm:hidden flex-col gap-6 max-sm:order-last">
 
         <div class="flex flex-col gap-1 text-left justify-left">

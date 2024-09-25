@@ -17,70 +17,70 @@
         <div
             class="header bg-white p-1 flex px-8 gap-12 text-center justify-items-center place-content-center sticky top-[110px] z-10 max-lg:p-6 max-lg:sticky border border-b-1 max-sm:hidden max-[1920px]:gap-8 max-[1500px]:gap-2 max-[1500px]:px-4 max-[1500px]:justify-between">
             <a href="#navegacion"
-                class="email text-black text-[12px] max-[1920px]:text-[10px] justify-items-center flex gap-2 max-[1440px]:text-[10px]">NAVEGACIÓN
+                class="email text-black items-center text-[12px] max-[1920px]:text-[10px] justify-items-center flex gap-2 max-[1500px]:text-[10px] max-[1500px]:max-w-[30ch]">NAVEGACIÓN
             </a>
             <a href="#primercompartimento"
-                class="email text-zinc-400 text-[12px] max-[1920px]:text-[10px] justify-items-center flex gap-2 max-lg:text-xs ">>
+                class="email text-zinc-400 text-[12px] max-[1920px]:text-[10px] items-center justify-items-center flex gap-2 max-lg:text-xs max-[1500px]:text-[10px] max-[1500px]:w-[18ch]">>
                 PRIMER
                 COMPARTIMENTO
             </a>
             <a href="#segundocompartimento"
-                class="email text-zinc-400 text-[12px] max-[1920px]:text-[10px] justify-items-center flex gap-2 max-lg:text-xs ">>
+                class="email text-zinc-400 text-[12px] max-[1920px]:text-[10px] items-center justify-items-center flex gap-2 max-lg:text-xs max-[1500px]:text-[10px] max-[1500px]:w-[18ch]">>
                 SEGUNDO
                 COMPARTIMENTO
             </a>
             <a href="#postales"
-                class="email text-zinc-400 text-[12px] max-[1920px]:text-[10px] justify-items-center flex gap-2 max-lg:text-xs ">>
+                class="email text-zinc-400 text-[12px] max-[1920px]:text-[10px] text-center justify-center items-center justify-items-center flex gap-2 max-lg:text-xs max-[1500px]:text-[10px] max-[1500px]:w-[18ch]">>
                 POSTALES
             </a>
             <a href="#sellos"
-                class="email text-zinc-400 text-[12px] max-[1920px]:text-[10px] justify-items-center flex gap-2 max-lg:text-xs ">>
+                class="email text-zinc-400 text-[12px] max-[1920px]:text-[10px] justify-center items-center justify-items-center flex gap-2 max-lg:text-xs max-[1500px]:text-[10px] max-[1500px]:w-[18ch]">>
                 SELLOS
             </a>
             <a href="#cuadernos"
-                class="email text-zinc-400 text-[12px] max-[1920px]:text-[10px] justify-items-center flex gap-2 max-lg:text-xs ">>
+                class="email text-zinc-400 text-[12px] max-[1920px]:text-[10px] items-center justify-center justify-items-center flex gap-2 max-lg:text-xs max-[1500px]:text-[10px] max-[1500px]:w-[20ch]">>
                 CUADERNILLOS
             </a>
             <a href="#tercercompartimento"
-                class="email text-zinc-400 text-[12px] max-[1920px]:text-[10px] justify-items-center flex gap-2 max-lg:text-xs ">>
+                class="email text-zinc-400 text-[12px] max-[1920px]:text-[10px] items-center justify-center justify-items-center flex gap-2 max-lg:text-xs max-[1500px]:text-[10px] max-[1500px]:w-[26ch]">>
                 TERCER
                 COMPARTIMENTO
             </a>
             <a href="#mapa"
-                class="email text-zinc-400 text-[12px] max-[1920px]:text-[10px] justify-items-center flex gap-2 max-lg:text-xs ">>
+                class="email text-zinc-400 text-[12px] max-[1920px]:text-[10px] items-center justify-center justify-items-center flex gap-2 max-lg:text-xs max-[1500px]:text-[10px] max-[1500px]:w-[18ch]">>
                 MAPA
             </a>
             <a href="#folleto"
-                class="email text-zinc-400 text-[12px] max-[1920px]:text-[10px] justify-items-center flex gap-2 max-lg:text-xs ">>
+                class="email text-zinc-400 text-[12px] max-[1920px]:text-[10px] items-center justify-center justify-items-center flex gap-2 max-lg:text-xs max-[1500px]:text-[10px] max-[1500px]:w-[18ch]">>
                 FOLLETO
             </a>
             <a href="#cuartocompartimento"
-                class="email text-zinc-400 text-[12px] max-[1920px]:text-[10px] justify-items-center flex gap-2 max-lg:text-xs ">>
+                class="email text-zinc-400 text-[12px] max-[1920px]:text-[10px] items-center justify-items-center flex gap-2 max-lg:text-xs max-[1500px]:text-[10px] max-[1500px]:w-[18ch]">>
                 CUARTO
                 COMPARTIMENTO
             </a>
             <a href="#packanalogicas"
-                class="email text-zinc-400 text-[12px] max-[1920px]:text-[10px] justify-items-center flex gap-2 max-lg:text-xs ">>
+                class="email text-zinc-400 text-[12px] max-[1920px]:text-[10px] items-center justify-items-center flex gap-2 max-lg:text-xs max-[1500px]:text-[10px] max-[1500px]:w-[18ch]">>
                 PACK ANALÓGICAS
             </a>
             <a href="#libroimpreso"
-                class="email text-zinc-400 text-[12px] max-[1920px]:text-[10px] justify-items-center flex gap-2 max-lg:text-xs ">>
+                class="email text-zinc-400 text-[12px] max-[1920px]:text-[10px] items-center justify-items-center flex gap-2 max-lg:text-xs max-[1500px]:text-[10px] max-[1500px]:w-[18ch]">>
                 LIBRO IMPRESO
             </a>
             <a href="#cajafajilla"
-                class="email text-zinc-400 text-[12px] max-[1920px]:text-[10px] justify-items-center flex gap-2 max-lg:text-xs ">>
+                class="email text-zinc-400 text-[12px] max-[1920px]:text-[10px] items-center justify-items-center flex gap-2 max-lg:text-xs max-[1500px]:text-[10px] max-[1500px]:w-[18ch]">>
                 CAJA FAJILLA
             </a>
             <a href="#tipografias"
-                class="email text-zinc-400 text-[12px] max-[1920px]:text-[10px] justify-items-center flex gap-2 max-lg:text-xs ">>
+                class="email text-zinc-400 text-[12px] max-[1920px]:text-[10px] items-center justify-items-center flex gap-2 max-lg:text-xs max-[1500px]:text-[10px] max-[1500px]:w-[18ch]">>
                 TIPOGRAFIAS
             </a>
             <a href="#fotografias"
-                class="email text-zinc-400 text-[12px] max-[1920px]:text-[10px] justify-items-center flex gap-2 max-lg:text-xs ">>
+                class="email text-zinc-400 text-[12px] max-[1920px]:text-[10px] items-center justify-items-center flex gap-2 max-lg:text-xs max-[1500px]:text-[10px] max-[1500px]:w-[18ch]">>
                 FOTOGRAFÍAS
             </a>
             <a href="#piezas"
-                class="email text-zinc-400 text-[12px] max-[1920px]:text-[10px] justify-items-center flex gap-2 max-lg:text-xs ">>
+                class="email text-zinc-400 text-[12px] justify-center max-[1920px]:text-[10px] items-center place-self-center justify-items-center flex gap-2 max-lg:text-xs max-[1500px]:text-[10px] max-[1500px]:w-[18ch]">>
                 PIEZAS
             </a>
 
