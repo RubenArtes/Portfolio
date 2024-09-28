@@ -15,7 +15,7 @@
             </a>
         </div>
         <div
-            class="grid sticky max-sm:top-[4rem] top-[7.65rem] z-10 grid-flow-cols grid-cols-1 text-center max-[1450px]:grid-cols-1 animate-pulse max-[1920px]:grid-cols-1 max-sm:grid-cols-1">
+            class="grid sticky max-sm:top-[5rem] top-[7.65rem] z-10 grid-flow-cols grid-cols-1 text-center max-[1450px]:grid-cols-1 animate-pulse max-[1920px]:grid-cols-1 max-sm:grid-cols-1">
 
             <a href="#videofinal"
                 class=" bg-[#ff4747] font-['Regular'] text-[16px] text-white justify-center content-center max-sm:text-[12px]">
