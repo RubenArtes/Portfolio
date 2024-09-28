@@ -2,19 +2,17 @@
   <div class="app bg-black font-['SFUIDisplay-Regular']">
     <Cursor class="max-sm:hidden" />
     <div
-      class="header bg-black border-0 p-10 flex px-24 text-white justify-between sticky top-0 z-10 max-lg:p-6 max-lg:sticky border-b-0">
-      <div class="image flex flex-start justify-items-start">
-        <NuxtLink to="/">
-          <img class="max-lg:max-w-[15px]" src="/img/Vector.svg">
+      class="header bg-black p-10 border-t-0 px-32 text-white grid grid-cols-2 sticky top-0 z-50 max-lg:p-6 max-lg:sticky max-sm:flex max-sm:justify-between max-sm:px-8">
+      <div class="image place-self-start self-center">
+        <NuxtLink to="/Home">
+          <img class="max-lg:max-w-[15px] w-[20px]" src="/img/logogif2.gif" />
         </NuxtLink>
       </div>
-
       <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado."
-                target="_blank" class="email text-lg  place-self-end flex gap-2 max-lg:text-xs">
-                ruben.maldonado.graphic@gmail.com
-                <img class="vector max-lg:max-w-[8px]" src="/img/Vector-11.svg" />
-            </a>
-
+        target="_blank" class="email self-center text-lg  place-self-end flex gap-2 max-lg:text-xs">
+        ruben.maldonado.graphic@gmail.com
+        <img class="vector max-lg:max-w-[8px]" src="/img/Vector-11.svg" />
+      </a>
     </div>
 
     <VueScrollProgressBar background-color="#52525B" />
@@ -41,14 +39,14 @@
     </div>
 
     <div
-    class="trabajos max-[1500px]:px-32 flex max-sm:justify-start max-sm:pb-24 pt-20 px-40 pb-20 items-start text-white flex-nowrap gap-96 max-[1500px]:gap-[15rem] justify-center max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-start max-xl:text-center max-xl:pt-0 max-xl:pb-16 max-[1500px]:justify-between">
-    <div class="info flex flex-col">
+      class="trabajos max-[1500px]:px-32 flex max-sm:justify-start max-sm:pb-24 pt-20 px-40 pb-20 items-start text-white flex-nowrap gap-96 max-[1500px]:gap-[15rem] justify-center max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-start max-xl:text-center max-xl:pt-0 max-xl:pb-16 max-[1500px]:justify-between">
+      <div class="info flex flex-col">
         <div
           class="text max-w-[200ch] max-sm:text-left text-center font-['PPE-Ultralight'] max-sm:text-[20px] pb-4 uppercase text-[24px] leading-10 text-white max-xl:text-xs">
           Asignatura</div>
         <div
-        class="text max-[1500px]:w-[20ch] font-['SFUIDisplay-Light'] text-center max-sm:text-left max-sm:max-w-[22ch] text-[16px] leading-6 text-white max-xl:text-sm max-xl:max-w-[40ch]">
-        Fundamentos de estampación e impresión, 2º Diseño Gráfico.
+          class="text max-[1500px]:w-[20ch] font-['SFUIDisplay-Light'] text-center max-sm:text-left max-sm:max-w-[22ch] text-[16px] leading-6 text-white max-xl:text-sm max-xl:max-w-[40ch]">
+          Fundamentos de estampación e impresión, 2º Diseño Gráfico.
         </div>
       </div>
       <div class="info flex flex-col max-sm:text-start">
@@ -65,8 +63,8 @@
           class="text max-w-[200ch] max-sm:text-left text-center font-['PPE-Ultralight'] max-sm:text-[20px] pb-4 uppercase text-[24px] leading-10 text-white max-xl:text-xs">
           Briefing</div>
         <div
-        class="text max-w-[20ch] text-center font-['SFUIDisplay-Light'] text-[16px] leading-6 text-white max-xl:text-sm max-xl:max-w-[40ch]">
-        Creación de Artes Finales y producción de libro impreso.
+          class="text max-w-[20ch] text-center font-['SFUIDisplay-Light'] text-[16px] leading-6 text-white max-xl:text-sm max-xl:max-w-[40ch]">
+          Creación de Artes Finales y producción de libro impreso.
         </div>
       </div>
     </div>
@@ -85,8 +83,8 @@
 
 
     <div id="primercompartimento"
-    class="titular2 max-[1500px]:pt-32 max-[1500px]:pb-12 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-32 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
-    <div
+      class="titular2 max-[1500px]:pt-32 max-[1500px]:pb-12 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-32 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+      <div
         class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
         <p class="font-['PPE-UltralightItalic']">Imagenes reales</p>LIBRO IMPRESO
       </div>
@@ -134,7 +132,7 @@
     </div>
 
     <div id="primercompartimento"
-    class="titular2 max-[1500px]:pt-32 max-[1500px]:pb-32 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-32 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+      class="titular2 max-[1500px]:pt-32 max-[1500px]:pb-32 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-32 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
       <div
         class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
         <p class="font-['PPE-UltralightItalic']">Páginas</p>DESGLOSADAS
@@ -147,8 +145,8 @@
           <a class="type">IMÁGENES DEL PROYECTO COMPLETO</a>
         </div>
         <div
-        class="text max-[1500px]:max-w-[40ch] max-w-[80ch] pt-4 text-left font-['SFUIDisplay-Regular'] text-[20px] text-white max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
-        Doble páginas de todo el libro completo, mostrando la maquetación y la edición
+          class="text max-[1500px]:max-w-[40ch] max-w-[80ch] pt-4 text-left font-['SFUIDisplay-Regular'] text-[20px] text-white max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+          Doble páginas de todo el libro completo, mostrando la maquetación y la edición
           de las diferentes fotografías.
         </div>
 

@@ -2,19 +2,17 @@
     <div class="app bg-black font-['SFUIDisplay-Regular']">
         <Cursor class="max-sm:hidden" />
         <div
-            class="header bg-black p-10 flex px-24 text-white justify-between sticky top-0 z-10 max-lg:p-6 max-lg:sticky">
-            <div class="image flex flex-start justify-items-start">
-                <NuxtLink to="/">
-                    <img class="max-lg:max-w-[15px]" src="/img/Vector.svg">
+            class="header bg-black p-10 border-t-0 px-32 text-white grid grid-cols-2 sticky top-0 z-50 max-lg:p-6 max-lg:sticky max-sm:flex max-sm:justify-between max-sm:px-8">
+            <div class="image place-self-start self-center">
+                <NuxtLink to="/Home">
+                    <img class="max-lg:max-w-[15px] w-[20px]" src="/img/logogif2.gif" />
                 </NuxtLink>
             </div>
-
             <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado."
-                target="_blank" class="email text-lg  place-self-end flex gap-2 max-lg:text-xs">
+                target="_blank" class="email self-center text-lg  place-self-end flex gap-2 max-lg:text-xs">
                 ruben.maldonado.graphic@gmail.com
                 <img class="vector max-lg:max-w-[8px]" src="/img/Vector-11.svg" />
             </a>
-
         </div>
 
         <VueScrollProgressBar background-color="#52525B" />

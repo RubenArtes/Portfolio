@@ -20,8 +20,10 @@
       </a>
     </div>
 
+    <VueScrollProgressBar background-color="#000000" />
+
     <div
-      class="header bg-white p-2 px-12 text-black flex justify-center items-center sticky top-[121px] z-10 max-[1080px]:gap-6 max-[1025px]:top-[64px] max-sm:gap-2 max-sm:top-[76px]">
+      class="header bg-white p-2 px-12 text-black flex justify-center items-center sticky top-[122px] z-10 max-[1080px]:gap-6 max-[1025px]:top-[64px] max-sm:gap-2 max-sm:top-[76px]">
       <div
         class="titular_small uppercase pr-2 pl-2 text-zinc-900 font-['Neue'] text-[13px] max-[1920px]:text-xs max-sm:px-2 max-sm:text-[11px]">
         Ultima actualización Septiembre 2024
@@ -29,14 +31,26 @@
       <img class="info max-w-[12px] max-h-[12px]" src="/img/infoblack.png" />
     </div>
 
-    <VueScrollProgressBar background-color="#000000" />
-
-    <!-- Botón flotante -->
-
     <a href="#inicio"
       class="fixed max-sm:hidden mix-blend-exclusion bottom-0 right-0 transform -translate-y-1/2 text-[70px] z-50 uppercase font-bold text-white tracking-widest px-7 py-4 transition-all duration-300 ease-in-out hover:translate-y-[-7px]">
       ↑
     </a>
+
+
+    <!--<div
+      class="header text-black justify-center items-center sticky top-[122px] z-10 max-[1080px]:gap-6 max-[1025px]:top-[64px] max-sm:gap-2 max-sm:top-[76px]">
+      <div class=" text-center animate-pulse opacity-30">
+        <div class="py-2 w-full place-self-center text-center justify-center items-center text-indigo-100 leading-none grid lg:inline-flex"
+          role="alert">
+          <span
+            class="titular_small uppercase text-zinc-800 font-['Neue'] text-[13px] max-[1920px]:text-xs max-sm:px-2 max-sm:text-[11px] mr-2 text-left">Ultima
+            actualización Septiembre 2024</span>
+          <span class="flex rounded-full bg-zinc-200 uppercase px-2 py-1 text-xs font-bold mr-3">
+            <img class="info max-w-[12px] max-h-[12px]" src="/img/infoblack.png" />
+          </span>
+        </div>
+      </div>
+    </div> -->
 
 
 
@@ -152,16 +166,16 @@
 
         <div
           class="text place-self-end text-[14px] max-sm:text-[12px] max-sm:leading-[1rem] text-black leading-[18px] font-['Neue'] tracking-normal flex flex-col items-left justify-self-start max-3xl:text-[30px] max-sm:pt-2 max-sm:pb-4 max-sm:text-center max-[1920px]:leading-[20px]">
-          <a class="bg-slate-100 mb-1">[ PACKAGING</a> 
-          <a class="bg-slate-200 mb-1">[ EDITORIAL</a> 
-          <a class="bg-slate-300">[ MARCA</a> 
+          <a class="bg-slate-100 mb-1">[ PACKAGING</a>
+          <a class="bg-slate-200 mb-1">[ EDITORIAL</a>
+          <a class="bg-slate-300">[ MARCA</a>
         </div>
 
         <div
           class="text text-[14px] max-sm:text-[12px] max-sm:leading-[1rem] text-black leading-[18px] font-['Neue'] tracking-normal flex flex-col items-left justify-self-start max-3xl:text-[30px] max-sm:pt-2 max-sm:pb-4 max-sm:text-center max-[1920px]:leading-[20px]">
-          <a class="bg-slate-100 mb-1">ILUSTRACIÓN ]</a> 
-          <a class="bg-slate-200 mb-1">RENDER ]</a> 
-          <a class="bg-slate-300">AUDIOVISUALES ]</a> 
+          <a class="bg-slate-100 mb-1">ILUSTRACIÓN ]</a>
+          <a class="bg-slate-200 mb-1">RENDER ]</a>
+          <a class="bg-slate-300">AUDIOVISUALES ]</a>
         </div>
 
 
@@ -174,18 +188,18 @@
           > Sobre mi.
         </a>
         <a href="#trabajos"
-        class="text text-right hover:text-zinc-400 decoration-1 underline-offset-4 decoration-slate-500 underline text-[22px] uppercase leading-[30px] font-['PPE-UltralightItalic'] tracking-normal flex flex-col items-left max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[18px] max-sm:leading-[1rem] max-sm:pb-4 max-sm:text-center max-[1920px]:text-[22px]">
-        > Trabajos.
+          class="text text-right hover:text-zinc-400 decoration-1 underline-offset-4 decoration-slate-500 underline text-[22px] uppercase leading-[30px] font-['PPE-UltralightItalic'] tracking-normal flex flex-col items-left max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[18px] max-sm:leading-[1rem] max-sm:pb-4 max-sm:text-center max-[1920px]:text-[22px]">
+          > Trabajos.
         </a>
 
 
         <a href="#servicios"
-        class="text text-right hover:text-zinc-400 decoration-1 underline-offset-4 decoration-slate-500 underline text-[22px] uppercase leading-[30px] font-['PPE-UltralightItalic'] tracking-normal flex flex-col items-left max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[18px] max-sm:leading-[1rem] max-sm:pb-4 max-sm:text-center max-[1920px]:text-[22px]">
-        > Servicios.
+          class="text text-right hover:text-zinc-400 decoration-1 underline-offset-4 decoration-slate-500 underline text-[22px] uppercase leading-[30px] font-['PPE-UltralightItalic'] tracking-normal flex flex-col items-left max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[18px] max-sm:leading-[1rem] max-sm:pb-4 max-sm:text-center max-[1920px]:text-[22px]">
+          > Servicios.
         </a>
         <a href="#tienda"
-        class="text text-right hover:text-zinc-400 decoration-1 underline-offset-4 decoration-slate-500 underline text-[22px] uppercase leading-[30px] font-['PPE-UltralightItalic'] tracking-normal flex flex-col items-left max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[18px] max-sm:leading-[1rem] max-sm:pb-4 max-sm:text-center max-[1920px]:text-[22px]">
-        > Tienda.
+          class="text text-right hover:text-zinc-400 decoration-1 underline-offset-4 decoration-slate-500 underline text-[22px] uppercase leading-[30px] font-['PPE-UltralightItalic'] tracking-normal flex flex-col items-left max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[18px] max-sm:leading-[1rem] max-sm:pb-4 max-sm:text-center max-[1920px]:text-[22px]">
+          > Tienda.
         </a>
 
 
@@ -230,7 +244,7 @@
           NUEVAS - PÁGINAS NUEVAS - PÁGINAS NUEVAS - PÁGINAS NUEVAS - PÁGINAS NUEVAS
           <MyComponent /> PÁGINAS NUEVAS - PÁGINAS NUEVAS - PÁGINAS NUEVAS - PÁGINAS NUEVAS - PÁGINAS NUEVAS - PÁGINAS
           NUEVAS - BEST SELLER - PÁGINAS NUEVAS - PÁGINAS
-          NUEVAS - PÁGINAS NUEVAS - PÁGINAS NUEVAS - PÁGINAS NUEVAS - PÁGINAS NUEVAS - 
+          NUEVAS - PÁGINAS NUEVAS - PÁGINAS NUEVAS - PÁGINAS NUEVAS - PÁGINAS NUEVAS -
         </NuxtMarquee>
 
       </div>
@@ -313,7 +327,7 @@
               <p class="font-['PPE-Ultralight']">SALUDABLE</p>
             </div>
             <div
-          class="text text-[14px] text-center font-['Neue'] leading-[10px] pb-[430px] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
+              class="text text-[14px] text-center font-['Neue'] leading-[10px] pb-[430px] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
               [ PACKAGING ]
             </div>
             <div
@@ -358,8 +372,8 @@
               <p class="font-['PPE-Ultralight']">VINOS PRAU</p>
             </div>
             <div
-            class="text text-[14px] text-center font-['Neue'] leading-[10px] pb-[430px] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
-            [ PACKAGING ]
+              class="text text-[14px] text-center font-['Neue'] leading-[10px] pb-[430px] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
+              [ PACKAGING ]
             </div>
             <div
               class="text text-black text-[250px] pt-24 font-['Apercu-Bold'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
@@ -377,8 +391,8 @@
               <p class="font-['PPE-Ultralight']">MEMBER</p>
             </div>
             <div
-            class="text text-[14px] text-center font-['Neue'] leading-[10px] pb-[430px] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
-            [ MARCA / AUDIOVISUALES ]
+              class="text text-[14px] text-center font-['Neue'] leading-[10px] pb-[430px] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
+              [ MARCA / AUDIOVISUALES ]
             </div>
             <div
               class="text text-[250px] pt-24 font-['Apercu-Bold'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
@@ -395,8 +409,8 @@
               <p class="font-['PPE-Ultralight']">METRO MADRID</p>
             </div>
             <div
-            class="text text-[14px] text-center font-['Neue'] leading-[10px] pb-[430px] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
-            [ AUDIOVISUALES ]
+              class="text text-[14px] text-center font-['Neue'] leading-[10px] pb-[430px] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
+              [ AUDIOVISUALES ]
             </div>
             <div
               class="text text-[250px] pt-24 font-['Apercu-Bold'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
@@ -414,8 +428,8 @@
               <p class="font-['PPE-Ultralight']">MOVISTAR +</p>
             </div>
             <div
-            class="text text-[14px] text-center font-['Neue'] leading-[10px] pb-[430px] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
-            [ AUDIOVISUALES ]
+              class="text text-[14px] text-center font-['Neue'] leading-[10px] pb-[430px] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
+              [ AUDIOVISUALES ]
             </div>
             <div
               class="text text-black text-[250px] pt-24 font-['Apercu-Bold'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
@@ -432,8 +446,8 @@
               <p class="font-['PPE-Ultralight']">AUDIOVISUALES</p>
             </div>
             <div
-            class="text text-[14px] text-center font-['Neue'] leading-[10px] pb-[430px] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
-            [ RENDER / AUDIOVISUALES ]
+              class="text text-[14px] text-center font-['Neue'] leading-[10px] pb-[430px] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
+              [ RENDER / AUDIOVISUALES ]
             </div>
             <div
               class="text text-[250px] pt-24 font-['Apercu-Bold'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
@@ -450,8 +464,8 @@
               <p class="font-['PPE-Ultralight']">CINE YELMO</p>
             </div>
             <div
-            class="text text-[14px] text-center font-['Neue'] leading-[10px] pb-[430px] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
-            [ MARCA ]
+              class="text text-[14px] text-center font-['Neue'] leading-[10px] pb-[430px] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
+              [ MARCA ]
             </div>
             <div
               class="text text-[250px] pt-24 font-['Apercu-Bold'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
@@ -468,8 +482,8 @@
               <p class="font-['PPE-Ultralight']">TYPENOTES</p>
             </div>
             <div
-            class="text text-[14px] text-center font-['Neue'] leading-[10px] pb-[430px] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
-            [ EDITORIAL ]
+              class="text text-[14px] text-center font-['Neue'] leading-[10px] pb-[430px] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
+              [ EDITORIAL ]
             </div>
             <div
               class="text text-[250px] pt-24 font-['Apercu-Bold'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
@@ -486,8 +500,8 @@
               <p class="font-['PPE-Ultralight']">ESD MADRID</p>
             </div>
             <div
-            class="text text-[14px] text-center font-['Neue'] leading-[10px] pb-[430px] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
-            [ AUDIOVISUALES ]
+              class="text text-[14px] text-center font-['Neue'] leading-[10px] pb-[430px] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
+              [ AUDIOVISUALES ]
             </div>
             <div
               class="text text-black text-[250px] pt-24 font-['Apercu-Bold'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
@@ -504,8 +518,8 @@
               <p class="font-['PPE-Ultralight']">FOTOGRÁFICA</p>
             </div>
             <div
-            class="text text-[14px] text-center font-['Neue'] leading-[10px] pb-[430px] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
-            [ AUDIOVISUALES ]
+              class="text text-[14px] text-center font-['Neue'] leading-[10px] pb-[430px] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
+              [ AUDIOVISUALES ]
             </div>
             <div
               class="text text-black text-[250px] pt-24 font-['Apercu-Bold'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
@@ -522,8 +536,8 @@
               <p class="font-['PPE-Ultralight']">GALLERY</p>
             </div>
             <div
-            class="text text-[14px] text-center font-['Neue'] leading-[10px] pb-[430px] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
-            [ MARCA ]
+              class="text text-[14px] text-center font-['Neue'] leading-[10px] pb-[430px] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
+              [ MARCA ]
             </div>
             <div
               class="text text-[250px] pt-24 font-['Apercu-Bold'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
@@ -540,8 +554,8 @@
               <p class="font-['PPE-Ultralight']">ILUSTRACIONES</p>
             </div>
             <div
-            class="text text-[14px] text-center font-['Neue'] leading-[10px] pb-[430px] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
-            [ ILUSTRACIÓN ]
+              class="text text-[14px] text-center font-['Neue'] leading-[10px] pb-[430px] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
+              [ ILUSTRACIÓN ]
             </div>
             <div
               class="text text-[250px] pt-24 font-['Apercu-Bold'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
@@ -559,13 +573,13 @@
           <div
             class="trabajo1 border border-solid border-r-1 border-b-0 px-20 py-30 flex flex-col justify-center hover:text-black bg-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
             <div
-            class="text text-center text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[3rem] max-sm:pb-1 max-sm:text-center">
-            Matutano <br />
+              class="text text-center text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[3rem] max-sm:pb-1 max-sm:text-center">
+              Matutano <br />
               <p class="font-['PPE-Ultralight']">SALUDABLE</p>
             </div>
             <div
-            class="text text-[12px] text-center leading-[1rem] pb-2 font-['Neue'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[12px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
-            [ PACKAGING ]
+              class="text text-[12px] text-center leading-[1rem] pb-2 font-['Neue'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[12px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
+              [ PACKAGING ]
             </div>
             <div
               class="text text-[250px] pt-24 font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
@@ -577,7 +591,8 @@
         <div
           class="grid-flow-cols border-0 border-none grid-cols-4 max-[1920px]:grid-cols-3 text-center max-[1450px]:grid-cols-2 animate-pulse max-[1930px]:grid-cols-3 max-sm:grid-cols-1 hidden max-sm:grid">
 
-          <div class=" bg-red-700 text-white justify-center content-center font-['Neue'] text-[10px]">PÁGINAS NUEVAS - PÁGINAS
+          <div class=" bg-red-700 text-white justify-center content-center font-['Neue'] text-[10px]">PÁGINAS NUEVAS -
+            PÁGINAS
             NUEVAS - PÁGINAS NUEVAS
           </div>
           <div class=" bg-red-700 text-white justify-center content-center text-[12px] max-sm:hidden">PÁGINAS
@@ -598,13 +613,13 @@
           <div
             class="trabajo1 border-r-0 border-t-0 px-20 py-30 flex flex-col justify-center bg-white hover:text-black max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
             <div
-            class="text text-center text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[3rem] max-sm:pb-1 max-sm:text-center">
+              class="text text-center text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[3rem] max-sm:pb-1 max-sm:text-center">
               Etiquetado<br />
               <p class="font-['PPE-Ultralight'] uppercase">VINOS PRAU</p>
             </div>
             <div
-            class="text text-[12px] text-center leading-[1rem] pb-2 font-['Neue'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[12px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
-            [ PACKAGING ]
+              class="text text-[12px] text-center leading-[1rem] pb-2 font-['Neue'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[12px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
+              [ PACKAGING ]
             </div>
             <div
               class="text text-black text-[250px] pt-24 font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
@@ -642,13 +657,13 @@
           <div
             class="trabajo1 border border-solid border-r-1 border-t-1 px-20 py-30 flex flex-col justify-center bg-white hover:text-black max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
             <div
-            class="text text-center text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[3rem] max-sm:pb-1 max-sm:text-center">
+              class="text text-center text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[3rem] max-sm:pb-1 max-sm:text-center">
               Asistente<br />
               <p class="font-['PPE-Ultralight'] uppercase">MEMBER</p>
             </div>
             <div
-            class="text text-[12px] text-center leading-[1rem] pb-2 font-['Neue'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[12px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
-            [ MARCA / AUDIOVISUALES ]
+              class="text text-[12px] text-center leading-[1rem] pb-2 font-['Neue'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[12px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
+              [ MARCA / AUDIOVISUALES ]
             </div>
             <div
               class="text text-[250px] pt-24 font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
@@ -661,13 +676,13 @@
           <div
             class="trabajo1 border border-solid border-r-0 px-20 py-30 flex flex-col justify-center bg-white hover:text-black max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
             <div
-            class="text text-center text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[3rem] max-sm:pb-1 max-sm:text-center">
+              class="text text-center text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[3rem] max-sm:pb-1 max-sm:text-center">
               Fotolibro<br />
               <p class="font-['PPE-Ultralight'] uppercase">metro madrid</p>
             </div>
             <div
-            class="text text-[12px] text-center leading-[1rem] pb-2 font-['Neue'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[12px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
-            [ AUDIOVISUALES ]
+              class="text text-[12px] text-center leading-[1rem] pb-2 font-['Neue'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[12px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
+              [ AUDIOVISUALES ]
             </div>
             <div
               class="text text-[250px] pt-24 font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
@@ -682,13 +697,13 @@
           <div
             class="trabajo1 border border-solid border-r-0 border-l-0 border-t-1 px-20 py-30 flex flex-col justify-center bg-white hover:text-black max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
             <div
-            class="text text-center text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[3rem] max-sm:pb-1 max-sm:text-center">
+              class="text text-center text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[3rem] max-sm:pb-1 max-sm:text-center">
               Audiovisual<br />
               <p class="font-['PPE-Ultralight'] uppercase">MOVISTAR +</p>
             </div>
             <div
-            class="text text-[12px] text-center leading-[1rem] pb-2 font-['Neue'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[12px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
-            [ AUDIOVISUALES ]
+              class="text text-[12px] text-center leading-[1rem] pb-2 font-['Neue'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[12px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
+              [ AUDIOVISUALES ]
             </div>
             <div
               class="text text-[250px] pt-24 font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
@@ -700,13 +715,13 @@
           <div
             class="trabajo1 border border-solid border-r-0 border-t-1 px-20 py-30 flex flex-col justify-center bg-white hover:text-black max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
             <div
-            class="text text-center text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[3rem] max-sm:pb-1 max-sm:text-center">
+              class="text text-center text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[3rem] max-sm:pb-1 max-sm:text-center">
               Colección<br />
               <p class="font-['PPE-Ultralight'] uppercase">AUDIOVISUALES</p>
             </div>
             <div
-            class="text text-[12px] text-center leading-[1rem] pb-2 font-['Neue'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[12px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
-            [ RENDER / AUDIOVISUALES ]
+              class="text text-[12px] text-center leading-[1rem] pb-2 font-['Neue'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[12px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
+              [ RENDER / AUDIOVISUALES ]
             </div>
             <div
               class="text text-[250px] pt-24 font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
@@ -718,13 +733,13 @@
           <div
             class="trabajo1 border border-solid border-r-0 border-t-0 px-20 py-30 flex flex-col justify-center bg-white hover:text-black max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
             <div
-            class="text text-center text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[3rem] max-sm:pb-1 max-sm:text-center">
+              class="text text-center text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[3rem] max-sm:pb-1 max-sm:text-center">
               Rediseño<br />
               <p class="font-['PPE-Ultralight'] uppercase">CINE YELMO</p>
             </div>
             <div
-            class="text text-[12px] text-center leading-[1rem] pb-2 font-['Neue'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[12px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
-            [ MARCA ]
+              class="text text-[12px] text-center leading-[1rem] pb-2 font-['Neue'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[12px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
+              [ MARCA ]
             </div>
             <div
               class="text text-[250px] pt-24 font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
@@ -736,13 +751,13 @@
           <div
             class="trabajo1 border border-solid border-r-1 border-t-1 px-20 py-30 flex flex-col justify-center bg-white hover:text-black max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
             <div
-            class="text text-center text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[3rem] max-sm:pb-1 max-sm:text-center">
+              class="text text-center text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[3rem] max-sm:pb-1 max-sm:text-center">
               Revista<br />
               <p class="font-['PPE-Ultralight'] uppercase">TYPENOTES</p>
             </div>
             <div
-            class="text text-[12px] text-center leading-[1rem] pb-2 font-['Neue'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[12px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
-            [ EDITORIAL ]
+              class="text text-[12px] text-center leading-[1rem] pb-2 font-['Neue'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[12px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
+              [ EDITORIAL ]
             </div>
             <div
               class="text text-[250px] pt-24 font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
@@ -754,13 +769,13 @@
           <div
             class="trabajo1 border border-solid border-r-0 border-t-0 border-l-0 px-20 py-30 flex flex-col justify-center bg-white hover:text-black max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
             <div
-            class="text text-center text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[3rem] max-sm:pb-1 max-sm:text-center">
+              class="text text-center text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[3rem] max-sm:pb-1 max-sm:text-center">
               Página web<br />
               <p class="font-['PPE-Ultralight'] uppercase">ESD MADRID</p>
             </div>
             <div
-            class="text text-[12px] text-center leading-[1rem] pb-2 font-['Neue'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[12px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
-            [ AUDIOVISUALES ]
+              class="text text-[12px] text-center leading-[1rem] pb-2 font-['Neue'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[12px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
+              [ AUDIOVISUALES ]
             </div>
             <div
               class="text text-[250px] pt-24 font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
@@ -772,13 +787,13 @@
           <div
             class="trabajo1 border border-solid border-r-0 border-t-0 px-20 py-30 flex flex-col justify-center bg-white hover:text-black max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
             <div
-            class="text text-center text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[3rem] max-sm:pb-1 max-sm:text-center">
+              class="text text-center text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[3rem] max-sm:pb-1 max-sm:text-center">
               Colección<br />
               <p class="font-['PPE-Ultralight'] uppercase">FOTOGRÁFICA</p>
             </div>
             <div
-            class="text text-[12px] text-center leading-[1rem] pb-2 font-['Neue'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[12px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
-            [ AUDIOVISUALES ]
+              class="text text-[12px] text-center leading-[1rem] pb-2 font-['Neue'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[12px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
+              [ AUDIOVISUALES ]
             </div>
             <div
               class="text text-[250px] pt-24 font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
@@ -790,13 +805,13 @@
           <div
             class="trabajo1 border border-solid border-r-0 border-t-0 px-20 py-30 flex flex-col justify-center bg-white hover:text-black max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
             <div
-            class="text text-center text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[3rem] max-sm:pb-1 max-sm:text-center">
+              class="text text-center text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[3rem] max-sm:pb-1 max-sm:text-center">
               Garrido<br />
               <p class="font-['PPE-Ultralight'] uppercase">GALLERY</p>
             </div>
             <div
-            class="text text-[12px] text-center leading-[1rem] pb-2 font-['Neue'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[12px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
-            [ MARCA ]
+              class="text text-[12px] text-center leading-[1rem] pb-2 font-['Neue'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[12px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
+              [ MARCA ]
             </div>
             <div
               class="text text-[250px] pt-24 font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
@@ -808,13 +823,13 @@
           <div
             class="trabajo1 border border-solid border-r-0 border-t-0 px-20 py-30 flex flex-col justify-center bg-white hover:text-black max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-1 max-sm:text-black max-xs:border-b-1">
             <div
-            class="text text-center text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[3rem] max-sm:pb-1 max-sm:text-center">
+              class="text text-center text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[3rem] max-sm:pb-1 max-sm:text-center">
               Colección<br />
               <p class="font-['PPE-Ultralight'] uppercase">Ilustraciones</p>
             </div>
             <div
-            class="text text-[12px] text-center leading-[1rem] pb-2 font-['Neue'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[12px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
-            [ ILUSTRACIÓN ]
+              class="text text-[12px] text-center leading-[1rem] pb-2 font-['Neue'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[12px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
+              [ ILUSTRACIÓN ]
             </div>
             <div
               class="text text-[250px] pt-24 font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
@@ -1038,8 +1053,7 @@
 
             <div class="pt-24 max-sm:pt-24">
               <img class="img shadow-xl" src="/img/gifyo.gif" alt="" />
-              <div
-                class="text pt-2 flex justify-end font-bold font-['SFUIDisplay-Light'] text-[12px]text-zinc-900">
+              <div class="text pt-2 flex justify-end font-bold font-['SFUIDisplay-Light'] text-[12px]text-zinc-900">
                 YO_PRIMERO_FINAL_PRUEBA_CAMBIOS.jpg</div>
             </div>
 
@@ -1059,8 +1073,7 @@
           TRABAJOS
         </div>
       </div>
-      <div data-aos="fade-up" data-aos-duration="2000"
-       class="servicios_ofrecidos flex flex-col gap-6 pt-2">
+      <div data-aos="fade-up" data-aos-duration="2000" class="servicios_ofrecidos flex flex-col gap-6 pt-2">
         <div class="servicio flex flex-col gap-6 font-['Neue']">
           <div class="text max-w-[60ch] font-normal text-[16px] max-sm:text-[15px]">
             → Ganador de concurso de carteles para
@@ -1107,8 +1120,7 @@
           ESTUDIOS
         </div>
       </div>
-      <div data-aos="fade-up" data-aos-duration="2000"
-      class="servicios_ofrecidos flex flex-col gap-6 pt-2">
+      <div data-aos="fade-up" data-aos-duration="2000" class="servicios_ofrecidos flex flex-col gap-6 pt-2">
         <div class="servicio flex flex-col gap-6">
           <div class="text max-w-[60ch] font-normal text-[16px] max-sm:text-[15px] text-zinc-600 font-['Neue']">
             <a class="bold text-black font-['Neue']">
@@ -1135,19 +1147,19 @@
     <div
       class="max-sm:hidden pt-24 grid-flow-cols border-0 border-b-0 border-none grid-cols-4 max-[1920px]:grid-cols-3 text-center max-[1450px]:grid-cols-2 animate-pulse max-[1930px]:grid-cols-3 max-sm:grid-cols-1">
 
-      <div class=" bg-red-700 text-white justify-center content-center text-[12px] font-['Regular']">NUEVO
+      <div class=" bg-red-700 text-white justify-center content-center font-['Neue'] text-[10px]">NUEVO
         CONTENIDO -
         NUEVO CONTENIDO -
         NUEVO CONTENIDO - NUEVO CONTENIDO - NUEVO CONTENIDO - NUEVO CONTENIDO - NUEVO CONTENIDO - NUEVO CONTENIDO
         -
-        NUEVO CONTENIDO - NUEVO CONTENIDO - NUEVO CONTENIDO
+        NUEVO CONTENIDO - NUEVO CONTENIDO - NUEVO CONTENIDO - NUEVO CONTENIDO - NUEVO CONTENIDO
       </div>
     </div>
 
     <div
       class="hidden max-sm:grid grid-flow-cols border-0 border-b-0 border-none grid-cols-4 max-[1920px]:grid-cols-3 text-center max-[1450px]:grid-cols-2 animate-pulse max-[1930px]:grid-cols-3 max-sm:grid-cols-1">
 
-      <div class=" bg-red-700 text-white justify-center content-center text-[12px]">NUEVO CONTENIDO - NUEVO
+      <div class=" bg-red-700 text-white justify-center content-center font-['Neue'] text-[10px]">NUEVO CONTENIDO - NUEVO
         CONTENIDO -
         NUEVO CONTENIDO
       </div>
@@ -1172,8 +1184,7 @@
             para comprar los podructos
             es necesario contactar vía <a
               href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado."
-              target="_blank" class="text-red-400 underline animate-pulse font-['Neue-Italic']">EMAIL</a> o
-            contactandome
+              target="_blank" class="text-red-400 underline animate-pulse font-['Neue-Italic']">EMAIL</a> o contactandome
             personalmente)
 
 
@@ -1182,82 +1193,73 @@
       </div>
 
     </div>
-    <div
-      class="grid grid-cols-2 pt-32 px-72 bg-white max-[1500px]:gap-46 max-[1500px]:px-32 max-sm:px-4 max-sm:grid-cols-1 max-sm:pt-12 max-sm:gap-8">
-      <div
-        class="titular max-sm:flex-col text-blue-600 flex text-[22px] animate-pulse justify-center text-center uppercase font-['PPE-Ultralight']">
-        Pack Oporto | <a class="font-['PPE-UltralightItalic'] normal-case pl-2">Tirada 2/2</a>
+    <div class="grid grid-cols-2 pt-32 px-72 bg-white max-[1500px]:gap-46 max-[1500px]:px-32 max-sm:px-4 max-sm:grid-cols-1 max-sm:pt-12 max-sm:gap-8">
+      <div class="titular text-center max-sm:text-left text-black flex flex-col text-[62px] uppercase font-normal sticky top-[9rem] max-lg:text-[50px] max-sm:px-6 font-['PPE-Ultralight']">
+        Pack Oporto<a class="font-['PPE-UltralightItalic'] text-[30px] leading-3 max-sm:leading-4 max-sm:text-[30px] normal-case">Tirada 2/2</a>
       </div>
-      <div
-        class="titular max-sm:hidden max-sm:flex-col text-red-600 flex text-[22px] animate-pulse justify-center text-center uppercase font-['PPE-Ultralight']">
-        Pack Pegatinas | <a class="font-['PPE-UltralightItalic'] normal-case pl-2">Selección Individual
+      <div class="titular max-sm:hidden text-center max-sm:text-left text-black flex flex-col text-[62px] uppercase font-normal sticky top-[9rem] max-lg:text-[45px] max-sm:px-0 font-['PPE-Ultralight']">
+        Pack Pegatinas<a class="font-['PPE-UltralightItalic'] text-[30px] leading-3 max-sm:leading-4 max-sm:text-[30px] normal-case">Selección Individual
         </a>
 
       </div>
     </div>
-    <div
-      class="grid grid-cols-2 px-72 bg-white max-[1500px]:gap-46 max-[1500px]:px-32 max-sm:px-2 max-sm:text-center max-sm:grid-cols-1 max-sm:pt-4 max-sm:pb-12">
-      <div class="titular text-zinc-600 flex text-[14px] justify-center text-center">
+    <div class="grid grid-cols-2 px-72 bg-white max-[1500px]:gap-46 max-[1500px]:px-32 max-sm:px-2 max-sm:text-center max-sm:grid-cols-1 max-sm:pt-4 max-sm:pb-12">
+      <div class="titular text-black max-sm:px-8 flex text-[14px] justify-center max-sm:justify-left text-center max-sm:text-left pt-4 max-sm:pt-0 max-sm:justify-left">
         « Haz click para preguntar por presupuesto»
       </div>
-      <div class="titular text-zinc-600 flex text-[14px] justify-center text-center max-sm:hidden">
+      <div class="titular text-black max-sm:px-8 flex justify-center max-sm:justify-left text-[14px] pt-4 max-sm:pt-0 max-sm:justify-left max-sm:text-left max-sm:hidden">
         « Haz click para preguntar por presupuesto»
       </div>
     </div>
 
     <div class="grid grid-cols-2 gap-32 px-12 pb-24 bg-white max-[1500px]:gap-4 max-sm:grid-cols-1 max-sm:px-6">
       <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=COMPRA|PRESUPUESTO&body=Hola Ruben Maldonado.Preguntaba por el trabajo de Oporto..."
-        class="cosas grid pb-32 max-sm:pb-0 justify-end place-items-center items-center content-center">
+      class="cosas grid pb-32 max-sm:pb-0 justify-end place-items-center items-center content-center">
         <img class="hover:w-[920px] duration-500 border border-t-3 border-b-0 border-white w-[900px]"
           src="/img/tienda.png" alt="" />
       </a>
 
-      <div
-        class="hidden max-sm:grid max-sm:grid-cols-1 pt-32 px-72 bg-white max-[1500px]:gap-46 max-[1500px]:px-32 max-sm:px-4 max-sm:pt-12 max-sm:gap-8">
+      <div class="hidden max-sm:grid max-sm:grid-cols-1 pt-32 px-72 bg-white max-[1500px]:gap-46 max-[1500px]:px-32 max-sm:px-4 max-sm:pt-12 max-sm:gap-8">
 
-        <div
-          class="titular max-sm:flex-col text-red-400 flex text-[22px] animate-pulse justify-center text-center uppercase font-['PPE-Ultralight']">
-          Pack Pegatinas | <a class="font-['PPE-UltralightItalic'] normal-case pl-2">Selección Individual
-          </a>
-          <div
-            class="titular text-zinc-600 max-sm:pt-4 flex text-[14px] justify-center text-center normal-case font-['SFUIDisplay-Light'] max-sm:pb-20">
-            « Haz click para preguntar por presupuesto»
-          </div>
-
-        </div>
+      <div class="titular text-center max-sm:text-left text-black flex flex-col text-[62px] uppercase font-normal sticky top-[9rem] max-lg:text-[45px] max-sm:px-0 font-['PPE-Ultralight']">
+        Pack Pegatinas<a class="font-['PPE-UltralightItalic'] text-[30px] leading-3 max-sm:leading-4 max-sm:text-[30px] normal-case">Selección Individual
+        </a>
+        <div class="titular text-black max-sm:pt-4 flex text-[14px] justify-left text-left normal-case font-['SFUIDisplay-Light'] max-sm:pb-20">
+        « Haz click para preguntar por presupuesto»
       </div>
 
+      </div>
+    </div>
+
       <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=COMPRA|PRESUPUESTO&body=Hola Ruben Maldonado.Preguntaba por las pegatinas..."
-        class="cosas grid pb-32 max-sm:pb-12 justify-start place-items-center items-center content-center">
-        <img
-          class="hover:w-[720px] duration-500 border border-t-3 border-b-0 border-white w-[700px] max-[1500px]:w-[540px] max-sm:px-6"
+      class="cosas grid pb-32 max-sm:pb-12 justify-start place-items-center items-center content-center">
+        <img class="hover:w-[720px] duration-500 border border-t-3 border-b-0 border-white w-[700px] max-[1500px]:w-[540px] max-sm:px-6"
           src="/img/tienda2.png" alt="" />
       </a>
     </div>
-
     <div
       class="max-sm:hidden grid-flow-cols border-0 border-b-0 border-none grid-cols-4 max-[1920px]:grid-cols-3 text-center max-[1450px]:grid-cols-2 animate-pulse max-[1930px]:grid-cols-3 max-sm:grid-cols-1">
 
-      <div class=" bg-red-700 text-white justify-center content-center text-[12px] font-['Regular']">NUEVO
+      <div class=" bg-red-700 text-white justify-center content-center font-['Neue'] text-[10px]">NUEVO
         CONTENIDO -
         NUEVO CONTENIDO -
         NUEVO CONTENIDO - NUEVO CONTENIDO - NUEVO CONTENIDO - NUEVO CONTENIDO - NUEVO CONTENIDO - NUEVO CONTENIDO
         -
-        NUEVO CONTENIDO - NUEVO CONTENIDO - NUEVO CONTENIDO
+        NUEVO CONTENIDO - NUEVO CONTENIDO - NUEVO CONTENIDO - NUEVO CONTENIDO - NUEVO CONTENIDO
       </div>
     </div>
 
     <div
       class="hidden max-sm:grid grid-flow-cols border-0 border-b-0 border-none grid-cols-4 max-[1920px]:grid-cols-3 text-center max-[1450px]:grid-cols-2 animate-pulse max-[1930px]:grid-cols-3 max-sm:grid-cols-1">
 
-      <div class=" bg-red-700 text-white justify-center content-center text-[12px]">NUEVO CONTENIDO - NUEVO
+      <div class=" bg-red-700 text-white justify-center content-center font-['Neue'] text-[10px]">NUEVO CONTENIDO - NUEVO
         CONTENIDO -
         NUEVO CONTENIDO
       </div>
     </div>
 
     <div
-      class="trabajos flex pt-32 pl-40 pr-40 pb-40 bg-black text-white flex-nowrap gap-72 justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-6 max-sm:pb-12 max-sm:pt-16 border-black">
+      class="trabajos flex pt-32 pl-40 pr-40 pb-24 bg-white text-black flex-nowrap gap-[420px] max-[1500px]:gap-[200px] justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-6 max-sm:pb-12 max-sm:pt-16 border-black">
       <div class="sticky_menu">
         <div
           class="titular flex flex-col text-[72px] font-normal sticky top-[9rem] max-lg:text-[60px] font-['PPE-Ultralight']">
@@ -1267,7 +1269,7 @@
 
       <div class="servicios_ofrecidos flex flex-col gap-6">
         <div class="servicio flex flex-col gap-6">
-          <div class="text max-w-[60ch] font-normal text-[16px] max-sm:text-[15px] text-white font-['Neue']">
+          <div class="text max-w-[60ch] font-normal text-[16px] max-sm:text-[15px] text-black font-['Neue']">
             Diferentes trabajos y disciplinas de referencia de gente interesante.
             En las categorías como ilustración realista o experimental, ilustración digital o analógica,
             comentario de cuadros artísticos, diseño 3D, cartelería, fanzines, tatuaje, serigrafía, marca y moda.
@@ -1281,80 +1283,80 @@
     </div>
 
     <div
-      class="flex gap-60 max-[1500px]:gap-[2rem] max-[1500px]:px-32 max-[1500px]:gap-20 text-sm bg-black border-t-0 min-[1920px]:px-94 px-56 pb-72 items-center justify-center content-center self-center max-sm:grid max-sm:gap-12 max-sm:pb-24 max-sm:border-t-0 max-sm:grid-cols-1 max-sm:px-10 max-sm:border-none max-sm:border-0 max-sm:pt-24">
+      class="flex gap-60 max-[1500px]:gap-[2rem] max-[1500px]:px-32 max-[1500px]:gap-20 text-sm bg-white border-t-0 min-[1920px]:px-94 px-56 pb-72 items-center justify-center content-center self-center max-sm:grid max-sm:gap-12 max-sm:pb-24 max-sm:border-t-0 max-sm:grid-cols-1 max-sm:px-10 max-sm:border-none max-sm:border-0 max-sm:pt-24">
       <div class="servicios_ofrecidos items-left flex max-sm:hidden flex-col gap-6 max-sm:order-last">
 
         <div class="flex flex-col gap-1 text-left justify-left">
           <div class="grid grid-flow-cols grid-cols-1 gap-1 justify-beetwen text-left">
             <a href="https://www.instagram.com/olme.ttoo"
-              class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
+              class="text-black pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
               @olme.ttoo - <b>Alejandro Olmedo</b></a>
             <a href="https://www.instagram.com/felixhdraw"
-              class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
+              class="text-black pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
               @felixhdraw - <b>Felix Hortolano</b></a>
             <a href="https://www.instagram.com/intensazc"
-              class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
+              class="text-black pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
               @intensazc - <b>Barbara Ibañez</b></a>
           </div>
 
           <div class="grid grid-flow-cols grid-cols-1 gap-1 justify-beetwen text-left">
             <a href="https://www.instagram.com/cat.arsys"
-              class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
+              class="text-black pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
               @cat.arsys - <b> Catalin Liviu </b></a>
             <a href="https://www.instagram.com/iam_sharkastic"
-              class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
+              class="text-black pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
               @iam_sharkastic - <b>Sergio Martín</b></a>
             <a href="https://historia-arte.com/autores/alvaro-garcia-moreno?fbclid=PAZXh0bgNhZW0CMTEAAaZXhzJaO518coe4d0wbABrUM9cD97VABeVEthtpD8VFEtl-2QtME1bEkbE_aem_LSvS6AW-QbcQvWoqpau77g"
-              class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
+              class="text-black pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
               @agarciamorenoo - <b>Alvaro García</b></a>
           </div>
 
 
           <div class="grid grid-flow-cols grid-cols-1 gap-1 justify-beetwen text-left">
             <a href="https://www.instagram.com/crearual"
-              class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
+              class="text-black pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
               @crearual - <b>Laura Morales</b></a>
             <a href="https://www.instagram.com/sof_dob_"
-              class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
+              class="text-black pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
               @sof_dob_ - <b>Sofia Dobeson</b></a>
             <a href="https://www.instagram.com/cosso.portfolio"
-              class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
+              class="text-black pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
               @cosso.portfolio - <b>Marco García</b></a>
           </div>
 
           <div class="grid grid-flow-cols grid-cols-1 gap-1 justify-beetwen text-left">
             <a href="https://www.instagram.com/_anagraphic"
-              class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
+              class="text-black pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
               @_anagraphic - <b>Ana Lazaro</b></a>
             <a href="https://www.instagram.com/conejitasmith7"
-              class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
+              class="text-black pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
               @conejitasmith7 - <b>Cruz Díaz</b></a>
             <a href="https://www.instagram.com/ghonz.art"
-              class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
+              class="text-black pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
               @ghonz.art - <b>Hugo Gregorio</b></a>
           </div>
 
           <div class="grid grid-flow-cols grid-cols-1 gap-1 justify-beetwen text-left">
             <a href="https://www.instagram.com/kombo_oficial"
-              class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
+              class="text-black pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
               @kombo_oficial - <b>Rakel Mongue</b></a>
             <a href="https://www.instagram.com/bupeart"
-              class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
+              class="text-black pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
               @bupeart - <b>Pau Bueno</b></a>
             <a href="https://www.instagram.com/carolina.jing"
-              class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
+              class="text-black pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
               @carolina.jing - <b>Carolina Jing</b></a>
           </div>
 
           <div class="grid grid-flow-cols grid-cols-1 gap-1 justify-beetwen text-left">
             <a href="https://www.instagram.com/moniecos"
-              class="text-white pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
+              class="text-black pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
               @moniecos - <b>Paula Rubros</b></a>
           </div>
         </div>
       </div>
       <div class="cosas justify-center items-center content-center flex max-w-[600px]">
-        <img class="img border border-t-3 border-b-0 border-white min-[1920px]:w-[720px] w-full"
+        <img class="img border border-t-3 border-b-0 border-zinc-400 min-[1920px]:w-[720px] w-full"
           src="/img/gifcompis.gif" alt="" />
       </div>
 

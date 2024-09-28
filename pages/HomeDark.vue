@@ -1146,10 +1146,10 @@
         NUEVO CONTENIDO
       </div>
     </div>
-    <div id="tienda" class="pb-14 bg-white"></div>
+    <div id="tienda" class="pb-14 bg-black"></div>
 
     <div
-      class="trabajos flex pt-32 pl-40 pr-40 pb-12 bg-white text-black flex-nowrap gap-[340px] justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-6 max-sm:pb-12 max-sm:pt-24 border-black">
+      class="trabajos flex pt-32 pl-40 pr-40 pb-12 bg-black text-white flex-nowrap gap-[340px] justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-6 max-sm:pb-12 max-sm:pt-24 border-black">
       <div class="sticky_menu">
         <div
           class="titular flex flex-col text-[72px] font-normal sticky top-[9rem] max-lg:text-[60px] font-['PPE-Ultralight']">
@@ -1159,7 +1159,7 @@
 
       <div class="servicios_ofrecidos flex flex-col gap-6">
         <div class="servicio flex flex-col gap-6">
-          <div class="text max-w-[60ch] font-normal text-[16px] max-sm:text-[15px] text-black font-['Neue']">
+          <div class="text max-w-[60ch] font-normal text-[16px] max-sm:text-[15px] text-white font-['Neue']">
             Elementos para comprar a raiz de mis trabajos, creando versiones 2/2 para darle un valor añadido a mis
             proyectos y
             pueda ser coleccionado y sea más físico y accesible a los demás. (No esta oficializada una tienda como tal,
@@ -1175,38 +1175,38 @@
       </div>
 
     </div>
-    <div class="grid grid-cols-2 pt-32 px-72 bg-white max-[1500px]:gap-46 max-[1500px]:px-32 max-sm:px-4 max-sm:grid-cols-1 max-sm:pt-12 max-sm:gap-8">
-      <div class="titular max-sm:flex-col text-blue-600 flex text-[22px] animate-pulse justify-center text-center uppercase font-['PPE-Ultralight']">
-        Pack Oporto | <a class="font-['PPE-UltralightItalic'] normal-case pl-2">Tirada 2/2</a>
+    <div class="grid grid-cols-2 pt-32 px-72 bg-black max-[1500px]:gap-46 max-[1500px]:px-32 max-sm:px-4 max-sm:grid-cols-1 max-sm:pt-12 max-sm:gap-8">
+      <div class="titular text-center max-sm:text-left text-white flex flex-col text-[62px] uppercase font-normal sticky top-[9rem] max-lg:text-[50px] max-sm:px-6 font-['PPE-Ultralight']">
+        Pack Oporto<a class="font-['PPE-UltralightItalic'] text-[30px] leading-3 max-sm:leading-4 max-sm:text-[30px] normal-case">Tirada 2/2</a>
       </div>
-      <div class="titular max-sm:hidden max-sm:flex-col text-red-600 flex text-[22px] animate-pulse justify-center text-center uppercase font-['PPE-Ultralight']">
-        Pack Pegatinas | <a class="font-['PPE-UltralightItalic'] normal-case pl-2">Selección Individual
+      <div class="titular max-sm:hidden text-center max-sm:text-left text-white flex flex-col text-[62px] uppercase font-normal sticky top-[9rem] max-lg:text-[45px] max-sm:px-0 font-['PPE-Ultralight']">
+        Pack Pegatinas<a class="font-['PPE-UltralightItalic'] text-[30px] leading-3 max-sm:leading-4 max-sm:text-[30px] normal-case">Selección Individual
         </a>
 
       </div>
     </div>
-    <div class="grid grid-cols-2 px-72 bg-white max-[1500px]:gap-46 max-[1500px]:px-32 max-sm:px-2 max-sm:text-center max-sm:grid-cols-1 max-sm:pt-4 max-sm:pb-12">
-      <div class="titular text-zinc-600 flex text-[14px] justify-center text-center">
+    <div class="grid grid-cols-2 px-72 bg-black max-[1500px]:gap-46 max-[1500px]:px-32 max-sm:px-2 max-sm:text-center max-sm:grid-cols-1 max-sm:pt-4 max-sm:pb-12">
+      <div class="titular text-zinc-200 max-sm:px-8 flex text-[14px] justify-center max-sm:justify-left text-center max-sm:text-left pt-4 max-sm:pt-0 max-sm:justify-left">
         « Haz click para preguntar por presupuesto»
       </div>
-      <div class="titular text-zinc-600 flex text-[14px] justify-center text-center max-sm:hidden">
+      <div class="titular text-zinc-200 max-sm:px-8 flex justify-center max-sm:justify-left text-[14px] pt-4 max-sm:pt-0 max-sm:justify-left max-sm:text-left max-sm:hidden">
         « Haz click para preguntar por presupuesto»
       </div>
     </div>
 
-    <div class="grid grid-cols-2 gap-32 px-12 pb-24 bg-white max-[1500px]:gap-4 max-sm:grid-cols-1 max-sm:px-6">
+    <div class="grid grid-cols-2 gap-32 px-12 pb-24 bg-black max-[1500px]:gap-4 max-sm:grid-cols-1 max-sm:px-6">
       <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=COMPRA|PRESUPUESTO&body=Hola Ruben Maldonado.Preguntaba por el trabajo de Oporto..."
       class="cosas grid pb-32 max-sm:pb-0 justify-end place-items-center items-center content-center">
-        <img class="hover:w-[920px] duration-500 border border-t-3 border-b-0 border-white w-[900px]"
+        <img class="hover:w-[920px] duration-500 border border-t-3 border-b-0 border-black w-[900px]"
           src="/img/tienda.png" alt="" />
       </a>
 
-      <div class="hidden max-sm:grid max-sm:grid-cols-1 pt-32 px-72 bg-white max-[1500px]:gap-46 max-[1500px]:px-32 max-sm:px-4 max-sm:pt-12 max-sm:gap-8">
+      <div class="hidden max-sm:grid max-sm:grid-cols-1 pt-32 px-72 bg-black max-[1500px]:gap-46 max-[1500px]:px-32 max-sm:px-4 max-sm:pt-12 max-sm:gap-8">
 
-      <div class="titular max-sm:flex-col text-red-600 flex text-[22px] animate-pulse justify-center text-center uppercase font-['PPE-Ultralight']">
-        Pack Pegatinas | <a class="font-['PPE-UltralightItalic'] normal-case pl-2">Selección Individual
+      <div class="titular text-center max-sm:text-left text-white flex flex-col text-[62px] uppercase font-normal sticky top-[9rem] max-lg:text-[45px] max-sm:px-0 font-['PPE-Ultralight']">
+        Pack Pegatinas<a class="font-['PPE-UltralightItalic'] text-[30px] leading-3 max-sm:leading-4 max-sm:text-[30px] normal-case">Selección Individual
         </a>
-        <div class="titular text-zinc-600 max-sm:pt-4 flex text-[14px] justify-center text-center normal-case font-['SFUIDisplay-Light'] max-sm:pb-20">
+        <div class="titular text-zinc-200 max-sm:pt-4 flex text-[14px] justify-left text-left normal-case font-['SFUIDisplay-Light'] max-sm:pb-20">
         « Haz click para preguntar por presupuesto»
       </div>
 
@@ -1215,7 +1215,7 @@
 
       <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=COMPRA|PRESUPUESTO&body=Hola Ruben Maldonado.Preguntaba por las pegatinas..."
       class="cosas grid pb-32 max-sm:pb-12 justify-start place-items-center items-center content-center">
-        <img class="hover:w-[720px] duration-500 border border-t-3 border-b-0 border-white w-[700px] max-[1500px]:w-[540px] max-sm:px-6"
+        <img class="hover:w-[720px] duration-500 border border-t-3 border-b-0 border-black w-[700px] max-[1500px]:w-[540px] max-sm:px-6"
           src="/img/tienda2.png" alt="" />
       </a>
     </div>
@@ -1242,8 +1242,8 @@
     </div>
 
     <div
-      class="trabajos flex pt-32 pl-40 pr-40 pb-40 bg-black text-white flex-nowrap gap-72 justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-6 max-sm:pb-12 max-sm:pt-16 border-black">
-      <div class="sticky_menu">
+    class="trabajos flex pt-32 pl-40 pr-40 pb-24 bg-black text-white flex-nowrap gap-[420px] max-[1500px]:gap-[200px] justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-6 max-sm:pb-12 max-sm:pt-16 border-black">
+    <div class="sticky_menu">
         <div
           class="titular flex flex-col text-[72px] font-normal sticky top-[9rem] max-lg:text-[60px] font-['PPE-Ultralight']">
           ARTISTAS
