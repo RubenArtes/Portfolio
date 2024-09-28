@@ -5,7 +5,7 @@
       class="header bg-white p-10 border-t-0 px-32 text-black grid grid-cols-3 sticky top-0 z-50 max-lg:p-6 max-lg:sticky max-sm:flex max-sm:justify-between max-sm:px-8">
       <div class="image place-self-start self-center">
         <NuxtLink to="/Home">
-          <img class="max-lg:max-w-[15px] w-[20px]" src="/img/logorubenmal.svg" />
+          <img class="max-lg:max-w-[15px] w-[20px]" src="/img/logogif.gif" />
         </NuxtLink>
       </div>
       <div class="mode place-self-center">

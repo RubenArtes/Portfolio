@@ -5,7 +5,7 @@
       class="header bg-black p-10 border-t-0 px-32 text-white grid grid-cols-3 sticky top-0 z-50 max-lg:p-6 max-lg:sticky max-sm:flex max-sm:justify-between max-sm:px-8">
       <div class="image place-self-start self-center">
         <NuxtLink to="/HomeDark">
-          <img class="max-lg:max-w-[15px] w-[20px]" src="/img/logorubenmal6.svg" />
+          <img class="max-lg:max-w-[15px] w-[20px]" src="/img/logogif2.gif" />
         </NuxtLink>
       </div>
       <div class="mode place-self-center">
