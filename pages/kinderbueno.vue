@@ -143,7 +143,7 @@
             </a>
             <div class="links flex flex-col gap-2">
                 <div class="links1 flex gap-32 max-xl:justify-center">
-                    <a class="red flex gap-2 items-center max-xl:text-[14px]" href="https://www.instagram.com/ruben.artes/">Instagram
+                    <a class="red flex gap-2 items-center max-xl:text-[14px]" href="https://www.instagram.com/maldonadoruben_/">Instagram
                             <img class="vector" src="/img/Vector-11zinc.svg">
                     </a>
                     <a class="red flex gap-2 items-center max-xl:text-[14px]" href="https://www.behance.net/rubenartes">Behance
@@ -154,7 +154,7 @@
                     <a class="red flex gap-2 items-center max-xl:text-[14px]" href="https://www.instagram.com/ruben.iso">Instagram
                             <img class="vector" src="/img/Vector-11zinc.svg">
 
-                    </a> <a class="red flex gap-2 items-center max-xl:text-[14px]" href="https://www.linkedin.com/in/rubenmaldonado10">LinkedIn
+                    </a> <a class="red flex gap-2 items-center max-xl:text-[14px]" href="https://www.linkedin.com/in/rubenmaldonado00">LinkedIn
                             <img class="vector" src="/img/Vector-11zinc.svg">
                     </a>
                 </div>

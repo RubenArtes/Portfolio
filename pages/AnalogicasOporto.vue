@@ -167,7 +167,7 @@
                         <img class="vector" src="/img/Vector-11white.svg">
 
                     </a> <a class="red flex gap-2 items-center max-xl:text-[14px]"
-                        href="https://www.linkedin.com/in/rubenmaldonado10">LinkedIn
+                        href="https://www.linkedin.com/in/rubenmaldonado00">LinkedIn
                         <img class="vector" src="/img/Vector-11white.svg">
                     </a>
                 </div>

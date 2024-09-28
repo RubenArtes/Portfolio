@@ -70,11 +70,10 @@ export default {
         opacity: 0;
         pointer-events: none;
         transition: opacity 0.5s ease;
-        background-image: url('/img/flecha.svg'); /* Cambia esto a la ruta de tu archivo SVG */
+        background-image: url('/img/nuevaflecha3.svg'); /* Cambia esto a la ruta de tu archivo SVG */
         background-size: contain;
         background-repeat: no-repeat;
         width: 60px; /* Ajusta el tamaño de acuerdo a tus necesidades */
         height: 60px;
-        mix-blend-mode:exclusion;
         }
 </style>

@@ -255,7 +255,7 @@
             <div class="links flex flex-col gap-2">
                 <div class="links1 flex gap-32 max-xl:justify-center">
                     <a class="red flex gap-2 items-center max-xl:text-[14px]"
-                        href="https://www.instagram.com/ruben.artes/">Instagram
+                        href="https://www.instagram.com/maldonadoruben_/">Instagram
                         <NuxtLink to="/">
                             <img class="vector" src="/img/Vector-11.svg">
                         </NuxtLink>
@@ -276,7 +276,7 @@
 
 
                     </a> <a class="red flex gap-2 items-center max-xl:text-[14px]"
-                        href="https://www.linkedin.com/in/rubenmaldonado10">LinkedIn
+                        href="https://www.linkedin.com/in/rubenmaldonado00">LinkedIn
                         <NuxtLink to="/">
                             <img class="vector" src="/img/Vector-11.svg">
                         </NuxtLink>

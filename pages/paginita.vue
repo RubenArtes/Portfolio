@@ -5,7 +5,7 @@
       class="header bg-white p-10 border-t-0 px-24 text-black grid grid-cols-1 sticky top-0 z-10 max-lg:p-6 max-lg:sticky max-sm:grid max-sm:justify-between">
       <div class="image place-self-center self-center">
         <NuxtLink to="/Home">
-          <img class="max-lg:max-w-[15px]" src="/img/Vectorblack.svg" />
+          <img class="max-lg:max-w-[15px] w-[20px]" src="/img/logorubenmal.svg" />
         </NuxtLink>
       </div>
     </div>
@@ -49,15 +49,15 @@
     </div>-->
 
     <div
-      class="banner flex pt-12 pb-48 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[1920px]:pb-16 max-sm:hidden">
-      <img class="banner_image w-1/2 h-full" src="/img/nombreruben_00000.png">
+      class="banner flex max-[1920px]:pt-[120px] max-[1920px]:pb-[60px] pt-[260px] pb-[160px] text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[1920px]:px-28 max-sm:hidden">
+      <img class="banner_image max-[1920px]:w-[240px] w-[300px] h-full" src="/img/logorubenmal8.svg">
 
 
     </div>
 
     <div
-      class="banner hidden max-sm:px-8 max-sm:flex max-sm:pt-12 max-sm:pb-20 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
-      <img class="banner_image w-full h-full" src="/img/nombreruben_00000.png">
+      class="banner hidden max-sm:px-8 max-sm:flex max-sm:pt-12 max-sm:pb-12 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
+      <img class="banner_image w-[140px] h-full" src="/img/logorubenmal8.svg">
 
 
     </div>
@@ -190,27 +190,6 @@ import { MotionPlugin } from '@vueuse/motion';
 
 import { PerfectScrollbar } from 'vue3-perfect-scrollbar';
 
-export default {
-  mounted() {
-    setTimeout(() => {
-      this.animateOutAndRedirect();
-    }, 1500); // Redirigir después de 5 segundos
-  },
-  methods: {
-    animateOutAndRedirect() {
-      const el = document.querySelector('.app');
-      el.classList.add('fade-out');
-
-      setTimeout(() => {
-        this.redirectToHome();
-      }, 500); // Esperar 500ms (0.5s) antes de redirigir
-    },
-    redirectToHome() {
-      this.$router.push('/Home'); // Redirigir a la ruta raíz
-    }
-  }
-};
-
 
 
 </script>
@@ -221,22 +200,5 @@ export default {
   &:hover
     @apply text-zinc-300
 
-.image
-  @apply transition ease-in-out delay-150
-  &:hover
-    @apply opacity-80 duration-75 outline outline-2 outline-white rounded-sm
-
-.image_logo
-  @apply opacity-100
-  &:hover
-    @apply opacity-60
-
-.red
-  &:hover
-      @apply text-zinc-300
-.app
-  transition: opacity 0.5s // Transición de opacidad de 0.5 segundos
-  &.fade-out
-    opacity: 0// Cambiar la opacidad a 0 para la transición
 
 </style>
