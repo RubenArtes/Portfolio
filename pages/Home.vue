@@ -5,7 +5,7 @@
       class="header bg-white p-10 border-t-0 px-32 text-black grid grid-cols-3 sticky top-0 z-50 max-lg:p-6 max-lg:sticky max-sm:flex max-sm:justify-between max-sm:px-8">
       <div class="image place-self-start self-center">
         <NuxtLink to="/Home">
-          <img class="max-lg:max-w-[15px] w-[20px]" src="/img/logogif.gif" />
+          <img class="max-lg:max-w-[15px] w-[20px]" src="/img/logogif5.gif" />
         </NuxtLink>
       </div>
       <div class="mode place-self-center">
@@ -107,9 +107,10 @@
 
         <div
           class="text text-[14px] leading-[18px] font-['Neue'] tracking-normal flex flex-col items-left justify-self-start max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[14px] max-sm:leading-[1rem] max-sm:pb-4 max-sm:text-start max-[1920px]:text-[14px] max-[1920px]:leading-[16px]">
-          RUBÉN MALDONADO GONZÁLEZ
-          <br>
-          SEPTIEMBRE 2024
+          
+          <p class="font-['Neue']">[ r -- n ]</p>
+          <p class="font-['Neue'] text-zinc-500">RUBÉN MALDONADO GONZÁLEZ</p>
+          <p class="font-['Neue'] text-zinc-500">SEPTIEMBRE 2024</p>
         </div>
 
 
@@ -166,16 +167,16 @@
 
         <div
           class="text place-self-end text-[14px] max-sm:text-[12px] max-sm:leading-[1rem] text-black leading-[18px] font-['Neue'] tracking-normal flex flex-col items-left justify-self-start max-3xl:text-[30px] max-sm:pt-2 max-sm:pb-4 max-sm:text-center max-[1920px]:leading-[20px]">
-          <a class="bg-slate-100 mb-1">[ PACKAGING</a>
-          <a class="bg-slate-200 mb-1">[ EDITORIAL</a>
-          <a class="bg-slate-300">[ MARCA</a>
+          <a class="bg-[#CB2E5D] bg-opacity-10 hover:bg-opacity-100 text-[#252422] hover:text-[#F5F5F5] mb-1">&nbsp;[ PACKAGING&nbsp;</a>
+          <a class="bg-[#F59A37] bg-opacity-10 hover:bg-opacity-100 text-[#252422] hover:text-[#F5F5F5] mb-1">&nbsp;[ EDITORIAL&nbsp;</a>
+          <a class="bg-[#0449AF] bg-opacity-10 hover:bg-opacity-100 text-[#252422] hover:text-[#F5F5F5]">&nbsp;[ MARCA&nbsp;</a>
         </div>
 
         <div
           class="text text-[14px] max-sm:text-[12px] max-sm:leading-[1rem] text-black leading-[18px] font-['Neue'] tracking-normal flex flex-col items-left justify-self-start max-3xl:text-[30px] max-sm:pt-2 max-sm:pb-4 max-sm:text-center max-[1920px]:leading-[20px]">
-          <a class="bg-slate-100 mb-1">ILUSTRACIÓN ]</a>
-          <a class="bg-slate-200 mb-1">RENDER ]</a>
-          <a class="bg-slate-300">AUDIOVISUALES ]</a>
+          <a class="bg-[#CB2E5D] bg-opacity-10 hover:bg-opacity-100 text-[#252422] hover:text-[#F5F5F5] mb-1">&nbsp;ILUSTRACIÓN ]&nbsp;</a>
+          <a class="bg-[#F59A37] bg-opacity-10 hover:bg-opacity-100 text-[#252422] hover:text-[#F5F5F5] mb-1">&nbsp;RENDER ]&nbsp;</a>
+          <a class="bg-[#0449AF] bg-opacity-10 hover:bg-opacity-100 text-[#252422] hover:text-[#F5F5F5]">&nbsp;AUDIOVISUALES ]&nbsp;</a>
         </div>
 
 

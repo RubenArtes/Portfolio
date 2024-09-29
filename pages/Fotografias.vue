@@ -5,7 +5,7 @@
             class="header bg-black p-10 border-t-0 px-32 text-white grid grid-cols-2 sticky top-0 z-50 max-lg:p-6 max-lg:sticky max-sm:flex max-sm:justify-between max-sm:px-8">
             <div class="image place-self-start self-center">
                 <NuxtLink to="/Home">
-                    <img class="max-lg:max-w-[15px] w-[20px]" src="/img/logogif2.gif" />
+                    <img class="max-lg:max-w-[15px] w-[20px]" src="/img/logogif4.gif" />
                 </NuxtLink>
             </div>
             <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado."
@@ -85,7 +85,7 @@
       <div
         class="twotrabajos max-sm:px-2 p-0 flex gap-4 justify-center pb-4 max-lg:flex-col max-lg:justify-items-center max-lg:items-center max-lg:px-10">
         <div class="trabajo" >
-          <NuxtLink to="/Oporto" target="_blank">
+          <NuxtLink to="/FotografiasOporto" target="_blank">
             <div
                 class="flex hover:bg-[url('/img/fotocaratula5.png')] bg-black bg-cover bg-center flex-col text-[40px] w-[600px] h-[600px] max-sm:w-[400px] max-sm:h-[400px] items-center justify-center border font-['PPE-Ultralight'] leading-[50px] text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
                 <p class="font-['PPE-UltralightItalic'] text-[24px] leading-7">Fotografías</p>OPORTO</div>
@@ -93,7 +93,7 @@
 
         </div>
         <div class="trabajo">
-          <NuxtLink to="/Provoke" target="_blank">
+          <NuxtLink to="/FotografiasProvoke" target="_blank">
             <div
                 class="flex hover:bg-[url('/img/fotocaratula12.png')] bg-black bg-cover bg-center flex-col text-[40px] w-[600px] h-[600px] max-sm:w-[400px] max-sm:h-[400px] items-center justify-center border font-['PPE-Ultralight'] leading-[50px] text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
                 <p class="font-['PPE-UltralightItalic'] text-[24px] leading-7">Fotografías</p>PROVOKE</div>
@@ -105,7 +105,7 @@
       <div
       class="twotrabajos p-0 flex max-sm:px-2 gap-4 justify-center pb-4 max-lg:flex-col max-lg:justify-items-center max-lg:items-center max-lg:px-10">
       <div class="trabajo">
-          <NuxtLink to="/Tenerife" target="_blank">
+          <NuxtLink to="/FotografiasTenerife" target="_blank">
             <div
                 class="flex hover:bg-[url('/img/fotocaratula2.png')] bg-black bg-cover bg-center flex-col text-[40px] w-[600px] h-[600px] max-sm:w-[400px] max-sm:h-[400px] items-center justify-center border font-['PPE-Ultralight'] leading-[50px] text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
                 <p class="font-['PPE-UltralightItalic'] text-[24px] leading-7">Fotografías</p>TENERIFE</div>
@@ -126,7 +126,7 @@
       <div
       class="twotrabajos p-0 flex max-sm:px-2 gap-4 justify-center pb-4 max-lg:flex-col max-lg:justify-items-center max-lg:items-center max-lg:px-10">
       <div class="trabajo">
-          <NuxtLink to="/MetroMadrid" target="_blank">
+          <NuxtLink to="/FotografiasMetroMadrid" target="_blank">
             <div
                 class="flex hover:bg-[url('/img/fotocaratula8.png')] bg-black bg-cover bg-center flex-col text-[40px] w-[600px] h-[600px] max-sm:w-[400px] max-sm:h-[400px] items-center justify-center border font-['PPE-Ultralight'] leading-[50px] text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
                 <p class="font-['PPE-UltralightItalic'] text-[24px] leading-7">Fanzine</p>METRO MADRID</div>
@@ -134,7 +134,7 @@
 
         </div>
         <div class="trabajo">
-          <NuxtLink to="/madrid" target="_blank">
+          <NuxtLink to="/FotografiasMadrid" target="_blank">
             <div
                 class="flex hover:bg-[url('/img/fotocaratula9.png')] bg-black bg-cover bg-center flex-col text-[40px] w-[600px] h-[600px] max-sm:w-[400px] max-sm:h-[400px] items-center justify-center border font-['PPE-Ultralight'] leading-[50px] text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
                 <p class="font-['PPE-UltralightItalic'] text-[24px] leading-7">Fotografías</p>MADRID</div>
@@ -146,7 +146,7 @@
       <div
       class="twotrabajos p-0 max-sm:px-2 flex gap-4 justify-center pb-4 max-lg:flex-col max-lg:justify-items-center max-lg:items-center max-lg:px-10">
       <div class="trabajo">
-          <NuxtLink to="/Bodegon" target="_blank">
+          <NuxtLink to="/FotografiasBodegon" target="_blank">
             <div
                 class="flex hover:bg-[url('/img/fotocaratula10.png')] bg-black bg-cover bg-center flex-col text-[40px] w-[600px] h-[600px] max-sm:w-[400px] max-sm:h-[400px] items-center justify-center border font-['PPE-Ultralight'] leading-[50px] text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
                 <p class="font-['PPE-UltralightItalic'] text-[24px] leading-7">Fotografías</p>BODEGON</div>
@@ -154,7 +154,7 @@
 
         </div>
         <div class="trabajo">
-          <NuxtLink to="/retratos" target="_blank">
+          <NuxtLink to="/FotografiasRetratos" target="_blank">
 
             <div
             class="flex hover:bg-[url('/img/estudio5.jpg')] bg-black bg-cover bg-center flex-col text-[40px] w-[600px] h-[600px] max-sm:w-[400px] max-sm:h-[400px] items-center justify-center border font-['PPE-Ultralight'] leading-[50px] text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">

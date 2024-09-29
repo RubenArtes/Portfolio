@@ -5,7 +5,7 @@
             class="header bg-white p-10 border-t-0 px-32 text-black grid grid-cols-2 sticky top-0 z-50 max-lg:p-6 max-lg:sticky max-sm:flex max-sm:justify-between max-sm:px-8">
             <div class="image place-self-start self-center">
                 <NuxtLink to="/Home">
-                    <img class="max-lg:max-w-[15px] w-[20px]" src="/img/logogif.gif" />
+                    <img class="max-lg:max-w-[15px] w-[20px]" src="/img/logoporto.png" />
                 </NuxtLink>
             </div>
             <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado."
@@ -15,7 +15,7 @@
             </a>
         </div>
         <div
-            class="header bg-white p-1 flex px-8 gap-12 text-center justify-items-center place-content-center sticky top-[110px] z-10 max-lg:p-6 max-lg:sticky border border-b-1 max-sm:hidden max-[1920px]:gap-8 max-[1500px]:gap-2 max-[1500px]:px-4 max-[1500px]:justify-between">
+            class="header bg-white p-1 flex px-8 gap-12 text-center justify-items-center place-content-center sticky top-[122px] z-10 max-lg:p-6 max-lg:sticky border border-b-1 max-sm:hidden max-[1920px]:gap-8 max-[1500px]:gap-2 max-[1500px]:px-4 max-[1500px]:justify-between">
             <a href="#navegacion"
                 class="email text-black items-center text-[12px] max-[1920px]:text-[10px] justify-items-center flex gap-2 max-[1500px]:text-[10px] max-[1500px]:max-w-[30ch]">NAVEGACIÓN
             </a>

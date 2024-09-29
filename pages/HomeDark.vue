@@ -5,7 +5,7 @@
       class="header bg-black p-10 border-t-0 px-32 text-white grid grid-cols-3 sticky top-0 z-50 max-lg:p-6 max-lg:sticky max-sm:flex max-sm:justify-between max-sm:px-8">
       <div class="image place-self-start self-center">
         <NuxtLink to="/HomeDark">
-          <img class="max-lg:max-w-[15px] w-[20px]" src="/img/logogif2.gif" />
+          <img class="max-lg:max-w-[15px] w-[20px]" src="/img/logogif4.gif" />
         </NuxtLink>
       </div>
       <div class="mode place-self-center">
@@ -93,9 +93,9 @@
 
         <div
         class="text text-[14px] leading-[18px] font-['Neue'] tracking-normal flex flex-col items-left justify-self-start max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[14px] max-sm:leading-[1rem] max-sm:pb-4 max-sm:text-start max-[1920px]:text-[14px] max-[1920px]:leading-[16px]">
-        RUBÉN MALDONADO GONZÁLEZ
-          <br>
-          SEPTIEMBRE 2024
+        <p class="font-['Neue']">[ r -- n ]</p>
+          <p class="font-['Neue'] text-zinc-300">RUBÉN MALDONADO GONZÁLEZ</p>
+          <p class="font-['Neue'] text-zinc-300">SEPTIEMBRE 2024</p>
         </div>
 
 

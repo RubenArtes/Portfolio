@@ -5,7 +5,7 @@
             class="header bg-black p-10 border-b-1 border border-r-0 border-l-0 border-t-0 px-32 text-white grid grid-cols-2 sticky top-0 z-50 max-lg:p-6 max-lg:sticky max-sm:flex max-sm:justify-between max-sm:px-8">
             <div class="image place-self-start self-center">
                 <NuxtLink to="/Home">
-                    <img class="max-lg:max-w-[15px] w-[20px]" src="/img/logogif2.gif" />
+                    <img class="max-lg:max-w-[15px] w-[20px]" src="/img/logogif4.gif" />
                 </NuxtLink>
             </div>
             <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado."
@@ -14,26 +14,30 @@
                 <img class="vector max-lg:max-w-[8px]" src="/img/Vector-11.svg" />
             </a>
         </div>
+
         <VueScrollProgressBar background-color="#ffffff" />
         <div
             class="colum max-sm:hidden divide-x-1 grid grid-cols-2 pb-10 text-white justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center">
             <div class="div1 pt-2 border border-zinc-200 border-t-0 border-l-0 border-r-0 border-b-0">
                 <div
                 class="info_secondary max-[1500px]:px-24 max-[1500px]:pt-12 max-[1500px]:pb-32 z-20 bg-black border border-t-0 border-r-0 border-l-0 max-[1920px]:px-[12rem] px-[17rem] pb-44 place-items-start pt-32 flex flex-col gap-6 sticky top-32 max-[1500px]:gap-12">
-                    <div
+                <div
                         class="titular max-[1500px]:text-[50px] text-[30px] font-['PPE-UltralightItalic'] leading-3 font-normal text-[#f1f1f1] max-sm:text-[55px] max-[1500px]:text-left max-[1280px]:text-[100px]">
                         Colección</div>
                     <div
-                        class="titular max-[1500px]:text-[50px] text-[50px] font-['PPE-Ultralight'] leading-8 font-normal text-[#c58928] max-sm:text-[55px] max-[1500px]:text-left max-[1280px]:text-[100px]">
-                        TENERIFE</div>
+                        class="titular max-[1500px]:text-[50px] text-[50px] font-['PPE-Ultralight'] leading-8 font-normal text-[#f1f1f1] max-sm:text-[55px] max-[1500px]:text-left max-[1280px]:text-[100px]">
+                        PROVOKE</div>
                     <div
-                    class="text max-[1500px]:text-[12px] max-w-[60ch] text-[16px] text-start uppercase text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
-                        FOTOGRAFÍAS - 2024 - ISLAS CANARIAS - VIAJE - PERSONAL - TENERIFE</div>
+                        class="text max-w-[60ch] text-[16px] text-start uppercase text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
+                        FOTOGRAFÍAS - FEBRERO 2023 - ASIGNATURA FOTOGRAFÍA - ABSTRACCIÓN</div>
                     <div
                     class="text text-[16px] font-['SFUIDisplay-Light'] text-white max-xl:text-sm max-[1500px]:text-[14px] max-[1500px]:max-w-[100ch]">
-                        Fanzine de viaje personal con amigos a las Islas Canarias, concretamente a Tenerife. Visitando
-                        todas las zonas de la isla desde las partes del Norte, el Teide y las zonas del Sur.
-                        Diferentes calas, montañas que tocan las nubes, los bosques y playas.
+                    Fotografías realizadas con temática de la revista Japonesa Provoke, los cuales utilizan mucho el
+                        grano en sus fotografías, el alto contraste, la subexposición y la sobrexposición, además de
+                        elementos abstractos o poco usuales. Fotografías realizadas con temática de la revista Japonesa
+                        Provoke, los cuales utilizan mucho el grano en sus fotografías, el alto contraste, la
+                        subexposición y la sobrexposición, además de elementos abstractos o poco usuales.
+
 
                     </div>
 
@@ -51,54 +55,19 @@
 
             </div>
             <div class="div1 pl-4 grid grid-cols-1 gap-4 border border-t-0">
-                <img class="fotografia" src="/img/tenerife1.png">
-                <img class="fotografia" src="/img/tenerife4.png">
-                <img class="fotografia" src="/img/tenerife5.png">
-                <img class="fotografia" src="/img/tenerife6.png">
-                <img class="fotografia" src="/img/tenerife7.png">
-                <img class="fotografia" src="/img/tenerife8.png">
-                <img class="fotografia" src="/img/tenerife9.png">
-                <img class="fotografia" src="/img/tenerife10.png">
-                <img class="fotografia" src="/img/tenerife11.png">
-                <img class="fotografia" src="/img/tenerife12.png">
-                <img class="fotografia" src="/img/tenerife14.png">
-                <img class="fotografia" src="/img/tenerife15.png">
-                <img class="fotografia" src="/img/tenerife16.png">
-                <img class="fotografia" src="/img/tenerife17.png">
-                <img class="fotografia" src="/img/tenerife18.png">
-                <img class="fotografia" src="/img/tenerife19.png">
-                <img class="fotografia" src="/img/tenerife20.png">
-                <img class="fotografia" src="/img/tenerife21.png">
-                <img class="fotografia" src="/img/tenerife22.png">
-                <img class="fotografia" src="/img/tenerife23.png">
-                <img class="fotografia" src="/img/tenerife24.png">
-                <img class="fotografia" src="/img/tenerife25.png">
-                <img class="fotografia" src="/img/tenerife26.png">
-                <img class="fotografia" src="/img/tenerife27.png">
-                <img class="fotografia" src="/img/tenerife28.png">
-                <img class="fotografia" src="/img/tenerife29.png">
-                <img class="fotografia" src="/img/tenerife30.png">
-                <img class="fotografia" src="/img/tenerife31.png">
-                <img class="fotografia" src="/img/tenerife32.png">
-                <img class="fotografia" src="/img/tenerife33.png">
-                <img class="fotografia" src="/img/tenerife34.png">
-                <img class="fotografia" src="/img/tenerife35.png">
-                <img class="fotografia" src="/img/tenerife36.png">
-                <img class="fotografia" src="/img/tenerife37.png">
-                <img class="fotografia" src="/img/tenerife38.png">
-                <img class="fotografia" src="/img/tenerife39.png">
-                <img class="fotografia" src="/img/tenerife40.png">
-                <img class="fotografia" src="/img/tenerife41.png">
-                <img class="fotografia" src="/img/tenerife42.png">
-                <img class="fotografia" src="/img/tenerife43.png">
-                <img class="fotografia" src="/img/tenerife44.png">
-                <img class="fotografia" src="/img/tenerife45.png">
-                <img class="fotografia" src="/img/tenerife46.png">
-                <img class="fotografia" src="/img/tenerife47.png">
-                <img class="fotografia" src="/img/tenerife48.png">
-                <img class="fotografia" src="/img/tenerife49.png">
-                <img class="fotografia" src="/img/tenerife50.png">
 
+                <img class="image_grid " src="/img/provoke.jpg" alt="">
+                <img class="image_grid " src="/img/provoke2.jpg" alt="">
+                <img class="image_grid " src="/img/provoke3.jpg" alt="">
+                <img class="image_grid " src="/img/provoke4.jpg" alt="">
+                <img class="image_grid " src="/img/provoke5.jpg" alt="">
+                <img class="image_grid " src="/img/provoke6.jpg" alt="">
+                <img class="image_grid " src="/img/provoke7.jpg" alt="">
+                <img class="image_grid " src="/img/provoke8.jpg" alt="">
+                <img class="image_grid " src="/img/provoke9.jpg" alt="">
+                <img class="image_grid " src="/img/provoke10.jpg" alt="">
+                <img class="image_grid " src="/img/provoke11.jpg" alt="">
+                <img class="image_grid " src="/img/provoke12.jpg" alt="">
 
             </div>
         </div>
@@ -106,20 +75,21 @@
         <div
             class="titular2 max-sm:border-0 hidden max-sm:flex max-sm:pt-14 px-64 gap-64 content-start space-between justify-center pt-20 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-[1500px]:flex-col max-[1500px]:gap-2 max-[1500px]:items-center max-[1700px]:px-10">
             <div
-                class="titular text-[60px] font-['PPE-Ultralight'] leading-12 font-bold text-[#c58928] max-sm:text-[55px] max-[1500px]:text-left max-[1280px]:text-[100px]">
-                TENERIFE</div>
+                class="titular text-[60px] font-['PPE-Ultralight'] leading-12 font-bold text-[#f1f1f1] max-sm:text-[55px] max-[1500px]:text-left max-[1280px]:text-[100px]">
+                PROVOKE</div>
             <div
                 class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:pt-6 max-sm:pb-16 max-sm:px-0 max-[1280px]:items-center max-[1280px]:pt-6 max-[1280px]:pb-0">
 
                 <div
                     class="text max-w-[60ch] text-[16px] uppercase text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
-                    FOTOGRAFÍAS - 2024 - ISLAS CANARIAS - VIAJE - PERSONAL - TENERIFE</div>
+                    FOTOGRAFÍAS - FEBRERO 2023 - ASIGNATURA FOTOGRAFÍA - ABSTRACCIÓN</div>
                 <div
                     class="text max-w-[80ch] pb-16 pt-4 max-sm:text-left text-left font-['SFUIDisplay-Light'] text-[20px] text-white max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:max-w-[100ch] max-[800px]:pb-4">
-                    Fanzine de viaje personal con amigos a las Islas Canarias, concretamente a Tenerife. Visitando todas
-                    las zonas de la isla desde las partes del Norte, el Teide y las zonas del Sur.
-                    Diferentes calas, montañas que tocan las nubes, los bosques y playas.
-
+                    Fotografías realizadas con temática de la revista Japonesa Provoke, los cuales utilizan mucho el
+                    grano en sus fotografías, el alto contraste, la subexposición y la sobrexposición, además de
+                    elementos abstractos o poco usuales. Fotografías realizadas con temática de la revista Japonesa
+                    Provoke, los cuales utilizan mucho el grano en sus fotografías, el alto contraste, la
+                    subexposición y la sobrexposición, además de elementos abstractos o poco usuales.
                 </div>
 
             </div>
@@ -128,54 +98,19 @@
 
 
         <div class="max-sm:grid max-sm:gap-4 max-sm:grid-cols-1 max-sm:pb-12 max-sm:px-4 hidden">
-            <img class="fotografia" src="/img/tenerife1.png">
-                <img class="fotografia" src="/img/tenerife4.png">
-                <img class="fotografia" src="/img/tenerife5.png">
-                <img class="fotografia" src="/img/tenerife6.png">
-                <img class="fotografia" src="/img/tenerife7.png">
-                <img class="fotografia" src="/img/tenerife8.png">
-                <img class="fotografia" src="/img/tenerife9.png">
-                <img class="fotografia" src="/img/tenerife10.png">
-                <img class="fotografia" src="/img/tenerife11.png">
-                <img class="fotografia" src="/img/tenerife12.png">
-                <img class="fotografia" src="/img/tenerife14.png">
-                <img class="fotografia" src="/img/tenerife15.png">
-                <img class="fotografia" src="/img/tenerife16.png">
-                <img class="fotografia" src="/img/tenerife17.png">
-                <img class="fotografia" src="/img/tenerife18.png">
-                <img class="fotografia" src="/img/tenerife19.png">
-                <img class="fotografia" src="/img/tenerife20.png">
-                <img class="fotografia" src="/img/tenerife21.png">
-                <img class="fotografia" src="/img/tenerife22.png">
-                <img class="fotografia" src="/img/tenerife23.png">
-                <img class="fotografia" src="/img/tenerife24.png">
-                <img class="fotografia" src="/img/tenerife25.png">
-                <img class="fotografia" src="/img/tenerife26.png">
-                <img class="fotografia" src="/img/tenerife27.png">
-                <img class="fotografia" src="/img/tenerife28.png">
-                <img class="fotografia" src="/img/tenerife29.png">
-                <img class="fotografia" src="/img/tenerife30.png">
-                <img class="fotografia" src="/img/tenerife31.png">
-                <img class="fotografia" src="/img/tenerife32.png">
-                <img class="fotografia" src="/img/tenerife33.png">
-                <img class="fotografia" src="/img/tenerife34.png">
-                <img class="fotografia" src="/img/tenerife35.png">
-                <img class="fotografia" src="/img/tenerife36.png">
-                <img class="fotografia" src="/img/tenerife37.png">
-                <img class="fotografia" src="/img/tenerife38.png">
-                <img class="fotografia" src="/img/tenerife39.png">
-                <img class="fotografia" src="/img/tenerife40.png">
-                <img class="fotografia" src="/img/tenerife41.png">
-                <img class="fotografia" src="/img/tenerife42.png">
-                <img class="fotografia" src="/img/tenerife43.png">
-                <img class="fotografia" src="/img/tenerife44.png">
-                <img class="fotografia" src="/img/tenerife45.png">
-                <img class="fotografia" src="/img/tenerife46.png">
-                <img class="fotografia" src="/img/tenerife47.png">
-                <img class="fotografia" src="/img/tenerife48.png">
-                <img class="fotografia" src="/img/tenerife49.png">
-                <img class="fotografia" src="/img/tenerife50.png">
 
+            <img class="image_grid " src="/img/provoke.jpg" alt="">
+            <img class="image_grid " src="/img/provoke2.jpg" alt="">
+            <img class="image_grid " src="/img/provoke3.jpg" alt="">
+            <img class="image_grid " src="/img/provoke4.jpg" alt="">
+            <img class="image_grid " src="/img/provoke5.jpg" alt="">
+            <img class="image_grid " src="/img/provoke6.jpg" alt="">
+            <img class="image_grid " src="/img/provoke7.jpg" alt="">
+            <img class="image_grid " src="/img/provoke8.jpg" alt="">
+            <img class="image_grid " src="/img/provoke9.jpg" alt="">
+            <img class="image_grid " src="/img/provoke10.jpg" alt="">
+            <img class="image_grid " src="/img/provoke11.jpg" alt="">
+            <img class="image_grid " src="/img/provoke12.jpg" alt="">
 
 
 
