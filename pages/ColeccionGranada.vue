@@ -2,16 +2,16 @@
     <div class="app bg-black font-['SFUIDisplay-Regular']">
         <Cursor class="max-sm:hidden" />
         <div
-            class="header bg-black p-10 border-b-1 border border-r-0 border-l-0 border-t-0 px-32 text-white grid grid-cols-2 sticky top-0 z-50 max-lg:p-6 max-lg:sticky max-sm:flex max-sm:justify-between max-sm:px-8">
+            class="header bg-black max-sm:border-none max-sm:border-0 max-sm:border-b-0 p-10 border-b-1 border border-r-0 border-l-0 border-t-0 px-32 text-white grid grid-cols-2 sticky top-0 z-50 max-lg:p-6 max-lg:sticky max-sm:flex max-sm:justify-between max-sm:px-8">
             <div class="image place-self-start self-center">
                 <NuxtLink to="/Home">
-                    <img class="max-lg:max-w-[15px] w-[20px]" src="/img/logogif4.gif" />
+                    <NuxtImg class="max-lg:max-w-[15px] w-[20px]" src="/img/logogif4.gif" />
                 </NuxtLink>
             </div>
             <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado."
                 target="_blank" class="email self-center text-lg  place-self-end flex gap-2 max-lg:text-xs">
                 ruben.maldonado.graphic@gmail.com
-                <img class="vector max-lg:max-w-[8px]" src="/img/Vector-11.svg" />
+                <NuxtImg class="vector max-lg:max-w-[8px]" src="/img/Vector-11.svg" />
             </a>
         </div>
 
@@ -53,46 +53,48 @@
 
             </div>
             <div class="div1 pl-4 grid grid-cols-1 gap-4 border border-t-0">
-                <img class="fotografia" loading="lazy" data-src="/img/granada17.png" src="/img/granada17.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada.png" src="/img/granada.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada3.png" src="/img/granada3.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada5.png" src="/img/granada5.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada6.png" src="/img/granada6.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada7.png" src="/img/granada7.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada8.png" src="/img/granada8.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada9.png" src="/img/granada9.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada10.png" src="/img/granada10.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada11.png" src="/img/granada11.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada12.png" src="/img/granada12.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada13.png" src="/img/granada13.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada14.png" src="/img/granada14.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada15.png" src="/img/granada15.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada16.png" src="/img/granada16.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada18.png" src="/img/granada18.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada19.png" src="/img/granada19.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada20.png" src="/img/granada20.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada21.png" src="/img/granada21.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada22.png" src="/img/granada22.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada23.png" src="/img/granada23.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada24.png" src="/img/granada24.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada25.png" src="/img/granada25.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada26.png" src="/img/granada26.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada27.png" src="/img/granada27.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada28.png" src="/img/granada28.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada29.png" src="/img/granada29.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada30.png" src="/img/granada30.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada31.png" src="/img/granada31.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada32.png" src="/img/granada32.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada33.png" src="/img/granada33.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada34.png" src="/img/granada34.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada35.png" src="/img/granada35.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada36.png" src="/img/granada36.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada37.png" src="/img/granada37.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada38.png" src="/img/granada38.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada39.png" src="/img/granada39.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada40.png" src="/img/granada40.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada41.png" src="/img/granada41.png">
-                <img class="fotografia" loading="lazy" data-src="/img/granada42.png" src="/img/granada42.png">
+
+                <NuxtImg class="fotografia" src="/img/granada17.png" />
+                <NuxtImg class="fotografia" src="/img/granada.png" />
+                <NuxtImg class="fotografia" src="/img/granada3.png" />
+                <NuxtImg class="fotografia" src="/img/granada5.png" />
+                <NuxtImg class="fotografia" src="/img/granada6.png" />
+                <NuxtImg class="fotografia" src="/img/granada7.png" />
+                <NuxtImg class="fotografia" src="/img/granada8.png" />
+                <NuxtImg class="fotografia" src="/img/granada9.png" />
+                <NuxtImg class="fotografia" src="/img/granada10.png" />
+                <NuxtImg class="fotografia" src="/img/granada11.png" />
+                <NuxtImg class="fotografia" src="/img/granada12.png" />
+                <NuxtImg class="fotografia" src="/img/granada13.png" />
+                <NuxtImg class="fotografia" src="/img/granada14.png" />
+                <NuxtImg class="fotografia" src="/img/granada15.png" />
+                <NuxtImg class="fotografia" src="/img/granada16.png" />
+                <NuxtImg class="fotografia" src="/img/granada18.png" />
+                <NuxtImg class="fotografia" src="/img/granada19.png" />
+                <NuxtImg class="fotografia" src="/img/granada20.png" />
+                <NuxtImg class="fotografia" src="/img/granada21.png" />
+                <NuxtImg class="fotografia" src="/img/granada22.png" />
+                <NuxtImg class="fotografia" src="/img/granada23.png" />
+                <NuxtImg class="fotografia" src="/img/granada24.png" />
+                <NuxtImg class="fotografia" src="/img/granada25.png" />
+                <NuxtImg class="fotografia" src="/img/granada26.png" />
+                <NuxtImg class="fotografia" src="/img/granada27.png" />
+                <NuxtImg class="fotografia" src="/img/granada28.png" />
+                <NuxtImg class="fotografia" src="/img/granada29.png" />
+                <NuxtImg class="fotografia" src="/img/granada30.png" />
+                <NuxtImg class="fotografia" src="/img/granada31.png" />
+                <NuxtImg class="fotografia" src="/img/granada32.png" />
+                <NuxtImg class="fotografia" src="/img/granada33.png" />
+                <NuxtImg class="fotografia" src="/img/granada34.png" />
+                <NuxtImg class="fotografia" src="/img/granada35.png" />
+                <NuxtImg class="fotografia" src="/img/granada36.png" />
+                <NuxtImg class="fotografia" src="/img/granada37.png" />
+                <NuxtImg class="fotografia" src="/img/granada38.png" />
+                <NuxtImg class="fotografia" src="/img/granada39.png" />
+                <NuxtImg class="fotografia" src="/img/granada40.png" />
+                <NuxtImg class="fotografia" src="/img/granada41.png" />
+                <NuxtImg class="fotografia" src="/img/granada42.png" />
+
 
 
             </div>
@@ -123,46 +125,46 @@
 
         <div class="max-sm:grid max-sm:gap-4 max-sm:grid-cols-1 max-sm:pb-12 max-sm:px-4 hidden">
 
-            <img class="fotografia" loading="lazy" data-src="/img/granada17.png" src="/img/granada17.png">
-            <img class="fotografia" loading="lazy" data-src="/img/granada.png" src="/img/granada.png">
-            <img class="fotografia" loading="lazy" data-src="/img/granada3.png" src="/img/granada3.png">
-            <img class="fotografia" loading="lazy" data-src="/img/granada5.png" src="/img/granada5.png">
-            <img class="fotografia" loading="lazy" data-src="/img/granada6.png" src="/img/granada6.png">
-            <img class="fotografia" loading="lazy" data-src="/img/granada7.png" src="/img/granada7.png">
-            <img class="fotografia" loading="lazy" data-src="/img/granada8.png" src="/img/granada8.png">
-            <img class="fotografia" loading="lazy" data-src="/img/granada9.png" src="/img/granada9.png">
-            <img class="fotografia" loading="lazy" data-src="/img/granada10.png" src="/img/granada10.png">
-            <img class="fotografia" loading="lazy" data-src="/img/granada11.png" src="/img/granada11.png">
-            <img class="fotografia" loading="lazy" data-src="/img/granada12.png" src="/img/granada12.png">
-            <img class="fotografia" loading="lazy" data-src="/img/granada13.png" src="/img/granada13.png">
-            <img class="fotografia" loading="lazy" data-src="/img/granada14.png" src="/img/granada14.png">
-            <img class="fotografia" loading="lazy" data-src="/img/granada15.png" src="/img/granada15.png">
-            <img class="fotografia" loading="lazy" data-src="/img/granada16.png" src="/img/granada16.png">
-            <img class="fotografia" loading="lazy" data-src="/img/granada18.png" src="/img/granada18.png">
-            <img class="fotografia" loading="lazy" data-src="/img/granada19.png" src="/img/granada19.png">
-            <img class="fotografia" loading="lazy" data-src="/img/granada20.png" src="/img/granada20.png">
-            <img class="fotografia" loading="lazy" data-src="/img/granada21.png" src="/img/granada21.png">
-            <img class="fotografia" loading="lazy" data-src="/img/granada22.png" src="/img/granada22.png">
-            <img class="fotografia" loading="lazy" data-src="/img/granada23.png" src="/img/granada23.png">
-            <img class="fotografia" loading="lazy" data-src="/img/granada24.png" src="/img/granada24.png">
-            <img class="fotografia" loading="lazy" data-src="/img/granada25.png" src="/img/granada25.png">
-            <img class="fotografia" loading="lazy" data-src="/img/granada26.png" src="/img/granada26.png">
-            <img class="fotografia" loading="lazy" data-src="/img/granada27.png" src="/img/granada27.png">
-            <img class="fotografia" loading="lazy" data-src="/img/granada28.png" src="/img/granada28.png">
-            <img class="fotografia" loading="lazy" data-src="/img/granada29.png" src="/img/granada29.png">
-            <img class="fotografia" loading="lazy" data-src="/img/granada30.png" src="/img/granada30.png">
-            <img class="fotografia" loading="lazy" data-src="/img/granada31.png" src="/img/granada31.png">
-            <img class="fotografia" loading="lazy" data-src="/img/granada32.png" src="/img/granada32.png">
-            <img class="fotografia" loading="lazy" data-src="/img/granada33.png" src="/img/granada33.png">
-            <img class="fotografia" loading="lazy" data-src="/img/granada34.png" src="/img/granada34.png">
-            <img class="fotografia" loading="lazy" data-src="/img/granada35.png" src="/img/granada35.png">
-            <img class="fotografia" loading="lazy" data-src="/img/granada36.png" src="/img/granada36.png">
-            <img class="fotografia" loading="lazy" data-src="/img/granada37.png" src="/img/granada37.png">
-            <img class="fotografia" loading="lazy" data-src="/img/granada38.png" src="/img/granada38.png">
-            <img class="fotografia" loading="lazy" data-src="/img/granada39.png" src="/img/granada39.png">
-            <img class="fotografia" loading="lazy" data-src="/img/granada40.png" src="/img/granada40.png">
-            <img class="fotografia" loading="lazy" data-src="/img/granada41.png" src="/img/granada41.png">
-            <img class="fotografia" loading="lazy" data-src="/img/granada42.png" src="/img/granada42.png">
+            <NuxtImg class="fotografia" src="/img/granada17.png" />
+            <NuxtImg class="fotografia" src="/img/granada.png" />
+            <NuxtImg class="fotografia" src="/img/granada3.png" />
+            <NuxtImg class="fotografia" src="/img/granada5.png" />
+            <NuxtImg class="fotografia" src="/img/granada6.png" />
+            <NuxtImg class="fotografia" src="/img/granada7.png" />
+            <NuxtImg class="fotografia" src="/img/granada8.png" />
+            <NuxtImg class="fotografia" src="/img/granada9.png" />
+            <NuxtImg class="fotografia" src="/img/granada10.png" />
+            <NuxtImg class="fotografia" src="/img/granada11.png" />
+            <NuxtImg class="fotografia" src="/img/granada12.png" />
+            <NuxtImg class="fotografia" src="/img/granada13.png" />
+            <NuxtImg class="fotografia" src="/img/granada14.png" />
+            <NuxtImg class="fotografia" src="/img/granada15.png" />
+            <NuxtImg class="fotografia" src="/img/granada16.png" />
+            <NuxtImg class="fotografia" src="/img/granada18.png" />
+            <NuxtImg class="fotografia" src="/img/granada19.png" />
+            <NuxtImg class="fotografia" src="/img/granada20.png" />
+            <NuxtImg class="fotografia" src="/img/granada21.png" />
+            <NuxtImg class="fotografia" src="/img/granada22.png" />
+            <NuxtImg class="fotografia" src="/img/granada23.png" />
+            <NuxtImg class="fotografia" src="/img/granada24.png" />
+            <NuxtImg class="fotografia" src="/img/granada25.png" />
+            <NuxtImg class="fotografia" src="/img/granada26.png" />
+            <NuxtImg class="fotografia" src="/img/granada27.png" />
+            <NuxtImg class="fotografia" src="/img/granada28.png" />
+            <NuxtImg class="fotografia" src="/img/granada29.png" />
+            <NuxtImg class="fotografia" src="/img/granada30.png" />
+            <NuxtImg class="fotografia" src="/img/granada31.png" />
+            <NuxtImg class="fotografia" src="/img/granada32.png" />
+            <NuxtImg class="fotografia" src="/img/granada33.png" />
+            <NuxtImg class="fotografia" src="/img/granada34.png" />
+            <NuxtImg class="fotografia" src="/img/granada35.png" />
+            <NuxtImg class="fotografia" src="/img/granada36.png" />
+            <NuxtImg class="fotografia" src="/img/granada37.png" />
+            <NuxtImg class="fotografia" src="/img/granada38.png" />
+            <NuxtImg class="fotografia" src="/img/granada39.png" />
+            <NuxtImg class="fotografia" src="/img/granada40.png" />
+            <NuxtImg class="fotografia" src="/img/granada41.png" />
+            <NuxtImg class="fotografia" src="/img/granada42.png" />
 
 
 
@@ -177,10 +179,10 @@
                 proyecto</div>
             <div class="programas flex flex-col items-center">
                 <div class="three_programas flex gap-10">
-                    <img class="image_logo w-[40px] opacity-100 hover:opacity-60 max-xl:max-w-[30px]"
-                        src="/img/Lightroom.svg" alt="">
-                    <img class="image_logo w-[40px] opacity-100 hover:opacity-60 max-xl:max-w-[30px]"
-                        src="/img/Photoshop.svg" alt="">
+                    <NuxtImg class="image_logo w-[40px] opacity-100 hover:opacity-60 max-xl:max-w-[30px]"
+                        src="/img/Lightroom.svg" alt="" />
+                    <NuxtImg class="image_logo w-[40px] opacity-100 hover:opacity-60 max-xl:max-w-[30px]"
+                        src="/img/Photoshop.svg" alt="" />
                 </div>
             </div>
         </div>
@@ -190,27 +192,27 @@
             <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado."
                 target="_blank" class="email text-lg flex gap-2 items-center max-xl:text-[14px] max-xl:justify-center">
                 ruben.maldonado.graphic@gmail.com
-                <img class="vector" src="/img/Vector-11white.svg">
+                <NuxtImg class="vector" src="/img/Vector-11white.svg" />
             </a>
             <div class="links flex flex-col gap-2 text-white">
                 <div class="links1 flex gap-32 max-xl:justify-center">
                     <a class="red flex gap-2 items-center max-xl:text-[14px]"
                         href="https://www.instagram.com/maldonadoruben_/">Instagram
-                        <img class="vector" src="/img/Vector-11white.svg">
+                        <NuxtImg class="vector" src="/img/Vector-11white.svg" />
                     </a>
                     <a class="red flex gap-2 items-center max-xl:text-[14px]"
                         href="https://www.behance.net/rubenartes">Behance
-                        <img class="vector" src="/img/Vector-11white.svg">
+                        <NuxtImg class="vector" src="/img/Vector-11white.svg" />
                     </a>
                 </div>
                 <div class="links2 flex gap-32 flex-end max-xl:justify-center">
                     <a class="red flex gap-2 items-center max-xl:text-[14px]"
                         href="https://www.instagram.com/ruben.iso">Instagram
-                        <img class="vector" src="/img/Vector-11white.svg">
+                        <NuxtImg class="vector" src="/img/Vector-11white.svg" />
 
                     </a> <a class="red flex gap-2 items-center max-xl:text-[14px]"
                         href="https://www.linkedin.com/in/rubenmaldonado00">LinkedIn
-                        <img class="vector" src="/img/Vector-11white.svg">
+                        <NuxtImg class="vector" src="/img/Vector-11white.svg" />
                     </a>
                 </div>
             </div>
@@ -220,12 +222,12 @@
         <div class="foter bg-black p-10 flex text-white justify-between sticky top-0 max-xl:p-6">
             <div class="foter_image flex flex-start">
                 <NuxtLink to="/">
-                    <img class="vector max-xl:max-w-[15px]" src="/img/star.svg">
+                    <NuxtImg class="vector max-xl:max-w-[15px]" src="/img/star.svg" />
                 </NuxtLink>
             </div>
             <div class="email flex gap-2 items-center text-sm max-xl:text-xs">Ruben Maldonado González
                 <NuxtLink to="/">
-                    <img class="vector max-xl:max-w-[15px]" src="/img/futbol.svg">
+                    <NuxtImg class="vector max-xl:max-w-[15px]" src="/img/futbol.svg" />
                 </NuxtLink>
             </div>
         </div>

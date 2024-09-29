@@ -113,7 +113,7 @@
 
         </div>
         <div class="trabajo">
-          <NuxtLink to="/ColeccionGranada" target="_blank">
+          <NuxtLink to="/FotografiasGranada" target="_blank">
             <div
                 class="flex hover:bg-[url('/img/fotocaratula3.png')] bg-black bg-cover bg-center flex-col text-[40px] w-[600px] h-[600px] max-sm:w-[400px] max-sm:h-[400px] items-center justify-center border font-['PPE-Ultralight'] leading-[50px] text-white max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
                 <p class="font-['PPE-UltralightItalic'] text-[24px] leading-7">Fotografías</p>GRANADA</div>
