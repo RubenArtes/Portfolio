@@ -56,18 +56,18 @@
             </div>
             <div class="div1 pl-4 grid grid-cols-1 gap-4 border border-t-0">
 
-                <img class="image_grid " src="/img/provoke.jpg" alt="">
-                <img class="image_grid " src="/img/provoke2.jpg" alt="">
-                <img class="image_grid " src="/img/provoke3.jpg" alt="">
-                <img class="image_grid " src="/img/provoke4.jpg" alt="">
-                <img class="image_grid " src="/img/provoke5.jpg" alt="">
-                <img class="image_grid " src="/img/provoke6.jpg" alt="">
-                <img class="image_grid " src="/img/provoke7.jpg" alt="">
-                <img class="image_grid " src="/img/provoke8.jpg" alt="">
-                <img class="image_grid " src="/img/provoke9.jpg" alt="">
-                <img class="image_grid " src="/img/provoke10.jpg" alt="">
-                <img class="image_grid " src="/img/provoke11.jpg" alt="">
-                <img class="image_grid " src="/img/provoke12.jpg" alt="">
+            <NuxtImg class="image_grid " src="/img/provoke.jpg" alt=""/>
+            <NuxtImg class="image_grid " src="/img/provoke2.jpg" alt=""/>
+            <NuxtImg class="image_grid " src="/img/provoke3.jpg" alt=""/>
+            <NuxtImg class="image_grid " src="/img/provoke4.jpg" alt=""/>
+            <NuxtImg class="image_grid " src="/img/provoke5.jpg" alt=""/>
+            <NuxtImg class="image_grid " src="/img/provoke6.jpg" alt=""/>
+            <NuxtImg class="image_grid " src="/img/provoke7.jpg" alt=""/>
+            <NuxtImg class="image_grid " src="/img/provoke8.jpg" alt=""/>
+            <NuxtImg class="image_grid " src="/img/provoke9.jpg" alt=""/>
+            <NuxtImg class="image_grid " src="/img/provoke10.jpg" alt=""/>
+            <NuxtImg class="image_grid " src="/img/provoke11.jpg" alt=""/>
+            <NuxtImg class="image_grid " src="/img/provoke12.jpg" alt=""/>
 
             </div>
         </div>
@@ -99,18 +99,18 @@
 
         <div class="max-sm:grid max-sm:gap-4 max-sm:grid-cols-1 max-sm:pb-12 max-sm:px-4 hidden">
 
-            <img class="image_grid " src="/img/provoke.jpg" alt="">
-            <img class="image_grid " src="/img/provoke2.jpg" alt="">
-            <img class="image_grid " src="/img/provoke3.jpg" alt="">
-            <img class="image_grid " src="/img/provoke4.jpg" alt="">
-            <img class="image_grid " src="/img/provoke5.jpg" alt="">
-            <img class="image_grid " src="/img/provoke6.jpg" alt="">
-            <img class="image_grid " src="/img/provoke7.jpg" alt="">
-            <img class="image_grid " src="/img/provoke8.jpg" alt="">
-            <img class="image_grid " src="/img/provoke9.jpg" alt="">
-            <img class="image_grid " src="/img/provoke10.jpg" alt="">
-            <img class="image_grid " src="/img/provoke11.jpg" alt="">
-            <img class="image_grid " src="/img/provoke12.jpg" alt="">
+            <NuxtImg class="image_grid " src="/img/provoke.jpg" alt=""/>
+            <NuxtImg class="image_grid " src="/img/provoke2.jpg" alt=""/>
+            <NuxtImg class="image_grid " src="/img/provoke3.jpg" alt=""/>
+            <NuxtImg class="image_grid " src="/img/provoke4.jpg" alt=""/>
+            <NuxtImg class="image_grid " src="/img/provoke5.jpg" alt=""/>
+            <NuxtImg class="image_grid " src="/img/provoke6.jpg" alt=""/>
+            <NuxtImg class="image_grid " src="/img/provoke7.jpg" alt=""/>
+            <NuxtImg class="image_grid " src="/img/provoke8.jpg" alt=""/>
+            <NuxtImg class="image_grid " src="/img/provoke9.jpg" alt=""/>
+            <NuxtImg class="image_grid " src="/img/provoke10.jpg" alt=""/>
+            <NuxtImg class="image_grid " src="/img/provoke11.jpg" alt=""/>
+            <NuxtImg class="image_grid " src="/img/provoke12.jpg" alt=""/>
 
 
 
