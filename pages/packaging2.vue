@@ -1,328 +1,196 @@
 <template>
-    <div id="inicio"
-     class="app bg-black font-['SFUIDisplay-Regular']">
+    <div id="inicio" class="app bg-white font-['SFUIDisplay-Light']">
         <Cursor class="max-sm:hidden" />
         <div
-            class="header bg-black p-10 px-32 text-white grid grid-cols-2 sticky top-0 z-50 max-lg:p-6 max-lg:sticky max-sm:flex max-sm:justify-between max-sm:px-8">
+            class="header opacity-40 bg-white p-10 border-t-0 px-32 text-black flex justify-center sticky top-0 z-50 max-lg:p-6 max-lg:sticky max-sm:flex max-sm:px-8">
             <div class="image place-self-start self-center">
                 <NuxtLink to="/Home">
-                    <img class="max-lg:max-w-[15px] w-[20px]" src="/img/logogif4.gif" />
+                    <img class="max-lg:max-w-[15px] w-[20px]" src="/img/darklogo.png" />
                 </NuxtLink>
             </div>
-            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado."
-                target="_blank" class="email self-center text-lg  place-self-end flex gap-2 max-lg:text-xs">
-                ruben.maldonado.graphic@gmail.com
-                <img class="vector max-lg:max-w-[8px]" src="/img/Vector-11.svg" />
-            </a>
-        </div>
-
-        <VueScrollProgressBar background-color="#ffffff" />
-
-        <div class="div1 max-sm:hidden pt-2 border border-zinc-200 border-t-0 border-l-0 border-r-0 border-b-0">
-            <div
-                class="info_secondary max-[1500px]:px-24 max-[1500px]:pt-12 max-[1500px]:pb-32 z-20 bg-black max-[1920px]:px-[12rem] px-32 pb-44 place-items-start pt-32 flex flex-col gap-6 max-sm:px-12 top-32 max-[1500px]:gap-12">
-                <div
-                    class="titular max-[1500px]:text-[50px] text-[30px] font-['PPE-UltralightItalic'] leading-3 font-normal text-[#f1f1f1] max-sm:text-[55px] max-[1500px]:text-left max-[1280px]:text-[100px]">
-                    Colección</div>
-                <div
-                    class="titular max-[1500px]:text-[50px] text-[50px] font-['PPE-Ultralight'] leading-8 font-normal text-[#f1f1f1] max-sm:text-[55px] max-[1500px]:text-left max-[1280px]:text-[100px]">
-                    PROVOKE</div>
-                <div
-                    class="text max-w-[60ch] text-[14px] text-start uppercase text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
-                    FOTOGRAFÍAS - FEBRERO 2023 
-                    <br>
-                    ASIGNATURA FOTOGRAFÍA - ABSTRACCIÓN</div>
-                <div
-                    class="text text-[16px] max-w-[60ch] font-['SFUIDisplay-Light'] text-white max-xl:text-sm max-[1500px]:text-[14px] max-[1500px]:max-w-[60ch]">
-                    Fotografías realizadas con temática de la revista Japonesa Provoke, los cuales utilizan mucho el
-                    grano en sus fotografías, el alto contraste, la subexposición y la sobrexposición, además de
-                    elementos abstractos o poco usuales. Fotografías realizadas con temática de la revista Japonesa
-                    Provoke, los cuales utilizan mucho el grano en sus fotografías, el alto contraste, la
-                    subexposición y la sobrexposición, además de elementos abstractos o poco usuales.
-
-
-                </div>
-
-
-            </div>
-
-
         </div>
 
         <div
-            class="titular2 max-sm:border-0 hidden max-sm:flex max-sm:pt-14 px-64 gap-64 justify-start text-start content-start space-between place-self-start pt-20 max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-[1500px]:flex-col max-[1500px]:gap-2 max-[1500px]:items-start max-[1700px]:px-10">
+            class="header opacity-40 bg-white p-2 px-12 text-black flex justify-center items-center sticky top-[122px] z-10 max-[1080px]:gap-6 max-[1025px]:top-[64px] max-sm:gap-2 max-sm:top-[76px]">
             <div
-                class="titular text-[60px] font-['PPE-Ultralight'] leading-12 font-bold text-[#b3b3b3] max-sm:text-[55px] max-[1500px]:text-left max-[1280px]:text-[100px]">
-                PROVOKE</div>
-            <div
-                class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-8 max-sm:pt-6 max-sm:pb-16 max-sm:px-0 max-[1280px]:items-start max-[1280px]:pt-6 max-[1280px]:pb-0">
+                class="titular_small uppercase pr-2 pl-2 text-zinc-900 font-['Neue'] text-[13px] max-[1920px]:text-xs max-sm:px-2 max-sm:text-[11px]">
+                Ultima actualización Septiembre 2024
+            </div>
+            <img class="info max-w-[12px] max-h-[12px]" src="/img/infoblack.png" />
+        </div>
+        <!--<div
+        class="header text-black justify-center items-center sticky top-[122px] z-10 max-[1080px]:gap-6 max-[1025px]:top-[64px] max-sm:gap-2 max-sm:top-[76px]">
+        <div class=" text-center animate-pulse opacity-30">
+          <div class="py-2 w-full place-self-center text-center justify-center items-center text-indigo-100 leading-none grid lg:inline-flex"
+            role="alert">
+            <span
+              class="titular_small uppercase text-zinc-800 font-['Neue'] text-[13px] max-[1920px]:text-xs max-sm:px-2 max-sm:text-[11px] mr-2 text-left">Ultima
+              actualización Septiembre 2024</span>
+            <span class="flex rounded-full bg-zinc-200 uppercase px-2 py-1 text-xs font-bold mr-3">
+              <img class="info max-w-[12px] max-h-[12px]" src="/img/infoblack.png" />
+            </span>
+          </div>
+        </div>
+      </div> -->
+
+
+
+        <div
+            class="trabajos hidden px-64 pt-16 pb-6 text-white flex-col items-left gap-10 items-left max-lg:pt-16 max-lg:px-10 max-lg:flex-col max-lg:justify-center max-lg:gap-2 max-lg:justify-items-center max-[1930px]:pt-4 max-[1080px]:px-20 max-[1080px]:pb-14 max-[720px]:px-4 max-sm:px-2 max-sm:pb-8 max-sm:pt-12 max-sm:hidden">
+            <div class="titular_flex pt-12 flex flex-col max-lg:items-center max-lg:flex max-[2000px]:px-0 max-sm:pt-2">
+                <div
+                    class="titular gap-4 leading-[12rem] text-[200px] font-['SFUIDisplay-Regular'] font-bold tracking-tight flex flex-col items-center text-center justify-center max-[1930px]:text-[140px] max-[1470px]:text-[80px] max-sm:text-[50px] max-sm:leading-[3rem] max-sm:font-['SFUIDisplay-Bold']">
+                    RUBÉN MALDONADO
+                </div>
+            </div>
+        </div>
+
+
+        <!--<div
+        class="trabajos hidden max-sm:grid px-64 pt-16 pb-6 text-white flex-col items-left gap-10 items-left max-lg:pt-16 max-lg:px-10 max-lg:flex-col max-lg:justify-center max-lg:gap-2 max-lg:justify-items-center max-[1930px]:pt-4 max-[1080px]:px-20 max-[1080px]:pb-14 max-sm:px-2 max-sm:text-center max-sm:pb-72">
+        <div class="titular_flex pt-12 grid grid-flow-row grid-rows-2 gao-2 max-lg:items-center max-[2000px]:px-0 max-sm:pt-2">
+          <div
+            class="titular2 gap-4 leading-[12rem] text-[200px] font-['SFUIDisplay-Regular'] font-bold tracking-tight flex flex-col items-center text-center justify-center max-[1930px]:text-[140px] max-[1470px]:text-[120px] max-sm:leading-[4.75rem] max-sm:font-['SFUIDisplay-Regular'] max-sm:text-[120px]">
+            RUBÉN
+          </div>
+          <div
+            class="titular gap-4 leading-[12rem] text-[200px] font-['SFUIDisplay-Regular'] font-bold tracking-tight flex flex-col items-center text-center justify-center max-[1930px]:text-[140px] max-[1470px]:text-[80px] max-sm:text-[60px] max-sm:font-['SFUIDisplay-Regular'] max-sm:gap-2 max-sm:leading-[0.25rem]">
+            MALDONADO
+          </div>
+        </div>
+      </div>-->
+
+        <div
+            class="banner flex max-[1920px]:pt-[120px] max-[1920px]:pb-[100px] pt-[280px] pb-[200px] text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[1920px]:px-28 max-sm:hidden">
+            <img class="banner_image max-[1920px]:w-[240px] w-[300px] h-full" src="/img/logorubenmal5.svg">
+
+
+        </div>
+
+
+
+        <div
+            class="banner hidden max-sm:px-8 max-sm:flex max-sm:pt-12 max-sm:pb-12 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
+            <img class="banner_image w-[140px] h-full" src="/img/logorubenmal5.svg">
+
+
+        </div>
+
+        <div class="grid opacity-40 grid-cols-3 px-32 max-sm:px-8 pt-2 max-[1920px]:pt-0 max-sm:grid-cols-1 ">
+
+            <div class="texto1 flex flex-col place-self-start self-end">
 
                 <div
-                    class="text max-w-[60ch] max-sm:text-start text-[16px] uppercase text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-start max-[1280px]:justify-start">
-                    FOTOGRAFÍAS - FEBRERO 2023 
-                    <br>
-                    ASIGNATURA FOTOGRAFÍA - ABSTRACCIÓN</div>
+                    class="text flex text-[40px] leading-[4rem] font-['PPE-UltralightItalic'] tracking-normal items-left max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center max-[1920px]:text-[36px]">
+                    Portfolio
+                    <img class="w-[12px] h-[12px]" src="/img/Copyright.svg">
+                </div>
+
                 <div
-                    class="text max-w-[80ch] pb-16 pt-0 max-sm:text-start max-sm:justify-start text-start font-['SFUIDisplay-Light'] text-[20px] text-white max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-start max-[1280px]:max-w-[100ch] max-[800px]:pb-4">
-                    Fotografías realizadas con temática de la revista Japonesa Provoke, los cuales utilizan mucho el
-                    grano en sus fotografías, el alto contraste, la subexposición y la sobrexposición, además de
-                    elementos abstractos o poco usuales. Fotografías realizadas con temática de la revista Japonesa
-                    Provoke, los cuales utilizan mucho el grano en sus fotografías, el alto contraste, la
-                    subexposición y la sobrexposición, además de elementos abstractos o poco usuales.
+                    class="text text-[14px] leading-[18px] font-['Neue'] tracking-normal flex flex-col items-left justify-self-start max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[14px] max-sm:leading-[1rem] max-sm:pb-4 max-sm:text-start max-[1920px]:text-[14px] max-[1920px]:leading-[16px]">
+
+                    <p class="font-['Neue']">[ r -- n ]</p>
+                    <p class="font-['Neue'] text-zinc-500">RUBÉN MALDONADO GONZÁLEZ</p>
+                    <p class="font-['Neue'] text-zinc-500">SEPTIEMBRE 2024</p>
+                </div>
+
+
+            </div>
+
+
+            <div class="texto2 hidden max-sm:flex gap-6 justify-between max-sm:pt-4">
+
+                <div
+                    class="text place-self-start text-[14px] text-left max-sm:text-[12px] max-sm:leading-[1rem] text-black leading-[18px] font-['Neue'] tracking-normal flex flex-col items-start justify-self-start max-3xl:text-[30px] max-sm:pt-2 max-sm:pb-4 max-[1920px]:leading-[14px]">
+                    <br>
+                    [ PACKAGING ]
+                    <br>
+                    [ EDITORIAL ]
+                    <br>
+                    [ MARCA ]
+                    <br>
+                    [ ILUSTRACIÓN ]
+                    <br>
+                    [ RENDER ]
+                    <br>
+                    [ AUDIOVISUALES ]
+                </div>
+
+                <div class="texto3 flex flex-col place-self-end max-sm:place-self-end max-sm:pt-0">
+
+                    <a href="#trabajos"
+                        class="text text-right text-[26px] uppercase font-['PPE-UltralightItalic'] tracking-normal flex flex-col items-left max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[18px] max-sm:leading-[1rem] max-sm:pb-0 max-sm:text-center max-[1920px]:text-[22px]">
+                        Trabajos.
+                    </a>
+
+
+                    <a href="#servicios"
+                        class="text text-right text-[26px] uppercase font-['PPE-UltralightItalic'] tracking-normal flex flex-col items-left max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[18px] max-sm:leading-[1rem] max-sm:pb-0 max-sm:text-center max-[1920px]:text-[22px]">
+                        Servicios.
+                    </a>
+                    <a href="#sobremi"
+                        class="text text-right text-[26px] uppercase font-['PPE-UltralightItalic'] tracking-normal flex flex-col items-left max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[18px] max-sm:leading-[1rem] max-sm:pb-0 max-sm:text-center max-[1920px]:text-[22px]">
+                        Sobre mi.
+                    </a>
+                    <a href="#tienda"
+                        class="text text-right text-[26px] uppercase font-['PPE-UltralightItalic'] tracking-normal flex flex-col items-left max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[18px] max-sm:leading-[1rem] max-sm:pb-4 max-sm:text-center max-[1920px]:text-[22px]">
+                        Tienda.
+                    </a>
+
+
 
                 </div>
 
+
             </div>
-        </div>
 
-        <a href="#inicio"
-      class="fixed max-sm:hidden mix-blend-exclusion bottom-0 right-0 transform -translate-y-1/2 text-[70px] z-50 uppercase font-bold text-white tracking-widest px-7 py-4 transition-all duration-300 ease-in-out hover:translate-y-[-7px]">
-      ↑
-    </a>
+            <div class="texto2 flex max-sm:hidden gap-6 justify-center self-end">
 
-        <div class="div1 max-sm:hidden pt-32 px-12 grid grid-cols-3 gap-[11px]">
+                <div
+                    class="text place-self-end text-[14px] max-sm:text-[12px] max-sm:leading-[1rem] text-black leading-[18px] font-['Neue'] tracking-normal flex flex-col items-left justify-self-start max-3xl:text-[30px] max-sm:pt-2 max-sm:pb-4 max-sm:text-center max-[1920px]:leading-[20px]">
+                    <a class="bg-[#CB2E5D] bg-opacity-10 hover:bg-opacity-100 text-[#252422] hover:text-[#F5F5F5] mb-1">&nbsp;[
+                        PACKAGING&nbsp;</a>
+                    <a class="bg-[#F59A37] bg-opacity-10 hover:bg-opacity-100 text-[#252422] hover:text-[#F5F5F5] mb-1">&nbsp;[
+                        EDITORIAL&nbsp;</a>
+                    <a class="bg-[#0449AF] bg-opacity-10 hover:bg-opacity-100 text-[#252422] hover:text-[#F5F5F5]">&nbsp;[
+                        MARCA&nbsp;</a>
+                </div>
 
-            <div class="text text-[14px] text-end uppercase text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
-            [ 01 ]</div>                
-            <div class="text max-w-[60ch] text-[14px] text-start invisible text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
-            FOTOGRAFÍAS - FEBRERO 2023 - ASIGNATURA FOTOGRAFÍA - ABSTRACCIÓN</div>                
-            <div class="text text-[14px] text-end uppercase text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
-            [ 02 ]</div>
-
-            <NuxtImg class="image_grid hover:scale-105 transition-transform duration-300" src="/img/provoke.jpg" alt="" />
-            <NuxtImg class="image_grid invisible" src="/img/provoke.jpg" alt="" />
-            <NuxtImg class="image_grid hover:scale-105 transition-transform duration-300" src="/img/provoke3.jpg" alt="" />
-
-            <div class="text max-w-[60ch] text-[14px] font-['Neue-Italic'] animate-pulse text-start uppercase text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
-            [ PUEBLO / PROVOKE ]</div>                
-            <div class="text max-w-[60ch] text-[14px] text-start invisible text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
-            FOTOGRAFÍAS - FEBRERO 2023 - ASIGNATURA FOTOGRAFÍA - ABSTRACCIÓN</div>                
-            <div class="text max-w-[60ch] text-[14px] font-['Neue-Italic'] animate-pulse text-start uppercase text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
-            [ REFLEJO / PROVOKE ]</div>
-
-            <div class="text text-[14px] pt-32 text-end invisible text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
-            [ 01 ]</div>                
-            <div class="text text-[14px] pt-32 text-end  text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
-                [ 03 ]</div>                
-            <div class="text text-[14px] pt-32 text-end invisible text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
-            [ 02 ]</div>
-
-            <NuxtImg class="image_grid rotate-90 invisible" src="/img/provoke.jpg" alt="" />
-            <NuxtImg class="image_grid hover:scale-105 transition-transform duration-300" src="/img/provoke2.jpg" alt="" />
-            <NuxtImg class="image_grid rotate-90 invisible" src="/img/provoke.jpg" alt="" />
-
-            <div class="text max-w-[60ch] text-[14px] invisible font-['Neue-Italic'] animate-pulse text-start uppercase text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
-            [ FOTOGRAFÍA / PROVOKE ]</div>                
-            <div class="text max-w-[60ch] text-[14px] font-['Neue-Italic'] animate-pulse text-start uppercase text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
-            [ ENFOQUE / PROVOKE ]</div>                  
-            <div class="text max-w-[60ch] text-[14px] invisible font-['Neue-Italic'] animate-pulse text-start uppercase text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
-            [ FOTOGRAFÍA / PROVOKE ]</div>
-
-            <div class="text text-[14px] pt-32 text-end invisible text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
-            [ 01 ]</div>                
-            <div class="text text-[14px] pt-32 text-end  text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
-                [ 04 ]</div>                
-            <div class="text text-[14px] pt-32 text-end  text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
-            [ 05 ]</div>
-
-            <NuxtImg class="image_grid invisible" src="/img/provoke4.jpg" alt="" />
-            <NuxtImg class="image_grid hover:scale-105 transition-transform duration-300" src="/img/provoke5.jpg" alt="" />
-            <NuxtImg class="image_grid hover:scale-105 transition-transform duration-300" src="/img/provoke6.jpg" alt="" />
-
-            <div class="text max-w-[60ch] text-[14px] invisible font-['Neue-Italic'] animate-pulse text-start uppercase text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
-            [ FOTOGRAFÍA / PROVOKE ]</div>                
-            <div class="text max-w-[60ch] text-[14px] font-['Neue-Italic'] animate-pulse text-start uppercase text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
-            [ NOCHE / PROVOKE ]</div>                  
-            <div class="text max-w-[60ch] text-[14px] font-['Neue-Italic'] animate-pulse text-start uppercase text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
-            [ ABSTRACTO / PROVOKE ]</div>
-
-            <div class="text text-[14px] pt-32 text-end text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
-            [ 06 ]</div>                
-            <div class="text text-[14px] pt-32 text-end invisible text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
-                [ 04 ]</div>                
-            <div class="text text-[14px] pt-32 text-end invisible text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
-            [ 05 ]</div>
-
-            <NuxtImg class="image_grid hover:scale-105 transition-transform duration-300" src="/img/provoke4.jpg" alt="" />
-            <NuxtImg class="image_grid invisible" src="/img/provoke7.jpg" alt="" />
-            <NuxtImg class="image_grid invisible" src="/img/provoke8.jpg" alt="" />
-
-            <div class="text text-[14px] pt-[11px] text-end text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
-            [ 07 ]</div>                
-            <div class="text text-[14px] pt-[11px] text-end invisible text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
-                [ 04 ]</div>                
-            <div class="text text-[14px] pt-[11px] text-end text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
-            [ 08 ]</div>
-            
-
-            <NuxtImg class="image_grid hover:scale-105 transition-transform duration-300" src="/img/provoke7.jpg" alt="" />
-            <NuxtImg class="image_grid invisible" src="/img/provoke8.jpg" alt="" />
-            <NuxtImg class="image_grid hover:scale-105 transition-transform duration-300" src="/img/provoke9.jpg" alt="" />
-
-            <div class="text max-w-[60ch] pt-[11px] text-[14px] font-['Neue-Italic'] animate-pulse text-start uppercase text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
-            [ HABITACIÓN / PROVOKE ]</div>                
-            <div class="text max-w-[60ch] pt-[11px] text-[14px] invisible font-['Neue-Italic'] animate-pulse text-start uppercase text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
-            [ FOTOGRAFÍA / PROVOKE ]</div>                  
-            <div class="text text-[14px] pt-[11px] text-end text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
-                [ 09 ]</div>
-
-            <NuxtImg class="image_grid invisible" src="/img/provoke8.jpg" alt="" />
-            <NuxtImg class="image_grid invisible" src="/img/provoke8.jpg" alt="" />
-            <NuxtImg class="image_grid hover:scale-105 transition-transform duration-300" src="/img/provoke8.jpg" alt="" />
-
-            <div class="text max-w-[60ch] pt-[11px] text-[14px] invisible font-['Neue-Italic'] animate-pulse text-start uppercase text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
-            [ FOTOGRAFÍA / PROVOKE ]</div>                
-            <div class="text max-w-[60ch] pt-[11px] text-[14px] invisible font-['Neue-Italic'] animate-pulse text-start uppercase text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
-            [ FOTOGRAFÍA / PROVOKE ]</div>                  
-            <div class="text max-w-[60ch] pt-[11px] text-[14px] font-['Neue-Italic'] animate-pulse text-start uppercase text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
-            [ VIRGEN / PROVOKE ]</div>  
-
-            <div class="text text-[14px] pt-[11px] text-end text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
-            [ 10 ]</div>                
-            <div class="text text-[14px] pt-[11px] text-end invisible text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
-                [ 04 ]</div>                
-            <div class="text text-[14px] pt-[11px] text-end invisible text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
-            [ 08 ]</div>
-
-            <NuxtImg class="image_grid hover:scale-105 transition-transform duration-300" src="/img/provoke10.jpg" alt="" />
-            <NuxtImg class="image_grid invisible" src="/img/provoke11.jpg" alt="" />
-            <NuxtImg class="image_grid invisible" src="/img/provoke12.jpg" alt="" />
-
-            <div class="text max-w-[60ch] pt-[11px] text-[14px] font-['Neue-Italic'] animate-pulse text-start uppercase text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
-            [ LUCES ABSTRACTAS / PROVOKE ]</div>                
-            <div class="text max-w-[60ch] pt-[11px] text-[14px] invisible font-['Neue-Italic'] animate-pulse text-start uppercase text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
-            [ FOTOGRAFÍA / PROVOKE ]</div>                  
-            <div class="text max-w-[60ch] pt-[11px] text-[14px] invisible font-['Neue-Italic'] animate-pulse text-start uppercase text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
-            [ FOTOGRAFÍA / PROVOKE ]</div>  
-
-            <div class="text  text-[14px] pt-[11px] text-end invisible text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
-            [ 11 ]</div>                
-            <div class="text pr-12 text-[14px] pt-[11px] text-end text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
-                [ 11 ]</div>                
-            <div class="text pl-12 text-[14px] pt-[11px] text-end text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
-            [ 12 ]</div>
-
-            <NuxtImg class="image_grid pr-12 invisible" src="/img/provoke12.jpg" alt="" />
-            <NuxtImg class="image_grid hover:scale-105 transition-transform duration-300 pr-12" src="/img/provoke11.jpg" alt="" />
-            <NuxtImg class="image_grid hover:scale-105 transition-transform duration-300 pl-12" src="/img/provoke12.jpg" alt="" />
-
-            <div class="text max-w-[60ch] pt-[11px] text-[14px] invisible font-['Neue-Italic'] animate-pulse text-start uppercase text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
-            [ FOTOGRAFÍA / PROVOKE ]</div>                
-            <div class="text max-w-[60ch] pr-12 pt-[11px] text-[14px] font-['Neue-Italic'] animate-pulse text-start uppercase text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
-            [ HERMANO / PROVOKE ]</div>                  
-            <div class="text max-w-[60ch] pl-12 pt-[11px] text-[14px] font-['Neue-Italic'] animate-pulse text-start uppercase text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
-            [ HERMANO / PROVOKE ]</div>  
-
-        </div>
+                <div
+                    class="text text-[14px] max-sm:text-[12px] max-sm:leading-[1rem] text-black leading-[18px] font-['Neue'] tracking-normal flex flex-col items-left justify-self-start max-3xl:text-[30px] max-sm:pt-2 max-sm:pb-4 max-sm:text-center max-[1920px]:leading-[20px]">
+                    <a class="bg-[#CB2E5D] bg-opacity-10 hover:bg-opacity-100 text-[#252422] hover:text-[#F5F5F5] mb-1">&nbsp;ILUSTRACIÓN
+                        ]&nbsp;</a>
+                    <a class="bg-[#F59A37] bg-opacity-10 hover:bg-opacity-100 text-[#252422] hover:text-[#F5F5F5] mb-1">&nbsp;RENDER
+                        ]&nbsp;</a>
+                    <a class="bg-[#0449AF] bg-opacity-10 hover:bg-opacity-100 text-[#252422] hover:text-[#F5F5F5]">&nbsp;AUDIOVISUALES
+                        ]&nbsp;</a>
+                </div>
 
 
-
-
-    <div class="max-sm:grid max-sm:gap-4 max-sm:grid-cols-1 max-sm:pb-12 max-sm:px-4 hidden">
-
-        <div class="text text-[14px] pt-2 text-end text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-end max-[1280px]:justify-end">
-            [ 01 ]</div>   
-        <NuxtImg class="image_grid " src="/img/provoke.jpg" alt="" /> 
-        <div class="text text-[14px] pt-2 text-end text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-end max-[1280px]:justify-end">
-            [ 02 ]</div>   
-        <NuxtImg class="image_grid " src="/img/provoke2.jpg" alt="" />
-        <div class="text text-[14px] pt-2 text-end text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-end max-[1280px]:justify-end">
-            [ 03 ]</div>   
-        <NuxtImg class="image_grid " src="/img/provoke3.jpg" alt="" />
-        <div class="text text-[14px] pt-2 text-end text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-end max-[1280px]:justify-end">
-            [ 04 ]</div>   
-        <NuxtImg class="image_grid " src="/img/provoke4.jpg" alt="" />
-        <div class="text text-[14px] pt-2 text-end text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-end max-[1280px]:justify-end">
-            [ 05 ]</div>   
-        <NuxtImg class="image_grid " src="/img/provoke5.jpg" alt="" />
-        <div class="text text-[14px] pt-2 text-end text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-end max-[1280px]:justify-end">
-            [ 06 ]</div>   
-        <NuxtImg class="image_grid " src="/img/provoke6.jpg" alt="" />
-        <div class="text text-[14px] pt-2 text-end text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-end max-[1280px]:justify-end">
-            [ 07 ]</div>   
-        <NuxtImg class="image_grid " src="/img/provoke7.jpg" alt="" />
-        <div class="text text-[14px] pt-2 text-end text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-end max-[1280px]:justify-end">
-            [ 08 ]</div>   
-        <NuxtImg class="image_grid " src="/img/provoke8.jpg" alt="" />
-        <div class="text text-[14px] pt-2 text-end text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-end max-[1280px]:justify-end">
-            [ 09 ]</div>   
-        <NuxtImg class="image_grid " src="/img/provoke9.jpg" alt="" />
-        <div class="text text-[14px] pt-2 text-end text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-end max-[1280px]:justify-end">
-            [ 10 ]</div>   
-        <NuxtImg class="image_grid " src="/img/provoke10.jpg" alt="" />
-        <div class="text text-[14px] pt-2 text-end text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-end max-[1280px]:justify-end">
-            [ 11 ]</div>   
-        <NuxtImg class="image_grid " src="/img/provoke11.jpg" alt="" />
-        <div class="text text-[14px] pt-2 text-end text-white max-xl:leading-2 max-xl:text-xs max-[1280px]:text-end max-[1280px]:justify-end">
-            [ 12 ]</div>   
-        <NuxtImg class="image_grid " src="/img/provoke12.jpg" alt="" />
-
-
-
-    </div>
-
-
-    <div
-        class="trabajos flex pt-64 pl-40 pr-40 pb-20 text-zinc-300 flex-col gap-10 justify-center items-center max-xl:pt-12 max-xl:pb-2 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
-        <div class="titular text-[16px] font-normal flex flex-start items-center max-xl:text-xs">Programas
-            utilizados
-            para este
-            proyecto</div>
-        <div class="programas flex flex-col items-center">
-            <div class="three_programas flex gap-10">
-                <img class="image_logo w-[40px] opacity-100 hover:opacity-60 max-xl:max-w-[30px]"
-                    src="/img/Lightroom.svg" alt="">
-                <img class="image_logo w-[40px] opacity-100 hover:opacity-60 max-xl:max-w-[30px]"
-                    src="/img/Photoshop.svg" alt="">
             </div>
-        </div>
-    </div>
 
-    <div
-        class="links_rrss font-['SFUIDisplay-Light'] leading-6 pt-32 px-64 pb-32 text-white justify-center flex flex-row gap-60 max-xl:pt-20 max-xl:px-10 max-xl:flex-col max-xl:justify-items-center max-xl:gap-20 max-xl:flex max-xl:justify-center max-xl:pb-20 max-[1500px]:px-32 ">
-        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado."
-            target="_blank" class="email text-lg flex gap-2 items-center max-xl:text-[14px] max-xl:justify-center">
-            ruben.maldonado.graphic@gmail.com
-            <img class="vector" src="/img/Vector-11white.svg">
-        </a>
-        <div class="links flex flex-col gap-2 text-white">
-            <div class="links1 flex gap-32 max-xl:justify-center">
-                <a class="red flex gap-2 items-center max-xl:text-[14px]"
-                    href="https://www.instagram.com/maldonadoruben_/">Instagram
-                    <img class="vector" src="/img/Vector-11white.svg">
+            <div class="texto3 flex flex-col place-self-end max-sm:place-self-end max-sm:pt-0 max-sm:hidden">
+
+                <a href="#sobremi"
+                    class="text text-right hover:text-zinc-400 decoration-1 underline-offset-4 decoration-slate-500 underline text-[22px] uppercase leading-[30px] font-['PPE-UltralightItalic'] tracking-normal flex flex-col items-left max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[18px] max-sm:leading-[1rem] max-sm:pb-4 max-sm:text-center max-[1920px]:text-[22px]">
+                    > Sobre mi.
                 </a>
-                <a class="red flex gap-2 items-center max-xl:text-[14px]"
-                    href="https://www.behance.net/rubenartes">Behance
-                    <img class="vector" src="/img/Vector-11white.svg">
+                <a href="#trabajos"
+                    class="text text-right hover:text-zinc-400 decoration-1 underline-offset-4 decoration-slate-500 underline text-[22px] uppercase leading-[30px] font-['PPE-UltralightItalic'] tracking-normal flex flex-col items-left max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[18px] max-sm:leading-[1rem] max-sm:pb-4 max-sm:text-center max-[1920px]:text-[22px]">
+                    > Trabajos.
                 </a>
-            </div>
-            <div class="links2 flex gap-32 flex-end max-xl:justify-center">
-                <a class="red flex gap-2 items-center max-xl:text-[14px]"
-                    href="https://www.instagram.com/ruben.iso">Instagram
-                    <img class="vector" src="/img/Vector-11white.svg">
 
-                </a> <a class="red flex gap-2 items-center max-xl:text-[14px]"
-                    href="https://www.linkedin.com/in/rubenmaldonado00">LinkedIn
-                    <img class="vector" src="/img/Vector-11white.svg">
+
+                <a href="#servicios"
+                    class="text text-right hover:text-zinc-400 decoration-1 underline-offset-4 decoration-slate-500 underline text-[22px] uppercase leading-[30px] font-['PPE-UltralightItalic'] tracking-normal flex flex-col items-left max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[18px] max-sm:leading-[1rem] max-sm:pb-4 max-sm:text-center max-[1920px]:text-[22px]">
+                    > Servicios.
+                </a>
+                <a href="#tienda"
+                    class="text text-right hover:text-zinc-400 decoration-1 underline-offset-4 decoration-slate-500 underline text-[22px] uppercase leading-[30px] font-['PPE-UltralightItalic'] tracking-normal flex flex-col items-left max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[18px] max-sm:leading-[1rem] max-sm:pb-4 max-sm:text-center max-[1920px]:text-[22px]">
+                    > Tienda.
                 </a>
             </div>
         </div>
-
-    </div>
-
-    <div class="foter bg-black p-10 flex text-white justify-between sticky top-0 max-xl:p-6">
-        <div class="foter_image flex flex-start">
-            <NuxtLink to="/">
-                <img class="vector max-xl:max-w-[15px]" src="/img/star.svg">
-            </NuxtLink>
-        </div>
-        <div class="email flex gap-2 items-center text-sm max-xl:text-xs">Ruben Maldonado González
-            <NuxtLink to="/">
-                <img class="vector max-xl:max-w-[15px]" src="/img/futbol.svg">
-            </NuxtLink>
-        </div>
-    </div>
-
     </div>
 </template>
 
