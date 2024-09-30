@@ -1366,60 +1366,60 @@
         <div class="flex flex-col gap-1 text-right justify-left">
           <div
             class="grid grid-flow-cols grid-cols-1 gap-1 justify-beetwen text-center max-sm:grid-cols-3 max-sm:text-[12px]">
-            <a href="https://www.instagram.com/olme.ttoo" class="text-white py-1 text-left">
+            <a href="https://www.instagram.com/olme.ttoo" class="text-black py-1 text-left">
               @olme.ttoo</a>
-            <a href="https://www.instagram.com/felixhdraw" class="text-white py-1 text-left">
+            <a href="https://www.instagram.com/felixhdraw" class="text-black py-1 text-left">
               @felixhdraw</a>
-            <a href="https://www.instagram.com/kombo_oficial" class="text-white py-1 text-left">
+            <a href="https://www.instagram.com/kombo_oficial" class="text-black py-1 text-left">
               @kombo_oficial</a>
           </div>
 
           <div
             class="grid grid-flow-cols grid-cols-1 gap-1 justify-beetwen text-center max-sm:grid-cols-3 max-sm:text-[12px]">
-            <a href="https://www.instagram.com/cat.arsys" class="text-white py-1 text-left">
+            <a href="https://www.instagram.com/cat.arsys" class="text-black py-1 text-left">
               @cat.arsys</a>
-            <a href="https://www.instagram.com/carolina.jing" class="text-white py-1 text-left">
+            <a href="https://www.instagram.com/carolina.jing" class="text-black py-1 text-left">
               @carolina.jing</a>
             <a href="https://historia-arte.com/autores/alvaro-garcia-moreno?fbclid=PAZXh0bgNhZW0CMTEAAaZXhzJaO518coe4d0wbABrUM9cD97VABeVEthtpD8VFEtl-2QtME1bEkbE_aem_LSvS6AW-QbcQvWoqpau77g"
-              class="text-white py-1 text-left">
+              class="text-black py-1 text-left">
               @agarciamorenoo</a>
           </div>
 
 
           <div
             class="grid grid-flow-cols grid-cols-1 gap-1 justify-beetwen text-center max-sm:grid-cols-3 max-sm:text-[12px]">
-            <a href="https://www.instagram.com/crearual" class="text-white py-1 text-left">
+            <a href="https://www.instagram.com/crearual" class="text-black py-1 text-left">
               @crearual</a>
-            <a href="https://www.instagram.com/sof_dob_" class="text-white py-1 text-left">
+            <a href="https://www.instagram.com/sof_dob_" class="text-black py-1 text-left">
               @sof_dob_</a>
-            <a href="https://www.instagram.com/cosso.portfolio" class="text-white py-1 text-left">
+            <a href="https://www.instagram.com/cosso.portfolio" class="text-black py-1 text-left">
               @cosso.portfolio</a>
           </div>
 
           <div
             class="grid grid-flow-cols grid-cols-1 gap-1 justify-beetwen text-center max-sm:grid-cols-3 max-sm:text-[12px]">
-            <a href="https://www.instagram.com/moniecos" class="text-white py-1 text-left">
+            <a href="https://www.instagram.com/moniecos" class="text-black py-1 text-left">
               @moniecos</a>
-            <a href="https://www.instagram.com/ghonz.art" class="text-white py-1 text-left">
+            <a href="https://www.instagram.com/ghonz.art" class="text-black py-1 text-left">
               @ghonz.art</a>
-            <a href="https://www.instagram.com/conejitasmith7" class="text-white py-1 text-left">
+            <a href="https://www.instagram.com/conejitasmith7" class="text-black py-1 text-left">
               @conejitasmith7</a>
 
           </div>
 
           <div
             class="grid grid-flow-cols grid-cols-1 gap-1 justify-beetwen text-center max-sm:grid-cols-3 max-sm:text-[12px]">
-            <a href="https://www.instagram.com/intensazc" class="text-white py-1 text-left">
+            <a href="https://www.instagram.com/intensazc" class="text-black py-1 text-left">
               @intensazc</a>
-            <a href="https://www.instagram.com/bupeart" class="text-white py-1 text-left">
+            <a href="https://www.instagram.com/bupeart" class="text-black py-1 text-left">
               @bupeart</a>
-            <a href="https://www.instagram.com/iam_sharkastic" class="text-white py-1 text-left">
+            <a href="https://www.instagram.com/iam_sharkastic" class="text-black py-1 text-left">
               @iam_sharkastic</a>
           </div>
 
           <div
             class="grid grid-flow-cols grid-cols-1 gap-1 justify-center text-center max-sm:grid-cols-3 max-sm:text-[12px]">
-            <a href="https://www.instagram.com/_anagraphic" class="text-white py-1 text-left">
+            <a href="https://www.instagram.com/_anagraphic" class="text-black py-1 text-left">
               @_anagraphic</a>
           </div>
         </div>
