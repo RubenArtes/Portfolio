@@ -107,7 +107,7 @@
 
         <div
           class="text text-[14px] leading-[18px] font-['Neue'] tracking-normal flex flex-col items-left justify-self-start max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[14px] max-sm:leading-[1rem] max-sm:pb-4 max-sm:text-start max-[1920px]:text-[14px] max-[1920px]:leading-[16px]">
-          
+
           <p class="font-['Neue']">[ r -- n ]</p>
           <p class="font-['Neue'] text-zinc-500">RUBÉN MALDONADO GONZÁLEZ</p>
           <p class="font-['Neue'] text-zinc-500">SEPTIEMBRE 2024</p>
@@ -167,16 +167,22 @@
 
         <div
           class="text place-self-end text-[14px] max-sm:text-[12px] max-sm:leading-[1rem] text-black leading-[18px] font-['Neue'] tracking-normal flex flex-col items-left justify-self-start max-3xl:text-[30px] max-sm:pt-2 max-sm:pb-4 max-sm:text-center max-[1920px]:leading-[20px]">
-          <a class="bg-[#CB2E5D] bg-opacity-10 hover:bg-opacity-100 text-[#252422] hover:text-[#F5F5F5] mb-1">&nbsp;[ PACKAGING&nbsp;</a>
-          <a class="bg-[#F59A37] bg-opacity-10 hover:bg-opacity-100 text-[#252422] hover:text-[#F5F5F5] mb-1">&nbsp;[ EDITORIAL&nbsp;</a>
-          <a class="bg-[#0449AF] bg-opacity-10 hover:bg-opacity-100 text-[#252422] hover:text-[#F5F5F5]">&nbsp;[ MARCA&nbsp;</a>
+          <a class="bg-[#CB2E5D] bg-opacity-10 hover:bg-opacity-100 text-[#252422] hover:text-[#F5F5F5] mb-1">&nbsp;[
+            PACKAGING&nbsp;</a>
+          <a class="bg-[#F59A37] bg-opacity-10 hover:bg-opacity-100 text-[#252422] hover:text-[#F5F5F5] mb-1">&nbsp;[
+            EDITORIAL&nbsp;</a>
+          <a class="bg-[#0449AF] bg-opacity-10 hover:bg-opacity-100 text-[#252422] hover:text-[#F5F5F5]">&nbsp;[
+            MARCA&nbsp;</a>
         </div>
 
         <div
           class="text text-[14px] max-sm:text-[12px] max-sm:leading-[1rem] text-black leading-[18px] font-['Neue'] tracking-normal flex flex-col items-left justify-self-start max-3xl:text-[30px] max-sm:pt-2 max-sm:pb-4 max-sm:text-center max-[1920px]:leading-[20px]">
-          <a class="bg-[#CB2E5D] bg-opacity-10 hover:bg-opacity-100 text-[#252422] hover:text-[#F5F5F5] mb-1">&nbsp;ILUSTRACIÓN ]&nbsp;</a>
-          <a class="bg-[#F59A37] bg-opacity-10 hover:bg-opacity-100 text-[#252422] hover:text-[#F5F5F5] mb-1">&nbsp;RENDER ]&nbsp;</a>
-          <a class="bg-[#0449AF] bg-opacity-10 hover:bg-opacity-100 text-[#252422] hover:text-[#F5F5F5]">&nbsp;AUDIOVISUALES ]&nbsp;</a>
+          <a class="bg-[#CB2E5D] bg-opacity-10 hover:bg-opacity-100 text-[#252422] hover:text-[#F5F5F5] mb-1">&nbsp;ILUSTRACIÓN
+            ]&nbsp;</a>
+          <a class="bg-[#F59A37] bg-opacity-10 hover:bg-opacity-100 text-[#252422] hover:text-[#F5F5F5] mb-1">&nbsp;RENDER
+            ]&nbsp;</a>
+          <a class="bg-[#0449AF] bg-opacity-10 hover:bg-opacity-100 text-[#252422] hover:text-[#F5F5F5]">&nbsp;AUDIOVISUALES
+            ]&nbsp;</a>
         </div>
 
 
@@ -1013,8 +1019,9 @@
     </div>
 
     <div id="sobremi" class="pb-14"></div>
+
     <div data-aos="fade-up" data-aos-duration="2000"
-      class="trabajos flex pt-32 pl-40 pr-40 pb-40 text-black flex-nowrap gap-60 justify-center max-lg:pt-20 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20">
+      class="trabajos hidden pt-32 pl-40 pr-40 pb-40 text-black flex-nowrap gap-60 justify-center max-lg:pt-20 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20">
       <div class="sticky_menu">
         <div
           class="titular flex flex-col leading-[80px] text-[72px] max-[1500px]:text-[60px] font-normal sticky top-[10rem] max-lg:text-[60px] font-['PPE-Ultralight']">
@@ -1064,10 +1071,119 @@
 
     </div>
 
+    <div data-aos="fade-up" data-aos-duration="2000"
+      class="trabajos max-sm:grid-cols-1 max-[1500px]:gap-16 max-[1500px]:pl-16 max-[1500px]:pr-12 max-[1920px]:pl-24 max-[1920px]:pl-12 max-[1920px]:gap-24 grid grid-cols-3 pt-32 px-20 pb-40 text-black flex-nowrap gap-20 justify-center max-lg:pt-20 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20">
+      <div class="sticky_menu">
+        <div
+          class="titular max-sm:text-[50px] flex flex-col leading-[60px] text-[60px] max-sm:pl-0 max-sm:leading-[59px] pl-12 max-[1500px]:pl-6 max-[1500px]:text-[60px] font-normal max-lg:text-[60px] font-['PPE-Ultralight']">
+          RUBÉN
+          <br>
+          MALDONADO
 
+        </div>
+
+        <div class="pt-24 max-sm:pt-12 max-[1920px]:pt-32">
+          <img class="img shadow-xl" src="/img/gifyo.gif" alt="" />
+          <div class="text pt-4 flex justify-end font-bold font-['SFUIDisplay-Light'] text-[12px] text-zinc-900">
+            YO_PRIMERO_FINAL_PRUEBA_CAMBIOS.jpg</div>
+        </div>
+
+
+      </div>
+      <div
+        class="text justify-self-center pt-[215px] max-[1920px]:pt-[240px] max-sm:pt-6 max-w-[60ch] flex flex-col gap-6 justify-between font-normal font-['SFUIDisplay-Regular'] text-[16px] max-sm:text-[15px] text-zinc-900">
+        <div
+          class="text max-w-[60ch] font-normal font-['SFUIDisplay-Regular'] text-[16px] max-sm:text-[15px] text-zinc-900">
+          DISEÑADOR / ILUSTRADOR / FOTOGRAFO
+          <br>
+          <br>
+          <a
+            class="text max-w-[60ch] font-normal leading-[24px] text-[16px] flex flex-col gap-32 max-sm:text-[15px] text-black">
+            Soy un estudiante de 23 años, actualmente terminando un grado
+            Universitario de Diseño Gráfico en la Escuela Superior De Diseño de
+            Madrid. Cuento con un Grado Superior de Ilustración realizado en la Escuela de Artes de Toledo
+            <br> <br>
+            Soy muy polifacetico, "currante" y "todoterreno" no me cierro a ninguna vía del diseño, suelo
+            abarcar todos los ambitos, como ya he mostrado anteriormente. Soy
+            resolutivo y me gusta trabajar bajo presión.
+            <br>
+            <br>
+            Soy un gran aficionado de las películas (sobretodo de las que te dejan pensando durante un rato), del futbol
+            y el
+            deporte en general. No podría vivir sin "Trueno" el diminuto
+            blanco que podeis ver en la foto. Adoro la música electrónica y el pop inglés (2000s - 2010s).
+          </a>
+          <div
+            class="email pt-32 text-zinc-400 animate-pulse max-sm:hidden flex gap-2 items-left text-[10px] justify-left text-sm max-lg:text-xs">
+            Rubén Maldonado 2024 | Copyright ©</div>
+        </div>
+        <NuxtLink to="/Marca">
+          <div class=" text-red-400 underline justify-self-end">[ MI MARCA ]</div>
+
+        </NuxtLink>
+      </div>
+      <div
+        class="servicios_ofrecidos max-sm:pt-6 max-sm:justify-self-start flex flex-col gap-6 pt-[215px] max-[1920px]:pt-[240px] max-[1500px]:justify-self-center justify-between">
+
+        <div
+          class="text max-w-[60ch] font-['SFUIDisplay-Regular'] font-normal text-[16px] leading-5 max-sm:text-[15px] text-zinc-900">
+          SELECCIÓN PERSONAL DE
+          <br>
+          MIS MEJORES PROYECTOS
+          <br>
+          <br>
+
+          <div class="links text-zinc-400 font-['SFUIDisplay-Light'] text-[12px]">
+            <a href="https://rubenmaldonado.es/CajaOporto"
+              class="text max-w-[60ch] hover:text-[14.25px] transition-transform delay-600 font-normal text-[14px] max-sm:text-[14px] animate-pulse text-zinc-400 underline">
+              [ CAJA OPORTO ]</a> >
+            <br>
+            <a href="https://rubenmaldonado.es/Matutano"
+              class="text max-w-[60ch] hover:text-[14.25px] transition-transform delay-600 font-normal text-[14px] max-sm:text-[14px] animate-pulse text-zinc-400 underline">
+              [ MATUTANO SALUDABLE ]</a> >
+            <br>
+            <a href="https://rubenmaldonado.es/Movistar"
+              class="text max-w-[60ch] hover:text-[14.25px] transition-transform delay-600 font-normal text-[14px] max-sm:text-[14px] animate-pulse text-zinc-400 underline">
+              [ MOVISTAR + ]</a> >
+            <br>
+            <a href="https://rubenmaldonado.es/Member"
+              class="text max-w-[60ch] hover:text-[14.25px] transition-transform delay-600 font-normal text-[14px] max-sm:text-[14px] animate-pulse text-zinc-400 underline">
+              [ ASISTENTE MEMBER ]</a> >
+          </div>
+
+        </div>
+
+
+        <div class="text grid grid-cols-2 max-[1920px]:grid-cols-1 font-['SFUIDisplay-Regular']">
+          COLABORACIONES / PROYECTOS
+
+          <div class="text grid grid-cols-2 max-[1920px]:grid-cols-1 max-[1920px]:pt-6">
+            <a href="https://faux-noticiario.netlify.app" target="_blank"
+              class="text max-w-[60ch] text-zinc-400 hover:text-[14.25px] transition-transform delay-600 font-normal text-[14px] max-sm:text-[14px] animate-pulse underline">
+              [ PROYECTO FAUX ]</a>
+            <a href="https://www.barbaraibanez.com/yelmocines2" target="_blank"
+              class="text max-w-[60ch] text-zinc-400 hover:text-[14.25px] transition-transform delay-600 font-normal text-[14px] max-sm:text-[14px] animate-pulse underline">
+              [ YELMO CINES ]</a>
+            <a href="https://www.instagram.com/newteam_cf" target="_blank"
+              class="text max-w-[60ch] text-zinc-400 hover:text-[14.25px] transition-transform delay-600 font-normal text-[14px] max-sm:text-[14px] animate-pulse underline">
+              [ NEW TEAM ]</a>
+
+          </div>
+
+        </div>
+
+        <div class="text grid grid-cols-2">
+          <a href="https://music.apple.com/es/playlist/playlist-n%C2%BA-1/pl.u-8aAVZyluv8K48qD" target="_blank"
+            class="text max-w-[60ch] hover:text-[15.25px] transition-transform delay-600 font-normal text-[16px] max-sm:text-[15px] animate-pulse underline">
+            [ MI PLAYLIST ]</a>
+        </div>
+
+      </div>
+
+    </div>
 
     <div
-      class="trabajos flex pt-32 max-sm:pt-2 pl-40 pr-40 pb-20 border-t-0 border-r-0 border-l-0 text-black flex-nowrap gap-60 justify-center max-lg:pt-20 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20">
+      class="trabajos max-sm:hidden grid grid-cols-3 pt-32 max-sm:pt-2 pl-40 pr-40 pb-20 border-t-0 border-r-0 border-l-0 text-black flex-nowrap gap-60 justify-center max-lg:pt-20 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20">
       <div class="sticky_menu">
         <div data-aos="fade-up" data-aos-duration="2000"
           class="titular flex flex-col text-[72px] font-normal sticky top-[9rem] max-lg:text-[60px] font-['PPE-Ultralight']">
@@ -1114,7 +1230,86 @@
     </div>
 
     <div
-      class="trabajos flex pt-32 pl-40 pr-40 pb-40 text-black flex-nowrap gap-60 justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20">
+      class="trabajos max-sm:hidden grid grid-cols-3 pt-32 pl-40 pr-40 pb-40 text-black flex-nowrap gap-60 justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20">
+      <div class="sticky_menu">
+        <div data-aos="fade-up" data-aos-duration="2000"
+          class="titular flex flex-col text-[72px] font-normal sticky top-[9rem] max-lg:text-[60px] font-['PPE-Ultralight']">
+          ESTUDIOS
+        </div>
+      </div>
+      <div data-aos="fade-up" data-aos-duration="2000" class="servicios_ofrecidos flex flex-col gap-6 pt-2">
+        <div class="servicio flex flex-col gap-6">
+          <div class="text max-w-[60ch] font-normal text-[16px] max-sm:text-[15px] text-zinc-600 font-['Neue']">
+            <a class="bold text-black font-['Neue']">
+              → Bachillerato Artístico
+            </a>
+            en IES El Greco Toledo. <br />
+            <a class="bold text-black font-['Neue']">
+              → Grado Superior de Ilustración
+              en la Escuela de Artes de Toledo.</a> <br /><a class="bold text-black font-['Neue']">
+              → 4º de Grado Universitario de Diseño Gráfico
+            </a>
+            en la Escuela Superior de Diseño de Madrid. <br /><a class="bold text-black font-['Neue']">
+              → Curso extracurricular de 2 años de Arte y Pintura
+            </a>
+            en Villaluenga de la Sagra. <br /><a class="bold text-black font-['Neue']">
+              → Cursos de Domestika:</a>
+            "Ilustración Digital con Procreate", "Ilustración Digital aplicada a
+            productos", "Introducción al lettering con Procreate".
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="trabajos hidden max-sm:flex pt-32 max-sm:pt-2 pl-40 pr-40 pb-20 border-t-0 border-r-0 border-l-0 text-black flex-nowrap gap-60 justify-center max-lg:pt-20 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20">
+      <div class="sticky_menu">
+        <div data-aos="fade-up" data-aos-duration="2000"
+          class="titular flex flex-col text-[72px] font-normal sticky top-[9rem] max-lg:text-[60px] font-['PPE-Ultralight']">
+          TRABAJOS
+        </div>
+      </div>
+      <div data-aos="fade-up" data-aos-duration="2000" class="servicios_ofrecidos flex flex-col gap-6 pt-2">
+        <div class="servicio flex flex-col gap-6 font-['Neue']">
+          <div class="text max-w-[60ch] font-normal text-[16px] max-sm:text-[15px]">
+            → Ganador de concurso de carteles para
+            <a href="https://rubenmaldonado.es/Ilustraciones#carteles"
+              class="bold font-['Neue'] text-red-400 underline">Villaluenga de la Sagra</a>
+            <br />
+            → Creación de cartelería para página web y físico y creación de
+            pictogramas para empresa
+            <a class="bold font-['Neue'] text-black">Neumáticos por Poco.</a>
+            <a class="bold text-xs text-black">- (6 meses)</a> <br />
+            → Renovación y creación de marca para la empresa
+            <a class="bold font-['Neue'] text-black">Motor 76.</a>
+            <a class="bold text-xs text-black">- (1 mes)</a> <br />
+            → Creación de ilustraciones para portadas de noticias en
+            <a class="bold font-['Neue'] text-black">Ecos Castilla La Mancha.</a>
+            <a class="bold text-xs text-black"><br>(2 meses)</a> <br />
+            → Diseño de portadas para proyecto musical. <br />
+            → Encargos Freelance de sesiones fotográficas, diseño de tatuajes e
+            ilustraciones personales.
+            <a class="bold text-xs text-black">- (4 años)</a> <br />
+            → Diseñador Freelance por horas para empresas.
+            <a class="bold text-xs text-black">- (2 meses)</a> <br />
+            → Trabajo en practicas de empresa extracurriculares
+            <a class="bold animate-pulse font-['Neue'] text-black" href="https://www.garridogallery.com/">Garrido
+              Gallery</a>
+            (Empresa de diseños y piezas de arte de lujo)<a class="bold text-xs text-black">- (9 meses)</a>
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="text-red-400 underline"
+              href="https://rubenmaldonado.es/GarridoGallery#catalogo"> →
+              Maquetación e impresión del Catalogo 2024</a>
+            <br>
+            → Actualmente trabajando de practicas en <a href="https://www.prodigiosovolcan.com/"
+              class="bold font-['Neue'] text-red-400 underline">Prodigioso Volcán</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="trabajos hidden max-sm:flex pt-32 pl-40 pr-40 pb-40 text-black flex-nowrap gap-60 justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20">
       <div class="sticky_menu">
         <div data-aos="fade-up" data-aos-duration="2000"
           class="titular flex flex-col text-[72px] font-normal sticky top-[9rem] max-lg:text-[60px] font-['PPE-Ultralight']">
@@ -1160,7 +1355,8 @@
     <div
       class="hidden max-sm:grid grid-flow-cols border-0 border-b-0 border-none grid-cols-4 max-[1920px]:grid-cols-3 text-center max-[1450px]:grid-cols-2 animate-pulse max-[1930px]:grid-cols-3 max-sm:grid-cols-1">
 
-      <div class=" bg-red-700 text-white justify-center content-center font-['Neue'] text-[10px]">NUEVO CONTENIDO - NUEVO
+      <div class=" bg-red-700 text-white justify-center content-center font-['Neue'] text-[10px]">NUEVO CONTENIDO -
+        NUEVO
         CONTENIDO -
         NUEVO CONTENIDO
       </div>
@@ -1168,7 +1364,7 @@
     <div id="tienda" class="pb-14"></div>
 
     <div
-      class="trabajos flex pt-32 pl-40 pr-40 pb-12 bg-white text-black flex-nowrap gap-[340px] justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-6 max-sm:pb-12 max-sm:pt-24 border-black">
+      class="trabajos flex pt-32 pl-40 pr-40 pb-12 bg-white text-black flex-nowrap gap-[540px] justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-6 max-sm:pb-12 max-sm:pt-24 border-black">
       <div class="sticky_menu">
         <div
           class="titular flex flex-col text-[72px] font-normal sticky top-[9rem] max-lg:text-[60px] font-['PPE-Ultralight']">
@@ -1185,7 +1381,8 @@
             para comprar los podructos
             es necesario contactar vía <a
               href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado."
-              target="_blank" class="text-red-400 underline animate-pulse font-['Neue-Italic']">EMAIL</a> o contactandome
+              target="_blank" class="text-red-400 underline animate-pulse font-['Neue-Italic']">EMAIL</a> o
+            contactandome
             personalmente)
 
 
@@ -1194,47 +1391,63 @@
       </div>
 
     </div>
-    <div class="grid grid-cols-2 pt-32 px-72 bg-white max-[1500px]:gap-46 max-[1500px]:px-32 max-sm:px-4 max-sm:grid-cols-1 max-sm:pt-12 max-sm:gap-8">
-      <div class="titular text-center max-sm:text-left text-black flex flex-col text-[62px] uppercase font-normal sticky top-[9rem] max-lg:text-[50px] max-sm:px-6 font-['PPE-Ultralight']">
-        Pack Oporto<a class="font-['PPE-UltralightItalic'] text-[30px] leading-3 max-sm:leading-4 max-sm:text-[30px] normal-case">Tirada 2/2</a>
+    <div
+      class="grid grid-cols-2 pt-32 px-72 bg-white max-[1500px]:gap-46 max-[1500px]:px-32 max-sm:px-4 max-sm:grid-cols-1 max-sm:pt-12 max-sm:gap-8">
+      <div
+        class="titular text-center max-sm:text-left text-black flex flex-col text-[62px] uppercase font-normal sticky top-[9rem] max-lg:text-[50px] max-sm:px-6 font-['PPE-Ultralight']">
+        Pack Oporto<a
+          class="font-['PPE-UltralightItalic'] text-[30px] leading-3 max-sm:leading-4 max-sm:text-[30px] normal-case">Tirada
+          2/2</a>
       </div>
-      <div class="titular max-sm:hidden text-center max-sm:text-left text-black flex flex-col text-[62px] uppercase font-normal sticky top-[9rem] max-lg:text-[45px] max-sm:px-0 font-['PPE-Ultralight']">
-        Pack Pegatinas<a class="font-['PPE-UltralightItalic'] text-[30px] leading-3 max-sm:leading-4 max-sm:text-[30px] normal-case">Selección Individual
+      <div
+        class="titular max-sm:hidden text-center max-sm:text-left text-black flex flex-col text-[62px] uppercase font-normal sticky top-[9rem] max-lg:text-[45px] max-sm:px-0 font-['PPE-Ultralight']">
+        Pack Pegatinas<a
+          class="font-['PPE-UltralightItalic'] text-[30px] leading-3 max-sm:leading-4 max-sm:text-[30px] normal-case">Selección
+          Individual
         </a>
 
       </div>
     </div>
-    <div class="grid grid-cols-2 px-72 bg-white max-[1500px]:gap-46 max-[1500px]:px-32 max-sm:px-2 max-sm:text-center max-sm:grid-cols-1 max-sm:pt-4 max-sm:pb-12">
-      <div class="titular text-black max-sm:px-8 flex text-[14px] justify-center max-sm:justify-left text-center max-sm:text-left pt-4 max-sm:pt-0 max-sm:justify-left">
+    <div
+      class="grid grid-cols-2 px-72 bg-white max-[1500px]:gap-46 max-[1500px]:px-32 max-sm:px-2 max-sm:text-center max-sm:grid-cols-1 max-sm:pt-4 max-sm:pb-12">
+      <div
+        class="titular text-black max-sm:px-8 flex text-[14px] justify-center max-sm:justify-left text-center max-sm:text-left pt-4 max-sm:pt-0 max-sm:justify-left">
         « Haz click para preguntar por presupuesto»
       </div>
-      <div class="titular text-black max-sm:px-8 flex justify-center max-sm:justify-left text-[14px] pt-4 max-sm:pt-0 max-sm:justify-left max-sm:text-left max-sm:hidden">
+      <div
+        class="titular text-black max-sm:px-8 flex justify-center max-sm:justify-left text-[14px] pt-4 max-sm:pt-0 max-sm:justify-left max-sm:text-left max-sm:hidden">
         « Haz click para preguntar por presupuesto»
       </div>
     </div>
 
     <div class="grid grid-cols-2 gap-32 px-12 pb-24 bg-white max-[1500px]:gap-4 max-sm:grid-cols-1 max-sm:px-6">
       <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=COMPRA|PRESUPUESTO&body=Hola Ruben Maldonado.Preguntaba por el trabajo de Oporto..."
-      class="cosas grid pb-32 max-sm:pb-0 justify-end place-items-center items-center content-center">
+        class="cosas grid pb-32 max-sm:pb-0 justify-end place-items-center items-center content-center">
         <img class="hover:w-[920px] duration-500 border border-t-3 border-b-0 border-white w-[900px]"
           src="/img/tienda.png" alt="" />
       </a>
 
-      <div class="hidden max-sm:grid max-sm:grid-cols-1 pt-32 px-72 bg-white max-[1500px]:gap-46 max-[1500px]:px-32 max-sm:px-4 max-sm:pt-12 max-sm:gap-8">
+      <div
+        class="hidden max-sm:grid max-sm:grid-cols-1 pt-32 px-72 bg-white max-[1500px]:gap-46 max-[1500px]:px-32 max-sm:px-4 max-sm:pt-12 max-sm:gap-8">
 
-      <div class="titular text-center max-sm:text-left text-black flex flex-col text-[62px] uppercase font-normal sticky top-[9rem] max-lg:text-[45px] max-sm:px-0 font-['PPE-Ultralight']">
-        Pack Pegatinas<a class="font-['PPE-UltralightItalic'] text-[30px] leading-3 max-sm:leading-4 max-sm:text-[30px] normal-case">Selección Individual
-        </a>
-        <div class="titular text-black max-sm:pt-4 flex text-[14px] justify-left text-left normal-case font-['SFUIDisplay-Light'] max-sm:pb-20">
-        « Haz click para preguntar por presupuesto»
-      </div>
+        <div
+          class="titular text-center max-sm:text-left text-black flex flex-col text-[62px] uppercase font-normal sticky top-[9rem] max-lg:text-[45px] max-sm:px-0 font-['PPE-Ultralight']">
+          Pack Pegatinas<a
+            class="font-['PPE-UltralightItalic'] text-[30px] leading-3 max-sm:leading-4 max-sm:text-[30px] normal-case">Selección
+            Individual
+          </a>
+          <div
+            class="titular text-black max-sm:pt-4 flex text-[14px] justify-left text-left normal-case font-['SFUIDisplay-Light'] max-sm:pb-20">
+            « Haz click para preguntar por presupuesto»
+          </div>
 
+        </div>
       </div>
-    </div>
 
       <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=COMPRA|PRESUPUESTO&body=Hola Ruben Maldonado.Preguntaba por las pegatinas..."
-      class="cosas grid pb-32 max-sm:pb-12 justify-start place-items-center items-center content-center">
-        <img class="hover:w-[720px] duration-500 border border-t-3 border-b-0 border-white w-[700px] max-[1500px]:w-[540px] max-sm:px-6"
+        class="cosas grid pb-32 max-sm:pb-12 justify-start place-items-center items-center content-center">
+        <img
+          class="hover:w-[720px] duration-500 border border-t-3 border-b-0 border-white w-[700px] max-[1500px]:w-[540px] max-sm:px-6"
           src="/img/tienda2.png" alt="" />
       </a>
     </div>
@@ -1253,7 +1466,8 @@
     <div
       class="hidden max-sm:grid grid-flow-cols border-0 border-b-0 border-none grid-cols-4 max-[1920px]:grid-cols-3 text-center max-[1450px]:grid-cols-2 animate-pulse max-[1930px]:grid-cols-3 max-sm:grid-cols-1">
 
-      <div class=" bg-red-700 text-white justify-center content-center font-['Neue'] text-[10px]">NUEVO CONTENIDO - NUEVO
+      <div class=" bg-red-700 text-white justify-center content-center font-['Neue'] text-[10px]">NUEVO CONTENIDO -
+        NUEVO
         CONTENIDO -
         NUEVO CONTENIDO
       </div>
