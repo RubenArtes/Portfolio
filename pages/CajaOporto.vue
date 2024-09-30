@@ -5,13 +5,13 @@
             class="header bg-white p-10 border-t-0 px-32 text-black grid grid-cols-2 sticky top-0 z-50 max-lg:p-6 max-lg:sticky max-sm:flex max-sm:justify-between max-sm:px-8">
             <div class="image place-self-start self-center">
                 <NuxtLink to="/Home">
-                    <img class="max-lg:max-w-[15px] w-[20px]" src="/img/logoporto.png" />
+                    <NuxtImg class="max-lg:max-w-[15px] w-[20px]" src="/img/logoporto.png" />
                 </NuxtLink>
             </div>
             <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado."
                 target="_blank" class="email self-center text-lg  place-self-end flex gap-2 max-lg:text-xs">
                 ruben.maldonado.graphic@gmail.com
-                <img class="vector max-lg:max-w-[8px]" src="/img/Vector-11black.svg" />
+                <NuxtImg class="vector max-lg:max-w-[8px]" src="/img/Vector-11black.svg" />
             </a>
         </div>
         <div
@@ -144,8 +144,8 @@
 
         <div
             class="video flex pt-8 pb-20 max-sm:pb-8 text-zinc-600 flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
-            <img class="image max-sm:hidden w-full h-full" src="/img/oportoazulejo2.png" alt="">
-            <img class="image hidden max-sm:flex w-full h-full" src="/img/cajaoporto.png" alt="">
+            <NuxtImg class="image max-sm:hidden w-full h-full" src="/img/oportoazulejo2.png" alt=""/>
+            <NuxtImg class="image hidden max-sm:flex w-full h-full" src="/img/cajaoporto.png" alt=""/>
 
 
 
@@ -192,7 +192,7 @@
                 </div>
             </div>
             <div class="fotografias flex flex-col gap-6 h-min">
-                <img class="image_rect rounded-xl" src="/img/bocetosoporto.png" alt="">
+                <NuxtImg class="image_rect rounded-xl" src="/img/bocetosoporto.png" alt=""/>
 
             </div>
         </div>
@@ -221,7 +221,7 @@
 
         </div>
 
-        <img data-aos="fade-up" data-aos-duration="2000" class="image w-full h-full" src="/img/IMG_2423.jpg" alt="">
+        <NuxtImg data-aos="fade-up" data-aos-duration="2000" class="image w-full h-full" src="/img/IMG_2423.jpg" alt=""/>
 
 
         <div data-aos="fade-up" data-aos-duration="2000"
@@ -252,8 +252,8 @@
                 de otras culturas como la árabe.
             </div>
 
-            <img class="image hidden w-full h-full max-sm:flex" src="/img/gifazulejo2.gif" alt="">
-            <img class="image flex w-full h-full max-sm:hidden" src="/img/azulejo2.webp" alt="">
+            <img class="image hidden w-full h-full max-sm:flex" src="/img/gifazulejo2.gif" alt=""/>
+            <img class="image flex w-full h-full max-sm:hidden" src="/img/azulejo2.webp" alt=""/>
 
 
         </div>
@@ -283,10 +283,10 @@
 
         </div>
 
-        <img data-aos="fade-up" data-aos-duration="2000" class="image px-24 w-full h-full max-sm:hidden"
-            src="/img/piezascompartimento3.png" alt="">
-        <img data-aos="fade-up" data-aos-duration="2000" class="image hidden px-12 w-full h-full max-sm:block"
-            src="/img/piezascompartimento32.png" alt="">
+        <NuxtImg data-aos="fade-up" data-aos-duration="2000" class="image px-24 w-full h-full max-sm:hidden"
+            src="/img/piezascompartimento3.png" alt=""/>
+        <NuxtImg data-aos="fade-up" data-aos-duration="2000" class="image hidden px-12 w-full h-full max-sm:block"
+            src="/img/piezascompartimento32.png" alt=""/>
         <div data-aos="fade-up" data-aos-duration="1000"
             class="grid grid-cols-3 gap-24 justify-items-center max-sm:hidden">
 
@@ -313,29 +313,29 @@
         <div
             class="hidden grid-cols-3 pb-32 px-64 gap-8 justify-items-center max-sm:grid-cols-1 max-sm:px-8 max-sm:gap-6 max-sm:pb-24 max-sm:grid">
             <div class="columna1">
-                <img class="image w-full h-full shadow-lg border border-zinc-100" src="/img/postal6.png" alt="">
+                <NuxtImg class="image w-full h-full shadow-lg border border-zinc-100" src="/img/postal6.png" alt=""/>
 
             </div>
             <div class="columna1">
-                <img class="image w-full h-full shadow-lg border border-zinc-100" src="/img/postal1.png" alt="">
+                <NuxtImg class="image w-full h-full shadow-lg border border-zinc-100" src="/img/postal1.png" alt=""/>
 
             </div>
             <div class="columna1">
-                <img class="image w-full h-full shadow-lg border border-zinc-100" src="/img/postal4.png" alt="">
+                <NuxtImg class="image w-full h-full shadow-lg border border-zinc-100" src="/img/postal4.png" alt=""/>
 
             </div>
             <div class="columna1">
-                <img class="image w-full h-full shadow-lg border border-zinc-100" src="/img/postal2.png" alt="">
+                <NuxtImg class="image w-full h-full shadow-lg border border-zinc-100" src="/img/postal2.png" alt=""/>
 
             </div>
             <div class="columna1">
-                <img class="image w-full h-full shadow-lg border border-zinc-100" src="/img/postal3.png" alt="">
+                <NuxtImg class="image w-full h-full shadow-lg border border-zinc-100" src="/img/postal3.png" alt=""/>
 
             </div>
 
 
             <div class="columna1">
-                <img class="image w-full h-full shadow-lg border border-zinc-100" src="/img/postal5.png" alt="">
+                <NuxtImg class="image w-full h-full shadow-lg border border-zinc-100" src="/img/postal5.png" alt=""/>
 
             </div>
 
@@ -346,28 +346,28 @@
             <NuxtMarquee class="h-[400px] w-[900px] gap-12">
 
                 <div class="columna1 max-sm:hidden">
-                    <img class="h-[400px] w-[900px] ml-4 border border-zinc-200 max-sm:w-[200px] max-sm:h-[450px]"
-                        src="/img/postal6.png" alt="">
+                    <NuxtImg class="h-[400px] w-[900px] ml-4 border border-zinc-200 max-sm:w-[200px] max-sm:h-[450px]"
+                        src="/img/postal6.png" alt=""/>
                 </div>
                 <div class="columna1 max-sm:hidden">
-                    <img class="h-[400px] w-[900px] ml-4 border border-zinc-200 max-sm:w-[200px] max-sm:h-[450px]"
-                        src="/img/postal4.png" alt="">
+                    <NuxtImg class="h-[400px] w-[900px] ml-4 border border-zinc-200 max-sm:w-[200px] max-sm:h-[450px]"
+                        src="/img/postal4.png" alt=""/>
                 </div>
                 <div class="columna1 max-sm:hidden">
-                    <img class="h-[400px] w-[900px] ml-4 border border-zinc-200 max-sm:w-[200px] max-sm:h-[450px]"
-                        src="/img/postal3.png" alt="">
+                    <NuxtImg class="h-[400px] w-[900px] ml-4 border border-zinc-200 max-sm:w-[200px] max-sm:h-[450px]"
+                        src="/img/postal3.png" alt=""/>
                 </div>
                 <div class="columna1 max-sm:hidden">
-                    <img class="h-[400px] w-[900px] ml-4 border border-zinc-200 max-sm:w-[200px] max-sm:h-[450px]"
-                        src="/img/postal1.png" alt="">
+                    <NuxtImg class="h-[400px] w-[900px] ml-4 border border-zinc-200 max-sm:w-[200px] max-sm:h-[450px]"
+                        src="/img/postal1.png" alt=""/>
                 </div>
                 <div class="columna1 max-sm:hidden">
-                    <img class="h-[400px] w-[900px] ml-4 border border-zinc-200 max-sm:w-[200px] max-sm:h-[450px]"
-                        src="/img/postal2.png" alt="">
+                    <NuxtImg class="h-[400px] w-[900px] ml-4 border border-zinc-200 max-sm:w-[200px] max-sm:h-[450px]"
+                        src="/img/postal2.png" alt=""/>
                 </div>
                 <div class="columna1 max-sm:hidden">
-                    <img class="h-[400px] w-[900px] ml-4 border border-zinc-200 max-sm:w-[200px] max-sm:h-[450px]"
-                        src="/img/postal5.png" alt="">
+                    <NuxtImg class="h-[400px] w-[900px] ml-4 border border-zinc-200 max-sm:w-[200px] max-sm:h-[450px]"
+                        src="/img/postal5.png" alt=""/>
 
                 </div>
             </NuxtMarquee>
@@ -375,11 +375,11 @@
         </div>
 
 
-        <img class="image pt-32 w-full h-full pb-32 max-sm:hidden" src="/img/postalespng.png" alt="">
+        <NuxtImg class="image pt-32 w-full h-full pb-32 max-sm:hidden" src="/img/postalespng.png" alt=""/>
 
         <div class="grid grid-cols-2 max-sm:grid-cols-1">
-            <img class="image w-full h-full pb-32 max-sm:pb-2" src="/img/IMG_2450.jpg" alt="">
-            <img class="image w-full h-full pb-32 max-sm:pb-2" src="/img/IMG_2483.jpg" alt="">
+            <NuxtImg class="image w-full h-full pb-32 max-sm:pb-2" src="/img/IMG_2450.jpg" alt=""/>
+            <NuxtImg class="image w-full h-full pb-32 max-sm:pb-2" src="/img/IMG_2483.jpg" alt=""/>
         </div>
 
 
@@ -390,8 +390,8 @@
                 SELLOS</div>
         </div>
 
-        <img data-aos="fade-up" data-aos-duration="2000" class="image w-full h-full pb-32 max-sm:pb-12"
-            src="/img/IMG_2444.jpg" alt="">
+        <NuxtImg data-aos="fade-up" data-aos-duration="2000" class="image w-full h-full pb-32 max-sm:pb-12"
+            src="/img/IMG_2444.jpg" alt=""/>
 
         <!--<div
             class="grid grid-cols-4 gap-2 pb-32 px-64 justify-items-center max-[1920px]:px-12 max-sm:grid-cols-1 max-sm:pb-2 max-sm:hidden">
@@ -410,10 +410,10 @@
 
         <div
             class="grid grid-cols-2 gap-32 pb-4 px-64 pt-12 justify-items-center max-[1920px]:px-12 max-sm:grid-cols-1 max-sm:pb-12 max-sm:pt-12 max-sm:px-24 max-sm:gap-12">
-            <img class="place-self-end" src="/img/sellos12.webp" alt="">
-            <img class="place-self-start" src="/img/sellos22.webp" alt="">
-            <img class="place-self-end" src="/img/sellos33.webp" alt="">
-            <img class="place-self-start" src="/img/sellos44.webp" alt="">
+            <img class="place-self-end" src="/img/sellos12.webp" alt=""/>
+            <img class="place-self-start" src="/img/sellos22.webp" alt=""/>
+            <img class="place-self-end" src="/img/sellos33.webp" alt=""/>
+            <img class="place-self-start" src="/img/sellos44.webp" alt=""/>
 
         </div>
 
@@ -451,81 +451,40 @@
 
                 <Carousel class="max-sm:pb-32" :autoplay="4000" :wrap-around="true">
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400" src="/img/portadacuadernillo3.png"
-                            alt="">
+                        <NuxtImg class="image_grid w-full h-full border border-zinc-400" src="/img/portadacuadernillo3.png"
+                            alt=""/>
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400"
-                            src="/img/CuadernilloExperimental1.png" alt="">
+                        <NuxtImg class="image_grid w-full h-full border border-zinc-400"
+                            src="/img/CuadernilloExperimental1.png" alt=""/>
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400"
-                            src="/img/CuadernilloExperimental2.png" alt="">
+                        <NuxtImg class="image_grid w-full h-full border border-zinc-400"
+                            src="/img/CuadernilloExperimental2.png" alt=""/>
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400"
-                            src="/img/CuadernilloExperimental3.png" alt="">
+                        <NuxtImg class="image_grid w-full h-full border border-zinc-400"
+                            src="/img/CuadernilloExperimental3.png" alt=""/>
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400"
-                            src="/img/CuadernilloExperimental4.png" alt="">
+                        <NuxtImg class="image_grid w-full h-full border border-zinc-400"
+                            src="/img/CuadernilloExperimental4.png" alt=""/>
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400"
-                            src="/img/CuadernilloExperimental5.png" alt="">
+                        <NuxtImg class="image_grid w-full h-full border border-zinc-400"
+                            src="/img/CuadernilloExperimental5.png" alt=""/>
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400"
-                            src="/img/CuadernilloExperimental6.png" alt="">
+                        <NuxtImg class="image_grid w-full h-full border border-zinc-400"
+                            src="/img/CuadernilloExperimental6.png" alt=""/>
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400"
-                            src="/img/CuadernilloExperimental7.png" alt="">
+                        <NuxtImg class="image_grid w-full h-full border border-zinc-400"
+                            src="/img/CuadernilloExperimental7.png" alt=""/>
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400"
-                            src="/img/CuadernilloExperimental8.png" alt="">
-                    </Slide>
-
-                    <template #addons>
-                    </template>
-                </Carousel>
-                <Carousel class="max-sm:pb-32" :autoplay="4000" :wrap-around="true">
-                    <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400" src="/img/portadacuadernillo.png"
-                            alt="">
-                    </Slide>
-                    <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400"
-                            src="/img/cuadernilloexperimental11.png" alt="">
-                    </Slide>
-                    <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400"
-                            src="/img/cuadernilloexperimental12.png" alt="">
-                    </Slide>
-                    <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400"
-                            src="/img/cuadernilloexperimental12.png" alt="">
-                    </Slide>
-                    <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400"
-                            src="/img/cuadernilloexperimental13.png" alt="">
-                    </Slide>
-                    <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400"
-                            src="/img/cuadernilloexperimental14.png" alt="">
-                    </Slide>
-                    <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400"
-                            src="/img/cuadernilloexperimental15.png" alt="">
-                    </Slide>
-                    <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400"
-                            src="/img/cuadernilloexperimental16.png" alt="">
-                    </Slide>
-                    <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400"
-                            src="/img/cuadernilloexperimental17.png" alt="">
+                        <NuxtImg class="image_grid w-full h-full border border-zinc-400"
+                            src="/img/CuadernilloExperimental8.png" alt=""/>
                     </Slide>
 
                     <template #addons>
@@ -533,32 +492,73 @@
                 </Carousel>
                 <Carousel class="max-sm:pb-32" :autoplay="4000" :wrap-around="true">
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400" src="/img/portadacuadernillo2.png"
-                            alt="">
+                        <NuxtImg class="image_grid w-full h-full border border-zinc-400" src="/img/portadacuadernillo.png"
+                            alt=""/>
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo1.png" alt="">
+                        <NuxtImg class="image_grid w-full h-full border border-zinc-400"
+                            src="/img/cuadernilloexperimental11.png" alt=""/>
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo2.png" alt="">
+                        <NuxtImg class="image_grid w-full h-full border border-zinc-400"
+                            src="/img/cuadernilloexperimental12.png" alt=""/>
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo3.png" alt="">
+                        <NuxtImg class="image_grid w-full h-full border border-zinc-400"
+                            src="/img/cuadernilloexperimental12.png" alt=""/>
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo4.png" alt="">
+                        <NuxtImg class="image_grid w-full h-full border border-zinc-400"
+                            src="/img/cuadernilloexperimental13.png" alt=""/>
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo5.png" alt="">
+                        <NuxtImg class="image_grid w-full h-full border border-zinc-400"
+                            src="/img/cuadernilloexperimental14.png" alt=""/>
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo6.png" alt="">
+                        <NuxtImg class="image_grid w-full h-full border border-zinc-400"
+                            src="/img/cuadernilloexperimental15.png" alt=""/>
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo7.png" alt="">
+                        <NuxtImg class="image_grid w-full h-full border border-zinc-400"
+                            src="/img/cuadernilloexperimental16.png" alt=""/>
                     </Slide>
                     <Slide v-for="slide in 1" :key="slide">
-                        <img class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo8.png" alt="">
+                        <NuxtImg class="image_grid w-full h-full border border-zinc-400"
+                            src="/img/cuadernilloexperimental17.png" alt=""/>
+                    </Slide>
+
+                    <template #addons>
+                    </template>
+                </Carousel>
+                <Carousel class="max-sm:pb-32" :autoplay="4000" :wrap-around="true">
+                    <Slide v-for="slide in 1" :key="slide">
+                        <NuxtImg class="image_grid w-full h-full border border-zinc-400" src="/img/portadacuadernillo2.png"
+                            alt=""/>
+                    </Slide>
+                    <Slide v-for="slide in 1" :key="slide">
+                        <NuxtImg class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo1.png" alt=""/>
+                    </Slide>
+                    <Slide v-for="slide in 1" :key="slide">
+                        <NuxtImg class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo2.png" alt=""/>
+                    </Slide>
+                    <Slide v-for="slide in 1" :key="slide">
+                        <NuxtImg class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo3.png" alt=""/>
+                    </Slide>
+                    <Slide v-for="slide in 1" :key="slide">
+                        <NuxtImg class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo4.png" alt=""/>
+                    </Slide>
+                    <Slide v-for="slide in 1" :key="slide">
+                        <NuxtImg class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo5.png" alt=""/>
+                    </Slide>
+                    <Slide v-for="slide in 1" :key="slide">
+                        <NuxtImg class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo6.png" alt=""/>
+                    </Slide>
+                    <Slide v-for="slide in 1" :key="slide">
+                        <NuxtImg class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo7.png" alt=""/>
+                    </Slide>
+                    <Slide v-for="slide in 1" :key="slide">
+                        <NuxtImg class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo8.png" alt=""/>
                     </Slide>
 
                     <template #addons>
@@ -580,40 +580,40 @@
 
             <Carousel class="max-sm:pb-0" :autoplay="4000" :wrap-around="true">
                 <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full border border-zinc-400" src="/img/portadacuadernillo3.png"
-                        alt="">
+                    <NuxtImg class="image_grid w-full h-full border border-zinc-400" src="/img/portadacuadernillo3.png"
+                        alt=""/>
                 </Slide>
                 <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full border border-zinc-400" src="/img/CuadernilloExperimental1.png"
-                        alt="">
+                    <NuxtImg class="image_grid w-full h-full border border-zinc-400" src="/img/CuadernilloExperimental1.png"
+                        alt=""/>
                 </Slide>
                 <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full border border-zinc-400" src="/img/CuadernilloExperimental2.png"
-                        alt="">
+                    <NuxtImg class="image_grid w-full h-full border border-zinc-400" src="/img/CuadernilloExperimental2.png"
+                        alt=""/>
                 </Slide>
                 <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full border border-zinc-400" src="/img/CuadernilloExperimental3.png"
-                        alt="">
+                    <NuxtImg class="image_grid w-full h-full border border-zinc-400" src="/img/CuadernilloExperimental3.png"
+                        alt=""/>
                 </Slide>
                 <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full border border-zinc-400" src="/img/CuadernilloExperimental4.png"
-                        alt="">
+                    <NuxtImg class="image_grid w-full h-full border border-zinc-400" src="/img/CuadernilloExperimental4.png"
+                        alt=""/>
                 </Slide>
                 <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full border border-zinc-400" src="/img/CuadernilloExperimental5.png"
-                        alt="">
+                    <NuxtImg class="image_grid w-full h-full border border-zinc-400" src="/img/CuadernilloExperimental5.png"
+                        alt=""/>
                 </Slide>
                 <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full border border-zinc-400" src="/img/CuadernilloExperimental6.png"
-                        alt="">
+                    <NuxtImg class="image_grid w-full h-full border border-zinc-400" src="/img/CuadernilloExperimental6.png"
+                        alt=""/>
                 </Slide>
                 <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full border border-zinc-400" src="/img/CuadernilloExperimental7.png"
-                        alt="">
+                    <NuxtImg class="image_grid w-full h-full border border-zinc-400" src="/img/CuadernilloExperimental7.png"
+                        alt=""/>
                 </Slide>
                 <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full border border-zinc-400" src="/img/CuadernilloExperimental8.png"
-                        alt="">
+                    <NuxtImg class="image_grid w-full h-full border border-zinc-400" src="/img/CuadernilloExperimental8.png"
+                        alt=""/>
                 </Slide>
 
                 <template #addons>
@@ -629,40 +629,40 @@
 
             <Carousel class="max-sm:pb-0" :autoplay="4000" :wrap-around="true">
                 <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full border border-zinc-400" src="/img/portadacuadernillo.png"
-                        alt="">
+                    <NuxtImg class="image_grid w-full h-full border border-zinc-400" src="/img/portadacuadernillo.png"
+                        alt=""/>
                 </Slide>
                 <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full border border-zinc-400"
-                        src="/img/cuadernilloexperimental11.png" alt="">
+                    <NuxtImg class="image_grid w-full h-full border border-zinc-400"
+                        src="/img/cuadernilloexperimental11.png" alt=""/>
                 </Slide>
                 <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full border border-zinc-400"
-                        src="/img/cuadernilloexperimental12.png" alt="">
+                    <NuxtImg class="image_grid w-full h-full border border-zinc-400"
+                        src="/img/cuadernilloexperimental12.png" alt=""/>
                 </Slide>
                 <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full border border-zinc-400"
-                        src="/img/cuadernilloexperimental12.png" alt="">
+                    <NuxtImg class="image_grid w-full h-full border border-zinc-400"
+                        src="/img/cuadernilloexperimental12.png" alt=""/>
                 </Slide>
                 <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full border border-zinc-400"
-                        src="/img/cuadernilloexperimental13.png" alt="">
+                    <NuxtImg class="image_grid w-full h-full border border-zinc-400"
+                        src="/img/cuadernilloexperimental13.png" alt=""/>
                 </Slide>
                 <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full border border-zinc-400"
-                        src="/img/cuadernilloexperimental14.png" alt="">
+                    <NuxtImg class="image_grid w-full h-full border border-zinc-400"
+                        src="/img/cuadernilloexperimental14.png" alt=""/>
                 </Slide>
                 <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full border border-zinc-400"
-                        src="/img/cuadernilloexperimental15.png" alt="">
+                    <NuxtImg class="image_grid w-full h-full border border-zinc-400"
+                        src="/img/cuadernilloexperimental15.png" alt=""/>
                 </Slide>
                 <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full border border-zinc-400"
-                        src="/img/cuadernilloexperimental16.png" alt="">
+                    <NuxtImg class="image_grid w-full h-full border border-zinc-400"
+                        src="/img/cuadernilloexperimental16.png" alt=""/>
                 </Slide>
                 <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full border border-zinc-400"
-                        src="/img/cuadernilloexperimental17.png" alt="">
+                    <NuxtImg class="image_grid w-full h-full border border-zinc-400"
+                        src="/img/cuadernilloexperimental17.png" alt=""/>
                 </Slide>
 
                 <template #addons>
@@ -678,32 +678,32 @@
 
             <Carousel class="max-sm:pb-0" :autoplay="4000" :wrap-around="true">
                 <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full border border-zinc-400" src="/img/portadacuadernillo2.png"
-                        alt="">
+                    <NuxtImg class="image_grid w-full h-full border border-zinc-400" src="/img/portadacuadernillo2.png"
+                        alt=""/>
                 </Slide>
                 <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo1.png" alt="">
+                    <NuxtImg class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo1.png" alt=""/>
                 </Slide>
                 <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo2.png" alt="">
+                    <NuxtImg class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo2.png" alt=""/>
                 </Slide>
                 <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo3.png" alt="">
+                    <NuxtImg class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo3.png" alt=""/>
                 </Slide>
                 <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo4.png" alt="">
+                    <NuxtImg class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo4.png" alt=""/>
                 </Slide>
                 <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo5.png" alt="">
+                    <NuxtImg class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo5.png" alt=""/>
                 </Slide>
                 <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo6.png" alt="">
+                    <NuxtImg class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo6.png" alt=""/>
                 </Slide>
                 <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo7.png" alt="">
+                    <NuxtImg class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo7.png" alt=""/>
                 </Slide>
                 <Slide v-for="slide in 1" :key="slide">
-                    <img class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo8.png" alt="">
+                    <NuxtImg class="image_grid w-full h-full border border-zinc-400" src="/img/cuadernillo8.png" alt=""/>
                 </Slide>
 
                 <template #addons>
@@ -717,19 +717,19 @@
             class="colum flex max-[1500px]:px-12 max-[1440px]:pt-2 max-[1440px]:gap-24 pt-20 px-64 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-sm:px-4">
 
             <div class="fotografias flex flex-col gap-6 max-w-[120h] max-sm:gap-4">
-                <img class="image w-full h-full" src="/img/IMG_2459.jpg" alt="">
-                <img class="image w-full h-full" src="/img/IMG_2460.jpg" alt="">
-                <img class="image w-full h-full" src="/img/IMG_2461.jpg" alt="">
-                <img class="image w-full h-full" src="/img/IMG_2463.jpg" alt="">
-                <img class="image w-full h-full" src="/img/IMG_2511.jpg" alt="">
-                <img class="image w-full h-full" src="/img/IMG_2496.jpg" alt="">
-                <img class="image w-full h-full" src="/img/IMG_2506.jpg" alt="">
-                <img class="image w-full h-full" src="/img/IMG_2505.jpg" alt="">
-                <img class="image w-full h-full" src="/img/IMG_2503.jpg" alt="">
-                <img class="image w-full h-full" src="/img/IMG_2502.jpg" alt="">
-                <img class="image w-full h-full" src="/img/IMG_2501.jpg" alt="">
-                <img class="image w-full h-full" src="/img/IMG_2499.jpg" alt="">
-                <img class="image w-full h-full max-sm:pb-12" src="/img/IMG_2467.jpg" alt="">
+                <NuxtImg class="image w-full h-full" src="/img/IMG_2459.jpg" alt=""/>
+                <NuxtImg class="image w-full h-full" src="/img/IMG_2460.jpg" alt=""/>
+                <NuxtImg class="image w-full h-full" src="/img/IMG_2461.jpg" alt=""/>
+                <NuxtImg class="image w-full h-full" src="/img/IMG_2463.jpg" alt=""/>
+                <NuxtImg class="image w-full h-full" src="/img/IMG_2511.jpg" alt=""/>
+                <NuxtImg class="image w-full h-full" src="/img/IMG_2496.jpg" alt=""/>
+                <NuxtImg class="image w-full h-full" src="/img/IMG_2506.jpg" alt=""/>
+                <NuxtImg class="image w-full h-full" src="/img/IMG_2505.jpg" alt=""/>
+                <NuxtImg class="image w-full h-full" src="/img/IMG_2503.jpg" alt=""/>
+                <NuxtImg class="image w-full h-full" src="/img/IMG_2502.jpg" alt=""/>
+                <NuxtImg class="image w-full h-full" src="/img/IMG_2501.jpg" alt=""/>
+                <NuxtImg class="image w-full h-full" src="/img/IMG_2499.jpg" alt=""/>
+                <NuxtImg class="image w-full h-full max-sm:pb-12" src="/img/IMG_2467.jpg" alt=""/>
             </div>
 
             <div class="info_proyect max-w-[80ch] pt-12 max-sm:px-4 max-sm:hidden">
@@ -792,8 +792,8 @@
 
         <div data-aos="fade-up" data-aos-duration="2000"
             class="grid grid-cols-1 px-64 max-[1440px]:px-12 max-sm:grid-cols-1 pb-32 max-sm:pb-12 max-sm:px-4">
-            <img class="image px-64 max-[1440px]:px-12 w-full h-full max-sm:pb-2 max-sm:px-4" src="/img/IMG_2522.png"
-                alt="">
+            <NuxtImg class="image px-64 max-[1440px]:px-12 w-full h-full max-sm:pb-2 max-sm:px-4" src="/img/IMG_2522.png"
+                alt=""/>
         </div>
         <div
             class="grid grid-cols-1 px-64 pt-4 pb-32 text-center justify-items-center font-['Regular'] text-[16px] text-zinc-600 max-xl:text-sm max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:px-12 max-sm:pb-16">
@@ -811,13 +811,13 @@
         </div>
 
         <div class="grid grid-cols-1 max-[1500px]:px-2 px-64 gap-20 max-sm:grid-cols-1 pb-32 max-sm:px-4 max-sm:hidden">
-            <img class="image px-64 w-full h-full max-sm:pb-2 max-sm:px-12" src="/img/pictosoporto.png" alt="">
+            <NuxtImg class="image px-64 w-full h-full max-sm:pb-2 max-sm:px-12" src="/img/pictosoporto.png" alt=""/>
 
 
         </div>
 
         <div class="hidden px-64 max-[1440px]:px-12 gap-20 max-sm:grid-cols-1 pb-12 max-sm:px-4 max-sm:flex">
-            <img class="image px-64 w-full h-full max-sm:pb-2 max-sm:px-12" src="/img/pictosoporto2.png" alt="">
+            <NuxtImg class="image px-64 w-full h-full max-sm:pb-2 max-sm:px-12" src="/img/pictosoporto2.png" alt=""/>
 
 
         </div>
@@ -826,16 +826,16 @@
             class="colum flex max-[1440px]:px-4 px-64 pt-20 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-[1500px]:px-32  max-sm:px-2">
 
             <div class="fotografias px-64 max-[1440px]:px-12 grid grid-cols-1 gap-8 max-sm:gap-4 max-sm:px-2">
-                <img class="image w-full h-full" src="/img/IMG_2525.jpg" alt="">
-                <img class="image w-full h-full" src="/img/IMG_2524.jpg" alt="">
-                <img class="image w-full h-full" src="/img/IMG_2532.jpg" alt="">
-                <img class="image w-full h-full" src="/img/IMG_2528.jpg" alt="">
-                <img class="image w-full h-full" src="/img/IMG_2535.jpg" alt="">
-                <img class="image w-full h-full" src="/img/IMG_2523.jpg" alt="">
-                <img class="image w-full h-full" src="/img/IMG_2526.jpg" alt="">
-                <img class="image w-full h-full" src="/img/IMG_2536.jpg" alt="">
-                <img class="image w-full h-full" src="/img/IMG_2538.jpg" alt="">
-                <img class="image w-full h-full" src="/img/IMG_2542.jpg" alt="">
+                <NuxtImg class="image w-full h-full" src="/img/IMG_2525.jpg" alt=""/>
+                <NuxtImg class="image w-full h-full" src="/img/IMG_2524.jpg" alt=""/>
+                <NuxtImg class="image w-full h-full" src="/img/IMG_2532.jpg" alt=""/>
+                <NuxtImg class="image w-full h-full" src="/img/IMG_2528.jpg" alt=""/>
+                <NuxtImg class="image w-full h-full" src="/img/IMG_2535.jpg" alt=""/>
+                <NuxtImg class="image w-full h-full" src="/img/IMG_2523.jpg" alt=""/>
+                <NuxtImg class="image w-full h-full" src="/img/IMG_2526.jpg" alt=""/>
+                <NuxtImg class="image w-full h-full" src="/img/IMG_2536.jpg" alt=""/>
+                <NuxtImg class="image w-full h-full" src="/img/IMG_2538.jpg" alt=""/>
+                <NuxtImg class="image w-full h-full" src="/img/IMG_2542.jpg" alt=""/>
 
             </div>
 
@@ -849,12 +849,13 @@
         </div>
 
 
-        <img data-aos="fade-up" data-aos-duration="2000"
+        <NuxtImg data-aos="fade-up" data-aos-duration="2000"
             class="pt-32 max-sm:px-4 max-sm:pt-12 max-[1500px]:px-32 max-[1500px]:pt-6 max-[1920px]:pt-16 px-64"
-            src="/img/folleto.png">
-        <img data-aos="fade-up" data-aos-duration="2000"
+            src="/img/folleto.png"/>
+        <NuxtImg data-aos="fade-up" data-aos-duration="2000"
             class="px-64 max-sm:px-4 max-sm:pb-4 max-sm:pt-12 max-[1500px]:px-32 max-[1920px]:pb-16"
-            src="/img/folleto2.png">
+            src="/img/folleto2.png"/>
+            
 
 
         <div
@@ -862,22 +863,22 @@
             <NuxtMarquee>
 
                 <div class="fotografias flex max-sm:h-[250px] h-[500px]">
-                    <img class="image h-full max-sm:h-[250px] pl-4" src="/img/IMG_2552.jpg" alt="">
-                    <img class="image h-full max-sm:h-[250px] pl-4" src="/img/IMG_2548.jpg" alt="">
-                    <img class="image h-full max-sm:h-[250px] pl-4" src="/img/IMG_2554.jpg" alt="">
-                    <img class="image h-full max-sm:h-[250px] pl-4" src="/img/IMG_2558.jpg" alt="">
-                    <img class="image h-full max-sm:h-[250px] pl-4" src="/img/IMG_2552.jpg" alt="">
-                    <img class="image h-full max-sm:h-[250px] pl-4" src="/img/IMG_2548.jpg" alt="">
-                    <img class="image h-full max-sm:h-[250px] pl-4" src="/img/IMG_2554.jpg" alt="">
-                    <img class="image h-full max-sm:h-[250px] pl-4" src="/img/IMG_2558.jpg" alt="">
-                    <img class="image h-full max-sm:h-[250px] pl-4" src="/img/IMG_2552.jpg" alt="">
-                    <img class="image h-full max-sm:h-[250px] pl-4" src="/img/IMG_2548.jpg" alt="">
-                    <img class="image h-full max-sm:h-[250px] pl-4" src="/img/IMG_2554.jpg" alt="">
-                    <img class="image h-full max-sm:h-[250px] pl-4" src="/img/IMG_2558.jpg" alt="">
-                    <img class="image h-full max-sm:h-[250px] pl-4" src="/img/IMG_2552.jpg" alt="">
-                    <img class="image h-full max-sm:h-[250px] pl-4" src="/img/IMG_2548.jpg" alt="">
-                    <img class="image h-full max-sm:h-[250px] pl-4" src="/img/IMG_2554.jpg" alt="">
-                    <img class="image h-full max-sm:h-[250px] pl-4" src="/img/IMG_2558.jpg" alt="">
+                    <NuxtImg class="image h-full max-sm:h-[250px] pl-4" src="/img/IMG_2552.jpg" alt=""/>
+                    <NuxtImg class="image h-full max-sm:h-[250px] pl-4" src="/img/IMG_2548.jpg" alt=""/>
+                    <NuxtImg class="image h-full max-sm:h-[250px] pl-4" src="/img/IMG_2554.jpg" alt=""/>
+                    <NuxtImg class="image h-full max-sm:h-[250px] pl-4" src="/img/IMG_2558.jpg" alt=""/>
+                    <NuxtImg class="image h-full max-sm:h-[250px] pl-4" src="/img/IMG_2552.jpg" alt=""/>
+                    <NuxtImg class="image h-full max-sm:h-[250px] pl-4" src="/img/IMG_2548.jpg" alt=""/>
+                    <NuxtImg class="image h-full max-sm:h-[250px] pl-4" src="/img/IMG_2554.jpg" alt=""/>
+                    <NuxtImg class="image h-full max-sm:h-[250px] pl-4" src="/img/IMG_2558.jpg" alt=""/>
+                    <NuxtImg class="image h-full max-sm:h-[250px] pl-4" src="/img/IMG_2552.jpg" alt=""/>
+                    <NuxtImg class="image h-full max-sm:h-[250px] pl-4" src="/img/IMG_2548.jpg" alt=""/>
+                    <NuxtImg class="image h-full max-sm:h-[250px] pl-4" src="/img/IMG_2554.jpg" alt=""/>
+                    <NuxtImg class="image h-full max-sm:h-[250px] pl-4" src="/img/IMG_2558.jpg" alt=""/>
+                    <NuxtImg class="image h-full max-sm:h-[250px] pl-4" src="/img/IMG_2552.jpg" alt=""/>
+                    <NuxtImg class="image h-full max-sm:h-[250px] pl-4" src="/img/IMG_2548.jpg" alt=""/>
+                    <NuxtImg class="image h-full max-sm:h-[250px] pl-4" src="/img/IMG_2554.jpg" alt=""/>
+                    <NuxtImg class="image h-full max-sm:h-[250px] pl-4" src="/img/IMG_2558.jpg" alt=""/>
                 </div>
             </NuxtMarquee>
 
@@ -918,9 +919,9 @@
 
         <div data-aos="fade-up" data-aos-duration="2000"
             class="grid grid-cols-2 px-72 items-center pt-12 gap-32 pb-32 max-sm:pb-2 max-sm:grid-cols-1 max-sm:gap-12 max-sm:pt-24 max-sm:px-12">
-            <img class="image w-full h-full" src="/img/packanalogicas5.png" alt="">
-            <img class="image items-end hidden max-sm:flex w-full h-full" src="/img/cajaanalogicas2.gif" alt="">
-            <img class="image items-end max-sm:hidden flex w-full h-full" src="/img/cajaanalogicas.webp" alt="">
+            <NuxtImg class="image w-full h-full" src="/img/packanalogicas5.png" alt=""/>
+            <img class="image items-end hidden max-sm:flex w-full h-full" src="/img/cajaanalogicas2.gif" alt=""/>
+            <img class="image items-end max-sm:hidden flex w-full h-full" src="/img/cajaanalogicas.webp" alt=""/>
         </div>
 
         <div data-aos="fade-up" data-aos-duration="2000"
@@ -959,12 +960,12 @@
             class="colum flex px-64 pt-20 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-[1500px]:px-12 max-sm:px-2">
 
             <div class="fotografias px-64 max-[1500px]:px-12 grid grid-cols-1 gap-8 max-sm:gap-4 max-sm:px-2">
-                <img class="image w-full h-full" src="/img/IMG_2568.jpg" alt="">
-                <img class="image w-full h-full" src="/img/IMG_2578.jpg" alt="">
-                <img class="image w-full h-full" src="/img/IMG_2572.jpg" alt="">
-                <img class="image w-full h-full" src="/img/IMG_2570.jpg" alt="">
-                <img class="image w-full h-full" src="/img/IMG_2577.jpg" alt="">
-                <img class="image w-full h-full" src="/img/IMG_2571.jpg" alt="">
+                <NuxtImg class="image w-full h-full" src="/img/IMG_2568.jpg" alt=""/>
+                <NuxtImg class="image w-full h-full" src="/img/IMG_2578.jpg" alt=""/>
+                <NuxtImg class="image w-full h-full" src="/img/IMG_2572.jpg" alt=""/>
+                <NuxtImg class="image w-full h-full" src="/img/IMG_2570.jpg" alt=""/>
+                <NuxtImg class="image w-full h-full" src="/img/IMG_2577.jpg" alt=""/>
+                <NuxtImg class="image w-full h-full" src="/img/IMG_2571.jpg" alt=""/>
             </div>
 
         </div>
@@ -1003,8 +1004,8 @@
                 físico mejor ha quedado por el acabado realizado en Saal Digital.
             </div>
 
-            <img class="image hidden max-sm:flex w-full h-full" src="/img/libroimpreso2.gif" alt="">
-            <img class="image max-sm:hidden flex w-full h-full" src="/img/libroimpreso.webp" alt="">
+            <img class="image hidden max-sm:flex w-full h-full" src="/img/libroimpreso2.gif" alt=""/>
+            <img class="image max-sm:hidden flex w-full h-full" src="/img/libroimpreso.webp" alt=""/>
 
 
         </div>
@@ -1013,17 +1014,17 @@
             class="colum flex max-[1500px]:px-12 max-[1500px]:pt-4 px-64 pt-20 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-sm:px-2">
 
             <div class="fotografias max-[1500px]:px-12 px-64 grid grid-cols-1 gap-8 max-sm:gap-4 max-sm:px-2">
-                <img class="image w-full h-full" src="/img/IMG_2580.jpg" alt="">
-                <img class="image w-full h-full" src="/img/IMG_2582.jpg" alt="">
-                <img class="image w-full h-full" src="/img/IMG_2583.jpg" alt="">
-                <img class="image w-full h-full" src="/img/IMG_2584.jpg" alt="">
-                <img class="image w-full h-full" src="/img/IMG_2585.jpg" alt="">
-                <img class="image w-full h-full" src="/img/IMG_2594.jpg" alt="">
-                <img class="image w-full h-full" src="/img/IMG_2595.jpg" alt="">
-                <img class="image w-full h-full" src="/img/IMG_2597.jpg" alt="">
-                <img class="image w-full h-full" src="/img/IMG_2603.jpg" alt="">
-                <img class="image w-full h-full" src="/img/IMG_2605.jpg" alt="">
-                <img class="image w-full h-full" src="/img/IMG_2606.jpg" alt="">
+                <NuxtImg class="image w-full h-full" src="/img/IMG_2580.jpg" alt=""/>
+                <NuxtImg class="image w-full h-full" src="/img/IMG_2582.jpg" alt=""/>
+                <NuxtImg class="image w-full h-full" src="/img/IMG_2583.jpg" alt=""/>
+                <NuxtImg class="image w-full h-full" src="/img/IMG_2584.jpg" alt=""/>
+                <NuxtImg class="image w-full h-full" src="/img/IMG_2585.jpg" alt=""/>
+                <NuxtImg class="image w-full h-full" src="/img/IMG_2594.jpg" alt=""/>
+                <NuxtImg class="image w-full h-full" src="/img/IMG_2595.jpg" alt=""/>
+                <NuxtImg class="image w-full h-full" src="/img/IMG_2597.jpg" alt=""/>
+                <NuxtImg class="image w-full h-full" src="/img/IMG_2603.jpg" alt=""/>
+                <NuxtImg class="image w-full h-full" src="/img/IMG_2605.jpg" alt=""/>
+                <NuxtImg class="image w-full h-full" src="/img/IMG_2606.jpg" alt=""/>
             </div>
 
         </div>
@@ -1056,26 +1057,26 @@
 
         <div data-aos="fade-up" data-aos-duration="2000"
             class="hidden max-sm:grid max-sm:grid-cols-1 gap-12 max-sm:px-0 pt-6 pb-12">
-            <img class="image_grid" src="/img/fajillaoporto2.png" alt="">
-            <img class="image_grid" src="/img/cajaoporto.png" alt="">
+            <NuxtImg class="image_grid" src="/img/fajillaoporto2.png" alt=""/>
+            <NuxtImg class="image_grid" src="/img/cajaoporto.png" alt=""/>
         </div>
 
 
         <div data-aos="fade-up" data-aos-duration="2000"
             class="grid max-[1500px]:pt-32 max-[1500px]:px-12 grid-cols-2 grid-row-2 gap-2 pl-12 pb-32 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-sm:grid-cols-1 max-sm:px-8 max-sm:hidden">
-            <img class="image_grid" src="/img/fajillaoporto2.png" alt="">
-            <img class="image_grid" src="/img/cajaoporto.png" alt="">
+            <NuxtImg class="image_grid" src="/img/fajillaoporto2.png" alt=""/>
+            <NuxtImg class="image_grid" src="/img/cajaoporto.png" alt=""/>
 
         </div>
 
         <div data-aos="fade-up" data-aos-duration="2000" class="grid max-sm:hidden grid-cols-2 gap-6 pt-24">
-            <img class="image" src="/img/IMG_2409.jpg" alt="">
-            <img class="image_grid" src="/img/IMG_2412.jpg" alt="">
+            <NuxtImg class="image" src="/img/IMG_2409.jpg" alt=""/>
+            <NuxtImg class="image_grid" src="/img/IMG_2412.jpg" alt=""/>
         </div>
 
-        <img class="image hidden max-sm:pt-24 max-sm:flex" src="/img/IMG_2409.jpg" alt="">
+        <NuxtImg class="image hidden max-sm:pt-24 max-sm:flex" src="/img/IMG_2409.jpg" alt=""/>
 
-        <img class="image_grid hidden pb-12 max-sm:pt-2 max-sm:pb-24 pt-6 max-sm:flex" src="/img/IMG_2412.jpg" alt="">
+        <NuxtImg class="image_grid hidden pb-12 max-sm:pt-2 max-sm:pb-24 pt-6 max-sm:flex" src="/img/IMG_2412.jpg" alt=""/>
 
 
 
@@ -1247,14 +1248,14 @@
 
         <div data-aos="fade-up" data-aos-duration="2000"
             class="video flex pt-32 pb-20 text-zinc-600 flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:hidden">
-            <img class="image w-full h-full" src="/img/imagenesoporto.gif" alt="">
+            <NuxtImg class="image w-full h-full" src="/img/imagenesoporto.gif" alt=""/>
 
 
         </div>
 
         <div data-aos="fade-up" data-aos-duration="2000"
             class="video hidden pt-32 pb-20 text-zinc-600 flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:flex">
-            <img class="image w-full h-full" src="/img/imagenesoporto2.gif" alt="">
+            <NuxtImg class="image w-full h-full" src="/img/imagenesoporto2.gif" alt=""/>
 
 
         </div>
@@ -1291,7 +1292,7 @@
         <div data-aos="fade-up" data-aos-duration="2000"
             class="flex pt-32 pb-32 titular2 max-sm:flex justify-center w-full h-full max-sm:pb-12 max-sm:pt-0">
 
-            <img class="image_grid w-full h-full" src="/img/compartimentos.png" alt="">
+            <NuxtImg class="image_grid w-full h-full" src="/img/compartimentos.png" alt=""/>
 
         </div>
 
@@ -1317,8 +1318,8 @@
         <div data-aos="fade-up" data-aos-duration="2000"
             class="grid grid-cols-2 pt-4 gap-12 px-60 pb-32 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-32  max-sm:gap-6">
 
-            <img class="image_grid w-full h-full" src="/img/compartimento1.png" alt="">
-            <img class="image_grid w-full h-full" src="/img/compartimento2.png" alt="">
+            <NuxtImg class="image_grid w-full h-full" src="/img/compartimento1.png" alt=""/>
+            <NuxtImg class="image_grid w-full h-full" src="/img/compartimento2.png" alt=""/>
 
             <div
                 class="text max-sm:hidden pt-12 place-self-center text-center max-w-[80ch] font-['Regular'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
@@ -1335,10 +1336,10 @@
                 ↓
             </div>
 
-            <img data-aos="fade-up" data-aos-duration="2000" class="image_grid w-full h-full"
-                src="/img/compartimento3.png" alt="">
-            <img data-aos="fade-up" data-aos-duration="2000" class="image_grid w-full h-full"
-                src="/img/compartimento4.png" alt="">
+            <NuxtImg data-aos="fade-up" data-aos-duration="2000" class="image_grid w-full h-full"
+                src="/img/compartimento3.png" alt=""/>
+            <NuxtImg data-aos="fade-up" data-aos-duration="2000" class="image_grid w-full h-full"
+                src="/img/compartimento4.png" alt=""/>
         </div>
 
 
@@ -1354,8 +1355,8 @@
 
             <a href="https://rubenmaldonado.es/viajeoporto" target="_blank"
                 class="px-64 flex justify-center pt-24 pb-64 text-center titulo font-['Regular'] text-[20px] text-[#243673] max-sm:px-4 max-sm:pb-24 max-sm:pt-4 max-sm:text-[12px] max-sm:underline-offset-4">
-                <img class="image_grid max-sm:w-[100px] max-sm:h-[100px] w-[200px] h-[200px]"
-                src="/img/qrweb.png" alt="">
+                <NuxtImg class="image_grid max-sm:w-[100px] max-sm:h-[100px] w-[200px] h-[200px]"
+                src="/img/qrweb.png" alt=""/>
             </a>
         </div>
 
@@ -1369,18 +1370,18 @@
                 proyecto</div>
             <div class="programas flex flex-col items-center">
                 <div class="three_programas flex gap-10 max-sm:grid max-sm:grid-cols-3">
-                    <img class="image_logo w-[40px] rounded-lg opacity-100 hover:opacity-60 max-xl:max-w-[30px] max-xl:max-h-[29px]"
-                        src="/img/Procreate.png" alt="">
-                    <img class="image_logo w-[40px] opacity-100 hover:opacity-60 max-xl:max-w-[30px] max-xl:max-h-[29px]"
-                        src="/img/Cinema4d.svg" alt="">
-                    <img class="image_logo w-[40px] opacity-100 hover:opacity-60 max-xl:max-w-[30px]"
-                        src="/img/blender.svg" alt="">
-                    <img class="image_logo w-[40px] opacity-100 hover:opacity-60 max-xl:max-w-[30px]"
-                        src="/img/Illustrator.svg" alt="">
-                    <img class="image_logo w-[40px] opacity-100 hover:opacity-60 max-xl:max-w-[30px]"
-                        src="/img/InDesign.svg" alt="">
-                    <img class="image_logo w-[40px] opacity-100 hover:opacity-60 max-xl:max-w-[30px]"
-                        src="/img/Photoshop.svg" alt="">
+                    <NuxtImg class="image_logo w-[40px] rounded-lg opacity-100 hover:opacity-60 max-xl:max-w-[30px] max-xl:max-h-[29px]"
+                        src="/img/Procreate.png" alt=""/>
+                    <NuxtImg class="image_logo w-[40px] opacity-100 hover:opacity-60 max-xl:max-w-[30px] max-xl:max-h-[29px]"
+                        src="/img/Cinema4d.svg" alt=""/>
+                    <NuxtImg class="image_logo w-[40px] opacity-100 hover:opacity-60 max-xl:max-w-[30px]"
+                        src="/img/blender.svg" alt=""/>
+                    <NuxtImg class="image_logo w-[40px] opacity-100 hover:opacity-60 max-xl:max-w-[30px]"
+                        src="/img/Illustrator.svg" alt=""/>
+                    <NuxtImg class="image_logo w-[40px] opacity-100 hover:opacity-60 max-xl:max-w-[30px]"
+                        src="/img/InDesign.svg" alt=""/>
+                    <NuxtImg class="image_logo w-[40px] opacity-100 hover:opacity-60 max-xl:max-w-[30px]"
+                        src="/img/Photoshop.svg" alt=""/>
                 </div>
             </div>
         </div>
@@ -1390,27 +1391,27 @@
             <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado."
                 target="_blank" class="email text-lg flex gap-2 items-center max-xl:text-[14px] max-xl:justify-center">
                 ruben.maldonado.graphic@gmail.com
-                <img class="vector" src="/img/Vector-11zinc.svg">
+                <NuxtImg class="vector" src="/img/Vector-11zinc.svg"/>
             </a>
             <div class="links flex flex-col gap-2">
                 <div class="links1 flex gap-32 max-xl:justify-center">
                     <a class="red flex gap-2 items-center max-xl:text-[14px]"
                         href="https://www.instagram.com/maldonadoruben_/">Instagram
-                        <img class="vector" src="/img/Vector-11zinc.svg">
+                        <NuxtImg class="vector" src="/img/Vector-11zinc.svg"/>
                     </a>
                     <a class="red flex gap-2 items-center max-xl:text-[14px]"
                         href="https://www.behance.net/rubenartes">Behance
-                        <img class="vector" src="/img/Vector-11zinc.svg">
+                        <NuxtImg class="vector" src="/img/Vector-11zinc.svg"/>
                     </a>
                 </div>
                 <div class="links2 flex gap-32 flex-end max-xl:justify-center">
                     <a class="red flex gap-2 items-center max-xl:text-[14px]"
                         href="https://www.instagram.com/ruben.iso">Instagram
-                        <img class="vector" src="/img/Vector-11zinc.svg">
+                        <NuxtImg class="vector" src="/img/Vector-11zinc.svg"/>
 
                     </a> <a class="red flex gap-2 items-center max-xl:text-[14px]"
                         href="https://www.linkedin.com/in/rubenmaldonado00">LinkedIn
-                        <img class="vector" src="/img/Vector-11zinc.svg">
+                        <NuxtImg class="vector" src="/img/Vector-11zinc.svg"/>
                     </a>
                 </div>
             </div>
@@ -1420,12 +1421,12 @@
         <div class="foter bg-white p-10 flex text-zinc-600 justify-between sticky top-0 max-xl:p-6">
             <div class="foter_image flex flex-start">
                 <NuxtLink to="/">
-                    <img class="vector max-xl:max-w-[15px]" src="/img/starzinc.svg">
+                    <NuxtImg class="vector max-xl:max-w-[15px]" src="/img/starzinc.svg"/>
                 </NuxtLink>
             </div>
             <div class="email flex gap-2 items-center text-sm max-xl:text-xs">Ruben Maldonado González
                 <NuxtLink to="/">
-                    <img class="vector max-xl:max-w-[15px]" src="/img/futbolzinc.svg">
+                    <NuxtImg class="vector max-xl:max-w-[15px]" src="/img/futbolzinc.svg"/>
                 </NuxtLink>
             </div>
         </div>
