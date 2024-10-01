@@ -51,7 +51,7 @@
                         <img class="vector" src="/img/Vector-11white.svg">
                     </a>
                     <a class="red flex gap-2 items-center max-xl:text-[14px]"
-                        href="https://www.behance.net/rubenartes">Behance
+                        href="https://www.behance.net/maldonadoruben">Behance
                         <img class="vector" src="/img/Vector-11white.svg">
                     </a>
                 </div>

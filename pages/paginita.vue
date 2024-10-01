@@ -1624,7 +1624,7 @@
           | Instagram
           <img class="vector" src="/img/Vector-11black.svg" />
         </a>
-        <a class="red flex gap-2 items-center max-lg:text-[14px]" href="https://www.behance.net/rubenartes">
+        <a class="red flex gap-2 items-center max-lg:text-[14px]" href="https://www.behance.net/maldonadoruben">
           <img class="vector w-[14px]" src="/img/Behance.png" />
           | Behance
           <img class="vector" src="/img/Vector-11black.svg" />

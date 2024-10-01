@@ -146,7 +146,7 @@
                     <a class="red flex gap-2 items-center max-xl:text-[14px]" href="https://www.instagram.com/maldonadoruben_/">Instagram
                             <img class="vector" src="/img/Vector-11zinc.svg">
                     </a>
-                    <a class="red flex gap-2 items-center max-xl:text-[14px]" href="https://www.behance.net/rubenartes">Behance
+                    <a class="red flex gap-2 items-center max-xl:text-[14px]" href="https://www.behance.net/maldonadoruben">Behance
                             <img class="vector" src="/img/Vector-11zinc.svg">
                     </a>
                 </div>
