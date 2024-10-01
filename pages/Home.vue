@@ -1117,7 +1117,7 @@
             class="email pt-32 text-zinc-400 animate-pulse max-sm:hidden flex gap-2 items-left text-[10px] justify-left text-sm max-lg:text-xs">
             Rubén Maldonado 2024 | Copyright ©</div>
         </div>
-        <NuxtLink to="/Marca">
+        <NuxtLink to="/Marca" target="_blank">
           <div class=" text-red-400 underline justify-self-end">[ MI MARCA ]</div>
 
         </NuxtLink>

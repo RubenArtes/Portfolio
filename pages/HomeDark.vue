@@ -1001,7 +1001,7 @@
     <div id="sobremi" class="pb-14"></div>
 
     <div data-aos="fade-up" data-aos-duration="2000"
-      class="trabajos flex pt-32 pl-40 pr-40 pb-40 border border-b-1 border-t-0 border-r-0 border-l-0 text-white flex-nowrap gap-60 justify-center max-lg:pt-20 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20">
+      class="trabajos hidden pt-32 pl-40 pr-40 pb-40 text-white flex-nowrap gap-60 justify-center max-lg:pt-20 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20">
       <div class="sticky_menu">
         <div
           class="titular flex flex-col leading-[80px] text-[72px] max-[1500px]:text-[60px] font-normal sticky top-[10rem] max-lg:text-[60px] font-['PPE-Ultralight']">
@@ -1009,30 +1009,30 @@
         </div>
 
         <div
-        class="absolute max-sm:hidden opacity-30 text-zinc-300 rotate-[-90deg] text-center font-['PPE-UltralightItalic'] flex leading-[110px] pt-4 top-[36rem] max-[600px]:hidden max-[1000px]:hidden max-[1500px]:left-[20rem] max-[1920px]:left-[34rem] text-[120px] max-[2200px]:left-[42rem] left-[54rem]">
-        Rubén
+          class="absolute max-sm:hidden opacity-30 text-white rotate-[-90deg] text-center font-['PPE-UltralightItalic'] flex leading-[110px] pt-4 top-[36rem] max-[600px]:hidden max-[1000px]:hidden max-[1500px]:left-[20rem] max-[1920px]:left-[34rem] text-[120px] max-[2200px]:left-[42rem] left-[54rem]">
+          Rubén
           <br>
           MALDONADO
         </div>
-
         <div
-          class="absolute hidden max-sm:flex text-[30px] text-zinc-300 rotate-[-90deg] leading-[30px] text-center font-['PPE-UltralightItalic'] top-[42rem] right-[19rem]">
+          class="absolute hidden min-sm:flex text-[30px] text-white rotate-[-90deg] leading-[30px] text-center font-['PPE-UltralightItalic'] top-[42rem] right-[19rem]">
           Rubén
           <br>
           MALDONADO
         </div>
 
+
       </div>
       <div class="servicios_ofrecidos flex flex-col gap-6">
         <div class="servicio flex flex-col gap-6">
-          <div class="text max-w-[60ch] font-normal text-[16px] max-sm:text-[15px] text-zinc-200">
+          <div class="text max-w-[60ch] font-normal text-[16px] max-sm:text-[15px] text-white">
             Soy un estudiante de 23 años, actualmente terminando un grado
             Universitario de Diseño Gráfico en la Escuela Superior De Diseño de
             Madrid.
-            <a class="animate-pulse texto_type italic text-xs text-zinc-200">(Nota media - 9).</a>
+            <a class="animate-pulse texto_type italic text-xs text-white">(Nota media - 9).</a>
             <br />
             Cuento con un Grado Superior de Ilustración realizado en la Escuela de Artes de Toledo
-            <a class="texto_type italic text-xs text-zinc-200 animate-pulse">(Nota TFG - 9).</a>
+            <a class="texto_type italic text-xs text-white animate-pulse">(Nota TFG - 9).</a>
             <br />
             <br />
             Soy muy polifacetico y no me cierro a ninguna vía del diseño, suelo
@@ -1040,15 +1040,128 @@
             resolutivo y trabajador.
 
             <div class="pt-24 max-sm:pt-24">
-              <img class="img" src="/img/gifyo.gif" alt="" />
-              <div class="text pt-2 flex justify-end font-bold max-sm:text-[12px] font-['SFUIDisplay-Light'] text-[12px] text-zinc-200">
+              <img class="img shadow-xl" src="/img/gifyo.gif" alt="" />
+              <div class="text pt-2 flex justify-end font-bold font-['SFUIDisplay-Light'] text-[12px]text-zinc-900">
                 YO_PRIMERO_FINAL_PRUEBA_CAMBIOS.jpg</div>
             </div>
 
           </div>
         </div>
       </div>
+
     </div>
+
+    <div data-aos="fade-up" data-aos-duration="2000"
+      class="trabajos max-sm:grid-cols-1 max-[1500px]:gap-16 max-[1500px]:pl-16 max-[1500px]:pr-12 max-[1920px]:pl-24 max-[1920px]:pl-12 max-[1920px]:gap-24 grid grid-cols-3 pt-32 px-20 pb-40 text-white flex-nowrap gap-20 justify-center max-lg:pt-20 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20">
+      <div class="sticky_menu">
+        <div
+          class="titular max-sm:text-[50px] flex flex-col leading-[60px] text-[60px] max-sm:pl-0 max-sm:leading-[59px] pl-12 max-[1500px]:pl-6 max-[1500px]:text-[60px] font-normal max-lg:text-[60px] font-['PPE-Ultralight']">
+          RUBÉN
+          <br>
+          MALDONADO
+
+        </div>
+
+        <div class="pt-24 max-sm:pt-12 max-[1920px]:pt-32">
+          <img class="img shadow-xl" src="/img/gifyo.gif" alt="" />
+          <div class="text pt-4 flex justify-end font-bold font-['SFUIDisplay-Light'] text-[12px] text-white">
+            YO_PRIMERO_FINAL_PRUEBA_CAMBIOS.jpg</div>
+        </div>
+
+
+      </div>
+      <div
+        class="text justify-self-center pt-[215px] max-[1920px]:pt-[240px] max-sm:pt-6 max-w-[60ch] flex flex-col gap-6 justify-between font-normal font-['SFUIDisplay-Regular'] text-[16px] max-sm:text-[15px] text-white">
+        <div
+          class="text max-w-[60ch] font-normal font-['SFUIDisplay-Regular'] text-[16px] max-sm:text-[15px] text-white">
+          DISEÑADOR / ILUSTRADOR / FOTOGRAFO
+          <br>
+          <br>
+          <a
+            class="text max-w-[60ch] font-normal leading-[24px] text-[16px] flex flex-col gap-32 max-sm:text-[15px] text-white">
+            Soy un estudiante de 23 años, actualmente terminando un grado
+            Universitario de Diseño Gráfico en la Escuela Superior De Diseño de
+            Madrid. Cuento con un Grado Superior de Ilustración realizado en la Escuela de Artes de Toledo
+            <br> <br>
+            Soy muy polifacetico, "currante" y "todoterreno" no me cierro a ninguna vía del diseño, suelo
+            abarcar todos los ambitos, como ya he mostrado anteriormente. Soy
+            resolutivo y me gusta trabajar bajo presión.
+            <br>
+            <br>
+            Soy un gran aficionado de las películas (sobretodo de las que te dejan pensando durante un rato), del futbol
+            y el
+            deporte en general. No podría vivir sin "Trueno" el diminuto
+            blanco que podeis ver en la foto. Adoro la música electrónica y el pop inglés (2000s - 2010s).
+          </a>
+          <div
+            class="email pt-32 text-white animate-pulse max-sm:hidden flex gap-2 items-left text-[10px] justify-left text-sm max-lg:text-xs">
+            Rubén Maldonado 2024 | Copyright ©</div>
+        </div>
+        <NuxtLink to="/Marca" target="_blank">
+          <div class=" text-red-400 underline justify-self-end">[ MI MARCA ]</div>
+
+        </NuxtLink>
+      </div>
+      <div
+        class="servicios_ofrecidos max-sm:pt-6 max-sm:justify-self-start flex flex-col gap-6 pt-[215px] max-[1920px]:pt-[240px] max-[1500px]:justify-self-center justify-between">
+
+        <div
+          class="text max-w-[60ch] font-['SFUIDisplay-Regular'] font-normal text-[16px] leading-5 max-sm:text-[15px] text-white">
+          SELECCIÓN PERSONAL DE
+          <br>
+          MIS MEJORES PROYECTOS
+          <br>
+          <br>
+
+          <div class="links text-zinc-400 font-['SFUIDisplay-Light'] text-[12px]">
+            <a href="https://rubenmaldonado.es/CajaOporto"
+              class="text max-w-[60ch] hover:text-[14.25px] transition-transform delay-600 font-normal text-[14px] max-sm:text-[14px] animate-pulse text-zinc-400 underline">
+              [ CAJA OPORTO ]</a> >
+            <br>
+            <a href="https://rubenmaldonado.es/Matutano"
+              class="text max-w-[60ch] hover:text-[14.25px] transition-transform delay-600 font-normal text-[14px] max-sm:text-[14px] animate-pulse text-zinc-400 underline">
+              [ MATUTANO SALUDABLE ]</a> >
+            <br>
+            <a href="https://rubenmaldonado.es/Movistar"
+              class="text max-w-[60ch] hover:text-[14.25px] transition-transform delay-600 font-normal text-[14px] max-sm:text-[14px] animate-pulse text-zinc-400 underline">
+              [ MOVISTAR + ]</a> >
+            <br>
+            <a href="https://rubenmaldonado.es/Member"
+              class="text max-w-[60ch] hover:text-[14.25px] transition-transform delay-600 font-normal text-[14px] max-sm:text-[14px] animate-pulse text-zinc-400 underline">
+              [ ASISTENTE MEMBER ]</a> >
+          </div>
+
+        </div>
+
+
+        <div class="text grid grid-cols-2 max-[1920px]:grid-cols-1 font-['SFUIDisplay-Regular']">
+          COLABORACIONES / PROYECTOS
+
+          <div class="text grid grid-cols-2 max-[1920px]:grid-cols-1 max-[1920px]:pt-6">
+            <a href="https://faux-noticiario.netlify.app" target="_blank"
+              class="text max-w-[60ch] text-zinc-400 hover:text-[14.25px] transition-transform delay-600 font-normal text-[14px] max-sm:text-[14px] animate-pulse underline">
+              [ PROYECTO FAUX ]</a>
+            <a href="https://www.barbaraibanez.com/yelmocines2" target="_blank"
+              class="text max-w-[60ch] text-zinc-400 hover:text-[14.25px] transition-transform delay-600 font-normal text-[14px] max-sm:text-[14px] animate-pulse underline">
+              [ YELMO CINES ]</a>
+            <a href="https://www.instagram.com/newteam_cf" target="_blank"
+              class="text max-w-[60ch] text-zinc-400 hover:text-[14.25px] transition-transform delay-600 font-normal text-[14px] max-sm:text-[14px] animate-pulse underline">
+              [ NEW TEAM ]</a>
+
+          </div>
+
+        </div>
+
+        <div class="text grid grid-cols-2">
+          <a href="https://music.apple.com/es/playlist/playlist-n%C2%BA-1/pl.u-8aAVZyluv8K48qD" target="_blank"
+            class="text max-w-[60ch] hover:text-[15.25px] transition-transform delay-600 font-normal text-[16px] max-sm:text-[15px] animate-pulse underline">
+            [ MI PLAYLIST ]</a>
+        </div>
+
+      </div>
+
+    </div>
+
 
     <div data-aos="fade-up" data-aos-duration="2000"
       class="trabajos flex pt-32 pl-40 pr-40 pb-20 border-t-0 border-r-0 border-l-0 text-white flex-nowrap gap-60 justify-center max-lg:pt-20 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20">
