@@ -203,27 +203,27 @@
             <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado."
                 target="_blank" class="email text-lg flex gap-2 items-center max-xl:text-[14px] max-xl:justify-center">
                 ruben.maldonado.graphic@gmail.com
-                <NuxtImg  class="vector" src="/img/Vector-11white.svg"/>
+                <img class="vector" src="/img/Vector-11white.svg" />
             </a>
             <div class="links flex flex-col gap-2 text-white">
                 <div class="links1 flex gap-32 max-xl:justify-center">
                     <a class="red flex gap-2 items-center max-xl:text-[14px]"
                         href="https://www.instagram.com/maldonadoruben_/">Instagram
-                        <NuxtImg  class="vector" src="/img/Vector-11white.svg"/>
+                        <img class="vector" src="/img/Vector-11white.svg" />
                     </a>
                     <a class="red flex gap-2 items-center max-xl:text-[14px]"
                         href="https://www.behance.net/maldonadoruben">Behance
-                        <NuxtImg  class="vector" src="/img/Vector-11white.svg"/>
+                        <img class="vector" src="/img/Vector-11white.svg" />
                     </a>
                 </div>
                 <div class="links2 flex gap-32 flex-end max-xl:justify-center">
                     <a class="red flex gap-2 items-center max-xl:text-[14px]"
                         href="https://www.instagram.com/ruben.iso">Instagram
-                        <NuxtImg  class="vector" src="/img/Vector-11white.svg"/>
+                        <img class="vector" src="/img/Vector-11white.svg" />
 
                     </a> <a class="red flex gap-2 items-center max-xl:text-[14px]"
                         href="https://www.linkedin.com/in/rubenmaldonado00">LinkedIn
-                        <NuxtImg  class="vector" src="/img/Vector-11white.svg"/>
+                        <img class="vector" src="/img/Vector-11white.svg" />
                     </a>
                 </div>
             </div>
@@ -233,12 +233,12 @@
         <div class="foter bg-black p-10 flex text-white justify-between sticky top-0 max-xl:p-6">
             <div class="foter_image flex flex-start">
                 <NuxtLink to="/">
-                    <NuxtImg  class="vector max-xl:max-w-[15px]" src="/img/star.svg"/>
+                    <img class="vector max-xl:max-w-[15px]" src="/img/star.svg" />
                 </NuxtLink>
             </div>
             <div class="email flex gap-2 items-center text-sm max-xl:text-xs">Ruben Maldonado González
                 <NuxtLink to="/">
-                    <NuxtImg  class="vector max-xl:max-w-[15px]" src="/img/futbol.svg"/>
+                    <img class="vector max-xl:max-w-[15px]" src="/img/futbol.svg" />
                 </NuxtLink>
             </div>
         </div>
