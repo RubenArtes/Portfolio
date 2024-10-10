@@ -33,9 +33,9 @@
           class="text max-w-[80ch] pb-16 pt-4 max-sm:text-left text-left font-['SFUIDisplay-Light'] text-[20px] text-white max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:max-w-[100ch] max-[800px]:pb-4">
           Recopilación de fotografías y
           fanzines realizados durante el curso y
-          como trabajos personales sobre diferentes temáticas y con diferentes cometidos. Fotografías de retrato,
+          trabajos personales sobre diferentes temáticas y con diferentes cometidos. Fotografías de retrato,
           bodegones, paisajes y representación de lo social.
-          Editadas y postproducidas.
+          Imágenes postproducidas.
         </div>
 
       </div>
@@ -50,7 +50,7 @@
           Asignatura</div>
         <div
         class="text max-[1500px]:w-[20ch] font-['SFUIDisplay-Light'] text-center max-sm:text-left max-sm:max-w-[22ch] text-[16px] leading-6 text-white max-xl:text-sm max-xl:max-w-[40ch]">
-        Fotografía y audiovisuales, Técnicas Fotográficas, 4º Diseño Gráfico.
+        Fotografía y audiovisuales
         </div>
       </div>
       <div class="info flex flex-col">
@@ -59,7 +59,7 @@
           Tiempo</div>
         <div
           class="text max-w-[20ch] font-['SFUIDisplay-Light'] max-sm:text-start text-center text-[16px] leading-6 max-xl:text-sm max-xl:max-w-[40ch]">
-          2 años
+          3 años
         </div>
       </div>
       <div class="info flex flex-col">
