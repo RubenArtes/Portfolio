@@ -3,8 +3,8 @@
      class="app bg-black font-['SFUIDisplay-Regular']">
         <Cursor class="max-sm:hidden" />
         <div
-            class="header bg-black p-10 px-32 text-white grid grid-cols-2 sticky top-0 z-50 max-lg:p-6 max-lg:sticky max-sm:flex max-sm:justify-between max-sm:px-8">
-            <div class="image place-self-start self-center">
+        class="header bg-black p-10 px-32 text-white grid grid-cols-2 sticky top-0 z-50 max-lg:p-6 max-lg:sticky max-sm:flex max-sm:justify-between max-sm:px-8">
+        <div class="image place-self-start self-center">
                 <NuxtLink to="/Home">
                     <img class="max-lg:max-w-[15px] w-[20px]" src="/img/logogif4.gif" />
                 </NuxtLink>

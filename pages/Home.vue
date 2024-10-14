@@ -80,7 +80,7 @@
     </div>-->
 
     <div
-      class="banner flex max-[1920px]:pt-[120px] max-[1920px]:pb-[100px] pt-[280px] pb-[200px] text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[1920px]:px-28 max-sm:hidden">
+      class="banner flex max-[1920px]:pt-[120px] max-[1920px]:pb-[100px] pt-[280px] pb-[170px] text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[1920px]:px-28 max-sm:hidden">
       <img class="banner_image max-[1920px]:w-[240px] w-[300px] h-full" src="/img/logorubenmal5.svg">
 
 
@@ -1183,7 +1183,7 @@
     </div>
 
     <div
-      class="trabajos max-sm:hidden grid grid-cols-3 pt-32 max-sm:pt-2 pl-40 pr-40 pb-20 border-t-0 border-r-0 border-l-0 text-black flex-nowrap gap-60 justify-center max-lg:pt-20 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20">
+    class="trabajos max-sm:hidden flex pt-32 pl-40 pr-40 pb-12 bg-white text-black flex-nowrap gap-[420px] justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-6 max-sm:pb-12 max-sm:pt-24 border-black">
       <div class="sticky_menu">
         <div data-aos="fade-up" data-aos-duration="2000"
           class="titular flex flex-col text-[72px] font-normal sticky top-[9rem] max-lg:text-[60px] font-['PPE-Ultralight']">
@@ -1230,10 +1230,10 @@
     </div>
 
     <div
-      class="trabajos max-sm:hidden grid grid-cols-3 pt-32 pl-40 pr-40 pb-40 text-black flex-nowrap gap-60 justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20">
-      <div class="sticky_menu">
+    class="trabajos max-sm:hidden flex pt-32 pl-40 pr-40 pb-32 bg-white text-black flex-nowrap gap-[420px] justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-6 max-sm:pb-12 max-sm:pt-24 border-black">
+    <div class="sticky_menu">
         <div data-aos="fade-up" data-aos-duration="2000"
-          class="titular flex flex-col text-[72px] font-normal sticky top-[9rem] max-lg:text-[60px] font-['PPE-Ultralight']">
+          class="titular flex flex-col text-[72px] font-normal top-[9rem] max-lg:text-[60px] font-['PPE-Ultralight']">
           ESTUDIOS
         </div>
       </div>
@@ -1364,7 +1364,7 @@
     <div id="tienda" class="pb-14"></div>
 
     <div
-      class="trabajos flex pt-32 pl-40 pr-40 pb-12 bg-white text-black flex-nowrap gap-[540px] justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-6 max-sm:pb-12 max-sm:pt-24 border-black">
+      class="trabajos flex pt-32 pl-40 pr-40 pb-12 bg-white text-black flex-nowrap gap-[420px] justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-6 max-sm:pb-12 max-sm:pt-24 border-black">
       <div class="sticky_menu">
         <div
           class="titular flex flex-col text-[72px] font-normal sticky top-[9rem] max-lg:text-[60px] font-['PPE-Ultralight']">
