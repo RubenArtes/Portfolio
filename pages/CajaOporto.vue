@@ -1,6 +1,7 @@
 <template>
+        <Cursor class="mix-blend-exclusion" />
+
     <div class="app bg-white font-['SFUIDisplay-Regular']">
-        <Cursor class="max-sm:hidden" />
         <div
             class="header bg-white p-10 border-t-0 px-32 text-black grid grid-cols-2 sticky top-0 z-50 max-lg:p-6 max-lg:sticky max-sm:flex max-sm:justify-between max-sm:px-8">
             <div class="image place-self-start self-center">
@@ -144,8 +145,8 @@
 
         <div
             class="video flex pt-8 pb-20 max-sm:pb-8 text-zinc-600 flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
-            <NuxtImg class="image max-sm:hidden w-full h-full" src="/img/oportoazulejo2.png" alt=""/>
-            <NuxtImg class="image hidden max-sm:flex w-full h-full" src="/img/cajaoporto.png" alt=""/>
+            <NuxtImg class="image image-rendering:pixelated max-sm:hidden w-full h-full" src="/img/oportoazulejo2.png" alt=""/>
+            <NuxtImg class="image image-rendering:pixelated hidden max-sm:flex w-full h-full" src="/img/cajaoporto.png" alt=""/>
 
 
 

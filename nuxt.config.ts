@@ -4,5 +4,4 @@ export default defineNuxtConfig({
     css: [
       "/global.scss",
     ],
-    
-})
+});

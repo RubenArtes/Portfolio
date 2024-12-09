@@ -1,6 +1,6 @@
 <template>
     <div class="app bg-[#252422] font-['SFUIDisplay-Regular']">
-        <Cursor class="max-sm:hidden" />
+    <Cursor class="mix-blend-exclusion" />
         <VueScrollProgressBar background-color="#ffffff" />
 
 

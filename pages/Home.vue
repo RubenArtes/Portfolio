@@ -1,6 +1,7 @@
 <template>
+    <Cursor class="mix-blend-exclusion" />
+    <Cursor2 class="" />
   <div id="inicio" class="app bg-white font-['SFUIDisplay-Light']">
-    <Cursor class="max-sm:hidden" />
     <div
       class="header bg-white p-10 border-t-0 px-32 text-black grid grid-cols-3 sticky top-0 z-50 max-lg:p-6 max-lg:sticky max-sm:flex max-sm:justify-between max-sm:px-8">
       <div class="image place-self-start self-center">
@@ -78,6 +79,7 @@
         </div>
       </div>
     </div>-->
+
 
     <div
       class="banner flex max-[1920px]:pt-[120px] max-[1920px]:pb-[100px] pt-[280px] pb-[170px] text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[1920px]:px-28 max-sm:hidden">
@@ -1183,7 +1185,7 @@
     </div>
 
     <div
-    class="trabajos max-sm:hidden flex pt-32 pl-40 pr-40 pb-12 bg-white text-black flex-nowrap gap-[420px] justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-6 max-sm:pb-12 max-sm:pt-24 border-black">
+      class="trabajos max-sm:hidden flex pt-32 pl-40 pr-40 pb-12 bg-white text-black flex-nowrap gap-[420px] justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-6 max-sm:pb-12 max-sm:pt-24 border-black">
       <div class="sticky_menu">
         <div data-aos="fade-up" data-aos-duration="2000"
           class="titular flex flex-col text-[72px] font-normal sticky top-[9rem] max-lg:text-[60px] font-['PPE-Ultralight']">
@@ -1230,8 +1232,8 @@
     </div>
 
     <div
-    class="trabajos max-sm:hidden flex pt-32 pl-40 pr-40 pb-32 bg-white text-black flex-nowrap gap-[420px] justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-6 max-sm:pb-12 max-sm:pt-24 border-black">
-    <div class="sticky_menu">
+      class="trabajos max-sm:hidden flex pt-32 pl-40 pr-40 pb-32 bg-white text-black flex-nowrap gap-[420px] justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-6 max-sm:pb-12 max-sm:pt-24 border-black">
+      <div class="sticky_menu">
         <div data-aos="fade-up" data-aos-duration="2000"
           class="titular flex flex-col text-[72px] font-normal top-[9rem] max-lg:text-[60px] font-['PPE-Ultralight']">
           ESTUDIOS
@@ -1706,6 +1708,7 @@ import { MotionPlugin } from "@vueuse/motion";
 
 import 'vue3-carousel/dist/carousel.css'
 import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
+import Cursor2 from "~/components/Cursor2.vue";
 
 
 export default {

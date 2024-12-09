@@ -1,17 +1,26 @@
 module.exports = {
+  content: [
+    "./presets/**/*.{js,vue,ts}", // presets folder path
+    "./components/**/*.{js,vue,ts}",
+    "./layouts/**/*.vue",
+    "./pages/**/*.vue",
+    "./plugins/**/*.{js,ts}",
+    "./app.vue",
+    "./error.vue",
+    "./src/**/*.{vue,js,ts,jsx,tsx}",
+  ],
   theme: {
     extend: {
       animation: {
         text: "text 2s ease infinite",
       },
       components: {
-        PerfectScrollbar
-            },
+        PerfectScrollbar,
+      },
       screens: {
         "7xl": "2000px",
-        "sm": "760px",
+        sm: "760px",
         "3xl": "1919px",
-
       },
       keyframes: {
         text: {
@@ -28,5 +37,6 @@ module.exports = {
     },
   },
   plugins: [
+
   ],
 };

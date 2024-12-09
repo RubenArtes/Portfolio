@@ -9,10 +9,10 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^6.6.6",
+    "@nuxtjs/tailwindcss": "^6.12.2",
+    "@primevue/nuxt-module": "^4.2.4",
     "@sidebase/nuxt-pdf": "^1.0.0-alpha.0",
     "@types/node": "^18",
-    "autoprefixer": "^10.4.14",
     "imagemin-mozjpeg": "^10.0.0",
     "imagemin-pngquant": "^10.0.0",
     "imagemin-svgo": "^11.0.1",
@@ -20,10 +20,8 @@
     "nuxt": "^3.4.2",
     "nuxt-aos": "^1.2.5",
     "nuxt-marquee": "^1.0.4",
-    "postcss": "^8.4.24",
     "sass": "^1.62.1",
     "sass-loader": "^13.2.2",
-    "tailwindcss": "^3.3.2",
     "tailwindcss-animated": "^1.1.2"
   },
   "dependencies": {
@@ -38,16 +36,21 @@
     "@nuxt/image": "^1.8.0",
     "@phosphor-icons/vue": "^2.0.1",
     "@vueuse/motion": "^2.0.0",
+    "aura": "^0.13.0",
+    "autoprefixer": "^10.4.20",
     "custom-vue-scrollbar": "^0.0.8",
     "flowbite": "^1.8.1",
     "flowbite-vue": "^0.0.12",
-    "gsap": "^3.12.1",
+    "gsap": "^3.12.5",
+    "postcss": "^8.4.49",
     "simplescrollup": "^1.1.1",
+    "tailwindcss": "^3.4.16",
     "taos": "^1.0.5",
     "v-img": "^0.2.0",
     "vue-backtotop": "^1.6.1",
     "vue-custom-scrollbar": "^1.4.4",
     "vue-expandable-image": "^0.1.0",
+    "vue-marquee-text-component": "^2.0.1",
     "vue3-carousel": "^0.3.1",
     "vue3-perfect-scrollbar": "^1.6.1"
   }
