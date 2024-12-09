@@ -1,7 +1,12 @@
 <template>
-  <div class="app bg-[url('/img/index.gif')] bg-cover relative w-full min-h-full">
+  <div class="app bg-[url('/img/index.gif')] bg-cover relative w-full min-h-full max-sm:hidden">
     <div class="overlay fade-overlay"></div>
     <div class="hola min-h-screen"></div>
+  </div>
+
+  <div class="app bg-[url('/img/introruben3.gif')] bg-cover h-screen hidden max-sm:flex">
+    <div class="overlay fade-overlay"></div>
+    <div class="hola h-screen"></div>
   </div>
 </template>
 

@@ -45,7 +45,7 @@
                 <ul class="pt-12 flex flex-col justify-between h-full">
                     <div class="columna1 flex-grow">
                         <li>
-                            <a href="#trabajos2"
+                            <a href="/Intro#trabajos2"
                                 class="email max-sm:text-[22px] max-sm:leading-8 mix-blend-exclusion relative underline-offset-1 after:bg-white after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
                                 Trabajos
                             </a>
@@ -97,16 +97,16 @@
         </div>
 
         <div
-            class="caja1 text-left px-20 pt-32 text-[90px] pb-12 font-['Neue'] leading-[6rem] cursor-pointer text-white bg-black duration-300 ">
+            class="caja1 text-left px-20 pt-32 text-[90px] pb-12 font-['Neue'] leading-[6rem] cursor-pointer text-white bg-black duration-300 max-sm:px-8 max-sm:text-[30px] max-sm:leading-9">
             Dibujando desde que tenía 5 años. Con una cámara desde que tenia 10 años. Y constantemente aprendiendo. Me
-            llamo <a class="text-[#ff2d7e] underline decoration-[6px] underline-offset-[10px]">Rubén Maldonado</a> y soy
+            llamo <a class="text-[#ff2d7e] underline decoration-[6px] underline-offset-[10px] max-sm:decoration-[3px] max-sm:underline-offset-[4px]">Rubén Maldonado</a> y soy
             un apasionado del Diseño Gráfico,
             la ilustración, el arte y la fotografía.<br>
         </div>
 
 
         <div
-            class="caja1 uppercase text-left items-end grid grid-cols-2 place-content-end px-20 text-[170px] pb-6 font-['Neue-Bold'] leading-[10rem] text-white bg-black duration-300 ">
+            class="caja1 uppercase text-left items-end grid grid-cols-2 place-content-end px-20 text-[170px] pb-6 font-['Neue-Bold'] leading-[10rem] text-white bg-black duration-300 max-sm:grid-cols-1 max-sm:px-8">
             <div class="texto1"></div>
             <div class="texto2">
                 <p
@@ -127,7 +127,7 @@
 
 
         <div
-            class="caja1 uppercase text-left items-end grid grid-cols-2 place-content-end px-20 text-[170px] pb-6 font-['Neue-Bold'] leading-[10rem] text-white bg-black duration-300 ">
+            class="caja1 uppercase text-left items-end grid grid-cols-2 place-content-end px-20 text-[170px] pb-6 font-['Neue-Bold'] leading-[10rem] text-white bg-black duration-300 max-sm:grid-cols-1 max-sm:px-8">
             <div class="texto1"></div>
             <div class="texto2">
                 <p
@@ -147,7 +147,7 @@
 
 
         <div
-            class="caja1 uppercase text-left items-end grid grid-cols-2 place-content-end px-20 text-[170px] pb-12 font-['Neue-Bold'] leading-[10rem] text-white bg-black duration-300 ">
+            class="caja1 uppercase text-left items-end grid grid-cols-2 place-content-end px-20 text-[170px] pb-12 font-['Neue-Bold'] leading-[10rem] text-white bg-black duration-300 max-sm:grid-cols-1 max-sm:px-8 max-sm:pb-2 max-sm:px-8">
             <div class="texto1"></div>
             <div class="texto2">
                 <p
@@ -164,7 +164,7 @@
         </div>
 
         <div
-            class="caja1 uppercase text-left items-end grid grid-cols-2 place-content-end px-20 text-[170px] pt-32 font-['Neue-Bold'] leading-[10rem] text-white bg-black duration-300 ">
+            class="caja1 uppercase text-left items-end grid grid-cols-2 place-content-end px-20 text-[170px] pt-32 font-['Neue-Bold'] leading-[10rem] text-white bg-black duration-300 max-sm:pt-2 max-sm:px-8">
             <div class="texto1">
                 <a target="_blank" href="/Marca"
                     class="titulo bg-black text-[#ff2d7e]  text-[30px] gap-2 leading-[40px] max-lg:text-xs normal-case font-['Neue'] hover:text-zinc-500 underline transition-all duration-500">
@@ -185,15 +185,17 @@
 
         </div>
 
-        <img class="bg-black w-full pt-32 px-[400px]" src="/img/yocomposicion.png">
+        <img class="bg-black w-full pt-32 px-[400px] max-sm:hidden" src="/img/yocomposicion.png">
+        <img class="bg-black w-full pt-32 px-[400px] hidden max-sm:flex max-sm:px-8 max-sm:pt-6 max-sm:pb-8" src="/img/yocomposicion.png">
+
 
         <div
-            class="caja1 text-left px-20 pt-44 font-['Neue'] text-[170px] pb-12  cursor-pointer text-white bg-black duration-300 ">
+            class="titulo bg-black max-sm:text-[30px] max-sm:px-6 max-sm:pt-4 pt-12 w-full text-white px-20 text-[170px] self-center place-self-end flex gap-2 max-lg:text-xs max-sm:leading-8 max-sm:px-8">
             Clientes
         </div>
 
-        <div class="trabajos bg-black grid grid-cols-3 px-20 gap-48">
-            <div class="categoria1 pt-20 pb-20 bg-black flex flex-col gap-12 self-start">
+        <div class="trabajos bg-black grid grid-cols-3 px-20 gap-48 max-sm:grid-cols-1 max-sm:px-8 max-sm:gap-6">
+            <div class="categoria1 pt-20 pb-20 bg-black flex flex-col gap-12 self-start max-sm:gap-6 max-sm:pt-12 max-sm:pb-2">
                 <div class="flex justify-between">
                     <p class="titulo bg-black text-left text-zinc-400 leading-none text-[20px] gap-2 max-lg:text-xs ">
                         Trabajando actualmente en
@@ -210,7 +212,7 @@
                         src="/img/prodigioso.svg"></a>
 
             </div>
-            <div class="categoria1 pt-20 pb-20 bg-black flex flex-col gap-12 self-start">
+            <div class="categoria1 pt-20 pb-20 bg-black flex flex-col gap-12 self-start max-sm:pt-12 max-sm:pb-2">
                 <div class="flex justify-between">
                     <p class="titulo bg-black text-left text-zinc-400 leading-none text-[20px] gap-2 max-lg:text-xs ">
                         Ex-diseñador en
@@ -226,7 +228,7 @@
                         src="/img/garrido.svg"></a>
 
             </div>
-            <div class="categoria1 pt-20 pb-20 bg-black flex flex-col gap-12 self-start">
+            <div class="categoria1 pt-20 pb-20 bg-black flex flex-col gap-12 self-start max-sm:pt-12 max-sm:pb-2">
                 <div class="flex justify-between">
                     <p class="titulo bg-black text-left text-zinc-400 leading-none text-[20px] gap-2 max-lg:text-xs ">
                         Diseñador freelance bajo mi marca
@@ -244,23 +246,23 @@
 
         </div>
 
-        <p class="titulo bg-black pt-12 text-left text-zinc-400 text-[16px] leading-[12px] gap-2 max-lg:text-xs px-20">
-            _ Ganador de concurso de carteles para Villaluenga de la Sagra. <br><br>
-            _ Diseñador gráfico para empresa Neumáticos por Poco. (6 meses) <br><br>
-            _ Renovación y creación de marca para la empresa Motor 76. (1 mes) <br><br>
-            _ Creación de ilustraciones para Ecos Castilla La Mancha. (2 meses) <br><br>
-            _ Diseñador Freelance por horas para empresas. (2 meses) <br><br>
-            _ Diseño de portadas para proyecto musical. <br><br>
+        <p class="titulo bg-black pt-12 text-left text-zinc-400 text-[16px] leading-[12px] gap-2 max-lg:text-xs px-20 max-sm:px-8">
+            _ Ganador de concurso de carteles para Villaluenga de la Sagra. <br><br class="max-sm:hidden">
+            _ Diseñador gráfico para empresa Neumáticos por Poco. (6 meses) <br><br class="max-sm:hidden">
+            _ Renovación y creación de marca para la empresa Motor 76. (1 mes) <br><br class="max-sm:hidden">
+            _ Creación de ilustraciones para Ecos Castilla La Mancha. (2 meses) <br><br class="max-sm:hidden">
+            _ Diseñador Freelance por horas para empresas. (2 meses) <br><br class="max-sm:hidden">
+            _ Diseño de portadas para proyecto musical. <br><br class="max-sm:hidden">
 
         </p>
 
         <div
-            class="caja1 text-left px-20 pt-44 text-[170px] pb-12 font-['Neue'] cursor-pointer text-white bg-black duration-300 ">
-            Estudios
+        class="titulo bg-black max-sm:text-[30px] max-sm:px-6 max-sm:pt-24 pt-12 w-full text-white px-20 text-[170px] self-center place-self-end flex gap-2 max-lg:text-xs max-sm:leading-8 max-sm:px-8">
+        Estudios
         </div>
 
-        <div class="trabajos bg-black px-20 grid grid-cols-3">
-            <div class="categoria1 pt-20 pb-20 bg-black flex flex-col gap-12 self-start">
+        <div class="trabajos bg-black px-20 grid grid-cols-3 max-sm:grid-cols-1 max-sm:px-8">
+            <div class="categoria1 pt-20 pb-20 bg-black flex flex-col gap-12 self-start max-sm:py-4 max-sm:pt-12 max-sm:gap-4">
                 <div class="flex justify-between">
                     <p class="titulo bg-black text-left text-zinc-400 leading-none text-[20px] gap-2 max-lg:text-xs ">
                         Bachillerato Artístico
@@ -274,7 +276,7 @@
                 </p>
 
             </div>
-            <div class="categoria1 pt-20 pb-20 bg-black flex flex-col gap-12 items-center self-start">
+            <div class="categoria1 pt-20 pb-20 bg-black flex flex-col gap-12 self-start max-sm:py-4 max-sm:py-12 max-sm:gap-4">
                 <div class="flex justify-between">
                     <p class="titulo bg-black text-left text-zinc-400 leading-none text-[20px] gap-2 max-lg:text-xs ">
                         Grado Superior de Ilustración
@@ -291,7 +293,7 @@
                 </p>
 
             </div>
-            <div class="categoria1 pt-20 pb-20 bg-black flex flex-col gap-12 items-end self-end">
+            <div class="categoria1 pt-20 pb-20 bg-black flex flex-col gap-12 self-end max-sm:py-4 max-sm:py-12 max-sm:gap-4">
                 <div class="flex justify-between">
                     <p class="titulo bg-black text-left text-zinc-400 leading-none text-[20px] gap-2 max-lg:text-xs ">
                         Grado Universitario
@@ -308,45 +310,46 @@
 
 
         </div>
-        <p class="titulo bg-black pt-12 text-left text-zinc-400 text-[16px] leading-[12px] gap-2 max-lg:text-xs px-20">
-            _ Curso extracurricular de 2 años de Arte y Pintura en Villaluenga de la Sagra. <br><br>
+        <p class="titulo bg-black pt-12 text-left text-zinc-400 text-[16px] leading-[12px] gap-2 max-sm:py-4 max-lg:text-xs px-20 max-sm:px-8">
+            _ Curso extracurricular de 2 años de Arte y Pintura en Villaluenga de la Sagra. <br><br class="max-sm:hidden">
             _ Cursos de Domestika: "Ilustración Digital con Procreate", "Ilustración Digital aplicada a productos",
             "Introducción al lettering con Procreate".
         </p>
 
 
 
-        <div id="contacto" class="informacion pt-[300px] pb-64 bg-black">
+        <div id="contacto" class="informacion max-sm:pt-24 pt-[300px] pb-64 bg-black max-sm:pb-32 max-sm:px-2">
             <div class="about bg-black">
-                <div class="correo grid grid-cols-2 text-white">
+                <div class="correo grid grid-cols-2 max-sm:grid-cols-1 text-white">
                     <div
-                        class="caja2 text-left animate-pulse px-20 font-['Neue'] max-[1920px]:text-[150px] max-[1920px]:leading-[8.5rem] text-[170px] pt-12 pb-12 leading-[10rem] cursor-pointer text-white transition-colors duration-300 hover:text-white">
+                        class="caja2 text-left max-sm:text-[60px] max-sm:px-6 max-sm:leading-[50px] animate-pulse px-20 font-['Neue'] max-[1920px]:text-[150px] max-[1920px]:leading-[8.5rem] text-[170px] pt-12 pb-12 leading-[10rem] cursor-pointer text-white transition-colors duration-300 hover:text-white">
                         Correo
                     </div>
                     <div
-                        class="caja1 text-left self-center px-20 text-[20px] leading-[10rem] font-['Neue'] cursor-pointer text-white">
+                        class="caja1 text-left self-center max-sm:self-start max-sm:px-6 px-20 text-[20px] leading-[10rem] font-['Neue'] cursor-pointer text-white">
                         <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado."
                             target="_blank"
-                            class="email font-['Neue'] text-lg flex gap-2 items-center max-lg:text-[14px] max-lg:justify-center max-sm:pr-0">
+                            class="email font-['Neue'] text-lg flex gap-2 items-center max-sm:items-left max-sm:justify-start max-lg:text-[14px] max-lg:justify-center max-sm:pr-0">
                             ruben.maldonado.graphic@gmail.com
                             <img class="vector" src="/img/Vector-11.svg" />
                         </a>
                     </div>
                 </div>
             </div>
-            <div class="about bg-black pt-2 relative">
+            <div class="about bg-black pt-2">
 
 
                 <!-- Redes Sociales -->
-                <div class="redes grid grid-cols-2 text-white group hover:group-[.hover]:cursor-default">
+                <div
+                    class="redes grid grid-cols-2 max-sm:grid-cols-1 text-white group hover:group-[.hover]:cursor-default">
                     <!-- Caja 2 -->
                     <div
-                        class="caja2 text-left px-20 font-['Neue'] max-[1920px]:text-[150px] max-[1920px]:leading-[8.5rem] text-[170px] pt-12 pb-12 leading-[10rem] cursor-pointer text-zinc-700 transition-colors duration-300 hover:text-white">
+                        class="caja2 max-sm:animate-pulse max-sm:text-white text-left max-sm:text-[60px] max-sm:px-6 max-sm:leading-[50px] px-20 font-['Neue'] max-[1920px]:text-[150px] max-[1920px]:leading-[8.5rem] text-[170px] pt-12 pb-12 leading-[10rem] cursor-pointer text-zinc-700 transition-colors duration-300 hover:text-white">
                         Redes sociales
                     </div>
                     <!-- Redes ocultas por defecto y visibles al hacer hover -->
                     <div
-                        class="caja1 text-left self-center px-20 text-[20px] grid grid-cols-2 font-['Neue'] hidden group-hover:grid">
+                        class="caja1 text-left self-center max-sm:px-6 px-20 text-[20px] grid grid-cols-2 font-['Neue'] hidden max-sm:grid max-sm:grid-cols-2 group-hover:grid">
                         <a class="red flex text-lg gap-2 items-center max-lg:text-[14px]"
                             href="https://www.instagram.com/maldonadoruben_/" target="_blank">
                             <img class="vector w-[14px]" src="/img/Instagram2.png" />
@@ -375,17 +378,17 @@
                 </div>
 
                 <!-- Información -->
-                <div class="informacion grid grid-cols-2 text-white group">
+                <div class="informacion grid grid-cols-2 max-sm:grid-cols-1 text-white group">
                     <!-- Caja 3 -->
                     <div
-                        class="caja2 text-left max-[1920px]:text-[150px] max-[1920px]:leading-[8.5rem] px-20 font-['Neue'] text-[170px] pt-12 pb-12 leading-[10rem] cursor-pointer text-zinc-700 transition-colors duration-300 hover:text-white">
+                        class="caja2 max-sm:animate-pulse max-sm:text-white text-left max-sm:text-[60px] max-sm:px-6 max-sm:leading-[50px] px-20 font-['Neue'] max-[1920px]:text-[150px] max-[1920px]:leading-[8.5rem] text-[170px] pt-12 pb-12 leading-[10rem] cursor-pointer text-zinc-700 transition-colors duration-300 hover:text-white">
                         Información
                     </div>
                     <!-- Información oculta por defecto y visible al hacer hover -->
                     <div
-                        class="caja1 text-left self-center px-20 text-[20px] leading-[10rem] font-['Neue'] hidden group-hover:block">
+                        class="caja1 text-left self-center max-sm:px-6 px-20 text-[20px] leading-[10rem] font-['Neue'] max-sm:block hidden group-hover:block">
                         <a href="mailto:ruben.maldonado.graphic@gmail.com" target="_blank"
-                            class="email text-lg flex gap-2 items-center max-lg:text-[14px] max-lg:justify-center max-sm:pr-0">
+                            class="email text-lg flex gap-2 items-center max-lg:text-[14px] max-sm:justify-start max-lg:justify-center max-sm:pr-0">
                             Rubén Maldonado González<br> All rights reserved | Copyright ©<br>Actualizado Diciembre 2024
                         </a>
                     </div>
@@ -400,7 +403,7 @@
             <div class="foter_image flex flex-start max-sm:gap-2">
                 <img class="vector max-lg:max-w-[15px]" src="/img/star.svg" />
             </div>
-            <div class="email  font-['Neue']  flex pr-12 pl-12 gap-2 justify-end items-center text-sm max-lg:text-xs">
+            <div class="email flex pr-12 pl-12 gap-2 justify-end items-center text-sm max-lg:text-xs">
                 2024
             </div>
             <img class="vector max-lg:max-w-[15px]" src="/img/star.svg" />

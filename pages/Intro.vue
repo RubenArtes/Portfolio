@@ -124,7 +124,7 @@
                 <ul class="pt-12 flex flex-col justify-between h-full">
                     <div class="columna1 flex-grow">
                         <li>
-                            <a href="#trabajos2"
+                            <a href="/Intro#trabajos2"
                                 class="email max-sm:text-[22px] max-sm:leading-8 mix-blend-exclusion relative underline-offset-1 after:bg-white after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
                                 Trabajos
                             </a>
@@ -596,9 +596,9 @@
 
 
         <div id="trabajos"
-            class="texto flex w-full bg-black max-sm:px-6 max-sm:pb-24 max-sm:pt-24 px-20 pt-64 justify-between">
+            class="texto flex w-full bg-black max-sm:px-6 max-sm:pb-2 max-sm:pt-24 px-20 pt-64 justify-between">
             <p
-                class="caja2 text-left max-sm:text-[30px] max-sm:leading-[2rem] font-['Neue'] text-[50px] leading-[3rem] pb-24 cursor-pointer text-white ">
+                class="caja2 text-left max-sm:text-[30px] max-sm:leading-[2rem] font-['Neue'] text-[50px] leading-[3rem] pb-24 max-sm:pb-12 cursor-pointer text-white ">
                 Colaboraciones <br>/ Otros proyectos
             </p>
 
