@@ -45,7 +45,7 @@
                 <ul class="pt-12 flex flex-col justify-between h-full text-black">
                     <div class="columna1 flex-grow">
                         <li>
-                            <a href="/Intro#trabajos2"
+                            <a href="/IntroDark#contacto"
                                 class="email  max-sm:text-[22px] max-sm:leading-8 mix-blend-exclusion relative underline-offset-1 after:bg-white after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
                                 Trabajos
                             </a>

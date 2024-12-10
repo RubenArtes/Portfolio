@@ -455,7 +455,7 @@
 
                         <!-- Segundo bloque de texto -->
                         <div
-                        class="text-[170px] pt-24 pb-24 text-start leading-[4rem]max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
+                        class="text-[170px] pt-24 pb-24 text-start leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
                             Typenotes
                         </div>
                     </div>
@@ -510,11 +510,7 @@
 
                         <!-- Segundo bloque de texto -->
                         <div
-                            class="text-[170px] pt-24 pb-24 max-sm:hidden text-start leading-[4rem] max-sm:py-6 max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
-                            Fotografías
-                        </div>
-                        <div
-                            class="text-[170px] hidden max-[600px]:flex text-start pt-24 pb-24 leading-[4rem] max-sm:py-6 max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
+                            class="text-[170px] max-[600px]:flex text-start pt-24 pb-24 leading-[4rem] max-sm:py-6 max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
                             Fotografía
                         </div>
                     </div>
@@ -569,12 +565,9 @@
                         </div>
 
                         <!-- Segundo bloque de texto -->
-                        <div
-                            class="text-[170px] max-[1920px]:hidden text-start pt-24 pb-24 leading-[4rem] max-sm:py-6 max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
-                            Ilustraciones
-                        </div>
-                        <div
-                            class="text-[170px] hidden max-[1920px]:flex text-start pt-24 pb-24 leading-[4rem] max-sm:py-6 max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
+
+                          <div
+                            class="text-[170px] max-[1920px]:flex text-start pt-24 pb-24 leading-[4rem] max-sm:py-6 max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
                             Ilustración
                         </div>
                     </div>
