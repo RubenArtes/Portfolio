@@ -1,23 +1,89 @@
 <template>
     <div id="inicio" class="app bg-white font-['SFUIDisplay-Light']">
     <Cursor class="mix-blend-exclusion" />
+    <div class="menu flex justify-between w-full fixed top-0 left-0 right-0 z-[100000] bg-white backdrop-filter">
+        <!-- Header -->
         <div
-            class="header bg-white p-10 border-t-0 px-32 text-black grid grid-cols-2 sticky top-0 z-50 max-lg:p-6 max-lg:sticky max-sm:flex max-sm:justify-between max-sm:px-8">
-            <div class="image place-self-start self-center">
-                <NuxtLink to="/Home">
-                    <img class="max-lg:max-w-[15px] w-[20px]" src="/img/logoframbuesa.png" />
-                </NuxtLink>
+            class="header flex justify-between w-full px-20 py-8 flex gap-12 text-white items-center z-[99999] max-lg:flex max-sm:flex max-sm:justify-between max-sm:px-8">
+            <!-- Contenedor alineado a la izquierda -->
+            <div class="contenedor flex items-center justify-start text-[25px]">
+                <div class="image">
+                    <NuxtLink class="flex" to="/Intro">
+                        <img class="max-lg:max-w-[15px] w-[20px]" src="/img/darklogo.png" />
+                    </NuxtLink>
+                </div>
             </div>
-            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado."
-                target="_blank" class="email self-center text-lg  place-self-end flex gap-2 max-lg:text-xs">
-                ruben.maldonado.graphic@gmail.com
-                <img class="vector max-lg:max-w-[8px]" src="/img/Vector-11black.svg" />
-            </a>
+
+            <!-- Botón para abrir la slidebar dentro del navbar -->
+            <button @click="toggleSidebar"
+                class="email2 max-sm:text-[30px] max-sm:no-underline relative text-black justify-end underline-offset-1 after:bg-white after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[26px] max-[1920px]:text-[20px] self-center place-self-end flex gap-2 max-lg:text-xs"
+                :class="{ hidden: isOpen }">
+                Menu
+            </button>
         </div>
+
+        <!-- Slidebar (desplegada a la derecha) -->
+        <div class="menucito fixed top-0 right-0 h-full w-[860px] max-sm:w-full max-[1920px]:w-[700px] bg-zinc-600 shadow-lg z-[99999] p-8 max-sm:p-10 transform transition-transform backdrop-filter backdrop-blur-md bg-opacity-30 text-white"
+            :class="{ 'translate-x-0': isOpen, 'translate-x-full': !isOpen }">
+            <div class="flex justify-between items-center">
+                <h2 @click="toggleSidebar"
+                    class="email text-black relative text-[26px] max-[1920px]:text-[20px] max-sm:text-[40px] self-center place-self-end flex gap-2 max-lg:text-xs cursor-pointer">
+                    Menú
+                </h2>
+                <button @click="toggleSidebar"
+                    class="email text-black relative text-[26px] max-sm:text-[20px] max-[1920px]:text-[20px] self-center place-self-end flex gap-2 max-lg:text-xs">
+                    &times;
+                </button>
+            </div>
+
+            <!-- Contenido de la slidebar -->
+            <ul class="pt-12 flex flex-col justify-between h-full relative z-[99999] text-black">
+                <div class="columna1 flex-grow">
+                    <li>
+                        <a href="/Intro#trabajos2"
+                            class="email  max-sm:text-[22px] max-sm:leading-8 mix-blend-exclusion relative underline-offset-1 after:bg-white after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                            Trabajos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/Servicios"
+                            class="email max-sm:text-[22px] max-sm:leading-8 mix-blend-exclusion relative underline-offset-1 after:bg-white after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                            Servicios
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/Sobremi"
+                            class="email max-sm:text-[22px] max-sm:leading-8 mix-blend-exclusion relative underline-offset-1 after:bg-white after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                            Sobre mi
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/Tienda"
+                            class="email max-sm:text-[22px] max-sm:leading-8 mix-blend-exclusion relative underline-offset-1 after:bg-white after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                            Tienda
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contacto"
+                            class="email max-sm:text-[22px] max-sm:leading-8 mix-blend-exclusion relative underline-offset-1 after:bg-white after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                            Contacto
+                        </a>
+                    </li>
+                </div>
+                <div class="columna mt-auto pb-6 flex justify-between">
+                    <p>Copyright 2024</p>
+                    <p>*</p>
+                    <p>Rubén Maldonado</p>
+                    <p>*</p>
+                    <p>Portfolio</p>
+                </div>
+            </ul>
+        </div>
+    </div>
         <VueScrollProgressBar background-color="#52525B" />
 
         <div
-            class="titular2 flex px-64 gap-64 max-[1920px]:px-32 max-[1920px]:gap-32 content-start space-between justify-center pt-20 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-[1500px]:flex-col max-[1500px]:gap-2 max-[1500px]:items-center max-[1700px]:px-10">
+            class="titular2 flex px-64 gap-64 max-[1920px]:px-32 max-[1920px]:gap-32 content-start space-between justify-center pt-44 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-[1500px]:flex-col max-[1500px]:gap-2 max-[1500px]:items-center max-[1700px]:px-10">
             <div
                 class="titular text-[120px] font-['PPE-Ultralight'] leading-12 font-bold animate-pulse bg-gradient-to-r bg-clip-text text-transparent animate-text max-sm:text-[55px] max-[1500px]:text-left max-[1280px]:text-[100px] from-[#b91c1c] via-[#be185d] to-[#fb7185] ">
                 MATUTANO</div>
@@ -562,26 +628,59 @@
 
 <script>
 
+import text from "/components/text.vue";
+
+import VueScrollProgressBar from "/components/VueScrollProgressBar";
+
+import { MotionPlugin } from "@vueuse/motion";
+
 import 'vue3-carousel/dist/carousel.css'
 import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
+import Cursor2 from "~/components/Cursor2.vue";
 
 export default {
+    data() {
+        return {
+            hovered: [false, false], // Se puede expandir según el número de trabajos
+            imageUrlMatutano: '/img/fotorealpackaging4.png', // Imagen específica para el primer trabajo
+            imageUrlOporto: '/img/oporto_31.jpg',
+            imageUrlMember: '/img/member40.gif',
+            imageUrlMetro: '/img/Fotolibro_RubénMaldonadoGonzález388.jpg',
+            imageUrlMovistar: '/img/movistardark.gif',
+            imageUrlTypenotes: '/img/caratulatypenotes.gif',
+            imageUrlPrau: '/img/vinodark.gif',
+            imageUrlAudiovisuales: '/img/variacionesfinal.gif',
+            imageUrlYelmo: '/img/videoyelmo.gif',
+            imageUrlWebESD: '/img/gifordenador3.gif',
+            imageUrlFotografias: '/img/tenerife1.png',
+            imageUrlGarridoGallery: '/img/fotoprincipal_1.jpg',
+            imageUrlIlustraciones: '/img/animacionilustraciones2.gif',
+            visible: false,
+            isOpen: false, // Controla si la barra está abierta
+            isHeaderFixed: false, // Nuevo estado para verificar si el header es fijo
+
+        };
+
+    },
+
     mounted() {
         this.$nextTick(() => {
-            const newVideo = document.getElementById('videoElementId');
-            newVideo.addEventListener('ended', () => {
-                newVideo.currentTime = 0;
-                newVideo.play();
-            });
-            newVideo.play();
+            window.addEventListener('scroll', this.handleScroll); // Añade evento de scroll
         });
     },
+
     name: 'Basic',
     components: {
         Carousel,
         Slide,
         Pagination,
         Navigation,
+    },
+
+    methods: {
+        toggleSidebar() {
+            this.isOpen = !this.isOpen;
+        },
     },
 };
 

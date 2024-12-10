@@ -32,7 +32,7 @@ export default {
       }, 500); // Tiempo para completar el fade-out antes de redirigir
     },
     redirectToHome() {
-      this.$router.push('/Intro');
+      this.$router.push('/IntroDark');
     }
   }
 };

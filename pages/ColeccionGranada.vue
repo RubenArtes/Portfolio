@@ -1,19 +1,97 @@
 <template>
     <div class="app bg-black font-['SFUIDisplay-Regular']">
     <Cursor class="mix-blend-exclusion" />
-        <div
-            class="header bg-black max-sm:border-none max-sm:border-0 max-sm:border-b-0 p-10 border-b-1 border border-r-0 border-l-0 border-t-0 px-32 text-white grid grid-cols-2 sticky top-0 z-50 max-lg:p-6 max-lg:sticky max-sm:flex max-sm:justify-between max-sm:px-8">
-            <div class="image place-self-start self-center">
-                <NuxtLink to="/Home">
-                    <NuxtImg class="max-lg:max-w-[15px] w-[20px]" src="/img/logogif4.gif" />
-                </NuxtLink>
+    <div class="menu flex justify-between w-full fixed top-0 left-0 right-0 z-[100000] bg-black backdrop-filter">
+        <!-- Header -->
+            <div
+                class="header flex justify-between w-full px-20 py-8 flex gap-12 text-white items-center z-50 max-lg:flex max-sm:flex max-sm:justify-between max-sm:px-8">
+                <!-- Contenedor alineado a la izquierda -->
+                <div class="contenedor flex items-center justify-start text-[25px]">
+                    <div class="image">
+                        <NuxtLink class="flex" to="/Intro">
+                            <img class="max-lg:max-w-[15px] w-[20px]" src="/img/logoblancoroto.svg" />
+                        </NuxtLink>
+                    </div>
+                </div>
+
+                <!-- Botón para abrir la slidebar dentro del navbar -->
+                <button @click="toggleSidebar"
+                    class="email max-sm:text-[30px] max-sm:no-underline relative mix-blend-exclusion justify-end underline-offset-1 after:bg-white after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[26px] max-[1920px]:text-[20px] self-center place-self-end flex gap-2 max-lg:text-xs">
+                    Menu
+                </button>
+
+                <!-- Navegación centrada -->
             </div>
-            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado."
-                target="_blank" class="email self-center text-lg  place-self-end flex gap-2 max-lg:text-xs">
-                ruben.maldonado.graphic@gmail.com
-                <NuxtImg class="vector max-lg:max-w-[8px]" src="/img/Vector-11.svg" />
-            </a>
+
+            <!-- Slidebar (desplegada a la derecha) -->
+            <div class="menucito fixed top-0 right-0 h-full w-[860px] max-sm:w-full max-[1920px]:w-[700px] bg-zinc-600 shadow-lg z-50 p-8 max-sm:p-10 transform transition-transform backdrop-filter backdrop-blur-md bg-opacity-20 text-white"
+                :class="{ 'translate-x-0': isOpen, 'translate-x-full': !isOpen }">
+                <div class="flex justify-between items-center">
+                    <h2 @click="toggleSidebar"
+                        class="email mix-blend-exclusion relative text-[26px] max-[1920px]:text-[20px] max-sm:text-[40px] self-center place-self-end flex gap-2 max-lg:text-xs cursor-pointer">
+                        Menú
+                    </h2>
+                    <button @click="toggleSidebar"
+                        class="email text-white mix-blend-exclusion relative text-[26px] max-sm:text-[20px] max-[1920px]:text-[20px] self-center place-self-end flex gap-2 max-lg:text-xs">
+                        &times;
+                    </button>
+                </div>
+
+                <!-- Contenido de la slidebar -->
+                <ul class="pt-12 flex flex-col justify-between h-full">
+                    <div class="columna1 flex-grow">
+                        <li>
+                            <a href="/Intro#trabajos2"
+                                class="email max-sm:text-[22px] max-sm:leading-8 mix-blend-exclusion relative underline-offset-1 after:bg-white after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                                Trabajos
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Servicios"
+                            class="email max-sm:text-[22px] max-sm:leading-8 mix-blend-exclusion relative underline-offset-1 after:bg-white after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                            Servicios
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Sobremi"
+                            class="email max-sm:text-[22px] max-sm:leading-8 mix-blend-exclusion relative underline-offset-1 after:bg-white after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                            Sobre mi
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Tienda"
+                            class="email max-sm:text-[22px] max-sm:leading-8 mix-blend-exclusion relative underline-offset-1 after:bg-white after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                            Tienda
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#contacto"
+                            class="email max-sm:text-[22px] max-sm:leading-8 mix-blend-exclusion relative underline-offset-1 after:bg-white after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                            Contacto
+                            </a>
+                        </li>
+                    </div>
+                    <div class="columna mt-auto pb-6 flex justify-between">
+                        <p>
+                            Copyright 2024
+                        </p>
+                        <p>
+                            *
+                        </p>
+                        <p>
+                            Rubén Maldonado
+                        </p>
+                        <p>
+                            *
+                        </p>
+                        <p>
+                            Portfolio
+                        </p>
+                    </div>
+                </ul>
+            </div>
         </div>
+
 
         <VueScrollProgressBar background-color="#ffffff" />
         <div
@@ -101,7 +179,7 @@
         </div>
 
         <div
-            class="titular2 max-sm:border-0 hidden max-sm:flex max-sm:pt-14 px-64 gap-64 content-start space-between justify-center pt-20 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-[1500px]:flex-col max-[1500px]:gap-2 max-[1500px]:items-center max-[1700px]:px-10">
+            class="titular2 max-sm:border-0 hidden max-sm:flex max-sm:pt-32 px-64 gap-64 content-start space-between justify-center pt-32 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-[1500px]:flex-col max-[1500px]:gap-2 max-[1500px]:items-center max-[1700px]:px-10">
             <div
                 class="titular text-[60px] font-['PPE-Ultralight'] leading-12 font-bold text-[#f1f1f1] max-sm:text-[55px] max-[1500px]:text-left max-[1280px]:text-[100px]">
                 GRANADA</div>

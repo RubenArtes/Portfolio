@@ -84,7 +84,7 @@
 
 
         <!-- Header Sticky con efecto de transparencia y z-index superior -->
-        <div class="menu flex justify-between w-full fixed top-0 left-0 right-0 z-50">
+        <div class="menu flex justify-between w-full fixed top-0 left-0 right-0 z-[10000]">
             <!-- Header -->
             <div
                 class="header flex justify-between w-full px-20 py-8 flex gap-12 text-white items-center z-50 max-lg:flex max-sm:flex max-sm:justify-between max-sm:px-8">
@@ -148,7 +148,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#contacto"
+                            <a href="/Intro#contacto"
                             class="email max-sm:text-[22px] max-sm:leading-8 mix-blend-exclusion relative underline-offset-1 after:bg-white after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
                             Contacto
                             </a>
@@ -174,7 +174,6 @@
                 </ul>
             </div>
         </div>
-
 
 
         <!-- Video al fondo detrás del header -->
@@ -280,7 +279,7 @@
                 </div>
             </NuxtLink>
 
-            <NuxtLink to="/CajaOporto">
+            <NuxtLink to="/Member">
                 <div class="trabajos bg-black">
                     <div class="grid grid-cols-2 hover:grid-cols-3 text-white bg-black pt-4 pb-4 max-[1920px]:py-[10px] items-center border border-r-0 border-l-0 border-1 border-t-1 mx-20 max-sm:mx-6 max-sm:py-2 max-sm:gap-[10px] gap-8 justify-center transition-all duration-100"
                         @mouseenter="hovered[2] = true" @mouseleave="hovered[2] = false">
@@ -307,7 +306,7 @@
                 </div>
             </NuxtLink>
 
-            <NuxtLink to="/CajaOporto">
+            <NuxtLink to="/Prau">
                 <div class="trabajos bg-black">
                     <div class="grid grid-cols-2 hover:grid-cols-3 text-white bg-black pt-4 pb-4 max-[1920px]:py-[10px] items-center border border-r-0 border-l-0 border-1 border-t-1 mx-20 max-sm:mx-6 max-sm:py-2 max-sm:gap-[10px] gap-8 justify-center transition-all duration-100"
                         @mouseenter="hovered[5] = true" @mouseleave="hovered[5] = false">
@@ -334,7 +333,7 @@
                 </div>
             </NuxtLink>
 
-            <NuxtLink to="/Member">
+            <NuxtLink to="/MetrodeMadrid">
                 <div class="trabajos bg-black">
                     <div class="grid grid-cols-2 hover:grid-cols-3 text-white bg-black pt-4 pb-4 max-[1920px]:py-[10px] items-center border border-r-0 border-l-0 border-1 border-t-1 mx-20 max-sm:mx-6 max-sm:py-2 max-sm:gap-[10px] gap-8 justify-center transition-all duration-100"
                         @mouseenter="hovered[3] = true" @mouseleave="hovered[3] = false">
@@ -361,7 +360,7 @@
                 </div>
             </NuxtLink>
 
-            <NuxtLink to="/MetrodeMadrid">
+            <NuxtLink to="/Movistar">
                 <div class="trabajos bg-black">
                     <div class="grid grid-cols-2 hover:grid-cols-3 text-white bg-black pt-4 pb-4 max-[1920px]:py-[10px] items-center border border-r-0 border-l-0 border-1 border-t-1 mx-20 max-sm:mx-6 max-sm:py-2 max-sm:gap-[10px] gap-8 justify-center transition-all duration-100"
                         @mouseenter="hovered[4] = true" @mouseleave="hovered[4] = false">
@@ -608,7 +607,7 @@
         <div class="grid grid-cols-3 max-sm:grid-cols-1 max-sm:px-6 bg-black px-20 gap-12">
 
             <div href="//www.prodigiosovolcan.com/proyectos/identidad-visual-ecovidrio/">
-                <div class="trabajos bg-black divide-y divide-white border">
+                <div class="trabajos bg-white divide-y divide-black shadow-[0_0_20px_5px_rgba(255,255,255,0.1)]">
                     <div
                         class="flex flex-col text-white bg-black pt-6 items-left justify-center transition-all duration-100">
                         <div
@@ -642,7 +641,7 @@
                         </div>
                         <div
                             class="caja2 text-left font-['Neue'] grid grid-cols-2 text-[16px] border border-x-0 border-b-0 cursor-pointer bg-black text-white divide-x divide-black divide-x-1">
-                            <img src="/img/microilustracionesecovidrio2.png">
+                            <img src="/img/ecovidrio2.png">
 
                             <a href="https://www.prodigiosovolcan.com/proyectos/identidad-visual-ecovidrio/"
                                 target="_blank"
@@ -657,7 +656,7 @@
             </div>
 
             <div href="//www.prodigiosovolcan.com/proyectos/identidad-visual-ecovidrio/">
-                <div class="trabajos bg-black divide-y divide-white border">
+                <div class="trabajos bg-white divide-y divide-black shadow-[0_0_20px_5px_rgba(255,255,255,0.1)]">
                     <div
                         class="flex flex-col text-white bg-black pt-6 items-left justify-center transition-all duration-100">
                         <div
@@ -689,8 +688,8 @@
 
                         </div>
                         <div
-                            class="caja2 text-left font-['Neue'] grid grid-cols-2 text-[16px] border border-x-0 border-b-0 cursor-pointer bg-black text-white divide-x divide-black divide-x-1">
-                            <img src="/img/newteam2.png">
+                            class="caja2 text-left font-['Neue'] grid grid-cols-2 text-[16px] border border-x-0 border-b-0 cursor-pointer bg-black text-white divide-x divide-white divide-x-1">
+                            <img src="/img/newteam4.png">
 
                             <a href="https://www.instagram.com/newteam_cf" target="_blank"
                                 class="caja2 bg-black py-12 text-right items-end h-full max-[1920px]:px-8 max-[1920px]:py-8 place-content-end flex hover:text-zinc-700 transition-all duration-500 self-center font-['Neue'] text-[30px] leading-[30px] px-12 cursor-pointer text-white">
@@ -704,7 +703,7 @@
             </div>
 
             <div href="//www.prodigiosovolcan.com/proyectos/identidad-visual-ecovidrio/">
-                <div class="trabajos bg-black divide-y divide-white border">
+                <div class="trabajos bg-white divide-y divide-black shadow-[0_0_20px_5px_rgba(255,255,255,0.1)]">
                     <div
                         class="flex flex-col text-white bg-black pt-6 items-left justify-center transition-all duration-100">
                         <div
