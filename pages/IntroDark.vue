@@ -90,7 +90,7 @@
                 <!-- Contenedor alineado a la izquierda -->
                 <div class="contenedor flex items-center justify-start text-[25px]">
                     <div class="image">
-                        <NuxtLink class="flex" to="/Intro">
+                        <NuxtLink class="flex" to="/IntroDark">
                             <img class="max-lg:max-w-[15px] w-[20px]" 
                             :class="{ hidden: isOpen }"
                             src="/img/darklogo.png" />
