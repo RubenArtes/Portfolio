@@ -1,5 +1,5 @@
 <template class="bg-white">
-    <Cursor class="max-sm:hidden" />
+    <CursorBlack class="max-sm:hidden" />
     <VueScrollProgressBar background-color="#ffffff" class="mix-blend-exclusion z-0 relative" />
 
     <!--   <div>
@@ -78,94 +78,91 @@
 </Button>
 </div> -->
 
-    <div id="header" class="bg-white font-['SFUIDisplay-Light']"
+    <div id="header" class="bg-[#fcfcff] font-['SFUIDisplay-Light']"
         :class="['header', isHeaderFixed ? 'fixed-header' : '']">
 
 
-
-        <div class="menu flex justify-between w-full fixed top-0 left-0 right-0 z-[10000] bg-white backdrop-filter">
-            <!-- Header -->
-            <div
-                class="header flex justify-between w-full px-20 py-8 flex gap-12 text-white items-center z-50 max-lg:flex max-sm:flex max-sm:justify-between max-sm:px-8">
-                <!-- Contenedor alineado a la izquierda -->
-                <div class="contenedor flex items-center justify-start text-[25px]">
-                    <div class="image">
-                        <NuxtLink class="flex" to="/IntroDark">
-                            <img class="max-lg:max-w-[15px] w-[20px]" 
-                            :class="{ hidden: isOpen }"
-                            src="/img/darklogo.png" />
-                        </NuxtLink>
-                    </div>
-                </div>
-
-                <!-- Botón para abrir la slidebar dentro del navbar -->
-                <button @click="toggleSidebar"
-                    class="email2 max-sm:text-[30px] max-sm:no-underline relative text-black justify-end underline-offset-1 after:bg-white after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[26px] max-[1920px]:text-[20px] self-center place-self-end flex gap-2 max-lg:text-xs"
-                    :class="{ hidden: isOpen }">
-                    Menu
-                </button>
-
-                <!-- Navegación centrada -->
-            </div>
-
-            <!-- Slidebar (desplegada a la derecha) -->
-            <div class="menucito fixed top-0 right-0 h-full w-[860px] max-sm:w-full max-[1920px]:w-[700px] bg-zinc-600 shadow-lg z-50 p-8 max-sm:p-10 transform transition-transform backdrop-filter backdrop-blur-md bg-opacity-30 text-white"
-                :class="{ 'translate-x-0': isOpen, 'translate-x-full': !isOpen }">
-                <div class="flex justify-between items-center">
-                    <h2 @click="toggleSidebar"
-                        class="email text-black relative text-[26px] max-[1920px]:text-[20px] max-sm:text-[40px] self-center place-self-end flex gap-2 max-lg:text-xs cursor-pointer">
-                        Menú
-                    </h2>
-                    <button @click="toggleSidebar"
-                        class="email text-black relative text-[26px] max-sm:text-[20px] max-[1920px]:text-[20px] self-center place-self-end flex gap-2 max-lg:text-xs">
-                        &times;
-                    </button>
-                </div>
-
-                <!-- Contenido de la slidebar -->
-                <ul class="pt-12 flex flex-col justify-between h-full text-black">
-                    <div class="columna1 flex-grow">
-                        <li>
-                            <a href="/IntroDark#trabajos2"
-                                class="email  max-sm:text-[22px] max-sm:leading-8 mix-blend-exclusion relative underline-offset-1 after:bg-white after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
-                                Trabajos
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/Servicios"
-                                class="email max-sm:text-[22px] max-sm:leading-8 mix-blend-exclusion relative underline-offset-1 after:bg-white after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
-                                Servicios
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/Sobremi"
-                                class="email max-sm:text-[22px] max-sm:leading-8 mix-blend-exclusion relative underline-offset-1 after:bg-white after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
-                                Sobre mi
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/Tienda"
-                                class="email max-sm:text-[22px] max-sm:leading-8 mix-blend-exclusion relative underline-offset-1 after:bg-white after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
-                                Tienda
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/IntroDark#contacto"
-                                class="email max-sm:text-[22px] max-sm:leading-8 mix-blend-exclusion relative underline-offset-1 after:bg-white after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
-                                Contacto
-                            </a>
-                        </li>
-                    </div>
-                    <div class="columna mt-auto pb-6 flex justify-between">
-                        <p>Copyright 2024</p>
-                        <p>*</p>
-                        <p>Rubén Maldonado</p>
-                        <p>*</p>
-                        <p>Portfolio</p>
-                    </div>
-                </ul>
+        <div class="menu flex justify-between w-full fixed top-0 left-0 right-0 z-[10000] bg-[#fcfcff]">
+    <!-- Header -->
+    <div
+        class="header flex justify-between w-full px-20 py-8 flex gap-12 text-black items-center z-50 max-lg:flex max-sm:flex max-sm:justify-between max-sm:px-8">
+        <!-- Contenedor alineado a la izquierda -->
+        <div class="contenedor flex items-center justify-start text-[25px]">
+            <div class="image">
+                <NuxtLink class="flex" to="/IntroDark">
+                    <img class="max-lg:max-w-[15px] w-[20px]"
+                        src="/img/darklogo.png" />
+                </NuxtLink>
             </div>
         </div>
+
+        <!-- Botón para abrir la slidebar dentro del navbar -->
+        <button @click="toggleSidebar"
+            class="email2 max-sm:text-[30px] max-sm:no-underline relative text-black justify-end underline-offset-1 after:bg-current after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[26px] max-[1920px]:text-[20px] self-center place-self-end flex gap-2 max-lg:text-xs"
+            :class="{ hidden: isOpen }">
+            Menu
+        </button>
+    </div>
+
+    <!-- Slidebar (desplegada a la derecha) -->
+    <div class="menucito fixed top-0 right-0 h-full w-[860px] max-sm:w-full max-[1920px]:w-[700px] bg-zinc-600 shadow-lg z-50 p-8 max-sm:p-10 transform transition-transform backdrop-filter backdrop-blur-md bg-opacity-30 text-black dark:text-white"
+        :class="{ 'translate-x-0': isOpen, 'translate-x-full': !isOpen }">
+        <div class="flex justify-between items-center">
+            <h2 @click="toggleSidebar"
+                class="email text-black dark:text-white relative text-[26px] max-[1920px]:text-[20px] max-sm:text-[40px] self-center place-self-end flex gap-2 max-lg:text-xs cursor-pointer">
+                Menú
+            </h2>
+            <button @click="toggleSidebar"
+                class="email text-black dark:text-white relative text-[26px] max-sm:text-[20px] max-[1920px]:text-[20px] self-center place-self-end flex gap-2 max-lg:text-xs">
+                &times;
+            </button>
+        </div>
+
+        <!-- Contenido de la slidebar -->
+        <ul class="pt-12 flex flex-col justify-between h-full">
+            <div class="columna1 flex-grow">
+                <li>
+                    <a href="/IntroDark#trabajos2"
+                        class="email max-sm:text-[22px] max-sm:leading-8 text-black dark:text-white underline-offset-1 after:bg-current after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                        Trabajos
+                    </a>
+                </li>
+                <li>
+                    <a href="/Servicios"
+                        class="email max-sm:text-[22px] max-sm:leading-8 text-black dark:text-white underline-offset-1 after:bg-current after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                        Servicios
+                    </a>
+                </li>
+                <li>
+                    <a href="/Sobremi"
+                        class="email max-sm:text-[22px] max-sm:leading-8 text-black dark:text-white underline-offset-1 after:bg-current after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                        Sobre mi
+                    </a>
+                </li>
+                <li>
+                    <a href="/Tienda"
+                        class="email max-sm:text-[22px] max-sm:leading-8 text-black dark:text-white underline-offset-1 after:bg-current after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                        Tienda
+                    </a>
+                </li>
+                <li>
+                    <a href="/IntroDark#trabajos2"
+                        class="email max-sm:text-[22px] max-sm:leading-8 text-black dark:text-white underline-offset-1 after:bg-current after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                        Contacto
+                    </a>
+                </li>
+            </div>
+            <div class="columna mt-auto pb-6 flex justify-between">
+                <p class="text-black dark:text-white">Copyright 2024</p>
+                <p class="text-black dark:text-white">*</p>
+                <p class="text-black dark:text-white">Rubén Maldonado</p>
+                <p class="text-black dark:text-white">*</p>
+                <p class="text-black dark:text-white">Portfolio</p>
+            </div>
+        </ul>
+    </div>
+</div>
+
 
 
         <!-- Video al fondo detrás del header -->
@@ -173,11 +170,12 @@
             <img class="w-full -z-10" src="/img/videologoblanco.gif" alt="intro" />
         </div>
         <div class="hidden max-sm:block">
-            <img class="w-full -z-10" src="/img/logomovil.gif" alt="intro" />
+            <img class="w-full -z-10" src="/img/introruben4.gif" alt="intro" />
         </div>
 
         <!-- Banner de texto -->
-        <div class="text bg-white mix-blend-exclusion relative z-0 top-[-400px] max-[1920px]:top-[-360px] max-sm:top-[-140px]">
+        <div
+            class="text bg-[#fcfcff] mix-blend-exclusion relative z-0 top-[-400px] max-[1920px]:top-[-360px] max-sm:top-[-140px]">
             <div class="texto px-20 grid grid-cols-3 bg-black max-sm:px-8 max-sm:grid-cols-1">
                 <div
                     class="flex flex-col bg-black items-start content-end place-self-start text-left text-white mix-blend-exclusion text-[40px] max-[1920px]:text-[30px] max-sm:hidden">
@@ -210,20 +208,20 @@
 
 
         <p
-            class="titulo bg-white max-sm:text-[30px] max-sm:px-6 max-sm:pt-4 pt-12 w-full text-black px-20 text-[40px] self-center place-self-end flex gap-2 max-lg:text-xs">
+            class="titulo bg-[#fcfcff] max-sm:text-[30px] max-sm:px-6 max-sm:pt-4 pt-12 w-full text-black px-20 text-[40px] self-center place-self-end flex gap-2 max-lg:text-xs">
             Trabajos
         </p>
 
         <div class="trabajos" id="trabajos2">
 
             <NuxtLink to="/Matutano">
-                <div class="pt-20 trabajos bg-white max-sm:pt-12">
-                    <div class="grid grid-cols-2 hover:grid-cols-3 text-black bg-white pt-4 pb-4 max-[1920px]:py-[10px] items-center border border-r-0 border-l-0 border-1 border-t-1 mx-20 max-sm:mx-6 max-sm:py-2 max-sm:gap-[10px] gap-8 justify-center transition-all duration-100"
+                <div class="pt-20 trabajos bg-[#fcfcff] max-sm:pt-12">
+                    <div class="grid grid-cols-2 hover:grid-cols-3 text-black bg-[#fcfcff] pt-4 pb-4 max-[1920px]:py-[10px] items-center border-zinc-400 border border-r-0 border-l-0 border-1 border-t-1 mx-20 max-sm:mx-6 max-sm:py-2 max-sm:gap-[10px] gap-8 justify-center transition-all duration-100"
                         @mouseenter="hovered[0] = true" @mouseleave="hovered[0] = false">
 
                         <!-- Primer bloque de texto -->
                         <div
-                        class="text-[170px] pt-24 pb-24 text-end leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
+                            class="text-[170px] pt-24 pb-24 text-end leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
                             Matutano
                         </div>
 
@@ -236,8 +234,8 @@
 
                         <!-- Segundo bloque de texto -->
                         <div
-                        class="text-[170px] pt-24 pb-24 text-start leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
-                        Saludable
+                            class="text-[170px] pt-24 pb-24 text-start leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
+                            Saludable
                         </div>
                     </div>
                 </div>
@@ -245,13 +243,13 @@
 
             <!-- Otro ejemplo de trabajo -->
             <NuxtLink to="/CajaOporto">
-                <div class="trabajos bg-white">
-                    <div class="grid grid-cols-2 hover:grid-cols-3 text-black bg-white pt-4 pb-4 max-[1920px]:py-[10px] items-center border border-r-0 border-l-0 border-1 border-t-1 mx-20 max-sm:mx-6 max-sm:py-2 max-sm:gap-[10px] gap-8 justify-center transition-all duration-100"
+                <div class="trabajos bg-[#fcfcff]">
+                    <div class="grid grid-cols-2 hover:grid-cols-3 text-black bg-[#fcfcff] pt-4 pb-4 max-[1920px]:py-[10px] items-center border-zinc-400 border border-r-0 border-l-0 border-1 border-t-0 mx-20 max-sm:mx-6 max-sm:py-2 max-sm:gap-[10px] gap-8 justify-center transition-all duration-100"
                         @mouseenter="hovered[1] = true" @mouseleave="hovered[1] = false">
 
                         <!-- Primer bloque de texto -->
                         <div
-                        class="text-[170px] pt-24 pb-24 text-end leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
+                            class="text-[170px] pt-24 pb-24 text-end leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
                             Caja
                         </div>
 
@@ -264,7 +262,7 @@
 
                         <!-- Segundo bloque de texto -->
                         <div
-                        class="text-[170px] pt-24 pb-24 text-start leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
+                            class="text-[170px] pt-24 pb-24 text-start leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
                             Oporto
                         </div>
                     </div>
@@ -272,13 +270,12 @@
             </NuxtLink>
 
             <NuxtLink to="/Member">
-                <div class="trabajos bg-white">
-                    <div class="grid grid-cols-2 hover:grid-cols-3 text-black bg-white pt-4 pb-4 max-[1920px]:py-[10px] items-center border border-r-0 border-l-0 border-1 border-t-1 mx-20 max-sm:mx-6 max-sm:py-2 max-sm:gap-[10px] gap-8 justify-center transition-all duration-100"
-                        @mouseenter="hovered[2] = true" @mouseleave="hovered[2] = false">
+                <div class="trabajos bg-[#fcfcff]">
+                    <div class="grid grid-cols-2 hover:grid-cols-3 text-black bg-[#fcfcff] pt-4 pb-4 max-[1920px]:py-[10px] items-center border-zinc-400 border border-r-0 border-l-0 border-1 border-t-0 mx-20 max-sm:mx-6 max-sm:py-2 max-sm:gap-[10px] gap-8 justify-center transition-all duration-100"                        @mouseenter="hovered[2] = true" @mouseleave="hovered[2] = false">
 
                         <!-- Primer bloque de texto -->
                         <div
-                        class="text-[170px] pt-24 pb-24 text-end leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
+                            class="text-[170px] pt-24 pb-24 text-end leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
                             Asistente
                         </div>
 
@@ -291,7 +288,7 @@
 
                         <!-- Segundo bloque de texto -->
                         <div
-                        class="text-[170px] pt-24 pb-24 text-start leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
+                            class="text-[170px] pt-24 pb-24 text-start leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
                             Member
                         </div>
                     </div>
@@ -299,13 +296,12 @@
             </NuxtLink>
 
             <NuxtLink to="/Prau">
-                <div class="trabajos bg-white">
-                    <div class="grid grid-cols-2 hover:grid-cols-3 text-black bg-white pt-4 pb-4 max-[1920px]:py-[10px] items-center border border-r-0 border-l-0 border-1 border-t-1 mx-20 max-sm:mx-6 max-sm:py-2 max-sm:gap-[10px] gap-8 justify-center transition-all duration-100"
-                        @mouseenter="hovered[5] = true" @mouseleave="hovered[5] = false">
+                <div class="trabajos bg-[#fcfcff]">
+                    <div class="grid grid-cols-2 hover:grid-cols-3 text-black bg-[#fcfcff] pt-4 pb-4 max-[1920px]:py-[10px] items-center border-zinc-400 border border-r-0 border-l-0 border-1 border-t-0 mx-20 max-sm:mx-6 max-sm:py-2 max-sm:gap-[10px] gap-8 justify-center transition-all duration-100"                        @mouseenter="hovered[5] = true" @mouseleave="hovered[5] = false">
 
                         <!-- Primer bloque de texto -->
                         <div
-                        class="text-[170px] pt-24 pb-24 text-end leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
+                            class="text-[170px] pt-24 pb-24 text-end leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
                             Vinos
                         </div>
 
@@ -318,7 +314,7 @@
 
                         <!-- Segundo bloque de texto -->
                         <div
-                        class="text-[170px] pt-24 pb-24 text-start leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
+                            class="text-[170px] pt-24 pb-24 text-start leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
                             Prau
                         </div>
                     </div>
@@ -326,13 +322,12 @@
             </NuxtLink>
 
             <NuxtLink to="/MetrodeMadrid">
-                <div class="trabajos bg-white">
-                    <div class="grid grid-cols-2 hover:grid-cols-3 text-black bg-white pt-4 pb-4 max-[1920px]:py-[10px] items-center border border-r-0 border-l-0 border-1 border-t-1 mx-20 max-sm:mx-6 max-sm:py-2 max-sm:gap-[10px] gap-8 justify-center transition-all duration-100"
-                        @mouseenter="hovered[3] = true" @mouseleave="hovered[3] = false">
+                <div class="trabajos bg-[#fcfcff]">
+                    <div class="grid grid-cols-2 hover:grid-cols-3 text-black bg-[#fcfcff] pt-4 pb-4 max-[1920px]:py-[10px] items-center border-zinc-400 border border-r-0 border-l-0 border-1 border-t-0 mx-20 max-sm:mx-6 max-sm:py-2 max-sm:gap-[10px] gap-8 justify-center transition-all duration-100"                        @mouseenter="hovered[3] = true" @mouseleave="hovered[3] = false">
 
                         <!-- Primer bloque de texto -->
                         <div
-                        class="text-[170px] pt-24 pb-24 text-end leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
+                            class="text-[170px] pt-24 pb-24 text-end leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
                             Metro
                         </div>
 
@@ -345,7 +340,7 @@
 
                         <!-- Segundo bloque de texto -->
                         <div
-                        class="text-[170px] pt-24 pb-24 text-start leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
+                            class="text-[170px] pt-24 pb-24 text-start leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
                             Madrid
                         </div>
                     </div>
@@ -353,13 +348,12 @@
             </NuxtLink>
 
             <NuxtLink to="/Movistar">
-                <div class="trabajos bg-white">
-                    <div class="grid grid-cols-2 hover:grid-cols-3 text-black bg-white pt-4 pb-4 max-[1920px]:py-[10px] items-center border border-r-0 border-l-0 border-1 border-t-1 mx-20 max-sm:mx-6 max-sm:py-2 max-sm:gap-[10px] gap-8 justify-center transition-all duration-100"
-                        @mouseenter="hovered[4] = true" @mouseleave="hovered[4] = false">
+                <div class="trabajos bg-[#fcfcff]">
+                    <div class="grid grid-cols-2 hover:grid-cols-3 text-black bg-[#fcfcff] pt-4 pb-4 max-[1920px]:py-[10px] items-center border-zinc-400 border border-r-0 border-l-0 border-1 border-t-0 mx-20 max-sm:mx-6 max-sm:py-2 max-sm:gap-[10px] gap-8 justify-center transition-all duration-100"                        @mouseenter="hovered[4] = true" @mouseleave="hovered[4] = false">
 
                         <!-- Primer bloque de texto -->
                         <div
-                        class="text-[170px] pt-24 pb-24 text-end leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
+                            class="text-[170px] pt-24 pb-24 text-end leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
                             Animación
                         </div>
 
@@ -372,7 +366,7 @@
 
                         <!-- Segundo bloque de texto -->
                         <div
-                        class="text-[170px] pt-24 pb-24 text-start leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
+                            class="text-[170px] pt-24 pb-24 text-start leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
                             Movistar
                         </div>
                     </div>
@@ -381,13 +375,12 @@
 
 
             <NuxtLink to="/Audiovisuales">
-                <div class="trabajos bg-white">
-                    <div class="grid grid-cols-2 hover:grid-cols-3 text-black bg-white pt-4 pb-4 max-[1920px]:py-[10px] items-center border border-r-0 border-l-0 border-1 border-t-1 mx-20 max-sm:mx-6 max-sm:py-2 max-sm:gap-[10px] gap-8 justify-center transition-all duration-100"
-                        @mouseenter="hovered[6] = true" @mouseleave="hovered[6] = false">
+                <div class="trabajos bg-[#fcfcff]">
+                    <div class="grid grid-cols-2 hover:grid-cols-3 text-black bg-[#fcfcff] pt-4 pb-4 max-[1920px]:py-[10px] items-center border-zinc-400 border border-r-0 border-l-0 border-1 border-t-0 mx-20 max-sm:mx-6 max-sm:py-2 max-sm:gap-[10px] gap-8 justify-center transition-all duration-100"                        @mouseenter="hovered[6] = true" @mouseleave="hovered[6] = false">
 
                         <!-- Primer bloque de texto -->
                         <div
-                        class="text-[170px] pt-24 pb-24 text-end leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
+                            class="text-[170px] pt-24 pb-24 text-end leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
                             Colección
                         </div>
 
@@ -400,7 +393,7 @@
 
                         <!-- Segundo bloque de texto -->
                         <div
-                        class="text-[170px] pt-24 pb-24 text-start leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
+                            class="text-[170px] pt-24 pb-24 text-start leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
                             Visuales
                         </div>
                     </div>
@@ -409,13 +402,12 @@
 
 
             <NuxtLink to="/YelmoCines">
-                <div class="trabajos bg-white">
-                    <div class="grid grid-cols-2 hover:grid-cols-3 text-black bg-white pt-4 pb-4 max-[1920px]:py-[10px] items-center border border-r-0 border-l-0 border-1 border-t-1 mx-20 max-sm:mx-6 max-sm:py-2 max-sm:gap-[10px] gap-8 justify-center transition-all duration-100"
-                        @mouseenter="hovered[7] = true" @mouseleave="hovered[7] = false">
+                <div class="trabajos bg-[#fcfcff]">
+                    <div class="grid grid-cols-2 hover:grid-cols-3 text-black bg-[#fcfcff] pt-4 pb-4 max-[1920px]:py-[10px] items-center border-zinc-400 border border-r-0 border-l-0 border-1 border-t-0 mx-20 max-sm:mx-6 max-sm:py-2 max-sm:gap-[10px] gap-8 justify-center transition-all duration-100"                        @mouseenter="hovered[7] = true" @mouseleave="hovered[7] = false">
 
                         <!-- Primer bloque de texto -->
                         <div
-                        class="text-[170px] pt-24 pb-24 text-end leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
+                            class="text-[170px] pt-24 pb-24 text-end leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
                             Yelmo
                         </div>
 
@@ -428,7 +420,7 @@
 
                         <!-- Segundo bloque de texto -->
                         <div
-                        class="text-[170px] pt-24 pb-24 text-start leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
+                            class="text-[170px] pt-24 pb-24 text-start leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
                             Cines
                         </div>
                     </div>
@@ -436,13 +428,12 @@
             </NuxtLink>
 
             <NuxtLink to="/Typenotes">
-                <div class="trabajos bg-white">
-                    <div class="grid grid-cols-2 hover:grid-cols-3 text-black bg-white pt-4 pb-4 max-[1920px]:py-[10px] items-center border border-r-0 border-l-0 border-1 border-t-1 mx-20 max-sm:mx-6 max-sm:py-2 max-sm:gap-[10px] gap-8 justify-center transition-all duration-100"
-                        @mouseenter="hovered[8] = true" @mouseleave="hovered[8] = false">
+                <div class="trabajos bg-[#fcfcff]">
+                    <div class="grid grid-cols-2 hover:grid-cols-3 text-black bg-[#fcfcff] pt-4 pb-4 max-[1920px]:py-[10px] items-center border-zinc-400 border border-r-0 border-l-0 border-1 border-t-0 mx-20 max-sm:mx-6 max-sm:py-2 max-sm:gap-[10px] gap-8 justify-center transition-all duration-100"                        @mouseenter="hovered[8] = true" @mouseleave="hovered[8] = false">
 
                         <!-- Primer bloque de texto -->
                         <div
-                        class="text-[170px] pt-24 pb-24 text-end leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
+                            class="text-[170px] pt-24 pb-24 text-end leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
                             Revista
                         </div>
 
@@ -455,7 +446,7 @@
 
                         <!-- Segundo bloque de texto -->
                         <div
-                        class="text-[170px] pt-24 pb-24 text-start leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
+                            class="text-[170px] pt-24 pb-24 text-start leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
                             Typenotes
                         </div>
                     </div>
@@ -464,13 +455,12 @@
 
 
             <NuxtLink to="/WebESD">
-                <div class="trabajos bg-white">
-                    <div class="grid grid-cols-2 hover:grid-cols-3 text-black bg-white pt-4 pb-4 max-[1920px]:py-[10px] items-center border border-r-0 border-l-0 border-1 border-t-1 mx-20 max-sm:mx-6 max-sm:py-2 max-sm:gap-[10px] gap-8 justify-center transition-all duration-100"
-                        @mouseenter="hovered[9] = true" @mouseleave="hovered[9] = false">
+                <div class="trabajos bg-[#fcfcff]">
+                    <div class="grid grid-cols-2 hover:grid-cols-3 text-black bg-[#fcfcff] pt-4 pb-4 max-[1920px]:py-[10px] items-center border-zinc-400 border border-r-0 border-l-0 border-1 border-t-0 mx-20 max-sm:mx-6 max-sm:py-2 max-sm:gap-[10px] gap-8 justify-center transition-all duration-100"                        @mouseenter="hovered[9] = true" @mouseleave="hovered[9] = false">
 
                         <!-- Primer bloque de texto -->
                         <div
-                        class="text-[170px] pt-24 pb-24 text-end leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
+                            class="text-[170px] pt-24 pb-24 text-end leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
                             Web
                         </div>
 
@@ -483,7 +473,7 @@
 
                         <!-- Segundo bloque de texto -->
                         <div
-                        class="text-[170px] pt-24 pb-24 text-start leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
+                            class="text-[170px] pt-24 pb-24 text-start leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
                             ESD
                         </div>
                     </div>
@@ -491,13 +481,12 @@
             </NuxtLink>
 
             <NuxtLink to="/Fotografias">
-                <div class="trabajos bg-white">
-                    <div class="grid grid-cols-2 hover:grid-cols-3 text-black bg-white pt-4 pb-4 max-[1920px]:py-[10px] items-center border border-r-0 border-l-0 border-1 border-t-1 mx-20 max-sm:mx-6 max-sm:py-2 max-sm:gap-[10px] gap-8 justify-center transition-all duration-100"
-                        @mouseenter="hovered[10] = true" @mouseleave="hovered[10] = false">
+                <div class="trabajos bg-[#fcfcff]">
+                    <div class="grid grid-cols-2 hover:grid-cols-3 text-black bg-[#fcfcff] pt-4 pb-4 max-[1920px]:py-[10px] items-center border-zinc-400 border border-r-0 border-l-0 border-1 border-t-0 mx-20 max-sm:mx-6 max-sm:py-2 max-sm:gap-[10px] gap-8 justify-center transition-all duration-100"                        @mouseenter="hovered[10] = true" @mouseleave="hovered[10] = false">
 
                         <!-- Primer bloque de texto -->
                         <div
-                        class="text-[170px] pt-24 pb-24 text-end leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
+                            class="text-[170px] pt-24 pb-24 text-end leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
                             Colección
                         </div>
 
@@ -519,9 +508,8 @@
 
 
             <NuxtLink to="/GarridoGallery">
-                <div class="trabajos bg-white">
-                    <div class="grid grid-cols-2 hover:grid-cols-3 text-black bg-white pt-4 pb-4 max-[1920px]:py-[10px] items-center border border-r-0 border-l-0 border-1 border-t-1 mx-20 max-sm:mx-6 max-sm:py-2 max-sm:gap-[10px] gap-8 justify-center transition-all duration-100"
-                        @mouseenter="hovered[11] = true" @mouseleave="hovered[11] = false">
+                <div class="trabajos bg-[#fcfcff]">
+                    <div class="grid grid-cols-2 hover:grid-cols-3 text-black bg-[#fcfcff] pt-4 pb-4 max-[1920px]:py-[10px] items-center border-zinc-400 border border-r-0 border-l-0 border-1 border-t-0 mx-20 max-sm:mx-6 max-sm:py-2 max-sm:gap-[10px] gap-8 justify-center transition-all duration-100"                        @mouseenter="hovered[11] = true" @mouseleave="hovered[11] = false">
 
                         <!-- Primer bloque de texto -->
                         <div
@@ -547,9 +535,8 @@
             </NuxtLink>
 
             <NuxtLink to="/Ilustraciones">
-                <div class="trabajos bg-white">
-                    <div class="grid grid-cols-2 hover:grid-cols-3 text-black bg-white pt-4 pb-4 max-[1920px]:py-[10px] items-center border border-r-0 border-l-0 border-1 border-t-1 mx-20 max-sm:mx-6 max-sm:py-2 max-sm:gap-[10px] gap-8 justify-center transition-all duration-100"
-                        @mouseenter="hovered[12] = true" @mouseleave="hovered[12] = false">
+                <div class="trabajos bg-[#fcfcff]">
+                    <div class="grid grid-cols-2 hover:grid-cols-3 text-black bg-[#fcfcff] pt-4 pb-4 max-[1920px]:py-[10px] items-center border-zinc-400 border border-r-0 border-l-0 border-1 border-t-0 mx-20 max-sm:mx-6 max-sm:py-2 max-sm:gap-[10px] gap-8 justify-center transition-all duration-100"                        @mouseenter="hovered[12] = true" @mouseleave="hovered[12] = false">
 
                         <!-- Primer bloque de texto -->
                         <div
@@ -566,7 +553,7 @@
 
                         <!-- Segundo bloque de texto -->
 
-                          <div
+                        <div
                             class="text-[170px] max-[1920px]:flex text-start pt-24 pb-24 leading-[4rem] max-sm:py-6 max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
                             Ilustración
                         </div>
@@ -580,7 +567,7 @@
 
 
         <div id="trabajos"
-            class="texto flex w-full bg-white text-black max-sm:px-6 max-sm:pb-2 max-sm:pt-24 px-20 pt-64 justify-between">
+            class="texto flex w-full bg-[#fcfcff] text-black max-sm:px-6 max-sm:pb-2 max-sm:pt-24 px-20 pt-64 justify-between">
             <p
                 class="caja2 text-left max-sm:text-[30px] max-sm:leading-[2rem] font-['Neue'] text-[50px] leading-[3rem] pb-24 max-sm:pb-12 cursor-pointer text-black ">
                 Colaboraciones <br>/ Otros proyectos
@@ -589,13 +576,13 @@
 
         </div>
 
-        <div class="grid grid-cols-3 max-sm:grid-cols-1 max-sm:px-6 bg-white px-20 gap-12">
+        <div class="grid grid-cols-3 max-sm:grid-cols-1 max-sm:px-6 bg-[#fcfcff] px-20 gap-12">
 
             <div href="//www.prodigiosovolcan.com/proyectos/identidad-visual-ecovidrio/">
-                <div class="trabajos bg-white divide-y divide-black shadow-lg">
+                <div class="trabajos bg-white shadow-lg rounded-lg overflow-hidden transition-transform hover:scale-105 duration-300">
                     <div
-                    class="flex flex-col text-black bg-white pt-6 items-left justify-center transition-all duration-100">
-                    <div
+                        class="flex flex-col text-black bg-white pt-6 items-left justify-center transition-all duration-100">
+                        <div
                             class="caja2 text-left max-[1920px]:text-[14px] font-['Neue'] max-[1920px]:px-8 px-12 pb-6 cursor-pointer text-black">
                             <p>COLABORACIÓN 1</p>
                         </div>
@@ -625,8 +612,8 @@
 
                         </div>
                         <div
-                        class="caja2 text-left font-['Neue'] grid grid-cols-2 text-[16px] border border-x-0 border-b-0 cursor-pointer bg-black text-white divide-x divide-zinc-200 divide-x-1">
-                        <img src="/img/ecovidrio.png">
+                            class="caja2 text-left font-['Neue'] grid grid-cols-2 text-[16px] border border-x-0 border-b-0 cursor-pointer bg-black text-white divide-x divide-zinc-200 divide-x-1">
+                            <img src="/img/ecovidrio.svg">
 
                             <a href="https://www.prodigiosovolcan.com/proyectos/identidad-visual-ecovidrio/"
                                 target="_blank"
@@ -641,10 +628,10 @@
             </div>
 
             <div href="//www.prodigiosovolcan.com/proyectos/identidad-visual-ecovidrio/">
-                <div class="trabajos bg-white divide-y divide-black shadow-lg">
+                <div class="trabajos bg-white shadow-lg rounded-lg overflow-hidden transition-transform hover:scale-105 duration-300">
                     <div
-                    class="flex flex-col text-black bg-white pt-6 items-left justify-center transition-all duration-100">
-                    <div
+                        class="flex flex-col text-black bg-white pt-6 items-left justify-center transition-all duration-100">
+                        <div
                             class="caja2 text-left max-[1920px]:text-[14px] font-['Neue'] max-[1920px]:px-8  px-12 pb-6 cursor-pointer text-black">
                             <p>COLABORACIÓN 2</p>
                         </div>
@@ -677,8 +664,8 @@
                             <img src="/img/newteam3.png">
 
                             <a href="https://www.instagram.com/newteam_cf" target="_blank"
-                            class="caja2 bg-white py-12 text-right items-end h-full place-content-end max-[1920px]:px-8 max-[1920px]:py-8 flex hover:text-zinc-700 transition-all duration-500 self-center font-['Neue'] text-[30px] leading-[30px] px-12 cursor-pointer text-black">
-                            New<br>
+                                class="caja2 bg-white py-12 text-right items-end h-full place-content-end max-[1920px]:px-8 max-[1920px]:py-8 flex hover:text-zinc-700 transition-all duration-500 self-center font-['Neue'] text-[30px] leading-[30px] px-12 cursor-pointer text-black">
+                                New<br>
                                 Team ⤤
                             </a>
                         </div>
@@ -688,7 +675,7 @@
             </div>
 
             <div href="//www.prodigiosovolcan.com/proyectos/identidad-visual-ecovidrio/">
-                <div class="trabajos bg-white divide-y divide-black shadow-lg">
+                <div class="trabajos bg-white shadow-lg rounded-lg overflow-hidden transition-transform hover:scale-105 duration-300">
                     <div
                         class="flex flex-col text-black bg-white pt-6 items-left justify-center transition-all duration-100">
                         <div
@@ -704,8 +691,8 @@
                         </div>
 
                         <div
-                        class="caja2 items-center max-[1920px]:text-[14px] text-left font-['Neue'] grid grid-cols-2 py-6 text-[16px] max-[1920px]:px-8 px-12 border border-x-0 border-b-0 cursor-pointer text-black">
-                        <p>Realización de web <br>de creación de noticias</p>
+                            class="caja2 items-center max-[1920px]:text-[14px] text-left font-['Neue'] grid grid-cols-2 py-6 text-[16px] max-[1920px]:px-8 px-12 border border-x-0 border-b-0 cursor-pointer text-black">
+                            <p>Realización de web <br>de creación de noticias</p>
 
                             <div class="articulos flex flex-col invisible">
                                 <a class="text-end underline"
@@ -721,8 +708,8 @@
 
                         </div>
                         <div
-                        class="caja2 text-left font-['Neue'] grid grid-cols-2 text-[16px] border border-x-0 border-b-0 cursor-pointer bg-black text-white divide-x divide-zinc-200 divide-x-1">
-                        <img src="/img/fauxproyecto.png">
+                            class="caja2 text-left font-['Neue'] grid grid-cols-2 text-[16px] border border-x-0 border-b-0 cursor-pointer bg-black text-white divide-x divide-zinc-200 divide-x-1">
+                            <img src="/img/fauxproyecto.png">
 
                             <a href="https://faux-noticiario.netlify.app/" target="_blank"
                                 class="caja2 bg-white py-12 text-right items-end h-full place-content-end max-[1920px]:px-8 max-[1920px]:py-8 flex hover:text-zinc-700 transition-all duration-500 self-center font-['Neue'] text-[30px] leading-[30px] px-12 cursor-pointer text-black">
@@ -738,8 +725,8 @@
             <div class="hidden" href="//www.prodigiosovolcan.com/proyectos/identidad-visual-ecovidrio/">
                 <div class="trabajos bg-white divide-y divide-black shadow-lg">
                     <div
-                    class="flex flex-col text-black bg-white pt-6 items-left justify-center transition-all duration-100">
-                    <div class="caja2 text-left font-['Neue'] px-12 pb-6 cursor-pointer text-white">
+                        class="flex flex-col text-black bg-white pt-6 items-left justify-center transition-all duration-100">
+                        <div class="caja2 text-left font-['Neue'] px-12 pb-6 cursor-pointer text-white">
                             <p>COLABORACIÓN 2</p>
                         </div>
                         <div
@@ -783,8 +770,8 @@
 
         </div>
 
-        <div id="contacto" class="informacion max-sm:pt-24 pt-[300px] pb-64 bg-white max-sm:pb-32">
-            <div class="about bg-white">
+        <div id="contacto" class="informacion max-sm:pt-24 pt-[300px] pb-64 bg-[#fcfcff] max-sm:pb-32">
+            <div class="about bg-[#fcfcff]">
                 <div class="correo grid grid-cols-2 max-sm:grid-cols-1 text-black">
                     <div
                         class="caja2 z-0 text-left max-sm:text-[60px] max-sm:px-6 max-sm:leading-[50px] animate-pulse px-20 font-['Neue'] max-[1920px]:text-[150px] max-[1920px]:leading-[8.5rem] text-[170px] pt-12 pb-12 leading-[10rem] cursor-pointer text-black transition-colors duration-300 hover:text-black">
@@ -801,7 +788,7 @@
                     </div>
                 </div>
             </div>
-            <div class="about bg-white pt-2">
+            <div class="about bg-[#fcfcff] pt-2">
 
 
                 <!-- Redes Sociales -->
@@ -895,6 +882,8 @@ import { MotionPlugin } from "@vueuse/motion";
 import 'vue3-carousel/dist/carousel.css'
 import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
 import Cursor2 from "~/components/Cursor2.vue";
+
+import CursorBlack from "~/components/CursorBlack.vue";
 
 
 

@@ -1,6 +1,6 @@
 <template>
     <div id="inicio" class="app bg-white font-['SFUIDisplay-Light']">
-    <Cursor class="mix-blend-exclusion" />
+        <CursorBlack class="max-sm:hidden" />
 
     <div class="menu flex justify-between w-full fixed top-0 left-0 right-0 z-[100000] bg-white backdrop-filter">
         <!-- Header -->
@@ -564,6 +564,8 @@ import { MotionPlugin } from "@vueuse/motion";
 import 'vue3-carousel/dist/carousel.css'
 import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
 import Cursor2 from "~/components/Cursor2.vue";
+import CursorBlack from "~/components/CursorBlack.vue";
+
 
 export default {
     data() {

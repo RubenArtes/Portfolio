@@ -1,5 +1,5 @@
 <template class="bg-zinc-800">
-    <Cursor class="max-sm:hidden" />
+    <CursorBlack class="max-sm:hidden" />
     <VueScrollProgressBar background-color="#ffffff" class="mix-blend-exclusion" />
 
     <div id="header" class="font-['SFUIDisplay-Light']" :class="['header', isHeaderFixed ? 'fixed-header' : '']">
@@ -49,7 +49,7 @@
                 <ul class="pt-12 flex flex-col justify-between h-full text-black">
                     <div class="columna1 flex-grow">
                         <li>
-                            <a href="/IntroDark#contacto"
+                            <a href="/IntroDark#trabajos2"
                                 class="email  max-sm:text-[22px] max-sm:leading-8 mix-blend-exclusion relative underline-offset-1 after:bg-white after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
                                 Trabajos
                             </a>
@@ -310,6 +310,8 @@ import { MotionPlugin } from "@vueuse/motion";
 import 'vue3-carousel/dist/carousel.css'
 import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
 import Cursor2 from "~/components/Cursor2.vue";
+import CursorBlack from "~/components/CursorBlack.vue";
+
 
 export default {
     data() {
