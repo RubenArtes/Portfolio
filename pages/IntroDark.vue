@@ -695,7 +695,7 @@
                 <div class="pt-20 trabajos bg-[#fcfcff] max-sm:pt-2 px-2">
                     <!-- Contenedor de imagen responsiva -->
                     <div class="imagen h-[414px] bg-black overflow-hidden flex justify-center items-center rounded-[6px]">
-                        <img class="object-cover" src="/img/Comp_2.GIF" alt="Matutano Saludable">
+                        <img class="object-cover" src="/img/Comp_2.gif" alt="Matutano Saludable">
                     </div>
                 </div>
                 <div class="texto">
