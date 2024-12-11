@@ -579,8 +579,9 @@
 
             <NuxtLink to="/Matutano">
                 <div class="pt-20 trabajos bg-[#fcfcff] max-sm:pt-12 px-2">
-                    <div class="imagen h-[414px] bg-zinc-300 overflow-hidden flex justify-center items-center rounded-[6px]">
-                        <img class="w-full h-full object-cover" src="/img/fotorealpackaging42.png">
+                    <div
+                        class="imagen h-[414px] bg-zinc-300 overflow-hidden flex justify-center items-center rounded-[6px]">
+                        <img class="w-full h-full object-cover" src="/img/fotorealpackaging22.png">
                     </div>
                 </div>
                 <div class="texto">
@@ -593,7 +594,8 @@
             <NuxtLink to="/CajaOporto">
                 <div class="pt-20 trabajos bg-[#fcfcff] max-sm:pt-2 px-2">
                     <!-- Contenedor de imagen responsiva -->
-                    <div class="imagen h-[414px] bg-zinc-300 overflow-hidden flex justify-center items-center rounded-[6px]">
+                    <div
+                        class="imagen h-[414px] bg-zinc-300 overflow-hidden flex justify-center items-center rounded-[6px]">
                         <img class="w-full h-full object-cover" src="/img/IMG_25772.jpg" alt="Matutano Saludable">
                     </div>
                 </div>
@@ -608,7 +610,8 @@
             <NuxtLink to="/Member">
                 <div class="pt-20 trabajos bg-[#fcfcff] max-sm:pt-2 px-2">
                     <!-- Contenedor de imagen responsiva -->
-                    <div class="imagen h-[414px] bg-zinc-300 overflow-hidden flex justify-center items-center rounded-[6px]">
+                    <div
+                        class="imagen h-[414px] bg-zinc-300 overflow-hidden flex justify-center items-center rounded-[6px]">
                         <img class="w-full h-full object-cover" src="/img/member30.gif" alt="Matutano Saludable">
                     </div>
                 </div>
@@ -622,7 +625,8 @@
             <NuxtLink to="/CajaOporto">
                 <div class="pt-20 trabajos bg-[#fcfcff] max-sm:pt-2 px-2">
                     <!-- Contenedor de imagen responsiva -->
-                    <div class="imagen h-[414px] bg-zinc-300 overflow-hidden flex justify-center items-center rounded-[6px]">
+                    <div
+                        class="imagen h-[414px] bg-zinc-300 overflow-hidden flex justify-center items-center rounded-[6px]">
                         <img class="w-full h-full object-cover" src="/img/vinospng.png" alt="Matutano Saludable">
                     </div>
                 </div>
@@ -636,8 +640,10 @@
             <NuxtLink to="/MetrodeMadrid">
                 <div class="pt-20 trabajos bg-[#fcfcff] max-sm:pt-2 px-2">
                     <!-- Contenedor de imagen responsiva -->
-                    <div class="imagen h-[414px] bg-zinc-300 overflow-hidden flex justify-center items-center rounded-[6px]">
-                        <img class="w-full h-full object-cover" src="/img/Fotolibro_RubénMaldonadoGonzález388.jpg" alt="Matutano Saludable">
+                    <div
+                        class="imagen h-[414px] bg-zinc-300 overflow-hidden flex justify-center items-center rounded-[6px]">
+                        <img class="w-full h-full object-cover" src="/img/Fotolibro_RubénMaldonadoGonzález388.jpg"
+                            alt="Matutano Saludable">
                     </div>
                 </div>
                 <div class="texto">
@@ -650,7 +656,8 @@
             <NuxtLink to="/Movistar">
                 <div class="pt-20 trabajos bg-[#fcfcff] max-sm:pt-2 px-2">
                     <!-- Contenedor de imagen responsiva -->
-                    <div class="imagen h-[414px] bg-zinc-300 overflow-hidden flex justify-center items-center rounded-[6px]">
+                    <div
+                        class="imagen h-[414px] bg-zinc-300 overflow-hidden flex justify-center items-center rounded-[6px]">
                         <img class="w-full h-full object-cover" src="/img/movistardark.gif" alt="Matutano Saludable">
                     </div>
                 </div>
@@ -665,7 +672,8 @@
             <NuxtLink to="/Audiovisuales">
                 <div class="pt-20 trabajos bg-[#fcfcff] max-sm:pt-2 px-2">
                     <!-- Contenedor de imagen responsiva -->
-                    <div class="imagen h-[414px] bg-zinc-300 overflow-hidden flex justify-center items-center rounded-[6px]">
+                    <div
+                        class="imagen h-[414px] bg-zinc-300 overflow-hidden flex justify-center items-center rounded-[6px]">
                         <img class="w-full h-full object-cover" src="/img/videoruben.gif" alt="Matutano Saludable">
                     </div>
                 </div>
@@ -680,8 +688,9 @@
             <NuxtLink to="/YelmoCines">
                 <div class="pt-20 trabajos bg-[#fcfcff] max-sm:pt-2 px-2">
                     <!-- Contenedor de imagen responsiva -->
-                    <div class="imagen h-[414px] bg-zinc-300 overflow-hidden flex justify-center items-center rounded-[6px]">
-                        <img class="w-full h-full object-cover" src="/img/videoyelmo.gif" alt="Matutano Saludable">
+                    <div
+                        class="imagen h-[414px] bg-zinc-300 overflow-hidden flex justify-center items-center rounded-[6px]">
+                        <img class="w-full h-full object-cover" src="/img/yelmocines.png" alt="Matutano Saludable">
                     </div>
                 </div>
                 <div class="texto">
@@ -694,7 +703,8 @@
             <NuxtLink to="/Typenotes">
                 <div class="pt-20 trabajos bg-[#fcfcff] max-sm:pt-2 px-2">
                     <!-- Contenedor de imagen responsiva -->
-                    <div class="imagen h-[414px] bg-black overflow-hidden flex justify-center items-center rounded-[6px]">
+                    <div
+                        class="imagen h-[414px] bg-black overflow-hidden flex justify-center items-center rounded-[6px]">
                         <img class="object-cover" src="/img/Comp_2.gif" alt="Matutano Saludable">
                     </div>
                 </div>
@@ -709,8 +719,9 @@
             <NuxtLink to="/WebESD">
                 <div class="pt-20 trabajos bg-[#fcfcff] max-sm:pt-2 px-2">
                     <!-- Contenedor de imagen responsiva -->
-                    <div class="imagen h-[414px] bg-zinc-300 overflow-hidden flex justify-center items-center rounded-[6px]">
-                        <img class="w-full h-full object-cover" src="/img/gifordenador3.gif" alt="Matutano Saludable">
+                    <div
+                        class="imagen h-[414px] bg-zinc-300 overflow-hidden flex justify-center items-center rounded-[6px]">
+                        <img class="w-full h-full object-cover" src="/img/mockupesd.png" alt="Matutano Saludable">
                     </div>
                 </div>
                 <div class="texto">
@@ -723,8 +734,9 @@
             <NuxtLink to="/Fotografias">
                 <div class="pt-20 trabajos bg-[#fcfcff] max-sm:pt-2 px-2">
                     <!-- Contenedor de imagen responsiva -->
-                    <div class="imagen h-[414px] bg-zinc-300 overflow-hidden flex justify-center items-center rounded-[6px]">
-                        <img class="w-full h-full object-cover" src="/img/tenerife1.png" alt="tenerife">
+                    <div
+                        class="imagen h-[414px] bg-zinc-300 overflow-hidden flex justify-center items-center rounded-[6px]">
+                        <img class="w-full h-full object-cover" src="/img/fotos6.jpg" alt="tenerife">
                     </div>
                 </div>
                 <div class="texto">
@@ -738,7 +750,8 @@
             <NuxtLink to="/GarridoGallery">
                 <div class="pt-20 trabajos bg-[#fcfcff] max-sm:pt-2 px-2">
                     <!-- Contenedor de imagen responsiva -->
-                    <div class="imagen h-[414px] bg-zinc-300 overflow-hidden flex justify-center items-center rounded-[6px]">
+                    <div
+                        class="imagen h-[414px] bg-zinc-300 overflow-hidden flex justify-center items-center rounded-[6px]">
                         <img class="w-full h-full object-cover" src="/img/Publicacioninstagram5.png" alt="tenerife">
                     </div>
                 </div>
@@ -752,7 +765,8 @@
             <NuxtLink to="/Ilustraciones">
                 <div class="pt-20 trabajos bg-[#fcfcff] max-sm:pt-2 px-2">
                     <!-- Contenedor de imagen responsiva -->
-                    <div class="imagen h-[414px] bg-zinc-300 overflow-hidden flex justify-center items-center rounded-[6px]">
+                    <div
+                        class="imagen h-[414px] bg-zinc-300 overflow-hidden flex justify-center items-center rounded-[6px]">
                         <img class="w-full h-full object-cover" src="/img/animacionilustraciones.gif" alt="tenerife">
                     </div>
                 </div>
@@ -778,202 +792,80 @@
 
         </div>
 
-        <div class="grid grid-cols-3 max-sm:grid-cols-1 max-sm:px-6 bg-[#fcfcff] px-20 gap-12">
 
-            <div href="//www.prodigiosovolcan.com/proyectos/identidad-visual-ecovidrio/">
-                <div
-                    class="trabajos bg-white shadow-lg rounded-lg overflow-hidden transition-transform hover:scale-105 duration-300">
-                    <div
-                        class="flex flex-col text-black bg-white pt-6 items-left justify-center transition-all duration-100">
-                        <div
-                            class="caja2 text-left max-[1920px]:text-[14px] font-['Neue'] max-[1920px]:px-8 px-12 pb-6 cursor-pointer text-black">
-                            <p>COLABORACIÓN 1</p>
-                        </div>
-                        <div
-                            class="caja2 text-left font-['Neue'] py-6 text-[30px] max-[1920px]:text-[22px] max-[1920px]:px-8 px-12 border border-x-0 border-b-0 cursor-pointer text-black">
-                            MICROILUSTRACIONES<br>
-                            <p class="text-[80px] max-[1920px]:text-[52px] max-[1920px]:leading-6 leading-8 pb-8 pt-4">
-                                ECOVIDRIO</p>
-                        </div>
-                        <div
-                            class="caja2 items-center max-[1920px]:text-[14px] max-[1920px]:px-8 text-left font-['Neue'] grid grid-cols-2 py-6 text-[16px] px-12 border border-x-0 border-b-0 cursor-pointer text-black">
-                            <p>Realización de microilustraciones para
-                                el rediseño de la marca Ecovidrio</p>
+        <div class="grid grid-cols-3 max-sm:grid-cols-1 max-sm:px-4 bg-[#fcfcff] px-20 gap-12">
+            <div
+                class="bg-gray-200 max-sm:bg-white trabajos shadow-lg rounded-lg overflow-hidden transition-transform hover:scale-105 duration-300">
 
-                            <div class="articulos flex flex-col">
-                                <a class="text-end underline" target="_blank"
-                                    href="https://www.marketingdirecto.com/anunciantes-general/anunciantes/ecovidrio-levanta-telon-identidad-marca">Articulo
-                                    de prensa</a>
-                                <a class="text-end underline" target="_blank"
-                                    href="https://ipmark.com/ecovidrio-redefine-estrategia-marca-gestion-residuos/">Articulo
-                                    de prensa 2</a>
-                                <a class="text-end underline" target="_blank"
-                                    href="https://controlpublicidad.com/empresas-y-negocios-publicidad/ecovidrio-presenta-su-nueva-identidad-de-marca/">Articulo
-                                    de prensa 3</a>
-                            </div>
-
-
-                        </div>
-                        <div
-                            class="caja2 text-left font-['Neue'] grid grid-cols-2 text-[16px] border border-x-0 border-b-0 cursor-pointer bg-black text-white divide-x divide-zinc-200 divide-x-1">
-                            <img src="/img/ecovidrio.svg">
-
-                            <a href="https://www.prodigiosovolcan.com/proyectos/identidad-visual-ecovidrio/"
-                                target="_blank"
-                                class="caja2 bg-white py-12 text-right items-end h-full place-content-end max-[1920px]:px-8 max-[1920px]:py-8 flex hover:text-zinc-700 transition-all duration-500 self-center font-['Neue'] text-[30px] leading-[30px] px-12 cursor-pointer text-black">
+                <!-- Header -->
+                <div class="flex max-sm:grid max-sm:grid-rows-2 max-sm:items-left max-sm:justify-left max-sm:text-left items-center justify-between bg-gray-200 max-sm:bg-white px-4 pt-6 py-2 rounded-t-lg">
+                    <!-- Title -->
+                    <div class="flex items-center max-sm:items-left max-sm:text-left space-x-2">
+                        <span class="text-sm text-gray-800 font-['Neue'] ml-2">MICROILUSTRICIONES ECOVIDRIO</span>
+                    </div>
+                    <!-- Right Buttons -->
+                    <a class="text-end underline max-sm:text-start max-sm:ml-2"
+                                    href="https://www.reasonwhy.es/actualidad/nueva-identidad-ecovidrio-contenedor-verde-2024">Articulo
+                                    Reason Why</a>
+                </div>
+                <!-- Content -->
+                <div class="bg-white m-4 rounded-lg">
+                    <img class="rounded-lg" src="/img/ecovidrio.svg">
+                    <a href="https://www.prodigiosovolcan.com/proyectos/identidad-visual-ecovidrio/" target="_blank"
+                                class="caja2 max-sm:px-4 max-sm:py-4 pb-12 text-right items-end h-full place-content-end max-[1920px]:px-8 max-[1920px]:py-8 flex hover:text-zinc-700 transition-all duration-500 self-center font-['Neue'] text-[30px] leading-[30px] px-12 cursor-pointer text-black">
                                 Prodigioso<br>
                                 Volcán ⤤
                             </a>
-                        </div>
-                    </div>
-
                 </div>
             </div>
+            <div
+                class="bg-gray-200 max-sm:bg-white trabajos shadow-lg rounded-lg overflow-hidden transition-transform hover:scale-105 duration-300">
 
-            <div href="//www.prodigiosovolcan.com/proyectos/identidad-visual-ecovidrio/">
-                <div
-                    class="trabajos bg-white shadow-lg rounded-lg overflow-hidden transition-transform hover:scale-105 duration-300">
-                    <div
-                        class="flex flex-col text-black bg-white pt-6 items-left justify-center transition-all duration-100">
-                        <div
-                            class="caja2 text-left max-[1920px]:text-[14px] font-['Neue'] max-[1920px]:px-8  px-12 pb-6 cursor-pointer text-black">
-                            <p>COLABORACIÓN 2</p>
-                        </div>
-                        <div
-                            class="caja2 text-left font-['Neue'] py-6 text-[30px] max-[1920px]:text-[22px] max-[1920px]:px-8  px-12 border border-x-0 border-b-0 cursor-pointer text-black">
-                            DISEÑO EQUIPO<br>
-                            <p class="text-[80px] max-[1920px]:text-[52px] max-[1920px]:leading-6 leading-8 pb-8 pt-4">
-                                NEWTEAM</p>
-                        </div>
-                        <div
-                            class="caja2 items-center max-[1920px]:text-[14px] text-left font-['Neue'] grid grid-cols-2 py-6 text-[16px] max-[1920px]:px-8 px-12 border border-x-0 border-b-0 cursor-pointer text-black">
-                            <p>Realización del diseño, <br>marca y fotografía del equipo</p>
-
-                            <div class="articulos flex flex-col invisible">
-                                <a class="text-end underline"
-                                    href="https://www.marketingdirecto.com/anunciantes-general/anunciantes/ecovidrio-levanta-telon-identidad-marca">Articulo
-                                    de prensa</a>
-                                <a class="text-end underline"
-                                    href="https://ipmark.com/ecovidrio-redefine-estrategia-marca-gestion-residuos/">Articulo
-                                    de prensa 2</a>
-                                <a class="text-end underline"
-                                    href="https://controlpublicidad.com/empresas-y-negocios-publicidad/ecovidrio-presenta-su-nueva-identidad-de-marca/">Articulo
-                                    de prensa 3</a>
-                            </div>
-
-
-                        </div>
-                        <div
-                            class="caja2 text-left font-['Neue'] grid grid-cols-2 text-[16px] border border-x-0 border-b-0 cursor-pointer bg-black text-white divide-x divide-zinc-200 divide-x-1">
-                            <img src="/img/newteam3.png">
-
-                            <a href="https://www.instagram.com/newteam_cf" target="_blank"
-                                class="caja2 bg-white py-12 text-right items-end h-full place-content-end max-[1920px]:px-8 max-[1920px]:py-8 flex hover:text-zinc-700 transition-all duration-500 self-center font-['Neue'] text-[30px] leading-[30px] px-12 cursor-pointer text-black">
-                                New<br>
-                                Team ⤤
-                            </a>
-                        </div>
+                <!-- Header -->
+                <div class="flex items-center justify-between bg-gray-200 max-sm:bg-white px-4 pt-6 py-2 rounded-t-lg">
+                    <!-- Title -->
+                    <div class="flex items-center space-x-2">
+                        <span class="text-sm text-gray-800 font-['Neue'] ml-2">PROYECTO FAUX</span>
                     </div>
-
+                    <!-- Right Buttons -->
+                    <a class="text-end underline invisible"
+                                    href="https://www.reasonwhy.es/actualidad/nueva-identidad-ecovidrio-contenedor-verde-2024">Articulo
+                                    Reason Why</a>
                 </div>
-            </div>
-
-            <div href="//www.prodigiosovolcan.com/proyectos/identidad-visual-ecovidrio/">
-                <div
-                    class="trabajos bg-white shadow-lg rounded-lg overflow-hidden transition-transform hover:scale-105 duration-300">
-                    <div
-                        class="flex flex-col text-black bg-white pt-6 items-left justify-center transition-all duration-100">
-                        <div
-                            class="caja2 text-left flex justify-between font-['Neue'] px-12 max-sm:px-6 max-sm:text-[14px] pb-6 cursor-pointer text-black">
-                            <p>COLABORACIÓN 3</p>
-                        </div>
-
-                        <div
-                            class="caja2 text-left font-['Neue'] py-6 text-[30px] max-[1920px]:text-[22px] max-[1920px]:px-8  px-12 border border-x-0 border-b-0 cursor-pointer text-black">
-                            PROYECTO<br>
-                            <p class="text-[80px] max-[1920px]:text-[52px] max-[1920px]:leading-6 leading-8 pb-8 pt-4">
-                                FAUX</p>
-
-                        </div>
-
-                        <div
-                            class="caja2 items-center max-[1920px]:text-[14px] text-left font-['Neue'] grid grid-cols-2 py-6 text-[16px] max-[1920px]:px-8 px-12 border border-x-0 border-b-0 cursor-pointer text-black">
-                            <p>Realización de web <br>de creación de noticias</p>
-
-                            <div class="articulos flex flex-col invisible">
-                                <a class="text-end underline"
-                                    href="https://www.marketingdirecto.com/anunciantes-general/anunciantes/ecovidrio-levanta-telon-identidad-marca">Articulo
-                                    de prensa</a>
-                                <a class="text-end underline"
-                                    href="https://ipmark.com/ecovidrio-redefine-estrategia-marca-gestion-residuos/">Articulo
-                                    de prensa 2</a>
-                                <a class="text-end underline"
-                                    href="https://controlpublicidad.com/empresas-y-negocios-publicidad/ecovidrio-presenta-su-nueva-identidad-de-marca/">Articulo
-                                    de prensa 3</a>
-                            </div>
-
-                        </div>
-                        <div
-                            class="caja2 text-left font-['Neue'] grid grid-cols-2 text-[16px] border border-x-0 border-b-0 cursor-pointer bg-black text-white divide-x divide-zinc-200 divide-x-1">
-                            <img src="/img/fauxproyecto.png">
-
-                            <a href="https://faux-noticiario.netlify.app/" target="_blank"
-                                class="caja2 bg-white py-12 text-right items-end h-full place-content-end max-[1920px]:px-8 max-[1920px]:py-8 flex hover:text-zinc-700 transition-all duration-500 self-center font-['Neue'] text-[30px] leading-[30px] px-12 cursor-pointer text-black">
+                <!-- Content -->
+                <div class="bg-white m-4 rounded-lg">
+                    <img class="rounded-lg" src="/img/fauxproyecto.png">
+                    <a href="https://faux-noticiario.netlify.app/" target="_blank"
+                                class="caja2 max-sm:px-4 max-sm:py-4 pb-12 text-right items-end h-full place-content-end max-[1920px]:px-8 max-[1920px]:py-8 flex hover:text-zinc-700 transition-all duration-500 self-center font-['Neue'] text-[30px] leading-[30px] px-12 cursor-pointer text-black">
                                 Web<br>
                                 Faux ⤤
                             </a>
-                        </div>
-                    </div>
-
                 </div>
             </div>
+            <div
+                class="bg-gray-200 max-sm:bg-white trabajos shadow-lg rounded-lg overflow-hidden transition-transform hover:scale-105 duration-300">
 
-            <div class="hidden" href="//www.prodigiosovolcan.com/proyectos/identidad-visual-ecovidrio/">
-                <div class="trabajos bg-white divide-y divide-black shadow-lg">
-                    <div
-                        class="flex flex-col text-black bg-white pt-6 items-left justify-center transition-all duration-100">
-                        <div class="caja2 text-left font-['Neue'] px-12 pb-6 cursor-pointer text-white">
-                            <p>COLABORACIÓN 2</p>
-                        </div>
-                        <div
-                            class="caja2 text-left font-['Neue'] py-6 text-[30px] px-12 border border-x-0 border-b-0 cursor-pointer text-white">
-                            ILUSTRACIONES<br>
-                            <p class="text-[80px] leading-8 pb-32 pt-4">SABADELL</p>
-                        </div>
-                        <div
-                            class="caja2 items-center text-left font-['Neue'] grid grid-cols-2 py-6 text-[16px] px-12 border border-x-0 border-b-0 cursor-pointer text-white">
-                            <p>Realización de ilustraciones <br>para
-                                el articulos de Sabadell</p>
-
-                            <div class="articulos flex flex-col invisible">
-                                <a class="text-end underline"
-                                    href="https://www.marketingdirecto.com/anunciantes-general/anunciantes/ecovidrio-levanta-telon-identidad-marca">Articulo
-                                    de prensa</a>
-                                <a class="text-end underline"
-                                    href="https://ipmark.com/ecovidrio-redefine-estrategia-marca-gestion-residuos/">Articulo
-                                    de prensa 2</a>
-                                <a class="text-end underline"
-                                    href="https://controlpublicidad.com/empresas-y-negocios-publicidad/ecovidrio-presenta-su-nueva-identidad-de-marca/">Articulo
-                                    de prensa 3</a>
-                            </div>
-
-
-                        </div>
-                        <div
-                            class="caja2 text-left font-['Neue'] grid grid-cols-2 text-[16px] border border-x-0 border-b-0 cursor-pointer bg-black text-white divide-x divide-black divide-x-1">
-                            <img src="/img/microilustracionesecovidrio2.png">
-
-                            <a href="https://www.prodigiosovolcan.com/proyectos/identidad-visual-ecovidrio/"
-                                target="_blank"
-                                class="caja2 bg-black py-12 text-right items-end h-full place-content-end flex hover:text-zinc-700 transition-all duration-500 self-center font-['Neue'] text-[30px] leading-[30px] px-12 cursor-pointer text-white">
-                                Sabadell ⤤
+                <!-- Header -->
+                <div class="flex items-center justify-between max-sm:bg-white bg-gray-200 px-4 pt-6 py-2 rounded-t-lg">
+                    <!-- Title -->
+                    <div class="flex items-center space-x-2">
+                        <span class="text-sm text-gray-800 font-['Neue'] ml-2">DISEÑO EQUIPO NEW TEAM</span>
+                    </div>
+                    <!-- Right Buttons -->
+                    <a class="text-end underline invisible"
+                                    href="https://www.reasonwhy.es/actualidad/nueva-identidad-ecovidrio-contenedor-verde-2024">Articulo
+                                    Reason Why</a>
+                </div>
+                <!-- Content -->
+                <div class="bg-white m-4 rounded-lg">
+                    <img class="rounded-lg" src="/img/newteam3.png">
+                    <a href="https://www.instagram.com/newteam_cf" target="_blank"
+                                class="caja2 max-sm:px-4 max-sm:py-4 pb-12 text-right items-end h-full place-content-end max-[1920px]:px-8 max-[1920px]:py-8 flex hover:text-zinc-700 transition-all duration-500 self-center font-['Neue'] text-[30px] leading-[30px] px-12 cursor-pointer text-black">
+                                New<br>
+                                Team ⤤
                             </a>
-                        </div>
-                    </div>
-
                 </div>
             </div>
-
         </div>
 
         <div id="contacto" class="informacion max-sm:pt-24 pt-[300px] pb-64 bg-[#fcfcff] max-sm:pb-32">

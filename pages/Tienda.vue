@@ -1,4 +1,4 @@
-<template class="bg-zinc-800">
+<template class="bg-[#fcfcff]">
     <CursorBlack class="max-sm:hidden" />
     <VueScrollProgressBar background-color="#ffffff" class="mix-blend-exclusion" />
 
@@ -6,193 +6,139 @@
 
         <!-- Header (header ya es sticky) -->
 
-        <div class="menu flex justify-between w-full fixed top-0 left-0 right-0 z-0 bg-white backdrop-filter">
+
+        <div class="menu flex justify-between w-full fixed top-0 left-0 right-0 z-[10000] bg-[#fcfcff]">
             <!-- Header -->
             <div
-                class="header flex justify-between w-full px-20 py-8 flex gap-12 text-white items-center z-50 max-lg:flex max-sm:flex max-sm:justify-between max-sm:px-8">
+                class="header flex justify-between w-full px-20 py-8 flex gap-12 text-black items-center z-50 max-lg:flex max-sm:flex max-sm:justify-between max-sm:px-8">
                 <!-- Contenedor alineado a la izquierda -->
                 <div class="contenedor flex items-center justify-start text-[25px]">
                     <div class="image">
                         <NuxtLink class="flex" to="/IntroDark">
-                            <img class="max-lg:max-w-[15px] w-[20px]" 
-                            :class="{ hidden: isOpen }"
-                            src="/img/darklogo.png" />
+                            <img class="max-lg:max-w-[15px] w-[20px]" src="/img/darklogo.png" />
                         </NuxtLink>
                     </div>
                 </div>
 
                 <!-- Botón para abrir la slidebar dentro del navbar -->
                 <button @click="toggleSidebar"
-                    class="email2 max-sm:text-[30px] max-sm:no-underline relative text-black justify-end underline-offset-1 after:bg-white after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[26px] max-[1920px]:text-[20px] self-center place-self-end flex gap-2 max-lg:text-xs"
+                    class="email2 max-sm:text-[30px] max-sm:no-underline relative text-black justify-end underline-offset-1 after:bg-current after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[26px] max-[1920px]:text-[20px] self-center place-self-end flex gap-2 max-lg:text-xs"
                     :class="{ hidden: isOpen }">
                     Menu
                 </button>
-
-                <!-- Navegación centrada -->
             </div>
 
             <!-- Slidebar (desplegada a la derecha) -->
-            <div class="menucito fixed top-0 right-0 h-full w-[860px] max-sm:w-full max-[1920px]:w-[700px] bg-zinc-600 shadow-lg z-50 p-8 max-sm:p-10 transform transition-transform backdrop-filter backdrop-blur-md bg-opacity-30 text-white"
+            <div class="menucito fixed top-0 right-0 h-full w-[860px] max-sm:w-full max-[1920px]:w-[700px] bg-zinc-600 shadow-lg z-50 p-8 max-sm:p-10 transform transition-transform backdrop-filter backdrop-blur-md bg-opacity-30 text-black dark:text-white"
                 :class="{ 'translate-x-0': isOpen, 'translate-x-full': !isOpen }">
                 <div class="flex justify-between items-center">
                     <h2 @click="toggleSidebar"
-                        class="email text-black relative text-[26px] max-[1920px]:text-[20px] max-sm:text-[40px] self-center place-self-end flex gap-2 max-lg:text-xs cursor-pointer">
+                        class="email text-black dark:text-white relative text-[26px] max-[1920px]:text-[20px] max-sm:text-[40px] self-center place-self-end flex gap-2 max-lg:text-xs cursor-pointer">
                         Menú
                     </h2>
                     <button @click="toggleSidebar"
-                        class="email text-black relative text-[26px] max-sm:text-[20px] max-[1920px]:text-[20px] self-center place-self-end flex gap-2 max-lg:text-xs">
+                        class="email text-black dark:text-white relative text-[26px] max-sm:text-[20px] max-[1920px]:text-[20px] self-center place-self-end flex gap-2 max-lg:text-xs">
                         &times;
                     </button>
                 </div>
 
                 <!-- Contenido de la slidebar -->
-                <ul class="pt-12 flex flex-col justify-between h-full text-black">
+                <ul class="pt-12 flex flex-col justify-between h-full">
                     <div class="columna1 flex-grow">
                         <li>
                             <a href="/IntroDark#trabajos2"
-                                class="email  max-sm:text-[22px] max-sm:leading-8 mix-blend-exclusion relative underline-offset-1 after:bg-white after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                                class="email max-sm:text-[22px] max-sm:leading-8 text-black dark:text-white underline-offset-1 after:bg-current after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
                                 Trabajos
                             </a>
                         </li>
                         <li>
                             <a href="/Servicios"
-                                class="email max-sm:text-[22px] max-sm:leading-8 mix-blend-exclusion relative underline-offset-1 after:bg-white after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                                class="email max-sm:text-[22px] max-sm:leading-8 text-black dark:text-white underline-offset-1 after:bg-current after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
                                 Servicios
                             </a>
                         </li>
                         <li>
                             <a href="/Sobremi"
-                                class="email max-sm:text-[22px] max-sm:leading-8 mix-blend-exclusion relative underline-offset-1 after:bg-white after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                                class="email max-sm:text-[22px] max-sm:leading-8 text-black dark:text-white underline-offset-1 after:bg-current after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
                                 Sobre mi
                             </a>
                         </li>
                         <li>
                             <a href="/Tienda"
-                                class="email max-sm:text-[22px] max-sm:leading-8 mix-blend-exclusion relative underline-offset-1 after:bg-white after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                                class="email max-sm:text-[22px] max-sm:leading-8 text-black dark:text-white underline-offset-1 after:bg-current after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
                                 Tienda
                             </a>
                         </li>
                         <li>
-                            <a href="#contacto"
-                                class="email max-sm:text-[22px] max-sm:leading-8 mix-blend-exclusion relative underline-offset-1 after:bg-white after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                            <a href="/IntroDark#trabajos2"
+                                class="email max-sm:text-[22px] max-sm:leading-8 text-black dark:text-white underline-offset-1 after:bg-current after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
                                 Contacto
                             </a>
                         </li>
                     </div>
                     <div class="columna mt-auto pb-6 flex justify-between">
-                        <p>Copyright 2024</p>
-                        <p>*</p>
-                        <p>Rubén Maldonado</p>
-                        <p>*</p>
-                        <p>Portfolio</p>
+                        <p class="text-black dark:text-white">Copyright 2024</p>
+                        <p class="text-black dark:text-white">*</p>
+                        <p class="text-black dark:text-white">Rubén Maldonado</p>
+                        <p class="text-black dark:text-white">*</p>
+                        <p class="text-black dark:text-white">Portfolio</p>
                     </div>
                 </ul>
             </div>
         </div>
-
         <div
-            class="caja1 text-black bg-white text-left px-20 max-sm:px-8 max-sm:text-[90px] max-sm:pt-32 pt-44 text-[170px] pb-12 font-['Neue'] cursor-pointer duration-300"
-            :class="{ hidden: isOpen }">
+            class="caja1 text-black bg-[#fcfcff] text-left px-20 max-sm:px-8 max-sm:text-[90px] max-sm:pt-32 pt-44 text-[170px] pb-12 font-['Neue'] cursor-pointer duration-300">
             Tienda
         </div>
 
-
-
-
-
-        <div class="artic grid grid-cols-2 px-[100px] gap-12 max-sm:px-6 max-sm:grid-cols-1">
-
-
+        <div class="grid grid-cols-2 max-sm:grid-cols-1 max-sm:px-4 bg-[#fcfcff] px-20 gap-12">
             <div
-                href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=COMPRA|PRESUPUESTO&body=Hola Ruben Maldonado.Preguntaba por el pack Oporto...">
-                <div class="trabajos bg-white shadow-lg rounded-lg overflow-hidden transition-transform hover:scale-105 duration-300">
-                    <div
-                        class="flex flex-col text-black bg-white pt-6 items-left justify-center transition-all duration-100">
-                        <div
-                            class="caja2 text-left flex justify-between font-['Neue'] px-12 max-sm:px-6 max-sm:text-[14px] pb-6 cursor-pointer text-black">
-                            <p>ARTÍCULO 1</p>
-                            <p class="text-zinc-500">PRECIO: CONSULTAR</p>
-                        </div>
+                class="bg-gray-200 max-sm:bg-white trabajos shadow-lg rounded-lg overflow-hidden transition-transform hover:scale-105 duration-300">
 
-                        <div
-                            class="caja2 text-left font-['Neue'] py-6 text-[30px] max-sm:px-6 max-sm:text-[14px] px-12 border border-x-0 border-b-0 cursor-pointer text-black">
-                            COLECCIÓN<br>
-                            <p class="text-[80px] leading-8 pb-8 pt-4 max-sm:pb-4 max-sm:text-[70px]">OPORTO</p>
-
-                        </div>
-
-                        <div
-                            class="caja2 items-left flex flex-col text-left font-['Neue'] max-sm:px-6 max-sm:text-[14px] py-6 text-[16px] px-12 border border-x-0 border-b-0 cursor-pointer text-black">
-                            <p>Contiene:</p>
-                            <p class="text-zinc-400">Mapa de la ciudad</p>
-                            <p class="text-zinc-400">Folleto con imprescindibles</p>
-                            <p class="text-zinc-400">Fotolibro de alta calidad</p>
-                            <p class="text-zinc-400">Azulejo con serigrafía</p>
-                            <p class="text-zinc-400">Sellos</p>
-
-                        </div>
-
-                        <div
-                            class="caja2 text-left font-['Neue'] grid grid-cols-2 text-[16px] border border-x-0 border-b-0 cursor-pointer bg-white text-black divide-x divide-zinc-200 divide-x-1">
-                            <img src="/img/tienda3.png">
-
+                <!-- Header -->
+                <div class="flex max-sm:grid max-sm:grid-rows-2 max-sm:items-left max-sm:justify-left max-sm:text-left items-center justify-between bg-gray-200 max-sm:bg-white px-4 pt-6 py-2 rounded-t-lg">
+                    <!-- Title -->
+                    <div class="flex items-center max-sm:items-left max-sm:text-left space-x-2">
+                        <span class="text-sm text-gray-800 font-['Neue'] ml-2">COLECCIÓN OPORTO</span>
+                    </div>
+                    <!-- Right Buttons -->
+                    <a class="text-end mr-2 max-sm:text-start max-sm:ml-2 animate-pulse">PRECIO: CONSULTAR</a>
+                </div>
+                <!-- Content -->
+                <div class="bg-white m-4 rounded-lg">
+                    <img class="rounded-lg w-[600px]" src="/img/tienda3.png">
                             <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=COMPRA|PRESUPUESTO&body=Hola Ruben Maldonado.Preguntaba por el pack Oporto..."
                                 target="_blank"
-                                class="caja2 bg-white py-12 text-right items-end h-full max-sm:px-6 max-sm:py-6 max-sm:text-[26px] place-content-end flex hover:text-zinc-400 transition-all duration-500 self-center font-['Neue'] text-[30px] leading-[30px] px-12 cursor-pointer text-black">
+                                class="caja2 max-sm:px-4 max-sm:py-4 pb-12 text-right items-end h-full place-content-end max-[1920px]:px-8 max-[1920px]:py-8 flex hover:text-zinc-700 transition-all duration-500 self-center font-['Neue'] text-[30px] leading-[30px] px-12 cursor-pointer text-black">
                                 Solicitar<br>
                                 Compra ⤤
                             </a>
-                        </div>
-                    </div>
-
                 </div>
             </div>
-
             <div
-                href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=COMPRA|PRESUPUESTO&body=Hola Ruben Maldonado.Preguntaba por el pack Oporto...">
-                <div class="trabajos bg-white shadow-lg rounded-lg overflow-hidden transition-transform hover:scale-105 duration-300">
-                    <div
-                        class="flex flex-col text-black bg-white pt-6 items-left justify-center transition-all duration-100">
-                        <div
-                            class="caja2 text-left flex justify-between font-['Neue'] px-12 max-sm:px-6 max-sm:text-[14px] pb-6 cursor-pointer text-black">
-                            <p>ARTÍCULO 2</p>
-                            <p class="text-zinc-500">PRECIO: 1€ / und</p>
-                        </div>
+                class="bg-gray-200 max-sm:bg-white trabajos shadow-lg rounded-lg overflow-hidden transition-transform hover:scale-105 duration-300">
 
-                        <div
-                            class="caja2 text-left font-['Neue'] py-6 text-[30px] max-sm:px-6 max-sm:text-[14px] px-12 border border-x-0 border-b-0 cursor-pointer text-black">
-                            COLECCIÓN<br>
-                            <p class="text-[80px] leading-8 pb-8 pt-4 max-sm:pb-4 max-sm:text-[60px]">PEGATINAS</p>
+                <!-- Header -->
+                <div class="flex items-center justify-between bg-gray-200 max-sm:bg-white px-4 pt-6 py-2 rounded-t-lg">
+                    <!-- Title -->
+                    <div class="flex items-center space-x-2">
+                        <span class="text-sm text-gray-800 font-['Neue'] ml-2">COLECCIÓN PEGATINAS</span>
+                    </div>
+                    <!-- Right Buttons -->
+                    <a class="text-end mr-2 animate-pulse max-sm:text-start max-sm:ml-2">PRECIO: 1€ / und</a>
 
-                        </div>
-
-                        <div
-                            class="caja2 items-left flex flex-col text-left font-['Neue'] max-sm:px-6 max-sm:text-[14px] py-6 text-[16px] px-12 border border-x-0 border-b-0 cursor-pointer text-black">
-                            <p>Contiene:</p>
-                            <p class="text-zinc-400">Pegatinas de cars</p>
-                            <p class="text-zinc-400">Pegatinas de dinosaurios</p>
-                            <p class="text-zinc-400 invisible">Fotolibro de alta calidad</p>
-                            <p class="text-zinc-400 invisible">Azulejo con serigrafía</p>
-                            <p class="text-zinc-400 invisible">Sellos</p>
-
-                        </div>
-
-                        <div
-                            class="caja2 text-left font-['Neue'] grid grid-cols-2 text-[16px] border border-x-0 border-b-0 cursor-pointer bg-white text-black divide-x divide-zinc-200 divide-x-1">
-                            <img src="/img/tienda4.png">
-
+                </div>
+                <!-- Content -->
+                <div class="bg-white m-4 rounded-lg">
+                    <img class="rounded-lg w-[600px]" src="/img/tienda4.png">
                             <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=COMPRA|PRESUPUESTO&body=Hola Ruben Maldonado.Preguntaba por las pegatinas..."
                                 target="_blank"
-                                class="caja2 bg-white py-12 text-right items-end h-full max-sm:px-6 max-sm:py-6 max-sm:text-[26px] place-content-end flex hover:text-zinc-400 transition-all duration-500 self-center font-['Neue'] text-[30px] leading-[30px] px-12 cursor-pointer text-black">
+                                class="caja2 max-sm:px-4 max-sm:py-4 pb-12 text-right items-end h-full place-content-end max-[1920px]:px-8 max-[1920px]:py-8 flex hover:text-zinc-700 transition-all duration-500 self-center font-['Neue'] text-[30px] leading-[30px] px-12 cursor-pointer text-black">
                                 Solicitar<br>
                                 Compra ⤤
                             </a>
-                        </div>
-                    </div>
-
                 </div>
             </div>
-
 
         </div>
 
@@ -200,8 +146,9 @@
 
 
 
-        <div id="contacto" class="informacion max-sm:pt-24 pt-[300px] pb-64 bg-white max-sm:pb-32">
-            <div class="about bg-white">
+
+        <div id="contacto" class="informacion max-sm:pt-24 pt-[300px] pb-64 bg-[#fcfcff] max-sm:pb-32">
+            <div class="about bg-[#fcfcff]">
                 <div class="correo grid grid-cols-2 max-sm:grid-cols-1 text-black">
                     <div
                         class="caja2 z-0 text-left max-sm:text-[60px] max-sm:px-6 max-sm:leading-[50px] animate-pulse px-20 font-['Neue'] max-[1920px]:text-[150px] max-[1920px]:leading-[8.5rem] text-[170px] pt-12 pb-12 leading-[10rem] cursor-pointer text-black transition-colors duration-300 hover:text-black">
@@ -218,7 +165,7 @@
                     </div>
                 </div>
             </div>
-            <div class="about bg-white pt-2">
+            <div class="about bg-[#fcfcff] pt-2">
 
 
                 <!-- Redes Sociales -->
