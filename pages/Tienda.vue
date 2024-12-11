@@ -105,7 +105,7 @@
 
             <div
                 href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=COMPRA|PRESUPUESTO&body=Hola Ruben Maldonado.Preguntaba por el pack Oporto...">
-                <div class="trabajos bg-white divide-y divide-black shadow-lg">
+                <div class="trabajos bg-white shadow-lg rounded-lg overflow-hidden transition-transform hover:scale-105 duration-300">
                     <div
                         class="flex flex-col text-black bg-white pt-6 items-left justify-center transition-all duration-100">
                         <div
@@ -150,7 +150,7 @@
 
             <div
                 href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=COMPRA|PRESUPUESTO&body=Hola Ruben Maldonado.Preguntaba por el pack Oporto...">
-                <div class="trabajos bg-white divide-y divide-black shadow-lg">
+                <div class="trabajos bg-white shadow-lg rounded-lg overflow-hidden transition-transform hover:scale-105 duration-300">
                     <div
                         class="flex flex-col text-black bg-white pt-6 items-left justify-center transition-all duration-100">
                         <div

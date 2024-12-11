@@ -110,7 +110,7 @@
             <div class="texto1"></div>
             <div class="texto2">
                 <p
-                    class="titulo bg-black pt-32 text-white text-[30px] gap-2 leading-[40px] max-lg:text-xs normal-case font-['Neue']">
+                    class="titulo bg-black pt-32 text-white text-[30px] gap-2 leading-[40px] max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px] max-sm:pb-12 max-sm:pt-24 normal-case font-['Neue']">
                     Tengo 24 años, actualmente estoy terminando un grado Universitario de Diseño Gráfico en la <a
                         href="https://esdmadrid.es/" target="_blank"
                         class="hover:text-zinc-500 underline transition-all duration-500">Escuela Superior De Diseño de
@@ -131,7 +131,7 @@
             <div class="texto1"></div>
             <div class="texto2">
                 <p
-                    class="titulo bg-black text-white text-[30px] gap-2 leading-[40px] max-lg:text-xs normal-case font-['Neue']">
+                    class="titulo bg-black text-white text-[30px] gap-2 leading-[40px] max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px] max-sm:pb-12  normal-case font-['Neue']">
                     Soy muy polifacetico, "<a class="animate-pulse">currante</a>" y "<a
                         class="animate-pulse">todoterreno</a>" no me cierro a ninguna vía del diseño, suelo abarcar
                     todos los ambitos, como ya he mostrado en la sección de <NuxtLink to="/Intro#trabajos"
@@ -151,7 +151,7 @@
             <div class="texto1"></div>
             <div class="texto2">
                 <p
-                    class="titulo bg-black text-white text-[30px] gap-2 leading-[40px] max-lg:text-xs normal-case font-['Neue']">
+                    class="titulo bg-black text-white text-[30px] gap-2 leading-[40px] max-lg:text-xs normal-case max-sm:text-[20px] max-sm:leading-[24px] max-sm:pb-12 font-['Neue']">
                     Soy un gran aficionado de las películas (sobretodo de las que te dejan pensando durante un rato),
                     del futbol y el deporte en general. No podría vivir sin mi perro "Trueno". Adoro la música
                     electrónica y el pop inglés (2000s - 2010s).
@@ -167,15 +167,15 @@
             class="caja1 uppercase text-left items-end grid grid-cols-2 place-content-end px-20 text-[170px] pt-32 font-['Neue-Bold'] leading-[10rem] text-white bg-black duration-300 max-sm:pt-2 max-sm:px-8">
             <div class="texto1">
                 <a target="_blank" href="/Marca"
-                    class="titulo bg-black text-[#ff2d7e]  text-[30px] gap-2 leading-[40px] max-lg:text-xs normal-case font-['Neue'] hover:text-zinc-500 underline transition-all duration-500">
+                    class="titulo bg-black text-[#ff2d7e] max-sm:text-[20px] max-sm:leading-[24px] text-[30px] gap-2 leading-[40px] max-lg:text-xs normal-case font-['Neue'] hover:text-zinc-500 underline transition-all duration-500">
                     [MI MARCA]
 
 
                 </a>
             </div>
-            <div class="texto2">
+            <div class="texto2 max-sm:place-self-end">
                 <a target="_blank" href="https://music.apple.com/es/playlist/playlist-n%C2%BA-1/pl.u-8aAVZyluv8K48qD"
-                    class="titulo bg-black text-[#ff2d7e]  text-[30px] gap-2 leading-[40px] max-lg:text-xs normal-case font-['Neue'] hover:text-zinc-500 underline transition-all duration-500">
+                    class="titulo bg-black text-[#ff2d7e] max-sm:text-[20px] max-sm:leading-[24px] text-[30px] gap-2 leading-[40px] max-lg:text-xs normal-case font-['Neue']  hover:text-zinc-500 underline transition-all duration-500">
                     [MI PLAYLIST]
 
 
@@ -186,7 +186,7 @@
         </div>
 
         <img class="bg-black w-full pt-32 px-[400px] max-sm:hidden" src="/img/yocomposicion.png">
-        <img class="bg-black w-full pt-32 px-[400px] hidden max-sm:flex max-sm:px-8 max-sm:pt-6 max-sm:pb-8" src="/img/yocomposicion.png">
+        <img class="bg-black w-full pt-32 px-[400px] hidden max-sm:flex max-sm:px-0 max-sm:pt-12 max-sm:pb-8" src="/img/yocomposicion2.png">
 
 
         <div
@@ -197,49 +197,49 @@
         <div class="trabajos bg-black grid grid-cols-3 px-20 gap-48 max-sm:grid-cols-1 max-sm:px-8 max-sm:gap-6">
             <div class="categoria1 pt-20 pb-20 bg-black flex flex-col gap-12 self-start max-sm:gap-6 max-sm:pt-12 max-sm:pb-2">
                 <div class="flex justify-between">
-                    <p class="titulo bg-black text-left text-zinc-400 leading-none text-[20px] gap-2 max-lg:text-xs ">
+                    <p class="titulo bg-black text-left text-zinc-400 leading-none text-[20px] gap-2 max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px] ">
                         Trabajando actualmente en
                     </p>
                     <p
-                        class="titulo animate-pulse bg-black text-left text-zinc-200 leading-none text-[16px] gap-2 max-lg:text-xs ">
+                        class="titulo animate-pulse bg-black text-left text-zinc-200 leading-none text-[16px] gap-2 max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px]">
                         3 meses
                     </p>
                 </div>
 
 
-                <a href="https://www.prodigiosovolcan.com/" target="_blank"><img
-                        class="w-[300px] pt-4 justify-items-center self-right hover:w-[290px] transition-all duration-500"
+                <a href="https://www.prodigiosovolcan.com/" target="_blank" class="max-sm:place-self-center"><img
+                        class="w-[300px] pt-4 justify-items-center self-right hover:w-[290px] transition-all duration-500 max-sm:w-[220px]"
                         src="/img/prodigioso.svg"></a>
 
             </div>
             <div class="categoria1 pt-20 pb-20 bg-black flex flex-col gap-12 self-start max-sm:pt-12 max-sm:pb-2">
                 <div class="flex justify-between">
-                    <p class="titulo bg-black text-left text-zinc-400 leading-none text-[20px] gap-2 max-lg:text-xs ">
+                    <p class="titulo bg-black text-left text-zinc-400 leading-none text-[20px] gap-2 max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px]">
                         Ex-diseñador en
                     </p>
                     <p
-                        class="titulo animate-pulse bg-black text-left text-zinc-200 leading-none text-[16px] gap-2 max-lg:text-xs ">
+                        class="titulo animate-pulse bg-black text-left text-zinc-200 leading-none text-[16px] gap-2 max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px]">
                         9 meses
                     </p>
                 </div>
 
-                <a href="https://www.garridogallery.com/" target="_blank"><img
-                        class="w-[250px] pt-6 justify-items-center self-right  hover:w-[240px] transition-all duration-500"
+                <a href="https://www.prodigiosovolcan.com/" target="_blank" class="max-sm:place-self-center"><img
+                    class="w-[250px] pt-6 justify-items-center self-right max-sm:w-[220px] hover:w-[240px] transition-all duration-500"
                         src="/img/garrido.svg"></a>
 
             </div>
             <div class="categoria1 pt-20 pb-20 bg-black flex flex-col gap-12 self-start max-sm:pt-12 max-sm:pb-2">
                 <div class="flex justify-between">
-                    <p class="titulo bg-black text-left text-zinc-400 leading-none text-[20px] gap-2 max-lg:text-xs ">
+                    <p class="titulo bg-black text-left text-zinc-400 leading-none text-[20px] gap-2 max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px]">
                         Diseñador freelance bajo mi marca
                     </p>
                     <p
-                        class="titulo animate-pulse bg-black text-left text-zinc-200 leading-none text-[16px] gap-2 max-lg:text-xs ">
+                        class="titulo animate-pulse bg-black text-left text-zinc-200 leading-none text-[16px] gap-2 max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px]">
                         ∞
                     </p>
                 </div>
-                <a href="https://rubenmaldonado.es/" target="_blank"><img
-                        class="w-[300px] pt-2 justify-items-center self-right  hover:w-[290px] transition-all duration-500"
+                <a href="https://www.prodigiosovolcan.com/" target="_blank" class="max-sm:place-self-center"><img
+                    class="w-[300px] pt-2 justify-items-center self-right max-sm:w-[220px] hover:w-[290px] transition-all duration-500"
                         src="/img/logorubenmain.svg"></a>
 
             </div>
@@ -264,45 +264,45 @@
         <div class="trabajos bg-black px-20 grid grid-cols-3 max-sm:grid-cols-1 max-sm:px-8">
             <div class="categoria1 pt-20 pb-20 bg-black flex flex-col gap-12 self-start max-sm:py-4 max-sm:pt-12 max-sm:gap-4">
                 <div class="flex justify-between">
-                    <p class="titulo bg-black text-left text-zinc-400 leading-none text-[20px] gap-2 max-lg:text-xs ">
+                    <p class="titulo bg-black text-left text-zinc-400 leading-none text-[20px] gap-2 max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px]">
                         Bachillerato Artístico
                     </p>
 
                 </div>
 
 
-                <p class="titulo bg-black text-left text-zinc-300 leading-none text-[60px] gap-2 max-lg:text-xs ">
+                <p class="titulo bg-black text-left text-zinc-300 leading-none text-[60px] gap-2 max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px]">
                     IES El Greco
                 </p>
 
             </div>
             <div class="categoria1 pt-20 pb-20 bg-black flex flex-col gap-12 self-start max-sm:py-4 max-sm:py-12 max-sm:gap-4">
                 <div class="flex justify-between">
-                    <p class="titulo bg-black text-left text-zinc-400 leading-none text-[20px] gap-2 max-lg:text-xs ">
+                    <p class="titulo bg-black text-left text-zinc-400 leading-none text-[20px] gap-2 max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px]">
                         Grado Superior de Ilustración
                     </p>
 
                 </div>
 
 
-                <p class="titulo bg-black text-left max-[1920px]:hidden text-zinc-300 leading-none text-[60px] gap-2 max-lg:text-xs ">
+                <p class="titulo bg-black text-left max-[1920px]:hidden text-zinc-300 leading-none text-[60px] gap-2 max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px]">
                     Escuela de Artes Toledo
                 </p>
-                <p class="titulo bg-black hidden max-[1920px]:flex text-left text-zinc-300 leading-none text-[60px] gap-2 max-lg:text-xs ">
+                <p class="titulo bg-black hidden max-[1920px]:flex text-left text-zinc-300 leading-none text-[60px] gap-2 max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px]">
                     Escuela de Artes
                 </p>
 
             </div>
             <div class="categoria1 pt-20 pb-20 bg-black flex flex-col gap-12 self-end max-sm:py-4 max-sm:py-12 max-sm:gap-4">
                 <div class="flex justify-between">
-                    <p class="titulo bg-black text-left text-zinc-400 leading-none text-[20px] gap-2 max-lg:text-xs ">
+                    <p class="titulo bg-black text-left text-zinc-400 leading-none text-[20px] gap-2 max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px]">
                         Grado Universitario
                     </p>
 
                 </div>
 
 
-                <p class="titulo bg-black text-left text-zinc-300 leading-none text-[60px] gap-2 max-lg:text-xs ">
+                <p class="titulo bg-black text-left text-zinc-300 leading-none text-[60px] gap-2 max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px]">
                     ESD Madrid
                 </p>
 
