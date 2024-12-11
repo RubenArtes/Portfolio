@@ -684,9 +684,10 @@
                         </div>
 
                         <div
-                            class="caja2 text-left font-['Neue'] py-6 text-[30px] max-sm:px-6 max-sm:text-[14px] px-12 border border-x-0 border-b-0 cursor-pointer text-black">
-                            PROYECTO<br>
-                            <p class="text-[80px] leading-8 pb-8 pt-4 max-sm:pb-4 max-sm:text-[60px]">FAUX</p>
+                        class="caja2 text-left font-['Neue'] py-6 text-[30px] max-[1920px]:text-[22px] max-[1920px]:px-8  px-12 border border-x-0 border-b-0 cursor-pointer text-black">
+                        PROYECTO<br>
+                            <p class="text-[80px] max-[1920px]:text-[52px] max-[1920px]:leading-6 leading-8 pb-8 pt-4">
+                                FAUX</p>
 
                         </div>
 
