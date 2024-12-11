@@ -5,7 +5,7 @@
     <div id="header" class="bg-black font-['SFUIDisplay-Light']" :class="['header', isHeaderFixed ? 'fixed-header' : '']">
 
         <!-- Header Sticky con efecto de transparencia y z-index superior -->
-        <div class="menu flex justify-between w-full fixed top-0 left-0 right-0 z-0">
+        <div class="menu flex justify-between w-full bg-black fixed top-0 left-0 right-0 z-[10000]">
             <!-- Header -->
             <div
                 class="header flex justify-between w-full px-20 py-8 flex gap-12 text-white items-center z-50 max-lg:flex max-sm:flex max-sm:justify-between max-sm:px-8">
