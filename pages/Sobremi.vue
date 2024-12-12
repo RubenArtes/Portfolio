@@ -2,7 +2,8 @@
     <Cursor class="max-sm:hidden" />
     <VueScrollProgressBar background-color="#ffffff" class="mix-blend-exclusion" />
 
-    <div id="header" class="bg-black font-['SFUIDisplay-Light']" :class="['header', isHeaderFixed ? 'fixed-header' : '']">
+    <div id="header" class="bg-black font-['SFUIDisplay-Light']"
+        :class="['header', isHeaderFixed ? 'fixed-header' : '']">
 
         <!-- Header Sticky con efecto de transparencia y z-index superior -->
         <div class="menu flex justify-between w-full bg-black fixed top-0 left-0 right-0 z-[10000]">
@@ -52,26 +53,26 @@
                         </li>
                         <li>
                             <a href="/Servicios"
-                            class="email max-sm:text-[22px] max-sm:leading-8 mix-blend-exclusion relative underline-offset-1 after:bg-white after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
-                            Servicios
+                                class="email max-sm:text-[22px] max-sm:leading-8 mix-blend-exclusion relative underline-offset-1 after:bg-white after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                                Servicios
                             </a>
                         </li>
                         <li>
                             <a href="/Sobremi"
-                            class="email max-sm:text-[22px] max-sm:leading-8 mix-blend-exclusion relative underline-offset-1 after:bg-white after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
-                            Sobre mi
+                                class="email max-sm:text-[22px] max-sm:leading-8 mix-blend-exclusion relative underline-offset-1 after:bg-white after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                                Sobre mi
                             </a>
                         </li>
                         <li>
                             <a href="/Tienda"
-                            class="email max-sm:text-[22px] max-sm:leading-8 mix-blend-exclusion relative underline-offset-1 after:bg-white after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
-                            Tienda
+                                class="email max-sm:text-[22px] max-sm:leading-8 mix-blend-exclusion relative underline-offset-1 after:bg-white after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                                Tienda
                             </a>
                         </li>
                         <li>
                             <a href="#contacto"
-                            class="email max-sm:text-[22px] max-sm:leading-8 mix-blend-exclusion relative underline-offset-1 after:bg-white after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
-                            Contacto
+                                class="email max-sm:text-[22px] max-sm:leading-8 mix-blend-exclusion relative underline-offset-1 after:bg-white after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                                Contacto
                             </a>
                         </li>
                     </div>
@@ -99,7 +100,9 @@
         <div
             class="caja1 text-left px-20 pt-32 text-[90px] pb-12 font-['Neue'] leading-[6rem] cursor-pointer text-white bg-black duration-300 max-sm:px-8 max-sm:text-[30px] max-sm:leading-9">
             Dibujando desde que tenía 5 años. Con una cámara desde que tenia 10 años. Y constantemente aprendiendo. Me
-            llamo <a class="text-[#ff2d7e] underline decoration-[6px] underline-offset-[10px] max-sm:decoration-[3px] max-sm:underline-offset-[4px]">Rubén Maldonado</a> y soy
+            llamo <a
+                class="text-[#ff2d7e] underline decoration-[6px] underline-offset-[10px] max-sm:decoration-[3px] max-sm:underline-offset-[4px]">Rubén
+                Maldonado</a> y soy
             un apasionado del Diseño Gráfico,
             la ilustración, el arte y la fotografía.<br>
         </div>
@@ -186,7 +189,8 @@
         </div>
 
         <img class="bg-black w-full pt-32 px-[400px] max-sm:hidden" src="/img/yocomposicion.png">
-        <img class="bg-black w-full pt-32 px-[400px] hidden max-sm:flex max-sm:px-0 max-sm:pt-12 max-sm:pb-8" src="/img/yocomposicion2.png">
+        <img class="bg-black w-full pt-32 px-[400px] hidden max-sm:flex max-sm:px-0 max-sm:pt-12 max-sm:pb-8"
+            src="/img/yocomposicion2.png">
 
 
         <div
@@ -194,115 +198,126 @@
             Clientes
         </div>
 
-        <div class="trabajos bg-black grid grid-cols-3 px-20 gap-48 max-sm:grid-cols-1 max-sm:px-8 max-sm:gap-6">
-            <div class="categoria1 pt-20 pb-20 bg-black flex flex-col gap-12 self-start max-sm:gap-6 max-sm:pt-12 max-sm:pb-2">
+        <div class="trabajos bg-black grid grid-cols-1 px-20 gap-48 max-sm:grid-cols-1 max-sm:px-8 max-sm:gap-6">
+            <div
+                class="categoria1 pt-20 pb-20 bg-black flex flex-col gap-12 self-start max-sm:gap-6 max-sm:pt-12 max-sm:pb-2">
                 <div class="flex justify-between">
-                    <p class="titulo bg-black text-left text-zinc-400 leading-none text-[20px] gap-2 max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px] ">
-                        Trabajando actualmente en
-                    </p>
                     <p
-                        class="titulo animate-pulse bg-black text-left text-zinc-200 leading-none text-[16px] gap-2 max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px]">
-                        3 meses
+                        class="titulo bg-black text-zinc-300 text-[30px] gap-2 leading-[40px] max-lg:text-xs normal-case max-sm:text-[20px] max-sm:leading-[24px] max-sm:pb-12 font-['Neue']">
+                        Trabajando actualmente en
                     </p>
                 </div>
 
 
                 <a href="https://www.prodigiosovolcan.com/" target="_blank" class="max-sm:place-self-center"><img
-                        class="w-[300px] pt-4 justify-items-center self-right hover:w-[290px] transition-all duration-500 max-sm:w-[220px]"
+                        class="w-[300px] pt-4 justify-center place-self-center items-center hover:w-[290px] transition-all duration-500 max-sm:w-[220px]"
                         src="/img/prodigioso.svg"></a>
 
             </div>
-            <div class="categoria1 pt-20 pb-20 bg-black flex flex-col gap-12 self-start max-sm:pt-12 max-sm:pb-2">
-                <div class="flex justify-between">
-                    <p class="titulo bg-black text-left text-zinc-400 leading-none text-[20px] gap-2 max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px]">
-                        Ex-diseñador en
-                    </p>
-                    <p
-                        class="titulo animate-pulse bg-black text-left text-zinc-200 leading-none text-[16px] gap-2 max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px]">
-                        9 meses
-                    </p>
-                </div>
 
-                <a href="https://www.prodigiosovolcan.com/" target="_blank" class="max-sm:place-self-center"><img
-                    class="w-[250px] pt-6 justify-items-center self-right max-sm:w-[220px] hover:w-[240px] transition-all duration-500"
-                        src="/img/garrido.svg"></a>
-
-            </div>
-            <div class="categoria1 pt-20 pb-20 bg-black flex flex-col gap-12 self-start max-sm:pt-12 max-sm:pb-2">
-                <div class="flex justify-between">
-                    <p class="titulo bg-black text-left text-zinc-400 leading-none text-[20px] gap-2 max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px]">
-                        Diseñador freelance bajo mi marca
-                    </p>
-                    <p
-                        class="titulo animate-pulse bg-black text-left text-zinc-200 leading-none text-[16px] gap-2 max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px]">
-                        ∞
-                    </p>
-                </div>
-                <a href="https://www.prodigiosovolcan.com/" target="_blank" class="max-sm:place-self-center"><img
-                    class="w-[300px] pt-2 justify-items-center self-right max-sm:w-[220px] hover:w-[290px] transition-all duration-500"
-                        src="/img/logorubenmain.svg"></a>
-
-            </div>
 
         </div>
 
-        <p class="titulo bg-black pt-12 text-left text-zinc-400 text-[16px] leading-[12px] gap-2 max-lg:text-xs px-20 max-sm:px-8">
-            _ Ganador de concurso de carteles para Villaluenga de la Sagra. <br><br class="max-sm:hidden">
-            _ Diseñador gráfico para empresa Neumáticos por Poco. (6 meses) <br><br class="max-sm:hidden">
-            _ Renovación y creación de marca para la empresa Motor 76. (1 mes) <br><br class="max-sm:hidden">
-            _ Creación de ilustraciones para Ecos Castilla La Mancha. (2 meses) <br><br class="max-sm:hidden">
-            _ Diseñador Freelance por horas para empresas. (2 meses) <br><br class="max-sm:hidden">
-            _ Diseño de portadas para proyecto musical. <br><br class="max-sm:hidden">
+        <div
+            class="categoria1 pt-20 pb-20 px-20 bg-black flex flex-col gap-12 self-start max-sm:gap-6 max-sm:pb-2 max-sm:px-8 max-sm:pt-24">
+            <div class="flex justify-between">
+                <p
+                    class="titulo bg-black text-zinc-300 text-[30px] gap-2 leading-[40px] max-lg:text-xs normal-case max-sm:text-[20px] max-sm:leading-[24px] max-sm:pb-12 font-['Neue']">
+                    Otros clientes
+                </p>
+            </div>
+        </div>
+
+        <div
+            class="trabajos bg-black grid grid-cols-3 px-20 pt-32 pb-64 gap-24 max-sm:pb-48 max-sm:pt-24 max-sm:grid-cols-1 max-sm:px-8 max-sm:gap-32">
+
+            <a class="place-self-end w-full h-full flex justify-end items-end max-sm:justify-center">
+                <img class="w-full h-full max-w-[250px] max-sm:max-w-[220px] hover:max-w-[240px] transition-all duration-500"
+                    src="/img/BSabadell_Logo.svg"></a>
+
+            <a class="place-self-start w-full h-full flex justify-center items-center max-sm:justify-center">
+                <img class="w-full h-full max-w-[400px] max-sm:max-w-[300px] hover:max-w-[380px] transition-all duration-500"
+                    src="/img/Logotipo_Positivo_Horizontal.svg" alt="Logotipo">
+            </a>
+
+            <a href="https://www.garridogallery.com/" target="_blank"
+                class="place-self-start w-full h-full flex justify-start items-start max-sm:justify-center">
+                <img class="w-full h-full max-w-[240px] max-sm:max-w-[200px] hover:max-w-[220px] transition-all duration-500"
+                    src="/img/garrido.svg" alt="Logotipo">
+            </a>
+
+        </div>
+
+
+
+        <p
+            class="titulo px-20 pb-32 bg-black text-zinc-300 text-[30px] gap-2 leading-[40px] max-lg:text-xs normal-case max-sm:px-8 max-sm:text-[20px] max-sm:leading-[24px] max-sm:pb-12 font-['Neue']">
+            _ Ganador de concurso de carteles para Villaluenga de la Sagra. <br>
+            _ Diseñador gráfico para empresa Neumáticos por Poco. (6 meses) <br>
+            _ Renovación y creación de marca para la empresa Motor 76. (1 mes) <br>
+            _ Creación de ilustraciones para Ecos Castilla La Mancha. (2 meses) <br>
+            _ Diseñador Freelance por horas para empresas. (2 meses) <br>
+            _ Diseño de portadas para proyecto musical. <br>
 
         </p>
 
         <div
-        class="titulo bg-black max-sm:text-[30px] max-sm:px-6 max-sm:pt-24 pt-12 w-full text-white px-20 text-[170px] self-center place-self-end flex gap-2 max-lg:text-xs max-sm:leading-8 max-sm:px-8">
-        Estudios
+            class="titulo bg-black max-sm:text-[30px] max-sm:px-6 max-sm:pt-24 pt-12 w-full text-white px-20 text-[170px] self-center place-self-end flex gap-2 max-lg:text-xs max-sm:leading-8 max-sm:px-8">
+            Estudios
         </div>
 
         <div class="trabajos bg-black px-20 grid grid-cols-3 max-sm:grid-cols-1 max-sm:px-8">
-            <div class="categoria1 pt-20 pb-20 bg-black flex flex-col gap-12 self-start max-sm:py-4 max-sm:pt-12 max-sm:gap-4">
+            <div
+                class="categoria1 pt-20 pb-20 bg-black flex flex-col gap-12 self-start max-sm:py-4 max-sm:pt-12 max-sm:gap-4">
                 <div class="flex justify-between">
-                    <p class="titulo bg-black text-left text-zinc-400 leading-none text-[20px] gap-2 max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px]">
+                    <p
+                        class="titulo bg-black text-left text-zinc-400 leading-none text-[20px] gap-2 max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px]">
                         Bachillerato Artístico
                     </p>
 
                 </div>
 
 
-                <p class="titulo bg-black text-left text-zinc-300 leading-none text-[60px] gap-2 max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px]">
+                <p
+                    class="titulo bg-black text-left text-zinc-300 leading-none text-[60px] gap-2 max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px]">
                     IES El Greco
                 </p>
 
             </div>
-            <div class="categoria1 pt-20 pb-20 bg-black flex flex-col gap-12 self-start max-sm:py-4 max-sm:py-12 max-sm:gap-4">
+            <div
+                class="categoria1 pt-20 pb-20 bg-black flex flex-col gap-12 self-start max-sm:py-4 max-sm:py-12 max-sm:gap-4">
                 <div class="flex justify-between">
-                    <p class="titulo bg-black text-left text-zinc-400 leading-none text-[20px] gap-2 max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px]">
+                    <p
+                        class="titulo bg-black text-left text-zinc-400 leading-none text-[20px] gap-2 max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px]">
                         Grado Superior de Ilustración
                     </p>
 
                 </div>
 
 
-                <p class="titulo bg-black text-left max-[1920px]:hidden text-zinc-300 leading-none text-[60px] gap-2 max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px]">
+                <p
+                    class="titulo bg-black text-left max-[1920px]:hidden text-zinc-300 leading-none text-[60px] gap-2 max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px]">
                     Escuela de Artes Toledo
                 </p>
-                <p class="titulo bg-black hidden max-[1920px]:flex text-left text-zinc-300 leading-none text-[60px] gap-2 max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px]">
+                <p
+                    class="titulo bg-black hidden max-[1920px]:flex text-left text-zinc-300 leading-none text-[60px] gap-2 max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px]">
                     Escuela de Artes
                 </p>
 
             </div>
-            <div class="categoria1 pt-20 pb-20 bg-black flex flex-col gap-12 self-end max-sm:py-4 max-sm:py-12 max-sm:gap-4">
+            <div
+                class="categoria1 pt-20 pb-64 bg-black flex flex-col gap-12 self-end max-sm:py-4 max-sm:py-12 max-sm:gap-4">
                 <div class="flex justify-between">
-                    <p class="titulo bg-black text-left text-zinc-400 leading-none text-[20px] gap-2 max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px]">
+                    <p
+                        class="titulo bg-black text-left text-zinc-400 leading-none text-[20px] gap-2 max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px]">
                         Grado Universitario
                     </p>
 
                 </div>
 
 
-                <p class="titulo bg-black text-left text-zinc-300 leading-none text-[60px] gap-2 max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px]">
+                <p
+                    class="titulo bg-black text-left text-zinc-300 leading-none text-[60px] gap-2 max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px]">
                     ESD Madrid
                 </p>
 
@@ -310,8 +325,9 @@
 
 
         </div>
-        <p class="titulo bg-black pt-12 text-left text-zinc-400 text-[16px] leading-[12px] gap-2 max-sm:py-4 max-lg:text-xs px-20 max-sm:px-8">
-            _ Curso extracurricular de 2 años de Arte y Pintura en Villaluenga de la Sagra. <br><br class="max-sm:hidden">
+        <p
+        class="titulo px-20 pb-32 bg-black text-zinc-300 text-[30px] gap-2 leading-[40px] max-lg:text-xs normal-case max-sm:px-8 max-sm:pt-24 max-sm:text-[20px] max-sm:leading-[24px] max-sm:pb-12 font-['Neue']">
+        _ Curso extracurricular de 2 años de Arte y Pintura en Villaluenga de la Sagra. <br>
             _ Cursos de Domestika: "Ilustración Digital con Procreate", "Ilustración Digital aplicada a productos",
             "Introducción al lettering con Procreate".
         </p>

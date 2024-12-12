@@ -822,6 +822,30 @@
                 class="bg-gray-200 max-sm:bg-white trabajos shadow-lg rounded-lg overflow-hidden transition-transform hover:scale-105 duration-300">
 
                 <!-- Header -->
+                <div class="flex items-center justify-between max-sm:bg-white bg-gray-200 px-4 pt-6 py-2 rounded-t-lg">
+                    <!-- Title -->
+                    <div class="flex items-center space-x-2">
+                        <span class="text-sm text-gray-800 uppercase font-['Neue'] ml-2">Ilustraciones Sabadell</span>
+                    </div>
+                    <!-- Right Buttons -->
+                    <a class="text-end underline invisible"
+                                    href="https://www.reasonwhy.es/actualidad/nueva-identidad-ecovidrio-contenedor-verde-2024">Articulo
+                                    Reason Why</a>
+                </div>
+                <!-- Content -->
+                <div class="bg-white m-4 rounded-lg">
+                    <img class="rounded-lg" src="/img/sabadell.png">
+                    <a href="https://www.vozpopuli.com/branded-content/peldanos-marmol-revestir-rascacielos-almeria-grupo-cosentino.html" target="_blank"
+                                class="caja2 max-sm:px-4 max-sm:py-4 pb-12 text-right items-end h-full place-content-end max-[1920px]:px-8 max-[1920px]:py-8 flex hover:text-zinc-700 transition-all duration-500 self-center font-['Neue'] text-[30px] leading-[30px] px-12 cursor-pointer text-black">
+                                Ilustraciones<br>
+                                Sabadell ⤤
+                            </a>
+                </div>
+            </div>
+            <div
+                class="bg-gray-200 max-sm:bg-white trabajos shadow-lg rounded-lg overflow-hidden transition-transform hover:scale-105 duration-300">
+
+                <!-- Header -->
                 <div class="flex items-center justify-between bg-gray-200 max-sm:bg-white px-4 pt-6 py-2 rounded-t-lg">
                     <!-- Title -->
                     <div class="flex items-center space-x-2">
@@ -842,30 +866,7 @@
                             </a>
                 </div>
             </div>
-            <div
-                class="bg-gray-200 max-sm:bg-white trabajos shadow-lg rounded-lg overflow-hidden transition-transform hover:scale-105 duration-300">
 
-                <!-- Header -->
-                <div class="flex items-center justify-between max-sm:bg-white bg-gray-200 px-4 pt-6 py-2 rounded-t-lg">
-                    <!-- Title -->
-                    <div class="flex items-center space-x-2">
-                        <span class="text-sm text-gray-800 font-['Neue'] ml-2">DISEÑO EQUIPO NEW TEAM</span>
-                    </div>
-                    <!-- Right Buttons -->
-                    <a class="text-end underline invisible"
-                                    href="https://www.reasonwhy.es/actualidad/nueva-identidad-ecovidrio-contenedor-verde-2024">Articulo
-                                    Reason Why</a>
-                </div>
-                <!-- Content -->
-                <div class="bg-white m-4 rounded-lg">
-                    <img class="rounded-lg" src="/img/newteam3.png">
-                    <a href="https://www.instagram.com/newteam_cf" target="_blank"
-                                class="caja2 max-sm:px-4 max-sm:py-4 pb-12 text-right items-end h-full place-content-end max-[1920px]:px-8 max-[1920px]:py-8 flex hover:text-zinc-700 transition-all duration-500 self-center font-['Neue'] text-[30px] leading-[30px] px-12 cursor-pointer text-black">
-                                New<br>
-                                Team ⤤
-                            </a>
-                </div>
-            </div>
         </div>
 
         <div id="contacto" class="informacion max-sm:pt-24 pt-[300px] pb-64 bg-[#fcfcff] max-sm:pb-32">
