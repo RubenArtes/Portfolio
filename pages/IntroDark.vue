@@ -206,15 +206,21 @@
 
 
 
-        <p
-            class="titulo bg-[#fcfcff] max-sm:text-[30px] max-sm:px-6 max-sm:pt-4 pt-12 w-full text-black px-20 text-[40px] self-center place-self-end flex gap-2 max-lg:text-xs">
-            Trabajos
-        </p>
+        <div id="trabajos"
+            class="texto flex w-full bg-[#fcfcff] text-black max-sm:px-4 max-sm:pb-2 max-sm:pt-24 px-20 pt-12 justify-between">
+            <p
+                class="caja2 text-left max-sm:text-[30px] max-sm:leading-[2rem] font-['Neue'] text-[50px] leading-[3rem] pb-12 max-sm:pb-2 cursor-pointer text-black ">
+                Trabajos
+            </p>
+
+
+        </div>
+
 
         <div class="trabajos max-sm:hidden" id="trabajos2">
 
             <NuxtLink to="/Matutano">
-                <div class="pt-20 trabajos bg-[#fcfcff] max-sm:pt-12">
+                <div class="pt-20 trabajos bg-[#fcfcff] max-sm:pt-4">
                     <div class="grid grid-cols-2 hover:grid-cols-3 text-black bg-[#fcfcff] pt-4 pb-4 max-[1920px]:py-[10px] items-center border-zinc-400 border border-r-0 border-l-0 border-1 border-t-1 mx-20 max-sm:mx-6 max-sm:py-2 max-sm:gap-[10px] gap-8 justify-center transition-all duration-100"
                         @mouseenter="hovered[0] = true" @mouseleave="hovered[0] = false">
 
@@ -575,10 +581,10 @@
 
         </div>
 
-        <div class="trabajos hidden max-sm:block" id="trabajos2">
+        <div class="trabajos hidden max-sm:block " id="trabajos2">
 
             <NuxtLink to="/Matutano">
-                <div class="pt-20 trabajos bg-[#fcfcff] max-sm:pt-12 px-2">
+                <div class="pt-20 trabajos bg-[#fcfcff] max-sm:pt-4 px-2">
                     <div
                         class="imagen h-[414px] bg-zinc-300 overflow-hidden flex justify-center items-center rounded-[6px]">
                         <img class="w-full h-full object-cover" src="/img/fotorealpackaging22.png">
@@ -782,7 +788,7 @@
         </div>
 
 
-        <div id="trabajos"
+        <div id="colaboraciones"
             class="texto flex w-full bg-[#fcfcff] text-black max-sm:px-6 max-sm:pb-2 max-sm:pt-24 px-20 pt-64 justify-between">
             <p
                 class="caja2 text-left max-sm:text-[30px] max-sm:leading-[2rem] font-['Neue'] text-[50px] leading-[3rem] pb-24 max-sm:pb-12 cursor-pointer text-black ">
@@ -798,24 +804,25 @@
                 class="bg-gray-200 max-sm:bg-white trabajos shadow-lg rounded-lg overflow-hidden transition-transform hover:scale-105 duration-300">
 
                 <!-- Header -->
-                <div class="flex max-sm:grid max-sm:grid-rows-2 max-sm:items-left max-sm:justify-left max-sm:text-left items-center justify-between bg-gray-200 max-sm:bg-white px-4 pt-6 py-2 rounded-t-lg">
+                <div
+                    class="flex max-sm:grid max-sm:grid-rows-2 max-sm:items-left max-sm:justify-left max-sm:text-left items-center justify-between bg-gray-200 max-sm:bg-white px-4 pt-6 py-2 rounded-t-lg">
                     <!-- Title -->
                     <div class="flex items-center max-sm:items-left max-sm:text-left space-x-2">
                         <span class="text-sm text-gray-800 font-['Neue'] ml-2">MICROILUSTRICIONES ECOVIDRIO</span>
                     </div>
                     <!-- Right Buttons -->
                     <a class="text-end underline max-sm:text-start max-sm:ml-2"
-                                    href="https://www.reasonwhy.es/actualidad/nueva-identidad-ecovidrio-contenedor-verde-2024">Articulo
-                                    Reason Why</a>
+                        href="https://www.reasonwhy.es/actualidad/nueva-identidad-ecovidrio-contenedor-verde-2024">Articulo
+                        Reason Why</a>
                 </div>
                 <!-- Content -->
                 <div class="bg-white m-4 rounded-lg">
                     <img class="rounded-lg" src="/img/ecovidrio.svg">
                     <a href="https://www.prodigiosovolcan.com/proyectos/identidad-visual-ecovidrio/" target="_blank"
-                                class="caja2 max-sm:px-4 max-sm:py-4 pb-12 text-right items-end h-full place-content-end max-[1920px]:px-8 max-[1920px]:py-8 flex hover:text-zinc-700 transition-all duration-500 self-center font-['Neue'] text-[30px] leading-[30px] px-12 cursor-pointer text-black">
-                                Prodigioso<br>
-                                Volcán ⤤
-                            </a>
+                        class="caja2 max-sm:px-4 max-sm:py-4 pb-12 text-right items-end h-full place-content-end max-[1920px]:px-8 max-[1920px]:py-8 flex hover:text-zinc-700 transition-all duration-500 self-center font-['Neue'] text-[30px] leading-[30px] px-12 cursor-pointer text-black">
+                        Prodigioso<br>
+                        Volcán ⤤
+                    </a>
                 </div>
             </div>
             <div
@@ -829,17 +836,18 @@
                     </div>
                     <!-- Right Buttons -->
                     <a class="text-end underline invisible"
-                                    href="https://www.reasonwhy.es/actualidad/nueva-identidad-ecovidrio-contenedor-verde-2024">Articulo
-                                    Reason Why</a>
+                        href="https://www.reasonwhy.es/actualidad/nueva-identidad-ecovidrio-contenedor-verde-2024">Articulo
+                        Reason Why</a>
                 </div>
                 <!-- Content -->
                 <div class="bg-white m-4 rounded-lg">
                     <img class="rounded-lg" src="/img/sabadell.png">
-                    <a href="https://www.vozpopuli.com/branded-content/peldanos-marmol-revestir-rascacielos-almeria-grupo-cosentino.html" target="_blank"
-                                class="caja2 max-sm:px-4 max-sm:py-4 pb-12 text-right items-end h-full place-content-end max-[1920px]:px-8 max-[1920px]:py-8 flex hover:text-zinc-700 transition-all duration-500 self-center font-['Neue'] text-[30px] leading-[30px] px-12 cursor-pointer text-black">
-                                Ilustraciones<br>
-                                Sabadell ⤤
-                            </a>
+                    <a href="https://www.vozpopuli.com/branded-content/peldanos-marmol-revestir-rascacielos-almeria-grupo-cosentino.html"
+                        target="_blank"
+                        class="caja2 max-sm:px-4 max-sm:py-4 pb-12 text-right items-end h-full place-content-end max-[1920px]:px-8 max-[1920px]:py-8 flex hover:text-zinc-700 transition-all duration-500 self-center font-['Neue'] text-[30px] leading-[30px] px-12 cursor-pointer text-black">
+                        Ilustraciones<br>
+                        Sabadell ⤤
+                    </a>
                 </div>
             </div>
             <div
@@ -853,36 +861,38 @@
                     </div>
                     <!-- Right Buttons -->
                     <a class="text-end underline invisible"
-                                    href="https://www.reasonwhy.es/actualidad/nueva-identidad-ecovidrio-contenedor-verde-2024">Articulo
-                                    Reason Why</a>
+                        href="https://www.reasonwhy.es/actualidad/nueva-identidad-ecovidrio-contenedor-verde-2024">Articulo
+                        Reason Why</a>
                 </div>
                 <!-- Content -->
                 <div class="bg-white m-4 rounded-lg">
                     <img class="rounded-lg" src="/img/fauxproyecto.png">
                     <a href="https://faux-noticiario.netlify.app/" target="_blank"
-                                class="caja2 max-sm:px-4 max-sm:py-4 pb-12 text-right items-end h-full place-content-end max-[1920px]:px-8 max-[1920px]:py-8 flex hover:text-zinc-700 transition-all duration-500 self-center font-['Neue'] text-[30px] leading-[30px] px-12 cursor-pointer text-black">
-                                Web<br>
-                                Faux ⤤
-                            </a>
+                        class="caja2 max-sm:px-4 max-sm:py-4 pb-12 text-right items-end h-full place-content-end max-[1920px]:px-8 max-[1920px]:py-8 flex hover:text-zinc-700 transition-all duration-500 self-center font-['Neue'] text-[30px] leading-[30px] px-12 cursor-pointer text-black">
+                        Web<br>
+                        Faux ⤤
+                    </a>
                 </div>
             </div>
 
         </div>
 
-        <div id="contacto" class="informacion max-sm:pt-24 pt-[300px] pb-64 bg-[#fcfcff] max-sm:pb-32">
+        <div id="contacto" class="informacion max-sm:pt-32 pt-[300px] pb-24 bg-[#fcfcff] max-sm:pb-0">
+
             <div class="about bg-[#fcfcff]">
                 <div class="correo grid grid-cols-2 max-sm:grid-cols-1 text-black">
                     <div
-                        class="caja2 z-0 text-left max-sm:text-[60px] max-sm:px-6 max-sm:leading-[50px] animate-pulse px-20 font-['Neue'] max-[1920px]:text-[150px] max-[1920px]:leading-[8.5rem] text-[170px] pt-12 pb-12 leading-[10rem] cursor-pointer text-black transition-colors duration-300 hover:text-black">
+                        class="caja2 max-sm:animate-none z-0 text-left max-sm:text-[60px] max-sm:py-12 max-sm:px-4 max-sm:leading-[50px] animate-pulse px-20 font-['Neue'] max-[1920px]:text-[150px] max-[1920px]:leading-[8.5rem] text-[170px] pt-12 pb-12 leading-[10rem] cursor-pointer text-black transition-colors duration-300 hover:text-black">
                         Correo
                     </div>
                     <div
-                        class="caja1 text-left self-center max-sm:self-start max-sm:px-6 px-20 text-[20px] leading-[10rem] font-['Neue'] cursor-pointer text-black">
+                        class="caja1 text-left self-center max-sm:self-start max-sm:px-4 px-20 leading-[10rem] font-['Neue'] cursor-pointer text-black">
                         <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado."
                             target="_blank"
-                            class="email font-['Neue'] text-lg flex gap-2 items-center max-sm:items-left max-sm:justify-start max-lg:text-[14px] max-lg:justify-center max-sm:pr-0">
+                            class="email font-['Neue'] max-sm:text-zinc-600 max-sm:text-[18px] max-sm:leading-10 flex gap-2 max-[1920px]:text-[45px] items-center max-sm:items-left text-[50px] max-sm:justify-start max-lg:justify-center max-sm:pr-0">
                             ruben.maldonado.graphic@gmail.com
-                            <img class="vector" src="/img/Vector-11.svg" />
+                            <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-60"
+                                src="/img/Vector-11black.svg" />
                         </a>
                     </div>
                 </div>
@@ -892,74 +902,78 @@
 
                 <!-- Redes Sociales -->
                 <div
-                    class="redes grid grid-cols-2 max-sm:grid-cols-1 text-black group hover:group-[.hover]:cursor-default">
+                    class="redes grid grid-cols-2 items-center max-sm:grid-cols-1 text-black group hover:group-[.hover]:cursor-default">
                     <!-- Caja 2 -->
                     <div
-                        class="caja2 max-sm:animate-pulse max-sm:text-black text-left max-sm:text-[60px] max-sm:px-6 max-sm:leading-[50px] px-20 font-['Neue'] max-[1920px]:text-[150px] max-[1920px]:leading-[8.5rem] text-[170px] pt-12 pb-12 leading-[10rem] cursor-pointer text-zinc-400 transition-colors duration-300 hover:text-black">
+                        class="caja2 max-sm:animate-none z-0 text-left max-sm:text-[60px] max-sm:py-12 max-sm:px-4 max-sm:leading-[50px] animate-pulse px-20 font-['Neue'] max-[1920px]:text-[150px] max-[1920px]:leading-[8.5rem] text-[170px] pt-12 pb-12 leading-[10rem] cursor-pointer text-black transition-colors duration-300 hover:text-black">
                         Redes sociales
                     </div>
                     <!-- Redes ocultas por defecto y visibles al hacer hover -->
                     <div
-                        class="caja1 text-left self-center max-sm:px-6 px-20 text-[20px] grid grid-cols-2 font-['Neue'] hidden max-sm:grid max-sm:grid-cols-2 group-hover:grid">
-                        <a class="red flex text-lg gap-2 items-center max-lg:text-[14px]"
+                        class="caja1 text-left self-center max-sm:px-4 px-20 text-[20px] grid grid-cols-2 font-['Neue']  hidden max-sm:grid max-sm:grid-cols-2 group-hover:grid">
+                        <a class="red flex max-sm:gap-2 gap-4 max-sm:leading-8 max-sm:text-zinc-600 items-center max-sm:text-[18px] max-sm:leading-10 max-[1920px]:text-[45px] text-[50px] leading-[60px] max-lg:text-[14px]"
                             href="https://www.instagram.com/maldonadoruben_/" target="_blank">
-                            <img class="vector w-[14px]" src="/img/Instagram.png" />
+                            <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-60" src="/img/Instagram.png" />
                             Instagram
-                            <img class="vector" src="/img/Vector-11black.svg" />
+                            <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-60"
+                                src="/img/Vector-11black.svg" />
                         </a>
-                        <a class="red flex text-lg gap-2 items-center max-lg:text-[14px]"
+                        <a class="red flex max-sm:gap-2 gap-4 max-sm:leading-8 max-sm:text-zinc-600 items-center max-sm:text-[18px] max-sm:leading-10 max-[1920px]:text-[45px] text-[50px] leading-[60px] max-lg:text-[14px]"
                             href="https://www.behance.net/maldonadoruben" target="_blank">
-                            <img class="vector w-[14px]" src="/img/Behance.png" />
+                            <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-60" src="/img/Behance.png" />
                             Behance
-                            <img class="vector" src="/img/Vector-11black.svg" />
+                            <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-60"
+                                src="/img/Vector-11black.svg" />
                         </a>
-                        <a class="red flex text-lg gap-2 items-center max-lg:text-[14px]"
+                        <a class="red flex max-sm:gap-2 gap-4 max-sm:leading-8 max-sm:text-zinc-600 items-center max-sm:text-[18px] max-sm:leading-10 max-[1920px]:text-[45px] text-[50px] leading-[60px] max-lg:text-[14px]"
                             href="https://www.instagram.com/ruben.iso" target="_blank">
-                            <img class="vector w-[14px]" src="/img/Instagram.png" />
+                            <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-60" src="/img/Instagram.png" />
                             Instagram
-                            <img class="vector" src="/img/Vector-11black.svg" />
+                            <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-60"
+                                src="/img/Vector-11black.svg" />
                         </a>
-                        <a class="red flex text-lg gap-2 items-center max-lg:text-[14px]"
+                        <a class="red flex max-sm:gap-2 gap-4 max-sm:leading-8 max-sm:text-zinc-600 items-center max-sm:text-[18px] max-sm:leading-10 max-[1920px]:text-[45px] text-[50px] leading-[60px] max-lg:text-[14px]"
                             href="https://www.linkedin.com/in/rubenmaldonado00" target="_blank">
-                            <img class="vector w-[14px]" src="/img/LinkedIn.png" />
+                            <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-60" src="/img/LinkedIn.png" />
                             LinkedIn
-                            <img class="vector" src="/img/Vector-11black.svg" />
+                            <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-60"
+                                src="/img/Vector-11black.svg" />
+                        </a>
+                        <a class="red flex max-sm:gap-2 gap-4 max-sm:leading-8 max-sm:text-zinc-600 items-center max-sm:text-[18px] max-sm:leading-10 max-[1920px]:text-[45px] text-[50px] leading-[60px] max-lg:text-[14px]"
+                            href="https://www.redbubble.com/es/people/ruben-maldonado/shop" target="_blank">
+                            <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-60" src="/img/redbubble.svg" />
+                            Redbubble
+                            <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-60"
+                                src="/img/Vector-11black.svg" />
+                        </a>
+                        <a class="red flex max-sm:gap-2 gap-4 max-sm:leading-8 max-sm:text-zinc-600 items-center max-sm:text-[18px] max-sm:leading-10 max-[1920px]:text-[45px] text-[50px] leading-[60px] max-lg:text-[14px]"
+                            href="https://es.pinterest.com/maldonadoruben_" target="_blank">
+                            <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-60" src="/img/pinterest.svg" />
+                            Pinterest
+                            <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-60"
+                                src="/img/Vector-11black.svg" />
                         </a>
                     </div>
                 </div>
 
                 <!-- Información -->
-                <div class="informacion grid grid-cols-2 max-sm:grid-cols-1 text-black group">
+                <div class="informacion grid grid-cols-2 max-sm:pb-12 max-sm:grid-cols-1 text-black group">
                     <!-- Caja 3 -->
                     <div
-                        class="caja2 max-sm:animate-pulse max-sm:text-black text-left max-sm:text-[60px] max-sm:px-6 max-sm:leading-[50px] px-20 font-['Neue'] max-[1920px]:text-[150px] max-[1920px]:leading-[8.5rem] text-[170px] pt-12 pb-12 leading-[10rem] cursor-pointer text-zinc-400 transition-colors duration-300 hover:text-black">
+                        class="caja2 max-sm:animate-none z-0 text-left max-sm:text-[60px] max-sm:py-12 max-sm:px-4 max-sm:leading-[50px] animate-pulse px-20 font-['Neue'] max-[1920px]:text-[150px] max-[1920px]:leading-[8.5rem] text-[170px] pt-12 pb-12 leading-[10rem] cursor-pointer text-black transition-colors duration-300 hover:text-black">
                         Información
                     </div>
                     <!-- Información oculta por defecto y visible al hacer hover -->
                     <div
-                        class="caja1 text-left self-center max-sm:px-6 px-20 text-[20px] leading-[10rem] font-['Neue'] max-sm:block hidden group-hover:block">
+                        class="caja1 text-left self-center max-sm:px-4 px-20 text-[20px] leading-[10rem] font-['Neue'] max-sm:block hidden group-hover:block">
                         <a href="mailto:ruben.maldonado.graphic@gmail.com" target="_blank"
-                            class="email text-lg flex gap-2 items-center max-lg:text-[14px] max-sm:justify-start max-lg:justify-center max-sm:pr-0">
-                            Rubén Maldonado González<br> All rights reserved | Copyright ©<br>Actualizado Diciembre 2024
+                            class="email text-[50px] max-sm:text-zinc-600 leading-[60px] max-[1920px]:text-[45px] max-sm:text-[18px] max-sm:leading-7 flex gap-2 items-center max-lg:text-[14px] max-sm:justify-start max-lg:justify-center max-sm:pr-0">
+                            Rubén Maldonado González<br> All rights reserved | Copyright ©<br>Actualizado
+                            Diciembre 2024
                         </a>
                     </div>
                 </div>
             </div>
-
-
-        </div>
-
-
-
-        <div class="foter bg-zinc-80white0 p-12 border-0 flex justify-center max-sm:grid-cols-2 text-black max-lg:p-6">
-            <div class="foter_image flex flex-start max-sm:gap-2">
-                <img class="vector max-lg:max-w-[15px]" src="/img/starblack.svg" />
-            </div>
-            <div class="email flex pr-12 pl-12 gap-2 justify-end items-center text-sm max-lg:text-xs">
-                2024
-            </div>
-            <img class="vector max-lg:max-w-[15px]" src="/img/starblack.svg" />
-
         </div>
     </div>
 

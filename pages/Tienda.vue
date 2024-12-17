@@ -87,13 +87,14 @@
             </div>
         </div>
         <div
-            class="caja1 text-black bg-[#fcfcff] text-left px-20 max-sm:px-8 max-sm:text-[90px] max-sm:pt-32 pt-44 text-[170px] pb-12 font-['Neue'] cursor-pointer duration-300">
+            class="caja1 max-[1500px]:px-4 text-black bg-[#fcfcff] text-left px-20 max-sm:px-4 max-sm:text-[90px] max-sm:pt-32 pt-44 text-[170px] pb-12 font-['Neue'] cursor-pointer duration-300">
             Tienda
         </div>
 
         <div class="max-sm:hidden">
 
-            <div class="elementos bg-[#fcfcff] flex gap-4 pt-2 px-20 justify-between max-sm:flex-col max-sm:px-8">
+            <div
+                class="elementos bg-[#fcfcff] flex gap-4 pt-6 px-20 justify-between max-sm:flex-col max-sm:px-8 max-[1500px]:px-4">
                 <!-- Cambié 'justify-items-center' a 'justify-between' -->
 
                 <!-- div1, mantiene el contenido a la izquierda -->
@@ -101,12 +102,12 @@
                     <!-- Añadí 'flex-col' para que los elementos dentro de div1 estén alineados verticalmente -->
                     <div>
                         <p
-                            class="pl-8 max-sm:pl-0 titulo bg-[#fcfcff] text-black text-[60px] gap-2 max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px] max-sm:pb-12 max-sm:pt-24 normal-case font-['Neue']">
+                            class="pl-8 max-[1500px]:pl-4 max-sm:pl-0 titulo bg-[#fcfcff] text-black text-[60px] gap-2 max-lg:text-xs max-sm:text-[20px] max-[1920px]:text-[30px] max-sm:leading-[24px] max-sm:pb-12 max-sm:pt-24 normal-case font-['Neue']">
                             Colección Oporto</p>
                     </div>
                     <div>
                         <p
-                            class="pl-8 max-sm:pl-0 titulo bg-[#fcfcff] pt-32 text-black text-[30px] gap-2 leading-[40px] max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px] max-sm:pb-12 max-sm:pt-24 normal-case cursor-pointer font-['Neue']">
+                            class="pl-8 max-[1500px]:pl-4 max-sm:pl-0 titulo bg-[#fcfcff] pt-32 text-black text-[30px] gap-2 leading-[40px] max-lg:text-xs max-sm:text-[20px] max-[1920px]:text-[25px] max-[1920px]:leading-[30px] max-sm:leading-[24px] max-sm:pb-12 max-sm:pt-24 normal-case cursor-pointer font-['Neue']">
                             [ * ] Azulejo Serigrafiado | 1 unidad<br>
                             [ * ] Libro Impreso Premium | 1 unidad<br>
                             [ * ] Sellos / Estampas | 4 unidades<br>
@@ -123,19 +124,22 @@
                     <!-- Cada uno de los enlaces con imágenes -->
                     <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=COMPRA|PRESUPUESTO&body=Hola Ruben Maldonado.Preguntaba por el pack Oporto..."
                         target="_blank">
-                        <div class="imagen flex items-center h-[550px] w-[400px] bg-zinc-200">
+                        <div
+                            class="imagen flex items-center h-[550px] w-[400px] bg-zinc-200 max-[1920px]:w-[300px] max-[1920px]:h-[450px]">
                             <img class="" src="/img/azulejogif.png" alt="Azulejo Serigrafiado">
                         </div>
                     </a>
                     <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=COMPRA|PRESUPUESTO&body=Hola Ruben Maldonado.Preguntaba por el pack Oporto..."
                         target="_blank">
-                        <div class="imagen flex items-center h-[550px] w-[400px] bg-zinc-200">
+                        <div
+                            class="imagen flex items-center h-[550px] w-[400px] bg-zinc-200 max-[1920px]:w-[300px] max-[1920px]:h-[450px]">
                             <img src="/img/cajaanalogicas.png" alt="Caja Análogicas">
                         </div>
                     </a>
                     <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=COMPRA|PRESUPUESTO&body=Hola Ruben Maldonado.Preguntaba por el pack Oporto..."
                         target="_blank">
-                        <div class="imagen flex items-center h-[550px] w-[400px] bg-zinc-200">
+                        <div
+                            class="imagen flex items-center h-[550px] w-[400px] bg-zinc-200 max-[1920px]:w-[300px] max-[1920px]:h-[450px]">
                             <img src="/img/IMG_2522.png" alt="Imagen 2522">
                         </div>
                     </a>
@@ -147,17 +151,19 @@
 
         <div class="max-sm:hidden">
 
-            <div class="elementos bg-[#fcfcff] flex gap-4 pt-6 px-20 justify-between max-sm:flex-col max-sm:px-8">
+            <div
+                class="elementos bg-[#fcfcff] flex gap-4 pt-6 px-20 justify-between max-sm:flex-col max-sm:px-8 max-[1500px]:px-4">
                 <!-- Cambié 'justify-items-center' a 'justify-between' -->
 
                 <!-- div1, mantiene el contenido a la izquierda -->
-                <div class="div1 flex gap-24 invisible">
+                <div class="div1 max-sm:gap-4 flex flex-col gap-24 max-sm:flex-col invisible">
                     <!-- Añadí 'flex-col' para que los elementos dentro de div1 estén alineados verticalmente -->
                     <div>
                         <p
-                            class="pl-8 titulo bg-[#fcfcff] text-black text-[30px] gap-2 max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px] px-60 max-sm:pb-12 max-sm:pt-24 normal-case font-['Neue']">
+                            class="pl-8 max-[1500px]:pl-4 titulo bg-[#fcfcff] max-[1920px]:h-[200px] text-black text-[30px] max-[1920px]:text-[25px] gap-2 max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px] px-60 max-sm:pb-12 max-sm:pt-24 normal-case font-['Neue']">
                             La colección Oporto es una seleccción de piezas del proyecto de la <a
-                                class="text-[30px] animate-pulse text-zinc-400" href="/CajaOporto" target="_blank">Caja
+                                class="text-[30px] animate-pulse text-zinc-400 max-[1920px]:text-[20px]"
+                                href="/CajaOporto" target="_blank">Caja
                                 de Oporto </a>
                             que han podido ser duplicadas o se ha hecho una segunda tirada y estan a la venta de forma
                             exclusiva, siendo unas maquetas del proyecto 100% cuidadas y de calidad.</p>
@@ -165,32 +171,38 @@
                 </div>
 
                 <!-- div2, ahora se posiciona a la derecha -->
-                <div class="div2 flex gap-2 items-end justify-end place-self-end">
+                <div class="div2 flex gap-2 items-end justify-end place-self-start">
                     <div class="div2 flex gap-2">
-                        <div class="w-[400px]">
+                        <div class="w-[400px] max-[1920px]:w-[300px] max-[1920px]:text-[14px]">
                             <p class="font-bold uppercase">Azulejo Oporto<br><br></p>
                             <p class="font-bold">Dimensiones / Técnica<br><br></p>
                             <p class="">W 14 x H 14 cm</p>
                             <p class="">Serigrafía</p>
-                            <p class="">Haz click en la imagen para preguntar presupuesto</p>
+                            <p class="">Haz click en la imagen para preguntar precio
+
+</p>
 
 
                         </div>
-                        <div class="w-[400px]">
+                        <div class="w-[400px] max-[1920px]:w-[300px] max-[1920px]:text-[14px]">
                             <p class="font-bold uppercase">Cuaderno de Bitácora<br><br></p>
                             <p class="font-bold">Dimensiones / Técnica<br><br></p>
                             <p class="">W 21 x H 21 cm</p>
                             <p class="">Diseño impreso / Papel fotográfico premium 300gr</p>
-                            <p class="">Haz click en la imagen para preguntar presupuesto</p>
+                            <p class="">Haz click en la imagen para preguntar precio
+
+</p>
 
 
                         </div>
-                        <div class="w-[400px]">
+                        <div class="w-[400px] max-[1920px]:w-[300px] max-[1920px]:text-[14px]">
                             <p class="font-bold uppercase">Mapa Oporto<br><br></p>
                             <p class="font-bold">Dimensiones / Técnica<br><br></p>
                             <p class="">W 42 x H 29.7 cm</p>
                             <p class="">Diseño impreso</p>
-                            <p class="">Haz click en la imagen para preguntar presupuesto</p>
+                            <p class="">Haz click en la imagen para preguntar precio
+
+</p>
 
 
                         </div>
@@ -204,7 +216,8 @@
 
         <div class="max-sm:hidden">
 
-            <div class="elementos bg-[#fcfcff] flex gap-4 pt-12 px-20 justify-between max-sm:flex-col max-sm:px-8">
+            <div
+                class="elementos bg-[#fcfcff] flex gap-4 pt-6 px-20 justify-between max-sm:flex-col max-sm:px-8 max-[1500px]:px-4">
                 <!-- Cambié 'justify-items-center' a 'justify-between' -->
 
                 <!-- div1, mantiene el contenido a la izquierda -->
@@ -212,22 +225,15 @@
                     <!-- Añadí 'flex-col' para que los elementos dentro de div1 estén alineados verticalmente -->
                     <div>
                         <p
-                            class="pl-8 titulo bg-[#fcfcff] text-black text-[30px] gap-2 max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px] px-60 max-sm:pb-12 max-sm:pt-24 normal-case font-['Neue']">
+                            class="pl-8 max-[1500px]:pl-4 titulo bg-[#fcfcff] text-black text-[30px] gap-2 max-lg:text-xs max-[1920px]:text-[25px] max-[1500px]:px-4 max-[1500px]:text-[20px] max-[1920px]:leading-[30px] max-[1920px]:px-0 max-[1920px]:pl-8 max-[1920px]:pr-48 max-sm:text-[20px] max-sm:leading-[24px] px-60 max-sm:pb-12 max-sm:pt-24 normal-case font-['Neue']">
                             La colección Oporto es una seleccción de piezas del proyecto de la <a
-                                class="text-[30px] animate-pulse text-zinc-400" href="/CajaOporto" target="_blank">Caja
+                                class="text-[30px] animate-pulse text-zinc-400 max-[1500px]:text-[20px]"
+                                href="/CajaOporto" target="_blank">Caja
                                 de Oporto </a>
                             que han podido ser duplicadas o se ha hecho una segunda tirada y estan a la venta de forma
                             exclusiva, siendo unas maquetas del proyecto 100% cuidadas y de calidad.</p>
                     </div>
-                    <div class="invisible">
-                        <p>Unidades limitadas</p>
-                        <p class="pl-8 ">[ * ] Azulejo Serigrafiado</p>
-                        <p class="pl-8">[ * ] Libro Impreso Premium</p>
-                        <p class="pl-8">[ * ] Sellos / Estampas</p>
-                        <p class="pl-8">[ * ] Mapa Oporto</p>
-                        <p class="pl-8">[ * ] Folleto Itinerario</p>
-                        <p class="pl-8">[ * ] Postales ilustradas</p>
-                    </div>
+
                 </div>
 
                 <!-- div2, ahora se posiciona a la derecha -->
@@ -236,19 +242,22 @@
                     <!-- Cada uno de los enlaces con imágenes -->
                     <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=COMPRA|PRESUPUESTO&body=Hola Ruben Maldonado.Preguntaba por el pack Oporto..."
                         target="_blank">
-                        <div class="imagen flex items-center h-[550px] w-[400px] bg-zinc-200">
+                        <div
+                            class="imagen flex items-center h-[550px] w-[400px] bg-zinc-200 max-[1920px]:w-[300px] max-[1920px]:h-[450px]">
                             <img src="/img/folletotienda.png" alt="Azulejo Serigrafiado">
                         </div>
                     </a>
                     <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=COMPRA|PRESUPUESTO&body=Hola Ruben Maldonado.Preguntaba por el pack Oporto..."
                         target="_blank">
-                        <div class="imagen flex items-center h-[550px] w-[400px] bg-zinc-200">
+                        <div
+                            class="imagen flex items-center h-[550px] w-[400px] bg-zinc-200 max-[1920px]:w-[300px] max-[1920px]:h-[450px]">
                             <img src="/img/postales.png" alt="Caja Análogicas">
                         </div>
                     </a>
                     <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=COMPRA|PRESUPUESTO&body=Hola Ruben Maldonado.Preguntaba por el pack Oporto..."
                         target="_blank">
-                        <div class="imagen flex items-center h-[550px] w-[400px] bg-zinc-200">
+                        <div
+                            class="imagen flex items-center h-[550px] w-[400px] bg-zinc-200 max-[1920px]:w-[300px] max-[1920px]:h-[450px]">
                             <img src="/img/sellostienda.png" alt="Imagen 2522">
                         </div>
                     </a>
@@ -260,7 +269,8 @@
 
         <div class="max-sm:hidden">
 
-            <div class="elementos bg-[#fcfcff] flex gap-4 pt-6 px-20 justify-between max-sm:flex-col max-sm:px-8">
+            <div
+                class="elementos bg-[#fcfcff] flex gap-4 pt-6 px-20 justify-between max-sm:flex-col max-sm:px-8 max-[1500px]:px-4">
                 <!-- Cambié 'justify-items-center' a 'justify-between' -->
 
                 <!-- div1, mantiene el contenido a la izquierda -->
@@ -281,32 +291,38 @@
                 </div>
 
                 <!-- div2, ahora se posiciona a la derecha -->
-                <div class="div2 flex gap-2 items-end justify-end place-self-end">
+                <div class="div2 flex gap-2 items-end justify-end place-self-start">
                     <div class="div2 flex gap-2">
-                        <div class="w-[400px]">
+                        <div class="w-[400px] max-[1920px]:w-[300px] max-[1920px]:text-[14px]">
                             <p class="font-bold uppercase">Folleto Imprescindibles<br><br></p>
                             <p class="font-bold">Dimensiones / Técnica<br><br></p>
                             <p class="">W 10 x H 20 cm</p>
                             <p class="">Diseño impreso</p>
-                            <p class="">Haz click en la imagen para preguntar presupuesto</p>
+                            <p class="">Haz click en la imagen para preguntar precio
+
+</p>
 
 
                         </div>
-                        <div class="w-[400px]">
+                        <div class="w-[400px] max-[1920px]:w-[300px] max-[1920px]:text-[14px]">
                             <p class="font-bold uppercase">Postales ilustradas<br><br></p>
                             <p class="font-bold">Dimensiones / Técnica<br><br></p>
                             <p class="">W 20 x H 10 cm</p>
                             <p class="">Diseño impreso</p>
-                            <p class="">Haz click en la imagen para preguntar presupuesto</p>
+                            <p class="">Haz click en la imagen para preguntar precio
+
+</p>
 
 
                         </div>
-                        <div class="w-[400px]">
+                        <div class="w-[400px] max-[1920px]:w-[300px] max-[1920px]:text-[14px]">
                             <p class="font-bold uppercase">Sellos<br><br></p>
                             <p class="font-bold">Dimensiones / Técnica<br><br></p>
                             <p class="">W 7 x H 5 cm</p>
                             <p class="">Diseño impreso</p>
-                            <p class="">Haz click en la imagen para preguntar presupuesto</p>
+                            <p class="">Haz click en la imagen para preguntar precio
+
+</p>
 
 
                         </div>
@@ -344,7 +360,7 @@
 
                     <div>
                         <p
-                            class="titulo bg-[#fcfcff] text-black text-[30px] gap-2 max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px] max-sm:pb-4 max-sm:pt-4 normal-case font-['Neue']">
+                            class="titulo bg-[#fcfcff] text-black text-[30px] gap-2 max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px]  max-sm:pb-4 max-sm:pt-4 normal-case font-['Neue']">
                             La colección Oporto es una seleccción de piezas del proyecto de la <a
                                 class="text-[30px] animate-pulse text-zinc-400 max-sm:text-[20px]" href="/CajaOporto"
                                 target="_blank">Caja
@@ -371,7 +387,9 @@
                         <p class="">Dimensiones / Técnica<br><br></p>
                         <p class="text-zinc-400 text-[14px]">W 14 x H 14 cm</p>
                         <p class="text-zinc-400 text-[14px]">Serigrafía</p>
-                        <p class="text-zinc-400 text-[14px]">Haz click en la imagen para preguntar presupuesto</p>
+                        <p class="text-zinc-400 text-[14px]">Haz click en la imagen para preguntar precio
+
+</p>
                     </div>
 
                     <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=COMPRA|PRESUPUESTO&body=Hola Ruben Maldonado.Preguntaba por el pack Oporto..."
@@ -386,7 +404,9 @@
                         <p class="">Dimensiones / Técnica<br><br></p>
                         <p class="text-zinc-400 text-[14px]">W 21 x H 21 cm</p>
                         <p class="text-zinc-400 text-[14px]">Diseño impreso / Papel fotográfico premium 300gr</p>
-                        <p class="text-zinc-400 text-[14px]">Haz click en la imagen para preguntar presupuesto</p>
+                        <p class="text-zinc-400 text-[14px]">Haz click en la imagen para preguntar precio
+
+</p>
                     </div>
 
                     <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=COMPRA|PRESUPUESTO&body=Hola Ruben Maldonado.Preguntaba por el pack Oporto..."
@@ -401,7 +421,9 @@
                         <p class="">Dimensiones / Técnica<br><br></p>
                         <p class="text-zinc-400 text-[14px]">W 42 x H 29.7 cm</p>
                         <p class="text-zinc-400 text-[14px]">Diseño impreso</p>
-                        <p class="text-zinc-400 text-[14px]">Haz click en la imagen para preguntar presupuesto</p>
+                        <p class="text-zinc-400 text-[14px]">Haz click en la imagen para preguntar precio
+
+</p>
                     </div>
 
                     <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=COMPRA|PRESUPUESTO&body=Hola Ruben Maldonado.Preguntaba por el pack Oporto..."
@@ -416,7 +438,9 @@
                         <p class="">Dimensiones / Técnica<br><br></p>
                         <p class="text-zinc-400 text-[14px]">W 10 x H 20 cm</p>
                         <p class="text-zinc-400 text-[14px]">Diseño impreso</p>
-                        <p class="text-zinc-400 text-[14px]">Haz click en la imagen para preguntar presupuesto</p>
+                        <p class="text-zinc-400 text-[14px]">Haz click en la imagen para preguntar precio
+
+</p>
                     </div>
 
                     <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=COMPRA|PRESUPUESTO&body=Hola Ruben Maldonado.Preguntaba por el pack Oporto..."
@@ -431,7 +455,9 @@
                         <p class="">Dimensiones / Técnica<br><br></p>
                         <p class="text-zinc-400 text-[14px]">W 20 x H 10 cm</p>
                         <p class="text-zinc-400 text-[14px]">Diseño impreso</p>
-                        <p class="text-zinc-400 text-[14px]">Haz click en la imagen para preguntar presupuesto</p>
+                        <p class="text-zinc-400 text-[14px]">Haz click en la imagen para preguntar precio
+
+</p>
                     </div>
 
                     <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=COMPRA|PRESUPUESTO&body=Hola Ruben Maldonado.Preguntaba por el pack Oporto..."
@@ -446,7 +472,9 @@
                         <p class="">Dimensiones / Técnica<br><br></p>
                         <p class="text-zinc-400 text-[14px]">W 7 x H 5 cm</p>
                         <p class="text-zinc-400 text-[14px]">Diseño impreso</p>
-                        <p class="text-zinc-400 text-[14px]">Haz click en la imagen para preguntar presupuesto</p>
+                        <p class="text-zinc-400 text-[14px]">Haz click en la imagen para preguntar precio
+
+</p>
                     </div>
                 </div>
 
@@ -459,7 +487,8 @@
 
         <div class="max-sm:hidden bg-[#fcfcff] pt-32">
 
-            <div class="elementos bg-[#fcfcff] flex gap-4 pt-2 px-20 justify-between max-sm:flex-col max-sm:px-8">
+            <div
+                class="elementos bg-[#fcfcff] flex gap-4 pt-6 px-20 justify-between max-sm:flex-col max-sm:px-8 max-[1500px]:px-4">
                 <!-- Cambié 'justify-items-center' a 'justify-between' -->
 
                 <!-- div1, mantiene el contenido a la izquierda -->
@@ -467,21 +496,24 @@
                     <!-- Añadí 'flex-col' para que los elementos dentro de div1 estén alineados verticalmente -->
                     <div>
                         <p
-                            class="pl-8 max-sm:pl-0 titulo bg-[#fcfcff] text-black text-[60px] gap-2 max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px] max-sm:pb-12 max-sm:pt-24 normal-case font-['Neue']">
+                            class="pl-8 max-[1500px]:pl-4 max-sm:pl-0 titulo bg-[#fcfcff] text-black text-[60px] gap-2 max-lg:text-xs max-sm:text-[20px] max-[1920px]:text-[30px] max-sm:leading-[24px] max-sm:pb-12 max-sm:pt-24 normal-case font-['Neue']">
                             Merchandising Redbubble</p>
                     </div>
                     <div>
                         <p
-                            class="pl-8 max-sm:pl-0 titulo bg-[#fcfcff] pt-32 text-black text-[30px] gap-2 leading-[40px] max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px] max-sm:pb-12 max-sm:pt-24 normal-case cursor-pointer font-['Neue']">
+                            class="pl-8 max-[1500px]:pl-4 titulo bg-[#fcfcff] text-black text-[30px] gap-2 max-lg:text-xs  max-[1920px]:text-[25px] max-[1920px]:leading-[30px] max-[1920px]:px-0 max-[1920px]:pl-8 max-[1920px]:pr-48 max-sm:text-[20px] max-sm:leading-[24px] px-60 max-sm:pb-12 max-sm:pt-24 normal-case font-['Neue']">
                             [ * ] Productos tienda Redbubble
                         </p>
                     </div>
                     <div>
                         <p
-                            class="pl-8 titulo bg-[#fcfcff] text-black text-[30px] gap-2 max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px] px-60 max-sm:pb-12 max-sm:pt-24 normal-case font-['Neue']">
-                            Colección de diferentes ilustraciones adaptadas a formatos, distribuido por la tienda online <a
-                                class="text-[30px] animate-pulse text-zinc-400" href="https://www.redbubble.com/es/people/ruben-maldonado/shop" target="_blank">Redbubble,</a>
-                            como camisetas, fundas de telefonos, totebags, pegatinas y demás elementos.</p>
+                            class="pl-8 max-[1500px]:pl-4 titulo bg-[#fcfcff] text-black text-[30px] gap-2 max-lg:text-xs  max-[1920px]:text-[25px] max-[1920px]:leading-[30px] max-[1500px]:px-4 max-[1500px]:text-[20px] max-[1920px]:px-0 max-[1920px]:pl-8 max-[1920px]:pr-48 max-sm:text-[20px] max-sm:leading-[24px] px-60 max-sm:pb-12 max-sm:pt-24 normal-case font-['Neue']">
+                            Colección de diferentes ilustraciones adaptadas a formatos, distribuido por la tienda online
+                            <a class="text-[30px] animate-pulse text-zinc-400 max-[1500px]:text-[20px]"
+                                href="https://www.redbubble.com/es/people/ruben-maldonado/shop"
+                                target="_blank">Redbubble,</a>
+                            como camisetas, fundas de telefonos, totebags, pegatinas y demás elementos.
+                        </p>
                     </div>
                 </div>
 
@@ -489,21 +521,21 @@
                 <div class="div2 flex gap-2 items-end justify-end place-self-end max-sm:flex-col">
                     <!-- 'place-self-end' asegura que el contenido esté alineado al final del contenedor -->
                     <!-- Cada uno de los enlaces con imágenes -->
-                    <a href="https://www.redbubble.com/es/people/ruben-maldonado/shop"
-                        target="_blank">
-                        <div class="imagen flex items-center h-[550px] w-[400px] bg-zinc-200">
+                    <a href="https://www.redbubble.com/es/people/ruben-maldonado/shop" target="_blank">
+                        <div
+                            class="imagen flex items-center h-[550px] w-[400px] bg-zinc-200 max-[1920px]:w-[300px] max-[1920px]:h-full">
                             <img class="" src="/img/productotienda1.png" alt="Azulejo Serigrafiado">
                         </div>
                     </a>
-                    <a href="https://www.redbubble.com/es/people/ruben-maldonado/shop"
-                        target="_blank">
-                        <div class="imagen flex items-center h-[550px] w-[400px] bg-zinc-200">
+                    <a href="https://www.redbubble.com/es/people/ruben-maldonado/shop" target="_blank">
+                        <div
+                            class="imagen flex items-center h-[550px] w-[400px] bg-zinc-200 max-[1920px]:w-[300px] max-[1920px]:h-full">
                             <img src="/img/productotienda2.png" alt="Caja Análogicas">
                         </div>
                     </a>
-                    <a href="https://www.redbubble.com/es/people/ruben-maldonado/shop"
-                        target="_blank">
-                        <div class="imagen border flex items-center h-[550px] w-[400px] bg-zinc-200">
+                    <a href="https://www.redbubble.com/es/people/ruben-maldonado/shop" target="_blank">
+                        <div
+                            class="imagen flex items-center h-[550px] w-[400px] bg-zinc-200 max-[1920px]:w-[300px] max-[1920px]:h-full">
                             <img src="/img/productotienda4.png" alt="Imagen 2522">
                         </div>
                     </a>
@@ -515,7 +547,8 @@
 
         <div class="max-sm:hidden bg-[#fcfcff]">
 
-            <div class="elementos bg-[#fcfcff] flex gap-12 pt-2 px-8 justify-between max-sm:flex-col max-sm:px-4">
+            <div
+                class="elementos bg-[#fcfcff] flex gap-4 pt-6 px-20 justify-between max-sm:flex-col max-sm:px-8 max-[1500px]:px-4">
                 <!-- Cambié 'justify-items-center' a 'justify-between' -->
 
                 <!-- div1, mantiene el contenido a la izquierda -->
@@ -523,7 +556,7 @@
                     <!-- Añadí 'flex-col' para que los elementos dentro de div1 estén alineados verticalmente -->
                     <div>
                         <p
-                            class="pl-8 titulo bg-[#fcfcff] text-black text-[30px] gap-2 max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px] px-60 max-sm:pb-12 max-sm:pt-24 normal-case font-['Neue']">
+                            class="pl-8 titulo bg-[#fcfcff] text-black max-[1920px]:h-[200px] text-[30px] gap-2 max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px] px-60 max-sm:pb-12 max-sm:pt-24 normal-case font-['Neue']">
                             La colección Oporto es una seleccción de piezas del proyecto de la <a
                                 class="text-[30px] animate-pulse text-zinc-400" href="/CajaOporto" target="_blank">Caja
                                 de Oporto </a>
@@ -533,30 +566,30 @@
                 </div>
 
                 <!-- div2, ahora se posiciona a la derecha -->
-                <div class="div2 flex gap-2 items-end justify-end place-self-end">
+                <div class="div2 flex gap-2 items-start justify-start place-self-start">
                     <div class="div2 flex gap-2">
-                        <div class="w-[400px]">
+                        <div class="w-[400px] max-[1920px]:w-[300px] max-[1920px]:text-[14px]">
                             <p class="font-bold uppercase">DISEÑOS ATTACK ON TITAN<br><br></p>
                             <p class="font-bold">Soportes<br><br></p>
-                            <p class="">Gorras, sudaderas, pegatinas, fundas de movil, <br> 
+                            <p class="">Gorras, sudaderas, pegatinas, fundas de movil, <br>
                                 calcetines, laminas,poster, cojines...</p>
                             <p class="">Haz click en la imagen para acceder a la tienda</p>
 
 
                         </div>
-                        <div class="w-[400px]">
+                        <div class="w-[400px] max-[1920px]:w-[300px] max-[1920px]:text-[14px]">
                             <p class="font-bold uppercase">DISEÑOS CARS<br><br></p>
                             <p class="font-bold">Soportes<br><br></p>
-                            <p class="">Gorras, sudaderas, pegatinas, fundas de movil, <br> 
+                            <p class="">Gorras, sudaderas, pegatinas, fundas de movil, <br>
                                 calcetines, laminas,poster, cojines...</p>
                             <p class="">Haz click en la imagen para acceder a la tienda</p>
 
 
                         </div>
-                        <div class="w-[400px]">
+                        <div class="w-[400px] max-[1920px]:w-[300px] max-[1920px]:text-[14px]">
                             <p class="font-bold uppercase">DISEÑOS VARIADOS<br><br></p>
                             <p class="font-bold">Soportes<br><br></p>
-                            <p class="">Gorras, sudaderas, pegatinas, fundas de movil, <br> 
+                            <p class="">Gorras, sudaderas, pegatinas, fundas de movil, <br>
                                 calcetines, laminas,poster, cojines...</p>
                             <p class="">Haz click en la imagen para acceder a la tienda</p>
 
@@ -572,7 +605,7 @@
 
 
 
-        <div class="hidden max-sm:block pt-32 pb-24 bg-[#fcfcff]">
+        <div class="hidden max-sm:block pt-32 pb-24 max-sm:pb-6 bg-[#fcfcff]">
 
             <div class="elementos bg-[#fcfcff] flex gap-12 pt-2 px-8 justify-between max-sm:flex-col max-sm:px-4">
                 <!-- Cambié 'justify-items-center' a 'justify-between' -->
@@ -595,10 +628,11 @@
                     <div>
                         <p
                             class="titulo bg-[#fcfcff] text-black text-[30px] gap-2 max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px] max-sm:pb-4 max-sm:pt-4 normal-case font-['Neue']">
-                            Colección de diferentes ilustraciones adaptadas a formatos, distribuido por la tienda online <a
-                                class="text-[30px] animate-pulse text-zinc-400 max-sm:text-[20px]" href="/CajaOporto"
+                            Colección de diferentes ilustraciones adaptadas a formatos, distribuido por la tienda online
+                            <a class="text-[30px] animate-pulse text-zinc-400 max-sm:text-[20px]" href="/CajaOporto"
                                 target="_blank">Redbubble, </a>
-                                como camisetas, fundas de telefonos, totebags, pegatinas y demás elementos.</p>
+                            como camisetas, fundas de telefonos, totebags, pegatinas y demás elementos.
+                        </p>
                     </div>
 
                 </div>
@@ -607,7 +641,7 @@
                 <div class="div2 flex gap-4 items-start justify-start place-self-start max-sm:flex-col">
                     <!-- 'place-self-end' asegura que el contenido esté alineado al final del contenedor -->
                     <!-- Cada uno de los enlaces con imágenes -->
-                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=COMPRA|PRESUPUESTO&body=Hola Ruben Maldonado.Preguntaba por el pack Oporto..."
+                    <a href="https://www.redbubble.com/es/people/ruben-maldonado/shop"
                         target="_blank">
                         <div class="imagen flex items-center w-full">
                             <img class="" src="/img/productotienda1.png" alt="Azulejo Serigrafiado">
@@ -616,15 +650,15 @@
 
                     <div class="text flex flex-col items-start pb-12">
                         <p class="uppercase">DISEÑOS ATTACK ON TITAN<br></p>
-                            <p class="text-black">Soportes<br><br></p>
-                            <p class="text-zinc-400 text-[14px]">Gorras, sudaderas, pegatinas, fundas de movil, <br> 
-                                calcetines, laminas,poster, cojines...</p>
-                            <p class="text-zinc-400 text-[14px]">Haz click en la imagen para acceder a la tienda</p>
+                        <p class="text-black">Soportes<br><br></p>
+                        <p class="text-zinc-400 text-[14px]">Gorras, sudaderas, pegatinas, fundas de movil, <br>
+                            calcetines, laminas,poster, cojines...</p>
+                        <p class="text-zinc-400 text-[14px]">Haz click en la imagen para acceder a la tienda</p>
 
 
                     </div>
 
-                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=COMPRA|PRESUPUESTO&body=Hola Ruben Maldonado.Preguntaba por el pack Oporto..."
+                    <a href="https://www.redbubble.com/es/people/ruben-maldonado/shop"
                         target="_blank">
                         <div class="imagen flex items-center w-full">
                             <img src="/img/productotienda2.png" alt="Caja Análogicas">
@@ -633,14 +667,14 @@
 
                     <div class="text flex flex-col items-start pb-12">
                         <p class=" uppercase">DISEÑOS CARS<br></p>
-                            <p class="">Soportes<br><br></p>
-                            <p class="text-zinc-400 text-[14px]">Gorras, sudaderas, pegatinas, fundas de movil, <br> 
-                                calcetines, laminas,poster, cojines...</p>
-                            <p class="text-zinc-400 text-[14px]">Haz click en la imagen para acceder a la tienda</p>
+                        <p class="">Soportes<br><br></p>
+                        <p class="text-zinc-400 text-[14px]">Gorras, sudaderas, pegatinas, fundas de movil, <br>
+                            calcetines, laminas,poster, cojines...</p>
+                        <p class="text-zinc-400 text-[14px]">Haz click en la imagen para acceder a la tienda</p>
 
                     </div>
 
-                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=COMPRA|PRESUPUESTO&body=Hola Ruben Maldonado.Preguntaba por el pack Oporto..."
+                    <a href="https://www.redbubble.com/es/people/ruben-maldonado/shop"
                         target="_blank">
                         <div class="imagen border flex items-center w-full">
                             <img src="/img/productotienda4.png" alt="Caja Análogicas">
@@ -649,10 +683,10 @@
 
                     <div class="text flex flex-col items-start pb-12">
                         <p class=" uppercase">DISEÑOS VARIADOS<br></p>
-                            <p class="">Soportes<br><br></p>
-                            <p class="text-zinc-400 text-[14px]">Gorras, sudaderas, pegatinas, fundas de movil, <br> 
-                                calcetines, laminas,poster, cojines...</p>
-                            <p class="text-zinc-400 text-[14px]">Haz click en la imagen para acceder a la tienda</p>
+                        <p class="">Soportes<br><br></p>
+                        <p class="text-zinc-400 text-[14px]">Gorras, sudaderas, pegatinas, fundas de movil, <br>
+                            calcetines, laminas,poster, cojines...</p>
+                        <p class="text-zinc-400 text-[14px]">Haz click en la imagen para acceder a la tienda</p>
 
                     </div>
 
@@ -723,20 +757,21 @@
 
 
 
-        <div id="contacto" class="informacion max-sm:pt-24 pt-[300px] pb-64 bg-[#fcfcff] max-sm:pb-32">
+        <div id="contacto" class="informacion max-sm:pt-0 pt-[300px] pb-24 bg-[#fcfcff] max-sm:pb-0">
+
             <div class="about bg-[#fcfcff]">
                 <div class="correo grid grid-cols-2 max-sm:grid-cols-1 text-black">
                     <div
-                        class="caja2 z-0 text-left max-sm:text-[60px] max-sm:px-6 max-sm:leading-[50px] animate-pulse px-20 font-['Neue'] max-[1920px]:text-[150px] max-[1920px]:leading-[8.5rem] text-[170px] pt-12 pb-12 leading-[10rem] cursor-pointer text-black transition-colors duration-300 hover:text-black">
+                        class="caja2 max-sm:animate-none z-0 text-left max-sm:text-[60px] max-sm:py-12 max-sm:px-4 max-sm:leading-[50px] animate-pulse px-20 font-['Neue'] max-[1920px]:text-[150px] max-[1920px]:leading-[8.5rem] text-[170px] pt-12 pb-12 leading-[10rem] cursor-pointer text-black transition-colors duration-300 hover:text-black">
                         Correo
                     </div>
                     <div
-                        class="caja1 text-left self-center max-sm:self-start max-sm:px-6 px-20 text-[20px] leading-[10rem] font-['Neue'] cursor-pointer text-black">
+                        class="caja1 text-left self-center max-sm:self-start max-sm:px-4 px-20 leading-[10rem] font-['Neue'] cursor-pointer text-black">
                         <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado."
                             target="_blank"
-                            class="email font-['Neue'] text-lg flex gap-2 items-center max-sm:items-left max-sm:justify-start max-lg:text-[14px] max-lg:justify-center max-sm:pr-0">
+                            class="email font-['Neue'] max-sm:text-zinc-600 max-sm:text-[18px] max-sm:leading-10 flex gap-2 max-[1920px]:text-[45px] items-center max-sm:items-left text-[50px] max-sm:justify-start max-lg:justify-center max-sm:pr-0">
                             ruben.maldonado.graphic@gmail.com
-                            <img class="vector" src="/img/Vector-11.svg" />
+                            <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-60" src="/img/Vector-11black.svg" />
                         </a>
                     </div>
                 </div>
@@ -746,77 +781,77 @@
 
                 <!-- Redes Sociales -->
                 <div
-                    class="redes grid grid-cols-2 max-sm:grid-cols-1 text-black group hover:group-[.hover]:cursor-default">
+                    class="redes grid grid-cols-2 items-center max-sm:grid-cols-1 text-black group hover:group-[.hover]:cursor-default">
                     <!-- Caja 2 -->
                     <div
-                        class="caja2 max-sm:animate-pulse max-sm:text-black text-left max-sm:text-[60px] max-sm:px-6 max-sm:leading-[50px] px-20 font-['Neue'] max-[1920px]:text-[150px] max-[1920px]:leading-[8.5rem] text-[170px] pt-12 pb-12 leading-[10rem] cursor-pointer text-zinc-400 transition-colors duration-300 hover:text-black">
-                        Redes sociales
+                    class="caja2 max-sm:animate-none z-0 text-left max-sm:text-[60px] max-sm:py-12 max-sm:px-4 max-sm:leading-[50px] animate-pulse px-20 font-['Neue'] max-[1920px]:text-[150px] max-[1920px]:leading-[8.5rem] text-[170px] pt-12 pb-12 leading-[10rem] cursor-pointer text-black transition-colors duration-300 hover:text-black">
+                    Redes sociales
                     </div>
                     <!-- Redes ocultas por defecto y visibles al hacer hover -->
                     <div
-                        class="caja1 text-left self-center max-sm:px-6 px-20 text-[20px] grid grid-cols-2 font-['Neue'] hidden max-sm:grid max-sm:grid-cols-2 group-hover:grid">
-                        <a class="red flex text-lg gap-2 items-center max-lg:text-[14px]"
+                        class="caja1 text-left self-center max-sm:px-4 px-20 text-[20px] grid grid-cols-2 font-['Neue']  hidden max-sm:grid max-sm:grid-cols-2 group-hover:grid">
+                        <a class="red flex max-sm:gap-2 gap-4 max-sm:leading-8 max-sm:text-zinc-600 items-center max-sm:text-[18px] max-sm:leading-10 max-[1920px]:text-[45px] text-[50px] leading-[60px] max-lg:text-[14px]"
                             href="https://www.instagram.com/maldonadoruben_/" target="_blank">
-                            <img class="vector w-[14px]" src="/img/Instagram.png" />
+                            <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-60" src="/img/Instagram.png" />
                             Instagram
-                            <img class="vector" src="/img/Vector-11black.svg" />
+                            <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-60" src="/img/Vector-11black.svg" />
                         </a>
-                        <a class="red flex text-lg gap-2 items-center max-lg:text-[14px]"
+                        <a class="red flex max-sm:gap-2 gap-4 max-sm:leading-8 max-sm:text-zinc-600 items-center max-sm:text-[18px] max-sm:leading-10 max-[1920px]:text-[45px] text-[50px] leading-[60px] max-lg:text-[14px]"
                             href="https://www.behance.net/maldonadoruben" target="_blank">
-                            <img class="vector w-[14px]" src="/img/Behance.png" />
+                            <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-60" src="/img/Behance.png" />
                             Behance
-                            <img class="vector" src="/img/Vector-11black.svg" />
+                            <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-60" src="/img/Vector-11black.svg" />
                         </a>
-                        <a class="red flex text-lg gap-2 items-center max-lg:text-[14px]"
+                        <a class="red flex max-sm:gap-2 gap-4 max-sm:leading-8 max-sm:text-zinc-600 items-center max-sm:text-[18px] max-sm:leading-10 max-[1920px]:text-[45px] text-[50px] leading-[60px] max-lg:text-[14px]"
                             href="https://www.instagram.com/ruben.iso" target="_blank">
-                            <img class="vector w-[14px]" src="/img/Instagram.png" />
+                            <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-60" src="/img/Instagram.png" />
                             Instagram
-                            <img class="vector" src="/img/Vector-11black.svg" />
+                            <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-60" src="/img/Vector-11black.svg" />
                         </a>
-                        <a class="red flex text-lg gap-2 items-center max-lg:text-[14px]"
+                        <a class="red flex max-sm:gap-2 gap-4 max-sm:leading-8 max-sm:text-zinc-600 items-center max-sm:text-[18px] max-sm:leading-10 max-[1920px]:text-[45px] text-[50px] leading-[60px] max-lg:text-[14px]"
                             href="https://www.linkedin.com/in/rubenmaldonado00" target="_blank">
-                            <img class="vector w-[14px]" src="/img/LinkedIn.png" />
+                            <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-60" src="/img/LinkedIn.png" />
                             LinkedIn
-                            <img class="vector" src="/img/Vector-11black.svg" />
+                            <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-60" src="/img/Vector-11black.svg" />
+                        </a>
+                        <a class="red flex max-sm:gap-2 gap-4 max-sm:leading-8 max-sm:text-zinc-600 items-center max-sm:text-[18px] max-sm:leading-10 max-[1920px]:text-[45px] text-[50px] leading-[60px] max-lg:text-[14px]"
+                            href="https://www.redbubble.com/es/people/ruben-maldonado/shop" target="_blank">
+                            <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-60" src="/img/redbubble.svg" />
+                            Redbubble
+                            <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-60" src="/img/Vector-11black.svg" />
+                        </a>
+                        <a class="red flex max-sm:gap-2 gap-4 max-sm:leading-8 max-sm:text-zinc-600 items-center max-sm:text-[18px] max-sm:leading-10 max-[1920px]:text-[45px] text-[50px] leading-[60px] max-lg:text-[14px]"
+                            href="https://es.pinterest.com/maldonadoruben_" target="_blank">
+                            <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-60" src="/img/pinterest.svg" />
+                            Pinterest
+                            <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-60" src="/img/Vector-11black.svg" />
                         </a>
                     </div>
                 </div>
 
                 <!-- Información -->
-                <div class="informacion grid grid-cols-2 max-sm:grid-cols-1 text-black group">
+                <div class="informacion grid grid-cols-2 max-sm:pb-12 max-sm:grid-cols-1 text-black group">
                     <!-- Caja 3 -->
                     <div
-                        class="caja2 max-sm:animate-pulse max-sm:text-black text-left max-sm:text-[60px] max-sm:px-6 max-sm:leading-[50px] px-20 font-['Neue'] max-[1920px]:text-[150px] max-[1920px]:leading-[8.5rem] text-[170px] pt-12 pb-12 leading-[10rem] cursor-pointer text-zinc-400 transition-colors duration-300 hover:text-black">
-                        Información
+                    class="caja2 max-sm:animate-none z-0 text-left max-sm:text-[60px] max-sm:py-12 max-sm:px-4 max-sm:leading-[50px] animate-pulse px-20 font-['Neue'] max-[1920px]:text-[150px] max-[1920px]:leading-[8.5rem] text-[170px] pt-12 pb-12 leading-[10rem] cursor-pointer text-black transition-colors duration-300 hover:text-black">
+                    Información
                     </div>
                     <!-- Información oculta por defecto y visible al hacer hover -->
                     <div
-                        class="caja1 text-left self-center max-sm:px-6 px-20 text-[20px] leading-[10rem] font-['Neue'] max-sm:block hidden group-hover:block">
+                        class="caja1 text-left self-center max-sm:px-4 px-20 text-[20px] leading-[10rem] font-['Neue'] max-sm:block hidden group-hover:block">
                         <a href="mailto:ruben.maldonado.graphic@gmail.com" target="_blank"
-                            class="email text-lg flex gap-2 items-center max-lg:text-[14px] max-sm:justify-start max-lg:justify-center max-sm:pr-0">
+                            class="email text-[50px] max-sm:text-zinc-600 leading-[60px] max-[1920px]:text-[45px] max-sm:text-[18px] max-sm:leading-7 flex gap-2 items-center max-lg:text-[14px] max-sm:justify-start max-lg:justify-center max-sm:pr-0">
                             Rubén Maldonado González<br> All rights reserved | Copyright ©<br>Actualizado
                             Diciembre 2024
                         </a>
                     </div>
                 </div>
             </div>
-
-
         </div>
 
 
 
-        <div
-            class="foter bg-zinc-80white0 p-12 border-0 flex justify-center max-sm:grid-cols-2 text-black max-lg:p-6 bg-[#fcfcff]">
-            <div class="foter_image flex flex-start max-sm:gap-2">
-                <img class="vector max-lg:max-w-[15px]" src="/img/starblack.svg" />
-            </div>
-            <div class="email flex pr-12 pl-12 gap-2 justify-end items-center text-sm max-lg:text-xs">
-                2024
-            </div>
-            <img class="vector max-lg:max-w-[15px]" src="/img/starblack.svg" />
 
-        </div>
     </div>
 
 

@@ -1,85 +1,85 @@
 <template>
     <div class="app bg-black font-['SFUIDisplay-Regular']">
-    <Cursor class="mix-blend-exclusion" />
-    <div class="menu flex justify-between w-full fixed top-0 left-0 right-0 z-[100000] bg-white backdrop-filter">
-        <!-- Header -->
-        <div
-            class="header flex justify-between w-full px-20 py-8 flex gap-12 text-white items-center z-[99999] max-lg:flex max-sm:flex max-sm:justify-between max-sm:px-8">
-            <!-- Contenedor alineado a la izquierda -->
-            <div class="contenedor flex items-center justify-start text-[25px]">
-                <div class="image">
-                    <NuxtLink class="flex" to="/IntroDark">
-                        <img class="max-lg:max-w-[15px] w-[20px]" src="/img/darklogo.png" />
-                    </NuxtLink>
+        <Cursor class="mix-blend-exclusion" />
+        <div class="menu flex justify-between w-full fixed top-0 left-0 right-0 z-[100000] bg-white backdrop-filter">
+            <!-- Header -->
+            <div
+                class="header flex justify-between w-full px-20 py-8 flex gap-12 text-white items-center z-[99999] max-lg:flex max-sm:flex max-sm:justify-between max-sm:px-8">
+                <!-- Contenedor alineado a la izquierda -->
+                <div class="contenedor flex items-center justify-start text-[25px]">
+                    <div class="image">
+                        <NuxtLink class="flex" to="/IntroDark">
+                            <img class="max-lg:max-w-[15px] w-[20px]" src="/img/darklogo.png" />
+                        </NuxtLink>
+                    </div>
                 </div>
-            </div>
 
-            <!-- Botón para abrir la slidebar dentro del navbar -->
-            <button @click="toggleSidebar"
-                class="email2 max-sm:text-[30px] max-sm:no-underline relative text-black justify-end underline-offset-1 after:bg-white after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[26px] max-[1920px]:text-[20px] self-center place-self-end flex gap-2 max-lg:text-xs"
-                :class="{ hidden: isOpen }">
-                Menu
-            </button>
-        </div>
-
-        <!-- Slidebar (desplegada a la derecha) -->
-        <div class="menucito fixed top-0 right-0 h-full w-[860px] max-sm:w-full max-[1920px]:w-[700px] bg-zinc-600 shadow-lg z-[99999] p-8 max-sm:p-10 transform transition-transform backdrop-filter backdrop-blur-md bg-opacity-30 text-white"
-            :class="{ 'translate-x-0': isOpen, 'translate-x-full': !isOpen }">
-            <div class="flex justify-between items-center">
-                <h2 @click="toggleSidebar"
-                    class="email text-black relative text-[26px] max-[1920px]:text-[20px] max-sm:text-[40px] self-center place-self-end flex gap-2 max-lg:text-xs cursor-pointer">
-                    Menú
-                </h2>
+                <!-- Botón para abrir la slidebar dentro del navbar -->
                 <button @click="toggleSidebar"
-                    class="email text-black relative text-[26px] max-sm:text-[20px] max-[1920px]:text-[20px] self-center place-self-end flex gap-2 max-lg:text-xs">
-                    &times;
+                    class="email2 max-sm:text-[30px] max-sm:no-underline relative text-black justify-end underline-offset-1 after:bg-white after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[26px] max-[1920px]:text-[20px] self-center place-self-end flex gap-2 max-lg:text-xs"
+                    :class="{ hidden: isOpen }">
+                    Menu
                 </button>
             </div>
 
-            <!-- Contenido de la slidebar -->
-            <ul class="pt-12 flex flex-col justify-between h-full relative z-[99999] text-black">
-                <div class="columna1 flex-grow">
-                    <li>
-                        <a href="/IntroDark#contacto"
-                        class="email  max-sm:text-[22px] max-sm:leading-8 mix-blend-exclusion relative underline-offset-1 after:bg-white after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
-                            Trabajos
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/Servicios"
-                            class="email max-sm:text-[22px] max-sm:leading-8 mix-blend-exclusion relative underline-offset-1 after:bg-white after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
-                            Servicios
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/Sobremi"
-                            class="email max-sm:text-[22px] max-sm:leading-8 mix-blend-exclusion relative underline-offset-1 after:bg-white after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
-                            Sobre mi
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/Tienda"
-                            class="email max-sm:text-[22px] max-sm:leading-8 mix-blend-exclusion relative underline-offset-1 after:bg-white after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
-                            Tienda
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#contacto"
-                            class="email max-sm:text-[22px] max-sm:leading-8 mix-blend-exclusion relative underline-offset-1 after:bg-white after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
-                            Contacto
-                        </a>
-                    </li>
+            <!-- Slidebar (desplegada a la derecha) -->
+            <div class="menucito fixed top-0 right-0 h-full w-[860px] max-sm:w-full max-[1920px]:w-[700px] bg-zinc-600 shadow-lg z-[99999] p-8 max-sm:p-10 transform transition-transform backdrop-filter backdrop-blur-md bg-opacity-30 text-white"
+                :class="{ 'translate-x-0': isOpen, 'translate-x-full': !isOpen }">
+                <div class="flex justify-between items-center">
+                    <h2 @click="toggleSidebar"
+                        class="email text-black relative text-[26px] max-[1920px]:text-[20px] max-sm:text-[40px] self-center place-self-end flex gap-2 max-lg:text-xs cursor-pointer">
+                        Menú
+                    </h2>
+                    <button @click="toggleSidebar"
+                        class="email text-black relative text-[26px] max-sm:text-[20px] max-[1920px]:text-[20px] self-center place-self-end flex gap-2 max-lg:text-xs">
+                        &times;
+                    </button>
                 </div>
-                <div class="columna mt-auto pb-6 flex justify-between">
-                    <p>Copyright 2024</p>
-                    <p>*</p>
-                    <p>Rubén Maldonado</p>
-                    <p>*</p>
-                    <p>Portfolio</p>
-                </div>
-            </ul>
+
+                <!-- Contenido de la slidebar -->
+                <ul class="pt-12 flex flex-col justify-between h-full relative z-[99999] text-black">
+                    <div class="columna1 flex-grow">
+                        <li>
+                            <a href="/IntroDark#contacto"
+                                class="email  max-sm:text-[22px] max-sm:leading-8 mix-blend-exclusion relative underline-offset-1 after:bg-white after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                                Trabajos
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Servicios"
+                                class="email max-sm:text-[22px] max-sm:leading-8 mix-blend-exclusion relative underline-offset-1 after:bg-white after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                                Servicios
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Sobremi"
+                                class="email max-sm:text-[22px] max-sm:leading-8 mix-blend-exclusion relative underline-offset-1 after:bg-white after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                                Sobre mi
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Tienda"
+                                class="email max-sm:text-[22px] max-sm:leading-8 mix-blend-exclusion relative underline-offset-1 after:bg-white after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                                Tienda
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#contacto"
+                                class="email max-sm:text-[22px] max-sm:leading-8 mix-blend-exclusion relative underline-offset-1 after:bg-white after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                                Contacto
+                            </a>
+                        </li>
+                    </div>
+                    <div class="columna mt-auto pb-6 flex justify-between">
+                        <p>Copyright 2024</p>
+                        <p>*</p>
+                        <p>Rubén Maldonado</p>
+                        <p>*</p>
+                        <p>Portfolio</p>
+                    </div>
+                </ul>
+            </div>
         </div>
-    </div>
 
         <VueScrollProgressBar background-color="#52525B" />
         <div id="navegacion"
@@ -265,58 +265,113 @@
 
                     <template #addons>
                         <Navigation />
-                        <Pagination class="bg-[#ffffff]"/>
+                        <Pagination class="bg-[#ffffff]" />
                     </template>
                 </Carousel>
 
             </div>
         </div>
 
-        <div
-            class="links_rrss max-sm:pt-2 font-['Regular'] leading-6 pt-32 px-64 pb-32 text-zinc-100 justify-center flex flex-row gap-60 max-xl:pt-20 max-xl:px-10 max-xl:flex-col max-xl:justify-items-center max-xl:gap-20 max-xl:flex max-xl:justify-center max-xl:pb-20 max-[1500px]:px-32 ">
-            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado."
-                target="_blank" class="email text-lg flex gap-2 items-center max-xl:text-[14px] max-xl:justify-center">
-                ruben.maldonado.graphic@gmail.com
-                <img class="vector" src="/img/Vector-11white.svg">
-            </a>
-            <div class="links flex flex-col gap-2">
-                <div class="links1 flex gap-32 max-xl:justify-center">
-                    <a class="red flex gap-2 items-center max-xl:text-[14px]"
-                        href="https://www.instagram.com/maldonadoruben_/">Instagram
-                        <img class="vector" src="/img/Vector-11white.svg">
-                    </a>
-                    <a class="red flex gap-2 items-center max-xl:text-[14px]"
-                        href="https://www.behance.net/maldonadoruben">Behance
-                        <img class="vector" src="/img/Vector-11white.svg">
-                    </a>
-                </div>
-                <div class="links2 flex gap-32 flex-end max-xl:justify-center">
-                    <a class="red flex gap-2 items-center max-xl:text-[14px]"
-                        href="https://www.instagram.com/ruben.iso">Instagram
-                        <img class="vector" src="/img/Vector-11white.svg">
+        <div id="contacto" class="informacion max-sm:pt-0 pt-[300px] pb-24 bg-black max-sm:pb-0">
 
-                    </a> <a class="red flex gap-2 items-center max-xl:text-[14px]"
-                        href="https://www.linkedin.com/in/rubenmaldonado00">LinkedIn
-                        <img class="vector" src="/img/Vector-11white.svg">
-                    </a>
+            <div class="about bg-black">
+                <div class="correo grid grid-cols-2 max-sm:grid-cols-1 text-black">
+                    <div
+                        class="caja2 text-white max-sm:animate-none z-0 text-left max-sm:text-[60px] max-sm:py-12 max-sm:px-4 max-sm:leading-[50px] animate-pulse px-20 font-['Neue'] max-[1920px]:text-[150px] max-[1920px]:leading-[8.5rem] text-[170px] pt-12 pb-12 leading-[10rem] cursor-pointer text-black transition-colors duration-300 hover:text-zinc-400">
+                        Correo
+                    </div>
+                    <div
+                        class="caja1 text-left self-center max-sm:self-start max-sm:px-4 px-20 leading-[10rem] font-['Neue'] cursor-pointer text-white">
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado."
+                            target="_blank"
+                            class="email font-['Neue'] max-sm:text-zinc-400 max-sm:text-[18px] max-sm:leading-10 flex gap-2 max-[1920px]:text-[45px] items-center max-sm:items-left text-[50px] max-sm:justify-start max-lg:justify-center max-sm:pr-0">
+                            ruben.maldonado.graphic@gmail.com
+                            <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-60"
+                                src="/img/Vector-11white.svg" />
+                        </a>
+                    </div>
                 </div>
             </div>
+            <div class="about bg-black pt-2">
 
-        </div>
 
-        <div class="foter bg-balck p-10 flex text-white justify-between sticky top-0 max-xl:p-6">
-            <div class="foter_image flex flex-start">
-                <NuxtLink to="/">
-                    <img class="vector max-xl:max-w-[15px]" src="/img/star.svg">
-                </NuxtLink>
+                <!-- Redes Sociales -->
+                <div
+                    class="redes grid grid-cols-2 items-center max-sm:grid-cols-1 text-white group hover:group-[.hover]:cursor-default">
+                    <!-- Caja 2 -->
+                    <div
+                        class="caja2 text-white max-sm:animate-none z-0 text-left max-sm:text-[60px] max-sm:py-12 max-sm:px-4 max-sm:leading-[50px] animate-pulse px-20 font-['Neue'] max-[1920px]:text-[150px] max-[1920px]:leading-[8.5rem] text-[170px] pt-12 pb-12 leading-[10rem] cursor-pointer text-white transition-colors duration-300 hover:text-zinc-400">
+                        Redes sociales
+                    </div>
+                    <!-- Redes ocultas por defecto y visibles al hacer hover -->
+                    <div
+                        class="caja1 text-left self-center max-sm:px-4 px-20 text-[20px] grid grid-cols-2 font-['Neue']  hidden max-sm:grid max-sm:grid-cols-2 group-hover:grid">
+                        <a class="red text-white flex max-sm:gap-2 gap-4 max-sm:leading-8 max-sm:text-zinc-400 items-center max-sm:text-[18px] max-sm:leading-10 max-[1920px]:text-[45px] text-[50px] leading-[60px] max-lg:text-[14px]"
+                            href="https://www.instagram.com/maldonadoruben_/" target="_blank">
+                            <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-60" src="/img/Instagram2.png" />
+                            Instagram
+                            <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-60"
+                                src="/img/Vector-11white.svg" />
+                        </a>
+                        <a class="red flex max-sm:gap-2 gap-4 max-sm:leading-8 max-sm:text-zinc-400 items-center max-sm:text-[18px] max-sm:leading-10 max-[1920px]:text-[45px] text-[50px] leading-[60px] max-lg:text-[14px]"
+                            href="https://www.behance.net/maldonadoruben" target="_blank">
+                            <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-60" src="/img/Behance2.png" />
+                            Behance
+                            <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-60"
+                                src="/img/Vector-11white.svg" />
+                        </a>
+                        <a class="red flex max-sm:gap-2 gap-4 max-sm:leading-8 max-sm:text-zinc-400 items-center max-sm:text-[18px] max-sm:leading-10 max-[1920px]:text-[45px] text-[50px] leading-[60px] max-lg:text-[14px]"
+                            href="https://www.instagram.com/ruben.iso" target="_blank">
+                            <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-60" src="/img/Instagram2.png" />
+                            Instagram
+                            <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-60"
+                                src="/img/Vector-11white.svg" />
+                        </a>
+                        <a class="red flex max-sm:gap-2 gap-4 max-sm:leading-8 max-sm:text-zinc-400 items-center max-sm:text-[18px] max-sm:leading-10 max-[1920px]:text-[45px] text-[50px] leading-[60px] max-lg:text-[14px]"
+                            href="https://www.linkedin.com/in/rubenmaldonado00" target="_blank">
+                            <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-60" src="/img/LinkedIn2.png" />
+                            LinkedIn
+                            <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-60"
+                                src="/img/Vector-11white.svg" />
+                        </a>
+                        <a class="red flex max-sm:gap-2 gap-4 max-sm:leading-8 max-sm:text-zinc-400 items-center max-sm:text-[18px] max-sm:leading-10 max-[1920px]:text-[45px] text-[50px] leading-[60px] max-lg:text-[14px]"
+                            href="https://www.redbubble.com/es/people/ruben-maldonado/shop" target="_blank">
+                            <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-60"
+                                src="/img/redbubblewhite.svg" />
+                            Redbubble
+                            <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-60"
+                                src="/img/Vector-11white.svg" />
+                        </a>
+                        <a class="red flex max-sm:gap-2 gap-4 max-sm:leading-8 max-sm:text-zinc-400 items-center max-sm:text-[18px] max-sm:leading-10 max-[1920px]:text-[45px] text-[50px] leading-[60px] max-lg:text-[14px]"
+                            href="https://es.pinterest.com/maldonadoruben_" target="_blank">
+                            <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-60"
+                                src="/img/pinterestwhite.svg" />
+                            Pinterest
+                            <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-60"
+                                src="/img/Vector-11white.svg" />
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Información -->
+                <div class="informacion grid grid-cols-2 max-sm:pb-12 max-sm:grid-cols-1 text-white group">
+                    <!-- Caja 3 -->
+                    <div
+                        class="caja2 text-white max-sm:animate-none z-0 text-left max-sm:text-[60px] max-sm:py-12 max-sm:px-4 max-sm:leading-[50px] animate-pulse px-20 font-['Neue'] max-[1920px]:text-[150px] max-[1920px]:leading-[8.5rem] text-[170px] pt-12 pb-12 leading-[10rem] cursor-pointer text-black transition-colors duration-300 hover:text-zinc-400">
+                        Información
+                    </div>
+                    <!-- Información oculta por defecto y visible al hacer hover -->
+                    <div
+                        class="caja1 text-left self-center max-sm:px-4 px-20 text-[20px] leading-[10rem] font-['Neue'] max-sm:block hidden group-hover:block">
+                        <a href="mailto:ruben.maldonado.graphic@gmail.com" target="_blank"
+                            class="email text-[50px] max-sm:text-zinc-400 leading-[60px] max-[1920px]:text-[45px] max-sm:text-[18px] max-sm:leading-7 flex gap-2 items-center max-lg:text-[14px] max-sm:justify-start max-lg:justify-center max-sm:pr-0">
+                            Rubén Maldonado González<br> All rights reserved | Copyright ©<br>Actualizado
+                            Diciembre 2024
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div class="email flex gap-2 items-center text-sm max-xl:text-xs">Ruben Maldonado González
-                <NuxtLink to="/">
-                    <img class="vector max-xl:max-w-[15px]" src="/img/futbol.svg">
-                </NuxtLink>
-            </div>
         </div>
-
     </div>
 </template>
 

@@ -867,8 +867,9 @@
                     <div
                         class="caja1 text-left self-center max-sm:px-6 px-20 text-[20px] leading-[10rem] font-['Neue'] max-sm:block hidden group-hover:block">
                         <a href="mailto:ruben.maldonado.graphic@gmail.com" target="_blank"
-                            class="email text-lg flex gap-2 items-center max-lg:text-[14px] max-sm:justify-start max-lg:justify-center max-sm:pr-0">
-                            Rubén Maldonado González<br> All rights reserved | Copyright ©<br>Actualizado Diciembre 2024
+                            class="email text-[50px] leading-[60px] flex gap-2 items-center max-lg:text-[14px] max-sm:justify-start max-lg:justify-center max-sm:pr-0">
+                            Rubén Maldonado González<br> All rights reserved | Copyright ©<br>Actualizado
+                            Diciembre 2024
                         </a>
                     </div>
                 </div>
@@ -878,16 +879,7 @@
         </div>
 
 
-        <div class="foter bg-black p-12 border-0 flex justify-center max-sm:grid-cols-2 text-white max-lg:p-6">
-            <div class="foter_image flex flex-start max-sm:gap-2">
-                <img class="vector max-lg:max-w-[15px]" src="/img/star.svg" />
-            </div>
-            <div class="email flex pr-12 pl-12 gap-2 justify-end items-center text-sm max-lg:text-xs">
-                2024
-            </div>
-            <img class="vector max-lg:max-w-[15px]" src="/img/star.svg" />
 
-        </div>
     </div>
 
 
