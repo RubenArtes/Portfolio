@@ -190,106 +190,106 @@
         </div>
 
 
-        <div id="contacto" class="informacion max-sm:pt-0 pt-[100px] pb-24 bg-black max-sm:pb-0">
+        <div id="contacto" class="informacion max-sm:pt-0 pt-[300px] pb-24 bg-black max-sm:pb-0">
 
-            <div class="about bg-black">
-                <div class="correo grid grid-cols-2 max-sm:grid-cols-1 text-black">
-                    <div
-                        class="caja2 text-white max-sm:animate-none z-0 text-left max-sm:text-[60px] max-sm:py-12 max-sm:px-4 max-sm:leading-[50px] animate-pulse px-20 font-['Neue'] max-[1920px]:text-[150px] max-[1920px]:leading-[8.5rem] text-[170px] pt-12 pb-12 leading-[10rem] cursor-pointer text-black transition-colors duration-300 hover:text-zinc-400">
-                        Correo
-                    </div>
-                    <div
-                        class="caja1 text-left self-center max-sm:self-start max-sm:px-4 px-20 leading-[10rem] font-['Neue'] cursor-pointer text-white">
-                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado."
-                            target="_blank"
-                            class="email font-['Neue'] max-sm:text-zinc-400 max-sm:text-[18px] max-sm:leading-10 flex gap-2 max-[1920px]:text-[45px] items-center max-sm:items-left text-[50px] max-sm:justify-start max-lg:justify-center max-sm:pr-0">
-                            ruben.maldonado.graphic@gmail.com
-                            <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-60"
-                                src="/img/Vector-11white.svg" />
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="about bg-black pt-2">
-
-
-                <!-- Redes Sociales -->
-                <div
-                    class="redes grid grid-cols-2 items-center max-sm:grid-cols-1 text-white group hover:group-[.hover]:cursor-default">
-                    <!-- Caja 2 -->
-                    <div
-                        class="caja2 text-white max-sm:animate-none z-0 text-left max-sm:text-[60px] max-sm:py-12 max-sm:px-4 max-sm:leading-[50px] animate-pulse px-20 font-['Neue'] max-[1920px]:text-[150px] max-[1920px]:leading-[8.5rem] text-[170px] pt-12 pb-12 leading-[10rem] cursor-pointer text-white transition-colors duration-300 hover:text-zinc-400">
-                        Redes sociales
-                    </div>
-                    <!-- Redes ocultas por defecto y visibles al hacer hover -->
-                    <div
-                        class="caja1 text-left self-center max-sm:px-4 px-20 text-[20px] grid grid-cols-2 font-['Neue']  hidden max-sm:grid max-sm:grid-cols-2 group-hover:grid">
-                        <a class="red text-white flex max-sm:gap-2 gap-4 max-sm:leading-8 max-sm:text-zinc-400 items-center max-sm:text-[18px] max-sm:leading-10 max-[1920px]:text-[45px] text-[50px] leading-[60px] max-lg:text-[14px]"
-                            href="https://www.instagram.com/maldonadoruben_/" target="_blank">
-                            <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-60" src="/img/Instagram2.png" />
-                            Instagram
-                            <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-60"
-                                src="/img/Vector-11white.svg" />
-                        </a>
-                        <a class="red flex max-sm:gap-2 gap-4 max-sm:leading-8 max-sm:text-zinc-400 items-center max-sm:text-[18px] max-sm:leading-10 max-[1920px]:text-[45px] text-[50px] leading-[60px] max-lg:text-[14px]"
-                            href="https://www.behance.net/maldonadoruben" target="_blank">
-                            <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-60" src="/img/Behance2.png" />
-                            Behance
-                            <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-60"
-                                src="/img/Vector-11white.svg" />
-                        </a>
-                        <a class="red flex max-sm:gap-2 gap-4 max-sm:leading-8 max-sm:text-zinc-400 items-center max-sm:text-[18px] max-sm:leading-10 max-[1920px]:text-[45px] text-[50px] leading-[60px] max-lg:text-[14px]"
-                            href="https://www.instagram.com/ruben.iso" target="_blank">
-                            <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-60" src="/img/Instagram2.png" />
-                            Instagram
-                            <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-60"
-                                src="/img/Vector-11white.svg" />
-                        </a>
-                        <a class="red flex max-sm:gap-2 gap-4 max-sm:leading-8 max-sm:text-zinc-400 items-center max-sm:text-[18px] max-sm:leading-10 max-[1920px]:text-[45px] text-[50px] leading-[60px] max-lg:text-[14px]"
-                            href="https://www.linkedin.com/in/rubenmaldonado00" target="_blank">
-                            <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-60" src="/img/LinkedIn2.png" />
-                            LinkedIn
-                            <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-60"
-                                src="/img/Vector-11white.svg" />
-                        </a>
-                        <a class="red flex max-sm:gap-2 gap-4 max-sm:leading-8 max-sm:text-zinc-400 items-center max-sm:text-[18px] max-sm:leading-10 max-[1920px]:text-[45px] text-[50px] leading-[60px] max-lg:text-[14px]"
-                            href="https://www.redbubble.com/es/people/ruben-maldonado/shop" target="_blank">
-                            <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-60"
-                                src="/img/redbubblewhite.svg" />
-                            Redbubble
-                            <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-60"
-                                src="/img/Vector-11white.svg" />
-                        </a>
-                        <a class="red flex max-sm:gap-2 gap-4 max-sm:leading-8 max-sm:text-zinc-400 items-center max-sm:text-[18px] max-sm:leading-10 max-[1920px]:text-[45px] text-[50px] leading-[60px] max-lg:text-[14px]"
-                            href="https://es.pinterest.com/maldonadoruben_" target="_blank">
-                            <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-60"
-                                src="/img/pinterestwhite.svg" />
-                            Pinterest
-                            <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-60"
-                                src="/img/Vector-11white.svg" />
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Información -->
-                <div class="informacion grid grid-cols-2 max-sm:pb-12 max-sm:grid-cols-1 text-white group">
-                    <!-- Caja 3 -->
-                    <div
-                        class="caja2 text-white max-sm:animate-none z-0 text-left max-sm:text-[60px] max-sm:py-12 max-sm:px-4 max-sm:leading-[50px] animate-pulse px-20 font-['Neue'] max-[1920px]:text-[150px] max-[1920px]:leading-[8.5rem] text-[170px] pt-12 pb-12 leading-[10rem] cursor-pointer text-black transition-colors duration-300 hover:text-zinc-400">
-                        Información
-                    </div>
-                    <!-- Información oculta por defecto y visible al hacer hover -->
-                    <div
-                        class="caja1 text-left self-center max-sm:px-4 px-20 text-[20px] leading-[10rem] font-['Neue'] max-sm:block hidden group-hover:block">
-                        <a href="mailto:ruben.maldonado.graphic@gmail.com" target="_blank"
-                            class="email text-[50px] max-sm:text-zinc-400 leading-[60px] max-[1920px]:text-[45px] max-sm:text-[18px] max-sm:leading-7 flex gap-2 items-center max-lg:text-[14px] max-sm:justify-start max-lg:justify-center max-sm:pr-0">
-                            Rubén Maldonado González<br> All rights reserved | Copyright ©<br>Actualizado
-                            Diciembre 2024
-                        </a>
-                    </div>
-                </div>
-            </div>
+<div class="about bg-black">
+    <div class="correo grid grid-cols-2 max-sm:grid-cols-1 text-black">
+        <div
+            class="caja2 text-white max-sm:text-zinc-500 max-sm:animate-none z-0 text-left max-sm:text-[60px] max-sm:py-12 max-sm:px-4 max-sm:leading-[50px] animate-pulse px-20 font-['Neue'] max-[1920px]:text-[150px] max-[1920px]:leading-[8.5rem] text-[170px] pt-12 pb-12 leading-[10rem] cursor-pointer text-black transition-colors duration-300 hover:text-zinc-400">
+            Correo
         </div>
+        <div
+            class="caja1 text-left self-center max-sm:self-start max-sm:px-4 px-20 leading-[10rem] font-['Neue'] cursor-pointer text-white">
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado."
+                target="_blank"
+                class="email font-['Neue'] max-sm:text-zinc-500 max-sm:text-[18px] max-sm:leading-10 flex gap-2 max-[1920px]:text-[45px] items-center max-sm:items-left text-[50px] max-sm:justify-start max-lg:justify-center max-sm:pr-0">
+                ruben.maldonado.graphic@gmail.com
+                <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-45"
+                    src="/img/Vector-11white.svg" />
+            </a>
+        </div>
+    </div>
+</div>
+<div class="about bg-black pt-2">
+
+
+    <!-- Redes Sociales -->
+    <div
+        class="redes grid grid-cols-2 items-center max-sm:grid-cols-1 text-white group hover:group-[.hover]:cursor-default">
+        <!-- Caja 2 -->
+        <div
+            class="caja2 max-sm:text-zinc-500 text-white max-sm:animate-none z-0 text-left max-sm:text-[60px] max-sm:py-12 max-sm:px-4 max-sm:leading-[50px] animate-pulse px-20 font-['Neue'] max-[1920px]:text-[150px] max-[1920px]:leading-[8.5rem] text-[170px] pt-12 pb-12 leading-[10rem] cursor-pointer text-white transition-colors duration-300 hover:text-zinc-400">
+            Redes sociales
+        </div>
+        <!-- Redes ocultas por defecto y visibles al hacer hover -->
+        <div
+            class="caja1 text-left self-center max-sm:px-4 px-20 text-[20px] grid grid-cols-2 font-['Neue']  hidden max-sm:grid max-sm:grid-cols-2 group-hover:grid">
+            <a class="red text-white flex max-sm:gap-2 gap-4 max-sm:leading-8 max-sm:text-zinc-500 items-center max-sm:text-[18px] max-sm:leading-10 max-[1920px]:text-[45px] text-[50px] leading-[60px] max-lg:text-[14px]"
+                href="https://www.instagram.com/maldonadoruben_/" target="_blank">
+                <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-45" src="/img/Instagram2.png" />
+                Instagram
+                <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-45"
+                    src="/img/Vector-11white.svg" />
+            </a>
+            <a class="red flex max-sm:gap-2 gap-4 max-sm:leading-8 max-sm:text-zinc-500 items-center max-sm:text-[18px] max-sm:leading-10 max-[1920px]:text-[45px] text-[50px] leading-[60px] max-lg:text-[14px]"
+                href="https://www.behance.net/maldonadoruben" target="_blank">
+                <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-45" src="/img/Behance2.png" />
+                Behance
+                <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-45"
+                    src="/img/Vector-11white.svg" />
+            </a>
+            <a class="red flex max-sm:gap-2 gap-4 max-sm:leading-8 max-sm:text-zinc-500 items-center max-sm:text-[18px] max-sm:leading-10 max-[1920px]:text-[45px] text-[50px] leading-[60px] max-lg:text-[14px]"
+                href="https://www.instagram.com/ruben.iso" target="_blank">
+                <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-45" src="/img/Instagram2.png" />
+                Instagram
+                <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-45"
+                    src="/img/Vector-11white.svg" />
+            </a>
+            <a class="red flex max-sm:gap-2 gap-4 max-sm:leading-8 max-sm:text-zinc-500 items-center max-sm:text-[18px] max-sm:leading-10 max-[1920px]:text-[45px] text-[50px] leading-[60px] max-lg:text-[14px]"
+                href="https://www.linkedin.com/in/rubenmaldonado00" target="_blank">
+                <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-45" src="/img/LinkedIn2.png" />
+                LinkedIn
+                <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-45"
+                    src="/img/Vector-11white.svg" />
+            </a>
+            <a class="red flex max-sm:gap-2 gap-4 max-sm:leading-8 max-sm:text-zinc-500 items-center max-sm:text-[18px] max-sm:leading-10 max-[1920px]:text-[45px] text-[50px] leading-[60px] max-lg:text-[14px]"
+                href="https://www.redbubble.com/es/people/ruben-maldonado/shop" target="_blank">
+                <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-45"
+                    src="/img/redbubblewhite.svg" />
+                Redbubble
+                <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-45"
+                    src="/img/Vector-11white.svg" />
+            </a>
+            <a class="red flex max-sm:gap-2 gap-4 max-sm:leading-8 max-sm:text-zinc-500 items-center max-sm:text-[18px] max-sm:leading-10 max-[1920px]:text-[45px] text-[50px] leading-[60px] max-lg:text-[14px]"
+                href="https://es.pinterest.com/maldonadoruben_" target="_blank">
+                <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-45"
+                    src="/img/pinterestwhite.svg" />
+                Pinterest
+                <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-45"
+                    src="/img/Vector-11white.svg" />
+            </a>
+        </div>
+    </div>
+
+    <!-- Información -->
+    <div class="informacion grid grid-cols-2 max-sm:pb-12 max-sm:grid-cols-1 text-white group">
+        <!-- Caja 3 -->
+        <div
+            class="caja2 max-sm:text-zinc-500 text-white max-sm:animate-none z-0 text-left max-sm:text-[60px] max-sm:py-12 max-sm:px-4 max-sm:leading-[50px] animate-pulse px-20 font-['Neue'] max-[1920px]:text-[150px] max-[1920px]:leading-[8.5rem] text-[170px] pt-12 pb-12 leading-[10rem] cursor-pointer text-black transition-colors duration-300 hover:text-zinc-400">
+            Información
+        </div>
+        <!-- Información oculta por defecto y visible al hacer hover -->
+        <div
+            class="caja1 text-left self-center max-sm:px-4 px-20 text-[20px] leading-[10rem] font-['Neue'] max-sm:block hidden group-hover:block">
+            <a href="mailto:ruben.maldonado.graphic@gmail.com" target="_blank"
+                class="email text-[50px] max-sm:text-zinc-500 leading-[60px] max-[1920px]:text-[45px] max-sm:text-[18px] max-sm:leading-7 flex gap-2 items-center max-lg:text-[14px] max-sm:justify-start max-lg:justify-center max-sm:pr-0">
+                Rubén Maldonado González<br> All rights reserved | Copyright ©<br>Actualizado
+                Diciembre 2024
+            </a>
+        </div>
+    </div>
+</div>
+</div>
 
 
 
