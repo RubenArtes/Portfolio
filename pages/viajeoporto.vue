@@ -1,6 +1,6 @@
 <template>
     <div class="app bg-white font-['SFUIDisplay-Regular']">
-        <Cursor class="mix-blend-exclusion" />
+        <Cursor class="mix-blend-exclusion max-sm:hidden" />
         <div class="menu flex justify-between w-full fixed top-0 left-0 right-0 z-[100000] bg-white backdrop-filter">
             <!-- Header -->
             <div
@@ -93,7 +93,7 @@
                 class="trabajos gap-6 grid grid-cols-2 max-sm:grid-cols-1 max-sm:gap-2 max-[1500px]:text-center max-[1500px]:items-center max-[1500px]:justify-center items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:pt-0 max-sm:pb-16 max-sm:px-0 max-[1280px]:items-center max-[1280px]:pt-6 max-[1280px]:pb-0">
 
                 <div
-                    class="titulo bg-white text-black text-left max-sm:px-4 text-[30px] gap-2 leading-[40px] max-lg:text-xs max-sm:text-[16px] max-sm:leading-[20px] max-sm:pb-4  max-sm:pt-0 normal-case font-['Neue']">
+                    class="titulo bg-white text-black text-left text-[30px] gap-2 leading-[40px] max-lg:text-xs max-sm:text-[16px] max-sm:px-4 max-sm:leading-[20px] max-sm:pb-4  max-sm:pt-0 normal-case font-['Neue']">
                     COLECCIÓN DE VIDEOS DEL VIAJE A PORTO EN 3 DÍAS</div>
                 <div
                     class="titulo invisible max-sm:hidden bg-white text-black text-left max-sm:px-4 text-[30px] gap-2 leading-[40px] max-lg:text-xs max-sm:text-[16px] max-sm:leading-[20px] max-sm:pb-4  max-sm:pt-0 normal-case font-['Neue']">

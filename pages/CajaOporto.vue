@@ -154,20 +154,25 @@
 
         </div>
         <VueScrollProgressBar background-color="#52525B" />
+
+        <div
+            class="caja1 max-[1500px]:px-4 text-black bg-white text-left max-[2500px]:hidden max-sm:block px-20 max-sm:px-4 max-sm:text-[90px] max-sm:pt-32 pt-44 text-[170px] pb-12 font-['Neue'] cursor-pointer duration-300">
+            Oporto
+        </div>
         <div id="navegacion"
-            class="titular2 flex px-64 gap-32 content-start space-between justify-center pt-48 max-sm:pt-32 text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-[1500px]:flex-col max-[1500px]:gap-2 max-[1500px]:items-center max-[1700px]:px-10">
+            class="titular2 flex px-64 gap-32 content-start space-between justify-center pt-48 text-center max-sm:px-4 max-sm:flex-col max-sm:gap-2 max-sm:pt-0 max-[1500px]:flex-col max-[1500px]:gap-2 max-[1500px]:items-center max-[1700px]:px-10">
             <div
-                class="titular text-[120px] font-['PPE-Ultralight'] leading-12 font-bold animate-pulse bg-gradient-to-r bg-clip-text text-transparent animate-text max-sm:text-[55px] max-[1500px]:text-left max-[1280px]:text-[100px] from-[#311568] via-[#4797ff] to-[#311568]  ">
+                class="titular max-sm:hidden text-[120px] font-['PPE-Ultralight'] leading-12 font-bold animate-pulse bg-gradient-to-r bg-clip-text text-transparent animate-text max-sm:px-4 max-sm:text-[90px] max-sm:pt-0 max-sm:text-black max-sm:animate-none max-sm:font-['Neue'] max-[1500px]:text-left max-[1280px]:text-[100px] from-[#311568] via-[#4797ff] to-[#311568]  ">
                 OPORTO</div>
             <div
                 class="trabajos flex flex-col max-sm:gap-2 items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:pt-6 max-sm:pb-16 max-sm:px-0 max-[1280px]:items-center max-[1280px]:pt-6 max-[1280px]:pb-0">
 
                 <div
-                    class="text max-w-[60ch] text-[16px] uppercase text-zinc-900 max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
+                    class="text max-w-[60ch] text-[16px] uppercase max-sm:text-[16px] max-sm:px-0 max-sm:leading-[20px] max-sm:pb-4  max-sm:pt-0 max-sm:text-left text-zinc-900 max-xl:leading-2 max-xl:text-xs max-[1280px]:text-center max-[1280px]:justify-center">
                     IMPRESIÓN - Packaging - Marca -
                     Diseño Gráfico</div>
                 <div
-                    class="text max-w-[80ch] pb-16 pt-4 max-sm:text-left text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:max-w-[100ch] max-[800px]:pb-4">
+                    class="text max-w-[80ch] pb-16 pt-4 max-sm:text-[20px] max-sm:leading-[26px] max-sm:pb-2 max-sm:text-left text-left font-['SFUIDisplay-Light'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:max-w-[100ch] max-[800px]:pb-4">
                     El proyecto consistirá en la creación de una caja contenedora de diferentes elementos impresos sobre
                     un tema concreto, realizando diferentes pruebas físicas como folletos, cuadernillos impresos o
                     carteles. Para este trabajo
@@ -180,31 +185,31 @@
 
 
         <div
-            class="trabajos max-[1500px]:px-32 flex max-sm:justify-start max-sm:pb-12 pt-20 px-40 pb-20 items-start text-white flex-nowrap gap-96 max-[1500px]:gap-[15rem] justify-center max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-start max-xl:text-center max-xl:pt-0 max-xl:pb-16 max-[1500px]:justify-between">
+            class="trabajos max-[1500px]:px-32 max-sm:px-4 flex max-sm:gap-6 max-sm:justify-start max-sm:pb-12 pt-20 px-40 pb-20 items-start text-white flex-nowrap gap-96 max-[1500px]:gap-[15rem] justify-center max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-start max-xl:text-center max-xl:pt-0 max-xl:pb-16 max-[1500px]:justify-between">
             <div class="info flex flex-col">
                 <div
-                    class="text max-w-[200ch] max-sm:text-left text-center font-['PPE-Ultralight'] max-sm:text-[20px] pb-4 uppercase text-[24px] leading-10 text-zinc-800 max-xl:text-xs">
+                    class="text max-w-[200ch] max-sm:text-left text-center font-['PPE-Ultralight'] max-sm:text-[20px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue'] pb-4 uppercase text-[24px] leading-10 text-zinc-800 max-xl:text-xs">
                     Asignatura</div>
                 <div
-                    class="text max-[1500px]:w-[20ch] font-['SFUIDisplay-Light'] text-center max-sm:text-left max-sm:max-w-[22ch] text-[16px] leading-6 text-zinc-900 max-xl:text-sm max-xl:max-w-[40ch]">
+                    class="text max-[1500px]:w-[20ch] font-['SFUIDisplay-Light'] max-sm:text-[20px] max-sm:text-[20px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue'] text-center max-sm:text-left max-sm:max-w-[22ch] text-[16px] leading-6 text-zinc-900 max-xl:text-sm max-xl:max-w-[40ch]">
                     Producción para artes gráficas, 4º Curso Diseño Gráfico.
                 </div>
             </div>
             <div class="info flex flex-col">
                 <div
-                    class="text max-w-[60ch] max-sm:text-left font-['PPE-Ultralight'] max-sm:text-[20px] pb-4 text-center text-[24px] uppercase leading-10 text-zinc-800 max-xl:text-xs">
+                    class="text max-w-[60ch] max-sm:text-left font-['PPE-Ultralight'] max-sm:text-[20px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue']  pb-4 text-center text-[24px] uppercase leading-10 text-zinc-800 max-xl:text-xs">
                     Tiempo</div>
                 <div
-                    class="text max-w-[20ch] font-['SFUIDisplay-Light'] max-sm:text-start text-center text-[16px] leading-6 text-zinc-900 max-xl:text-sm max-xl:max-w-[40ch]">
+                    class="text max-w-[20ch] font-['SFUIDisplay-Light'] max-sm:text-[20px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue'] text-center text-[16px] leading-6 text-zinc-900 max-xl:text-sm max-xl:max-w-[40ch]">
                     4 meses
                 </div>
             </div>
             <div class="info flex flex-col">
                 <div
-                    class="text max-w-[60ch] max-sm:text-left font-['PPE-Ultralight'] max-sm:text-[20px] pb-4 text-center text-[24px] uppercase leading-10 text-zinc-800 max-xl:text-xs">
+                    class="text max-w-[60ch] max-sm:text-left font-['PPE-Ultralight'] max-sm:text-[20px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue'] pb-4 text-center text-[24px] uppercase leading-10 text-zinc-800 max-xl:text-xs">
                     Briefing</div>
                 <div
-                    class="text max-w-[20ch] text-center font-['SFUIDisplay-Light'] text-[16px] leading-6 text-zinc-900 max-xl:text-sm max-xl:max-w-[40ch]">
+                    class="text max-w-[20ch] text-center font-['SFUIDisplay-Light'] max-sm:text-[20px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue']  text-[16px] leading-6 text-zinc-900 max-xl:text-sm max-xl:max-w-[40ch]">
                     Oporto y cultura portuguesa
                 </div>
             </div>
@@ -221,15 +226,15 @@
 
         </div>
         <div data-aos="fade-up" data-aos-duration="2000"
-            class="colum max-[1500px]:px-32 flex pt-20 px-64 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center">
+            class="colum max-[1500px]:px-32 flex pt-20 px-64 pb-10 max-sm:px-4 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center">
             <div class="info_proyect max-w-[80ch]">
                 <div class="info_secondary flex flex-col gap-6 sticky top-48 max-[1500px]:gap-12">
                     <div
-                        class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-[#243673] max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
-                        <p class="font-['PPE-Ultralightitalic'] max-sm:pb-2">Caja cont.</p> VIAJE OPORTO
+                        class="titular text-[40px] font-['PPE-Ultralight'] max-sm:text-[40px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue']  text-start leading-10 text-[#243673] max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
+                        <p class="font-['PPE-Ultralightitalic'] max-sm:text-[40px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue']  max-sm:pb-2">Caja cont.</p> VIAJE OPORTO
                     </div>
                     <div
-                        class="text text-[20px] font-['Regular'] indent-12 text-zinc-900 max-w-[70ch] max-xl:text-sm max-[1500px]:text-[16px] max-[1500px]:max-w-[100ch]">
+                        class="text text-[20px] font-['Regular'] max-sm:text-[20px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue']  indent-12 text-zinc-900 max-w-[70ch] max-xl:text-sm max-[1500px]:text-[16px] max-[1500px]:max-w-[100ch]">
                         El trabajo de esta asignatura se basa en la creación de una caja
                         contenedora de elementos impresos con una temática detrás.
                         Todos estos elementos deberán de tener coherencia entre sí además del conjunto general de la
@@ -269,21 +274,21 @@
 
 
         <div id="primercompartimento" data-aos="fade-up" data-aos-duration="2000"
-            class="titular2 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-46 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 max-sm:px-4 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-46 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
-                class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
-                <p class="font-['PPE-UltralightItalic']">Primer</p>COMPARTIMENTO
+            class="titular text-[40px] font-['PPE-Ultralight'] max-sm:text-[40px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue']  text-start leading-10 text-[#243673] max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
+            <p class="font-['PPE-Ultralightitalic'] max-sm:text-[40px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue']  max-sm:pb-2">PRIMER</p>COMPARTIMENTO
             </div>
             <div
                 class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[1280px]:p-0">
 
                 <div
                     class="text max-w-[60ch] text-[16px] uppercase text-zinc-900 max-xl:leading-2 max-xl:text-xs max-xl:text-center max-[1280px]:text-left">
-                    <a class="type text-zinc-600">CAJA CONTENEDORA DEL PROYECTO</a>
+                    <a class="type text-zinc-600 max-sm:text-[20px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue']">CAJA CONTENEDORA DEL PROYECTO</a>
                 </div>
                 <div
-                    class="text max-w-[80ch] pt-4 text-left font-['Regular'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
-                    Dentro de este compartimento se puede ver una breve introducción al proyecto y a Oporto o Portugal,
+                class="text text-[20px] font-['Regular'] max-sm:text-[20px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue'] text-zinc-900 max-w-[70ch] max-xl:text-sm max-[1500px]:text-[16px] max-[1500px]:max-w-[100ch]">
+                Dentro de este compartimento se puede ver una breve introducción al proyecto y a Oporto o Portugal,
                     con un elemento central que es el azulejo personalizado, estampado mediante serigrafía.
                 </div>
 
@@ -291,16 +296,16 @@
 
         </div>
 
-        <NuxtImg data-aos="fade-up" data-aos-duration="2000" class="image w-full h-full" src="/img/IMG_2423.jpg"
+        <NuxtImg data-aos="fade-up" data-aos-duration="2000" class="px-4 image w-full h-full" src="/img/IMG_2423.jpg"
             alt="" />
 
 
         <div data-aos="fade-up" data-aos-duration="2000"
-            class="video grid-cols-2 grid max-sm:pt-24 pt-32 px-64 pb-20 text-zinc-600 justify-items-center items-center gap-12 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:grid-cols-1 max-[1440px]:px-32">
+            class="video grid-cols-2 grid max-sm:px-4 max-sm:pt-24 pt-32 px-64 pb-20 text-zinc-600 justify-items-center items-center gap-12 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:grid-cols-1 max-[1440px]:px-32">
             <div
-                class="text max-w-[80ch] text-left font-['Regular'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                class="text max-w-[80ch] text-left font-['Regular'] max-sm:text-[20px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
 
-                <a class="titulo font-['PPE-Ultralight'] text-[20px] text-[#243673]">
+                <a class="titulo max-sm:text-[20px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue'] font-['PPE-Ultralight'] text-[20px] text-[#243673]">
                     “¡EN PORTUGAL, EL AZULEJO CONTINÚA VIVO!”.
                 </a>
                 <br><br>
@@ -330,20 +335,20 @@
         </div>
 
         <div id="segundocompartimento" data-aos="fade-up" data-aos-duration="2000"
-            class="titular2 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-46 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 max-[1500px]:px-32 max-sm:px-4 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-46 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
-                class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
-                <p class="font-['PPE-UltralightItalic']">Segundo</p>COMPARTIMENTO
+                class="titular text-[40px] font-['PPE-Ultralight'] max-sm:text-[40px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue']  text-start leading-[50px] text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
+                <p class="font-['PPE-UltralightItalic'] max-sm:text-[40px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue']">SEGUNDO</p>COMPARTIMENTO
             </div>
             <div
                 class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[1280px]:p-0">
 
                 <div
                     class="text max-w-[60ch] text-[16px] uppercase text-zinc-900 max-xl:leading-2 max-xl:text-xs max-xl:text-center max-[1280px]:text-left">
-                    <a class="type text-zinc-600">CAJA CONTENEDORA DEL PROYECTO</a>
+                    <a class="type text-zinc-600 max-sm:text-[20px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue']">CAJA CONTENEDORA DEL PROYECTO</a>
                 </div>
                 <div
-                    class="text max-w-[80ch] pt-4 text-left font-['Regular'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                    class="text max-w-[80ch] max-sm:text-[20px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue'] pt-4 text-left font-['Regular'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
                     En este segundo compartimento se incluyen tres piezas diferentes. Tres fanzines/fotolibros
                     experimentales cosidos a mano, cada uno contando cada uno de los tres días del viaje a modo de
                     diario. Como segunda pieza unas postales con ilustraciones personales y por ultimo
@@ -375,14 +380,18 @@
 
 
         <div id="postales"
-            class="titular2 max-[1440px]:px-32 max-[1440px]:text-center max-[1440px]:content-center flex px-64 pb-32 gap-64 pt-48 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-32  max-[1500px]:gap-12 max-[1500px]:items-center max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 max-sm:hidden max-[1440px]:px-32 max-sm:px-4 max-sm:content-start max-sm:text-left max-sm:justify-start max-[1440px]:text-center max-[1440px]:content-center flex px-64 pb-32 gap-64 pt-48 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-32  max-[1500px]:gap-12 max-[1500px]:items-center max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
-                class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
+                class="titular max-sm:text-[40px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue'] max-sm:text-start text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
                 POSTALES</div>
         </div>
 
         <div
-            class="hidden grid-cols-3 pb-32 px-64 gap-8 justify-items-center max-sm:grid-cols-1 max-sm:px-8 max-sm:gap-6 max-sm:pb-24 max-sm:grid">
+                class="titular px-4 hidden max-sm:block max-sm:pb-20 max-sm:text-[40px] max-sm:leading-[26px] max-sm:text-left max-sm:font-['Neue'] max-sm:text-start text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
+                POSTALES</div>
+
+        <div
+            class="hidden grid-cols-3 pb-32 px-64 gap-8 justify-items-center max-sm:grid-cols-1 max-sm:px-4 max-sm:gap-6 max-sm:pb-24 max-sm:grid">
             <div class="columna1">
                 <NuxtImg class="image w-full h-full shadow-lg border border-zinc-100" src="/img/postal6.png" alt="" />
 
@@ -448,20 +457,24 @@
 
         <NuxtImg class="image pt-32 w-full h-full pb-32 max-sm:hidden" src="/img/postalespng.png" alt="" />
 
-        <div class="grid grid-cols-2 max-sm:grid-cols-1">
-            <NuxtImg class="image w-full h-full pb-32 max-sm:pb-2" src="/img/IMG_2450.jpg" alt="" />
-            <NuxtImg class="image w-full h-full pb-32 max-sm:pb-2" src="/img/IMG_2483.jpg" alt="" />
+        <div class="grid grid-cols-2 max-sm:grid-cols-1 max-sm:px-4">
+            <NuxtImg class="image w-full h-full pb-32 max-sm:pb-4" src="/img/IMG_2450.jpg" alt="" />
+            <NuxtImg class="image w-full h-full pb-32 max-sm:pb-4" src="/img/IMG_2483.jpg" alt="" />
         </div>
 
 
         <div id="sellos" data-aos="fade-up" data-aos-duration="2000"
             class="titular2 max-[1440px]:px-32 max-[1440px]:text-center max-[1440px]:content-center flex px-64 pb-32 gap-64 pt-48 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-32  max-[1500px]:gap-12 max-[1500px]:items-center max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
-                class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
+                class="titular max-sm:hidden text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
                 SELLOS</div>
         </div>
 
-        <NuxtImg data-aos="fade-up" data-aos-duration="2000" class="image w-full h-full pb-32 max-sm:pb-12"
+        <div
+                class="titular px-4 hidden max-sm:block max-sm:pb-20 max-sm:text-[40px] max-sm:leading-[26px] max-sm:text-left max-sm:font-['Neue'] max-sm:text-start text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
+                SELLOS</div>
+
+        <NuxtImg data-aos="fade-up" data-aos-duration="2000" class="image w-full h-full pb-32 max-sm:px-4 max-sm:pb-12"
             src="/img/IMG_2444.jpg" alt="" />
 
         <!--<div
@@ -493,9 +506,13 @@
         <div id="cuadernos"
             class="titular2 max-[1440px]:px-32 max-[1440px]:text-center max-[1440px]:content-center flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-32  max-[1500px]:gap-12 max-[1500px]:items-center max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
-                class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-zinc-900 max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6 max-sm:text-[30px] max-sm:pb-0">
+                class="titular max-sm:hidden text-[40px] font-['PPE-Ultralight'] text-start leading-[10] text-zinc-900 max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6 max-sm:text-[30px] max-sm:pb-0">
                 CUADERNOS DE VIAJE EXPERIMENTALES</div>
         </div>
+
+        <div
+                class="titular px-4 hidden max-sm:block max-sm:pb-20 max-sm:text-[40px] max-sm:leading-[40px] max-sm:text-left max-sm:font-['Neue'] max-sm:text-start text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
+                CUADERNOS <br> DE VIAJE EXPERIMENTALES</div>
 
         <div
             class="grid bg-white grid-cols-1 grid-row-2 gap-2 px-64 max-[1440px]:px-12 max-[1440px]:pb-32 pb-64 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-32  max-sm:hidden">
@@ -503,19 +520,19 @@
                 class="grid grid-cols-3 px-12 grid-row-1 gap-12 max-xl:grid-cols-1 max-xl:px-10 max-xl:pb-10 max-xl:pt-10 max-[1500px]:px-12 max-sm:px-0 max-sm:pt-0 max-sm:gap-2">
 
                 <div
-                    class="text pt-12 pb-2 text-left justify-items-left font-['Regular'] text-[14px] text-zinc-800 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:text-[12px]">
+                    class="text pt-12  max-sm:text-[20px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue'] pb-2 text-left justify-items-left font-['Regular'] text-[14px] text-zinc-800 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
                     CUADERNO DE VIAJE 1 - DÍA 1
 
                 </div>
 
                 <div
-                    class="text pt-12 pb-2 text-left justify-items-left font-['Regular'] text-[14px] text-zinc-800 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:text-[12px]">
+                    class="text pt-12 pb-2 text-left justify-items-left font-['Regular'] text-[14px] text-zinc-800 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
                     CUADERNO DE VIAJE 2 - DÍA 2
 
                 </div>
 
                 <div
-                    class="text pt-12 pb-2 text-left justify-items-left font-['Regular'] text-[14px] text-zinc-800 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:text-[12px]">
+                    class="text pt-12 pb-2 text-left justify-items-left font-['Regular'] text-[14px] text-zinc-800 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
                     CUADERNO DE VIAJE 3 - DÍA 3
 
                 </div>
@@ -648,10 +665,10 @@
 
         </div>
         <div
-            class="hidden grid-cols-3 px-12 grid-row-1 gap-12 max-xl:grid-cols-1 max-xl:px-10 max-sm:pb-0 max-xl:pt-10 max-[1500px]:px-32  max-sm:pt-0 max-sm:gap-2 max-sm:grid max-sm:px-6">
+            class="hidden grid-cols-3 px-12 grid-row-1 gap-12 max-xl:grid-cols-1 max-xl:px-10 max-sm:pb-0 max-xl:pt-10 max-[1500px]:px-32  max-sm:pt-0 max-sm:gap-2 max-sm:grid max-sm:px-4">
 
             <div
-                class="text pt-12 pb-2 text-left justify-items-left font-['Regular'] text-[14px] text-zinc-800 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:text-[12px]">
+                class="text pt-12 pb-2 text-left justify-items-left font-['Regular'] text-[14px] text-zinc-800 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]  max-sm:text-[20px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue']">
                 CUADERNO DE VIAJE 1 - DÍA 1
 
             </div>
@@ -700,7 +717,7 @@
             </Carousel>
 
             <div
-                class="text pt-12 pb-2 text-left justify-items-left font-['Regular'] text-[14px] text-zinc-800 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:text-[12px]">
+                class="text pt-12 pb-2 text-left justify-items-left font-['Regular'] text-[14px] text-zinc-800 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]  max-sm:text-[20px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue']">
                 CUADERNO DE VIAJE 2 - DÍA 2
 
             </div>
@@ -749,7 +766,7 @@
             </Carousel>
 
             <div
-                class="text pt-12 pb-2 text-left justify-items-left font-['Regular'] text-[14px] text-zinc-800 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:text-[12px]">
+                class="text pt-12 pb-2 text-left justify-items-left font-['Regular'] text-[14px] text-zinc-800 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]  max-sm:text-[20px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue']">
                 CUADERNO DE VIAJE 3 - DÍA 3
 
             </div>
@@ -846,20 +863,20 @@
         </div>
 
         <div id="tercercompartimento" data-aos="fade-up" data-aos-duration="2000"
-            class="titular2 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-46 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 max-[1500px]:px-32 max-sm:px-4 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-46 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
-                class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
-                <p class="font-['PPE-UltralightItalic']">Tercer</p>COMPARTIMENTO
+                class="titular text-[40px] font-['PPE-Ultralight'] max-sm:text-[40px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue']  text-start leading-[50px] text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
+                <p class="font-['PPE-UltralightItalic'] max-sm:text-[40px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue']">TERCER</p>COMPARTIMENTO
             </div>
             <div
                 class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[1280px]:p-0">
 
                 <div
                     class="text max-w-[60ch] text-[16px] uppercase text-zinc-900 max-xl:leading-2 max-xl:text-xs max-xl:text-center max-[1280px]:text-left">
-                    <a class="type text-zinc-600">CAJA CONTENEDORA DEL PROYECTO</a>
+                    <a class="type text-zinc-600 max-sm:text-[20px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue']">CAJA CONTENEDORA DEL PROYECTO</a>
                 </div>
                 <div
-                    class="text max-w-[80ch] pt-4 text-left font-['Regular'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                    class="text max-w-[80ch] pt-4 text-left font-['Regular'] max-sm:text-[20px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
                     En este segundo compartimento se incluyen tres piezas diferentes. Tres fanzines/fotolibros
                     experimentales cosidos a mano, cada uno contando cada uno de los tres días del viaje a modo de
                     diario. Como segunda pieza unas postales con ilustraciones personales y por ultimo
@@ -873,25 +890,36 @@
         <div id="mapa" data-aos="fade-up" data-aos-duration="2000"
             class="titular2 flex px-64 pb-24 gap-64 pt-48 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pb-16 max-[1500px]:pt-12 max-[1500px]:px-32  max-[1500px]:gap-12 max-[1500px]:items-center max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20 max-sm:pt-2">
             <div
-                class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
+                class="titular max-sm:hidden text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
                 MAPA</div>
         </div>
+
+        
+        <div
+                class="titular hidden max-sm:block px-4 hidden max-sm:block max-sm:pb-0 max-sm:text-[40px] max-sm:leading-[40px] max-sm:text-left max-sm:font-['Neue'] max-sm:text-start text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
+                MAPA</div>
 
         <div data-aos="fade-up" data-aos-duration="2000"
             class="grid grid-cols-1 px-64 max-[1440px]:px-12 max-sm:grid-cols-1 pb-32 max-sm:pb-12 max-sm:px-4">
             <NuxtImg class="image px-64 max-[1440px]:px-12 w-full h-full max-sm:pb-2 max-sm:px-4"
                 src="/img/IMG_2522.png" alt="" />
         </div>
+
         <div
-            class="grid grid-cols-1 px-64 pt-4 pb-32 text-center justify-items-center font-['Regular'] text-[16px] text-zinc-600 max-xl:text-sm max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:px-12 max-sm:pb-16">
-            <div
-                class="titular text-[20px] font-['PPE-Ultralight'] text-start leading-10 font-normal pb-2 text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px] max-sm:text-center">
+                class="titular hidden max-sm:block px-4 hidden max-sm:block max-sm:pb-0 max-sm:text-[40px] max-sm:leading-[40px] max-sm:text-left max-sm:font-['Neue'] max-sm:text-start text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
                 PICTOGRAMAS</div>
-            <a class="max-w-[120ch] max-sm:text-center max-sm:hidden">
+
+                <a class="hidden max-sm:text-left max-sm:py-4  max-sm:flex max-sm:text-[20px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue'] max-sm:px-4">
                 Creación de pictogramas personalizados con la estética de la ciudad pero manteniendo el estilo de las
                 composiciones de la caja.
             </a>
-            <a class="hidden max-sm:text-center max-sm:flex">
+        <div
+            class="grid grid-cols-1 px-64 pt-4 pb-32 max-sm:px-4 text-center justify-items-center font-['Regular'] text-[16px] text-zinc-600 max-xl:text-sm max-xl:text-center max-sm:text-left max-sm:justify-items-left max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:px-12 max-sm:pb-16">
+            <div
+                class="titular max-sm:hidden text-[20px] font-['PPE-Ultralight'] text-start leading-10 font-normal pb-2 text-black max-sm:text-30px max-sm:text-left max-sm:justify-left max-sm:leading-10 max-xl:justify-center max-xl:text-[60px] max-xl:justify-center max-sm:pb-0 max-sm:text-[40px] max-sm:leading-[40px] max-sm:text-left max-sm:font-['Neue']">
+                PICTOGRAMAS</div>
+
+            <a class="max-w-[120ch] max-sm:text-center max-sm:hidden">
                 Creación de pictogramas personalizados con la estética de la ciudad pero manteniendo el estilo de las
                 composiciones de la caja.
             </a>
@@ -931,10 +959,13 @@
         <div id="folleto" data-aos="fade-up" data-aos-duration="2000"
             class="titular2 flex px-64 pb-12 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-2 max-[1500px]:px-32  max-[1500px]:gap-12 max-[1500px]:items-center max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
-                class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
+                class="titular max-sm:hidden text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
                 FOLLETO</div>
         </div>
 
+        <div
+                class="titular hidden max-sm:block px-4 hidden max-sm:block max-sm:pb-0 max-sm:text-[40px] max-sm:leading-[40px] max-sm:text-left max-sm:font-['Neue'] max-sm:text-start text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
+                FOLLETO</div>
 
         <NuxtImg data-aos="fade-up" data-aos-duration="2000"
             class="pt-32 max-sm:px-4 max-sm:pt-12 max-[1500px]:px-32 max-[1500px]:pt-6 max-[1920px]:pt-16 px-64"
@@ -973,20 +1004,20 @@
 
 
         <div id="cuartocompartimento" data-aos="fade-up" data-aos-duration="2000"
-            class="titular2 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-46 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 max-sm:px-4 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-46 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
-                class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
-                <p class="font-['PPE-UltralightItalic']">Cuarto</p>COMPARTIMENTO
+                class="titular text-[40px] font-['PPE-Ultralight'] max-sm:text-[40px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue'] text-start leading-[50px] text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
+                <p class="font-['PPE-UltralightItalic'] max-sm:text-[40px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue']">CUARTO</p>COMPARTIMENTO
             </div>
             <div
                 class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[1280px]:p-0">
 
                 <div
                     class="text max-w-[60ch] text-[16px] uppercase text-zinc-900 max-xl:leading-2 max-xl:text-xs max-xl:text-center max-[1280px]:text-left">
-                    <a class="type text-zinc-600">CAJA CONTENEDORA DEL PROYECTO</a>
+                    <a class="type text-zinc-600 max-sm:text-[20px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue']">CAJA CONTENEDORA DEL PROYECTO</a>
                 </div>
                 <div
-                    class="text max-w-[80ch] pt-4 text-left font-['Regular'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                    class="text max-w-[80ch] max-sm:text-[20px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue'] pt-4 text-left font-['Regular'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
                     Dentro de este compartimento se encuentran los elementos más "premium", como son el pack de
                     analógicas
                     realizadas con una Kodak desechable y el fotolibro con impresión en alta calidad.
@@ -999,10 +1030,13 @@
         <div id="packanalogicas" data-aos="fade-up" data-aos-duration="2000"
             class="titular2 flex px-64 pb-12 gap-64 pt-48 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-2 max-sm:pb-2 max-[1500px]:pt-2 max-[1500px]:px-32 max-[1500px]:gap-12 max-[1500px]:items-center max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
-                class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
+                class="titular max-sm:hidden text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
                 PACK ANALÓGICAS</div>
         </div>
 
+        <div
+                class="titular hidden max-sm:block px-4 hidden max-sm:block max-sm:pb-0 max-sm:text-[40px] max-sm:leading-[40px] max-sm:text-left max-sm:font-['Neue'] max-sm:text-start text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
+                PACK ANALÓGICAS</div>
 
         <div data-aos="fade-up" data-aos-duration="2000"
             class="grid grid-cols-2 px-72 items-center pt-12 gap-32 pb-32 max-sm:pb-2 max-sm:grid-cols-1 max-sm:gap-12 max-sm:pt-24 max-sm:px-12">
@@ -1012,11 +1046,11 @@
         </div>
 
         <div data-aos="fade-up" data-aos-duration="2000"
-            class="video grid-cols-1 max-sm:pt-24 grid pt-24 px-64 pb-48 text-zinc-600 justify-items-center items-center gap-12 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:grid-cols-1">
+            class="video grid-cols-1 max-sm:pt-24 max-sm:px-4 grid pt-24 px-64 pb-48 text-zinc-600 justify-items-center items-center gap-12 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:grid-cols-1">
             <div
-                class="text max-w-[100ch] text-center font-['Regular'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                class="text max-w-[100ch] text-center font-['Regular'] max-sm:text-[20px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
 
-                <a class="titulo font-['PPE-Ultralight'] text-[20px] text-[#243673]">
+                <a class="titulo font-['PPE-Ultralight'] max-sm:text-[20px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue'] text-[20px] text-[#243673]">
                     PACK DE ANALÓGICAS CON KODAK DESECHABLE
                 </a>
                 <br><br>
@@ -1059,24 +1093,28 @@
         <div class="grid max-sm:items-center">
 
             <a href="https://rubenmaldonado.es/AnalogicasOporto"
-                class="px-64 flex underline decoration-1 hover:font-['Regular-Bold'] underline-offset-8 justify-center text-center pt-12 titulo font-['Regular'] text-[20px] text-[#243673] max-sm:px-4 max-sm:pb-24 max-sm:pt-4 max-sm:text-[12px] max-sm:underline-offset-4">
+                class="px-64 max-sm:text-[20px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-center max-sm:font-['Neue'] flex underline decoration-1 hover:font-['Regular-Bold'] underline-offset-8 justify-center text-center pt-12 titulo font-['Regular'] text-[20px] text-[#243673] max-sm:px-4 max-sm:pb-24 max-sm:pt-4 max-sm:text-[12px] max-sm:underline-offset-4">
                 CLICK PARA VER LAS 21 FOTOGRAFÍAS EXCLUSIVAS DE LA CAJA
             </a>
         </div>
 
+        <div
+                class="titular hidden max-sm:block max-sm:pt-24 px-4 hidden max-sm:block max-sm:pb-0 max-sm:text-[40px] max-sm:leading-[40px] max-sm:text-left max-sm:font-['Neue'] max-sm:text-start text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center">
+                LIBRO IMPRESO</div>
+
         <div id="libroimpreso" data-aos="fade-up" data-aos-duration="2000"
             class="titular2 flex px-64 pb-12 gap-64 pt-48 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-2 max-sm:pb-2 max-[1500px]:px-12 max-[1500px]:gap-12 max-[1500px]:items-center max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
-                class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
+                class="titular max-sm:hidden text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
                 LIBRO IMPRESO</div>
         </div>
 
         <div data-aos="fade-up" data-aos-duration="2000"
-            class="video max-[1500px]:px-32 max-[1500px]:pb-40 grid-cols-2 grid pt-32 px-64 pb-64 text-zinc-600 justify-items-center items-center gap-12 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:grid-cols-1 max-sm:pt-12">
+            class="video max-[1500px]:px-32 max-sm:px-4 max-[1500px]:pb-40 grid-cols-2 grid pt-32 px-64 pb-64 text-zinc-600 justify-items-center items-center gap-12 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:grid-cols-1 max-sm:pt-12">
             <div
-                class="text max-w-[80ch] text-left font-['Regular'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                class="text max-w-[80ch] max-sm:text-[20px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue'] text-left font-['Regular'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
 
-                <a class="titulo font-['PPE-Ultralight'] text-[20px] text-[#243673]">
+                <a class="titulo font-['PPE-Ultralight'] max-sm:text-[20px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue'] text-[20px] text-[#243673]">
                     FOTOLIBRO IMPRESO PREMIUM
                 </a>
                 <br><br>
@@ -1119,19 +1157,19 @@
 
 
         <div id="cajafajilla" data-aos="fade-up" data-aos-duration="2000"
-            class="titular2 max-[1500px]:pb-0 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-46 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 max-[1500px]:pb-0 max-[1500px]:px-32 max-sm:px-4 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-46 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
-                class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center">
-                Caja &<br>FAJILLA</div>
+                class="titular max-sm:text-[40px] max-sm:leading-[40px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue'] text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center">
+                CAJA &<br>FAJILLA</div>
             <div
                 class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[1280px]:p-0">
 
                 <div
                     class="text max-w-[60ch] text-[16px] uppercase text-zinc-900 max-xl:leading-2 max-xl:text-xs max-xl:text-center max-[1280px]:text-left">
-                    <a class="type text-zinc-600">CAJA CONTENEDORA DEL PROYECTO</a>
+                    <a class="type text-zinc-600 max-sm:text-[20px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue'] ">CAJA CONTENEDORA DEL PROYECTO</a>
                 </div>
                 <div
-                    class="text max-w-[80ch] pt-4 text-left font-['Regular'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                    class="text max-w-[80ch] max-sm:text-[20px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue'] pt-4 text-left font-['Regular'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
                     Dentro de esta caja se encuentran todos los componentes diseñados colocados dentro de diferentes
                     compartimentos. Esta caja cuenta con 4 compartimentos diferentes.
                 </div>
@@ -1161,19 +1199,19 @@
             <NuxtImg class="image_grid" src="/img/IMG_2412.jpg" alt="" />
         </div>
 
-        <NuxtImg class="image hidden max-sm:pt-24 max-sm:flex" src="/img/IMG_2409.jpg" alt="" />
+        <NuxtImg class="image hidden max-sm:pt-24 max-sm:flex max-sm:px-4" src="/img/IMG_2409.jpg" alt="" />
 
-        <NuxtImg class="image_grid hidden pb-12 max-sm:pt-2 max-sm:pb-24 pt-6 max-sm:flex" src="/img/IMG_2412.jpg"
+        <NuxtImg class="image_grid hidden pb-12 max-sm:pt-4 max-sm:pb-24 pt-6 max-sm:flex max-sm:px-4" src="/img/IMG_2412.jpg"
             alt="" />
 
 
 
 
         <div id="tipografias" data-aos="fade-up" data-aos-duration="2000"
-            class="titular2 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-32 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 max-[1500px]:px-32 max-sm:px-4 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-32 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
-                class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
-                <p class="font-['PPE-UltralightItalic']">Tipografías y</p>PALETA DE COLOR
+                class="titular text-[40px] font-['PPE-Ultralight'] max-sm:text-[40px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue']  text-start leading-[50px] text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
+                <p class="font-['PPE-UltralightItalic'] max-sm:text-[40px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue'] ">TIPOGRAFÍAS Y</p>PALETA DE COLOR
             </div>
             <div
                 class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:px-0 max-[1280px]:p-0">
@@ -1184,7 +1222,7 @@
                         Narrow</a>
                 </div>
                 <div
-                    class="text max-w-[80ch] pt-4 text-left font-['Regular'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                    class="text max-w-[80ch] max-sm:text-[20px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue'] pt-4 text-left font-['Regular'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
                     La idea principal de este trabajo parte de utilizar las tipografías que se utilizan en portugal y
                     los colores significativos de los azulejos y de su cultura.
                 </div>
@@ -1197,12 +1235,12 @@
             class="grid grid-rows-1 gap-2 items-center justify-items-center pt-12 px-32 pb-32 max-sm:px-4 max-[1280px]:p-10 max-[1500px]:px-32  max-[800px]:grid-cols-1 max-sm:gap-16 max-sm:pt-0">
 
             <div
-                class="text max-w-[80ch] leading-[200px] pt-4 text-center font-['Regular'] text-[240px] text-[#859ed2] max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[180px] max-sm:text-[60px]">
+                class="text max-w-[80ch]  leading-[200px] pt-4 text-center font-['Regular'] text-[240px] text-[#859ed2] max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[180px] max-sm:text-[60px]">
                 Regular font
             </div>
 
             <div
-                class="text max-w-[80ch] text-center font-['Regular'] font-bold text-[240px] text-[#243673] max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[180px] max-sm:text-[60px]">
+                class="text max-w-[80ch]  text-center font-['Regular'] font-bold text-[240px] text-[#243673] max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[180px] max-sm:text-[60px]">
                 Regular bold
             </div>
             <div
@@ -1308,20 +1346,20 @@
         </div>
 
         <div id="fotografias" data-aos="fade-up" data-aos-duration="2000"
-            class="titular2 max-[1500px]:pt-2 max-[1500px]:pb-2 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-46 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 max-[1500px]:pt-2 max-[1500px]:pb-2 max-[1500px]:px-32 flex px-64 max-sm:px-4 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-46 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
-                class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
-                <p class="font-['PPE-UltralightItalic']">Fotografías y</p>MATERIALES
+                class="titular text-[40px] font-['PPE-Ultralight'] max-sm:text-[40px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue']  text-start leading-[50px] text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
+                <p class="font-['PPE-UltralightItalic'] max-sm:text-[40px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue'] ">FOTOGRAFÍAS Y</p>MATERIALES
             </div>
             <div
                 class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[1280px]:p-0">
 
                 <div
                     class="text max-w-[60ch] text-[16px] uppercase text-zinc-900 max-xl:leading-2 max-xl:text-xs max-xl:text-center max-[1280px]:text-left">
-                    <a class="type text-zinc-600">MATERIAL FOTOGRÁFICO</a>
+                    <a class="type text-zinc-600 max-sm:text-[20px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue'] ">MATERIAL FOTOGRÁFICO</a>
                 </div>
                 <div
-                    class="text max-w-[80ch] pt-4 text-left font-['Regular'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                    class="text max-w-[80ch] max-sm:text-[20px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue'] pt-4 text-left font-['Regular'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
                     Todas las imágenes tienen la misma edición o con parámetros
                     muy similares para conseguir una unificación del trabajo y que
                     el aspecto general mantenga la misma estética, son pequeños
@@ -1351,20 +1389,20 @@
 
 
         <div id="piezas" data-aos="fade-up" data-aos-duration="2000"
-            class="titular2 max-[1500px]:pt-24 max-[1500px]:pb-12 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-46 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 max-[1500px]:pt-24 max-[1500px]:pb-12 max-sm:px-4 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-46 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
-                class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
-                <p class="font-['PPE-UltralightItalic']">Piezas del</p>SISTEMA
+                class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] max-sm:text-[40px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue']  text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
+                <p class="font-['PPE-UltralightItalic'] max-sm:text-[40px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue'] ">Piezas del</p>SISTEMA
             </div>
             <div
                 class="trabajos flex flex-col items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:px-0 max-[1280px]:p-0">
 
                 <div
                     class="text max-w-[60ch] text-[16px] uppercase text-zinc-900 max-xl:leading-2 max-xl:text-xs max-xl:text-center max-sm:order-last max-[1280px]:text-left">
-                    <a class="type text">CAJA Y ELEMENTOS DE SU INTERIOR</a>
+                    <a class="type text max-sm:text-[20px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue'] ">CAJA Y ELEMENTOS DE SU INTERIOR</a>
                 </div>
                 <div
-                    class="text max-w-[80ch] pt-4 text-left font-['Regular'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
+                    class="text max-w-[80ch] max-sm:text-[20px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue']  pt-4 text-left font-['Regular'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
                     La caja se compone por diferentes elementos que estan agrupados en 4 compartimentos. El primer
                     compartimento que contiene el azulejo personalizado, el segundo compartimento que contiene 3 modelos
                     de postales, 3 cuadernillos a modo diario del viaje y 4 modelos de sellos. En el
@@ -1432,10 +1470,10 @@
 
 
         <div
-            class="titular2 max-sm:pt-24 max-[1500px]:pt-24 max-[1500px]:pb-12 max-[1500px]:px-32 flex px-64 gap-64 pt-32 pb-24 content-center space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pb-16 max-[1500px]:gap-46 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 max-sm:pt-24 max-[1500px]:pt-24 max-[1500px]:pb-12 max-sm:px-4 max-[1500px]:px-32 flex px-64 gap-64 pt-32 pb-24 content-center space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pb-16 max-[1500px]:gap-46 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
-                class="titular text-[40px] font-['PPE-Ultralight'] text-center leading-[50px] text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
-                <p class="font-['PPE-UltralightItalic']">Contenido</p>AMPLIADO / EXTRA
+                class="titular text-[40px] font-['PPE-Ultralight'] max-sm:text-[40px] max-sm:leading-[40px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue']  text-center leading-[50px] text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
+                <p class="font-['PPE-UltralightItalic'] max-sm:text-[40px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue'] ">CONTENIDO</p>AMPLIADO / EXTRA
             </div>
         </div>
 
@@ -1449,9 +1487,9 @@
         </div>
 
 
-        <div id="contacto" class="informacion max-sm:pt-0 pt-[300px] pb-24 bg-[#fcfcff] max-sm:pb-0">
+        <div id="contacto" class="informacion max-sm:pt-0 pt-[300px] pb-24 bg-white max-sm:pb-0">
 
-<div class="about bg-[#fcfcff]">
+<div class="about bg-white">
     <div class="correo grid grid-cols-2 max-sm:grid-cols-1 text-black">
         <div
             class="caja2 max-sm:text-zinc-500 max-sm:animate-none z-0 text-left max-sm:text-[60px] max-sm:py-12 max-sm:px-4 max-sm:leading-[50px] animate-pulse px-20 font-['Neue'] max-[1920px]:text-[150px] max-[1920px]:leading-[8.5rem] text-[170px] pt-12 pb-12 leading-[10rem] cursor-pointer text-black transition-colors duration-300 hover:text-black">
@@ -1468,7 +1506,7 @@
         </div>
     </div>
 </div>
-<div class="about bg-[#fcfcff] pt-2">
+<div class="about bg-white pt-2">
 
 
     <!-- Redes Sociales -->
