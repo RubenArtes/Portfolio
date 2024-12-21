@@ -592,7 +592,10 @@
                 </div>
                 <div class="texto">
                     <div class="text-[16px] pl-2 text-zinc-800">
-                        MATUTANO SALUDABLE ⤤
+                        MATUTANO SALUDABLE
+                    </div>
+                    <div class="text-[16px] leading-4 pl-2 text-zinc-800">
+                        Ver el proyecto ⤤
                     </div>
                 </div>
             </NuxtLink>
@@ -608,7 +611,10 @@
                 </div>
                 <div class="texto">
                     <div class="text-[16px] pl-2 text-zinc-800">
-                        CAJA OPORTO ⤤
+                        CAJA OPORTO
+                    </div>
+                    <div class="text-[16px] leading-4 pl-2 text-zinc-800">
+                        Ver el proyecto ⤤
                     </div>
                 </div>
             </NuxtLink>
@@ -625,7 +631,10 @@
                 </div>
                 <div class="texto">
                     <div class="text-[16px] pl-2 text-zinc-800">
-                        ASISTENTE MEMBER ⤤
+                        ASISTENTE MEMBER
+                    </div>
+                    <div class="text-[16px] leading-4 pl-2 text-zinc-800">
+                        Ver el proyecto ⤤
                     </div>
                 </div>
             </NuxtLink>
@@ -641,7 +650,10 @@
                 </div>
                 <div class="texto">
                     <div class="text-[16px] pl-2 text-zinc-800">
-                        VINOS PRAU ⤤
+                        VINOS PRAU
+                    </div>
+                    <div class="text-[16px] leading-4 pl-2 text-zinc-800">
+                        Ver el proyecto ⤤
                     </div>
                 </div>
             </NuxtLink>
@@ -660,6 +672,9 @@
                     <div class="text-[16px] pl-2 text-zinc-800">
                         METRO MADRID ⤤
                     </div>
+                    <div class="text-[16px] leading-4 pl-2 text-zinc-800">
+                        Ver el proyecto
+                    </div>
                 </div>
             </NuxtLink>
 
@@ -676,6 +691,9 @@
                     <div class="text-[16px] pl-2 text-zinc-800">
                         ANIMACIÓN MOVISTAR ⤤
                     </div>
+                    <div class="text-[16px] leading-4 pl-2 text-zinc-800">
+                        Ver el proyecto
+                    </div>
                 </div>
             </NuxtLink>
 
@@ -691,7 +709,10 @@
                 </div>
                 <div class="texto">
                     <div class="text-[16px] pl-2 text-zinc-800">
-                        COLECCIÓN AUDIOVISUALES ⤤
+                        COLECCIÓN AUDIOVISUALES
+                    </div>
+                    <div class="text-[16px] leading-4 pl-2 text-zinc-800">
+                        Ver el proyecto ⤤
                     </div>
                 </div>
             </NuxtLink>
@@ -703,12 +724,15 @@
                     <!-- Contenedor de imagen responsiva -->
                     <div
                         class="imagen h-[414px] bg-zinc-300 overflow-hidden flex justify-center items-center rounded-[6px]">
-                        <img class="w-full h-full object-cover" src="/img/yelmocines.png" alt="Matutano Saludable">
+                        <img class="w-full h-full object-cover" src="/img/gifyelmo2.gif" alt="Matutano Saludable">
                     </div>
                 </div>
                 <div class="texto">
                     <div class="text-[16px] pl-2 text-zinc-800">
-                        YELMO CINES ⤤
+                        YELMO CINES
+                    </div>
+                    <div class="text-[16px] leading-4 pl-2 text-zinc-800">
+                        Ver el proyecto ⤤
                     </div>
                 </div>
             </NuxtLink>
@@ -724,7 +748,10 @@
                 </div>
                 <div class="texto">
                     <div class="text-[16px] pl-2 text-zinc-800">
-                        REVISTA TYPENOTES ⤤
+                        REVISTA TYPENOTES
+                    </div>
+                    <div class="text-[16px] leading-4 pl-2 text-zinc-800">
+                        Ver el proyecto ⤤
                     </div>
                 </div>
             </NuxtLink>
@@ -741,7 +768,10 @@
                 </div>
                 <div class="texto">
                     <div class="text-[16px] pl-2 text-zinc-800">
-                        WEB ESD ⤤
+                        WEB ESD
+                    </div>
+                    <div class="text-[16px] leading-4 pl-2 text-zinc-800">
+                        Ver el proyecto ⤤
                     </div>
                 </div>
             </NuxtLink>
@@ -757,7 +787,10 @@
                 </div>
                 <div class="texto">
                     <div class="text-[16px] pl-2 text-zinc-800">
-                        COLECCIÓN FOTOGRÁFICA ⤤
+                        COLECCIÓN FOTOGRÁFICA 
+                    </div>
+                    <div class="text-[16px] leading-4 pl-2 text-zinc-800">
+                        Ver el proyecto ⤤
                     </div>
                 </div>
             </NuxtLink>
@@ -774,7 +807,10 @@
                 </div>
                 <div class="texto">
                     <div class="text-[16px] pl-2 text-zinc-800">
-                        GARRIDO GALLERY ⤤
+                        GARRIDO GALLERY
+                    </div>
+                    <div class="text-[16px] leading-4 pl-2 text-zinc-800">
+                        Ver el proyecto ⤤
                     </div>
                 </div>
             </NuxtLink>
@@ -790,7 +826,10 @@
                 </div>
                 <div class="texto">
                     <div class="text-[16px] pl-2 text-zinc-800">
-                        COLECCIÓN ILUSTRACIONES ⤤
+                        COLECCIÓN ILUSTRACIONES
+                    </div>
+                    <div class="text-[16px] leading-4 pl-2 text-zinc-800">
+                        Ver el proyecto ⤤
                     </div>
                 </div>
             </NuxtLink>
