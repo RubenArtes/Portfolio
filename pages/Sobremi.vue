@@ -98,7 +98,7 @@
         </div>
 
         <div
-            class="caja1 text-left px-20 pt-32 text-[90px] pb-12 font-['Neue'] leading-[6rem] cursor-pointer text-white bg-black duration-300 max-sm:px-8 max-sm:text-[30px] max-sm:leading-9">
+            class="caja1 text-left px-20 pt-32 text-[90px] pb-12 font-['Neue'] leading-[6rem] cursor-pointer text-white bg-black duration-300 max-sm:px-6 max-sm:text-[30px] max-sm:leading-9">
             Dibujando desde que tenía 5 años. Con una cámara desde que tenia 10 años. Y constantemente aprendiendo. Me
             llamo <a
                 class="text-[#ff2d7e] underline decoration-[6px] underline-offset-[10px] max-sm:decoration-[3px] max-sm:underline-offset-[4px]">Rubén
@@ -109,7 +109,7 @@
 
 
         <div
-            class="caja1 uppercase text-left items-end grid grid-cols-2 place-content-end px-20 text-[170px] pb-6 font-['Neue-Bold'] leading-[10rem] text-white bg-black duration-300 max-sm:grid-cols-1 max-sm:px-8">
+            class="caja1 uppercase text-left items-end grid grid-cols-2 place-content-end px-20 text-[170px] pb-6 font-['Neue-Bold'] leading-[10rem] text-white bg-black duration-300 max-sm:grid-cols-1 max-sm:px-6">
             <div class="texto1"></div>
             <div class="texto2">
                 <p
@@ -130,7 +130,7 @@
 
 
         <div
-            class="caja1 uppercase text-left items-end grid grid-cols-2 place-content-end px-20 text-[170px] pb-6 font-['Neue-Bold'] leading-[10rem] text-white bg-black duration-300 max-sm:grid-cols-1 max-sm:px-8">
+            class="caja1 uppercase text-left items-end grid grid-cols-2 place-content-end px-20 text-[170px] pb-6 font-['Neue-Bold'] leading-[10rem] text-white bg-black duration-300 max-sm:grid-cols-1 max-sm:px-6">
             <div class="texto1"></div>
             <div class="texto2">
                 <p
@@ -150,7 +150,7 @@
 
 
         <div
-            class="caja1 uppercase text-left items-end grid grid-cols-2 place-content-end px-20 text-[170px] pb-12 font-['Neue-Bold'] leading-[10rem] text-white bg-black duration-300 max-sm:grid-cols-1 max-sm:px-8 max-sm:pb-2 max-sm:px-8">
+            class="caja1 uppercase text-left items-end grid grid-cols-2 place-content-end px-20 text-[170px] pb-12 font-['Neue-Bold'] leading-[10rem] text-white bg-black duration-300 max-sm:grid-cols-1 max-sm:pb-2 max-sm:px-6">
             <div class="texto1"></div>
             <div class="texto2">
                 <p
@@ -167,7 +167,7 @@
         </div>
 
         <div
-            class="caja1 uppercase text-left items-end grid grid-cols-2 place-content-end px-20 text-[170px] pt-32 font-['Neue-Bold'] leading-[10rem] text-white bg-black duration-300 max-sm:pt-2 max-sm:px-8">
+            class="caja1 uppercase text-left items-end grid grid-cols-2 place-content-end px-20 text-[170px] pt-32 font-['Neue-Bold'] leading-[10rem] text-white bg-black duration-300 max-sm:pt-2 max-sm:px-6">
             <div class="texto1">
                 <a target="_blank" href="/Marca"
                     class="titulo bg-black text-[#ff2d7e] max-sm:text-[20px] max-sm:leading-[24px] text-[30px] gap-2 leading-[40px] max-lg:text-xs normal-case font-['Neue'] hover:text-zinc-500 underline transition-all duration-500">
@@ -194,13 +194,13 @@
 
 
         <div
-            class="titulo bg-black max-sm:text-[30px] max-sm:px-6 max-sm:pt-4 pt-12 w-full text-white px-20 text-[170px] self-center place-self-end flex gap-2 max-lg:text-xs max-sm:leading-8 max-sm:px-8">
+            class="titulo bg-black max-sm:text-[30px] max-sm:px-6 max-sm:pt-4 pt-12 w-full text-white px-20 text-[170px] self-center place-self-end flex gap-2 max-lg:text-xs max-sm:leading-8 max-sm:px-6">
             Clientes
         </div>
 
-        <div class="trabajos bg-black grid grid-cols-1 px-20 gap-48 max-sm:grid-cols-1 max-sm:px-8 max-sm:gap-6">
+        <div class="trabajos bg-black grid grid-cols-1 px-20 gap-48 max-sm:grid-cols-1 max-sm:px-6 max-sm:gap-6">
             <div
-                class="categoria1 pt-20 pb-20 bg-black flex flex-col gap-12 self-start max-sm:gap-6 max-sm:pt-12 max-sm:pb-2">
+                class="categoria1 pt-20 pb-20 bg-black flex flex-col gap-12 self-start max-sm:gap-6 max-sm:pt-2 max-sm:pb-2">
                 <div class="flex justify-between">
                     <p
                         class="titulo bg-black text-zinc-300 text-[30px] gap-2 leading-[40px] max-lg:text-xs normal-case max-sm:text-[20px] max-sm:leading-[24px] max-sm:pb-12 font-['Neue']">
@@ -219,7 +219,7 @@
         </div>
 
         <div
-            class="categoria1 pt-20 pb-20 px-20 bg-black flex flex-col gap-12 self-start max-sm:gap-6 max-sm:pb-2 max-sm:px-8 max-sm:pt-24">
+            class="categoria1 pt-20 pb-20 px-20 bg-black flex flex-col gap-12 self-start max-sm:gap-6 max-sm:pb-2 max-sm:px-6 max-sm:pt-24">
             <div class="flex justify-between">
                 <p
                     class="titulo bg-black text-zinc-300 text-[30px] gap-2 leading-[40px] max-lg:text-xs normal-case max-sm:text-[20px] max-sm:leading-[24px] max-sm:pb-12 font-['Neue']">
@@ -229,7 +229,7 @@
         </div>
 
         <div
-            class="trabajos bg-black grid grid-cols-3 px-20 pt-32 pb-64 gap-24 max-sm:pb-48 max-sm:pt-24 max-sm:grid-cols-1 max-sm:px-8 max-sm:gap-32">
+            class="trabajos bg-black grid grid-cols-3 px-20 pt-32 pb-64 gap-24 max-sm:pb-48 max-sm:pt-24 max-sm:grid-cols-1 max-sm:px-6 max-sm:gap-32">
 
             <a class="place-self-end w-full h-full flex justify-end items-end max-sm:justify-center">
                 <img class="w-full h-full max-w-[250px] max-sm:max-w-[220px] hover:max-w-[240px] transition-all duration-500"
@@ -251,7 +251,7 @@
 
 
         <p
-            class="titulo px-20 pb-32 bg-black text-zinc-300 text-[30px] gap-2 leading-[40px] max-lg:text-xs normal-case max-sm:px-8 max-sm:text-[20px] max-sm:leading-[24px] max-sm:pb-12 font-['Neue']">
+            class="titulo px-20 pb-32 bg-black text-zinc-300 text-[30px] gap-2 leading-[40px] max-lg:text-xs normal-case max-sm:px-6 max-sm:text-[20px] max-sm:leading-[24px] max-sm:pb-12 font-['Neue']">
             _ Ganador de concurso de carteles para Villaluenga de la Sagra. <br>
             _ Diseñador gráfico para empresa Neumáticos por Poco. (6 meses) <br>
             _ Renovación y creación de marca para la empresa Motor 76. (1 mes) <br>
@@ -262,13 +262,13 @@
         </p>
 
         <div
-            class="titulo bg-black max-sm:text-[30px] max-sm:px-6 max-sm:pt-24 pt-12 w-full text-white px-20 text-[170px] self-center place-self-end flex gap-2 max-lg:text-xs max-sm:leading-8 max-sm:px-8">
+            class="titulo bg-black max-sm:text-[30px] max-sm:px-6 max-sm:pt-24 pt-12 w-full text-white px-20 text-[170px] self-center place-self-end flex gap-2 max-lg:text-xs max-sm:leading-8 max-sm:px-6">
             Estudios
         </div>
 
-        <div class="trabajos bg-black px-20 grid grid-cols-3 max-sm:grid-cols-1 max-sm:px-8">
+        <div class="trabajos bg-black px-20 grid grid-cols-3 max-sm:grid-cols-1 max-sm:px-6">
             <div
-                class="categoria1 pt-20 pb-20 bg-black flex flex-col gap-12 self-start max-sm:py-4 max-sm:pt-12 max-sm:gap-4">
+                class="categoria1 pt-20 pb-20 bg-black flex flex-col gap-12 self-start max-sm:py-4 max-sm:pt-12 max-sm:gap-2">
                 <div class="flex justify-between">
                     <p
                         class="titulo bg-black text-left text-zinc-400 leading-none text-[20px] gap-2 max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px]">
@@ -279,13 +279,13 @@
 
 
                 <p
-                    class="titulo bg-black text-left text-zinc-300 leading-none text-[60px] gap-2 max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px]">
+                    class="titulo bg-black text-left text-zinc-100 leading-none text-[60px] gap-2 max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px]">
                     IES El Greco
                 </p>
 
             </div>
             <div
-                class="categoria1 pt-20 pb-20 bg-black flex flex-col gap-12 self-start max-sm:py-4 max-sm:py-12 max-sm:gap-4">
+                class="categoria1 pt-20 pb-20 bg-black flex flex-col gap-12 self-start max-sm:py-4 max-sm:py-12 max-sm:gap-2">
                 <div class="flex justify-between">
                     <p
                         class="titulo bg-black text-left text-zinc-400 leading-none text-[20px] gap-2 max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px]">
@@ -296,28 +296,28 @@
 
 
                 <p
-                    class="titulo bg-black text-left max-[1920px]:hidden text-zinc-300 leading-none text-[60px] gap-2 max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px]">
+                    class="titulo bg-black text-left max-[1920px]:hidden text-zinc-100 leading-none text-[60px] gap-2 max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px]">
                     Escuela de Artes Toledo
                 </p>
                 <p
-                    class="titulo bg-black hidden max-[1920px]:flex text-left text-zinc-300 leading-none text-[60px] gap-2 max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px]">
+                    class="titulo bg-black hidden max-[1920px]:flex text-left text-zinc-100 leading-none text-[60px] gap-2 max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px]">
                     Escuela de Artes
                 </p>
 
             </div>
             <div
-                class="categoria1 pt-20 pb-64 bg-black flex flex-col gap-12 self-end max-sm:py-4 max-sm:py-12 max-sm:gap-4">
+                class="categoria1 pt-20 pb-64 bg-black flex flex-col gap-12 self-end max-sm:py-4 max-sm:py-12 max-sm:gap-2">
                 <div class="flex justify-between">
                     <p
                         class="titulo bg-black text-left text-zinc-400 leading-none text-[20px] gap-2 max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px]">
-                        Grado Universitario
+                        Grado Universitario Diseño Gráfico
                     </p>
 
                 </div>
 
 
                 <p
-                    class="titulo bg-black text-left text-zinc-300 leading-none text-[60px] gap-2 max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px]">
+                    class="titulo bg-black text-left text-zinc-100 leading-none text-[60px] gap-2 max-lg:text-xs max-sm:text-[20px] max-sm:leading-[24px]">
                     ESD Madrid
                 </p>
 
@@ -326,9 +326,9 @@
 
         </div>
         <p
-            class="titulo px-20 pb-32 bg-black text-zinc-300 text-[30px] gap-2 leading-[40px] max-lg:text-xs normal-case max-sm:px-8 max-sm:pt-24 max-sm:text-[20px] max-sm:leading-[24px] max-sm:pb-12 font-['Neue']">
-            _ Curso extracurricular de 2 años de Arte y Pintura en Villaluenga de la Sagra. <br>
-            _ Cursos de Domestika: "Ilustración Digital con Procreate", "Ilustración Digital aplicada a productos",
+            class="titulo px-20 pb-32 bg-black text-zinc-300 text-[30px] gap-2 leading-[40px] max-lg:text-xs normal-case max-sm:px-6 max-sm:pt-24 max-sm:text-[20px] max-sm:leading-[24px] max-sm:pb-12 font-['Neue']">
+            _ Curso extracurricular de 2 años de Arte <br class="hidden max-sm:block"> y Pintura en Villaluenga de la Sagra. <br>
+            _ Cursos de Domestika: "Ilustración Digital con Procreate", "Ilustración Digital aplicada <br class="hidden max-sm:block">  a productos",
             "Introducción al lettering con Procreate".
         </p>
 

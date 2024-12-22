@@ -99,13 +99,12 @@
 
 
         <div
-            class="caja1 bg-zinc-600 text-left px-20 max-sm:px-8 max-sm:text-[90px] max-sm:pt-32 pt-44 text-[170px] pb-12 font-['Neue'] cursor-pointer text-white duration-300 ">
+            class="caja1 bg-zinc-600 text-left px-20 max-sm:px-6 max-sm:text-[90px] max-sm:pt-32 pt-44 text-[170px] pb-12 font-['Neue'] cursor-pointer text-white duration-300 ">
             Servicios
         </div>
 
         <div class="trabajos bg-zinc-600">
-            <div
-                class="categoria1 mx-20 max-[1920px]:mx-20 max-sm:mx-8 pt-20 pb-20 bg-zinc-600 flex self-start border border-l-0 border-r-0 max-sm:flex-col max-sm:pb-8 max-sm:pt-8">
+            <div class="categoria1 mx-20 max-[1920px]:mx-20 max-sm:mx-6 pt-20 pb-20 bg-zinc-600 flex self-start border border-t-1 border-b-0 border-l-0 border-r-0 max-sm:flex-col max-sm:pb-8 max-sm:pt-8">
                 <p
                     class="titulo bg-zinc-600 w-[1220px] self-start text-white leading-none text-[40px] gap-2 max-lg:text-xs max-sm:text-[30px] max-sm:leading-6 max-sm:pb-6 max-sm:w-[0px]">
                     Fotografía
@@ -154,8 +153,8 @@
 
         <div class="trabajos bg-zinc-600
 ">
-            <div class="categoria1 mx-20 max-[1920px]:mx-20 max-sm:mx-8 pt-20 pb-20 bg-zinc-600
- flex self-start border border-l-0 border-r-0 max-sm:flex-col max-sm:pb-8 max-sm:pt-8">
+<div class="categoria1 mx-20 max-[1920px]:mx-20 max-sm:mx-6 pt-20 pb-20 bg-zinc-600 flex self-start border border-t-1 border-b-0 border-l-0 border-r-0 max-sm:flex-col max-sm:pb-8 max-sm:pt-8">
+
                 <p
                     class="titulo bg-zinc-600
  w-[1220px] self-start text-white leading-none text-[40px] gap-2 max-lg:text-xs max-sm:text-[30px] max-sm:leading-6 max-sm:pb-6 max-sm:w-[0px]">
@@ -194,8 +193,8 @@
 
         <div class="trabajos bg-zinc-600
 ">
-            <div class="categoria1 mx-20 max-[1920px]:mx-20 max-sm:mx-8 pt-20 pb-20 bg-zinc-600
- flex self-start border border-l-0 border-r-0 max-sm:flex-col max-sm:pb-8 max-sm:pt-8">
+<div class="categoria1 mx-20 max-[1920px]:mx-20 max-sm:mx-6 pt-20 pb-20 bg-zinc-600 flex self-start border border-t-1 border-b-0 border-l-0 border-r-0 max-sm:flex-col max-sm:pb-8 max-sm:pt-8">
+
                 <p
                     class="titulo bg-zinc-600
  w-[1220px] self-start text-white leading-none text-[40px] gap-2 max-lg:text-xs max-sm:text-[30px] max-sm:leading-6 max-sm:pb-6 max-sm:w-[300px] max-sm:leading-[2rem]">
@@ -226,8 +225,8 @@
 
         <div class="trabajos bg-zinc-600
 ">
-            <div class="categoria1 mx-20 max-[1920px]:mx-20 max-sm:mx-8 pt-20 pb-20 bg-zinc-600
- flex self-start border border-l-0 border-r-0 max-sm:flex-col max-sm:pb-8 max-sm:pt-8">
+<div class="categoria1 mx-20 max-[1920px]:mx-20 max-sm:mx-6 pt-20 pb-20 bg-zinc-600 flex self-start border border-t-1 border-b-0 border-l-0 border-r-0 max-sm:flex-col max-sm:pb-8 max-sm:pt-8">
+
                 <p
                     class="titulo bg-zinc-600
  w-[1220px] self-start text-white leading-none text-[40px] gap-2 max-lg:text-xs max-sm:text-[30px] max-sm:leading-6 max-sm:pb-6 max-sm:w-[300px] max-sm:leading-[2rem]">
@@ -270,8 +269,8 @@
 
         <div class="trabajos bg-zinc-600
 ">
-            <div class="categoria1 mx-20 max-[1920px]:mx-20 max-sm:mx-8 pt-20 pb-20 bg-zinc-600
- flex self-start border border-l-0 border-r-0 max-sm:flex-col max-sm:pb-8 max-sm:pt-8">
+<div class="categoria1 mx-20 max-[1920px]:mx-20 max-sm:mx-6 pt-20 pb-20 bg-zinc-600 flex self-start border border-t-1 border-b-0 border-l-0 border-r-0 max-sm:flex-col max-sm:pb-8 max-sm:pt-8">
+
                 <p
                     class="titulo bg-zinc-600
  w-[1220px] self-start text-white leading-none text-[40px] gap-2 max-lg:text-xs max-sm:text-[30px] max-sm:leading-6 max-sm:pb-6 max-sm:w-[0px]">
@@ -320,8 +319,8 @@
 
         <div class="trabajos bg-zinc-600
 ">
-            <div class="categoria1 mx-20 max-[1920px]:mx-20 max-sm:mx-8 pt-20 pb-20 bg-zinc-600
- flex self-start border border-l-0 border-r-0 max-sm:flex-col max-sm:pb-8 max-sm:pt-8">
+<div class="categoria1 mx-20 max-[1920px]:mx-20 max-sm:mx-6 pt-20 pb-20 bg-zinc-600 flex self-start border border-t-1 border-b-0 border-l-0 border-r-0 max-sm:flex-col max-sm:pb-8 max-sm:pt-8">
+
                 <p
                     class="titulo bg-zinc-600
  w-[1220px] self-start text-white leading-none text-[40px] gap-2 max-lg:text-xs max-sm:text-[30px] max-sm:leading-6 max-sm:pb-6 max-sm:w-[0px]">
@@ -352,7 +351,7 @@
             </div>
         </div>
 
-        <div id="contacto" class="informacion max-sm:pt-0 pt-[300px] max-sm:pt-24 pb-24 bg-zinc-600 max-sm:pb-0">
+        <div id="contacto" class="informacion max-sm:pt-0 pt-[300px] max-sm:pt-12 pb-24 bg-zinc-600 max-sm:pb-0">
 
             <div class="about bg-zinc-600">
                 <div class="correo grid grid-cols-2 max-sm:grid-cols-1 text-black">
