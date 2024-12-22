@@ -82,7 +82,8 @@
         :class="['header', isHeaderFixed ? 'fixed-header' : '']">
 
 
-        <div class="menu flex justify-between w-full fixed top-0 left-0 right-0 z-[10000] max-sm:bg-[#fafafa] bg-[#f7faf7]">
+        <div
+            class="menu flex justify-between w-full fixed top-0 left-0 right-0 z-[10000] max-sm:bg-[#fafafa] bg-[#f7faf7]">
             <!-- Header -->
             <div
                 class="header flex justify-between w-full px-20 py-8 flex gap-12 text-black items-center z-50 max-lg:flex max-sm:flex max-sm:justify-between max-sm:px-8">
@@ -787,7 +788,7 @@
                 </div>
                 <div class="texto">
                     <div class="text-[16px] pl-2 text-zinc-800">
-                        COLECCIÓN FOTOGRÁFICA 
+                        COLECCIÓN FOTOGRÁFICA
                     </div>
                     <div class="text-[16px] leading-4 pl-2 text-zinc-800">
                         Ver el proyecto ⤤
@@ -839,7 +840,8 @@
         </div>
 
 
-        <div id="colaboraciones" class="texto flex w-full max-sm:bg-[#fafafa] bg-[#f7faf7] text-black max-sm:px-6 max-sm:pb-2 max-sm:pt-24 px-20 pt-64 justify-between">
+        <div id="colaboraciones"
+            class="texto flex w-full max-sm:bg-[#fafafa] bg-[#f7faf7] text-black max-sm:px-6 max-sm:pb-2 max-sm:pt-24 px-20 pt-64 justify-between">
             <p
                 class="caja2 text-left max-sm:text-[30px] max-sm:leading-[2rem] font-['Neue'] text-[50px] leading-[3rem] pb-24 max-sm:pb-12 cursor-pointer text-zinc-800 ">
                 Colaboraciones <br>/ Otros proyectos
@@ -848,8 +850,75 @@
 
         </div>
 
+        <div
+            class="grid grid-cols-3 max-sm:grid-cols-1 max-sm:px-4 bg-[#f7faf7] max-sm:bg-[#fafafa] px-20 pt-12 pb-6 gap-12 ">
+            <a class="text-start underline max-sm:text-start max-sm:ml-2" target="_blank"
+                href="https://www.reasonwhy.es/actualidad/nueva-identidad-ecovidrio-contenedor-verde-2024">Articulo
+                Reason Why</a>
+        </div>
 
-        <div class="grid grid-cols-3 max-sm:grid-cols-1 max-sm:px-4 bg-[#f7faf7] max-sm:bg-[#fafafa] px-20 gap-12">
+        <div
+            class="grid grid-cols-3 max-sm:grid-cols-1 max-sm:px-4 bg-[#f7faf7] max-sm:bg-[#fafafa] px-20 gap-12 max-sm:gap-6 pb-20">
+            <a href="https://www.prodigiosovolcan.com/proyectos/identidad-visual-ecovidrio" target="_blank"
+                class="relative group duration-500 cursor-pointer group overflow-hidden relative text-gray-50 w-full rounded-t-2xl max-sm:rounded-2xl hover:duration-700 duration-700">
+                <img src="/img/ecovidrio.svg" class="w-full">
+                <div
+                    class="hidden max-sm:block bg-gray-300 max-sm:bg-white -bottom-[105px] p-3 flex flex-col gap-1 w-full">
+                    <span class="text-sm text-gray-800 font-['Neue'] max-sm:pb-2 max-sm:pl-2">MICROILUSTRACIONES ECOVIDRIO</span>
+                </div>
+                <div
+                class="absolute max-sm:hidden bg-gray-300 max-sm:bg-white -bottom-[105px] p-3 flex flex-col gap-1 w-full group-hover:-bottom-0 max-sm: group-hover:duration-600 duration-500">
+                <div class="flex">
+                        <span class="text-sm text-gray-800 font-['Neue'] max-sm:pb-2 max-sm:pl-2">MICROILUSTRACIONES
+                            ECOVIDRIO</span>
+
+
+                    </div>
+                    <span class="text-gray-800 font-bold pr-6 pb-6 text-right text-3xl">Prodigioso<br>Volcán ⤤</span>
+
+                </div>
+
+
+            </a>
+            <a href="https://www.vozpopuli.com/branded-content/peldanos-marmol-revestir-rascacielos-almeria-grupo-cosentino.html"
+                target="_blank"
+                class="relative group duration-500 cursor-pointer group overflow-hidden relative text-gray-50 w-full rounded-t-2xl max-sm:rounded-2xl hover:duration-700 duration-700">
+                <img src="/img/sabadell.png" class="w-full">
+                <div
+                    class="hidden max-sm:block bg-gray-300 max-sm:bg-white -bottom-[105px] p-3 flex flex-col gap-1 w-full">
+                    <span class="text-sm text-gray-800 font-['Neue'] max-sm:pb-2 max-sm:pl-2">ILUSTRACIONES SABADELL</span>
+                </div>
+                <div
+                class="absolute max-sm:hidden bg-gray-300 max-sm:bg-white -bottom-[105px] p-3 flex flex-col gap-1 w-full group-hover:-bottom-0 max-sm: group-hover:duration-600 duration-500">
+                <span class="text-sm text-gray-800 font-['Neue'] max-sm:pb-2 max-sm:pl-2">ILUSTRACIONES
+                        SABADELL</span>
+                    <span class="text-gray-800 font-bold pr-6 pb-6 text-right text-3xl">Artículo<br>Sabadell
+                        ⤤</span>
+                </div>
+
+
+            </a>
+            <a href="https://faux-noticiario.netlify.app/" target="_blank"
+                class="relative group duration-500 cursor-pointer group overflow-hidden relative text-gray-50 w-full rounded-t-2xl max-sm:rounded-2xl hover:duration-700 duration-700">
+                <img src="/img/fauxproyecto.png" class="w-full">
+                <div
+                    class="hidden max-sm:block bg-gray-300 max-sm:bg-white -bottom-[105px] p-3 flex flex-col gap-1 w-full">
+                    <span class="text-sm text-gray-800 font-['Neue'] max-sm:pb-2 max-sm:pl-2">PROYECTO FAUX</span>
+                </div>
+                <div
+                    class="absolute max-sm:hidden bg-gray-300 max-sm:bg-white -bottom-[105px] p-3 flex flex-col gap-1 w-full group-hover:-bottom-0 max-sm: group-hover:duration-600 duration-500">
+                    <span class="text-sm text-gray-800 font-['Neue'] max-sm:pb-2 max-sm:pl-2">PROYECTO FAUX</span>
+                    <span class="text-gray-800 font-bold pr-6 pb-6 text-right text-3xl">Web<br>Faux ⤤</span>
+                </div>
+
+
+            </a>
+
+        </div>
+
+
+        <div
+            class="hidden max-sm:gap-6 grid grid-cols-3 max-sm:grid-cols-1 max-sm:px-4 bg-[#f7faf7] max-sm:bg-[#fafafa] px-20 gap-12">
             <div
                 class="bg-gray-200 max-sm:bg-white trabajos shadow-lg rounded-lg overflow-hidden transition-transform hover:scale-105 duration-300">
 
@@ -927,7 +996,8 @@
 
         </div>
 
-        <div id="contacto" class="informacion max-sm:pt-32 pt-[300px] pb-24 bg-[#f7faf7] max-sm:bg-[#fafafa] max-sm:pb-0">
+        <div id="contacto"
+            class="informacion max-sm:pt-12 pt-[300px] pb-24 bg-[#f7faf7] max-sm:bg-[#fafafa] max-sm:pb-0">
 
             <div class="about max-sm:bg-[#fafafa] bg-[#f7faf7]">
                 <div class="correo grid grid-cols-2 max-sm:grid-cols-1 text-black">
