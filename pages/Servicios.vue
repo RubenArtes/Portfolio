@@ -160,32 +160,32 @@
                     </div>
                     <div class="columna w-[620px] max-sm:w-200px">
                         <p
-                            class="titulo bg-zinc-600 text-white text-[30px] max-sm:text-[14px] max-sm:pb-1 gap-2 max-lg:text-xs cursor-pointer hover:text-zinc-500">
+                            class="titulo bg-zinc-600 text-white text-[30px] max-sm:text-[16px] max-sm:leading-[20px] max-sm:pb-1 gap-2 max-lg:text-xs cursor-pointer hover:text-zinc-500">
                             Sesiones fotográficas interior
                         </p>
                         <p
-                            class="titulo bg-zinc-600 text-white text-[30px] max-sm:text-[14px] max-sm:pb-1 gap-2 max-lg:text-xs cursor-pointer hover:text-zinc-500">
-                            Sesiones fotográficas exterior
+                        class="titulo bg-zinc-600 text-white text-[30px] max-sm:text-[16px] max-sm:leading-[20px] max-sm:pb-1 gap-2 max-lg:text-xs cursor-pointer hover:text-zinc-500">
+                        Sesiones fotográficas exterior
                         </p>
                         <p
-                            class="titulo bg-zinc-600 text-white text-[30px] max-sm:text-[14px] max-sm:pb-1 gap-2 max-lg:text-xs cursor-pointer hover:text-zinc-500">
-                            Fotografía naturaleza / urbana
+                        class="titulo bg-zinc-600 text-white text-[30px] max-sm:text-[16px] max-sm:leading-[20px] max-sm:pb-1 gap-2 max-lg:text-xs cursor-pointer hover:text-zinc-500">
+                        Fotografía naturaleza / urbana
                         </p>
                         <p
-                            class="titulo bg-zinc-600 text-white text-[30px] max-sm:text-[14px] max-sm:pb-1 gap-2 max-lg:text-xs cursor-pointer hover:text-zinc-500">
-                            Fotografía de producto
+                        class="titulo bg-zinc-600 text-white text-[30px] max-sm:text-[16px] max-sm:leading-[20px] max-sm:pb-1 gap-2 max-lg:text-xs cursor-pointer hover:text-zinc-500">
+                        Fotografía de producto
                         </p>
                         <p
-                            class="titulo bg-zinc-600 text-white text-[30px] max-sm:text-[14px] max-sm:pb-1 gap-2 max-lg:text-xs cursor-pointer hover:text-zinc-500">
-                            Control de equipo profesional
+                        class="titulo bg-zinc-600 text-white text-[30px] max-sm:text-[16px] max-sm:leading-[20px] max-sm:pb-1 gap-2 max-lg:text-xs cursor-pointer hover:text-zinc-500">
+                        Control de equipo profesional
                         </p>
                         <p
-                            class="titulo bg-zinc-600 text-white text-[30px] max-sm:text-[14px] max-sm:pb-1 gap-2 max-lg:text-xs cursor-pointer hover:text-zinc-500">
-                            Edición de fotografía
+                        class="titulo bg-zinc-600 text-white text-[30px] max-sm:text-[16px] max-sm:leading-[20px] max-sm:pb-1 gap-2 max-lg:text-xs cursor-pointer hover:text-zinc-500">
+                        Edición de fotografía
                         </p>
                         <p
-                            class="titulo bg-zinc-600 text-white text-[30px] max-sm:text-[14px] max-sm:pb-1 gap-2 max-lg:text-xs cursor-pointer hover:text-zinc-500">
-                            Photoshop & Lightroom
+                        class="titulo bg-zinc-600 text-white text-[30px] max-sm:text-[16px] max-sm:leading-[20px] max-sm:pb-1 gap-2 max-lg:text-xs cursor-pointer hover:text-zinc-500">
+                        Photoshop & Lightroom
                         </p>
                     </div>
 
@@ -210,21 +210,21 @@
                     <div class="columna">
                     </div>
                     <div class="columna w-[620px]">
-                        <p class="titulo bg-zinc-600
- text-white text-[30px] max-sm:text-[14px] max-sm:pb-1 gap-2 max-lg:text-xs cursor-pointer hover:text-zinc-500">
+                        <p class="titulo bg-zinc-600 text-white text-[30px] max-sm:text-[16px] max-sm:leading-[20px] max-sm:pb-1 gap-2 max-lg:text-xs cursor-pointer hover:text-zinc-500">
+
                             Ilustración digital
                         </p>
-                        <p class="titulo bg-zinc-600
- text-white text-[30px] max-sm:text-[14px] max-sm:pb-1 gap-2 max-lg:text-xs cursor-pointer hover:text-zinc-500">
+                        <p class="titulo bg-zinc-600 text-white text-[30px] max-sm:text-[16px] max-sm:leading-[20px] max-sm:pb-1 gap-2 max-lg:text-xs cursor-pointer hover:text-zinc-500">
+
                             Ilustración tradicional
                         </p>
 
-                        <p class="titulo bg-zinc-600
- text-white text-[30px] max-sm:text-[14px] max-sm:pb-1 gap-2 max-lg:text-xs cursor-pointer hover:text-zinc-500">
+                        <p class="titulo bg-zinc-600 text-white text-[30px] max-sm:text-[16px] max-sm:leading-[20px] max-sm:pb-1 gap-2 max-lg:text-xs cursor-pointer hover:text-zinc-500">
+
                             Iconos, pictogramas y microilustraciones
                         </p>
-                        <p class="titulo bg-zinc-600
- text-white text-[30px] max-sm:text-[14px] max-sm:pb-1 gap-2 max-lg:text-xs cursor-pointer hover:text-zinc-500">
+                        <p class="titulo bg-zinc-600 text-white text-[30px] max-sm:text-[16px] max-sm:leading-[20px] max-sm:pb-1 gap-2 max-lg:text-xs cursor-pointer hover:text-zinc-500">
+
                             Procreate, Photoshop & Illustrator
                         </p>
                     </div>
@@ -251,11 +251,11 @@
                     </div>
                     <div class="columna w-[620px]">
                         <p class="titulo bg-zinc-600
- text-white text-[30px] max-sm:text-[14px] max-sm:pb-1 gap-2 max-lg:text-xs cursor-pointer hover:text-zinc-500">
+text-white text-[30px] max-sm:text-[16px] max-sm:leading-[20px] max-sm:pb-1 gap-2 max-lg:text-xs cursor-pointer hover:text-zinc-500">
                             HTML & CSS (sass / tailwind)
                         </p>
                         <p class="titulo bg-zinc-600
- text-white text-[30px] max-sm:text-[14px] max-sm:pb-1 gap-2 max-lg:text-xs cursor-pointer hover:text-zinc-500">
+text-white text-[30px] max-sm:text-[16px] max-sm:leading-[20px] max-sm:pb-1 gap-2 max-lg:text-xs cursor-pointer hover:text-zinc-500">
                             Creaciòn de webs con Nuxt y Vue
                         </p>
 
@@ -283,23 +283,23 @@
                     </div>
                     <div class="columna w-[620px]">
                         <p class="titulo bg-zinc-600
- text-white text-[30px] max-sm:text-[14px] max-sm:pb-1 gap-2 max-lg:text-xs cursor-pointer hover:text-zinc-500">
+text-white text-[30px] max-sm:text-[16px] max-sm:leading-[20px] max-sm:pb-1 gap-2 max-lg:text-xs cursor-pointer hover:text-zinc-500">
                             Narrativa de marca
                         </p>
                         <p class="titulo bg-zinc-600
- text-white text-[30px] max-sm:text-[14px] max-sm:pb-1 gap-2 max-lg:text-xs cursor-pointer hover:text-zinc-500">
+text-white text-[30px] max-sm:text-[16px] max-sm:leading-[20px] max-sm:pb-1 gap-2 max-lg:text-xs cursor-pointer hover:text-zinc-500">
                             Branding
                         </p>
                         <p class="titulo bg-zinc-600
- text-white text-[30px] max-sm:text-[14px] max-sm:pb-1 gap-2 max-lg:text-xs cursor-pointer hover:text-zinc-500">
+text-white text-[30px] max-sm:text-[16px] max-sm:leading-[20px] max-sm:pb-1 gap-2 max-lg:text-xs cursor-pointer hover:text-zinc-500">
                             Creación de marca y aplicaciones
                         </p>
                         <p class="titulo bg-zinc-600
- text-white text-[30px] max-sm:text-[14px] max-sm:pb-1 gap-2 max-lg:text-xs cursor-pointer hover:text-zinc-500">
+text-white text-[30px] max-sm:text-[16px] max-sm:leading-[20px] max-sm:pb-1 gap-2 max-lg:text-xs cursor-pointer hover:text-zinc-500">
                             Logotipo / Identidad visual
                         </p>
                         <p class="titulo bg-zinc-600
- text-white text-[30px] max-sm:text-[14px] max-sm:pb-1 gap-2 max-lg:text-xs cursor-pointer hover:text-zinc-500">
+text-white text-[30px] max-sm:text-[16px] max-sm:leading-[20px] max-sm:pb-1 gap-2 max-lg:text-xs cursor-pointer hover:text-zinc-500">
                             Manual de marca
                         </p>
                     </div>
@@ -327,31 +327,31 @@
                     </div>
                     <div class="columna w-[620px]">
                         <p class="titulo bg-zinc-600
- text-white text-[30px] max-sm:text-[14px] max-sm:pb-1 gap-2 max-lg:text-xs cursor-pointer hover:text-zinc-500">
+text-white text-[30px] max-sm:text-[16px] max-sm:leading-[20px] max-sm:pb-1 gap-2 max-lg:text-xs cursor-pointer hover:text-zinc-500">
                             Motion Graphics
                         </p>
                         <p class="titulo bg-zinc-600
- text-white text-[30px] max-sm:text-[14px] max-sm:pb-1 gap-2 max-lg:text-xs cursor-pointer hover:text-zinc-500">
+text-white text-[30px] max-sm:text-[16px] max-sm:leading-[20px] max-sm:pb-1 gap-2 max-lg:text-xs cursor-pointer hover:text-zinc-500">
                             Contenido audiovisual
                         </p>
                         <p class="titulo bg-zinc-600
- text-white text-[30px] max-sm:text-[14px] max-sm:pb-1 gap-2 max-lg:text-xs cursor-pointer hover:text-zinc-500">
+text-white text-[30px] max-sm:text-[16px] max-sm:leading-[20px] max-sm:pb-1 gap-2 max-lg:text-xs cursor-pointer hover:text-zinc-500">
                             Contenido para redes sociales
                         </p>
                         <p class="titulo bg-zinc-600
- text-white text-[30px] max-sm:text-[14px] max-sm:pb-1 gap-2 max-lg:text-xs cursor-pointer hover:text-zinc-500">
+text-white text-[30px] max-sm:text-[16px] max-sm:leading-[20px] max-sm:pb-1 gap-2 max-lg:text-xs cursor-pointer hover:text-zinc-500">
                             Rotoscopia
                         </p>
                         <p class="titulo bg-zinc-600
- text-white text-[30px] max-sm:text-[14px] max-sm:pb-1 gap-2 max-lg:text-xs cursor-pointer hover:text-zinc-500">
-                            Animación
+text-white text-[30px] max-sm:text-[16px] max-sm:leading-[20px] max-sm:pb-1 gap-2 max-lg:text-xs cursor-pointer hover:text-zinc-500">
+                             Animación
                         </p>
                         <p class="titulo bg-zinc-600
- text-white text-[30px] max-sm:text-[14px] max-sm:pb-1 gap-2 max-lg:text-xs cursor-pointer hover:text-zinc-500">
+text-white text-[30px] max-sm:text-[16px] max-sm:leading-[20px] max-sm:pb-1 gap-2 max-lg:text-xs cursor-pointer hover:text-zinc-500">
                             Chroma
                         </p>
                         <p class="titulo bg-zinc-600
- text-white text-[30px] max-sm:text-[14px] max-sm:pb-1 gap-2 max-lg:text-xs cursor-pointer hover:text-zinc-500">
+text-white text-[30px] max-sm:text-[16px] max-sm:leading-[20px] max-sm:pb-1 gap-2 max-lg:text-xs cursor-pointer hover:text-zinc-500">
                             Edición de video
                         </p>
                     </div>
@@ -377,15 +377,15 @@
                     </div>
                     <div class="columna w-[620px]">
                         <p class="titulo bg-zinc-600
- text-white text-[30px] max-sm:text-[14px] max-sm:pb-1 gap-2 max-lg:text-xs cursor-pointer hover:text-zinc-500">
+text-white text-[30px] max-sm:text-[16px] max-sm:leading-[20px] max-sm:pb-1 gap-2 max-lg:text-xs cursor-pointer hover:text-zinc-500">
                             Cartelería
                         </p>
                         <p class="titulo bg-zinc-600
- text-white text-[30px] max-sm:text-[14px] max-sm:pb-1 gap-2 max-lg:text-xs cursor-pointer hover:text-zinc-500">
+text-white text-[30px] max-sm:text-[16px] max-sm:leading-[20px] max-sm:pb-1 gap-2 max-lg:text-xs cursor-pointer hover:text-zinc-500">
                             Revistas, libros & fanzines
                         </p>
                         <p class="titulo bg-zinc-600
- text-white text-[30px] max-sm:text-[14px] max-sm:pb-1 gap-2 max-lg:text-xs cursor-pointer hover:text-zinc-500">
+text-white text-[30px] max-sm:text-[16px] max-sm:leading-[20px] max-sm:pb-1 gap-2 max-lg:text-xs cursor-pointer hover:text-zinc-500">
                             Folletos & anuncios
                         </p>
                     </div>
