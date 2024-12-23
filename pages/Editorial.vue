@@ -73,7 +73,7 @@
                     </div>
                     <div class="columna mt-auto pb-6 flex justify-between">
                         <p>
-                            Copyright 2024
+                            Copyright 2025
                         </p>
                         <p>
                             *
@@ -245,7 +245,7 @@
                 maquetación de algunas páginas.
             </div>
         </div>
-        <div class="grid grid-cols-2 gap-4 max-xl:grid-cols-1 max-sm:pt-12 max-sm:px-4">
+        <div class="grid grid-cols-2 gap-4 max-xl:grid-cols-1 max-sm:pt-12 max-sm:px-6">
             <img class="image_grid w-full h-full" src="/img/paginalibro2.png" alt="">
             <img class="image_grid w-full h-full" src="/img/paginalibro3.png" alt="">
             <img class="image_grid w-full h-full" src="/img/paginalibro4.png" alt="">
@@ -265,7 +265,7 @@
             </div>
         </div>
 
-        <div class="grid grid-cols-2 gap-4 max-xl:grid-cols-1 max-sm:pt-12 max-sm:px-4">
+        <div class="grid grid-cols-2 gap-4 max-xl:grid-cols-1 max-sm:pt-12 max-sm:px-6">
             <img class="image_grid w-full h-full" src="/img/Mockupportadas2.jpg" alt="">
             <img class="image_grid w-full h-full" src="/img/Mockupportadas.jpg" alt="">
             <img class="image_grid w-full h-full" src="/img/Mockupportadas3.jpg" alt="">

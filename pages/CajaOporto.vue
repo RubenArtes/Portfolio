@@ -1,85 +1,139 @@
 <template>
     <Cursor class="mix-blend-exclusion" />
 
-    <div class="menu flex justify-between w-full fixed top-0 left-0 right-0 z-[100000] bg-white backdrop-filter">
-        <!-- Header -->
-        <div
-            class="header flex justify-between w-full px-20 py-8 flex gap-12 text-white items-center z-[99999] max-lg:flex max-sm:flex max-sm:justify-between max-sm:px-8">
-            <!-- Contenedor alineado a la izquierda -->
-            <div class="contenedor flex items-center justify-start text-[25px]">
-                <div class="image">
-                    <NuxtLink class="flex" to="/IntroDark">
-                        <img class="max-lg:max-w-[15px] w-[20px]" src="/img/darklogo.png" />
-                    </NuxtLink>
+    <div
+            class="menu flex justify-between w-full fixed top-0 left-0 right-0 z-[10000] max-sm:bg-white bg-white">
+            <!-- Header -->
+            <div
+                class="header flex justify-between w-full px-20 py-8 flex gap-12 text-black items-center z-50 max-lg:flex max-sm:flex max-sm:justify-between max-sm:px-8">
+                <!-- Contenedor alineado a la izquierda -->
+                <div class="contenedor flex items-center justify-start text-[25px]">
+                    <div class="image">
+                        <NuxtLink class="flex" to="/IntroDark">
+                            <img class="max-lg:max-w-[15px] w-[20px]" src="/img/darklogo.png" />
+                        </NuxtLink>
+                    </div>
                 </div>
-            </div>
 
-            <!-- Botón para abrir la slidebar dentro del navbar -->
-            <button @click="toggleSidebar"
-                class="email2 max-sm:text-[30px] max-sm:no-underline relative text-black justify-end underline-offset-1 after:bg-white after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[26px] max-[1920px]:text-[20px] self-center place-self-end flex gap-2 max-lg:text-xs"
-                :class="{ hidden: isOpen }">
-                Menu
-            </button>
-        </div>
-
-        <!-- Slidebar (desplegada a la derecha) -->
-        <div class="menucito fixed top-0 right-0 h-full w-[860px] max-sm:w-full max-[1920px]:w-[700px] bg-zinc-600 shadow-lg z-[99999] p-8 max-sm:p-10 transform transition-transform backdrop-filter backdrop-blur-md bg-opacity-30 text-white"
-            :class="{ 'translate-x-0': isOpen, 'translate-x-full': !isOpen }">
-            <div class="flex justify-between items-center">
-                <h2 @click="toggleSidebar"
-                    class="email text-black relative text-[26px] max-[1920px]:text-[20px] max-sm:text-[40px] self-center place-self-end flex gap-2 max-lg:text-xs cursor-pointer">
-                    Menú
-                </h2>
+                <!-- Botón para abrir la slidebar dentro del navbar -->
                 <button @click="toggleSidebar"
-                    class="email text-black relative text-[26px] max-sm:text-[20px] max-[1920px]:text-[20px] self-center place-self-end flex gap-2 max-lg:text-xs">
-                    &times;
+                    class="email2 max-sm:text-[30px] max-sm:no-underline relative text-black justify-end underline-offset-1 after:bg-current after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[26px] max-[1920px]:text-[20px] self-center place-self-end flex gap-2 max-lg:text-xs"
+                    :class="{ hidden: isOpen }">
+                    Menu
                 </button>
             </div>
 
-            <!-- Contenido de la slidebar -->
-            <ul class="pt-12 flex flex-col justify-between h-full relative z-[99999] text-black">
-                <div class="columna1 flex-grow">
-                    <li>
-                        <a href="/IntroDark#contacto"
-                            class="email  max-sm:text-[22px] max-sm:leading-8 mix-blend-exclusion relative underline-offset-1 after:bg-white after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+            <!-- Slidebar (desplegada a la derecha) -->
+            <div class="menucito fixed top-0 right-0 h-full w-[860px] max-sm:w-full max-[1920px]:w-[700px] bg-zinc-600 shadow-lg z-50 p-8 max-sm:p-6 transform transition-transform backdrop-filter backdrop-blur-md bg-opacity-30 text-black dark:text-white"
+                :class="{ 'translate-x-0': isOpen, 'translate-x-full': !isOpen }">
+                <div class="flex justify-between items-center">
+                    <h2 @click="toggleSidebar"
+                        class="email text-black dark:text-white relative text-[26px] max-[1920px]:text-[20px] max-sm:text-[40px] max-sm:leading-[40px] self-center place-self-end flex gap-2 max-lg:text-xs cursor-pointer">
+                        Menú
+                    </h2>
+                    <button @click="toggleSidebar"
+                        class="email text-black dark:text-white relative text-[26px] max-sm:text-[20px] max-[1920px]:text-[20px] self-center place-self-end flex gap-2 max-lg:text-xs">
+                        &times;
+                    </button>
+                </div>
+
+                <!-- Contenido de la slidebar -->
+                <ul class="pt-12 flex flex-col justify-between h-full">
+                    <div class="columna1 flex-grow">
+                        <li>
+                            <a href="/IntroDark#trabajos2"
+                            class="email max-sm:text-[22px] max-sm:leading-8 text-black dark:text-white underline-offset-1 after:bg-current after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
                             Trabajos
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/Servicios"
-                            class="email max-sm:text-[22px] max-sm:leading-8 mix-blend-exclusion relative underline-offset-1 after:bg-white after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
-                            Servicios
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/Sobremi"
-                            class="email max-sm:text-[22px] max-sm:leading-8 mix-blend-exclusion relative underline-offset-1 after:bg-white after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
-                            Sobre mi
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/Tienda"
-                            class="email max-sm:text-[22px] max-sm:leading-8 mix-blend-exclusion relative underline-offset-1 after:bg-white after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
-                            Tienda
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#contacto"
-                            class="email max-sm:text-[22px] max-sm:leading-8 mix-blend-exclusion relative underline-offset-1 after:bg-white after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
-                            Contacto
-                        </a>
-                    </li>
-                </div>
-                <div class="columna mt-auto pb-6 flex justify-between">
-                    <p>Copyright 2024</p>
-                    <p>*</p>
-                    <p>Rubén Maldonado</p>
-                    <p>*</p>
-                    <p>Portfolio</p>
-                </div>
-            </ul>
+                            </a>
+                            <!-- <a href="/IntroDark#trabajos2"
+                            class="seccion max-sm:text-[18px] indent-6 max-sm:leading-8 text-black dark:text-white underline-offset-1 after:bg-current after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                            [1] Matutano Saludable
+                            </a>
+                            <a href="/IntroDark#trabajos2"
+                            class="seccion max-sm:text-[18px] indent-6 max-sm:leading-8 text-black dark:text-white underline-offset-1 after:bg-current after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                            [2] Caja Oporto
+                            </a>
+                            <a href="/IntroDark#trabajos2"
+                            class="seccion max-sm:text-[18px] indent-6 max-sm:leading-8 text-black dark:text-white underline-offset-1 after:bg-current after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                            [3] Asistente Member
+                            </a>
+                            <a href="/IntroDark#trabajos2"
+                            class="seccion max-sm:text-[18px] indent-6 max-sm:leading-8 text-black dark:text-white underline-offset-1 after:bg-current after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                            [4] Vinos Prau
+                            </a>
+                            <a href="/IntroDark#trabajos2"
+                            class="seccion max-sm:text-[18px] indent-6 max-sm:leading-8 text-black dark:text-white underline-offset-1 after:bg-current after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                            [5] Metro Madrid
+                            </a>
+                            <a href="/IntroDark#trabajos2"
+                            class="seccion max-sm:text-[18px] indent-6 max-sm:leading-8 text-black dark:text-white underline-offset-1 after:bg-current after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                            [6] Animación Movistar
+                            </a>
+                            <a href="/IntroDark#trabajos2"
+                            class="seccion max-sm:text-[18px] indent-6 max-sm:leading-8 text-black dark:text-white underline-offset-1 after:bg-current after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                            [7] Colección Visuales
+                            </a>
+                            <a href="/IntroDark#trabajos2"
+                            class="seccion max-sm:text-[18px] indent-6 max-sm:leading-8 text-black dark:text-white underline-offset-1 after:bg-current after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                            [8] Yelmo Cines
+                            </a>
+                            <a href="/IntroDark#trabajos2"
+                            class="seccion max-sm:text-[18px] indent-6 max-sm:leading-8 text-black dark:text-white underline-offset-1 after:bg-current after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                            [9] Revista Typenotes
+                            </a>
+                            <a href="/IntroDark#trabajos2"
+                            class="seccion max-sm:text-[18px] indent-6 max-sm:leading-8 text-black dark:text-white underline-offset-1 after:bg-current after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                            [10] Web ESD
+                            </a>
+                            <a href="/IntroDark#trabajos2"
+                            class="seccion max-sm:text-[18px] indent-6 max-sm:leading-8 text-black dark:text-white underline-offset-1 after:bg-current after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                            [11] Colección Fotografías
+                            </a>
+                            <a href="/IntroDark#trabajos2"
+                            class="seccion max-sm:text-[18px] indent-6 max-sm:leading-8 text-black dark:text-white underline-offset-1 after:bg-current after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                            [12] Garrido Gallery
+                            </a>
+                            <a href="/IntroDark#trabajos2"
+                            class="seccion max-sm:text-[18px] indent-6 max-sm:leading-8 text-black dark:text-white underline-offset-1 after:bg-current after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                            [13] Colección Ilustraciones
+                            </a> -->
+
+                        </li>
+                        <li>
+                            <a href="/Servicios"
+                                class="email max-sm:text-[22px] max-sm:leading-8 text-black dark:text-white underline-offset-1 after:bg-current after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                                Servicios
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Sobremi"
+                                class="email max-sm:text-[22px] max-sm:leading-8 text-black dark:text-white underline-offset-1 after:bg-current after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                                Sobre mi
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Tienda"
+                                class="email max-sm:text-[22px] max-sm:leading-8 text-black dark:text-white underline-offset-1 after:bg-current after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                                Tienda
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/CajaOporto#contacto"
+                                class="email max-sm:text-[22px] max-sm:leading-8 text-black dark:text-white underline-offset-1 after:bg-current after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                                Contacto
+                            </a>
+                        </li>
+                    </div>
+                    <div class="columna mt-auto pb-6 max-sm:pb-8 flex justify-between">
+                        <p class="text-black dark:text-white">Copyright 2025</p>
+                        <p class="text-black dark:text-white">*</p>
+                        <p class="text-black dark:text-white">Rubén Maldonado</p>
+                        <p class="text-black dark:text-white">*</p>
+                        <p class="text-black dark:text-white">Portfolio</p>
+                    </div>
+                </ul>
+            </div>
         </div>
-    </div>
 
     <div class="app bg-white font-['SFUIDisplay-Regular'] relative z-[1]">
         <div
@@ -156,13 +210,13 @@
         <VueScrollProgressBar background-color="#52525B" />
 
         <div
-            class="caja1 max-[1500px]:px-4 text-black bg-white text-left max-[2500px]:hidden max-sm:block px-20 max-sm:px-4 max-sm:text-[90px] max-sm:pt-32 pt-44 text-[170px] pb-12 font-['Neue'] cursor-pointer duration-300">
+            class="caja1 max-[1500px]:px-4 text-black bg-white text-left max-[2500px]:hidden max-sm:block px-20 max-sm:px-6 max-sm:text-[90px] max-sm:pt-32 pt-44 text-[170px] pb-12 font-['Neue'] cursor-pointer duration-300">
             Oporto
         </div>
         <div id="navegacion"
-            class="titular2 flex px-64 gap-32 content-start space-between justify-center pt-48 text-center max-sm:px-4 max-sm:flex-col max-sm:gap-2 max-sm:pt-0 max-[1500px]:flex-col max-[1500px]:gap-2 max-[1500px]:items-center max-[1700px]:px-10">
+            class="titular2 flex px-64 gap-32 content-start space-between justify-center pt-48 text-center max-sm:px-6 max-sm:flex-col max-sm:gap-2 max-sm:pt-0 max-[1500px]:flex-col max-[1500px]:gap-2 max-[1500px]:items-center max-[1700px]:px-10">
             <div
-                class="titular max-sm:hidden text-[120px] font-['PPE-Ultralight'] leading-12 font-bold animate-pulse bg-gradient-to-r bg-clip-text text-transparent animate-text max-sm:px-4 max-sm:text-[90px] max-sm:pt-0 max-sm:text-black max-sm:animate-none max-sm:font-['Neue'] max-[1500px]:text-left max-[1280px]:text-[100px] from-[#311568] via-[#4797ff] to-[#311568]  ">
+                class="titular max-sm:hidden text-[120px] font-['PPE-Ultralight'] leading-12 font-bold animate-pulse bg-gradient-to-r bg-clip-text text-transparent animate-text max-sm:px-6 max-sm:text-[90px] max-sm:pt-0 max-sm:text-black max-sm:animate-none max-sm:font-['Neue'] max-[1500px]:text-left max-[1280px]:text-[100px] from-[#311568] via-[#4797ff] to-[#311568]  ">
                 OPORTO</div>
             <div
                 class="trabajos flex flex-col max-sm:gap-2 items-left justify-left text-left max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:pt-6 max-sm:pb-16 max-sm:px-0 max-[1280px]:items-center max-[1280px]:pt-6 max-[1280px]:pb-0">
@@ -185,7 +239,7 @@
 
 
         <div
-            class="trabajos max-[1500px]:px-32 max-sm:px-4 flex max-sm:gap-6 max-sm:justify-start max-sm:pb-12 pt-20 px-40 pb-20 items-start text-white flex-nowrap gap-96 max-[1500px]:gap-[15rem] justify-center max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-start max-xl:text-center max-xl:pt-0 max-xl:pb-16 max-[1500px]:justify-between">
+            class="trabajos max-[1500px]:px-32 max-sm:px-6 flex max-sm:gap-6 max-sm:justify-start max-sm:pb-12 pt-20 px-40 pb-20 items-start text-white flex-nowrap gap-96 max-[1500px]:gap-[15rem] justify-center max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-start max-xl:text-center max-xl:pt-0 max-xl:pb-16 max-[1500px]:justify-between">
             <div class="info flex flex-col">
                 <div
                     class="text max-w-[200ch] max-sm:text-left text-center font-['PPE-Ultralight'] max-sm:text-[20px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue'] pb-4 uppercase text-[24px] leading-10 text-zinc-800 max-xl:text-xs">
@@ -226,7 +280,7 @@
 
         </div>
         <div data-aos="fade-up" data-aos-duration="2000"
-            class="colum max-[1500px]:px-32 flex pt-20 px-64 pb-10 max-sm:px-4 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center">
+            class="colum max-[1500px]:px-32 flex pt-20 px-64 pb-10 max-sm:px-6 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center">
             <div class="info_proyect max-w-[80ch]">
                 <div class="info_secondary flex flex-col gap-6 sticky top-48 max-[1500px]:gap-12">
                     <div
@@ -274,7 +328,7 @@
 
 
         <div id="primercompartimento" data-aos="fade-up" data-aos-duration="2000"
-            class="titular2 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 max-sm:px-4 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-46 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 max-sm:px-6 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-46 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
             class="titular text-[40px] font-['PPE-Ultralight'] max-sm:text-[40px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue']  text-start leading-10 text-[#243673] max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-30px max-sm:leading-10 max-[1500px]:text-left">
             <p class="font-['PPE-Ultralightitalic'] max-sm:text-[40px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue']  max-sm:pb-2">PRIMER</p>COMPARTIMENTO
@@ -301,7 +355,7 @@
 
 
         <div data-aos="fade-up" data-aos-duration="2000"
-            class="video grid-cols-2 grid max-sm:px-4 max-sm:pt-24 pt-32 px-64 pb-20 text-zinc-600 justify-items-center items-center gap-12 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:grid-cols-1 max-[1440px]:px-32">
+            class="video grid-cols-2 grid max-sm:px-6 max-sm:pt-24 pt-32 px-64 pb-20 text-zinc-600 justify-items-center items-center gap-12 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:grid-cols-1 max-[1440px]:px-32">
             <div
                 class="text max-w-[80ch] text-left font-['Regular'] max-sm:text-[20px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
 
@@ -335,7 +389,7 @@
         </div>
 
         <div id="segundocompartimento" data-aos="fade-up" data-aos-duration="2000"
-            class="titular2 max-[1500px]:px-32 max-sm:px-4 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-46 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 max-[1500px]:px-32 max-sm:px-6 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-46 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['PPE-Ultralight'] max-sm:text-[40px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue']  text-start leading-[50px] text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
                 <p class="font-['PPE-UltralightItalic'] max-sm:text-[40px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue']">SEGUNDO</p>COMPARTIMENTO
@@ -380,7 +434,7 @@
 
 
         <div id="postales"
-            class="titular2 max-sm:hidden max-[1440px]:px-32 max-sm:px-4 max-sm:content-start max-sm:text-left max-sm:justify-start max-[1440px]:text-center max-[1440px]:content-center flex px-64 pb-32 gap-64 pt-48 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-32  max-[1500px]:gap-12 max-[1500px]:items-center max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 max-sm:hidden max-[1440px]:px-32 max-sm:px-6 max-sm:content-start max-sm:text-left max-sm:justify-start max-[1440px]:text-center max-[1440px]:content-center flex px-64 pb-32 gap-64 pt-48 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:px-32  max-[1500px]:gap-12 max-[1500px]:items-center max-[1500px]:flex-col max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular max-sm:text-[40px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue'] max-sm:text-start text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
                 POSTALES</div>
@@ -391,7 +445,7 @@
                 POSTALES</div>
 
         <div
-            class="hidden grid-cols-3 pb-32 px-64 gap-8 justify-items-center max-sm:grid-cols-1 max-sm:px-4 max-sm:gap-6 max-sm:pb-24 max-sm:grid">
+            class="hidden grid-cols-3 pb-32 px-64 gap-8 justify-items-center max-sm:grid-cols-1 max-sm:px-6 max-sm:gap-6 max-sm:pb-24 max-sm:grid">
             <div class="columna1">
                 <NuxtImg class="image w-full h-full shadow-lg border border-zinc-100" src="/img/postal6.png" alt="" />
 
@@ -457,7 +511,7 @@
 
         <NuxtImg class="image pt-32 w-full h-full pb-32 max-sm:hidden" src="/img/postalespng.png" alt="" />
 
-        <div class="grid grid-cols-2 max-sm:grid-cols-1 max-sm:px-4">
+        <div class="grid grid-cols-2 max-sm:grid-cols-1 max-sm:px-6">
             <NuxtImg class="image w-full h-full pb-32 max-sm:pb-4" src="/img/IMG_2450.jpg" alt="" />
             <NuxtImg class="image w-full h-full pb-32 max-sm:pb-4" src="/img/IMG_2483.jpg" alt="" />
         </div>
@@ -474,7 +528,7 @@
                 class="titular px-4 hidden max-sm:block max-sm:pb-20 max-sm:text-[40px] max-sm:leading-[26px] max-sm:text-left max-sm:font-['Neue'] max-sm:text-start text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
                 SELLOS</div>
 
-        <NuxtImg data-aos="fade-up" data-aos-duration="2000" class="image w-full h-full pb-32 max-sm:px-4 max-sm:pb-12"
+        <NuxtImg data-aos="fade-up" data-aos-duration="2000" class="image w-full h-full pb-32 max-sm:px-6 max-sm:pb-12"
             src="/img/IMG_2444.jpg" alt="" />
 
         <!--<div
@@ -665,7 +719,7 @@
 
         </div>
         <div
-            class="hidden grid-cols-3 px-12 grid-row-1 gap-12 max-xl:grid-cols-1 max-xl:px-10 max-sm:pb-0 max-xl:pt-10 max-[1500px]:px-32  max-sm:pt-0 max-sm:gap-2 max-sm:grid max-sm:px-4">
+            class="hidden grid-cols-3 px-12 grid-row-1 gap-12 max-xl:grid-cols-1 max-xl:px-10 max-sm:pb-0 max-xl:pt-10 max-[1500px]:px-32  max-sm:pt-0 max-sm:gap-2 max-sm:grid max-sm:px-6">
 
             <div
                 class="text pt-12 pb-2 text-left justify-items-left font-['Regular'] text-[14px] text-zinc-800 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]  max-sm:text-[20px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue']">
@@ -818,7 +872,7 @@
         </div>
 
         <div
-            class="colum flex max-[1500px]:px-12 max-[1440px]:pt-2 max-[1440px]:gap-24 pt-20 px-64 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-sm:px-4">
+            class="colum flex max-[1500px]:px-12 max-[1440px]:pt-2 max-[1440px]:gap-24 pt-20 px-64 pb-10 text-white gap-32 justify-center max-xl:pt-16 max-xl:px-10 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-xl:items-center max-sm:px-6">
 
             <div class="fotografias flex flex-col gap-6 max-w-[120h] max-sm:gap-4">
                 <NuxtImg class="image w-full h-full" src="/img/IMG_2459.jpg" alt="" />
@@ -836,7 +890,7 @@
                 <NuxtImg class="image w-full h-full max-sm:pb-12" src="/img/IMG_2467.jpg" alt="" />
             </div>
 
-            <div class="info_proyect max-w-[80ch] pt-12 max-sm:px-4 max-sm:hidden">
+            <div class="info_proyect max-w-[80ch] pt-12 max-sm:px-6 max-sm:hidden">
                 <div class="info_secondary flex flex-col gap-6 sticky top-52 max-[1500px]:gap-12 opacity-50">
                     <div
                         class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-[#243673] max-xl:text-[120px] max-xl:justify-center max-sm:text-[30px] max-sm:leading-10 max-[1500px]:text-left">
@@ -863,7 +917,7 @@
         </div>
 
         <div id="tercercompartimento" data-aos="fade-up" data-aos-duration="2000"
-            class="titular2 max-[1500px]:px-32 max-sm:px-4 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-46 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 max-[1500px]:px-32 max-sm:px-6 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-46 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['PPE-Ultralight'] max-sm:text-[40px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue']  text-start leading-[50px] text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
                 <p class="font-['PPE-UltralightItalic'] max-sm:text-[40px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue']">TERCER</p>COMPARTIMENTO
@@ -900,8 +954,8 @@
                 MAPA</div>
 
         <div data-aos="fade-up" data-aos-duration="2000"
-            class="grid grid-cols-1 px-64 max-[1440px]:px-12 max-sm:grid-cols-1 pb-32 max-sm:pb-12 max-sm:px-4">
-            <NuxtImg class="image px-64 max-[1440px]:px-12 w-full h-full max-sm:pb-2 max-sm:px-4"
+            class="grid grid-cols-1 px-64 max-[1440px]:px-12 max-sm:grid-cols-1 pb-32 max-sm:pb-12 max-sm:px-6">
+            <NuxtImg class="image px-64 max-[1440px]:px-12 w-full h-full max-sm:pb-2 max-sm:px-6"
                 src="/img/IMG_2522.png" alt="" />
         </div>
 
@@ -909,12 +963,12 @@
                 class="titular hidden max-sm:block px-4 hidden max-sm:block max-sm:pb-0 max-sm:text-[40px] max-sm:leading-[40px] max-sm:text-left max-sm:font-['Neue'] max-sm:text-start text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-sm:text-center max-sm:pt-6">
                 PICTOGRAMAS</div>
 
-                <a class="hidden max-sm:text-left max-sm:py-4  max-sm:flex max-sm:text-[20px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue'] max-sm:px-4">
+                <a class="hidden max-sm:text-left max-sm:py-4  max-sm:flex max-sm:text-[20px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue'] max-sm:px-6">
                 Creación de pictogramas personalizados con la estética de la ciudad pero manteniendo el estilo de las
                 composiciones de la caja.
             </a>
         <div
-            class="grid grid-cols-1 px-64 pt-4 pb-32 max-sm:px-4 text-center justify-items-center font-['Regular'] text-[16px] text-zinc-600 max-xl:text-sm max-xl:text-center max-sm:text-left max-sm:justify-items-left max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:px-12 max-sm:pb-16">
+            class="grid grid-cols-1 px-64 pt-4 pb-32 max-sm:px-6 text-center justify-items-center font-['Regular'] text-[16px] text-zinc-600 max-xl:text-sm max-xl:text-center max-sm:text-left max-sm:justify-items-left max-[1280px]:text-left max-[1500px]:text-[16px] max-sm:px-12 max-sm:pb-16">
             <div
                 class="titular max-sm:hidden text-[20px] font-['PPE-Ultralight'] text-start leading-10 font-normal pb-2 text-black max-sm:text-30px max-sm:text-left max-sm:justify-left max-sm:leading-10 max-xl:justify-center max-xl:text-[60px] max-xl:justify-center max-sm:pb-0 max-sm:text-[40px] max-sm:leading-[40px] max-sm:text-left max-sm:font-['Neue']">
                 PICTOGRAMAS</div>
@@ -925,13 +979,13 @@
             </a>
         </div>
 
-        <div class="grid grid-cols-1 max-[1500px]:px-2 px-64 gap-20 max-sm:grid-cols-1 pb-32 max-sm:px-4 max-sm:hidden">
+        <div class="grid grid-cols-1 max-[1500px]:px-2 px-64 gap-20 max-sm:grid-cols-1 pb-32 max-sm:px-6 max-sm:hidden">
             <NuxtImg class="image px-64 w-full h-full max-sm:pb-2 max-sm:px-12" src="/img/pictosoporto.png" alt="" />
 
 
         </div>
 
-        <div class="hidden px-64 max-[1440px]:px-12 gap-20 max-sm:grid-cols-1 pb-12 max-sm:px-4 max-sm:flex">
+        <div class="hidden px-64 max-[1440px]:px-12 gap-20 max-sm:grid-cols-1 pb-12 max-sm:px-6 max-sm:flex">
             <NuxtImg class="image px-64 w-full h-full max-sm:pb-2 max-sm:px-12" src="/img/pictosoporto2.png" alt="" />
 
 
@@ -968,10 +1022,10 @@
                 FOLLETO</div>
 
         <NuxtImg data-aos="fade-up" data-aos-duration="2000"
-            class="pt-32 max-sm:px-4 max-sm:pt-12 max-[1500px]:px-32 max-[1500px]:pt-6 max-[1920px]:pt-16 px-64"
+            class="pt-32 max-sm:px-6 max-sm:pt-12 max-[1500px]:px-32 max-[1500px]:pt-6 max-[1920px]:pt-16 px-64"
             src="/img/folleto.png" />
         <NuxtImg data-aos="fade-up" data-aos-duration="2000"
-            class="px-64 max-sm:px-4 max-sm:pb-4 max-sm:pt-12 max-[1500px]:px-32 max-[1920px]:pb-16"
+            class="px-64 max-sm:px-6 max-sm:pb-4 max-sm:pt-12 max-[1500px]:px-32 max-[1920px]:pb-16"
             src="/img/folleto2.png" />
 
 
@@ -1004,7 +1058,7 @@
 
 
         <div id="cuartocompartimento" data-aos="fade-up" data-aos-duration="2000"
-            class="titular2 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 max-sm:px-4 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-46 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 max-sm:px-6 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-46 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['PPE-Ultralight'] max-sm:text-[40px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue'] text-start leading-[50px] text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
                 <p class="font-['PPE-UltralightItalic'] max-sm:text-[40px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue']">CUARTO</p>COMPARTIMENTO
@@ -1046,7 +1100,7 @@
         </div>
 
         <div data-aos="fade-up" data-aos-duration="2000"
-            class="video grid-cols-1 max-sm:pt-24 max-sm:px-4 grid pt-24 px-64 pb-48 text-zinc-600 justify-items-center items-center gap-12 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:grid-cols-1">
+            class="video grid-cols-1 max-sm:pt-24 max-sm:px-6 grid pt-24 px-64 pb-48 text-zinc-600 justify-items-center items-center gap-12 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:grid-cols-1">
             <div
                 class="text max-w-[100ch] text-center font-['Regular'] max-sm:text-[20px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
 
@@ -1093,7 +1147,7 @@
         <div class="grid max-sm:items-center">
 
             <a href="https://rubenmaldonado.es/AnalogicasOporto"
-                class="px-64 max-sm:text-[20px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-center max-sm:font-['Neue'] flex underline decoration-1 hover:font-['Regular-Bold'] underline-offset-8 justify-center text-center pt-12 titulo font-['Regular'] text-[20px] text-[#243673] max-sm:px-4 max-sm:pb-24 max-sm:pt-4 max-sm:text-[12px] max-sm:underline-offset-4">
+                class="px-64 max-sm:text-[20px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-center max-sm:font-['Neue'] flex underline decoration-1 hover:font-['Regular-Bold'] underline-offset-8 justify-center text-center pt-12 titulo font-['Regular'] text-[20px] text-[#243673] max-sm:px-6 max-sm:pb-24 max-sm:pt-4 max-sm:text-[12px] max-sm:underline-offset-4">
                 CLICK PARA VER LAS 21 FOTOGRAFÍAS EXCLUSIVAS DE LA CAJA
             </a>
         </div>
@@ -1110,7 +1164,7 @@
         </div>
 
         <div data-aos="fade-up" data-aos-duration="2000"
-            class="video max-[1500px]:px-32 max-sm:px-4 max-[1500px]:pb-40 grid-cols-2 grid pt-32 px-64 pb-64 text-zinc-600 justify-items-center items-center gap-12 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:grid-cols-1 max-sm:pt-12">
+            class="video max-[1500px]:px-32 max-sm:px-6 max-[1500px]:pb-40 grid-cols-2 grid pt-32 px-64 pb-64 text-zinc-600 justify-items-center items-center gap-12 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-sm:grid-cols-1 max-sm:pt-12">
             <div
                 class="text max-w-[80ch] max-sm:text-[20px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue'] text-left font-['Regular'] text-[20px] text-zinc-600 max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[16px]">
 
@@ -1157,7 +1211,7 @@
 
 
         <div id="cajafajilla" data-aos="fade-up" data-aos-duration="2000"
-            class="titular2 max-[1500px]:pb-0 max-[1500px]:px-32 max-sm:px-4 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-46 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 max-[1500px]:pb-0 max-[1500px]:px-32 max-sm:px-6 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-46 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular max-sm:text-[40px] max-sm:leading-[40px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue'] text-[40px] font-['PPE-Ultralight'] text-start leading-10 text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center">
                 CAJA &<br>FAJILLA</div>
@@ -1199,16 +1253,16 @@
             <NuxtImg class="image_grid" src="/img/IMG_2412.jpg" alt="" />
         </div>
 
-        <NuxtImg class="image hidden max-sm:pt-24 max-sm:flex max-sm:px-4" src="/img/IMG_2409.jpg" alt="" />
+        <NuxtImg class="image hidden max-sm:pt-24 max-sm:flex max-sm:px-6" src="/img/IMG_2409.jpg" alt="" />
 
-        <NuxtImg class="image_grid hidden pb-12 max-sm:pt-4 max-sm:pb-24 pt-6 max-sm:flex max-sm:px-4" src="/img/IMG_2412.jpg"
+        <NuxtImg class="image_grid hidden pb-12 max-sm:pt-4 max-sm:pb-24 pt-6 max-sm:flex max-sm:px-6" src="/img/IMG_2412.jpg"
             alt="" />
 
 
 
 
         <div id="tipografias" data-aos="fade-up" data-aos-duration="2000"
-            class="titular2 max-[1500px]:px-32 max-sm:px-4 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-32 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 max-[1500px]:px-32 max-sm:px-6 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-32 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['PPE-Ultralight'] max-sm:text-[40px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue']  text-start leading-[50px] text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
                 <p class="font-['PPE-UltralightItalic'] max-sm:text-[40px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue'] ">TIPOGRAFÍAS Y</p>PALETA DE COLOR
@@ -1232,7 +1286,7 @@
         </div>
 
         <div data-aos="fade-up" data-aos-duration="2000"
-            class="grid grid-rows-1 gap-2 items-center justify-items-center pt-12 px-32 pb-32 max-sm:px-4 max-[1280px]:p-10 max-[1500px]:px-32  max-[800px]:grid-cols-1 max-sm:gap-16 max-sm:pt-0">
+            class="grid grid-rows-1 gap-2 items-center justify-items-center pt-12 px-32 pb-32 max-sm:px-6 max-[1280px]:p-10 max-[1500px]:px-32  max-[800px]:grid-cols-1 max-sm:gap-16 max-sm:pt-0">
 
             <div
                 class="text max-w-[80ch]  leading-[200px] pt-4 text-center font-['Regular'] text-[240px] text-[#859ed2] max-xl:text-sm max-xl:max-w-[50ch] max-xl:text-center max-[1280px]:text-left max-[1500px]:text-[180px] max-sm:text-[60px]">
@@ -1346,7 +1400,7 @@
         </div>
 
         <div id="fotografias" data-aos="fade-up" data-aos-duration="2000"
-            class="titular2 max-[1500px]:pt-2 max-[1500px]:pb-2 max-[1500px]:px-32 flex px-64 max-sm:px-4 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-46 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 max-[1500px]:pt-2 max-[1500px]:pb-2 max-[1500px]:px-32 flex px-64 max-sm:px-6 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-46 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['PPE-Ultralight'] max-sm:text-[40px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue']  text-start leading-[50px] text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
                 <p class="font-['PPE-UltralightItalic'] max-sm:text-[40px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue'] ">FOTOGRAFÍAS Y</p>MATERIALES
@@ -1389,7 +1443,7 @@
 
 
         <div id="piezas" data-aos="fade-up" data-aos-duration="2000"
-            class="titular2 max-[1500px]:pt-24 max-[1500px]:pb-12 max-sm:px-4 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-46 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 max-[1500px]:pt-24 max-[1500px]:pb-12 max-sm:px-6 max-[1500px]:px-32 flex px-64 pb-32 gap-64 pt-64 content-start space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pt-10 max-sm:pb-16 max-[1500px]:gap-46 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['PPE-Ultralight'] text-start leading-[50px] max-sm:text-[40px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue']  text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
                 <p class="font-['PPE-UltralightItalic'] max-sm:text-[40px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue'] ">Piezas del</p>SISTEMA
@@ -1470,7 +1524,7 @@
 
 
         <div
-            class="titular2 max-sm:pt-24 max-[1500px]:pt-24 max-[1500px]:pb-12 max-sm:px-4 max-[1500px]:px-32 flex px-64 gap-64 pt-32 pb-24 content-center space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pb-16 max-[1500px]:gap-46 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
+            class="titular2 max-sm:pt-24 max-[1500px]:pt-24 max-[1500px]:pb-12 max-sm:px-6 max-[1500px]:px-32 flex px-64 gap-64 pt-32 pb-24 content-center space-between justify-center text-center max-sm:px-10 max-sm:flex-col max-sm:gap-2 max-sm:pb-16 max-[1500px]:gap-46 max-[1500px]:items-left max-[1280px]:pt-10 max-[1280px]:px-30 max-[1280px]:gap-4 max-[1280px]:pb-20">
             <div
                 class="titular text-[40px] font-['PPE-Ultralight'] max-sm:text-[40px] max-sm:leading-[40px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue']  text-center leading-[50px] text-black max-sm:text-30px max-sm:leading-10 max-xl:justify-centermax-xl:text-[60px] max-xl:justify-center max-sm:text-[35px]">
                 <p class="font-['PPE-UltralightItalic'] max-sm:text-[40px] max-sm:leading-[26px] max-sm:pb-4 max-sm:text-left max-sm:font-['Neue'] ">CONTENIDO</p>AMPLIADO / EXTRA
@@ -1480,104 +1534,115 @@
         <div class="grid max-sm:items-center">
 
             <a href="https://rubenmaldonado.es/viajeoporto" target="_blank"
-                class="px-64 flex justify-center pt-24 pb-2 text-center titulo font-['Regular'] text-[20px] text-[#243673] max-sm:px-4 max-sm:pb-24 max-sm:pt-4 max-sm:text-[12px] max-sm:underline-offset-4">
+                class="px-64 flex justify-center pt-24 pb-2 text-center titulo font-['Regular'] text-[20px] text-[#243673] max-sm:px-6 max-sm:pb-24 max-sm:pt-4 max-sm:text-[12px] max-sm:underline-offset-4">
                 <NuxtImg class="image_grid max-sm:w-[100px] max-sm:h-[100px] w-[200px] h-[200px]" src="/img/qrweb.png"
                     alt="" />
             </a>
         </div>
 
-
-        <div id="contacto" class="informacion max-sm:pt-0 pt-[300px] pb-24 bg-white max-sm:pb-0">
-
-<div class="about bg-white">
-    <div class="correo grid grid-cols-2 max-sm:grid-cols-1 text-black">
-        <div
-            class="caja2 max-sm:text-zinc-500 max-sm:animate-none z-0 text-left max-sm:text-[60px] max-sm:py-12 max-sm:px-4 max-sm:leading-[50px] animate-pulse px-20 font-['Neue'] max-[1920px]:text-[150px] max-[1920px]:leading-[8.5rem] text-[170px] pt-12 pb-12 leading-[10rem] cursor-pointer text-black transition-colors duration-300 hover:text-black">
-            Correo
-        </div>
-        <div
-            class="caja1 text-left self-center max-sm:self-start max-sm:px-4 px-20 leading-[10rem] font-['Neue'] cursor-pointer text-black">
-            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado."
-                target="_blank"
-                class="email font-['Neue'] max-sm:text-zinc-500 max-sm:text-[18px] max-sm:leading-10 flex gap-2 max-[1920px]:text-[45px] items-center max-sm:items-left text-[50px] max-sm:justify-start max-lg:justify-center max-sm:pr-0">
-                ruben.maldonado.graphic@gmail.com
-                <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-45" src="/img/Vector-11black.svg" />
-            </a>
-        </div>
-    </div>
-</div>
-<div class="about bg-white pt-2">
+        <div id="contacto" class="bg-lime-400 py-4 px-6 text-lime-800 font-['Neue'] max-sm:text-lime-800 text-center justify-center max-sm:text-[30px] max-sm:leading-4 flex gap-2 max-[1920px]:text-[45px] items-center max-sm:items-left text-[50px] max-lg:justify-center">¡Contactame!</div>
 
 
-    <!-- Redes Sociales -->
-    <div
-        class="redes grid grid-cols-2 items-center max-sm:grid-cols-1 text-black group hover:group-[.hover]:cursor-default">
-        <!-- Caja 2 -->
-        <div
-        class="caja2 max-sm:text-zinc-500 max-sm:animate-none z-0 text-left max-sm:text-[60px] max-sm:py-12 max-sm:px-4 max-sm:leading-[50px] animate-pulse px-20 font-['Neue'] max-[1920px]:text-[150px] max-[1920px]:leading-[8.5rem] text-[170px] pt-12 pb-12 leading-[10rem] cursor-pointer text-black transition-colors duration-300 hover:text-black">
-        Redes sociales
-        </div>
-        <!-- Redes ocultas por defecto y visibles al hacer hover -->
-        <div
-            class="caja1 text-left self-center max-sm:px-4 px-20 text-[20px] grid grid-cols-2 font-['Neue']  hidden max-sm:grid max-sm:grid-cols-2 group-hover:grid">
-            <a class="red flex max-sm:gap-2 gap-4 max-sm:leading-8 max-sm:text-zinc-500 items-center max-sm:text-[18px] max-sm:leading-10 max-[1920px]:text-[45px] text-[50px] leading-[60px] max-lg:text-[14px]"
-                href="https://www.instagram.com/maldonadoruben_/" target="_blank">
-                <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-45" src="/img/Instagram.png" />
-                Instagram
-                <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-45" src="/img/Vector-11black.svg" />
-            </a>
-            <a class="red flex max-sm:gap-2 gap-4 max-sm:leading-8 max-sm:text-zinc-500 items-center max-sm:text-[18px] max-sm:leading-10 max-[1920px]:text-[45px] text-[50px] leading-[60px] max-lg:text-[14px]"
-                href="https://www.behance.net/maldonadoruben" target="_blank">
-                <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-45" src="/img/Behance.png" />
-                Behance
-                <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-45" src="/img/Vector-11black.svg" />
-            </a>
-            <a class="red flex max-sm:gap-2 gap-4 max-sm:leading-8 max-sm:text-zinc-500 items-center max-sm:text-[18px] max-sm:leading-10 max-[1920px]:text-[45px] text-[50px] leading-[60px] max-lg:text-[14px]"
-                href="https://www.instagram.com/ruben.iso" target="_blank">
-                <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-45" src="/img/Instagram.png" />
-                Instagram
-                <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-45" src="/img/Vector-11black.svg" />
-            </a>
-            <a class="red flex max-sm:gap-2 gap-4 max-sm:leading-8 max-sm:text-zinc-500 items-center max-sm:text-[18px] max-sm:leading-10 max-[1920px]:text-[45px] text-[50px] leading-[60px] max-lg:text-[14px]"
-                href="https://www.linkedin.com/in/rubenmaldonado00" target="_blank">
-                <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-45" src="/img/LinkedIn.png" />
-                LinkedIn
-                <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-45" src="/img/Vector-11black.svg" />
-            </a>
-            <a class="red flex max-sm:gap-2 gap-4 max-sm:leading-8 max-sm:text-zinc-500 items-center max-sm:text-[18px] max-sm:leading-10 max-[1920px]:text-[45px] text-[50px] leading-[60px] max-lg:text-[14px]"
-                href="https://www.redbubble.com/es/people/ruben-maldonado/shop" target="_blank">
-                <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-45" src="/img/redbubble.svg" />
-                Redbubble
-                <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-45" src="/img/Vector-11black.svg" />
-            </a>
-            <a class="red flex max-sm:gap-2 gap-4 max-sm:leading-8 max-sm:text-zinc-500 items-center max-sm:text-[18px] max-sm:leading-10 max-[1920px]:text-[45px] text-[50px] leading-[60px] max-lg:text-[14px]"
-                href="https://es.pinterest.com/maldonadoruben_" target="_blank">
-                <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-45" src="/img/pinterest.svg" />
-                Pinterest
-                <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-45" src="/img/Vector-11black.svg" />
-            </a>
-        </div>
-    </div>
+        <div id="contacto"
+            class="informacion max-sm:pt-12 pt-[100px] pb-24 bg-[#f7faf7] max-sm:bg-[#fafafa] max-sm:pb-0">
 
-    <!-- Información -->
-    <div class="informacion grid grid-cols-2 max-sm:pb-12 max-sm:grid-cols-1 text-black group">
-        <!-- Caja 3 -->
-        <div
-        class="caja2 max-sm:text-zinc-500 max-sm:animate-none z-0 text-left max-sm:text-[60px] max-sm:py-12 max-sm:px-4 max-sm:leading-[50px] animate-pulse px-20 font-['Neue'] max-[1920px]:text-[150px] max-[1920px]:leading-[8.5rem] text-[170px] pt-12 pb-12 leading-[10rem] cursor-pointer text-black transition-colors duration-300 hover:text-black">
-        Información
+            <div class="about max-sm:bg-[#fafafa] bg-[#f7faf7]">
+                <div class="correo grid grid-cols-2 max-sm:grid-cols-1 text-black">
+                    <div
+                        class="caja2 max-sm:animate-none z-0 text-left max-sm:text-[30px] max-sm:py-2 max-sm:px-6 max-sm:leading-[50px] animate-pulse px-20 font-['Neue'] max-[1920px]:text-[150px] max-[1920px]:leading-[8.5rem] text-[170px] pt-12 pb-12 leading-[10rem] cursor-pointer text-black transition-colors duration-300 hover:text-black">
+                        Correo
+                    </div>
+                    <div
+                        class="caja1 text-left self-center max-sm:self-start max-sm:px-6 px-20 leading-[10rem] font-['Neue'] cursor-pointer text-black">
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado."
+                            target="_blank"
+                            class="email font-['Neue'] max-sm:text-zinc-600 max-sm:text-[16px] max-sm:leading-4 flex gap-2 max-[1920px]:text-[45px] items-center max-sm:items-left text-[50px] max-sm:justify-start max-lg:justify-center max-sm:pr-0">
+                            ruben.maldonado.graphic@gmail.com
+                            <img class="vector w-[40px] max-sm:w-[16px] max-sm:opacity-60"
+                                src="/img/Vector-11black.svg" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="about bg-[#f7faf7] max-sm:bg-[#fafafa] pt-2">
+
+
+                <!-- Redes Sociales -->
+                <div
+                    class="redes grid grid-cols-2 items-center max-sm:grid-cols-1 text-black group hover:group-[.hover]:cursor-default">
+                    <!-- Caja 2 -->
+                    <div
+                    class="caja2 max-sm:animate-none z-0 text-left max-sm:text-[30px] max-sm:py-2 max-sm:pt-12 max-sm:px-6 max-sm:leading-[50px] animate-pulse px-20 font-['Neue'] max-[1920px]:text-[150px] max-[1920px]:leading-[8.5rem] text-[170px] pt-12 pb-12 leading-[10rem] cursor-pointer text-black transition-colors duration-300 hover:text-black">
+                    Redes sociales
+                    </div>
+                    <!-- Redes ocultas por defecto y visibles al hacer hover -->
+                    <div
+                        class="caja1 text-left self-center max-sm:px-6 px-20 text-[20px] grid grid-cols-2 font-['Neue']  hidden max-sm:grid max-sm:grid-cols-2 group-hover:grid">
+                        <a class="red flex max-sm:gap-2 gap-4 max-sm:leading-8 max-sm:text-zinc-600 items-center max-sm:text-[16px] max-sm:leading-6 max-[1920px]:text-[45px] text-[50px] leading-[60px] max-lg:text-[14px]"
+                            href="https://www.instagram.com/maldonadoruben_/" target="_blank">
+                            <img class="vector w-[40px] max-sm:w-[14px] max-sm:opacity-60" src="/img/Instagram.png" />
+                            Instagram
+                            <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-60"
+                                src="/img/Vector-11black.svg" />
+                        </a>
+                        <a class="red flex max-sm:gap-2 gap-4 max-sm:leading-8 max-sm:text-zinc-600 items-center max-sm:text-[16px] max-sm:leading-6 max-[1920px]:text-[45px] text-[50px] leading-[60px] max-lg:text-[14px]"
+                            href="https://www.behance.net/maldonadoruben" target="_blank">
+                            <img class="vector w-[40px] max-sm:w-[14px] max-sm:opacity-60" src="/img/Behance.png" />
+                            Behance
+                            <img class="vector w-[40px] max-sm:w-[16px] max-sm:opacity-60"
+                                src="/img/Vector-11black.svg" />
+                        </a>
+                        <a class="red flex max-sm:gap-2 gap-4 max-sm:leading-8 max-sm:text-zinc-600 items-center max-sm:text-[16px] max-sm:leading-6 max-[1920px]:text-[45px] text-[50px] leading-[60px] max-lg:text-[14px]"
+                            href="https://www.instagram.com/ruben.iso" target="_blank">
+                            <img class="vector w-[40px] max-sm:w-[14px] max-sm:opacity-60" src="/img/Instagram.png" />
+                            Instagram
+                            <img class="vector w-[40px] max-sm:w-[16px] max-sm:opacity-60"
+                                src="/img/Vector-11black.svg" />
+                        </a>
+                        <a class="red flex max-sm:gap-2 gap-4 max-sm:leading-8 max-sm:text-zinc-600 items-center max-sm:text-[16px] max-sm:leading-6 max-[1920px]:text-[45px] text-[50px] leading-[60px] max-lg:text-[14px]"
+                            href="https://www.linkedin.com/in/rubenmaldonado00" target="_blank">
+                            <img class="vector w-[40px] max-sm:w-[14px] max-sm:opacity-60" src="/img/LinkedIn.png" />
+                            LinkedIn
+                            <img class="vector w-[40px] max-sm:w-[16px] max-sm:opacity-60"
+                                src="/img/Vector-11black.svg" />
+                        </a>
+                        <a class="red flex max-sm:gap-2 gap-4 max-sm:leading-8 max-sm:text-zinc-600 items-center max-sm:text-[16px] max-sm:leading-6 max-[1920px]:text-[45px] text-[50px] leading-[60px] max-lg:text-[14px]"
+                            href="https://www.redbubble.com/es/people/ruben-maldonado/shop" target="_blank">
+                            <img class="vector w-[40px] max-sm:w-[14px] max-sm:opacity-60" src="/img/redbubble.svg" />
+                            Redbubble
+                            <img class="vector w-[40px] max-sm:w-[16px] max-sm:opacity-60"
+                                src="/img/Vector-11black.svg" />
+                        </a>
+                        <a class="red flex max-sm:gap-2 gap-4 max-sm:leading-8 max-sm:text-zinc-600 items-center max-sm:text-[16px] max-sm:leading-6 max-[1920px]:text-[45px] text-[50px] leading-[60px] max-lg:text-[14px]"
+                            href="https://es.pinterest.com/maldonadoruben_" target="_blank">
+                            <img class="vector w-[40px] max-sm:w-[14px] max-sm:opacity-60" src="/img/pinterest.svg" />
+                            Pinterest
+                            <img class="vector w-[40px] max-sm:w-[16px] max-sm:opacity-60"
+                                src="/img/Vector-11black.svg" />
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Información -->
+                <div class="informacion grid grid-cols-2 max-sm:pb-12 max-sm:grid-cols-1 text-black group">
+                    <!-- Caja 3 -->
+                    <div
+                    class="caja2 max-sm:animate-none z-0 text-left max-sm:text-[30px] max-sm:py-2 max-sm:pt-12 max-sm:px-6 max-sm:leading-[50px] animate-pulse px-20 font-['Neue'] max-[1920px]:text-[150px] max-[1920px]:leading-[8.5rem] text-[170px] pt-12 pb-12 leading-[10rem] cursor-pointer text-black transition-colors duration-300 hover:text-black">
+                        Información
+                    </div>
+                    <!-- Información oculta por defecto y visible al hacer hover -->
+                    <div
+                        class="caja1 text-left self-center max-sm:px-6 px-20 text-[20px] leading-[10rem] font-['Neue'] max-sm:block hidden group-hover:block">
+                        <a href="mailto:ruben.maldonado.graphic@gmail.com" target="_blank"
+                            class="email text-[50px] max-sm:text-zinc-600 leading-[60px] max-[1920px]:text-[45px] max-sm:text-[16px] max-sm:leading-6 flex gap-2 items-center max-lg:text-[14px] max-sm:justify-start max-lg:justify-center max-sm:pr-0">
+                            Rubén Maldonado González<br> All rights reserved | Copyright ©<br>Actualizado
+                            2025
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <!-- Información oculta por defecto y visible al hacer hover -->
-        <div
-            class="caja1 text-left self-center max-sm:px-4 px-20 text-[20px] leading-[10rem] font-['Neue'] max-sm:block hidden group-hover:block">
-            <a href="mailto:ruben.maldonado.graphic@gmail.com" target="_blank"
-                class="email text-[50px] max-sm:text-zinc-500 leading-[60px] max-[1920px]:text-[45px] max-sm:text-[18px] max-sm:leading-7 flex gap-2 items-center max-lg:text-[14px] max-sm:justify-start max-lg:justify-center max-sm:pr-0">
-                Rubén Maldonado González<br> All rights reserved | Copyright ©<br>Actualizado
-                Diciembre 2024
-            </a>
-        </div>
-    </div>
-</div>
-</div>
+        
     </div>
 
 </template>

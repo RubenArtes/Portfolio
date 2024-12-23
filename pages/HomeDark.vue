@@ -1297,7 +1297,7 @@
 
     </div>
     <div
-      class="grid grid-cols-2 pt-32 px-72 bg-black max-[1500px]:gap-46 max-[1500px]:px-32 max-sm:px-4 max-sm:grid-cols-1 max-sm:pt-12 max-sm:gap-8">
+      class="grid grid-cols-2 pt-32 px-72 bg-black max-[1500px]:gap-46 max-[1500px]:px-32 max-sm:px-6 max-sm:grid-cols-1 max-sm:pt-12 max-sm:gap-8">
       <div
         class="titular text-center max-sm:text-left text-white flex flex-col text-[62px] uppercase font-normal sticky top-[9rem] max-lg:text-[50px] max-sm:px-6 font-['PPE-Ultralight']">
         Pack Oporto<a
@@ -1333,7 +1333,7 @@
       </a>
 
       <div
-        class="hidden max-sm:grid max-sm:grid-cols-1 pt-32 px-72 bg-black max-[1500px]:gap-46 max-[1500px]:px-32 max-sm:px-4 max-sm:pt-12 max-sm:gap-8">
+        class="hidden max-sm:grid max-sm:grid-cols-1 pt-32 px-72 bg-black max-[1500px]:gap-46 max-[1500px]:px-32 max-sm:px-6 max-sm:pt-12 max-sm:gap-8">
 
         <div
           class="titular text-center max-sm:text-left text-white flex flex-col text-[62px] uppercase font-normal sticky top-[9rem] max-lg:text-[45px] max-sm:px-0 font-['PPE-Ultralight']">
