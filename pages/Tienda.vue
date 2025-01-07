@@ -538,7 +538,7 @@
         </div>
 
 
-        <div class="max-sm:hidden bg-[#fcfcff] pt-32">
+        <div class="max-sm:hidden bg-[#fcfcff] pt-32 ">
 
             <div
                 class="elementos bg-[#fcfcff] flex gap-4 pt-6 px-20 justify-between max-sm:flex-col max-sm:px-8 max-[1500px]:px-4">
@@ -571,7 +571,7 @@
                 </div>
 
                 <!-- div2, ahora se posiciona a la derecha -->
-                <div class="div2 flex gap-2 items-end justify-end place-self-end max-sm:flex-col">
+                <div class="div2 flex gap-2 items-end justify-end place-self-end max-sm:flex-col ">
                     <!-- 'place-self-end' asegura que el contenido esté alineado al final del contenedor -->
                     <!-- Cada uno de los enlaces con imágenes -->
                     <a href="https://www.redbubble.com/es/people/ruben-maldonado/shop" target="_blank">
@@ -598,7 +598,7 @@
 
         </div>
 
-        <div class="max-sm:hidden bg-[#fcfcff]">
+        <div class="max-sm:hidden bg-[#fcfcff] pb-64">
 
             <div
                 class="elementos bg-[#fcfcff] flex gap-4 pt-6 px-20 justify-between max-sm:flex-col max-sm:px-8 max-[1500px]:px-4">

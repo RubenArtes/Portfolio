@@ -1,1669 +1,1170 @@
-<template>
-  <div id="inicio" class="app bg-white font-['SFUIDisplay-Light']">
-    <Cursor class="max-sm:hidden" />
-    <div
-      class="header bg-white p-10 border-t-0 px-32 text-black grid grid-cols-3 sticky top-0 z-50 max-lg:p-6 max-lg:sticky max-sm:flex max-sm:justify-between max-sm:px-8">
-      <div class="image place-self-start self-center">
-        <NuxtLink to="/Home">
-          <img class="max-lg:max-w-[15px] w-[20px]" src="/img/logogif5.gif" />
-        </NuxtLink>
-      </div>
-      <div class="mode place-self-center">
-        <NuxtLink to="/HomeDark">
-          <img class="image w-[35px] max-sm:w-[22px]" src="/img/lightmodeon.svg" alt="" />
-        </NuxtLink>
-      </div>
-      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado."
-        target="_blank" class="email self-center text-lg  place-self-end flex gap-2 max-lg:text-xs">
-        ruben.maldonado.graphic@gmail.com
-        <img class="vector max-lg:max-w-[8px]" src="/img/Vector-11black.svg" />
-      </a>
-    </div>
+<template class="bg-[#fcfcf7] max-sm:bg-[#fafafa]">
+  <CursorBlack class="max-sm:hidden" />
+  <VueScrollProgressBar background-color="#ffffff" class="mix-blend-exclusion z-0 relative z-[10000]" />
 
-    <VueScrollProgressBar background-color="#000000" />
+  <!--   <div>
 
-    <div
-      class="header bg-white p-2 px-12 text-black flex justify-center items-center sticky top-[122px] z-10 max-[1080px]:gap-6 max-[1025px]:top-[64px] max-sm:gap-2 max-sm:top-[76px]">
+      <Sidebar 
+          v-model:visible="visible" 
+          :class="['bg-gradient-to-r from-blue-600/80 to-blue-400/60 backdrop-blur-lg border-r border-white/10 text-white']"
+      >
+          <template #container="{ closeCallback }">
+              <div class="flex flex-col h-full">
+                  <div class="flex items-center justify-between px-4 pt-3 shrink-0">
+                      <span class="inline-flex items-center gap-2">
+                          <svg width="35" height="40" xmlns="http://www.w3.org/2000/svg">
+                              <path d="..." fill="var(--primary-color-color)" />
+                              <path d="..." fill="var(--text-color)" />
+                          </svg>
+                          <span class="font-semibold text-2xl text-primary">Your Logo</span>
+                      </span>
+                      <Button 
+                          type="button" 
+                          @click="closeCallback" 
+                          icon="pi pi-times" 
+                          class="h-8 w-8 text-white hover:bg-blue-500 transition-all"
+                      />
+                  </div>
+
+                  <div class="overflow-y-auto flex-grow px-4">
+                      <ul class="list-none p-0">
+                          <li>
+                              <a 
+                                  v-ripple 
+                                  class="flex items-center cursor-pointer p-3 rounded-lg text-white hover:bg-blue-500 transition-colors"
+                              >
+                                  <i class="pi pi-user mr-2"></i>
+                                  <span class="font-medium">Sobre mí</span>
+                              </a>
+                          </li>
+                          <li>
+                              <a 
+                                  v-ripple 
+                                  class="flex items-center cursor-pointer p-3 rounded-lg text-white hover:bg-blue-500 transition-colors"
+                              >
+                                  <i class="pi pi-briefcase mr-2"></i>
+                                  <span class="font-medium">Trabajos</span>
+                              </a>
+                          </li>
+                          <li>
+                              <a 
+                                  v-ripple 
+                                  class="flex items-center cursor-pointer p-3 rounded-lg text-white hover:bg-blue-500 transition-colors"
+                              >
+                                  <i class="pi pi-envelope mr-2"></i>
+                                  <span class="font-medium">Contacto</span>
+                              </a>
+                          </li>
+                      </ul>
+                  </div>
+
+                  <div class="mt-auto px-4">
+                      <hr class="mb-3 border-t border-white/20" />
+                      <a 
+                          v-ripple 
+                          class="flex items-center cursor-pointer p-3 gap-2 rounded-lg text-white hover:bg-blue-500 transition-colors"
+                      >
+                          <Avatar image="/images/avatar/amyelsner.png" shape="circle" />
+                          <span class="font-bold">Amy Elsner</span>
+                      </a>
+                  </div>
+              </div>
+          </template>
+
+
+<Button icon="pi pi-bars" @click="toggleSidebar"
+  class="bg-white/10 text-white rounded-lg px-4 py-2 hover:bg-white/20 transition-colors">
+  <span>Menu</span>
+</Button>
+</div> -->
+
+  <div id="header" class="bg-[#f7faf7] max-sm:bg-[#fafafa] font-['SFUIDisplay-Light']"
+      :class="['header', isHeaderFixed ? 'fixed-header' : '']">
+
+
       <div
-        class="titular_small uppercase pr-2 pl-2 text-zinc-900 font-['Neue'] text-[13px] max-[1920px]:text-xs max-sm:px-2 max-sm:text-[11px]">
-        Ultima actualización Septiembre 2024
+          class="menu flex justify-between w-full fixed top-0 left-0 right-0 z-[9999] max-sm:bg-[#fafafa] bg-[#f7faf7]">
+          <!-- Header -->
+          <div
+              class="header flex justify-between w-full px-20 py-8 flex gap-12 text-black items-center z-50 max-lg:flex max-sm:flex max-sm:justify-between max-sm:px-8">
+              <!-- Contenedor alineado a la izquierda -->
+              <div class="contenedor flex items-center justify-start text-[25px]">
+                  <div class="image">
+                      <NuxtLink class="flex" to="/IntroDark">
+                          <img class="max-lg:max-w-[15px] w-[20px]" src="/img/darklogo.png" />
+                      </NuxtLink>
+                  </div>
+              </div>
+
+              <!-- Botón para abrir la slidebar dentro del navbar -->
+              <button @click="toggleSidebar"
+                  class="email2 max-sm:text-[30px] max-sm:no-underline relative text-black justify-end underline-offset-1 after:bg-current after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[26px] max-[1920px]:text-[20px] self-center place-self-end flex gap-2 max-lg:text-xs"
+                  :class="{ hidden: isOpen }">
+                  Menu
+              </button>
+          </div>
+
+          <!-- Slidebar (desplegada a la derecha) -->
+          <div class="menucito fixed top-0 right-0 h-full w-full max-sm:w-full max-[1920px]:w-[700px] bg-zinc-800 shadow-lg z-50 p-8 max-sm:p-6 transform transition-transform backdrop-filter backdrop-blur-md bg-opacity-80 text-black dark:text-white"
+              :class="{ 'translate-x-0': isOpen, 'translate-x-full': !isOpen }">
+              <div class="flex justify-between items-center">
+                  <h2 @click="toggleSidebar"
+                      class="email text-black dark:text-white relative text-[26px] max-[1920px]:text-[20px] max-sm:text-[40px] max-sm:leading-[40px] self-center place-self-end flex gap-2 max-lg:text-xs cursor-pointer">
+                      Menú
+                  </h2>
+                  <button @click="toggleSidebar"
+                      class="email text-black dark:text-white relative text-[26px] max-sm:text-[20px] max-[1920px]:text-[20px] self-center place-self-end flex gap-2 max-lg:text-xs">
+                      &times;
+                  </button>
+              </div>
+
+              <!-- Contenido de la slidebar -->
+              <ul class="pt-12 flex flex-col justify-between h-full">
+                  <div class="columna1 flex-grow">
+                      <li>
+                          <a href="/IntroDark#trabajos2"
+                          class="email max-sm:text-[22px] max-sm:leading-8 text-black dark:text-white underline-offset-1 after:bg-current after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[140px] leading-[120px] uppercase max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                          Trabajos
+                          </a>
+                          <!-- <a href="/IntroDark#trabajos2"
+                          class="seccion max-sm:text-[18px] indent-6 max-sm:leading-8 text-black dark:text-white underline-offset-1 after:bg-current after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                          [1] Matutano Saludable
+                          </a>
+                          <a href="/IntroDark#trabajos2"
+                          class="seccion max-sm:text-[18px] indent-6 max-sm:leading-8 text-black dark:text-white underline-offset-1 after:bg-current after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                          [2] Caja Oporto
+                          </a>
+                          <a href="/IntroDark#trabajos2"
+                          class="seccion max-sm:text-[18px] indent-6 max-sm:leading-8 text-black dark:text-white underline-offset-1 after:bg-current after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                          [3] Asistente Member
+                          </a>
+                          <a href="/IntroDark#trabajos2"
+                          class="seccion max-sm:text-[18px] indent-6 max-sm:leading-8 text-black dark:text-white underline-offset-1 after:bg-current after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                          [4] Vinos Prau
+                          </a>
+                          <a href="/IntroDark#trabajos2"
+                          class="seccion max-sm:text-[18px] indent-6 max-sm:leading-8 text-black dark:text-white underline-offset-1 after:bg-current after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                          [5] Metro Madrid
+                          </a>
+                          <a href="/IntroDark#trabajos2"
+                          class="seccion max-sm:text-[18px] indent-6 max-sm:leading-8 text-black dark:text-white underline-offset-1 after:bg-current after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                          [6] Animación Movistar
+                          </a>
+                          <a href="/IntroDark#trabajos2"
+                          class="seccion max-sm:text-[18px] indent-6 max-sm:leading-8 text-black dark:text-white underline-offset-1 after:bg-current after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                          [7] Colección Visuales
+                          </a>
+                          <a href="/IntroDark#trabajos2"
+                          class="seccion max-sm:text-[18px] indent-6 max-sm:leading-8 text-black dark:text-white underline-offset-1 after:bg-current after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                          [8] Yelmo Cines
+                          </a>
+                          <a href="/IntroDark#trabajos2"
+                          class="seccion max-sm:text-[18px] indent-6 max-sm:leading-8 text-black dark:text-white underline-offset-1 after:bg-current after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                          [9] Revista Typenotes
+                          </a>
+                          <a href="/IntroDark#trabajos2"
+                          class="seccion max-sm:text-[18px] indent-6 max-sm:leading-8 text-black dark:text-white underline-offset-1 after:bg-current after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                          [10] Web ESD
+                          </a>
+                          <a href="/IntroDark#trabajos2"
+                          class="seccion max-sm:text-[18px] indent-6 max-sm:leading-8 text-black dark:text-white underline-offset-1 after:bg-current after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                          [11] Colección Fotografías
+                          </a>
+                          <a href="/IntroDark#trabajos2"
+                          class="seccion max-sm:text-[18px] indent-6 max-sm:leading-8 text-black dark:text-white underline-offset-1 after:bg-current after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                          [12] Garrido Gallery
+                          </a>
+                          <a href="/IntroDark#trabajos2"
+                          class="seccion max-sm:text-[18px] indent-6 max-sm:leading-8 text-black dark:text-white underline-offset-1 after:bg-current after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[22px] max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                          [13] Colección Ilustraciones
+                          </a> -->
+
+                      </li>
+                      <li>
+                          <a href="/Servicios"
+                          class="email max-sm:text-[22px] max-sm:leading-8 text-black dark:text-white underline-offset-1 after:bg-current after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[140px] leading-[120px] uppercase max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                              Servicios
+                          </a>
+                      </li>
+                      <li>
+                          <a href="/Sobremi"
+                          class="email max-sm:text-[22px] max-sm:leading-8 text-black dark:text-white underline-offset-1 after:bg-current after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[140px] leading-[120px] uppercase max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                              Sobre mi
+                          </a>
+                      </li>
+                      <li>
+                          <a href="/Tienda"
+                          class="email max-sm:text-[22px] max-sm:leading-8 text-black dark:text-white underline-offset-1 after:bg-current after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[140px] leading-[120px] uppercase max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                              Tienda
+                          </a>
+                      </li>
+                      <li>
+                          <a href="/IntroDark#contacto"
+                          class="email max-sm:text-[22px] max-sm:leading-8 text-black dark:text-white underline-offset-1 after:bg-current after:absolute after:h-[2px] after:w-0 after:bottom-[5px] after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer text-[140px] leading-[120px] uppercase max-[1920px]:text-[20px] self-center place-self-start flex gap-2 max-lg:text-xs">
+                              Contacto
+                          </a>
+                      </li>
+                  </div>
+                  <div class="columna mt-auto pb-6 max-sm:pb-8 flex justify-between">
+                      <p class="text-black dark:text-white">Copyright 2025</p>
+                      <p class="text-black dark:text-white">*</p>
+                      <p class="text-black dark:text-white">Rubén Maldonado</p>
+                      <p class="text-black dark:text-white">*</p>
+                      <p class="text-black dark:text-white">Portfolio</p>
+                  </div>
+              </ul>
+          </div>
       </div>
-      <img class="info max-w-[12px] max-h-[12px]" src="/img/infoblack.png" />
-    </div>
-
-    <a href="#inicio"
-      class="fixed max-sm:hidden mix-blend-exclusion bottom-0 right-0 transform -translate-y-1/2 text-[70px] z-50 uppercase font-bold text-white tracking-widest px-7 py-4 transition-all duration-300 ease-in-out hover:translate-y-[-7px]">
-      ↑
-    </a>
 
 
-    <!--<div
-      class="header text-black justify-center items-center sticky top-[122px] z-10 max-[1080px]:gap-6 max-[1025px]:top-[64px] max-sm:gap-2 max-sm:top-[76px]">
-      <div class=" text-center animate-pulse opacity-30">
-        <div class="py-2 w-full place-self-center text-center justify-center items-center text-indigo-100 leading-none grid lg:inline-flex"
-          role="alert">
-          <span
-            class="titular_small uppercase text-zinc-800 font-['Neue'] text-[13px] max-[1920px]:text-xs max-sm:px-2 max-sm:text-[11px] mr-2 text-left">Ultima
-            actualización Septiembre 2024</span>
-          <span class="flex rounded-full bg-zinc-200 uppercase px-2 py-1 text-xs font-bold mr-3">
-            <img class="info max-w-[12px] max-h-[12px]" src="/img/infoblack.png" />
-          </span>
-        </div>
+
+      <!-- Video al fondo detrás del header -->
+      <div class="max-sm:hidden">
+          <img class="w-full -z-10" src="/img/portadarubenwhite2.gif" alt="intro" />
       </div>
-    </div> -->
-
-
-
-    <div
-      class="trabajos hidden px-64 pt-16 pb-6 text-white flex-col items-left gap-10 items-left max-lg:pt-16 max-lg:px-10 max-lg:flex-col max-lg:justify-center max-lg:gap-2 max-lg:justify-items-center max-[1930px]:pt-4 max-[1080px]:px-20 max-[1080px]:pb-14 max-[720px]:px-4 max-sm:px-2 max-sm:pb-8 max-sm:pt-12 max-sm:hidden">
-      <div class="titular_flex pt-12 flex flex-col max-lg:items-center max-lg:flex max-[2000px]:px-0 max-sm:pt-2">
-        <div
-          class="titular gap-4 leading-[12rem] text-[200px] font-['SFUIDisplay-Regular'] font-bold tracking-tight flex flex-col items-center text-center justify-center max-[1930px]:text-[140px] max-[1470px]:text-[80px] max-sm:text-[50px] max-sm:leading-[3rem] max-sm:font-['SFUIDisplay-Bold']">
-          RUBÉN MALDONADO
-        </div>
+      <div class="hidden max-sm:block">
+          <img class="w-full -z-10" src="/img/portadarubenwhite4.gif" alt="intro" />
       </div>
-    </div>
 
-
-    <!--<div
-      class="trabajos hidden max-sm:grid px-64 pt-16 pb-6 text-white flex-col items-left gap-10 items-left max-lg:pt-16 max-lg:px-10 max-lg:flex-col max-lg:justify-center max-lg:gap-2 max-lg:justify-items-center max-[1930px]:pt-4 max-[1080px]:px-20 max-[1080px]:pb-14 max-sm:px-2 max-sm:text-center max-sm:pb-72">
-      <div class="titular_flex pt-12 grid grid-flow-row grid-rows-2 gao-2 max-lg:items-center max-[2000px]:px-0 max-sm:pt-2">
-        <div
-          class="titular2 gap-4 leading-[12rem] text-[200px] font-['SFUIDisplay-Regular'] font-bold tracking-tight flex flex-col items-center text-center justify-center max-[1930px]:text-[140px] max-[1470px]:text-[120px] max-sm:leading-[4.75rem] max-sm:font-['SFUIDisplay-Regular'] max-sm:text-[120px]">
-          RUBÉN
-        </div>
-        <div
-          class="titular gap-4 leading-[12rem] text-[200px] font-['SFUIDisplay-Regular'] font-bold tracking-tight flex flex-col items-center text-center justify-center max-[1930px]:text-[140px] max-[1470px]:text-[80px] max-sm:text-[60px] max-sm:font-['SFUIDisplay-Regular'] max-sm:gap-2 max-sm:leading-[0.25rem]">
-          MALDONADO
-        </div>
+      <!-- Banner de texto -->
+      <div
+          class="text bg-[#f7faf7] max-sm:bg-[#fafafa] mix-blend-exclusion relative z-0 top-[-400px] max-[1920px]:top-[-360px] max-sm:top-[-140px]">
+          <div class="texto px-20 grid grid-cols-3 bg-black max-sm:px-8 max-sm:grid-cols-1">
+              <div
+                  class="flex flex-col bg-black items-start content-end place-self-start text-left text-zinc-300 mix-blend-exclusion text-[40px] max-[1920px]:text-[30px] max-sm:hidden">
+                  <p
+                      class="text text-[90px] flex gap-2 leading-[3rem] font-['PPE-Ultralight'] max-[1920px]:text-[36px]">
+                      Portfolio
+                      <img class="w-[22px] h-[22px]" src="/img/Copyright.svg" />
+                  </p>
+                  <div class="text text-[20px]">
+                      <p class="pb-2">[ r -- n ]</p>
+                      <p class="">2025</p>
+                  </div>
+              </div>
+              <div class="bg-black"></div>
+              <div
+                  class="flex items-end bg-black text-right text-zinc-300 mix-blend-exclusion text-[40px] leading-[3rem] max-[1920px]:leading-[2.25rem] max-[1920px]:text-[30px] max-sm:text-[20px] max-sm:leading-[1.5rem]">
+                  <p>
+                      Hola soy Rubén Maldonado, soy diseñador gráfico, fotógrafo e ilustrador. Polifacético,
+                      trabajador y apasionado.
+                      <NuxtLink to="/Sobremi"
+                          class="text-[#ff2d7e] max-[1920px]:hover:text-[32px] hover:text-[41px] transition-all duration-500 underline">
+                          Saber más
+                      </NuxtLink>
+                  </p>
+              </div>
+          </div>
       </div>
-    </div>-->
-
-    <div
-      class="banner flex max-[1920px]:pt-[120px] max-[1920px]:pb-[100px] pt-[280px] pb-[200px] text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10 max-[1920px]:px-28 max-sm:hidden">
-      <img class="banner_image max-[1920px]:w-[240px] w-[300px] h-full" src="/img/logorubenmal5.svg">
-
-
-    </div>
 
 
 
-    <div
-      class="banner hidden max-sm:px-8 max-sm:flex max-sm:pt-12 max-sm:pb-12 text-white flex-nowrap items-center gap-64 justify-center max-xl:pt-2 max-xl:pb-2 max-xl:px-0 max-xl:flex-col max-xl:justify-center max-xl:gap-10">
-      <img class="banner_image w-[140px] h-full" src="/img/logorubenmal5.svg">
 
-
-    </div>
-
-    <div class="grid grid-cols-3 px-32 max-sm:px-8 pt-2 pb-20 max-[1920px]:pt-0 max-sm:grid-cols-1 ">
-
-      <div class="texto1 flex flex-col place-self-start self-end">
-
-        <div
-          class="text flex text-[40px] leading-[4rem] font-['PPE-UltralightItalic'] tracking-normal items-left max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center max-[1920px]:text-[36px]">
-          Portfolio
-          <img class="w-[12px] h-[12px]" src="/img/Copyright.svg">
-        </div>
-
-        <div
-          class="text text-[14px] leading-[18px] font-['Neue'] tracking-normal flex flex-col items-left justify-self-start max-3xl:text-[30px] max-sm:font-normal max-sm:pt-2 max-sm:text-[14px] max-sm:leading-[1rem] max-sm:pb-4 max-sm:text-start max-[1920px]:text-[14px] max-[1920px]:leading-[16px]">
-
-          <p class="font-['Neue']">[ r -- n ]</p>
-          <p class="font-['Neue'] text-zinc-500">RUBÉN MALDONADO GONZÁLEZ</p>
-          <p class="font-['Neue'] text-zinc-500">SEPTIEMBRE 2024</p>
-        </div>
+      <div id="trabajos2"
+          class="texto flex w-full max-sm:bg-[#fafafa] bg-[#f7faf7] text-black max-sm:px-6 max-sm:pb-2 max-sm:pt-12 px-20 pt-12 justify-between">
+          <p
+              class="caja2 text-left max-sm:text-[30px] max-sm:leading-[2rem] font-['Neue'] text-[50px] leading-[3rem] pb-12 max-sm:pb-2 cursor-pointer text-zinc-800 ">
+              Trabajos
+          </p>
 
 
       </div>
 
 
-      <div class="texto2 hidden max-sm:flex gap-6 justify-between max-sm:pt-4">
+      <div class="trabajos max-sm:hidden" id="trabajos2">
 
-        <div
-          class="text place-self-start text-[14px] text-left max-sm:text-[12px] max-sm:leading-[1rem] text-black leading-[18px] font-['Neue'] tracking-normal flex flex-col items-start justify-self-start max-3xl:text-[30px] max-sm:pt-2 max-sm:pb-4 max-[1920px]:leading-[14px]">
-          <br>
-          [ PACKAGING ]
-          <br>
-          [ EDITORIAL ]
-          <br>
-          [ MARCA ]
-          <br>
-          [ ILUSTRACIÓN ]
-          <br>
-          [ RENDER ]
-          <br>
-          [ AUDIOVISUALES ]
-        </div>
+          <NuxtLink to="/Matutano">
+              <div class="pt-20 trabajos  bg-[#f7faf7] max-sm:pt-4">
+                  <div class="grid grid-cols-2 hover:grid-cols-3 text-zinc-800 bg-[#f7faf7] pt-4 pb-4 max-[1920px]:py-[10px] items-center border-zinc-400 border border-r-0 border-l-0 border-1 border-t-1 mx-20 max-sm:mx-6 max-sm:py-2 max-sm:gap-[10px] gap-8 justify-center transition-all duration-100"
+                      @mouseenter="hovered[0] = true" @mouseleave="hovered[0] = false">
 
-        <div class="texto3 flex flex-col place-self-end max-sm:place-self-end max-sm:pt-0">
+                      <!-- Primer bloque de texto -->
+                      <div
+                          class="text-[170px] pt-24 pb-24 text-end leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
+                          Matutano
+                      </div>
 
-          <a href="#trabajos"
-            class="text text-right text-[26px] uppercase font-['PPE-UltralightItalic'] tracking-normal flex flex-col items-left max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[18px] max-sm:leading-[1rem] max-sm:pb-0 max-sm:text-center max-[1920px]:text-[22px]">
-            Trabajos.
+                      <!-- Imagen en el centro (aparece en la tercera columna al hacer hover con animación de ancho) -->
+                      <div v-show="hovered[0]" loading="lazy"
+                          class=" max-sm:hidden h-full transition-width bg-cover bg-center shadow-lg flex justify-center transition-opacity duration-1000 ease-in-out transform origin-top scale-y-0 opacity-100 transition-width"
+                          :class="{ 'scale-y-100 width-full': hovered[0] }"
+                          :style="{ backgroundImage: `url(${imageUrlMatutano})` }">
+                      </div>
+
+                      <!-- Segundo bloque de texto -->
+                      <div
+                          class="text-[170px] pt-24 pb-24 text-start leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
+                          Saludable
+                      </div>
+                  </div>
+              </div>
+          </NuxtLink>
+
+          <!-- Otro ejemplo de trabajo -->
+          <NuxtLink to="/CajaOporto">
+              <div class="trabajos bg-[#f7faf7]">
+                  <div class="grid grid-cols-2 hover:grid-cols-3 text-zinc-800 bg-[#f7faf7] pt-4 pb-4 max-[1920px]:py-[10px] items-center border-zinc-400 border border-r-0 border-l-0 border-1 border-t-0 mx-20 max-sm:mx-6 max-sm:py-2 max-sm:gap-[10px] gap-8 justify-center transition-all duration-100"
+                      @mouseenter="hovered[1] = true" @mouseleave="hovered[1] = false">
+
+                      <!-- Primer bloque de texto -->
+                      <div
+                          class="text-[170px] pt-24 pb-24 text-end leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
+                          Caja
+                      </div>
+
+                      <!-- Imagen en el centro (aparece en la tercera columna al hacer hover con animación de ancho) -->
+                      <div v-show="hovered[1]" loading="lazy"
+                          class=" max-sm:hidden h-full transition-width bg-cover bg-center shadow-lg flex justify-center transition-opacity duration-1000 ease-in-out transform origin-top scale-y-0 opacity-100 transition-width"
+                          :class="{ 'scale-y-100 width-full': hovered[1] }"
+                          :style="{ backgroundImage: `url(${imageUrlOporto})` }">
+                      </div>
+
+                      <!-- Segundo bloque de texto -->
+                      <div
+                          class="text-[170px] pt-24 pb-24 text-start leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
+                          Oporto
+                      </div>
+                  </div>
+              </div>
+          </NuxtLink>
+
+          <NuxtLink to="/Member">
+              <div class="trabajos bg-[#f7faf7]">
+                  <div class="grid grid-cols-2 hover:grid-cols-3 text-zinc-800 bg-[#f7faf7] pt-4 pb-4 max-[1920px]:py-[10px] items-center border-zinc-400 border border-r-0 border-l-0 border-1 border-t-0 mx-20 max-sm:mx-6 max-sm:py-2 max-sm:gap-[10px] gap-8 justify-center transition-all duration-100"
+                      @mouseenter="hovered[2] = true" @mouseleave="hovered[2] = false">
+
+                      <!-- Primer bloque de texto -->
+                      <div
+                          class="text-[170px] pt-24 pb-24 text-end leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
+                          Asistente
+                      </div>
+
+                      <!-- Imagen en el centro (aparece en la tercera columna al hacer hover con animación de ancho) -->
+                      <div v-show="hovered[2]" loading="lazy"
+                          class=" max-sm:hidden h-full transition-width bg-cover bg-center shadow-lg flex justify-center transition-opacity duration-1000 ease-in-out transform origin-top scale-y-0 opacity-100 transition-width"
+                          :class="{ 'scale-y-100 width-full': hovered[2] }"
+                          :style="{ backgroundImage: `url(${imageUrlMember})` }">
+                      </div>
+
+                      <!-- Segundo bloque de texto -->
+                      <div
+                          class="text-[170px] pt-24 pb-24 text-start leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
+                          Member
+                      </div>
+                  </div>
+              </div>
+          </NuxtLink>
+
+          <NuxtLink to="/Prau">
+              <div class="trabajos bg-[#f7faf7]">
+                  <div class="grid grid-cols-2 hover:grid-cols-3 text-zinc-800 bg-[#f7faf7] pt-4 pb-4 max-[1920px]:py-[10px] items-center border-zinc-400 border border-r-0 border-l-0 border-1 border-t-0 mx-20 max-sm:mx-6 max-sm:py-2 max-sm:gap-[10px] gap-8 justify-center transition-all duration-100"
+                      @mouseenter="hovered[5] = true" @mouseleave="hovered[5] = false">
+
+                      <!-- Primer bloque de texto -->
+                      <div
+                          class="text-[170px] pt-24 pb-24 text-end leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
+                          Vinos
+                      </div>
+
+                      <!-- Imagen en el centro (aparece en la tercera columna al hacer hover con animación de ancho) -->
+                      <div v-show="hovered[5]" loading="lazy"
+                          class=" max-sm:hidden h-full transition-width bg-cover bg-center shadow-lg flex justify-center transition-opacity duration-1000 ease-in-out transform origin-top scale-y-0 opacity-100 transition-width"
+                          :class="{ 'scale-y-100 width-full': hovered[5] }"
+                          :style="{ backgroundImage: `url(${imageUrlPrau})` }">
+                      </div>
+
+                      <!-- Segundo bloque de texto -->
+                      <div
+                          class="text-[170px] pt-24 pb-24 text-start leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
+                          Prau
+                      </div>
+                  </div>
+              </div>
+          </NuxtLink>
+
+          <NuxtLink to="/MetrodeMadrid">
+              <div class="trabajos bg-[#f7faf7]">
+                  <div class="grid grid-cols-2 hover:grid-cols-3 text-zinc-800 bg-[#f7faf7] pt-4 pb-4 max-[1920px]:py-[10px] items-center border-zinc-400 border border-r-0 border-l-0 border-1 border-t-0 mx-20 max-sm:mx-6 max-sm:py-2 max-sm:gap-[10px] gap-8 justify-center transition-all duration-100"
+                      @mouseenter="hovered[3] = true" @mouseleave="hovered[3] = false">
+
+                      <!-- Primer bloque de texto -->
+                      <div
+                          class="text-[170px] pt-24 pb-24 text-end leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
+                          Metro
+                      </div>
+
+                      <!-- Imagen en el centro (aparece en la tercera columna al hacer hover con animación de ancho) -->
+                      <div v-show="hovered[3]" loading="lazy"
+                          class=" max-sm:hidden h-full transition-width bg-cover bg-center shadow-lg flex justify-center transition-opacity duration-1000 ease-in-out transform origin-top scale-y-0 opacity-100 transition-width"
+                          :class="{ 'scale-y-100 width-full': hovered[3] }"
+                          :style="{ backgroundImage: `url(${imageUrlMetro})` }">
+                      </div>
+
+                      <!-- Segundo bloque de texto -->
+                      <div
+                          class="text-[170px] pt-24 pb-24 text-start leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
+                          Madrid
+                      </div>
+                  </div>
+              </div>
+          </NuxtLink>
+
+          <NuxtLink to="/Movistar">
+              <div class="trabajos bg-[#f7faf7]">
+                  <div class="grid grid-cols-2 hover:grid-cols-3 text-zinc-800 bg-[#f7faf7] pt-4 pb-4 max-[1920px]:py-[10px] items-center border-zinc-400 border border-r-0 border-l-0 border-1 border-t-0 mx-20 max-sm:mx-6 max-sm:py-2 max-sm:gap-[10px] gap-8 justify-center transition-all duration-100"
+                      @mouseenter="hovered[4] = true" @mouseleave="hovered[4] = false">
+
+                      <!-- Primer bloque de texto -->
+                      <div
+                          class="text-[170px] pt-24 pb-24 text-end leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
+                          Animación
+                      </div>
+
+                      <!-- Imagen en el centro (aparece en la tercera columna al hacer hover con animación de ancho) -->
+                      <div v-show="hovered[4]" loading="lazy"
+                          class=" max-sm:hidden h-full transition-width bg-cover bg-center shadow-lg flex justify-center transition-opacity duration-1000 ease-in-out transform origin-top scale-y-0 opacity-100 transition-width"
+                          :class="{ 'scale-y-100 width-full': hovered[4] }"
+                          :style="{ backgroundImage: `url(${imageUrlMovistar})` }">
+                      </div>
+
+                      <!-- Segundo bloque de texto -->
+                      <div
+                          class="text-[170px] pt-24 pb-24 text-start leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
+                          Movistar
+                      </div>
+                  </div>
+              </div>
+          </NuxtLink>
+
+
+          <NuxtLink to="/Audiovisuales">
+              <div class="trabajos bg-[#f7faf7]">
+                  <div class="grid grid-cols-2 hover:grid-cols-3 text-zinc-800 bg-[#f7faf7] pt-4 pb-4 max-[1920px]:py-[10px] items-center border-zinc-400 border border-r-0 border-l-0 border-1 border-t-0 mx-20 max-sm:mx-6 max-sm:py-2 max-sm:gap-[10px] gap-8 justify-center transition-all duration-100"
+                      @mouseenter="hovered[6] = true" @mouseleave="hovered[6] = false">
+
+                      <!-- Primer bloque de texto -->
+                      <div
+                          class="text-[170px] pt-24 pb-24 text-end leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
+                          Colección
+                      </div>
+
+                      <!-- Imagen en el centro (aparece en la tercera columna al hacer hover con animación de ancho) -->
+                      <div v-show="hovered[6]" loading="lazy"
+                          class=" max-sm:hidden h-full transition-width bg-cover bg-center shadow-lg flex justify-center transition-opacity duration-1000 ease-in-out transform origin-top scale-y-0 opacity-100 transition-width"
+                          :class="{ 'scale-y-100 width-full': hovered[6] }"
+                          :style="{ backgroundImage: `url(${imageUrlAudiovisuales})` }">
+                      </div>
+
+                      <!-- Segundo bloque de texto -->
+                      <div
+                          class="text-[170px] pt-24 pb-24 text-start leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
+                          Visuales
+                      </div>
+                  </div>
+              </div>
+          </NuxtLink>
+
+
+          <NuxtLink to="/YelmoCines">
+              <div class="trabajos bg-[#f7faf7]">
+                  <div class="grid grid-cols-2 hover:grid-cols-3 text-zinc-800 bg-[#f7faf7] pt-4 pb-4 max-[1920px]:py-[10px] items-center border-zinc-400 border border-r-0 border-l-0 border-1 border-t-0 mx-20 max-sm:mx-6 max-sm:py-2 max-sm:gap-[10px] gap-8 justify-center transition-all duration-100"
+                      @mouseenter="hovered[7] = true" @mouseleave="hovered[7] = false">
+
+                      <!-- Primer bloque de texto -->
+                      <div
+                          class="text-[170px] pt-24 pb-24 text-end leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
+                          Yelmo
+                      </div>
+
+                      <!-- Imagen en el centro (aparece en la tercera columna al hacer hover con animación de ancho) -->
+                      <div v-show="hovered[7]" loading="lazy"
+                          class=" max-sm:hidden h-full transition-width bg-cover bg-center shadow-lg flex justify-center transition-opacity duration-1000 ease-in-out transform origin-top scale-y-0 opacity-100 transition-width"
+                          :class="{ 'scale-y-100 width-full': hovered[7] }"
+                          :style="{ backgroundImage: `url(${imageUrlYelmo})` }">
+                      </div>
+
+                      <!-- Segundo bloque de texto -->
+                      <div
+                          class="text-[170px] pt-24 pb-24 text-start leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
+                          Cines
+                      </div>
+                  </div>
+              </div>
+          </NuxtLink>
+
+          <NuxtLink to="/Typenotes">
+              <div class="trabajos bg-[#f7faf7]">
+                  <div class="grid grid-cols-2 hover:grid-cols-3 text-zinc-800 bg-[#f7faf7] pt-4 pb-4 max-[1920px]:py-[10px] items-center border-zinc-400 border border-r-0 border-l-0 border-1 border-t-0 mx-20 max-sm:mx-6 max-sm:py-2 max-sm:gap-[10px] gap-8 justify-center transition-all duration-100"
+                      @mouseenter="hovered[8] = true" @mouseleave="hovered[8] = false">
+
+                      <!-- Primer bloque de texto -->
+                      <div
+                          class="text-[170px] pt-24 pb-24 text-end leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
+                          Revista
+                      </div>
+
+                      <!-- Imagen en el centro (aparece en la tercera columna al hacer hover con animación de ancho) -->
+                      <div v-show="hovered[8]" loading="lazy"
+                          class=" max-sm:hidden h-full transition-width bg-cover bg-center shadow-lg flex justify-center transition-opacity duration-1000 ease-in-out transform origin-top scale-y-0 opacity-100 transition-width"
+                          :class="{ 'scale-y-100 width-full': hovered[8] }"
+                          :style="{ backgroundImage: `url(${imageUrlTypenotes})` }">
+                      </div>
+
+                      <!-- Segundo bloque de texto -->
+                      <div
+                          class="text-[170px] pt-24 pb-24 text-start leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
+                          Typenotes
+                      </div>
+                  </div>
+              </div>
+          </NuxtLink>
+
+
+          <NuxtLink to="/WebESD">
+              <div class="trabajos bg-[#f7faf7]">
+                  <div class="grid grid-cols-2 hover:grid-cols-3 text-zinc-800 bg-[#f7faf7] pt-4 pb-4 max-[1920px]:py-[10px] items-center border-zinc-400 border border-r-0 border-l-0 border-1 border-t-0 mx-20 max-sm:mx-6 max-sm:py-2 max-sm:gap-[10px] gap-8 justify-center transition-all duration-100"
+                      @mouseenter="hovered[9] = true" @mouseleave="hovered[9] = false">
+
+                      <!-- Primer bloque de texto -->
+                      <div
+                          class="text-[170px] pt-24 pb-24 text-end leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
+                          Web
+                      </div>
+
+                      <!-- Imagen en el centro (aparece en la tercera columna al hacer hover con animación de ancho) -->
+                      <div v-show="hovered[9]" loading="lazy"
+                          class=" max-sm:hidden h-full transition-width bg-cover bg-center shadow-lg flex justify-center transition-opacity duration-1000 ease-in-out transform origin-top scale-y-0 opacity-100 transition-width"
+                          :class="{ 'scale-y-100 width-full': hovered[9] }"
+                          :style="{ backgroundImage: `url(${imageUrlWebESD})` }">
+                      </div>
+
+                      <!-- Segundo bloque de texto -->
+                      <div
+                          class="text-[170px] pt-24 pb-24 text-start leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
+                          ESD
+                      </div>
+                  </div>
+              </div>
+          </NuxtLink>
+
+          <NuxtLink to="/Fotografias">
+              <div class="trabajos bg-[#f7faf7]">
+                  <div class="grid grid-cols-2 hover:grid-cols-3 text-zinc-800 bg-[#f7faf7] pt-4 pb-4 max-[1920px]:py-[10px] items-center border-zinc-400 border border-r-0 border-l-0 border-1 border-t-0 mx-20 max-sm:mx-6 max-sm:py-2 max-sm:gap-[10px] gap-8 justify-center transition-all duration-100"
+                      @mouseenter="hovered[10] = true" @mouseleave="hovered[10] = false">
+
+                      <!-- Primer bloque de texto -->
+                      <div
+                          class="text-[170px] pt-24 pb-24 text-end leading-[4rem] max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3.5rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
+                          Colección
+                      </div>
+
+                      <!-- Imagen en el centro (aparece en la tercera columna al hacer hover con animación de ancho) -->
+                      <div v-show="hovered[10]" loading="lazy"
+                          class=" max-sm:hidden h-full transition-width bg-cover bg-center shadow-lg flex justify-center transition-opacity duration-1000 ease-in-out transform origin-top scale-y-0 opacity-100 transition-width"
+                          :class="{ 'scale-y-100 width-full': hovered[10] }"
+                          :style="{ backgroundImage: `url(${imageUrlFotografias})` }">
+                      </div>
+
+                      <!-- Segundo bloque de texto -->
+                      <div
+                          class="text-[170px] max-[600px]:flex text-start pt-24 pb-24 leading-[4rem] max-sm:py-6 max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
+                          Fotografía
+                      </div>
+                  </div>
+              </div>
+          </NuxtLink>
+
+
+          <NuxtLink to="/GarridoGallery">
+              <div class="trabajos bg-[#f7faf7]">
+                  <div class="grid grid-cols-2 hover:grid-cols-3 text-zinc-800 bg-[#f7faf7] pt-4 pb-4 max-[1920px]:py-[10px] items-center border-zinc-400 border border-r-0 border-l-0 border-1 border-t-0 mx-20 max-sm:mx-6 max-sm:py-2 max-sm:gap-[10px] gap-8 justify-center transition-all duration-100"
+                      @mouseenter="hovered[11] = true" @mouseleave="hovered[11] = false">
+
+                      <!-- Primer bloque de texto -->
+                      <div
+                          class="text-[170px] pt-24 pb-24 text-end leading-[4rem] max-sm:py-6 max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
+                          Garrido
+                      </div>
+
+                      <!-- Imagen en el centro (aparece en la tercera columna al hacer hover con animación de ancho) -->
+                      <div v-show="hovered[11]" loading="lazy"
+                          class=" max-sm:hidden h-full transition-width bg-cover bg-center shadow-lg flex justify-center transition-opacity duration-1000 ease-in-out transform origin-top scale-y-0 opacity-100 transition-width"
+                          :class="{ 'scale-y-100 width-full': hovered[11] }"
+                          :style="{ backgroundImage: `url(${imageUrlGarridoGallery})` }">
+                      </div>
+
+                      <!-- Segundo bloque de texto -->
+                      <div
+                          class="text-[170px] text-start pt-24 pb-24 leading-[4rem] max-sm:py-6 max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
+
+                          Gallery
+                      </div>
+                  </div>
+              </div>
+          </NuxtLink>
+
+          <NuxtLink to="/Ilustraciones">
+              <div class="trabajos bg-[#f7faf7]">
+                  <div class="grid grid-cols-2 hover:grid-cols-3 text-zinc-800 bg-[#f7faf7] pt-4 pb-4 max-[1920px]:py-[10px] items-center border-zinc-400 border border-r-0 border-l-0 border-1 border-t-0 mx-20 max-sm:mx-6 max-sm:py-2 max-sm:gap-[10px] gap-8 justify-center transition-all duration-100"
+                      @mouseenter="hovered[12] = true" @mouseleave="hovered[12] = false">
+
+                      <!-- Primer bloque de texto -->
+                      <div
+                          class="text-[170px] pt-24 pb-24 text-end leading-[4rem] max-sm:py-6 max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
+                          Colección
+                      </div>
+
+                      <!-- Imagen en el centro (aparece en la tercera columna al hacer hover con animación de ancho) -->
+                      <div v-show="hovered[12]" loading="lazy"
+                          class=" max-sm:hidden h-full transition-width bg-cover bg-center shadow-lg flex justify-center transition-opacity duration-1000 ease-in-out transform origin-top scale-y-0 opacity-100 transition-width"
+                          :class="{ 'scale-y-100 width-full': hovered[12] }"
+                          :style="{ backgroundImage: `url(${imageUrlIlustraciones})` }">
+                      </div>
+
+                      <!-- Segundo bloque de texto -->
+
+                      <div
+                          class="text-[170px] max-[1920px]:flex text-start pt-24 pb-24 leading-[4rem] max-sm:py-6 max-sm:text-[40px] cursor-pointer max-[1920px]:leading-[3rem] max-[1920px]:text-[120px] max-sm:pt-2 max-sm:pb-2">
+                          Ilustración
+                      </div>
+                  </div>
+              </div>
+          </NuxtLink>
+
+
+
+      </div>
+
+      <div class="trabajos hidden max-sm:block " id="trabajos2">
+
+          <NuxtLink to="/Matutano">
+              <div class="pt-20 trabajos bg-[#f7faf7] max-sm:bg-[#fafafa] max-sm:pt-4 px-2">
+                  <div
+                      class="imagen h-[414px] bg-zinc-300 overflow-hidden flex justify-center items-center rounded-[6px]">
+                      <img class="w-full h-full object-cover" src="/img/fotorealpackaging22.png">
+                  </div>
+              </div>
+              <div class="texto">
+                  <div class="text-[16px] pl-2 text-zinc-800">
+                      MATUTANO SALUDABLE
+                  </div>
+                  <div class="text-[16px] leading-4 pl-2 text-zinc-800">
+                      Ver el proyecto ⤤
+                  </div>
+              </div>
+          </NuxtLink>
+
+          <NuxtLink to="/CajaOporto">
+              <div class="pt-20 trabajos bg-[#f7faf7] max-sm:bg-[#fafafa] max-sm:pt-4 px-2">
+
+                  <!-- Contenedor de imagen responsiva -->
+                  <div
+                      class="imagen h-[414px] bg-zinc-300 overflow-hidden flex justify-center items-center rounded-[6px]">
+                      <img class="w-full h-full object-cover" src="/img/IMG_25772.jpg" alt="Matutano Saludable">
+                  </div>
+              </div>
+              <div class="texto">
+                  <div class="text-[16px] pl-2 text-zinc-800">
+                      CAJA OPORTO
+                  </div>
+                  <div class="text-[16px] leading-4 pl-2 text-zinc-800">
+                      Ver el proyecto ⤤
+                  </div>
+              </div>
+          </NuxtLink>
+
+
+          <NuxtLink to="/Member">
+              <div class="pt-20 trabajos bg-[#f7faf7] max-sm:bg-[#fafafa] max-sm:pt-4 px-2">
+
+                  <!-- Contenedor de imagen responsiva -->
+                  <div
+                      class="imagen h-[414px] bg-zinc-300 overflow-hidden flex justify-center items-center rounded-[6px]">
+                      <img class="w-full h-full object-cover" src="/img/member30.gif" alt="Matutano Saludable">
+                  </div>
+              </div>
+              <div class="texto">
+                  <div class="text-[16px] pl-2 text-zinc-800">
+                      ASISTENTE MEMBER
+                  </div>
+                  <div class="text-[16px] leading-4 pl-2 text-zinc-800">
+                      Ver el proyecto ⤤
+                  </div>
+              </div>
+          </NuxtLink>
+
+          <NuxtLink to="/CajaOporto">
+              <div class="pt-20 trabajos bg-[#f7faf7] max-sm:bg-[#fafafa] max-sm:pt-4 px-2">
+
+                  <!-- Contenedor de imagen responsiva -->
+                  <div
+                      class="imagen h-[414px] bg-zinc-300 overflow-hidden flex justify-center items-center rounded-[6px]">
+                      <img class="w-full h-full object-cover" src="/img/vinospng.png" alt="Matutano Saludable">
+                  </div>
+              </div>
+              <div class="texto">
+                  <div class="text-[16px] pl-2 text-zinc-800">
+                      VINOS PRAU
+                  </div>
+                  <div class="text-[16px] leading-4 pl-2 text-zinc-800">
+                      Ver el proyecto ⤤
+                  </div>
+              </div>
+          </NuxtLink>
+
+          <NuxtLink to="/MetrodeMadrid">
+              <div class="pt-20 trabajos bg-[#f7faf7] max-sm:bg-[#fafafa] max-sm:pt-4 px-2">
+
+                  <!-- Contenedor de imagen responsiva -->
+                  <div
+                      class="imagen h-[414px] bg-zinc-300 overflow-hidden flex justify-center items-center rounded-[6px]">
+                      <img class="w-full h-full object-cover" src="/img/Fotolibro_RubénMaldonadoGonzález388.jpg"
+                          alt="Matutano Saludable">
+                  </div>
+              </div>
+              <div class="texto">
+                  <div class="text-[16px] pl-2 text-zinc-800">
+                      METRO MADRID ⤤
+                  </div>
+                  <div class="text-[16px] leading-4 pl-2 text-zinc-800">
+                      Ver el proyecto
+                  </div>
+              </div>
+          </NuxtLink>
+
+          <NuxtLink to="/Movistar">
+              <div class="pt-20 trabajos bg-[#f7faf7] max-sm:bg-[#fafafa] max-sm:pt-4 px-2">
+
+                  <!-- Contenedor de imagen responsiva -->
+                  <div
+                      class="imagen h-[414px] bg-zinc-300 overflow-hidden flex justify-center items-center rounded-[6px]">
+                      <img class="w-full h-full object-cover" src="/img/movistardark.gif" alt="Matutano Saludable">
+                  </div>
+              </div>
+              <div class="texto">
+                  <div class="text-[16px] pl-2 text-zinc-800">
+                      ANIMACIÓN MOVISTAR ⤤
+                  </div>
+                  <div class="text-[16px] leading-4 pl-2 text-zinc-800">
+                      Ver el proyecto
+                  </div>
+              </div>
+          </NuxtLink>
+
+
+          <NuxtLink to="/Audiovisuales">
+              <div class="pt-20 trabajos bg-[#f7faf7] max-sm:bg-[#fafafa] max-sm:pt-4 px-2">
+
+                  <!-- Contenedor de imagen responsiva -->
+                  <div
+                      class="imagen h-[414px] bg-zinc-300 overflow-hidden flex justify-center items-center rounded-[6px]">
+                      <img class="w-full h-full object-cover" src="/img/videoruben.gif" alt="Matutano Saludable">
+                  </div>
+              </div>
+              <div class="texto">
+                  <div class="text-[16px] pl-2 text-zinc-800">
+                      COLECCIÓN AUDIOVISUALES
+                  </div>
+                  <div class="text-[16px] leading-4 pl-2 text-zinc-800">
+                      Ver el proyecto ⤤
+                  </div>
+              </div>
+          </NuxtLink>
+
+
+          <NuxtLink to="/YelmoCines">
+              <div class="pt-20 trabajos bg-[#f7faf7] max-sm:bg-[#fafafa] max-sm:pt-4 px-2">
+
+                  <!-- Contenedor de imagen responsiva -->
+                  <div
+                      class="imagen h-[414px] bg-zinc-300 overflow-hidden flex justify-center items-center rounded-[6px]">
+                      <img class="w-full h-full object-cover" src="/img/gifyelmo2.gif" alt="Matutano Saludable">
+                  </div>
+              </div>
+              <div class="texto">
+                  <div class="text-[16px] pl-2 text-zinc-800">
+                      YELMO CINES
+                  </div>
+                  <div class="text-[16px] leading-4 pl-2 text-zinc-800">
+                      Ver el proyecto ⤤
+                  </div>
+              </div>
+          </NuxtLink>
+
+          <NuxtLink to="/Typenotes">
+              <div class="pt-20 trabajos bg-[#f7faf7] max-sm:bg-[#fafafa] max-sm:pt-4 px-2">
+
+                  <!-- Contenedor de imagen responsiva -->
+                  <div
+                      class="imagen h-[414px] bg-black overflow-hidden flex justify-center items-center rounded-[6px]">
+                      <img class="object-cover" src="/img/Comp_2.gif" alt="Matutano Saludable">
+                  </div>
+              </div>
+              <div class="texto">
+                  <div class="text-[16px] pl-2 text-zinc-800">
+                      REVISTA TYPENOTES
+                  </div>
+                  <div class="text-[16px] leading-4 pl-2 text-zinc-800">
+                      Ver el proyecto ⤤
+                  </div>
+              </div>
+          </NuxtLink>
+
+
+          <NuxtLink to="/WebESD">
+              <div class="pt-20 trabajos bg-[#f7faf7] max-sm:bg-[#fafafa] max-sm:pt-4 px-2">
+
+                  <!-- Contenedor de imagen responsiva -->
+                  <div
+                      class="imagen h-[414px] bg-zinc-300 overflow-hidden flex justify-center items-center rounded-[6px]">
+                      <img class="w-full h-full object-cover" src="/img/mockupesd.png" alt="Matutano Saludable">
+                  </div>
+              </div>
+              <div class="texto">
+                  <div class="text-[16px] pl-2 text-zinc-800">
+                      WEB ESD
+                  </div>
+                  <div class="text-[16px] leading-4 pl-2 text-zinc-800">
+                      Ver el proyecto ⤤
+                  </div>
+              </div>
+          </NuxtLink>
+
+          <NuxtLink to="/Fotografias">
+              <div class="pt-20 trabajos bg-[#f7faf7] max-sm:bg-[#fafafa] max-sm:pt-4 px-2">
+
+                  <!-- Contenedor de imagen responsiva -->
+                  <div
+                      class="imagen h-[414px] bg-zinc-300 overflow-hidden flex justify-center items-center rounded-[6px]">
+                      <img class="w-full h-full object-cover" src="/img/fotos6.jpg" alt="tenerife">
+                  </div>
+              </div>
+              <div class="texto">
+                  <div class="text-[16px] pl-2 text-zinc-800">
+                      COLECCIÓN FOTOGRÁFICA
+                  </div>
+                  <div class="text-[16px] leading-4 pl-2 text-zinc-800">
+                      Ver el proyecto ⤤
+                  </div>
+              </div>
+          </NuxtLink>
+
+
+          <NuxtLink to="/GarridoGallery">
+              <div class="pt-20 trabajos bg-[#f7faf7] max-sm:bg-[#fafafa] max-sm:pt-4 px-2">
+
+                  <!-- Contenedor de imagen responsiva -->
+                  <div
+                      class="imagen h-[414px] bg-zinc-300 overflow-hidden flex justify-center items-center rounded-[6px]">
+                      <img class="w-full h-full object-cover" src="/img/Publicacioninstagram5.png" alt="tenerife">
+                  </div>
+              </div>
+              <div class="texto">
+                  <div class="text-[16px] pl-2 text-zinc-800">
+                      GARRIDO GALLERY
+                  </div>
+                  <div class="text-[16px] leading-4 pl-2 text-zinc-800">
+                      Ver el proyecto ⤤
+                  </div>
+              </div>
+          </NuxtLink>
+
+          <NuxtLink to="/Ilustraciones">
+              <div class="pt-20 trabajos bg-[#f7faf7] max-sm:bg-[#fafafa] max-sm:pt-4 px-2">
+
+                  <!-- Contenedor de imagen responsiva -->
+                  <div
+                      class="imagen h-[414px] bg-zinc-300 overflow-hidden flex justify-center items-center rounded-[6px]">
+                      <img class="w-full h-full object-cover" src="/img/animacionilustraciones.gif" alt="tenerife">
+                  </div>
+              </div>
+              <div class="texto">
+                  <div class="text-[16px] pl-2 text-zinc-800">
+                      COLECCIÓN ILUSTRACIONES
+                  </div>
+                  <div class="text-[16px] leading-4 pl-2 text-zinc-800">
+                      Ver el proyecto ⤤
+                  </div>
+              </div>
+          </NuxtLink>
+
+
+
+      </div>
+
+
+      <div id="colaboraciones"
+          class="texto flex w-full max-sm:bg-[#fafafa] bg-[#f7faf7] text-black max-sm:px-6 max-sm:pb-2 max-sm:pt-24 px-20 pt-64 justify-between">
+          <p
+              class="caja2 text-left max-sm:text-[30px] max-sm:leading-[2rem] font-['Neue'] text-[50px] leading-[3rem] pb-24 max-sm:pb-12 cursor-pointer text-zinc-800 ">
+              Colaboraciones <br>/ Otros proyectos
+          </p>
+
+
+      </div>
+
+      <div
+          class="grid grid-cols-3 max-sm:grid-cols-1 max-sm:px-6 bg-[#f7faf7] max-sm:bg-[#fafafa] px-20 pt-12 pb-6 gap-12 ">
+          <a class="text-start underline max-sm:text-start max-sm:ml-2" target="_blank"
+              href="https://www.reasonwhy.es/actualidad/nueva-identidad-ecovidrio-contenedor-verde-2024">Articulo
+              Reason Why</a>
+      </div>
+
+      <div
+          class="grid grid-cols-3 max-sm:grid-cols-1 max-sm:px-6 bg-[#f7faf7] max-sm:bg-[#fafafa] px-20 gap-12 max-sm:gap-6 pb-64 max-sm:pb-24">
+          <a href="https://www.prodigiosovolcan.com/proyectos/identidad-visual-ecovidrio" target="_blank"
+              class="relative group duration-500 cursor-pointer group overflow-hidden relative text-gray-50 w-full rounded-t-2xl max-sm:rounded-2xl hover:duration-700 duration-700">
+              <img src="/img/ecovidrio.svg" class="w-full">
+              <div
+                  class="hidden max-sm:block bg-gray-300 max-sm:bg-white -bottom-[105px] p-3 flex flex-col gap-1 w-full">
+                  <span class="text-sm text-gray-800 font-['Neue'] max-sm:pb-2 max-sm:pl-2">MICROILUSTRACIONES
+                      ECOVIDRIO</span>
+              </div>
+              <div
+                  class="absolute max-sm:hidden bg-gray-300 max-sm:bg-white -bottom-[105px] p-3 flex flex-col gap-1 w-full group-hover:-bottom-0 max-sm: group-hover:duration-600 duration-500">
+                  <div class="flex">
+                      <span class="text-sm text-gray-800 font-['Neue'] max-sm:pb-2 max-sm:pl-2">MICROILUSTRACIONES
+                          ECOVIDRIO</span>
+
+
+                  </div>
+                  <span class="text-gray-800 font-bold pr-6 pb-6 text-right text-3xl">Prodigioso<br>Volcán ⤤</span>
+
+              </div>
+
+
+          </a>
+          <a href="https://www.vozpopuli.com/branded-content/peldanos-marmol-revestir-rascacielos-almeria-grupo-cosentino.html"
+              target="_blank"
+              class="relative group duration-500 cursor-pointer group overflow-hidden relative text-gray-50 w-full rounded-t-2xl max-sm:rounded-2xl hover:duration-700 duration-700">
+              <img src="/img/sabadell.png" class="w-full">
+              <div
+                  class="hidden max-sm:block bg-gray-300 max-sm:bg-white -bottom-[105px] p-3 flex flex-col gap-1 w-full">
+                  <span class="text-sm text-gray-800 font-['Neue'] max-sm:pb-2 max-sm:pl-2">ILUSTRACIONES
+                      SABADELL</span>
+              </div>
+              <div
+                  class="absolute max-sm:hidden bg-gray-300 max-sm:bg-white -bottom-[105px] p-3 flex flex-col gap-1 w-full group-hover:-bottom-0 max-sm: group-hover:duration-600 duration-500">
+                  <span class="text-sm text-gray-800 font-['Neue'] max-sm:pb-2 max-sm:pl-2">ILUSTRACIONES
+                      SABADELL</span>
+                  <span class="text-gray-800 font-bold pr-6 pb-6 text-right text-3xl">Artículo<br>Sabadell
+                      ⤤</span>
+              </div>
+
+
+          </a>
+          <a href="https://faux-noticiario.netlify.app/" target="_blank"
+              class="relative group duration-500 cursor-pointer group overflow-hidden relative text-gray-50 w-full rounded-t-2xl max-sm:rounded-2xl hover:duration-700 duration-700">
+              <img src="/img/fauxproyecto.png" class="w-full">
+              <div
+                  class="hidden max-sm:block bg-gray-300 max-sm:bg-white -bottom-[105px] p-3 flex flex-col gap-1 w-full">
+                  <span class="text-sm text-gray-800 font-['Neue'] max-sm:pb-2 max-sm:pl-2">PROYECTO FAUX</span>
+              </div>
+              <div
+                  class="absolute max-sm:hidden bg-gray-300 max-sm:bg-white -bottom-[105px] p-3 flex flex-col gap-1 w-full group-hover:-bottom-0 max-sm: group-hover:duration-600 duration-500">
+                  <span class="text-sm text-gray-800 font-['Neue'] max-sm:pb-2 max-sm:pl-2">PROYECTO FAUX</span>
+                  <span class="text-gray-800 font-bold pr-6 pb-6 text-right text-3xl">Web<br>Faux ⤤</span>
+              </div>
+
+
           </a>
 
-
-          <a href="#servicios"
-            class="text text-right text-[26px] uppercase font-['PPE-UltralightItalic'] tracking-normal flex flex-col items-left max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[18px] max-sm:leading-[1rem] max-sm:pb-0 max-sm:text-center max-[1920px]:text-[22px]">
-            Servicios.
-          </a>
-          <a href="#sobremi"
-            class="text text-right text-[26px] uppercase font-['PPE-UltralightItalic'] tracking-normal flex flex-col items-left max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[18px] max-sm:leading-[1rem] max-sm:pb-0 max-sm:text-center max-[1920px]:text-[22px]">
-            Sobre mi.
-          </a>
-          <a href="#tienda"
-            class="text text-right text-[26px] uppercase font-['PPE-UltralightItalic'] tracking-normal flex flex-col items-left max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[18px] max-sm:leading-[1rem] max-sm:pb-4 max-sm:text-center max-[1920px]:text-[22px]">
-            Tienda.
-          </a>
-
-
-
-        </div>
-
-
       </div>
 
-      <div class="texto2 flex max-sm:hidden gap-6 justify-center self-end">
-
-        <div
-          class="text place-self-end text-[14px] max-sm:text-[12px] max-sm:leading-[1rem] text-black leading-[18px] font-['Neue'] tracking-normal flex flex-col items-left justify-self-start max-3xl:text-[30px] max-sm:pt-2 max-sm:pb-4 max-sm:text-center max-[1920px]:leading-[20px]">
-          <a class="bg-[#CB2E5D] bg-opacity-10 hover:bg-opacity-100 text-[#252422] hover:text-[#F5F5F5] mb-1">&nbsp;[
-            PACKAGING&nbsp;</a>
-          <a class="bg-[#F59A37] bg-opacity-10 hover:bg-opacity-100 text-[#252422] hover:text-[#F5F5F5] mb-1">&nbsp;[
-            EDITORIAL&nbsp;</a>
-          <a class="bg-[#0449AF] bg-opacity-10 hover:bg-opacity-100 text-[#252422] hover:text-[#F5F5F5]">&nbsp;[
-            MARCA&nbsp;</a>
-        </div>
-
-        <div
-          class="text text-[14px] max-sm:text-[12px] max-sm:leading-[1rem] text-black leading-[18px] font-['Neue'] tracking-normal flex flex-col items-left justify-self-start max-3xl:text-[30px] max-sm:pt-2 max-sm:pb-4 max-sm:text-center max-[1920px]:leading-[20px]">
-          <a class="bg-[#CB2E5D] bg-opacity-10 hover:bg-opacity-100 text-[#252422] hover:text-[#F5F5F5] mb-1">&nbsp;ILUSTRACIÓN
-            ]&nbsp;</a>
-          <a class="bg-[#F59A37] bg-opacity-10 hover:bg-opacity-100 text-[#252422] hover:text-[#F5F5F5] mb-1">&nbsp;RENDER
-            ]&nbsp;</a>
-          <a class="bg-[#0449AF] bg-opacity-10 hover:bg-opacity-100 text-[#252422] hover:text-[#F5F5F5]">&nbsp;AUDIOVISUALES
-            ]&nbsp;</a>
-        </div>
-
-
-      </div>
-
-      <div class="texto3 flex flex-col place-self-end max-sm:place-self-end max-sm:pt-0 max-sm:hidden">
-
-        <a href="#sobremi"
-          class="text text-right hover:text-zinc-400 decoration-1 underline-offset-4 decoration-slate-500 underline text-[22px] uppercase leading-[30px] font-['PPE-UltralightItalic'] tracking-normal flex flex-col items-left max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[18px] max-sm:leading-[1rem] max-sm:pb-4 max-sm:text-center max-[1920px]:text-[22px]">
-          > Sobre mi.
-        </a>
-        <a href="#trabajos"
-          class="text text-right hover:text-zinc-400 decoration-1 underline-offset-4 decoration-slate-500 underline text-[22px] uppercase leading-[30px] font-['PPE-UltralightItalic'] tracking-normal flex flex-col items-left max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[18px] max-sm:leading-[1rem] max-sm:pb-4 max-sm:text-center max-[1920px]:text-[22px]">
-          > Trabajos.
-        </a>
-
-
-        <a href="#servicios"
-          class="text text-right hover:text-zinc-400 decoration-1 underline-offset-4 decoration-slate-500 underline text-[22px] uppercase leading-[30px] font-['PPE-UltralightItalic'] tracking-normal flex flex-col items-left max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[18px] max-sm:leading-[1rem] max-sm:pb-4 max-sm:text-center max-[1920px]:text-[22px]">
-          > Servicios.
-        </a>
-        <a href="#tienda"
-          class="text text-right hover:text-zinc-400 decoration-1 underline-offset-4 decoration-slate-500 underline text-[22px] uppercase leading-[30px] font-['PPE-UltralightItalic'] tracking-normal flex flex-col items-left max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[18px] max-sm:leading-[1rem] max-sm:pb-4 max-sm:text-center max-[1920px]:text-[22px]">
-          > Tienda.
-        </a>
-
-
-
-
-      </div>
-
-
-
-    </div>
-
-    <!-- <div id="trabajos" class="grid grid-cols-7 px-32 pt-24 pb-24">
-      <img class="w-[40px] h-[40px] opacity-40" src="/img/formas-07.svg">
-      <img class="w-[40px] h-[40px] opacity-40" src="/img/formas-08.svg">
-      <img class="w-[40px] h-[40px] opacity-40" src="/img/formas-09.svg">
-      <img class="w-[40px] h-[40px] place-self-center opacity-40" src="/img/formas-10.svg">
-      <img class="w-[40px] h-[40px] place-self-end opacity-40" src="/img/formas-09.svg">
-      <img class="w-[40px] h-[40px] place-self-end opacity-40" src="/img/formas-08.svg">
-      <img class="w-[40px] h-[40px] place-self-end opacity-40" src="/img/formas-07.svg">
-
-    </div>
-      -->
-
-    <div id="trabajos"
-      class="text text-center text-[120px] pb-12 pt-40 text-zinc-900 tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
-      ↓
-    </div>
-
-    <div
-      class="accede2 hidden max-sm:flex px-64 text-center justify-center text-zinc-600 pb-16 text-xs max-[720px]:px-4 max-sm:px-20 max-sm:pb-12 max-sm:pt-16">
-      «Baja para ver los trabajos y clickea sobre uno para saber más sobre el»
-    </div>
-
-    <div
-      class="grid grid-flow-cols grid-cols-1 text-center max-[1450px]:grid-cols-1 animate-pulse max-[1920px]:grid-cols-1 max-sm:grid-cols-1">
 
       <div
-        class=" bg-orange-400 pb-[2px] pt-[2px] font-['Neue'] max-sm:py:[0px] max-sm:font-['Neue'] text-[14px] border border-orange-400 text-white justify-center content-center max-sm:text-[10px]">
-        <NuxtMarquee>
-          <MyComponent />- PÁGINAS NUEVAS - PÁGINAS NUEVAS - PÁGINAS NUEVAS - PÁGINAS NUEVAS - PÁGINAS NUEVAS - PÁGINAS
-          NUEVAS - BEST SELLER - PÁGINAS NUEVAS - PÁGINAS
-          NUEVAS - PÁGINAS NUEVAS - PÁGINAS NUEVAS - PÁGINAS NUEVAS - PÁGINAS NUEVAS
-          <MyComponent /> PÁGINAS NUEVAS - PÁGINAS NUEVAS - PÁGINAS NUEVAS - PÁGINAS NUEVAS - PÁGINAS NUEVAS - PÁGINAS
-          NUEVAS - BEST SELLER - PÁGINAS NUEVAS - PÁGINAS
-          NUEVAS - PÁGINAS NUEVAS - PÁGINAS NUEVAS - PÁGINAS NUEVAS - PÁGINAS NUEVAS -
-        </NuxtMarquee>
-
-      </div>
-    </div>
-
-    <NuxtLink class="max-sm:hidden" to="/CajaOporto">
-      <div
-        class="trabajo1 border border-solid border-r-1 border-t-0 border-b-0 px-20 py-32 flex flex-col justify-center hover:bg-[url('/img/libroimpreso.webp')] hover:text-white bg-cover bg-center max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
-        <div
-          class="text text-center text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
-          Caja <br />
-          <p class="font-['PPE-Ultralight']">OPORTO</p>
-        </div>
-        <div
-          class="text text-[14px] text-center font-['Neue'] leading-[10px] pb-2  font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
-          [ EDITORIAL / PACKAGING ]
-        </div>
-        <div
-          class="text text-[100px] pt-2 font-['Apercu-Bold'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[150px] max-sm:text-[120px] max-sm:hidden">
-          *
-        </div>
-      </div>
-    </NuxtLink>
-
-    <NuxtLink class="hidden max-sm:block" to="/CajaOporto">
-      <div
-        class="trabajo1 border border-solid border-r-1 border-t-0 border-b-0 px-20 py-18 flex flex-col justify-center bg-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
-        <div
-          class="text text-center text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[3rem] max-sm:pb-1 max-sm:text-center">
-          Caja <br />
-          <p class="font-['PPE-Ultralight']">OPORTO</p>
-        </div>
-        <div
-          class="text text-[12px] text-center leading-[1rem] pb-2 font-['Neue'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[12px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
-          [ EDITORIAL / PACKAGING ]
-        </div>
-        <div
-          class="text text-[150px] pt-2 font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[150px] max-sm:text-[120px] max-sm:hidden">
-          *
-        </div>
-      </div>
-    </NuxtLink>
-
-
-    <div
-      class="grid grid-flow-cols grid-cols-4 max-[1920px]:grid-cols-3 text-center max-[1450px]:grid-cols-2 animate-pulse max-[1930px]:grid-cols-3 max-[1500px]:grid-cols-2 max-sm:grid-cols-1">
-
-      <div class=" bg-red-700 text-white justify-center content-center font-['Neue'] text-[10px]">PÁGINAS
-        NUEVAS -
-        PÁGINAS
-        NUEVAS - PÁGINAS NUEVAS
-      </div>
-      <div class=" bg-red-700 text-white justify-center content-center font-['Neue'] text-[10px] max-sm:hidden">
-        PÁGINAS
-        NUEVAS - PÁGINAS NUEVAS - PÁGINAS NUEVAS
-      </div>
-      <div
-        class=" bg-red-700 text-white justify-center content-center font-['Neue'] text-[10px] max-[1500px]:hidden max-sm:hidden">
-        PÁGINAS
-        NUEVAS -
-        PÁGINAS NUEVAS - PÁGINAS NUEVAS
-      </div>
-      <div class=" bg-red text-white justify-center content-center font-['Neue'] text-[10px] hidden">PÁGINAS
-        NUEVAS -
-        PÁGINAS
-        NUEVAS - PÁGINAS NUEVAS
-      </div>
-
-    </div>
-
-    <div class="trabajos justify-center max-sm:hidden">
-      <div
-        class="grid grid-cols-4 max-[1920px]:grid-cols-3 max-[1450px]:grid-cols-2 max-sm:grid-cols-1 max-sm:divide-y max-sm:order-t-1 max-sm:border-solid max-sm:border-black">
-        <NuxtLink to="/Matutano">
+          class="hidden max-sm:gap-6 grid grid-cols-3 max-sm:grid-cols-1 max-sm:px-6 bg-[#f7faf7] max-sm:bg-[#fafafa] px-20 gap-12">
           <div
-            class="trabajo1 border border-solid border-r-1 border-b-0 px-20 py-30 flex flex-col justify-center hover:bg-[url('/img/giframbuesa_1.gif')] hover:text-black bg-cover bg-center max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
-            <div
-              class="text text-center max-[2300px]:text-[50px] max-[2300px]:leading-[3.5rem] text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
-              Matutano <br />
-              <p class="font-['PPE-Ultralight']">SALUDABLE</p>
-            </div>
-            <div
-              class="text text-[14px] text-center font-['Neue'] leading-[10px] pb-[430px] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
-              [ PACKAGING ]
-            </div>
-            <div
-              class="text text-[250px] pt-24 font-['Apercu-Bold'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
-              *
-            </div>
-          </div>
-        </NuxtLink>
+              class="bg-gray-200 max-sm:bg-white trabajos shadow-lg rounded-lg overflow-hidden transition-transform hover:scale-105 duration-300">
 
-        <div
-          class="grid-flow-cols border-0 border-none grid-cols-4 max-[1920px]:grid-cols-3 text-center max-[1450px]:grid-cols-2 animate-pulse max-[1930px]:grid-cols-3 max-sm:grid-cols-1 hidden max-sm:grid">
-
-          <div class=" bg-red-700 text-white justify-center content-center font-['Neue'] text-[10px]">PÁGINAS
-            NUEVAS
-            - PÁGINAS
-            NUEVAS - PÁGINAS NUEVAS
+              <!-- Header -->
+              <div
+                  class="flex max-sm:grid max-sm:grid-rows-2 max-sm:items-left max-sm:justify-left max-sm:text-left items-center justify-between bg-gray-200 max-sm:bg-white px-4 pt-6 py-2 rounded-t-lg">
+                  <!-- Title -->
+                  <div class="flex items-center max-sm:items-left max-sm:text-left space-x-2">
+                      <span class="text-sm text-gray-800 font-['Neue'] ml-2">MICROILUSTRICIONES ECOVIDRIO</span>
+                  </div>
+                  <!-- Right Buttons -->
+                  <a class="text-end underline max-sm:text-start max-sm:ml-2"
+                      href="https://www.reasonwhy.es/actualidad/nueva-identidad-ecovidrio-contenedor-verde-2024">Articulo
+                      Reason Why</a>
+              </div>
+              <!-- Content -->
+              <div class="bg-white m-4 rounded-lg">
+                  <img class="rounded-lg" src="/img/ecovidrio.svg">
+                  <a href="https://www.prodigiosovolcan.com/proyectos/identidad-visual-ecovidrio/" target="_blank"
+                      class="caja2 max-sm:px-6 max-sm:py-4 pb-12 text-right items-end h-full place-content-end max-[1920px]:px-8 max-[1920px]:py-8 flex hover:text-zinc-700 transition-all duration-500 self-center font-['Neue'] text-[30px] leading-[30px] px-12 cursor-pointer text-black">
+                      Prodigioso<br>
+                      Volcán ⤤
+                  </a>
+              </div>
           </div>
-          <div class=" bg-red-700 text-white justify-center font-['Neue'] text-[10px] content-center max-sm:hidden">
-            PÁGINAS
-            NUEVAS - PÁGINAS NUEVAS - PÁGINAS NUEVAS
-          </div>
-          <div class=" bg-red-700 text-white justify-center font-['Neue'] text-[10px] content-center hidden">
-            PÁGINAS
-            NUEVAS -
-            PÁGINAS NUEVAS - PÁGINAS NUEVAS
-          </div>
-          <div class=" bg-red text-white justify-center content-center font-['Neue'] text-[10px] hidden">
-            PÁGINAS
-            NUEVAS - PÁGINAS
-            NUEVAS - PÁGINAS NUEVAS
-          </div>
-
-        </div>
-
-
-        <NuxtLink to="/Prau">
           <div
-            class="trabajo1 border-r-0 border-t-0 px-20 py-30 flex flex-col justify-center hover:bg-[url('/img/vinosprau.gif')] hover:text-black bg-cover bg-center max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
-            <div
-              class="text text-center max-[2300px]:text-[50px] max-[2300px]:leading-[3.5rem] text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
-              Etiquetado <br />
-              <p class="font-['PPE-Ultralight']">VINOS PRAU</p>
-            </div>
-            <div
-              class="text text-[14px] text-center font-['Neue'] leading-[10px] pb-[430px] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
-              [ PACKAGING ]
-            </div>
-            <div
-              class="text text-black text-[250px] pt-24 font-['Apercu-Bold'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
-              *
-            </div>
-          </div>
-        </NuxtLink>
+              class="bg-gray-200 max-sm:bg-white trabajos shadow-lg rounded-lg overflow-hidden transition-transform hover:scale-105 duration-300">
 
-        <NuxtLink to="/Member">
+              <!-- Header -->
+              <div class="flex items-center justify-between max-sm:bg-white bg-gray-200 px-4 pt-6 py-2 rounded-t-lg">
+                  <!-- Title -->
+                  <div class="flex items-center space-x-2">
+                      <span class="text-sm text-gray-800 uppercase font-['Neue'] ml-2">Ilustraciones Sabadell</span>
+                  </div>
+                  <!-- Right Buttons -->
+                  <a class="text-end underline invisible"
+                      href="https://www.reasonwhy.es/actualidad/nueva-identidad-ecovidrio-contenedor-verde-2024">Articulo
+                      Reason Why</a>
+              </div>
+              <!-- Content -->
+              <div class="bg-white m-4 rounded-lg">
+                  <img class="rounded-lg" src="/img/sabadell.png">
+                  <a href="https://www.vozpopuli.com/branded-content/peldanos-marmol-revestir-rascacielos-almeria-grupo-cosentino.html"
+                      target="_blank"
+                      class="caja2 max-sm:px-6 max-sm:py-4 pb-12 text-right items-end h-full place-content-end max-[1920px]:px-8 max-[1920px]:py-8 flex hover:text-zinc-700 transition-all duration-500 self-center font-['Neue'] text-[30px] leading-[30px] px-12 cursor-pointer text-black">
+                      Ilustraciones<br>
+                      Sabadell ⤤
+                  </a>
+              </div>
+          </div>
           <div
-            class="trabajo1 max-[1920px]:border-b-0 border border-solid border-r-0 border-t-1 px-20 py-30 flex flex-col justify-center hover:bg-[url('/img/member30.gif')] bg-cover bg-center hover:text-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
-            <div
-              class="text text-center max-[2300px]:text-[50px] max-[2300px]:leading-[3.5rem] text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
-              Asistente <br />
-              <p class="font-['PPE-Ultralight']">MEMBER</p>
-            </div>
-            <div
-              class="text text-[14px] text-center font-['Neue'] leading-[10px] pb-[430px] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
-              [ MARCA / AUDIOVISUALES ]
-            </div>
-            <div
-              class="text text-[250px] pt-24 font-['Apercu-Bold'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
-              *
-            </div>
-          </div>
-        </NuxtLink>
-        <NuxtLink to="/MetrodeMadrid">
-          <div
-            class="trabajo1 border border-solid border-b-0 border-r-0 px-20 py-30 flex flex-col justify-center hover:bg-[url('/img/animacionlibro5.gif')] bg-cover bg-center hover:text-white max-[1920px]:border-b-0 max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
-            <div
-              class="text text-center max-[2300px]:text-[50px] max-[2300px]:leading-[3.5rem] text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
-              Fotolibro <br />
-              <p class="font-['PPE-Ultralight']">METRO MADRID</p>
-            </div>
-            <div
-              class="text text-[14px] text-center font-['Neue'] leading-[10px] pb-[430px] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
-              [ AUDIOVISUALES ]
-            </div>
-            <div
-              class="text text-[250px] pt-24 font-['Apercu-Bold'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
-              *
-            </div>
-          </div>
-        </NuxtLink>
+              class="bg-gray-200 max-sm:bg-white trabajos shadow-lg rounded-lg overflow-hidden transition-transform hover:scale-105 duration-300">
 
-        <NuxtLink to="/Movistar">
-          <div
-            class="trabajo1 max-[1920px]:border-l-1 max-[1920px]:border max-[1920px]:border-r-0 max-[1920px]:border-b-0 border border-solid border-r-0 border-l-0 border-t-1 px-20 py-30 flex flex-col justify-center hover:bg-[url('/img/portadamovistar.gif')] bg-cover bg-center hover:text-black max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
-            <div
-              class="text text-center max-[2300px]:text-[50px] max-[2300px]:leading-[3.5rem] text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
-              Audiovisual <br />
-              <p class="font-['PPE-Ultralight']">MOVISTAR +</p>
-            </div>
-            <div
-              class="text text-[14px] text-center font-['Neue'] leading-[10px] pb-[430px] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
-              [ AUDIOVISUALES ]
-            </div>
-            <div
-              class="text text-black text-[250px] pt-24 font-['Apercu-Bold'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
-              *
-            </div>
+              <!-- Header -->
+              <div class="flex items-center justify-between bg-gray-200 max-sm:bg-white px-4 pt-6 py-2 rounded-t-lg">
+                  <!-- Title -->
+                  <div class="flex items-center space-x-2">
+                      <span class="text-sm text-gray-800 font-['Neue'] ml-2">PROYECTO FAUX</span>
+                  </div>
+                  <!-- Right Buttons -->
+                  <a class="text-end underline invisible"
+                      href="https://www.reasonwhy.es/actualidad/nueva-identidad-ecovidrio-contenedor-verde-2024">Articulo
+                      Reason Why</a>
+              </div>
+              <!-- Content -->
+              <div class="bg-white m-4 rounded-lg">
+                  <img class="rounded-lg" src="/img/fauxproyecto.png">
+                  <a href="https://faux-noticiario.netlify.app/" target="_blank"
+                      class="caja2 max-sm:px-6 max-sm:py-4 pb-12 text-right items-end h-full place-content-end max-[1920px]:px-8 max-[1920px]:py-8 flex hover:text-zinc-700 transition-all duration-500 self-center font-['Neue'] text-[30px] leading-[30px] px-12 cursor-pointer text-black">
+                      Web<br>
+                      Faux ⤤
+                  </a>
+              </div>
           </div>
-        </NuxtLink>
-        <NuxtLink to="/Audiovisuales">
-          <div
-            class="trabajo1 border border-solid border-r-0 border-t-1 px-20 py-30 flex flex-col justify-center hover:bg-[url('/img/entrada3d.gif')] hover:text-white bg-cover bg-center max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
-            <div
-              class="text text-center max-[2300px]:text-[50px] max-[2300px]:leading-[3.5rem] text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
-              Colección <br />
-              <p class="font-['PPE-Ultralight']">AUDIOVISUALES</p>
-            </div>
-            <div
-              class="text text-[14px] text-center font-['Neue'] leading-[10px] pb-[430px] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
-              [ RENDER / AUDIOVISUALES ]
-            </div>
-            <div
-              class="text text-[250px] pt-24 font-['Apercu-Bold'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
-              *
-            </div>
-          </div>
-        </NuxtLink>
-        <NuxtLink to="/YelmoCines">
-          <div
-            class="trabajo1 max-[1920px]:border-t-1 max-[1920px]:border max-[1920px]:border-l-0 max-[1920px]:border-r-0 border border-solid border-r-0 border-t-0 px-20 py-30 flex flex-col justify-center hover:bg-[url('/img/videoyelmo.gif')] bg-cover bg-center hover:text-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
-            <div
-              class="text text-center max-[2300px]:text-[50px] max-[2300px]:leading-[3.5rem] text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
-              Rediseño <br />
-              <p class="font-['PPE-Ultralight']">CINE YELMO</p>
-            </div>
-            <div
-              class="text text-[14px] text-center font-['Neue'] leading-[10px] pb-[430px] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
-              [ MARCA ]
-            </div>
-            <div
-              class="text text-[250px] pt-24 font-['Apercu-Bold'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
-              *
-            </div>
-          </div>
-        </NuxtLink>
-        <NuxtLink to="/Typenotes">
-          <div
-            class="trabajo1 border border-solid border-r-1 border-t-1 px-20 py-30 flex flex-col justify-center hover:bg-[url('/img/caratulatypenotes.gif')] bg-cover bg-center hover:text-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
-            <div
-              class="text text-center max-[2300px]:text-[50px] max-[2300px]:leading-[3.5rem] text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
-              Revista <br />
-              <p class="font-['PPE-Ultralight']">TYPENOTES</p>
-            </div>
-            <div
-              class="text text-[14px] text-center font-['Neue'] leading-[10px] pb-[430px] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
-              [ EDITORIAL ]
-            </div>
-            <div
-              class="text text-[250px] pt-24 font-['Apercu-Bold'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
-              *
-            </div>
-          </div>
-        </NuxtLink>
-        <NuxtLink to="/WebESD">
-          <div
-            class="trabajo1 border border-solid border-r-0 border-t-0 border-l-0 px-20 py-30 flex flex-col justify-center hover:bg-[url('/img/gifordenador3.gif')] bg-cover bg-center max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
-            <div
-              class="text text-center max-[2300px]:text-[50px] max-[2300px]:leading-[3.5rem] text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
-              Página web <br />
-              <p class="font-['PPE-Ultralight']">ESD MADRID</p>
-            </div>
-            <div
-              class="text text-[14px] text-center font-['Neue'] leading-[10px] pb-[430px] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
-              [ AUDIOVISUALES ]
-            </div>
-            <div
-              class="text text-black text-[250px] pt-24 font-['Apercu-Bold'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
-              *
-            </div>
-          </div>
-        </NuxtLink>
-        <NuxtLink to="/Fotografias">
-          <div
-            class="trabajo1 border border-solid border-r-0 border-t-0 px-20 py-30 flex flex-col justify-center hover:bg-[url('/img/fotografias3.gif')] bg-cover bg-center hover:text-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
-            <div
-              class="text text-center max-[2300px]:text-[50px] max-[2300px]:leading-[3.5rem] text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
-              Colección <br />
-              <p class="font-['PPE-Ultralight']">FOTOGRÁFICA</p>
-            </div>
-            <div
-              class="text text-[14px] text-center font-['Neue'] leading-[10px] pb-[430px] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
-              [ AUDIOVISUALES ]
-            </div>
-            <div
-              class="text text-black text-[250px] pt-24 font-['Apercu-Bold'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
-              *
-            </div>
-          </div>
-        </NuxtLink>
-        <NuxtLink to="/GarridoGallery">
-          <div
-            class="trabajo1 border border-solid border-r-0 border-t-0 px-20 py-30 flex flex-col justify-center hover:bg-[url('/img/caratulagarrido.gif')] bg-cover bg-center hover:text-black max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
-            <div
-              class="text text-center max-[2300px]:text-[50px] max-[2300px]:leading-[3.5rem] text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
-              Garrido <br />
-              <p class="font-['PPE-Ultralight']">GALLERY</p>
-            </div>
-            <div
-              class="text text-[14px] text-center font-['Neue'] leading-[10px] pb-[430px] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
-              [ MARCA ]
-            </div>
-            <div
-              class="text text-[250px] pt-24 font-['Apercu-Bold'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
-              *
-            </div>
-          </div>
-        </NuxtLink>
-        <NuxtLink to="/Ilustraciones">
-          <div
-            class="trabajo1 border border-solid border-r-0 border-t-0 px-20 py-30 flex flex-col justify-center hover:bg-[url('/img/animacionilustraciones.gif')] bg-cover bg-center hover:text-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-1 max-sm:text-black max-xs:border-b-1">
-            <div
-              class="text text-center max-[2300px]:text-[50px] max-[2300px]:leading-[3.5rem] text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:font-bold max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[2.5rem] max-sm:pb-4 max-sm:text-center">
-              Colección <br />
-              <p class="font-['PPE-Ultralight']">ILUSTRACIONES</p>
-            </div>
-            <div
-              class="text text-[14px] text-center font-['Neue'] leading-[10px] pb-[430px] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[14px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
-              [ ILUSTRACIÓN ]
-            </div>
-            <div
-              class="text text-[250px] pt-24 font-['Apercu-Bold'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
-              *
-            </div>
-          </div>
-        </NuxtLink>
-      </div>
-    </div>
-
-    <div class="hidden trabajos justify-center max-sm:block">
-      <div
-        class="grid grid-cols-4 max-[1920px]:grid-cols-3 max-[1450px]:grid-cols-2 max-sm:grid-cols-1 max-sm:divide-y max-sm:order-t-1 max-sm:border-solid max-sm:border-black">
-        <NuxtLink to="/Matutano">
-          <div
-            class="trabajo1 border border-solid border-r-1 border-b-0 px-20 py-30 flex flex-col justify-center hover:text-black bg-white max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
-            <div
-              class="text text-center text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[3rem] max-sm:pb-1 max-sm:text-center">
-              Matutano <br />
-              <p class="font-['PPE-Ultralight']">SALUDABLE</p>
-            </div>
-            <div
-              class="text text-[12px] text-center leading-[1rem] pb-2 font-['Neue'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[12px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
-              [ PACKAGING ]
-            </div>
-            <div
-              class="text text-[250px] pt-24 font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
-              *
-            </div>
-          </div>
-        </NuxtLink>
-
-        <div
-          class="grid-flow-cols border-0 border-none grid-cols-4 max-[1920px]:grid-cols-3 text-center max-[1450px]:grid-cols-2 animate-pulse max-[1930px]:grid-cols-3 max-sm:grid-cols-1 hidden max-sm:grid">
-
-          <div class=" bg-red-700 text-white justify-center content-center font-['Neue'] text-[10px]">PÁGINAS NUEVAS -
-            PÁGINAS
-            NUEVAS - PÁGINAS NUEVAS
-          </div>
-          <div class=" bg-red-700 text-white justify-center content-center text-[12px] max-sm:hidden">PÁGINAS
-            NUEVAS - PÁGINAS NUEVAS - PÁGINAS NUEVAS
-          </div>
-          <div class=" bg-red-700 text-white justify-center content-center text-[12px] hidden">PÁGINAS NUEVAS -
-            PÁGINAS NUEVAS - PÁGINAS NUEVAS
-          </div>
-          <div class=" bg-red text-white justify-center content-center text-[12px] hidden">PÁGINAS NUEVAS -
-            PÁGINAS
-            NUEVAS - PÁGINAS NUEVAS
-          </div>
-
-        </div>
-
-
-        <NuxtLink to="/Prau">
-          <div
-            class="trabajo1 border-r-0 border-t-0 px-20 py-30 flex flex-col justify-center bg-white hover:text-black max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
-            <div
-              class="text text-center text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[3rem] max-sm:pb-1 max-sm:text-center">
-              Etiquetado<br />
-              <p class="font-['PPE-Ultralight'] uppercase">VINOS PRAU</p>
-            </div>
-            <div
-              class="text text-[12px] text-center leading-[1rem] pb-2 font-['Neue'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[12px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
-              [ PACKAGING ]
-            </div>
-            <div
-              class="text text-black text-[250px] pt-24 font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
-              *
-            </div>
-          </div>
-        </NuxtLink>
-
-        <div
-          class="grid-flow-cols border-0 border-none grid-cols-4 max-[1920px]:grid-cols-3 text-center max-[1450px]:grid-cols-2 animate-pulse max-[1930px]:grid-cols-3 max-sm:grid-cols-1 hidden max-sm:grid">
-
-          <div class=" bg-red-700 text-white justify-center font-['Neue'] text-[10px]">PÁGINAS
-            NUEVAS
-            - PÁGINAS
-            NUEVAS - PÁGINAS NUEVAS
-          </div>
-          <div class=" bg-red-700 text-white justify-center font-['Regular'] content-center text-[12px] max-sm:hidden">
-            PÁGINAS
-            NUEVAS - PÁGINAS NUEVAS - PÁGINAS NUEVAS
-          </div>
-          <div class=" bg-red-700 text-white justify-center font-['Regular'] content-center text-[12px] hidden">
-            PÁGINAS
-            NUEVAS -
-            PÁGINAS NUEVAS - PÁGINAS NUEVAS
-          </div>
-          <div class=" bg-red text-white justify-center content-center font-['Regular'] text-[12px] hidden">
-            PÁGINAS
-            NUEVAS - PÁGINAS
-            NUEVAS - PÁGINAS NUEVAS
-          </div>
-
-        </div>
-
-        <NuxtLink to="/Member">
-          <div
-            class="trabajo1 border border-solid border-r-1 border-t-1 px-20 py-30 flex flex-col justify-center bg-white hover:text-black max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
-            <div
-              class="text text-center text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[3rem] max-sm:pb-1 max-sm:text-center">
-              Asistente<br />
-              <p class="font-['PPE-Ultralight'] uppercase">MEMBER</p>
-            </div>
-            <div
-              class="text text-[12px] text-center leading-[1rem] pb-2 font-['Neue'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[12px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
-              [ MARCA / AUDIOVISUALES ]
-            </div>
-            <div
-              class="text text-[250px] pt-24 font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
-              *
-            </div>
-          </div>
-        </NuxtLink>
-
-        <NuxtLink to="/MetrodeMadrid">
-          <div
-            class="trabajo1 border border-solid border-r-0 px-20 py-30 flex flex-col justify-center bg-white hover:text-black max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
-            <div
-              class="text text-center text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[3rem] max-sm:pb-1 max-sm:text-center">
-              Fotolibro<br />
-              <p class="font-['PPE-Ultralight'] uppercase">metro madrid</p>
-            </div>
-            <div
-              class="text text-[12px] text-center leading-[1rem] pb-2 font-['Neue'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[12px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
-              [ AUDIOVISUALES ]
-            </div>
-            <div
-              class="text text-[250px] pt-24 font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
-              *
-            </div>
-          </div>
-        </NuxtLink>
-
-
-
-        <NuxtLink to="/Movistar">
-          <div
-            class="trabajo1 border border-solid border-r-0 border-l-0 border-t-1 px-20 py-30 flex flex-col justify-center bg-white hover:text-black max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
-            <div
-              class="text text-center text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[3rem] max-sm:pb-1 max-sm:text-center">
-              Audiovisual<br />
-              <p class="font-['PPE-Ultralight'] uppercase">MOVISTAR +</p>
-            </div>
-            <div
-              class="text text-[12px] text-center leading-[1rem] pb-2 font-['Neue'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[12px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
-              [ AUDIOVISUALES ]
-            </div>
-            <div
-              class="text text-[250px] pt-24 font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
-              *
-            </div>
-          </div>
-        </NuxtLink>
-        <NuxtLink to="/Audiovisuales">
-          <div
-            class="trabajo1 border border-solid border-r-0 border-t-1 px-20 py-30 flex flex-col justify-center bg-white hover:text-black max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
-            <div
-              class="text text-center text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[3rem] max-sm:pb-1 max-sm:text-center">
-              Colección<br />
-              <p class="font-['PPE-Ultralight'] uppercase">AUDIOVISUALES</p>
-            </div>
-            <div
-              class="text text-[12px] text-center leading-[1rem] pb-2 font-['Neue'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[12px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
-              [ RENDER / AUDIOVISUALES ]
-            </div>
-            <div
-              class="text text-[250px] pt-24 font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
-              *
-            </div>
-          </div>
-        </NuxtLink>
-        <NuxtLink to="/YelmoCines">
-          <div
-            class="trabajo1 border border-solid border-r-0 border-t-0 px-20 py-30 flex flex-col justify-center bg-white hover:text-black max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
-            <div
-              class="text text-center text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[3rem] max-sm:pb-1 max-sm:text-center">
-              Rediseño<br />
-              <p class="font-['PPE-Ultralight'] uppercase">CINE YELMO</p>
-            </div>
-            <div
-              class="text text-[12px] text-center leading-[1rem] pb-2 font-['Neue'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[12px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
-              [ MARCA ]
-            </div>
-            <div
-              class="text text-[250px] pt-24 font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
-              *
-            </div>
-          </div>
-        </NuxtLink>
-        <NuxtLink to="/Typenotes">
-          <div
-            class="trabajo1 border border-solid border-r-1 border-t-1 px-20 py-30 flex flex-col justify-center bg-white hover:text-black max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
-            <div
-              class="text text-center text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[3rem] max-sm:pb-1 max-sm:text-center">
-              Revista<br />
-              <p class="font-['PPE-Ultralight'] uppercase">TYPENOTES</p>
-            </div>
-            <div
-              class="text text-[12px] text-center leading-[1rem] pb-2 font-['Neue'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[12px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
-              [ EDITORIAL ]
-            </div>
-            <div
-              class="text text-[250px] pt-24 font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
-              *
-            </div>
-          </div>
-        </NuxtLink>
-        <NuxtLink to="/WebESD">
-          <div
-            class="trabajo1 border border-solid border-r-0 border-t-0 border-l-0 px-20 py-30 flex flex-col justify-center bg-white hover:text-black max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
-            <div
-              class="text text-center text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[3rem] max-sm:pb-1 max-sm:text-center">
-              Página web<br />
-              <p class="font-['PPE-Ultralight'] uppercase">ESD MADRID</p>
-            </div>
-            <div
-              class="text text-[12px] text-center leading-[1rem] pb-2 font-['Neue'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[12px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
-              [ AUDIOVISUALES ]
-            </div>
-            <div
-              class="text text-[250px] pt-24 font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
-              *
-            </div>
-          </div>
-        </NuxtLink>
-        <NuxtLink to="/Fotografias">
-          <div
-            class="trabajo1 border border-solid border-r-0 border-t-0 px-20 py-30 flex flex-col justify-center bg-white hover:text-black max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
-            <div
-              class="text text-center text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[3rem] max-sm:pb-1 max-sm:text-center">
-              Colección<br />
-              <p class="font-['PPE-Ultralight'] uppercase">FOTOGRÁFICA</p>
-            </div>
-            <div
-              class="text text-[12px] text-center leading-[1rem] pb-2 font-['Neue'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[12px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
-              [ AUDIOVISUALES ]
-            </div>
-            <div
-              class="text text-[250px] pt-24 font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
-              *
-            </div>
-          </div>
-        </NuxtLink>
-        <NuxtLink to="/GarridoGallery">
-          <div
-            class="trabajo1 border border-solid border-r-0 border-t-0 px-20 py-30 flex flex-col justify-center bg-white hover:text-black max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-0 max-sm:text-black">
-            <div
-              class="text text-center text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[3rem] max-sm:pb-1 max-sm:text-center">
-              Garrido<br />
-              <p class="font-['PPE-Ultralight'] uppercase">GALLERY</p>
-            </div>
-            <div
-              class="text text-[12px] text-center leading-[1rem] pb-2 font-['Neue'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[12px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
-              [ MARCA ]
-            </div>
-            <div
-              class="text text-[250px] pt-24 font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
-              *
-            </div>
-          </div>
-        </NuxtLink>
-        <NuxtLink to="/Ilustraciones">
-          <div
-            class="trabajo1 border border-solid border-r-0 border-t-0 px-20 py-30 flex flex-col justify-center bg-white hover:text-black max-[1840px]:px-16 max-sm:px-8 max-sm:pb-20 max-sm:max-h-[800px] max-sm:pt-20 max-sm:bg-white max-sm:hover:bg-white max-sm:border-solid max-sm:border-1 max-sm:text-black max-xs:border-b-1">
-            <div
-              class="text text-center text-[60px] leading-[4rem] pt-24 font-['PPE-UltralightItalic'] font tracking-normal flex flex-col items-left justify-center max-3xl:text-[30px] max-sm:pt-2 max-sm:text-[40px] max-sm:leading-[3rem] max-sm:pb-1 max-sm:text-center">
-              Colección<br />
-              <p class="font-['PPE-Ultralight'] uppercase">Ilustraciones</p>
-            </div>
-            <div
-              class="text text-[12px] text-center leading-[1rem] pb-2 font-['Neue'] font-normal tracking-normal flex flex-col items-left justify-center max-sm:text-[12px] max-sm:pb-2 max-sm:text-center max-sm:leading-[0.25rem]">
-              [ ILUSTRACIÓN ]
-            </div>
-            <div
-              class="text text-[250px] pt-24 font-['SFUIDisplay-Regular'] font-bold tracking-normal flex flex-col items-center justify-center max-[2260px]:text-[250px] max-sm:text-[120px] max-sm:hidden">
-              *
-            </div>
-          </div>
-        </NuxtLink>
-      </div>
-    </div>
-
-
-    <div data-aos="fade-up" data-aos-duration="2000"
-      class="flex pt-32 px-40 pb-40 border-t-0 border-r-0 border-l-0 text-black flex-col gap-20 border border-b-1 items-center justify-center max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-14">
-      <div class="titular flex text-[72px] font-normal max-lg:text-[60px] font-['PPE-Ultralight']">
-        APPS
-      </div>
-      <div
-        class="programas grid grid-cols-1 gap-14 max-sm:gap-16 items-center max-lg:gap-8 min-w-[575px] max-lg:items-center max-lg:min-w-[60px] max-lg:grid">
-        <div
-          class="three_programas grid-cols-3 max-sm:gap-16 grid justify-center gap-8 place-items-center max-sm:grid-cols-3 max-lg:grid-cols-3 max-lg:grid max-lg:gap-8">
-          <img class="image_logo max-w-[50px] max-lg:max-w-[50px] max-sm:w-[40px]" src="/img/AfterEffects.svg" alt="" />
-          <img class="image_logo max-w-[50px] max-lg:max-w-[50px] max-sm:w-[40px]" src="/img/Photoshop.svg" alt="" />
-          <img class="image_logo max-w-[50px] max-lg:max-w-[50px] max-sm:w-[40px]" src="/img/Lightroom.svg" alt="" />
-
-          <div
-            class="text place-self-center text-center max-w-[60ch] font-['Neue'] font-normal text-[14px] max-sm:leading-5.5 max-sm:text-[12px] text-zinc-300 max-sm:hidden">
-            Adobe <br> AfterEffects</div>
-          <div
-            class="text place-self-center text-center max-w-[60ch] font-['Neue'] font-normal text-[14px] max-sm:leading-5.5 max-sm:text-[12px] text-zinc-300 max-sm:hidden">
-            Adobe <br>Photoshop</div>
-          <div
-            class="text place-self-center text-center max-w-[60ch] font-['Neue'] font-normal text-[14px] max-sm:leading-5.5 max-sm:text-[12px] text-zinc-300 max-sm:hidden">
-            Adobe <br> Lightroom</div>
-
-        </div>
-
-        <div
-          class="three_programas grid-cols-3 max-sm:gap-16 grid justify-center gap-8 place-items-center max-sm:grid-cols-3 max-lg:grid-cols-3 max-lg:grid max-lg:gap-8">
-          <img class="image_logo max-w-[50px] max-lg:max-w-[50px] max-sm:w-[40px]" src="/img/InDesign.svg" alt="" />
-          <img class="image_logo max-w-[50px] max-lg:max-w-[50px] max-sm:w-[40px]" src="/img/Illustrator.svg" alt="" />
-          <img class="image_logo max-w-[50px] max-lg:max-w-[50px] max-sm:w-[40px]" src="/img/Figma.svg" alt="" />
-
-          <div
-            class="text place-self-center text-center max-w-[60ch] font-['Neue'] font-normal text-[14px] max-sm:leading-5.5 max-sm:text-[12px] text-zinc-300 max-sm:hidden">
-            Adobe <br>InDesign</div>
-          <div
-            class="text place-self-center text-center max-w-[60ch] font-['Neue'] font-normal text-[14px] max-sm:leading-5.5 max-sm:text-[12px] text-zinc-300 max-sm:hidden">
-            Adobe <br>Illustrator</div>
-          <div
-            class="text place-self-center text-center max-w-[60ch] font-['Neue'] font-normal text-[14px] max-sm:leading-5.5 max-sm:text-[12px] text-zinc-300 max-sm:hidden">
-            Figma</div>
-
-        </div>
-        <div
-          class="three_programas grid-cols-3 max-sm:gap-16 grid justify-center gap-8 place-items-center max-sm:grid-cols-3 max-lg:grid-cols-3 max-lg:grid max-lg:gap-8">
-          <img
-            class="image_logo w-[50px] h-[50px] max-lg:max-w-[50px] max-lg:max-h-[50px] max-sm:h-[40px] max-sm:w-[40px]"
-            src="/img/blender.svg" alt="" />
-          <img
-            class="image_logo w-[50px] h-[50px] max-lg:max-w-[50px] max-lg:max-h-[50px] max-sm:h-[40px] max-sm:w-[40px]"
-            src="/img/Cinema4d.svg" alt="" />
-          <img
-            class="image_logo rounded-lg w-[50px] h-[49px] max-lg:max-w-[50px] max-lg:max-h-[49px] max-sm:h-[40px] max-sm:w-[40px]"
-            src="/img/Procreate.png" alt="" />
-
-          <div
-            class="text place-self-center text-center max-w-[60ch] font-['Neue'] font-normal text-[14px] max-sm:leading-5.5 max-sm:text-[12px] text-zinc-300 max-sm:hidden">
-            Blender 4.0</div>
-          <div
-            class="text place-self-center text-center max-w-[60ch] font-['Neue'] font-normal text-[14px] max-sm:leading-5.5 max-sm:text-[12px] text-zinc-300 max-sm:hidden">
-            Cinema 4D</div>
-          <div
-            class="text place-self-center text-center max-w-[60ch] font-['Neue'] font-normal text-[14px] max-sm:leading-5.5 max-sm:text-[12px] text-zinc-300 max-sm:hidden">
-            Procreate</div>
-        </div>
-      </div>
-    </div>
-
-    <div id="servicios" class="pb-14"></div>
-
-    <div data-aos="fade-up" data-aos-duration="2000"
-      class="trabajos flex pt-32 pl-40 pr-40 pb-40 text-black flex-nowrap gap-60 justify-center max-lg:pt-20 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20">
-      <div class="sticky_menu">
-        <div
-          class="titular flex flex-col text-[72px] font-normal sticky z-0 top-[10rem] max-lg:text-[60px] font-['PPE-Ultralight']">
-          SERVICIOS
-        </div>
-      </div>
-
-      <div class="servicios_ofrecidos flex flex-col gap-6 font-['Neue']">
-        <div class="servicio flex flex-col gap-6">
-          <img class="vector w-[15px]" src="/img/starzinc.svg" />
-          <div class="tittle_servicios font-['PPE-UltralightItalic'] text-[24px] max-sm:text-[22px] uppercase">
-            Fotografía</div>
-          <div class="text max-w-[60ch] font-normal text-[16px] max-sm:leading-5.5 max-sm:text-[15px] text-zinc-500">
-            Experiencia realizando sesiones fotográficas de exterior y interior de modelaje. Fotografía de
-            naturaleza o
-            urbana.
-            Además de experiencia en fotografía de producto/bodegón y control de equipo de estudio profesional.
-            Edición de fotografía (Raw) en
-            <a class="texto_color text-[#4b6ad1]">Photoshop y Lightroom</a>
-          </div>
-        </div>
-        <div class="servicio flex flex-col gap-6">
-          <img class="vector w-[15px]" src="/img/starzinc.svg" />
-          <div class="tittle_servicios font-['PPE-UltralightItalic'] text-[24px] max-sm:text-[22px] uppercase">
-            Ilustración</div>
-          <div class="text max-w-[60ch] font-normal text-[16px] max-sm:leading-5.5 max-sm:text-[15px] text-zinc-500">
-            Experiencia realizando ilustraciones tradicionales (Acuarela, Acrílico, Rotuladores, Lapiz, etc) e
-            ilustraciones
-            digitales mediante Procreate (IPad) y otros soportes de ilustración digital.
-          </div>
-        </div>
-        <div class="servicio flex flex-col gap-6">
-          <img class="vector w-[15px]" src="/img/starzinc.svg" />
-          <div class="tittle_servicios font-['PPE-UltralightItalic'] text-[24px] max-sm:text-[22px] uppercase">
-            Web y Programación
-          </div>
-          <div class="text max-w-[60ch] font-normal text-[16px] max-sm:leading-5.5 max-sm:text-[15px] text-zinc-500">
-            Conocimientos altos de HTML y CSS (sass).
-            <br />
-            Conocimientos medio-altos de
-            <a class="texto_color text-[#00dc82]">Tailwind, Nuxt y Vue.</a>
-            <br />
-            Conocimientos medios en JavaScript.
-          </div>
-        </div>
-        <div class="servicio flex flex-col gap-6">
-          <img class="vector w-[15px]" src="/img/starzinc.svg" />
-          <div class="tittle_servicios font-['PPE-UltralightItalic'] text-[24px] max-sm:text-[22px] uppercase">
-            Pack Adobe y Figma
-          </div>
-          <div class="text max-w-[60ch] font-normal text-[16px] max-sm:leading-5.5 max-sm:text-[15px] text-zinc-500">
-            Alto conocimiento en utilización del pack
-            <a class="texto_color text-[#dc8f00]">Adobe</a> (concretamente los
-            mencionados arriba) y
-            <a class="texto_color text-[#dc8f00]">Figma</a> (componentización,
-            vistas, prototipado y autolayout).
-          </div>
-        </div>
-        <div class="servicio flex flex-col gap-6">
-          <img class="vector w-[15px]" src="/img/starzinc.svg" />
-          <div class="tittle_servicios font-['PPE-UltralightItalic'] text-[24px] max-sm:text-[22px] uppercase">
-            Audiovisuales y Multimedia
-          </div>
-          <div class="text max-w-[60ch] font-normal text-[16px] max-sm:leading-5.5 max-sm:text-[15px] text-zinc-500">
-            Conocimientos en diferentes ambitos del mundo de audiovisuales,
-            concretamente
-            <a class="texto_color text-[#9c46e2]">After Effects</a> para Motion
-            Graphics, <a class="texto_color text-[#9c46e2]">Adobe Premiere</a> y
-            otros programas de video para realización de piezas para redes
-            sociales, conocimientos de rotoscopia digital, chroma y edición de
-            video.
-          </div>
-        </div>
-        <div class="servicio flex flex-col gap-6">
-          <img class="vector w-[15px]" src="/img/starzinc.svg" />
-          <div class="tittle_servicios font-['PPE-UltralightItalic'] text-[24px] max-sm:text-[22px] uppercase">
-            Maquetación</div>
-          <div class="text max-w-[60ch] font-normal text-[16px] max-sm:leading-5.5 max-sm:text-[15px] text-zinc-500">
-            Conocimientos altos en
-            <a class="texto_color text-[#bd3f9d]">Indesign</a> y
-            <a class="texto_color text-[#4b6ad1]">Photoshop</a> para la
-            maquetación de carteles, folletos, libros, revistas, anuncios y
-            cualquier pieza gráfica necesaria.
-          </div>
-        </div>
-        <div class="servicio flex flex-col gap-6">
-          <img class="vector w-[15px]" src="/img/starzinc.svg" />
-          <div class="tittle_servicios font-['PPE-UltralightItalic'] text-[24px] max-sm:text-[22px] uppercase">
-            Redes Sociales
-          </div>
-          <div class="text max-w-[60ch] font-normal text-[16px] max-sm:leading-5.5 max-sm:text-[15px] text-zinc-500">
-            Conocimientos altos de redes sociales, actualidad y flujo de
-            información en las aplicaciones actuales como
-            <a class="texto_color text-[#d14bb0]">Instagram, TikTok, Facebook y Twitter.</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div id="sobremi" class="pb-14 max-[1920px]:pb-22"></div>
-
-
-      <div data-aos="fade-up" data-aos-duration="2000"
-      class="trabajos max-sm:grid-cols-1 max-[1500px]:gap-16 max-[1500px]:pl-16 max-[1500px]:pr-12 max-[1920px]:pl-24 max-[1920px]:pl-12 max-[1920px]:gap-24 grid grid-cols-3 pt-32 px-20 pb-40 text-black flex-nowrap gap-20 justify-center max-lg:pt-20 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20">
-      <div class="sticky_menu">
-        <div
-          class="titular flex flex-col leading-[60px] text-[60px] pl-12 max-[1500px]:pl-6 max-[1500px]:text-[60px] font-normal max-lg:text-[60px] font-['PPE-Ultralight']">
-          RUBÉN
-          <br>
-          MALDONADO
-
-        </div>
-
-        <div class="pt-24 max-[1920px]:pt-32 max-sm:pt-24">
-            <img class="img shadow-xl" src="/img/gifyo.gif" alt="" />
-            <div class="text pt-4 flex justify-end font-bold font-['SFUIDisplay-Light'] text-[12px] text-zinc-900">
-              YO_PRIMERO_FINAL_PRUEBA_CAMBIOS.jpg</div>
-          </div>
-
-
-      </div>
-      <div class="text justify-self-end pt-[215px] max-[1920px]:pt-[240px] max-sm:pt-6 max-w-[60ch] flex flex-col gap-6 justify-between font-normal font-['SFUIDisplay-Regular'] text-[16px] max-sm:text-[15px] text-zinc-900">
-        <div
-          class="text max-w-[60ch] font-normal font-['SFUIDisplay-Regular'] text-[16px] max-sm:text-[15px] text-zinc-900">
-          DISEÑADOR / ILUSTRADOR / FOTOGRAFO
-          <br>
-          <br>
-          <a class="text max-w-[60ch] font-normal leading-[24px] text-[16px] flex flex-col gap-32 max-sm:text-[15px] text-black">
-            Soy un estudiante de 23 años, actualmente terminando un grado
-            Universitario de Diseño Gráfico en la Escuela Superior De Diseño de
-            Madrid. Cuento con un Grado Superior de Ilustración realizado en la Escuela de Artes de Toledo
-            <br> <br>
-            Soy muy polifacetico, "currante" y "todoterreno" no me cierro a ninguna vía del diseño, suelo
-            abarcar todos los ambitos, como ya he mostrado anteriormente. Soy
-            resolutivo y me gusta trabajar bajo presión.
-            <br>
-            <br>
-            Soy un gran aficionado de las películas (sobretodo de las que te dejan pensando durante un rato), del futbol y el
-            deporte en general. No podría vivir sin "Trueno" el diminuto
-            blanco que podeis ver en la foto. Adoro la música electrónica y el pop inglés (2000s - 2010s).
-          </a>
-          <div class="email pt-32 text-zinc-400 animate-pulse max-sm:hidden flex gap-2 items-left text-[10px] justify-left text-sm max-lg:text-xs">
-            Rubén Maldonado 2024 | Copyright ©</div>
-        </div>
-        <div class=" text-red-400 underline self-end">[ MI MARCA ]</div>
-      </div>
-      <div class="servicios_ofrecidos max-sm:pt-6 max-sm:justify-self-start flex flex-col gap-6 pt-[215px] max-[1920px]:pt-[240px] max-[1500px]:justify-self-center justify-between">
-
-        <div
-          class="text max-w-[60ch] font-['SFUIDisplay-Regular'] font-normal text-[16px] leading-5 max-sm:text-[15px] text-zinc-900">
-          SELECCIÓN PERSONAL DE
-          <br>
-          MIS MEJORES PROYECTOS
-          <br>
-          <br>
-
-          <div class="links text-zinc-400 font-['SFUIDisplay-Light'] text-[12px]">
-            <a href="https://rubenmaldonado.es/CajaOporto"
-              class="text max-w-[60ch] hover:text-[14.25px] transition-transform delay-600 font-normal text-[14px] max-sm:text-[14px] animate-pulse text-zinc-400 underline">
-              [ CAJA OPORTO ]</a> >
-            <br>
-            <a href="https://rubenmaldonado.es/Matutano"
-              class="text max-w-[60ch] hover:text-[14.25px] transition-transform delay-600 font-normal text-[14px] max-sm:text-[14px] animate-pulse text-zinc-400 underline">
-              [ MATUTANO SALUDABLE ]</a> >
-            <br>
-            <a href="https://rubenmaldonado.es/Movistar"
-              class="text max-w-[60ch] hover:text-[14.25px] transition-transform delay-600 font-normal text-[14px] max-sm:text-[14px] animate-pulse text-zinc-400 underline">
-              [ MOVISTAR + ]</a> >
-            <br>
-            <a href="https://rubenmaldonado.es/Member"
-              class="text max-w-[60ch] hover:text-[14.25px] transition-transform delay-600 font-normal text-[14px] max-sm:text-[14px] animate-pulse text-zinc-400 underline">
-              [ ASISTENTE MEMBER ]</a> >
-          </div>
-
-        </div>
-
-
-        <div class="text grid grid-cols-2 max-[1920px]:grid-cols-1 font-['SFUIDisplay-Regular']">
-          COLABORACIONES / PROYECTOS
-
-          <div class="text grid grid-cols-2 max-[1920px]:grid-cols-1 max-[1920px]:pt-6">
-            <a href="https://faux-noticiario.netlify.app" target="_blank"
-              class="text max-w-[60ch] text-zinc-400 hover:text-[14.25px] transition-transform delay-600 font-normal text-[14px] max-sm:text-[14px] animate-pulse underline">
-              [ PROYECTO FAUX ]</a>
-            <a href="https://www.barbaraibanez.com/yelmocines2" target="_blank"
-              class="text max-w-[60ch] text-zinc-400 hover:text-[14.25px] transition-transform delay-600 font-normal text-[14px] max-sm:text-[14px] animate-pulse underline">
-              [ YELMO CINES ]</a>
-            <a href="https://www.instagram.com/newteam_cf" target="_blank"
-              class="text max-w-[60ch] text-zinc-400 hover:text-[14.25px] transition-transform delay-600 font-normal text-[14px] max-sm:text-[14px] animate-pulse underline">
-              [ NEW TEAM ]</a>
-
-          </div>
-
-        </div>
-
-        <div class="text grid grid-cols-2">
-          <a href="https://music.apple.com/es/playlist/playlist-n%C2%BA-1/pl.u-8aAVZyluv8K48qD" target="_blank"
-            class="text max-w-[60ch] hover:text-[15.25px] transition-transform delay-600 font-normal text-[16px] max-sm:text-[15px] animate-pulse underline">
-            [ MI PLAYLIST ]</a>
-        </div>
 
       </div>
 
-    </div>
+      <div id="contacto"
+          class="bg-lime-400 py-4 px-6 text-lime-800 font-['Neue'] max-sm:text-lime-800 text-center justify-center max-sm:text-[30px] max-sm:leading-4 flex gap-2 max-[1920px]:text-[45px] items-center max-sm:items-left text-[50px] max-lg:justify-center">
+          ¡Contactame!</div>
 
-    <div data-aos="fade-up" data-aos-duration="2000"
-      class="trabajos max-[1920px]:px-24 max-[1920px]:gap-36 grid grid-cols-3 pt-32 px-40 pb-40 text-black flex-nowrap gap-60 justify-center max-lg:pt-20 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20">
-      <div class="sticky_menu">
-        <div
-          class="titular flex flex-col leading-[20px] text-[72px] max-[1500px]:text-[60px] font-normal sticky top-[10rem] max-lg:text-[60px] font-['PPE-Ultralight']">
-          SOBRE MI
 
-          <div class="pt-44 max-[1920px]:pt-32 max-sm:pt-24">
-            <img class="img shadow-xl" src="/img/gifyo.gif" alt="" />
-            <div class="text pt-4 flex justify-end font-bold font-['SFUIDisplay-Light'] text-[12px] text-zinc-900">
-              YO_PRIMERO_FINAL_PRUEBA_CAMBIOS.jpg</div>
+      <div id="contacto"
+          class="informacion max-sm:pt-12 pt-[100px] pb-24 bg-[#f7faf7] max-sm:bg-[#fafafa] max-sm:pb-0">
+
+          <div class="about max-sm:bg-[#fafafa] bg-[#f7faf7]">
+              <div class="correo grid grid-cols-2 max-sm:grid-cols-1 text-black">
+                  <div
+                      class="caja2 max-sm:animate-none z-0 text-left max-sm:text-[30px] max-sm:py-2 max-sm:px-6 max-sm:leading-[50px] animate-pulse px-20 font-['Neue'] max-[1920px]:text-[150px] max-[1920px]:leading-[8.5rem] text-[170px] pt-12 pb-12 leading-[10rem] cursor-pointer text-black transition-colors duration-300 hover:text-black">
+                      Correo
+                  </div>
+                  <div
+                      class="caja1 text-left self-center max-sm:self-start max-sm:px-6 px-20 leading-[10rem] font-['Neue'] cursor-pointer text-black">
+                      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado."
+                          target="_blank"
+                          class="email font-['Neue'] max-sm:text-zinc-600 max-sm:text-[16px] max-sm:leading-4 flex gap-2 max-[1920px]:text-[45px] items-center max-sm:items-left text-[50px] max-sm:justify-start max-lg:justify-center max-sm:pr-0">
+                          ruben.maldonado.graphic@gmail.com
+                          <img class="vector w-[40px] max-sm:w-[16px] max-sm:opacity-60"
+                              src="/img/Vector-11black.svg" />
+                      </a>
+                  </div>
+              </div>
           </div>
-
-        </div>
-
+          <div class="about bg-[#f7faf7] max-sm:bg-[#fafafa] pt-2">
 
 
-      </div>
-      <div class="text pt-48 max-[1920px]:pt-36 max-w-[60ch] flex flex-col gap-6 justify-between font-normal font-['SFUIDisplay-Regular'] text-[16px] max-sm:text-[15px] text-zinc-900">
-        <div
-          class="text max-w-[60ch] font-normal font-['SFUIDisplay-Regular'] text-[16px] max-sm:text-[15px] text-zinc-900">
-          DISEÑADOR / ILUSTRADOR / FOTOGRAFO
-          <br>
-          <br>
-          <a class="text max-w-[60ch] font-normal leading-[24px] text-[16px] flex flex-col gap-32 max-sm:text-[15px] text-zinc-500">
-            Soy un estudiante de 23 años, actualmente terminando un grado
-            Universitario de Diseño Gráfico en la Escuela Superior De Diseño de
-            Madrid. Cuento con un Grado Superior de Ilustración realizado en la Escuela de Artes de Toledo
-            <br> <br>
-            Soy muy polifacetico, "currante" y "todoterreno" no me cierro a ninguna vía del diseño, suelo
-            abarcar todos los ambitos, como ya he mostrado anteriormente. Soy
-            resolutivo y me gusta trabajar bajo presión.
-            <br>
-            <br>
-            Soy un gran aficionado de las películas (sobretodo de las que te dejan pensando durante un rato), del futbol y el
-            deporte en general. No podría vivir sin "Trueno" el diminuto
-            blanco que podeis ver en la foto. Adoro la música electrónica y el pop inglés (2000s - 2010s).
-          </a>
-          <div class="email pt-32 text-zinc-400 animate-pulse max-sm:hidden flex gap-2 items-left text-[10px] justify-left text-sm max-lg:text-xs">
-            Rubén Maldonado 2024 | Copyright ©</div>
-        </div>
-        <div class=" text-red-400 underline self-end">[ MI MARCA ]</div>
-      </div>
-      <div class="servicios_ofrecidos flex flex-col gap-6 pt-48 max-[1920px]:pt-36 justify-between">
+              <!-- Redes Sociales -->
+              <div
+                  class="redes grid grid-cols-2 items-center max-sm:grid-cols-1 text-black group hover:group-[.hover]:cursor-default">
+                  <!-- Caja 2 -->
+                  <div
+                      class="caja2 max-sm:animate-none z-0 text-left max-sm:text-[30px] max-sm:py-2 max-sm:pt-12 max-sm:px-6 max-sm:leading-[50px] animate-pulse px-20 font-['Neue'] max-[1920px]:text-[150px] max-[1920px]:leading-[8.5rem] text-[170px] pt-12 pb-12 leading-[10rem] cursor-pointer text-black transition-colors duration-300 hover:text-black">
+                      Redes sociales
+                  </div>
+                  <!-- Redes ocultas por defecto y visibles al hacer hover -->
+                  <div
+                      class="caja1 text-left self-center max-sm:px-6 px-20 text-[20px] grid grid-cols-2 font-['Neue']  hidden max-sm:grid max-sm:grid-cols-2 group-hover:grid">
+                      <a class="red flex max-sm:gap-2 gap-4 max-sm:leading-8 max-sm:text-zinc-600 items-center max-sm:text-[16px] max-sm:leading-6 max-[1920px]:text-[45px] text-[50px] leading-[60px] max-lg:text-[14px]"
+                          href="https://www.instagram.com/maldonadoruben_/" target="_blank">
+                          <img class="vector w-[40px] max-sm:w-[14px] max-sm:opacity-60" src="/img/Instagram.png" />
+                          Instagram
+                          <img class="vector w-[40px] max-sm:w-[18px] max-sm:opacity-60"
+                              src="/img/Vector-11black.svg" />
+                      </a>
+                      <a class="red flex max-sm:gap-2 gap-4 max-sm:leading-8 max-sm:text-zinc-600 items-center max-sm:text-[16px] max-sm:leading-6 max-[1920px]:text-[45px] text-[50px] leading-[60px] max-lg:text-[14px]"
+                          href="https://www.behance.net/maldonadoruben" target="_blank">
+                          <img class="vector w-[40px] max-sm:w-[14px] max-sm:opacity-60" src="/img/Behance.png" />
+                          Behance
+                          <img class="vector w-[40px] max-sm:w-[16px] max-sm:opacity-60"
+                              src="/img/Vector-11black.svg" />
+                      </a>
+                      <a class="red flex max-sm:gap-2 gap-4 max-sm:leading-8 max-sm:text-zinc-600 items-center max-sm:text-[16px] max-sm:leading-6 max-[1920px]:text-[45px] text-[50px] leading-[60px] max-lg:text-[14px]"
+                          href="https://www.instagram.com/ruben.iso" target="_blank">
+                          <img class="vector w-[40px] max-sm:w-[14px] max-sm:opacity-60" src="/img/Instagram.png" />
+                          Instagram
+                          <img class="vector w-[40px] max-sm:w-[16px] max-sm:opacity-60"
+                              src="/img/Vector-11black.svg" />
+                      </a>
+                      <a class="red flex max-sm:gap-2 gap-4 max-sm:leading-8 max-sm:text-zinc-600 items-center max-sm:text-[16px] max-sm:leading-6 max-[1920px]:text-[45px] text-[50px] leading-[60px] max-lg:text-[14px]"
+                          href="https://www.linkedin.com/in/rubenmaldonado00" target="_blank">
+                          <img class="vector w-[40px] max-sm:w-[14px] max-sm:opacity-60" src="/img/LinkedIn.png" />
+                          LinkedIn
+                          <img class="vector w-[40px] max-sm:w-[16px] max-sm:opacity-60"
+                              src="/img/Vector-11black.svg" />
+                      </a>
+                      <a class="red flex max-sm:gap-2 gap-4 max-sm:leading-8 max-sm:text-zinc-600 items-center max-sm:text-[16px] max-sm:leading-6 max-[1920px]:text-[45px] text-[50px] leading-[60px] max-lg:text-[14px]"
+                          href="https://www.redbubble.com/es/people/ruben-maldonado/shop" target="_blank">
+                          <img class="vector w-[40px] max-sm:w-[14px] max-sm:opacity-60" src="/img/redbubble.svg" />
+                          Redbubble
+                          <img class="vector w-[40px] max-sm:w-[16px] max-sm:opacity-60"
+                              src="/img/Vector-11black.svg" />
+                      </a>
+                      <a class="red flex max-sm:gap-2 gap-4 max-sm:leading-8 max-sm:text-zinc-600 items-center max-sm:text-[16px] max-sm:leading-6 max-[1920px]:text-[45px] text-[50px] leading-[60px] max-lg:text-[14px]"
+                          href="https://es.pinterest.com/maldonadoruben_" target="_blank">
+                          <img class="vector w-[40px] max-sm:w-[14px] max-sm:opacity-60" src="/img/pinterest.svg" />
+                          Pinterest
+                          <img class="vector w-[40px] max-sm:w-[16px] max-sm:opacity-60"
+                              src="/img/Vector-11black.svg" />
+                      </a>
+                  </div>
+              </div>
 
-        <div
-          class="text max-w-[60ch] font-['SFUIDisplay-Regular'] font-normal text-[16px] leading-5 max-sm:text-[15px] text-zinc-900">
-          SELECCIÓN PERSONAL DE
-          <br>
-          MIS MEJORES PROYECTOS
-          <br>
-          <br>
-
-          <div class="links text-zinc-400 font-['SFUIDisplay-Light'] text-[12px]">
-            <a href="https://rubenmaldonado.es/CajaOporto"
-              class="text max-w-[60ch] hover:text-[14.25px] transition-transform delay-600 font-normal text-[14px] max-sm:text-[14px] animate-pulse text-zinc-400 underline">
-              [ CAJA OPORTO ]</a> >
-            <br>
-            <a href="https://rubenmaldonado.es/Matutano"
-              class="text max-w-[60ch] hover:text-[14.25px] transition-transform delay-600 font-normal text-[14px] max-sm:text-[14px] animate-pulse text-zinc-400 underline">
-              [ MATUTANO SALUDABLE ]</a> >
-            <br>
-            <a href="https://rubenmaldonado.es/Movistar"
-              class="text max-w-[60ch] hover:text-[14.25px] transition-transform delay-600 font-normal text-[14px] max-sm:text-[14px] animate-pulse text-zinc-400 underline">
-              [ MOVISTAR + ]</a> >
-            <br>
-            <a href="https://rubenmaldonado.es/Member"
-              class="text max-w-[60ch] hover:text-[14.25px] transition-transform delay-600 font-normal text-[14px] max-sm:text-[14px] animate-pulse text-zinc-400 underline">
-              [ ASISTENTE MEMBER ]</a> >
+              <!-- Información -->
+              <div class="informacion grid grid-cols-2 max-sm:pb-12 max-sm:grid-cols-1 text-black group">
+                  <!-- Caja 3 -->
+                  <div
+                      class="caja2 max-sm:animate-none z-0 text-left max-sm:text-[30px] max-sm:py-2 max-sm:pt-12 max-sm:px-6 max-sm:leading-[50px] animate-pulse px-20 font-['Neue'] max-[1920px]:text-[150px] max-[1920px]:leading-[8.5rem] text-[170px] pt-12 pb-12 leading-[10rem] cursor-pointer text-black transition-colors duration-300 hover:text-black">
+                      Información
+                  </div>
+                  <!-- Información oculta por defecto y visible al hacer hover -->
+                  <div
+                      class="caja1 text-left self-center max-sm:px-6 px-20 text-[20px] leading-[10rem] font-['Neue'] max-sm:block hidden group-hover:block">
+                      <a href="mailto:ruben.maldonado.graphic@gmail.com" target="_blank"
+                          class="email text-[50px] max-sm:text-zinc-600 leading-[60px] max-[1920px]:text-[45px] max-sm:text-[16px] max-sm:leading-6 flex gap-2 items-center max-lg:text-[14px] max-sm:justify-start max-lg:justify-center max-sm:pr-0">
+                          Rubén Maldonado González<br> All rights reserved | Copyright ©<br>Actualizado
+                          2025
+                      </a>
+                  </div>
+              </div>
           </div>
-
-        </div>
-
-
-        <div class="text grid grid-cols-2 max-[1920px]:grid-cols-1 font-['SFUIDisplay-Regular']">
-          COLABORACIONES / PROYECTOS
-
-          <div class="text grid grid-cols-2 max-[1920px]:grid-cols-1 max-[1920px]:pt-6">
-            <a href="https://faux-noticiario.netlify.app" target="_blank"
-              class="text max-w-[60ch] text-zinc-400 hover:text-[14.25px] transition-transform delay-600 font-normal text-[14px] max-sm:text-[14px] animate-pulse underline">
-              [ PROYECTO FAUX ]</a>
-            <a href="https://www.barbaraibanez.com/yelmocines2" target="_blank"
-              class="text max-w-[60ch] text-zinc-400 hover:text-[14.25px] transition-transform delay-600 font-normal text-[14px] max-sm:text-[14px] animate-pulse underline">
-              [ YELMO CINES ]</a>
-            <a href="https://www.instagram.com/newteam_cf" target="_blank"
-              class="text max-w-[60ch] text-zinc-400 hover:text-[14.25px] transition-transform delay-600 font-normal text-[14px] max-sm:text-[14px] animate-pulse underline">
-              [ NEW TEAM ]</a>
-
-          </div>
-
-        </div>
-
-        <div class="text grid grid-cols-2">
-          <a href="https://music.apple.com/es/playlist/playlist-n%C2%BA-1/pl.u-8aAVZyluv8K48qD" target="_blank"
-            class="text max-w-[60ch] hover:text-[15.25px] transition-transform delay-600 font-normal text-[16px] max-sm:text-[15px] animate-pulse underline">
-            [ MI PLAYLIST ]</a>
-        </div>
-
       </div>
-    </div>
-
-
-
-
-    <div
-      class="trabajos flex pt-32 max-sm:pt-2 pl-40 pr-40 pb-20 border-t-0 border-r-0 border-l-0 text-black flex-nowrap gap-60 justify-center max-lg:pt-20 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20">
-      <div class="sticky_menu">
-        <div data-aos="fade-up" data-aos-duration="2000"
-          class="titular flex flex-col text-[72px] font-normal sticky top-[9rem] max-lg:text-[60px] font-['PPE-Ultralight']">
-          TRABAJOS
-        </div>
-      </div>
-      <div data-aos="fade-up" data-aos-duration="2000" class="servicios_ofrecidos flex flex-col gap-6 pt-2">
-        <div class="servicio flex flex-col gap-6 font-['Neue']">
-          <div class="text max-w-[60ch] font-normal text-[16px] max-sm:text-[15px]">
-            → Ganador de concurso de carteles para
-            <a href="https://rubenmaldonado.es/Ilustraciones#carteles"
-              class="bold font-['Neue'] text-red-400 underline">Villaluenga de la Sagra</a>
-            <br />
-            → Creación de cartelería para página web y físico y creación de
-            pictogramas para empresa
-            <a class="bold font-['Neue'] text-black">Neumáticos por Poco.</a>
-            <a class="bold text-xs text-black">- (6 meses)</a> <br />
-            → Renovación y creación de marca para la empresa
-            <a class="bold font-['Neue'] text-black">Motor 76.</a>
-            <a class="bold text-xs text-black">- (1 mes)</a> <br />
-            → Creación de ilustraciones para portadas de noticias en
-            <a class="bold font-['Neue'] text-black">Ecos Castilla La Mancha.</a>
-            <a class="bold text-xs text-black"><br>(2 meses)</a> <br />
-            → Diseño de portadas para proyecto musical. <br />
-            → Encargos Freelance de sesiones fotográficas, diseño de tatuajes e
-            ilustraciones personales.
-            <a class="bold text-xs text-black">- (4 años)</a> <br />
-            → Diseñador Freelance por horas para empresas.
-            <a class="bold text-xs text-black">- (2 meses)</a> <br />
-            → Trabajo en practicas de empresa extracurriculares
-            <a class="bold animate-pulse font-['Neue'] text-black" href="https://www.garridogallery.com/">Garrido
-              Gallery</a>
-            (Empresa de diseños y piezas de arte de lujo)<a class="bold text-xs text-black">- (9 meses)</a>
-            <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="text-red-400 underline"
-              href="https://rubenmaldonado.es/GarridoGallery#catalogo"> →
-              Maquetación e impresión del Catalogo 2024</a>
-            <br>
-            → Actualmente trabajando de practicas en <a href="https://www.prodigiosovolcan.com/"
-              class="bold font-['Neue'] text-red-400 underline">Prodigioso Volcán</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div
-      class="trabajos flex pt-32 pl-40 pr-40 pb-40 text-black flex-nowrap gap-60 justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20">
-      <div class="sticky_menu">
-        <div data-aos="fade-up" data-aos-duration="2000"
-          class="titular flex flex-col text-[72px] font-normal sticky top-[9rem] max-lg:text-[60px] font-['PPE-Ultralight']">
-          ESTUDIOS
-        </div>
-      </div>
-      <div data-aos="fade-up" data-aos-duration="2000" class="servicios_ofrecidos flex flex-col gap-6 pt-2">
-        <div class="servicio flex flex-col gap-6">
-          <div class="text max-w-[60ch] font-normal text-[16px] max-sm:text-[15px] text-zinc-600 font-['Neue']">
-            <a class="bold text-black font-['Neue']">
-              → Bachillerato Artístico
-            </a>
-            en IES El Greco Toledo. <br />
-            <a class="bold text-black font-['Neue']">
-              → Grado Superior de Ilustración
-              en la Escuela de Artes de Toledo.</a> <br /><a class="bold text-black font-['Neue']">
-              → 4º de Grado Universitario de Diseño Gráfico
-            </a>
-            en la Escuela Superior de Diseño de Madrid. <br /><a class="bold text-black font-['Neue']">
-              → Curso extracurricular de 2 años de Arte y Pintura
-            </a>
-            en Villaluenga de la Sagra. <br /><a class="bold text-black font-['Neue']">
-              → Cursos de Domestika:</a>
-            "Ilustración Digital con Procreate", "Ilustración Digital aplicada a
-            productos", "Introducción al lettering con Procreate".
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div
-      class="max-sm:hidden pt-24 grid-flow-cols border-0 border-b-0 border-none grid-cols-4 max-[1920px]:grid-cols-3 text-center max-[1450px]:grid-cols-2 animate-pulse max-[1930px]:grid-cols-3 max-sm:grid-cols-1">
-
-      <div class=" bg-red-700 text-white justify-center content-center font-['Neue'] text-[10px]">NUEVO
-        CONTENIDO -
-        NUEVO CONTENIDO -
-        NUEVO CONTENIDO - NUEVO CONTENIDO - NUEVO CONTENIDO - NUEVO CONTENIDO - NUEVO CONTENIDO - NUEVO CONTENIDO
-        -
-        NUEVO CONTENIDO - NUEVO CONTENIDO - NUEVO CONTENIDO - NUEVO CONTENIDO - NUEVO CONTENIDO
-      </div>
-    </div>
-
-    <div
-      class="hidden max-sm:grid grid-flow-cols border-0 border-b-0 border-none grid-cols-4 max-[1920px]:grid-cols-3 text-center max-[1450px]:grid-cols-2 animate-pulse max-[1930px]:grid-cols-3 max-sm:grid-cols-1">
-
-      <div class=" bg-red-700 text-white justify-center content-center font-['Neue'] text-[10px]">NUEVO CONTENIDO -
-        NUEVO
-        CONTENIDO -
-        NUEVO CONTENIDO
-      </div>
-    </div>
-    <div id="tienda" class="pb-14"></div>
-
-    <div
-      class="trabajos flex pt-32 pl-40 pr-40 pb-12 bg-white text-black flex-nowrap gap-[340px] justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-6 max-sm:pb-12 max-sm:pt-24 border-black">
-      <div class="sticky_menu">
-        <div
-          class="titular flex flex-col text-[72px] font-normal sticky top-[9rem] max-lg:text-[60px] font-['PPE-Ultralight']">
-          TIENDA
-        </div>
-      </div>
-
-      <div class="servicios_ofrecidos flex flex-col gap-6">
-        <div class="servicio flex flex-col gap-6">
-          <div class="text max-w-[60ch] font-normal text-[16px] max-sm:text-[15px] text-black font-['Neue']">
-            Elementos para comprar a raiz de mis trabajos, creando versiones 2/2 para darle un valor añadido a mis
-            proyectos y
-            pueda ser coleccionado y sea más físico y accesible a los demás. (No esta oficializada una tienda como tal,
-            para comprar los podructos
-            es necesario contactar vía <a
-              href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado."
-              target="_blank" class="text-red-400 underline animate-pulse font-['Neue-Italic']">EMAIL</a> o
-            contactandome
-            personalmente)
-
-
-          </div>
-        </div>
-      </div>
-
-    </div>
-    <div
-      class="grid grid-cols-2 pt-32 px-72 bg-white max-[1500px]:gap-46 max-[1500px]:px-32 max-sm:px-6 max-sm:grid-cols-1 max-sm:pt-12 max-sm:gap-8">
-      <div
-        class="titular text-center max-sm:text-left text-black flex flex-col text-[62px] uppercase font-normal sticky top-[9rem] max-lg:text-[50px] max-sm:px-6 font-['PPE-Ultralight']">
-        Pack Oporto<a
-          class="font-['PPE-UltralightItalic'] text-[30px] leading-3 max-sm:leading-4 max-sm:text-[30px] normal-case">Tirada
-          2/2</a>
-      </div>
-      <div
-        class="titular max-sm:hidden text-center max-sm:text-left text-black flex flex-col text-[62px] uppercase font-normal sticky top-[9rem] max-lg:text-[45px] max-sm:px-0 font-['PPE-Ultralight']">
-        Pack Pegatinas<a
-          class="font-['PPE-UltralightItalic'] text-[30px] leading-3 max-sm:leading-4 max-sm:text-[30px] normal-case">Selección
-          Individual
-        </a>
-
-      </div>
-    </div>
-    <div
-      class="grid grid-cols-2 px-72 bg-white max-[1500px]:gap-46 max-[1500px]:px-32 max-sm:px-2 max-sm:text-center max-sm:grid-cols-1 max-sm:pt-4 max-sm:pb-12">
-      <div
-        class="titular text-black max-sm:px-8 flex text-[14px] justify-center max-sm:justify-left text-center max-sm:text-left pt-4 max-sm:pt-0 max-sm:justify-left">
-        « Haz click para preguntar por presupuesto»
-      </div>
-      <div
-        class="titular text-black max-sm:px-8 flex justify-center max-sm:justify-left text-[14px] pt-4 max-sm:pt-0 max-sm:justify-left max-sm:text-left max-sm:hidden">
-        « Haz click para preguntar por presupuesto»
-      </div>
-    </div>
-
-    <div class="grid grid-cols-2 gap-32 px-12 pb-24 bg-white max-[1500px]:gap-4 max-sm:grid-cols-1 max-sm:px-6">
-      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=COMPRA|PRESUPUESTO&body=Hola Ruben Maldonado.Preguntaba por el trabajo de Oporto..."
-        class="cosas grid pb-32 max-sm:pb-0 justify-end place-items-center items-center content-center">
-        <img class="hover:w-[920px] duration-500 border border-t-3 border-b-0 border-white w-[900px]"
-          src="/img/tienda.png" alt="" />
-      </a>
-
-      <div
-        class="hidden max-sm:grid max-sm:grid-cols-1 pt-32 px-72 bg-white max-[1500px]:gap-46 max-[1500px]:px-32 max-sm:px-6 max-sm:pt-12 max-sm:gap-8">
-
-        <div
-          class="titular text-center max-sm:text-left text-black flex flex-col text-[62px] uppercase font-normal sticky top-[9rem] max-lg:text-[45px] max-sm:px-0 font-['PPE-Ultralight']">
-          Pack Pegatinas<a
-            class="font-['PPE-UltralightItalic'] text-[30px] leading-3 max-sm:leading-4 max-sm:text-[30px] normal-case">Selección
-            Individual
-          </a>
-          <div
-            class="titular text-black max-sm:pt-4 flex text-[14px] justify-left text-left normal-case font-['SFUIDisplay-Light'] max-sm:pb-20">
-            « Haz click para preguntar por presupuesto»
-          </div>
-
-        </div>
-      </div>
-
-      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=COMPRA|PRESUPUESTO&body=Hola Ruben Maldonado.Preguntaba por las pegatinas..."
-        class="cosas grid pb-32 max-sm:pb-12 justify-start place-items-center items-center content-center">
-        <img
-          class="hover:w-[720px] duration-500 border border-t-3 border-b-0 border-white w-[700px] max-[1500px]:w-[540px] max-sm:px-6"
-          src="/img/tienda2.png" alt="" />
-      </a>
-    </div>
-    <div
-      class="max-sm:hidden grid-flow-cols border-0 border-b-0 border-none grid-cols-4 max-[1920px]:grid-cols-3 text-center max-[1450px]:grid-cols-2 animate-pulse max-[1930px]:grid-cols-3 max-sm:grid-cols-1">
-
-      <div class=" bg-red-700 text-white justify-center content-center font-['Neue'] text-[10px]">NUEVO
-        CONTENIDO -
-        NUEVO CONTENIDO -
-        NUEVO CONTENIDO - NUEVO CONTENIDO - NUEVO CONTENIDO - NUEVO CONTENIDO - NUEVO CONTENIDO - NUEVO CONTENIDO
-        -
-        NUEVO CONTENIDO - NUEVO CONTENIDO - NUEVO CONTENIDO - NUEVO CONTENIDO - NUEVO CONTENIDO
-      </div>
-    </div>
-
-    <div
-      class="hidden max-sm:grid grid-flow-cols border-0 border-b-0 border-none grid-cols-4 max-[1920px]:grid-cols-3 text-center max-[1450px]:grid-cols-2 animate-pulse max-[1930px]:grid-cols-3 max-sm:grid-cols-1">
-
-      <div class=" bg-red-700 text-white justify-center content-center font-['Neue'] text-[10px]">NUEVO CONTENIDO -
-        NUEVO
-        CONTENIDO -
-        NUEVO CONTENIDO
-      </div>
-    </div>
-
-    <div
-      class="trabajos flex pt-32 pl-40 pr-40 pb-24 bg-white text-black flex-nowrap gap-[420px] max-[1500px]:gap-[200px] justify-center max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-6 max-sm:pb-12 max-sm:pt-16 border-black">
-      <div class="sticky_menu">
-        <div
-          class="titular flex flex-col text-[72px] font-normal sticky top-[9rem] max-lg:text-[60px] font-['PPE-Ultralight']">
-          ARTISTAS
-        </div>
-      </div>
-
-      <div class="servicios_ofrecidos flex flex-col gap-6">
-        <div class="servicio flex flex-col gap-6">
-          <div class="text max-w-[60ch] font-normal text-[16px] max-sm:text-[15px] text-black font-['Neue']">
-            Diferentes trabajos y disciplinas de referencia de gente interesante.
-            En las categorías como ilustración realista o experimental, ilustración digital o analógica,
-            comentario de cuadros artísticos, diseño 3D, cartelería, fanzines, tatuaje, serigrafía, marca y moda.
-            <b>Compañeros artístas que inspiran.</b>
-
-
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-    <div
-      class="flex gap-60 max-[1500px]:gap-[2rem] max-[1500px]:px-32 max-[1500px]:gap-20 text-sm bg-white border-t-0 min-[1920px]:px-94 px-56 pb-72 items-center justify-center content-center self-center max-sm:grid max-sm:gap-12 max-sm:pb-24 max-sm:border-t-0 max-sm:grid-cols-1 max-sm:px-10 max-sm:border-none max-sm:border-0 max-sm:pt-24">
-      <div class="servicios_ofrecidos items-left flex max-sm:hidden flex-col gap-6 max-sm:order-last">
-
-        <div class="flex flex-col gap-1 text-left justify-left">
-          <div class="grid grid-flow-cols grid-cols-1 gap-1 justify-beetwen text-left">
-            <a href="https://www.instagram.com/olme.ttoo"
-              class="text-black pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
-              @olme.ttoo - <b>Alejandro Olmedo</b></a>
-            <a href="https://www.instagram.com/felixhdraw"
-              class="text-black pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
-              @felixhdraw - <b>Felix Hortolano</b></a>
-            <a href="https://www.instagram.com/intensazc"
-              class="text-black pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
-              @intensazc - <b>Barbara Ibañez</b></a>
-          </div>
-
-          <div class="grid grid-flow-cols grid-cols-1 gap-1 justify-beetwen text-left">
-            <a href="https://www.instagram.com/cat.arsys"
-              class="text-black pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
-              @cat.arsys - <b> Catalin Liviu </b></a>
-            <a href="https://www.instagram.com/iam_sharkastic"
-              class="text-black pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
-              @iam_sharkastic - <b>Sergio Martín</b></a>
-            <a href="https://historia-arte.com/autores/alvaro-garcia-moreno?fbclid=PAZXh0bgNhZW0CMTEAAaZXhzJaO518coe4d0wbABrUM9cD97VABeVEthtpD8VFEtl-2QtME1bEkbE_aem_LSvS6AW-QbcQvWoqpau77g"
-              class="text-black pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
-              @agarciamorenoo - <b>Alvaro García</b></a>
-          </div>
-
-
-          <div class="grid grid-flow-cols grid-cols-1 gap-1 justify-beetwen text-left">
-            <a href="https://www.instagram.com/crearual"
-              class="text-black pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
-              @crearual - <b>Laura Morales</b></a>
-            <a href="https://www.instagram.com/sof_dob_"
-              class="text-black pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
-              @sof_dob_ - <b>Sofia Dobeson</b></a>
-            <a href="https://www.instagram.com/cosso.portfolio"
-              class="text-black pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
-              @cosso.portfolio - <b>Marco García</b></a>
-          </div>
-
-          <div class="grid grid-flow-cols grid-cols-1 gap-1 justify-beetwen text-left">
-            <a href="https://www.instagram.com/_anagraphic"
-              class="text-black pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
-              @_anagraphic - <b>Ana Lazaro</b></a>
-            <a href="https://www.instagram.com/conejitasmith7"
-              class="text-black pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
-              @conejitasmith7 - <b>Cruz Díaz</b></a>
-            <a href="https://www.instagram.com/ghonz.art"
-              class="text-black pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
-              @ghonz.art - <b>Hugo Gregorio</b></a>
-          </div>
-
-          <div class="grid grid-flow-cols grid-cols-1 gap-1 justify-beetwen text-left">
-            <a href="https://www.instagram.com/kombo_oficial"
-              class="text-black pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
-              @kombo_oficial - <b>Rakel Mongue</b></a>
-            <a href="https://www.instagram.com/bupeart"
-              class="text-black pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
-              @bupeart - <b>Pau Bueno</b></a>
-            <a href="https://www.instagram.com/carolina.jing"
-              class="text-black pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
-              @carolina.jing - <b>Carolina Jing</b></a>
-          </div>
-
-          <div class="grid grid-flow-cols grid-cols-1 gap-1 justify-beetwen text-left">
-            <a href="https://www.instagram.com/moniecos"
-              class="text-black pr-72 pb-2 text-left border-b-1 border border-l-0 border-r-0 border-t-0 max-sm:px-20">
-              @moniecos - <b>Paula Rubros</b></a>
-          </div>
-        </div>
-      </div>
-      <div class="cosas justify-center items-center content-center flex max-w-[600px]">
-        <img class="img border border-t-3 border-b-0 border-zinc-400 min-[1920px]:w-[720px] w-full"
-          src="/img/gifcompis.gif" alt="" />
-      </div>
-
-
-      <div class="servicios_ofrecidos items-center hidden max-sm:flex flex-col gap-6 max-sm:order-last">
-        <div class="flex flex-col gap-1 text-right justify-left">
-          <div
-            class="grid grid-flow-cols grid-cols-1 gap-1 justify-beetwen text-center max-sm:grid-cols-3 max-sm:text-[12px]">
-            <a href="https://www.instagram.com/olme.ttoo" class="text-white py-1 text-left">
-              @olme.ttoo</a>
-            <a href="https://www.instagram.com/felixhdraw" class="text-white py-1 text-left">
-              @felixhdraw</a>
-            <a href="https://www.instagram.com/kombo_oficial" class="text-white py-1 text-left">
-              @kombo_oficial</a>
-          </div>
-
-          <div
-            class="grid grid-flow-cols grid-cols-1 gap-1 justify-beetwen text-center max-sm:grid-cols-3 max-sm:text-[12px]">
-            <a href="https://www.instagram.com/cat.arsys" class="text-white py-1 text-left">
-              @cat.arsys</a>
-            <a href="https://www.instagram.com/carolina.jing" class="text-white py-1 text-left">
-              @carolina.jing</a>
-            <a href="https://historia-arte.com/autores/alvaro-garcia-moreno?fbclid=PAZXh0bgNhZW0CMTEAAaZXhzJaO518coe4d0wbABrUM9cD97VABeVEthtpD8VFEtl-2QtME1bEkbE_aem_LSvS6AW-QbcQvWoqpau77g"
-              class="text-white py-1 text-left">
-              @agarciamorenoo</a>
-          </div>
-
-
-          <div
-            class="grid grid-flow-cols grid-cols-1 gap-1 justify-beetwen text-center max-sm:grid-cols-3 max-sm:text-[12px]">
-            <a href="https://www.instagram.com/crearual" class="text-white py-1 text-left">
-              @crearual</a>
-            <a href="https://www.instagram.com/sof_dob_" class="text-white py-1 text-left">
-              @sof_dob_</a>
-            <a href="https://www.instagram.com/cosso.portfolio" class="text-white py-1 text-left">
-              @cosso.portfolio</a>
-          </div>
-
-          <div
-            class="grid grid-flow-cols grid-cols-1 gap-1 justify-beetwen text-center max-sm:grid-cols-3 max-sm:text-[12px]">
-            <a href="https://www.instagram.com/moniecos" class="text-white py-1 text-left">
-              @moniecos</a>
-            <a href="https://www.instagram.com/ghonz.art" class="text-white py-1 text-left">
-              @ghonz.art</a>
-            <a href="https://www.instagram.com/conejitasmith7" class="text-white py-1 text-left">
-              @conejitasmith7</a>
-
-          </div>
-
-          <div
-            class="grid grid-flow-cols grid-cols-1 gap-1 justify-beetwen text-center max-sm:grid-cols-3 max-sm:text-[12px]">
-            <a href="https://www.instagram.com/intensazc" class="text-white py-1 text-left">
-              @intensazc</a>
-            <a href="https://www.instagram.com/bupeart" class="text-white py-1 text-left">
-              @bupeart</a>
-            <a href="https://www.instagram.com/iam_sharkastic" class="text-white py-1 text-left">
-              @iam_sharkastic</a>
-          </div>
-
-          <div
-            class="grid grid-flow-cols grid-cols-1 gap-1 justify-center text-center max-sm:grid-cols-3 max-sm:text-[12px]">
-            <a href="https://www.instagram.com/_anagraphic" class="text-white py-1 text-left">
-              @_anagraphic</a>
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
 
 
-  <div
-    class="links_rrss bg-white pt-32 px-80 pb-32 text-black justify-center gap-12 flex flex-row max-lg:pt-6 max-lg:px-10 max-lg:flex-col max-lg:justify-items-center max-lg:gap-20 max-lg:flex max-lg:justify-center max-sm:pt-24">
-    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ruben.maldonado.graphic@gmail.com&su=Inserte aqui su titulo&body=Hola Ruben Maldonado."
-      target="_blank"
-      class="email text-lg pr-12 flex gap-2 items-center max-lg:text-[14px] max-lg:justify-center max-sm:pr-0">
-      ruben.maldonado.graphic@gmail.com
-      <img class="vector" src="/img/Vector-11black.svg" />
-    </a>
-    <div class="links flex flex-col pl-12 gap-2 max-lg:justify-center max-sm:pl-0">
-      <div class="links1 flex max-sm:gap-24 gap-32 max-lg:justify-center">
-        <a class="red flex gap-2 items-center max-lg:text-[14px]" href="https://www.instagram.com/maldonadoruben_/">
-          <img class="vector w-[14px]" src="/img/Instagram.png" />
-          | Instagram
-          <img class="vector" src="/img/Vector-11black.svg" />
-        </a>
-        <a class="red flex gap-2 items-center max-lg:text-[14px]" href="https://www.behance.net/maldonadoruben">
-          <img class="vector w-[14px]" src="/img/Behance.png" />
-          | Behance
-          <img class="vector" src="/img/Vector-11black.svg" />
-        </a>
-      </div>
-      <div class="links2 flex max-sm:gap-24 gap-32 flex-end max-lg:justify-center">
-        <a class="red flex gap-2 items-center max-lg:text-[14px]" href="https://www.instagram.com/ruben.iso">
-          <img class="vector w-[14px]" src="/img/Instagram.png" />
-          | Instagram
-          <img class="vector" src="/img/Vector-11black.svg" />
-        </a>
-        <a class="red flex gap-2 items-center max-lg:text-[14px]" href="https://www.linkedin.com/in/rubenmaldonado00">
-          <img class="vector w-[14px]" src="/img/LinkedIn.png" />
-          | LinkedIn
-          <img class="vector" src="/img/Vector-11black.svg" />
-        </a>
-      </div>
-    </div>
-  </div>
 
-  <div
-    class="foter bg-white p-10 border-b-0 border-l-0 border-r-0 grid grid-cols-3 max-sm:grid-cols-2 max-lg:p-6 border border-t-1">
-    <div class="foter_image flex flex-start max-sm:gap-2">
-      <img class="vector max-lg:max-w-[15px]" src="/img/starblack.svg" />
-      <div class="email text-zinc-400 hidden max-sm:flex gap-2 items-center text-[10px] justify-center text-sm max-lg:text-xs">
-        Copyright ©</div>
-    </div>
-    <div class="email text-zinc-400 max-sm:hidden flex gap-2 items-center text-[10px] justify-center text-sm max-lg:text-xs">
-      Rubén Maldonado 2024 | Copyright ©</div>
-    <div class="email flex gap-2 justify-end items-center text-sm max-lg:text-xs">
-      Ruben Maldonado González
-      <img class="vector max-lg:max-w-[15px]" src="/img/futbolblack.svg" />
-    </div>
-  </div>
+
 
 </template>
 
 <script scoped>
-import text from "~/components/text.vue";
+import text from "/components/text.vue";
 
 import PlvPointer from "/components/Cursor.vue";
 
@@ -1673,25 +1174,58 @@ import { MotionPlugin } from "@vueuse/motion";
 
 import 'vue3-carousel/dist/carousel.css'
 import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
+import Cursor2 from "~/components/Cursor2.vue";
+
+import CursorBlack from "~/components/CursorBlack.vue";
+
+
+
+
 
 
 export default {
-  mounted() {
-    this.$nextTick(() => {
-      const newVideo = document.getElementById('videoElementId');
-      newVideo.addEventListener('ended', () => {
-        newVideo.currentTime = 0;
-        newVideo.play();
-      });
-      newVideo.play();
-    });
+  data() {
+      return {
+          hovered: [false, false], // Se puede expandir según el número de trabajos
+          imageUrlMatutano: '/img/fotorealpackaging4.png', // Imagen específica para el primer trabajo
+          imageUrlOporto: '/img/oporto_31.jpg',
+          imageUrlMember: '/img/member40.gif',
+          imageUrlMetro: '/img/Fotolibro_RubénMaldonadoGonzález388.jpg',
+          imageUrlMovistar: '/img/movistardark.gif',
+          imageUrlTypenotes: '/img/comp2.gif',
+          imageUrlPrau: '/img/vinodark.gif',
+          imageUrlAudiovisuales: '/img/videoruben.gif',
+          imageUrlYelmo: '/img/yelmocines5.png',
+          imageUrlWebESD: '/img/webesdmockup.png',
+          imageUrlFotografias: '/img/tenerife1.png',
+          imageUrlGarridoGallery: '/img/fotoprincipal_1.jpg',
+          imageUrlIlustraciones: '/img/animacionilustraciones2.gif',
+          visible: false,
+          isOpen: false, // Controla si la barra está abierta
+          isHeaderFixed: false, // Nuevo estado para verificar si el header es fijo
+
+      };
+
   },
+
+  mounted() {
+      this.$nextTick(() => {
+          window.addEventListener('scroll', this.handleScroll); // Añade evento de scroll
+      });
+  },
+
   name: 'Basic',
   components: {
-    Carousel,
-    Slide,
-    Pagination,
-    Navigation,
+      Carousel,
+      Slide,
+      Pagination,
+      Navigation,
+  },
+
+  methods: {
+      toggleSidebar() {
+          this.isOpen = !this.isOpen;
+      },
   },
 };
 
@@ -1700,29 +1234,30 @@ export default {
 
 <style lang="sass" scoped>
 
+.email
+  &:hover
+    @apply text-zinc-300
 
-  .email
-    &:hover
+.image
+  @apply transition ease-in-out delay-150
+  &:hover
+    @apply opacity-80 duration-75 outline outline-2 outline-white rounded-sm
+.animate-text
+  opacity: 1
+  transition: opacity 2s
+.image_logo
+  @apply opacity-100
+  &:hover
+    @apply opacity-60
+
+.red
+  &:hover
       @apply text-zinc-300
-  
-  .image
-    @apply transition ease-in-out delay-150
-    &:hover
-      @apply opacity-80 duration-75 outline outline-2 outline-white rounded-sm
-  .animate-text
-    opacity: 1
-    transition: opacity 2s
-  .image_logo
-    @apply opacity-100
-    &:hover
-      @apply opacity-60
-  
-  .red
-    &:hover
-        @apply text-zinc-300
-  
-  .app.animate-enter
-    opacity: 1
 
+.app.animate-enter
+  opacity: 1
+
+.fixed-header 
+  @apply fixed top-0 w-full z-50
 
 </style>
